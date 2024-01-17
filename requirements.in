@@ -1,0 +1,7 @@
+requests
+flask
+gunicorn
+jinja2
+babel
+PyGithub
+Flask-Babel

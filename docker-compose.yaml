@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    build: .
+    command:
+     - gunicorn
+     - -w 4
+     - src.web.server:app
+     - -b 0.0.0.0:8001
+    volumes:
+      - .:/web
+      - /var/log/webserver:/logs
+    ports:
+      - 8001:8001

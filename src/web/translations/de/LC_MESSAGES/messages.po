@@ -1,0 +1,178 @@
+# German translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-01-21 03:46+0000\n"
+"PO-Revision-Date: 2024-01-21 00:12+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/home.html:15
+msgid "We switched to rolling releases"
+msgstr "Rollende Versionen"
+
+#: templates/home.html:17
+#, fuzzy, python-format
+msgid "Please check out <a %(link)s>the announcement of the Release Changes</a>"
+msgstr "Bitte lies <a %(link)s>die Ankündigung der Release Changes</a>"
+
+#: templates/home.html:29
+msgid "Multiplatform"
+msgstr "Multiplatform"
+
+#: templates/home.html:31
+msgid ""
+"Subsurface is an open source divelog program for recreational, tech, and "
+"free-divers that runs on Windows, Mac, and Linux"
+msgstr ""
+"Subsurface ist ein quell-offenes und kostenloses Tauchlogbuch, das auf "
+"Windows, Macs und Linux Computern benutzt werden kann."
+
+#: templates/home.html:39
+msgid "Log all your dives"
+msgstr ""
+
+#: templates/home.html:41
+msgid ""
+"Download your dives from your dive computer. Import them from other dive "
+"log programs or dive log websites. Manually enter them directly in "
+"Subsurface or via a simple spreadsheet."
+msgstr ""
+
+#: templates/home.html:49
+msgid "Dive planner"
+msgstr ""
+
+#: templates/home.html:51
+msgid ""
+"The planner module makes it simple to visually plan dives either based on"
+" Bühlmann ZH-16 or VPM-B"
+msgstr ""
+
+#: templates/home.html:59
+msgid "Subsurface-mobile"
+msgstr ""
+
+#: templates/home.html:61
+msgid ""
+"Using Subsurface-mobile on your Android or iOS device you can access your"
+" dive log anywhere"
+msgstr ""
+
+#: templates/home.html:69
+msgid "Cloud storage"
+msgstr ""
+
+#: templates/home.html:71
+msgid ""
+"Store your logbook data in the cloud. Work with your data from different "
+"devices, online and offline. Fully integrated, free, and easy to set up."
+msgstr ""
+
+#: templates/home.html:88
+msgid ""
+"Subsurface can <strong>plan</strong> and <strong>track</strong> single- "
+"and multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It "
+"allows tracking of dive locations including GPS coordinates (which can "
+"also conveniently be entered using a map interface), logging of equipment"
+" used and names of other divers, and lets users rate dives and provide "
+"additional notes."
+msgstr ""
+"Subsurface ist ein Tauchlogbuch, das es ermöglicht, Tauchgänge zu planen "
+"und Tauch-Daten von unterstützten Tauchcomputern herunterzuladen. "
+"Subsurface erlaubt eine innovative Visualisierung der Daten, die moderne "
+"Tauchcomputer während des Tauchgangs aufzeichnen. Eine Fülle weiterer "
+"Informationen zu den Tauchgängen können vom Benutzer komfortabel "
+"eingetragen und verwaltet werden. So können beispielsweise die "
+"verwendeten Atemgase, Ausrüstungsgegenstände oder Tauchpartner ebenso "
+"vermerkbar, wie Bewertungen und Notizen den jeweiligen Tauchgängen "
+"zugeordnet werden können. Weiterhin können die GPS-Koordinaten von "
+"Tauchplätzen verwaltet und auf einfache Weise mittels "
+"online-Kartenmaterial eingegeben werden."
+
+#: templates/home.html:91
+msgid ""
+"You can tag dives and <strong>filter a dive list</strong> based on "
+"criteria including tags, locations and people with whom you were diving. "
+"You can group the dive list into trips, and edit multiple dives at the "
+"same time, making it easy to support a large number of dives."
+msgstr ""
+
+#: templates/home.html:96
+msgid ""
+"Subsurface also calculates a wide variety of <strong>statistics</strong> "
+"of the user’s diving and tracks information like the SAC rate, partial "
+"pressures of O2, N2 and He, calculated deco information, and many more."
+msgstr ""
+
+#: templates/home.html:99
+msgid ""
+"<strong>Multiple divers</strong> can share one instance of Subsurface "
+"using different preferences and settings."
+msgstr ""
+
+#: templates/home.html:102
+msgid ""
+"The program is localized in about <strong>20 languages</strong> and well "
+"supported by an active developer community."
+msgstr ""
+
+#: templates/home.html:107
+#, python-format
+msgid ""
+"One of the major strengths of Subsurface is its support of a wide range "
+"of <strong>dive computers</strong> (see the <a %(link)s>list of supported"
+" dive computers</a>). Subsurface can also import existing dive logs from "
+"several sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and "
+"divelogs.de."
+msgstr ""
+
+#: templates/home.html:110
+msgid ""
+"Another strength is its ability to <strong>visualize</strong> the depth "
+"profile (and, if available, the tank pressure curve) in innovative ways "
+"that give the user additional information on relative velocity, and "
+"momentary air consumption, during a dive. Users who dive with "
+"<strong>multiple dive computers</strong> can combine the data from each "
+"of their dive computers into one dive – allowing visualization of the "
+"data collected from multiple sources."
+msgstr ""
+
+#: templates/home.html:115
+msgid ""
+"Subsurface lets the user <strong>print</strong> out a detailed log book "
+"including dive profiles and other important information."
+msgstr ""
+
+#: templates/home.html:119
+msgid "A bit of history:"
+msgstr ""
+
+#: templates/home.html:121
+msgid ""
+"In fall of 2011, when a forced lull in kernel development gave him a "
+"chance to start a new project, Linux creator Linus Torvalds decided to "
+"tackle his frustration with the lack of decent divelog software on Linux."
+msgstr ""
+
+#: templates/home.html:124
+msgid ""
+"Linus worked with a team of developers, and Subsurface is the result. It "
+"now supports Linux, Windows and MacOS and allows data import from many "
+"dive computers and several existing divelog programs. It provides a quick"
+" and easy way to see the key information provided by a modern dive "
+"computer and lets users track a wide variety of data about their dives. "
+"In fall of 2012 Dirk Hohndel took over as Subsurface maintainer."
+msgstr ""
+

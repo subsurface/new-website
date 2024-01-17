@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{% set active_page = "home" %}
+
+{% block title %}Subsurface{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+  <div class="row g-5">
+    <div class="col-12">
+      <h1 class="display-3 text-primary">Subsurface</h1>
+      <h2>{{ _("We switched to rolling releases") }}</h2>
+      <p>
+        {{ _("Please check out <a %(link)s>the announcement of the Release Changes</a>", link="href=https://subsurface.github.io/en/release/2023/12/release-changes/") }}.
+      </p>
+    </div>
+    <div class="col-12">
+      <div id="homePageCarousel"
+           class="carousel carousel-dark slide d-flex align-items-center justify-content-center pb-md-5"
+           data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='images/OS-Logos.png') }}" class="d-block img-fluid"
+                 alt=" operating system logos">
+            <div class="carousel-caption d-100 d-block">
+              <h5 class="small">{{ _("Multiplatform") }}</h5>
+              <p class="small">
+                {{ _("Subsurface is an open source divelog program for recreational, tech, and free-divers that runs on Windows, Mac, and Linux") }}
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='images/Subsurface-6-rec-dive.png') }}" class="d-block img-fluid"
+                 alt="screenshot of a recreational dive">
+            <div class="carousel-caption d-100 d-block">
+              <h5 class="small">{{ _("Log all your dives") }}</h5>
+              <p class="small">
+                {{ _("Download your dives from your dive computer. Import them from other dive log programs or dive log websites. Manually enter them directly in Subsurface or via a simple spreadsheet.")}}
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='images/Subsurface-6-dive-planner.png') }}"
+                 class="d-block img-fluid" alt=" screenshot of a dive plan">
+            <div class="carousel-caption d-100 d-block">
+              <h5 class="small">{{ _("Dive planner") }}</h5>
+              <p class="small">
+                {{ _("The planner module makes it simple to visually plan dives either based on Bühlmann ZH-16 or VPM-B") }}
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='images/Mobile-OS-Logos.png') }}" class="d-block img-fluid"
+                 alt=" screenshot of a dive plan">
+            <div class="carousel-caption d-100 d-block">
+              <h5 class="small">{{ _("Subsurface-mobile") }}</h5>
+              <p class="small">
+                {{ _("Using Subsurface-mobile on your Android or iOS device you can access your dive log anywhere") }}
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='images/SSRF-Cloud.png') }}" class="d-block img-fluid"
+                 alt=" screenshot of a dive plan">
+            <div class="carousel-caption d-100 d-block">
+              <h5 class="small">{{ _("Cloud storage") }}</h5>
+              <p class="small">
+                {{ _("Store your logbook data in the cloud. Work with your data from different devices, online and offline. Fully integrated, free, and easy to set up.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#homePageCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homePageCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-md-6 col-12">
+      <p>
+        {{ _("Subsurface can <strong>plan</strong> and <strong>track</strong> single- and multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It allows tracking of dive locations including GPS coordinates (which can also conveniently be entered using a map interface), logging of equipment used and names of other divers, and lets users rate dives and provide additional notes.") }}
+      </p>
+      <p>
+        {{ _("You can tag dives and <strong>filter a dive list</strong> based on criteria including tags, locations and people with whom you were diving. You can group the dive list into trips, and edit multiple dives at the same time, making it easy to support a large number of dives.") }}
+      </p>
+      <img class="img-fluid" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png"
+           alt="Screenshot of rating, tags and other data fields">
+      <p>
+        {{ _("Subsurface also calculates a wide variety of <strong>statistics</strong> of the user’s diving and tracks information like the SAC rate, partial pressures of O2, N2 and He, calculated deco information, and many more.") }}
+      </p>
+      <p>
+        {{ _("<strong>Multiple divers</strong> can share one instance of Subsurface using different preferences and settings.") }}
+      </p>
+      <p>
+        {{ _("The program is localized in about <strong>20 languages</strong> and well supported by an active developer community.") }}
+      </p>
+    </div>
+    <div class="col-md-6 col-12">
+      <p>
+        {{ _("One of the major strengths of Subsurface is its support of a wide range of <strong>dive computers</strong> (see the <a %(link)s>list of supported dive computers</a>). Subsurface can also import existing dive logs from several sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de.", link="href='documentation/supported-dive-computers'") }}
+      </p>
+      <p>
+        {{ _("Another strength is its ability to <strong>visualize</strong> the depth profile (and, if available, the tank pressure curve) in innovative ways that give the user additional information on relative velocity, and momentary air consumption, during a dive. Users who dive with <strong>multiple dive computers</strong> can combine the data from each of their dive computers into one dive – allowing visualization of the data collected from multiple sources.") }}
+      </p>
+      <img class="img-fluid" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Profile.png"
+           alt="Screenshot of dive profile">
+      <p>
+        {{ _("Subsurface lets the user <strong>print</strong> out a detailed log book including dive profiles and other important information.") }}
+      </p>
+    </div>
+    <div class="col-12">
+      <h5>{{ _("A bit of history:") }}</h5>
+      <p>
+        {{ _("In fall of 2011, when a forced lull in kernel development gave him a chance to start a new project, Linux creator Linus Torvalds decided to tackle his frustration with the lack of decent divelog software on Linux.") }}
+      </p>
+      <p>
+        {{ _("Linus worked with a team of developers, and Subsurface is the result. It now supports Linux, Windows and MacOS and allows data import from many dive computers and several existing divelog programs. It provides a quick and easy way to see the key information provided by a modern dive computer and lets users track a wide variety of data about their dives. In fall of 2012 Dirk Hohndel took over as Subsurface maintainer.") }}
+      </p>
+      <p>License: GPLv2</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
