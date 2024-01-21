@@ -131,6 +131,11 @@ msgid ""
 "the user’s diving and tracks information like the SAC rate, partial "
 "pressures of O2, N2 and He, calculated deco information, and many more."
 msgstr ""
+"Subsurface kann mit verschiedenen Gasgemischen wie Luft, Nitrox und TriMix "
+"auch bei Gaswechseln innerhalb desselben Tauchgangs umgehen und berechnet "
+"auf Basis der aufgezeichneten Daten weitere Werte und "
+"<strong>Statistiken</strong> wie etwa das Atemminutenvolumen, Partialdrücke "
+"der Atemgase, berechnete Deko-Daten und vieles mehr."
 
 #: templates/home.html:99
 msgid ""
