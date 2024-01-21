@@ -142,6 +142,8 @@ msgid ""
 "<strong>Multiple divers</strong> can share one instance of Subsurface using "
 "different preferences and settings."
 msgstr ""
+"<strong>Mehrere Taucher</strong> können gemeinsam eine Installation von "
+"Subsurface benutzen und unabhängig voneinander Voreinstellungen speichern."
 
 #: templates/home.html:102
 msgid ""
