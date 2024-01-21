@@ -150,6 +150,8 @@ msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
+"Subsurface kann in <strong>20 Sprachen</strong> benutzt werden und wird von "
+"einer aktiven Entwicklergemeinde unterstützt."
 
 #: templates/home.html:107
 #, python-format
