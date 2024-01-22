@@ -88,5 +88,10 @@ def crelease():
     return render_template("current-release.html", request=request)
 
 
+@app.get("/user-forum")
+def user_forum():
+    return render_template("user-forum.html", request=request)
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port="8002", debug=True)

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-22 18:19+0000\n"
+"POT-Creation-Date: 2024-01-22 21:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -292,7 +292,7 @@ msgstr ""
 #, python-format
 msgid ""
 "If you are looking for a somewhat less \"bleeding edge\" set of builds, "
-"please consider the <a %(link)s></a>Curren Release Page</a>."
+"please consider the <a %(link)s>Current Release Page</a>."
 msgstr ""
 
 #: templates/latest-release.html:50
@@ -313,5 +313,26 @@ msgid ""
 " of these builds into our public TestFlight account. If you like to be on"
 " the bleading edge, you can <a %(link)s>sign up for the Subsurface-mobile"
 " TestFlight.</a>"
+msgstr ""
+
+#: templates/user-forum.html:16
+#, python-format
+msgid ""
+"Do you have questions, comments, or suggestions for Subsurface? Please "
+"join our <a %(link)s>User Forum</a>."
+msgstr ""
+
+#: templates/user-forum.html:19
+msgid ""
+"You can access it on the Subsurface Google Group website or you can "
+"subscribe to it via email; simply check the corresponding box when "
+"joining the forum."
+msgstr ""
+
+#: templates/user-forum.html:22
+msgid ""
+"The preferred language is English, but we’ll make an effort to answer "
+"questions in other languages as well (not everyone is comfortable posting"
+" in English…)"
 msgstr ""
 

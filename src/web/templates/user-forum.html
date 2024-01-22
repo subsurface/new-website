@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% set active_page = "user-forum" %}
+
+{% block title %}User Forum{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+  <div class="row g-5">
+    <div class="col-12">
+      <h1 class="text-primary">User Forum</h1>
+      <p>
+        {{ _("Do you have questions, comments, or suggestions for Subsurface? Please join our <a %(link)s>User Forum</a>.", link="href=https://groups.google.com/d/forum/subsurface-divelog") }}
+      </p>
+      <p>
+        {{ _("You can access it on the Subsurface Google Group website or you can subscribe to it via email; simply check the corresponding box when joining the forum.") }}
+      </p>
+      <p>
+        {{ _("The preferred language is English, but we’ll make an effort to answer questions in other languages as well (not everyone is comfortable posting in English…)") }}
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
