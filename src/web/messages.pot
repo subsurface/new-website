@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-22 04:52+0000\n"
+"POT-Creation-Date: 2024-01-22 18:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,118 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
+
+#: templates/current-release.html:14
+#, python-format
+msgid "Current \"Weekly\" Release: %(version)s"
+msgstr ""
+
+#: templates/current-release.html:18
+msgid ""
+"The releases on this page are what we consider the current release builds"
+" of Subsurface."
+msgstr ""
+
+#: templates/current-release.html:21
+msgid ""
+"We expect these builds to be reasonably stable and somewhat tested, and "
+"as the name suggests try to update them about once a week (the actual "
+"frequency may vary)."
+msgstr ""
+
+#: templates/current-release.html:24
+#, python-format
+msgid ""
+"If you are looking for more \"bleeding edge\" releases builds, please "
+"check out the <a %(link)s>Latest Release Page</a>."
+msgstr ""
+
+#: templates/current-release.html:33 templates/current-release.html:47
+#: templates/current-release.html:61 templates/current-release.html:104
+#: templates/latest-release.html:30 templates/latest-release.html:44
+#: templates/latest-release.html:58 templates/latest-release.html:101
+msgid "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr ""
+
+#: templates/current-release.html:39 templates/latest-release.html:36
+msgid ""
+"This Subsurface Windows installer is not signed and Windows will likely "
+"ask you to confirm that you want to install this program."
+msgstr ""
+
+#: templates/current-release.html:53
+#, python-format
+msgid ""
+"We try to post a signed Subsurface macOS DMG here. If your Mac doesn't "
+"want to install this image, please let us know in the <a %(link)s>User "
+"Forum</a>."
+msgstr ""
+
+#: templates/current-release.html:67 templates/latest-release.html:64
+msgid ""
+"The Subsurface Android APK can be side-loaded on most Android devices. If"
+" you previously had installed Subsurface-mobile from the Google Play "
+"store, the first time you switch to a side-loaded app, you'll have to "
+"uninstall the Play store version. Make sure your data is synced to the "
+"Subsurface Cloud. After you install this APK and log in to the Subsurface"
+" Cloud again, the data will be restored. Every subsequent update will not"
+" require an uninstall."
+msgstr ""
+
+#: templates/current-release.html:75 templates/latest-release.html:72
+msgid "AppStore Link&nbsp;&nbsp;"
+msgstr ""
+
+#: templates/current-release.html:81
+msgid ""
+"iOS is the only platform right now where in general side-loading or "
+"installing unsigned binaries is impossible (apparently that may change "
+"for users in the EU, but not elsewhere). As a result we cannot make new "
+"versions of Subsurface-mobile for iOS available here, but the goal is to "
+"update the AppStore version to the \"weekly\" versions reasonably "
+"frequently as well."
+msgstr ""
+
+#: templates/current-release.html:87 templates/latest-release.html:84
+msgid ""
+"The Subsurface team is providing distribution packages for Ubuntu and "
+"Fedora as well as a generic \"AppImage\" that should work on most other "
+"x86_64 Linux distributions."
+msgstr ""
+
+#: templates/current-release.html:89 templates/latest-release.html:86
+msgid "Ubuntu and compatible distros"
+msgstr ""
+
+#: templates/current-release.html:90 templates/latest-release.html:87
+msgid ""
+"To use these binaries in Ubuntu, simply add the Subsurface Daily Release "
+"PPA to your system:"
+msgstr ""
+
+#: templates/current-release.html:92 templates/latest-release.html:89
+msgid "and then install Subsurface with <code>sudo apt install subsurface </code>"
+msgstr ""
+
+#: templates/current-release.html:94 templates/latest-release.html:91
+msgid "To install the Subsurface CICD binaries on Fedora simply run"
+msgstr ""
+
+#: templates/current-release.html:96 templates/latest-release.html:93
+msgid "and then install Subsurface with <code>dnf install subsurface</code>"
+msgstr ""
+
+#: templates/current-release.html:97 templates/latest-release.html:94
+msgid "Other x86_64 Linux distributions"
+msgstr ""
+
+#: templates/current-release.html:110 templates/latest-release.html:107
+#, python-format
+msgid ""
+"A generic AppImage is available. After you download this file, make it "
+"executable <code>chmod +x Subsurface-v%(version)s-CICD-"
+"release.AppImage</code>, and then simply run this file."
+msgstr ""
 
 #: templates/home.html:15
 msgid "We switched to rolling releases"
@@ -177,20 +289,10 @@ msgid ""
 msgstr ""
 
 #: templates/latest-release.html:21
+#, python-format
 msgid ""
 "If you are looking for a somewhat less \"bleeding edge\" set of builds, "
-"please consider the Curren Release Page."
-msgstr ""
-
-#: templates/latest-release.html:30 templates/latest-release.html:44
-#: templates/latest-release.html:58 templates/latest-release.html:101
-msgid "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-msgstr ""
-
-#: templates/latest-release.html:36
-msgid ""
-"This Subsurface Windows installer is not signed and Windows will likely "
-"ask you to confirm that you want to install this program."
+"please consider the <a %(link)s></a>Curren Release Page</a>."
 msgstr ""
 
 #: templates/latest-release.html:50
@@ -199,21 +301,6 @@ msgid ""
 "few extra steps before you can install or run this program. You can "
 "simplify the process by control-clicking (or two-finger-clicking) on the "
 "executable and selecting to open it."
-msgstr ""
-
-#: templates/latest-release.html:64
-msgid ""
-"The Subsurface Android APK can be side-loaded on most Android devices. If"
-" you previously had installed Subsurface-mobile from the Google Play "
-"store, the first time you switch to a side-loaded app, you'll have to "
-"uninstall the Play store version. Make sure your data is synced to the "
-"Subsurface Cloud. After you install this APK and log in to the Subsurface"
-" Cloud again, the data will be restored. Every subsequent update will not"
-" require an uninstall."
-msgstr ""
-
-#: templates/latest-release.html:72
-msgid "AppStore Link&nbsp;&nbsp;"
 msgstr ""
 
 #: templates/latest-release.html:78
@@ -226,46 +313,5 @@ msgid ""
 " of these builds into our public TestFlight account. If you like to be on"
 " the bleading edge, you can <a %(link)s>sign up for the Subsurface-mobile"
 " TestFlight.</a>"
-msgstr ""
-
-#: templates/latest-release.html:84
-msgid ""
-"The Subsurface team is providing distribution packages for Ubuntu and "
-"Fedora as well as a generic \"AppImage\" that should work on most other "
-"x86_64 Linux distributions."
-msgstr ""
-
-#: templates/latest-release.html:86
-msgid "Ubuntu and compatible distros"
-msgstr ""
-
-#: templates/latest-release.html:87
-msgid ""
-"To use these binaries in Ubuntu, simply add the Subsurface Daily Release "
-"PPA to your system:"
-msgstr ""
-
-#: templates/latest-release.html:89
-msgid "and then install Subsurface with <code>sudo apt install subsurface </code>"
-msgstr ""
-
-#: templates/latest-release.html:91
-msgid "To install the Subsurface CICD binaries on Fedora simply run"
-msgstr ""
-
-#: templates/latest-release.html:93
-msgid "and then install Subsurface with <code>dnf install subsurface</code>"
-msgstr ""
-
-#: templates/latest-release.html:94
-msgid "Other x86_64 Linux distributions"
-msgstr ""
-
-#: templates/latest-release.html:107
-#, python-format
-msgid ""
-"A generic AppImage is available. After you download this file, make it "
-"executable <code>chmod +x Subsurface-v%(version)s-CICD-"
-"release.AppImage</code>, and then simply run this file."
 msgstr ""
 

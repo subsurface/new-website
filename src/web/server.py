@@ -50,6 +50,14 @@ def utility_processor():
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/Subsurface-mobile-{env['lrelease']}-CICD-release.apk"
         if key == "lappimage":
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/Subsurface-v{env['lrelease']}-CICD-release.AppImage"
+        if key == "cwindows":
+            return f"https://subsurface-divelog.org/download/subsurface-{env['crelease']}-CICD-release-installer.exe"
+        if key == "cmacos":
+            return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease']}-CICD-release.dmg"
+        if key == "candroid":
+            return f"https://subsurface-divelog.org/downloads/Subsurface-mobile-{env['crelease']}-CICD-release.apk"
+        if key == "cappimage":
+            return f"https://subsurface-divelog.org/downloads/Subsurface-v{env['crelease']}-CICD-release.AppImage"
         return ""
 
     return dict(get_env=get_env)

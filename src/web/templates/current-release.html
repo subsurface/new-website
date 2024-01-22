@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% set active_page = "latest-release" %}
+{% set active_page = "current-release" %}
 
 {% block title %}Subsurface Latest Release{% endblock %}
 {% block head %}
@@ -11,18 +11,21 @@
 <div class="container">
   <div class="row g-5">
     <div class="col-12">
-      <h1 class="text-primary">{{ _("Latest Development (CICD) Release: %(version)s", version=get_env("lrelease")) }}
+      <h1 class="text-primary">{{ _("Current \"Weekly\" Release: %(version)s", version=get_env("crelease")) }}
       </h1>
-      <h5>{{ get_env("lrelease_date") }}</h5>
+      <h5>{{ get_env("crelease_date") }}</h5>
       <p>
-        {{ _("The releases on this page are the latest builds from the Subsurface CICD (Continuous Integration, Continuous Development) system. While we don't expect them to be broken very often, they are generally released in order to facilitate testing, and as such may not have received a lot of testing, yet.") }}
+        {{ _("The releases on this page are what we consider the current release builds of Subsurface.") }}
       </p>
       <p>
-        {{ _("If you are looking for a somewhat less \"bleeding edge\" set of builds, please consider the <a %(link)s></a>Curren Release Page</a>.", link=url_for("crelease")) }}
+        {{ _("We expect these builds to be reasonably stable and somewhat tested, and as the name suggests try to update them about once a week (the actual frequency may vary).")}}
+      </p>
+      <p>
+        {{ _("If you are looking for more \"bleeding edge\" releases builds, please check out the <a %(link)s>Latest Release Page</a>.", link=url_for("lrelease")) }}
       </p>
       <div class="row">
         <div class="col-md-auto">
-          <h2><a class="face-button" href="{{ get_env("lwindows")}}">
+          <h2><a class="face-button" href="{{ get_env("cwindows")}}">
               <div class="face-primary">
                 <i class="fa-brands fa-fw fa-windows"></i> Windows
               </div>
@@ -37,7 +40,7 @@
         </div>
         <div class="col-12"></div>
         <div class="col-md-auto">
-          <h2><a class="face-button" href="{{ get_env("lmacos")}}">
+          <h2><a class="face-button" href="{{ get_env("cmacos")}}">
               <div class="face-primary"><i class="fa-brands fa-fw fa-apple"></i> macOS
               </div>
               <div class="face-secondary">
@@ -47,11 +50,11 @@
           </h2>
         </div>
         <div class="col-12 col-md-6">
-          {{ _("The Subsurface macOS DMG is not signed. macOS will force you through a few extra steps before you can install or run this program. You can simplify the process by control-clicking (or two-finger-clicking) on the executable and selecting to open it.")}}
+          {{ _("We try to post a signed Subsurface macOS DMG here. If your Mac doesn't want to install this image, please let us know in the <a %(link)s>User Forum</a>.", link="https://subsurface-divelog.org/user-forum/") }}
         </div>
         <div class="col-12"></div>
         <div class="col-md-auto">
-          <h2><a class="face-button" href="{{ get_env("landroid")}}">
+          <h2><a class="face-button" href="{{ get_env("candroid")}}">
               <div class="face-primary"><i class="fa-brands fa-fw fa-android"></i> Android
               </div>
               <div class="face-secondary">
@@ -75,7 +78,7 @@
           </h2>
         </div>
         <div class="col-12 col-md-6">
-          {{ _("iOS is the only platform right now where in general side-loading or installing unsigned binaries is impossible (apparently that may change for users in the EU, but not elsewhere). As a result we cannot make new versions of Subsurface-mobile for iOS available here. We try to push many of these builds into our public TestFlight account. If you like to be on the bleading edge, you can <a %(link)s>sign up for the Subsurface-mobile TestFlight.</a>", link="https://testflight.apple.com/join/k2OGhIS5") }}
+          {{ _("iOS is the only platform right now where in general side-loading or installing unsigned binaries is impossible (apparently that may change for users in the EU, but not elsewhere). As a result we cannot make new versions of Subsurface-mobile for iOS available here, but the goal is to update the AppStore version to the \"weekly\" versions reasonably frequently as well.") }}
         </div>
         <div class="col-12"></div>
         <div class="col-12">
@@ -94,7 +97,7 @@
           <h4>{{ _("Other x86_64 Linux distributions") }}</h4>
         </div>
         <div class="col-md-auto">
-          <h2><a class="face-button" href="{{ get_env("lappimage")}}">
+          <h2><a class="face-button" href="{{ get_env("cappimage")}}">
               <div class="face-primary"><i class="fa-brands fa-solid fa-fw fa-linux"></i> AppImage
               </div>
               <div class="face-secondary">
@@ -104,7 +107,7 @@
           </h2>
         </div>
         <div class="col-12 col-md-6">
-          {{ _("A generic AppImage is available. After you download this file, make it executable <code>chmod +x Subsurface-v%(version)s-CICD-release.AppImage</code>, and then simply run this file.", version=get_env("lrelease")) }}
+          {{ _("A generic AppImage is available. After you download this file, make it executable <code>chmod +x Subsurface-v%(version)s-CICD-release.AppImage</code>, and then simply run this file.", version=get_env("crelease")) }}
         </div>
       </div>
     </div>
