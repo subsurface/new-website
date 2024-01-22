@@ -22,7 +22,7 @@ def get_locale():
     # try to guess the language from the user accept header the browser transmits.
     # At the moment we support en/de/fr/nl/it/es/pt_pt.
     return request.accept_languages.best_match(
-        ["en", "de", "fr", "nl", "it", "es", "pt_pt"]
+        ["en", "de_DE", "fr_fr", "nl_nl", "it_it", "es_es", "pt_pt"]
     )
 
 
