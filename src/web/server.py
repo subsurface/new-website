@@ -1,13 +1,21 @@
 import json
 import os
 import pathlib
+import sys
 
 from setuptools import Require
 
 from .assetdownloader import AssetDownloader
+from .env import Env
+from .globals import globals
 
 from flask_babel import Babel
 from flask import Flask, g, redirect, render_template, request, send_from_directory
+
+
+description = """
+Simple backend to run the Subsurface website
+"""
 
 
 def get_locale():
@@ -21,10 +29,30 @@ def get_locale():
 app = Flask(__name__)
 app.secret_key = os.urandom(16).hex()
 babel = Babel(app, locale_selector=get_locale)
+env = {
+    "lrelease": Env("lrelease", default="6.0.5067"),
+    "lrelease_date": Env("lrelase_date", default="2024-01-21"),
+    "crelease": Env("crelease", default="6.0.5054"),
+    "crelease_date": Env("crelease_date", default="2024-01-13"),
+}
 
-description = """
-Simple backend to run the Subsurface website
-"""
+
+@app.context_processor
+def utility_processor():
+    def get_env(key):
+        if key in env.keys():
+            return env[key].value
+        if key == "lwindows":
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/subsurface-{env['lrelease']}-CICD-release-installer.exe"
+        if key == "lmacos":
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/Subsurface-{env['lrelease']}-CICD-release.dmg"
+        if key == "landroid":
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/Subsurface-mobile-{env['lrelease']}-CICD-release.apk"
+        if key == "lappimage":
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/Subsurface-v{env['lrelease']}-CICD-release.AppImage"
+        return ""
+
+    return dict(get_env=get_env)
 
 
 @app.route("/favicon.ico")
@@ -42,8 +70,15 @@ def home():
     return render_template("home.html", request=request)
 
 
+@app.get("/latest-release")
+def lrelease():
+    return render_template("latest-release.html", request=request)
+
+
+@app.get("/current-release")
+def crelease():
+    return render_template("current-release.html", request=request)
+
+
 if __name__ == "__main__":
-    print("Run with:")
-    print("uvicorn app:app --host 0.0.0.0 --port 8790")
-    print("or for development:")
-    print("uvicorn app:app --host 0.0.0.0 --port 8790 --reload")
+    app.run(host="0.0.0.0", port="8002", debug=True)

@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% set active_page = "latest-release" %}
+
+{% block title %}Subsurface Latest Release{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+  <div class="row g-5">
+    <div class="col-12">
+      <h1 class="text-primary">{{ _("Latest Development (CICD) Release: %(version)s", version=get_env("lrelease")) }}
+      </h1>
+      <h5>{{ get_env("lrelease_date") }}</h5>
+      <p>
+        {{ _("The releases on this page are the latest builds from the Subsurface CICD (Continuous Integration, Continuous Development) system. While we don't expect them to be broken very often, they are generally released in order to facilitate testing, and as such may not have received a lot of testing, yet.") }}
+      </p>
+      <p>
+        {{ _("If you are looking for a somewhat less \"bleeding edge\" set of builds, please consider the Curren Release Page.")}}
+      </p>
+      <div class="row">
+        <div class="col-md-auto">
+          <h2><a class="face-button" href="{{ get_env("lwindows")}}">
+              <div class="face-primary">
+                <i class="fa-brands fa-fw fa-windows"></i> Windows
+              </div>
+              <div class="face-secondary">
+                {{ _("Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-6">
+          {{ _("This Subsurface Windows installer is not signed and Windows will likely ask you to confirm that you want to install this program.")}}
+        </div>
+        <div class="col-12"></div>
+        <div class="col-md-auto">
+          <h2><a class="face-button" href="{{ get_env("lmacos")}}">
+              <div class="face-primary"><i class="fa-brands fa-fw fa-apple"></i> macOS
+              </div>
+              <div class="face-secondary">
+                {{ _("Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-6">
+          {{ _("The Subsurface macOS DMG is not signed. macOS will force you through a few extra steps before you can install or run this program. You can simplify the process by control-clicking (or two-finger-clicking) on the executable and selecting to open it.")}}
+        </div>
+        <div class="col-12"></div>
+        <div class="col-md-auto">
+          <h2><a class="face-button" href="{{ get_env("landroid")}}">
+              <div class="face-primary"><i class="fa-brands fa-fw fa-android"></i> Android
+              </div>
+              <div class="face-secondary">
+                {{ _("Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-6">
+          {{ _("The Subsurface Android APK can be side-loaded on most Android devices. If you previously had installed Subsurface-mobile from the Google Play store, the first time you switch to a side-loaded app, you'll have to uninstall the Play store version. Make sure your data is synced to the Subsurface Cloud. After you install this APK and log in to the Subsurface Cloud again, the data will be restored. Every subsequent update will not require an uninstall.")}}
+        </div>
+        <div class="col-12"></div>
+        <div class="col-md-auto">
+          <h2><a class="face-button" href="https://apps.apple.com/us/app/subsurface-mobile/id1093217161">
+              <div class="face-primary"><i class="fa-brands fa-fw fa-apple"></i> iOS
+              </div>
+              <div class="face-secondary">
+                {{ _("AppStore Link&nbsp;&nbsp;") }}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-6">
+          {{ _("iOS is the only platform right now where in general side-loading or installing unsigned binaries is impossible (apparently that may change for users in the EU, but not elsewhere). As a result we cannot make new versions of Subsurface-mobile for iOS available here. We try to push many of these builds into our public TestFlight account. If you like to be on the bleading edge, you can <a %(link)s>sign up for the Subsurface-mobile TestFlight.</a>", link="https://testflight.apple.com/join/k2OGhIS5") }}
+        </div>
+        <div class="col-12"></div>
+        <div class="col-12">
+          <h3>Linux</h3>
+          <p>
+            {{ _("The Subsurface team is providing distribution packages for Ubuntu and Fedora as well as a generic \"AppImage\" that should work on most other x86_64 Linux distributions.") }}
+          </p>
+          <h4>{{ _("Ubuntu and compatible distros") }}</h4>
+          <p>{{ _("To use these binaries in Ubuntu, simply add the Subsurface Daily Release PPA to your system:") }}</p>
+          <pre><code>sudo add-apt-repository ppa:subsurface/subsurface-daily sudo apt update</code></pre>
+          <p>{{ _("and then install Subsurface with <code>sudo apt install subsurface </code>") }}</p>
+          <h4>Fedora</h4>
+          <p>{{ _("To install the Subsurface CICD binaries on Fedora simply run") }}</p>
+          <pre><code>sudo dnf copr enable dirkhh/Subsurface-test</code></pre>
+          <p>{{ _("and then install Subsurface with <code>dnf install subsurface</code>") }}</p>
+          <h4>{{ _("Other x86_64 Linux distributions") }}</h4>
+        </div>
+        <div class="col-md-auto">
+          <h2><a class="face-button" href="{{ get_env("lappimage")}}">
+              <div class="face-primary"><i class="fa-brands fa-solid fa-fw fa-linux"></i> AppImage
+              </div>
+              <div class="face-secondary">
+                {{ _("Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-6">
+          {{ _("A generic AppImage is available. After you download this file, make it executable <code>chmod +x Subsurface-v%(version)s-CICD-release.AppImage</code>, and then simply run this file.", version=get_env("lrelease")) }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock %}
