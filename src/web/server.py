@@ -9,8 +9,15 @@ from .assetdownloader import AssetDownloader
 from .env import Env
 from .globals import globals
 
-from flask_babel import Babel
-from flask import Flask, g, redirect, render_template, request, send_from_directory
+from flask_babel import Babel, get_translations, get_locale as gl
+from flask import (
+    Flask,
+    redirect,
+    render_template,
+    request,
+    send_from_directory,
+    session,
+)
 
 
 description = """
@@ -18,12 +25,17 @@ Simple backend to run the Subsurface website
 """
 
 
+languages = ["en", "de_DE", "fr_FR", "nl_NL", "it_IT", "es_ES", "pt_PT"]
+
+
 def get_locale():
     # try to guess the language from the user accept header the browser transmits.
     # At the moment we support en/de/fr/nl/it/es/pt_pt.
-    return request.accept_languages.best_match(
-        ["en", "de_DE", "fr_fr", "nl_nl", "it_it", "es_es", "pt_pt"]
-    )
+    if request.args.get("lang"):
+        session["lang"] = request.args.get("lang")
+    if session.get("lang"):
+        return session.get("lang")
+    return request.accept_languages.best_match(languages)
 
 
 app = Flask(__name__)
@@ -63,6 +75,21 @@ def utility_processor():
     return dict(get_env=get_env)
 
 
+def redirector(urlpath=""):
+    print(f"universal redirector for request {request.path} with urlpath {urlpath}")
+    lang = request.path.split("/")[1]
+    return redirect(f"/{urlpath}?lang={lang}")
+
+
+# next set up the various language routes...
+for l in languages:
+    app.add_url_rule(f"/{l}/", view_func=redirector)
+    app.add_url_rule(f"/{l}/<path:urlpath>", view_func=redirector)
+    if len(l) > 2 and l[2] == "_":
+        app.add_url_rule(f"/{l[:2]}/", view_func=redirector)
+        app.add_url_rule(f"/{l[:2]}/<path:urlpath>", view_func=redirector)
+
+
 @app.route("/favicon.ico")
 def favicon():
     return send_from_directory(
@@ -74,7 +101,6 @@ def favicon():
 
 @app.get("/")
 def home():
-    print("called the / route")
     return render_template("home.html", request=request)
 
 
