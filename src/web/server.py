@@ -124,5 +124,10 @@ def contributing():
     return render_template("contributing.html", request=request)
 
 
+@app.get("/bugtracker")
+def bugtracker():
+    return render_template("bugtracker.html", request=request)
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port="8002", debug=True)

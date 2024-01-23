@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% set active_page = "bugtracker" %}
+
+{% block title %}Bugtracker{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+  <div class="row g-5">
+    <div class="col-12">
+      <h1 class="text-primary">Bugtracker</h1>
+      <p>
+        {{ _("While we are happy to receive bug reports (and patches!) on our <a %(mailman)s>mailing list</a>, you can also open issues on our <a %(githubissue)s>main Subsurface repository on GitHub</a>.", mailman="href=http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface", githubissue="href=https://github.com/Subsurface-divelog/subsurface/issues") }}
+      </p>
+      <p>
+        {{ _("The preferred language is English, but we’ll make an effort to answer questions in other languages as well (not everyone is comfortable posting in English…)") }}
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
