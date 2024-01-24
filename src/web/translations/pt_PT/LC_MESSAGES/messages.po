@@ -628,6 +628,8 @@ msgid ""
 "Do you have questions, comments, or suggestions for Subsurface? Please join "
 "our <a %(link)s>User Forum</a>."
 msgstr ""
+"Tem questões, comentários ou sugestões para o Subsurface? Por favor junte-se"
+" ao <a %(link)s> nosso Fórum de utilizadores</a>."
 
 #: templates/user-forum.html:18
 msgid ""
