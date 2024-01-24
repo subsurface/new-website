@@ -461,6 +461,12 @@ msgid ""
 "lets users track a wide variety of data about their dives. In fall of 2012 "
 "Dirk Hohndel took over as Subsurface maintainer."
 msgstr ""
+"Do seu trabalho em conjunto com uma equipa de desenvolvimento, resultou no "
+"Subsurface. Este funciona em Linux, Windows e MacOS, permite importar dados "
+"de diversos computadores de mergulho e de outras aplicações do género. "
+"Disponibiliza uma forma rápida e fácil de consultar esses dados e adicionar "
+"mais informações relevantes aos mergulhos. No Outono de 2012, Dirk Hohndel "
+"assumiu a manutenção do projecto."
 
 #: templates/latest-release.html:13
 #, python-format
