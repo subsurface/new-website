@@ -617,6 +617,10 @@ msgid ""
 "only store it with the purpose of making it available to you again on your "
 "devices."
 msgstr ""
+"É simples: não usamos os seus dados. Não queremos saber quem são os seus "
+"amigos. Não intencionamos vender nada nem fazer qualquer outra coisa "
+"aborrecida. Os dados armazenados não são usados para nenhum fim a não ser "
+"disponibiliza-los aos seus proprietários nos seus dispositivos."
 
 #: templates/user-forum.html:15
 #, python-format
