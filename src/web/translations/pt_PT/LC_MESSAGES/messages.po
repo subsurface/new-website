@@ -347,6 +347,8 @@ msgid ""
 "The planner module makes it simple to visually plan dives either based on "
 "Bühlmann ZH-16 or VPM-B"
 msgstr ""
+"O módulo de planificação torna simples a visualização dos planos de mergulho"
+" baseados nos modelos Bühlmann ZH-16 ou VPM-B"
 
 #: templates/home.html:58
 msgid "Subsurface-mobile"
