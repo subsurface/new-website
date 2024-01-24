@@ -420,6 +420,8 @@ msgid ""
 "<strong>Multiple divers</strong> can share one instance of Subsurface using "
 "different preferences and settings."
 msgstr ""
+"Uma instalação do Subsurface pode ser partilhada por <strong>vários "
+"mergulhadores</strong>, usando diferentes preferências e configurações."
 
 #: templates/home.html:101
 msgid ""
