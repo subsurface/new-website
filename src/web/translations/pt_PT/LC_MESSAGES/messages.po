@@ -593,6 +593,8 @@ msgid ""
 "Post mail: Subsurface Data Protection Lead, c/o DH Consulting, 12725 SW "
 "Millikan Way, #300 Beaverton, OR 97005 USA."
 msgstr ""
+"Endereço postal: Subsurface Data Protection Lead, c/o DH Consulting, 12725 "
+"SW Millikan Way, #300 Beaverton, OR 97005 USA."
 
 #: templates/privacy-policy.html:33
 #, python-format
