@@ -756,14 +756,14 @@
           <h2 class="accordion-header" id="mtpconnection">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#mtpconnection_answer" aria-expanded="false" aria-controls="mtpconnection_answer">
-              <a href="/faq/#mtpconnection">{{ _("Garmin Descent Mk2/Mk2i doesn't want to connect")}}</a>
+              <a href="/faq/#mtpconnection">{{ _("Garmin Descent Mk2/Mk3 doesn't want to connect")}}</a>
             </button>
           </h2>
           <div id="mtpconnection_answer" class="accordion-collapse collapse" aria-labelledby="mtpconnection"
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("The Descent Mk2/Mk2i is an MTP device which causes occasional problems when trying to download from it using Subsurface. MTP supports only a single connection, so other MTP apps may prevent Subsurface from talking to your dive computer. Exit all other apps that might try to connect to a media device, like for example the Android File Transfer.") }}
+                {{ _("The Descent Mk2/Mk3 is an MTP device which causes occasional problems when trying to download from it using Subsurface. MTP supports only a single connection, so other MTP apps may prevent Subsurface from talking to your dive computer. Exit all other apps that might try to connect to a media device, like for example the Android File Transfer.") }}
               </p>
             </div>
           </div>
@@ -772,14 +772,14 @@
           <h2 class="accordion-header" id="mtpwindows">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#mtpwindows_answer" aria-expanded="false" aria-controls="mtpwindows_answer">
-              <a href="/faq/#mtpwindows">{{ _("Garmin Descent Mk2/Mk2i on Windows")}}</a>
+              <a href="/faq/#mtpwindows">{{ _("Garmin Descent Mk2/Mk3 on Windows")}}</a>
             </button>
           </h2>
           <div id="mtpwindows_answer" class="accordion-collapse collapse" aria-labelledby="mtpwindows"
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("You need the correct USB driver in order to talk to the Descent Mk2/Mk2i.") }}
+                {{ _("You need the correct USB driver in order to talk to the Descent Mk2/Mk3.") }}
               </p>
               <p>
                 {{ _("Please download <a %(zadig)s>Zadig 2.6</a> and run it, plug in the Descent and select MTP, wait for Zadig to offer the Descent as an option (this may require an unplug / replug cycle), select the Descent and tell Zadig to install `libusb-win32` (wait for this to finish which takes a while), unplug the Descent and plug it back in, again selecting MTP. Now Subsurface is able to download from it (don't enter anything in the connection field)", zadig="href=https://zadig.akeo.ie/") }}

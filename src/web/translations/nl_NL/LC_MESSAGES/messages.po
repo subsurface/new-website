@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-24 21:20+0000\n"
+"POT-Creation-Date: 2024-01-24 22:28+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Peter Zaal, 2024\n"
 "Language: nl_NL\n"
@@ -323,7 +323,7 @@ msgid ""
 "%(crelease)s>current release</a> page."
 msgstr ""
 
-#: templates/faq.html:58 templates/faq.html:380
+#: templates/faq.html:58
 msgid "How much does Subsurface cost?"
 msgstr ""
 
@@ -338,7 +338,7 @@ msgid ""
 "commercial dive log program, there are plenty others to choose from."
 msgstr ""
 
-#: templates/faq.html:67 templates/faq.html:391 templates/faq.html:682
+#: templates/faq.html:67 templates/faq.html:667
 #, python-format
 msgid ""
 "If you would like to contribute and help, there are many ways to do so. "
@@ -649,36 +649,23 @@ msgid ""
 " web browser."
 msgstr ""
 
-#: templates/faq.html:386
-msgid ""
-"Subsurface is open source software. It's free to use. It's written by a "
-"group of enthusiasts who do this in their spare time - including "
-"providing the Subsurface Cloud storage and all the other infrastructure. "
-"Please understand that this\n"
-"                        also means that they will respond to your "
-"requests when they have time, and they generally don't appreciate being "
-"treated like the support team of a commercial vendor. If you'd like a "
-"commercial dive log program, there are plenty\n"
-"                        others to choose from."
-msgstr ""
-
-#: templates/faq.html:400
+#: templates/faq.html:380
 msgid "What's the minimum Android version required?"
 msgstr ""
 
-#: templates/faq.html:407
+#: templates/faq.html:387
 msgid ""
 "The side-loaded APK should work with Android 8.0 and newer. Older Android"
 " versions are known not to work with the Subsurface Cloud."
 msgstr ""
 
-#: templates/faq.html:417
+#: templates/faq.html:398
 msgid ""
 "From which dive computers can Subsurface-mobile on Android directly "
 "download?"
 msgstr ""
 
-#: templates/faq.html:424
+#: templates/faq.html:405
 msgid ""
 "Bluetooth and BLE based dive computers as well USB serial dive computers "
 "should generally work (assuming they are supported by Subsurface at all, "
@@ -687,11 +674,11 @@ msgid ""
 "Zurich), or MTP (e.g., Garmin)."
 msgstr ""
 
-#: templates/faq.html:435
+#: templates/faq.html:417
 msgid "From which dive computers can Subsurface-mobile on iOS directly download?"
 msgstr ""
 
-#: templates/faq.html:442
+#: templates/faq.html:424
 msgid ""
 "Only dive computers that support download via BLE (that are already "
 "supported in Subsurface) work with iOS devices. The Garmin dive computers"
@@ -699,11 +686,11 @@ msgid ""
 "cable based downloads are possible."
 msgstr ""
 
-#: templates/faq.html:452
+#: templates/faq.html:434
 msgid "How do I know I have the latest version of Subsurface?"
 msgstr ""
 
-#: templates/faq.html:459
+#: templates/faq.html:441
 msgid ""
 "With the desktop version you can check from the Help menu: simply select "
 "“Check for updates”. The iOS version notifies you via the regular "
@@ -711,42 +698,42 @@ msgid ""
 "development."
 msgstr ""
 
-#: templates/faq.html:472
+#: templates/faq.html:454
 msgid "How can I import my dives into Subsurface?"
 msgstr ""
 
-#: templates/faq.html:479
+#: templates/faq.html:461
 #, python-format
 msgid ""
 "There are multiple ways to import into Subsurface. Details can be found "
 "in the <a %(usermanual)s>User Manual</a>."
 msgstr ""
 
-#: templates/faq.html:482
+#: templates/faq.html:464
 msgid ""
 "Manually logged dives can directly be entered in the UI or (in the "
 "desktop version) imported from various forms of spreadsheets."
 msgstr ""
 
-#: templates/faq.html:485
+#: templates/faq.html:467
 msgid ""
 "Dives can be downloaded from supported dive computers. Details vary "
 "greatly depending on how the dive computer connects to your computer or "
 "mobile device."
 msgstr ""
 
-#: templates/faq.html:488
+#: templates/faq.html:470
 msgid ""
 "It is also possible to import dive data from other software or websites. "
 "See the User Manual for the most up to date information on this – it can "
 "be found in Section 5.3."
 msgstr ""
 
-#: templates/faq.html:497
+#: templates/faq.html:479
 msgid "How can I use more than one tank with the same gas?"
 msgstr ""
 
-#: templates/faq.html:504
+#: templates/faq.html:486
 msgid ""
 "This is a typical question for side mount divers or some tec divers. "
 "Subsurface supports having more than one tank with the same gas, even if "
@@ -756,7 +743,7 @@ msgid ""
 "appropriate spot and you will be offered to add such an event."
 msgstr ""
 
-#: templates/faq.html:507
+#: templates/faq.html:489
 #, python-format
 msgid ""
 "If you have pressure transmitters on multiple tanks with the same gas, "
@@ -766,11 +753,11 @@ msgid ""
 "and 22%% for two tanks holding air."
 msgstr ""
 
-#: templates/faq.html:516
+#: templates/faq.html:499
 msgid "Why is Subsurface not able to download my dives from my dive computer?"
 msgstr ""
 
-#: templates/faq.html:523
+#: templates/faq.html:506
 msgid ""
 "Obvioiusly there can be many reasons for this. If your dive computer "
 "connects via cable, clean the contacts and make sure they are dry. Repeat"
@@ -783,18 +770,18 @@ msgid ""
 "to transfer dives to a connected PC unless the battery is changed."
 msgstr ""
 
-#: templates/faq.html:526
+#: templates/faq.html:509
 msgid ""
 "There are many more potential issues with Bluetooth or BLE dive "
 "computers. Please see our user manual for pairing with such devices and "
 "troubleshooting suggestions."
 msgstr ""
 
-#: templates/faq.html:535
+#: templates/faq.html:518
 msgid "Why is the CSV import failing?"
 msgstr ""
 
-#: templates/faq.html:542
+#: templates/faq.html:525
 msgid ""
 "The CSV import has a couple of caveats. You should avoid some special "
 "characters like ampersand (&), less than (<), greater than (>) and double"
@@ -806,11 +793,11 @@ msgid ""
 " smaller sample to make sure everything works."
 msgstr ""
 
-#: templates/faq.html:551
+#: templates/faq.html:534
 msgid "How can I use Subsurface for multiple users?"
 msgstr ""
 
-#: templates/faq.html:558
+#: templates/faq.html:541
 msgid ""
 "Potentially the best way to achieve this is to use multiple user accounts"
 " on the computer, all operating systems have built-in support for "
@@ -818,7 +805,7 @@ msgid ""
 "truely separated."
 msgstr ""
 
-#: templates/faq.html:561
+#: templates/faq.html:544
 msgid ""
 "Another option is to store logs of different users to separate log files."
 " From Subsurface, you can open individual files for different divers and "
@@ -826,7 +813,7 @@ msgid ""
 " that it's incompatible with Subsurface cloud storage."
 msgstr ""
 
-#: templates/faq.html:564
+#: templates/faq.html:547
 msgid ""
 "A blend of these approaches where you want multi-user Subsurface support "
 "within a single computer user account can be achieved as well. Subsurface"
@@ -838,11 +825,11 @@ msgid ""
 "experience more user friendly."
 msgstr ""
 
-#: templates/faq.html:573
+#: templates/faq.html:556
 msgid "How can I load pictures and associate them with my dive?"
 msgstr ""
 
-#: templates/faq.html:580
+#: templates/faq.html:563
 msgid ""
 "This is supported in the desktop version of Subsurface. Select the dives "
 "you want to load and associate the pictures with. Then right click on one"
@@ -855,7 +842,7 @@ msgid ""
 "shown (as thumbnails) in the respective dive profiles."
 msgstr ""
 
-#: templates/faq.html:583
+#: templates/faq.html:566
 msgid ""
 "If you are having trouble with loading the images, check that you have at"
 " least one of the following tags in the Exif headers: "
@@ -867,11 +854,11 @@ msgid ""
 "by default."
 msgstr ""
 
-#: templates/faq.html:592
+#: templates/faq.html:575
 msgid "Can I import my dives from my old log software?"
 msgstr ""
 
-#: templates/faq.html:599
+#: templates/faq.html:582
 msgid ""
 "Many common programs are already supported and we are always happy to try"
 " to add new ones. If your old log software supports exporting the log "
@@ -894,13 +881,13 @@ msgid ""
 " is worth a try."
 msgstr ""
 
-#: templates/faq.html:611
+#: templates/faq.html:595
 msgid ""
 "I cannot download all my dives, only the most recent ones even though my "
 "dive computer's manual states that it records history of e.g. 999 dives."
 msgstr ""
 
-#: templates/faq.html:618
+#: templates/faq.html:602
 msgid ""
 "Dive history is different than the dive profiles on the log. The history "
 "only keeps track of the total number of dives and total amount of time "
@@ -912,7 +899,7 @@ msgid ""
 "13, 30 or 199 dives."
 msgstr ""
 
-#: templates/faq.html:621
+#: templates/faq.html:605
 msgid ""
 "If you have downloaded your dives to different dive logging software "
 "before they were overwritten, there is a high chance that Subsurface can "
@@ -920,11 +907,11 @@ msgid ""
 "cannot be salvaged after being over written by new dives."
 msgstr ""
 
-#: templates/faq.html:630
+#: templates/faq.html:614
 msgid "What to do when authentication to cloud storage fails?"
 msgstr ""
 
-#: templates/faq.html:637
+#: templates/faq.html:621
 #, python-format
 msgid ""
 "If you have configured your correct user credentials to Subsurface and "
@@ -934,11 +921,11 @@ msgid ""
 "sort it out."
 msgstr ""
 
-#: templates/faq.html:647
+#: templates/faq.html:632
 msgid "Can Subsurface store my files on a different cloud server?"
 msgstr ""
 
-#: templates/faq.html:654
+#: templates/faq.html:639
 #, python-format
 msgid ""
 "Subsurface can store your dive log securely in the Subsurface Cloud, "
@@ -947,7 +934,7 @@ msgid ""
 "available at <a %(cloudweb)s>the cloud webpage</a>."
 msgstr ""
 
-#: templates/faq.html:657
+#: templates/faq.html:642
 msgid ""
 "This is the only cloud solution available, which allows the developers "
 "the ability to enhance Subsurface, fix issues, and support users (with "
@@ -958,7 +945,7 @@ msgid ""
 "so other cloud solutions continue to not be supported."
 msgstr ""
 
-#: templates/faq.html:660
+#: templates/faq.html:645
 msgid ""
 "If you only use Subsurface on the desktop and wish to backup your log on "
 "a remote storage server, the documention describes how to store your XML "
@@ -966,11 +953,11 @@ msgid ""
 "MiniBox, etc."
 msgstr ""
 
-#: templates/faq.html:670
+#: templates/faq.html:655
 msgid "Can you add support for dive computer X?"
 msgstr ""
 
-#: templates/faq.html:676
+#: templates/faq.html:661
 #, python-format
 msgid ""
 "We support a large number of dive computers already and are always happy "
@@ -983,7 +970,7 @@ msgid ""
 "you it is often possible to do so."
 msgstr ""
 
-#: templates/faq.html:679
+#: templates/faq.html:664
 msgid ""
 "A good starting point is often to send us a libdivecomputer log and dump "
 "(you can pick those in the dive computer download dialog) when connecting"
@@ -992,11 +979,11 @@ msgid ""
 "avoid wasting your time."
 msgstr ""
 
-#: templates/faq.html:691
+#: templates/faq.html:676
 msgid "Old style Suunto dive computers?"
 msgstr ""
 
-#: templates/faq.html:698
+#: templates/faq.html:683
 msgid ""
 "Most of the download cables are FTDI based and need the appropriate "
 "drivers installed. Some other third party cables need different drivers. "
@@ -1005,11 +992,11 @@ msgid ""
 "you get timeouts or data errors, see the data error question below."
 msgstr ""
 
-#: templates/faq.html:707
+#: templates/faq.html:692
 msgid "I get timeouts or data error when downloading"
 msgstr ""
 
-#: templates/faq.html:714
+#: templates/faq.html:699
 msgid ""
 "Astoundingly commonly the reason are wet or dirty contacts or a low "
 "battery. It doesn't matter if the dive computer turns on. Download mode "
@@ -1019,11 +1006,11 @@ msgid ""
 "until you have a fresh battery and really clean and really dry contacts."
 msgstr ""
 
-#: templates/faq.html:723
+#: templates/faq.html:708
 msgid "BLE (Bluetooth Low Energy) downloads are incredibly slow"
 msgstr ""
 
-#: templates/faq.html:729
+#: templates/faq.html:714
 msgid ""
 "Yes, yes they are. Since Subsurface supports BLE download from many "
 "different dive computers from many different vendors, the code is "
@@ -1036,18 +1023,18 @@ msgid ""
 "to download early and often."
 msgstr ""
 
-#: templates/faq.html:732
+#: templates/faq.html:717
 msgid ""
 "If the dive computer offers a way to download with a USB cable (in "
 "addition to BLE, like for example the Suunto EON Steel family), that is "
 "definitely preferable especially for that first download."
 msgstr ""
 
-#: templates/faq.html:742
+#: templates/faq.html:727
 msgid "Does Subsurface-mobile support the Garmin Descent family?"
 msgstr ""
 
-#: templates/faq.html:749
+#: templates/faq.html:734
 msgid ""
 "The Descent dive computers are only supported on Windows, macOS, and "
 "Linux, and only for cable based download. Based on a specific request "
@@ -1055,11 +1042,11 @@ msgid ""
 "platform."
 msgstr ""
 
-#: templates/faq.html:758
+#: templates/faq.html:743
 msgid "Can I import '.FIT' files directly?"
 msgstr ""
 
-#: templates/faq.html:765
+#: templates/faq.html:750
 msgid ""
 "If for some reason you cannot get regular downloads to work, but have "
 "access to the `.FIT` files, you can still use Subsurface to import those,"
@@ -1071,28 +1058,28 @@ msgid ""
 "Download."
 msgstr ""
 
-#: templates/faq.html:774
-msgid "Garmin Descent Mk2/Mk2i doesn't want to connect"
+#: templates/faq.html:759
+msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
 msgstr ""
 
-#: templates/faq.html:781
+#: templates/faq.html:766
 msgid ""
-"The Descent Mk2/Mk2i is an MTP device which causes occasional problems "
+"The Descent Mk2/Mk3 is an MTP device which causes occasional problems "
 "when trying to download from it using Subsurface. MTP supports only a "
 "single connection, so other MTP apps may prevent Subsurface from talking "
 "to your dive computer. Exit all other apps that might try to connect to a"
 " media device, like for example the Android File Transfer."
 msgstr ""
 
-#: templates/faq.html:790
-msgid "Garmin Descent Mk2/Mk2i on Windows"
+#: templates/faq.html:775
+msgid "Garmin Descent Mk2/Mk3 on Windows"
 msgstr ""
 
-#: templates/faq.html:797
-msgid "You need the correct USB driver in order to talk to the Descent Mk2/Mk2i."
+#: templates/faq.html:782
+msgid "You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
 msgstr ""
 
-#: templates/faq.html:800
+#: templates/faq.html:785
 #, python-format
 msgid ""
 "Please download <a %(zadig)s>Zadig 2.6</a> and run it, plug in the "
@@ -1104,11 +1091,11 @@ msgid ""
 "connection field)"
 msgstr ""
 
-#: templates/faq.html:809
+#: templates/faq.html:794
 msgid "Other questions"
 msgstr ""
 
-#: templates/faq.html:816
+#: templates/faq.html:801
 #, python-format
 msgid ""
 "If your question wasn't answered here, please check the <a "
@@ -1116,7 +1103,7 @@ msgid ""
 "find an answer there, create a new topic and ask for help."
 msgstr ""
 
-#: templates/faq.html:823
+#: templates/faq.html:808
 #, python-format
 msgid ""
 "This FAQ is maintained as part of our website in the <a "
@@ -1387,4 +1374,48 @@ msgid ""
 "subscribe to it via email; simply check the corresponding box when "
 "joining the forum."
 msgstr ""
+
+#~ msgid ""
+#~ "Subsurface is open source software. It's"
+#~ " free to use. It's written by a"
+#~ " group of enthusiasts who do this "
+#~ "in their spare time - including "
+#~ "providing the Subsurface Cloud storage "
+#~ "and all the other infrastructure. Please"
+#~ " understand that this\n"
+#~ "                        also means that they"
+#~ " will respond to your requests when"
+#~ " they have time, and they generally"
+#~ " don't appreciate being treated like "
+#~ "the support team of a commercial "
+#~ "vendor. If you'd like a commercial "
+#~ "dive log program, there are plenty\n"
+#~ ""
+#~ "                        others to choose from."
+#~ msgstr ""
+
+#~ msgid "Garmin Descent Mk2/Mk2i doesn't want to connect"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Descent Mk2/Mk2i is an MTP "
+#~ "device which causes occasional problems "
+#~ "when trying to download from it "
+#~ "using Subsurface. MTP supports only a"
+#~ " single connection, so other MTP apps"
+#~ " may prevent Subsurface from talking "
+#~ "to your dive computer. Exit all "
+#~ "other apps that might try to "
+#~ "connect to a media device, like "
+#~ "for example the Android File Transfer."
+#~ msgstr ""
+
+#~ msgid "Garmin Descent Mk2/Mk2i on Windows"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need the correct USB driver in"
+#~ " order to talk to the Descent "
+#~ "Mk2/Mk2i."
+#~ msgstr ""
 
