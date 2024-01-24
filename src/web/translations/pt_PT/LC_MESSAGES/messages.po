@@ -410,6 +410,10 @@ msgid ""
 "the user’s diving and tracks information like the SAC rate, partial "
 "pressures of O2, N2 and He, calculated deco information, and many more."
 msgstr ""
+"O Subsurface também permite calcular uma variedade de "
+"<strong>estatísticas</strong> com base no registo de mergulhos do "
+"utilizador, tais como: taxa de consumo, pressão partial de O2, N2 e He, "
+"descompressão e muitas outras."
 
 #: templates/home.html:98
 msgid ""
