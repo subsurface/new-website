@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+  <div class="row g-5">
+    <div class="col-12">
+      <h1 class="ssrf">Privacy Policy</h1>
+      <p>
+        {{ _("This Privacy Notice is to inform EU and U.K. citizens who use Subsurface how their personal information is used.") }}
+      </p>
+      <p>
+        {{ _("Personal information is limited to your email address, online and system identifies, enabling a registered user account to be created and maintained. The information is processed to provide the Subsurface application to registered users, the lawful purpose: contract obligation.") }}
+      </p>
+      <p>
+        {{ _("Personal information is held whilst a user is registered. User accounts can be deleted on request. See contact information below.") }}
+      </p>
+      <p>
+        {{ _("Subsurface is run on mirrored servers, some in the US and others in the EU (Germany). Personal information is protected by design and the application of security measures. Personal information is not shared with any other entity.") }}
+      </p>
+      <p>
+        {{ _("To contact Subsurface please reach out to the Data Protection Lead: Email: %(email)s", email="<code>dirk @ subsurface-divelog . org</code>") }}
+      </p>
+      <p>
+        {{ _("Post mail: Subsurface Data Protection Lead, c/o DH Consulting, 12725 SW Millikan Way, #300 Beaverton, OR 97005 USA.") }}
+      </p>
+      <p>
+        {{ _("The EU regulatory authority Subsurface comes under is: <a %(link)s>https://datenschutz.hessen.de/</a>.", link="href=https://datenschutz.hessen.de/") }}
+      </p>
+      <p>
+        {{ _("With the GDPR compliance out of the way, here is the summary that applies to everyone (since we don't actually track where you are from):") }}
+      </p>
+      <p>
+        {{ _("It’s simple. We do not use your data. We do not care who your friends are. We do not intend to market to you or to do anything else that’s annoying. There is no monetization and no other use or processing of your data - we only store it with the purpose of making it available to you again on your devices.") }}
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

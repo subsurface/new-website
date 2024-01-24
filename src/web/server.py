@@ -129,5 +129,10 @@ def bugtracker():
     return render_template("bugtracker.html", request=request)
 
 
+@app.get("/privacy-policy")
+def privacy_policy():
+    return render_template("privacy-policy.html", request=request)
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port="8002", debug=True)
