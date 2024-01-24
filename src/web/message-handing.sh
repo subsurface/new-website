@@ -26,7 +26,10 @@ while [[ $# > 0 ]] ; do
             (
                 cd translations
                 for t in $(find . -maxdepth 1 -type d -name ??\*); do
-                    pybabel update -i messages.pot -d translations -l "$t"
+			l=$(cut -c3- <<<$t)
+			echo $l
+			echo "pybabel update -i messages.pot -d translations -l $l"
+			(cd .. ; pybabel update -i messages.pot -d translations -l "$l")
                 done
             )
         fi
