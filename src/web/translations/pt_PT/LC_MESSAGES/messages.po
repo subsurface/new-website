@@ -384,6 +384,12 @@ msgid ""
 "and names of other divers, and lets users rate dives and provide additional "
 "notes."
 msgstr ""
+"Subsurface permite <strong>planear</strong> e <strong>registar</strong> "
+"<strong>mergulhos</strong> com uma ou mais garrafas, usando ar, Nitrox ou "
+"Trimix. Permite registar os locais de mergulho, as suas coordenadas GPS (que"
+" também podem ser introduzidas facilmente através do mapa), o equipamento "
+"usado, nomes de outros mergulhadores e por fim, classificar os locais de "
+"mergulho e adicionar notas."
 
 #: templates/home.html:90
 msgid ""
