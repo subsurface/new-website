@@ -105,12 +105,12 @@ def home():
 
 
 @app.get("/latest-release")
-def lrelease():
+def latest_release():
     return render_template("latest-release.html", request=request)
 
 
 @app.get("/current-release")
-def crelease():
+def current_release():
     return render_template("current-release.html", request=request)
 
 

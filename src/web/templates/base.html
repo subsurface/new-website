@@ -49,51 +49,60 @@
                     <ul class="nav nav-pills flex-md-column flex-row flex-nowrap flex-shrink-1 flex-md-grow-0 flex-grow-1 mb-md-auto mb-0 justify-content-center align-items-center align-items-md-start"
                         id="menu">
                         <li class="nav-item">
-                            <a href="/" class="nav-link link-secondary px-md-0 px-2">
+                            <a href="/"
+                               class="nav-link {% if request.endpoint == 'home' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-home"></i><span class="ms-1 d-none d-md-inline">Home</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/current-release" class="nav-link link-secondary px-md-0 px-2">
+                            <a href="/current-release"
+                               class="nav-link {% if request.endpoint == 'current_release' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-download"></i><span class="ms-1 d-none d-md-inline">Current
                                     Release</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/latest-release" class="nav-link link-secondary px-md-0 px-2">
+                            <a href="/latest-release"
+                               class="nav-link {% if request.endpoint == 'latest_release' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-cloud-download"></i><span class="ms-1 d-none d-md-inline">Latest
                                     Dev
                                     Release</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="/documentation" class="nav-link link-secondary px-md-0 px-2">
+                            <a href="/documentation"
+                               class="nav-link {% if request.endpoint == 'documentation' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-file"></i><span
                                       class="ms-1 d-none d-md-inline">Documentation</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/user-forum" class="nav-link link-secondary px-md-0 px-2">
+                            <a href="/user-forum"
+                               class="nav-link {% if request.endpoint == 'user_forum' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-comments"></i><span class="ms-1 d-none d-md-inline">User
                                     Forum</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="/bugtracker" class="nav-link link-secondary px-md-0 px-2">
+                            <a href="/bugtracker"
+                               class="nav-link {% if request.endpoint == 'bugtracker' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-bug"></i><span class="ms-1 d-none d-md-inline">Bug
                                     Tracker</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="/faq" class="nav-link link-secondary px-md-0 px-2">
+                            <a href="/faq"
+                               class="nav-link {% if request.endpoint == 'faq' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-circle-question"></i><span
                                       class=" ms-1 d-none d-md-inline">FAQ</span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="https://subsurface-divelog.org/misc/privacy-policy"
-                               class="nav-link link-secondary px-md-0 px-2"><i class="fa fa-fw fa-user-circle"></i><span
-                                      class="ms-1 d-none d-md-inline">Privacy Policy</span></a>
+                               class="nav-link {% if request.endpoint == 'privacy_policy' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2"><i
+                                   class="fa fa-fw fa-user-circle"></i><span class="ms-1 d-none d-md-inline">Privacy
+                                    Policy</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="/contributing" class="nav-link link-secondary px-md-0 px-2">
+                            <a href="/contributing"
+                               class="nav-link {% if request.endpoint == 'contributing' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-recycle"></i><span
                                       class=" ms-1 d-none d-md-inline">Contributing</span>
                             </a>
@@ -101,7 +110,9 @@
                         <li class="nav-item">
                             <a href="https://ko-fi.com/dirkhh" target="_blank"
                                class="nav-link link-secondary px-md-0 px-2"><i class="fa fa-fw fa-coffee"></i><span
-                                      class="ms-1 d-none d-md-inline">Support me</span></a>
+                                      class="ms-1 d-none d-md-inline">Support
+                                    me</span></a>
+                        </li>
                     </ul>
                 </div>
             </div>

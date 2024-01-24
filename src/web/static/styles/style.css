@@ -8,12 +8,16 @@ background-color: #fbfbfb;
 .carousel-control-next, .carousel-control-prev { bottom: 6rem; }
 
 :root {
-  --bs-primary-rgb: #3465a4;
   --bs-body-color: #666;
   --bs-heading-color: #333;
   --bs-heading-font-weight: 500;
   --bs-body-font-family: "Open Sans",Arial,sans-serif;
   --bs-body-font-weight: 300;
+}
+
+.ssrf {
+  color: rgb(52,101,164);
+  font-weight: 500;
 }
 
 .face-button {
