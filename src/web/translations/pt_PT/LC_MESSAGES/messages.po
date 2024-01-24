@@ -337,6 +337,10 @@ msgid ""
 " programs or dive log websites. Manually enter them directly in Subsurface "
 "or via a simple spreadsheet."
 msgstr ""
+"Descarregue os seus mergulhos a partir do seu computador de mergulho. "
+"Importe mergulhos a partir de outros programas ou de sítios da Internet. Em "
+"alternativa pode introduzi-los directamente no Subsurface ou através de uma "
+"folha de cálculo simples."
 
 #: templates/home.html:48
 msgid "Dive planner"
