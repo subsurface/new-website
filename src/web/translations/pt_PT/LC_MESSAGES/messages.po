@@ -436,6 +436,13 @@ msgid ""
 "into one dive – allowing visualization of the data collected from multiple "
 "sources."
 msgstr ""
+"Outro ponto forte é a facilidade de <strong>visualizar</strong> o perfil do "
+"mergulho (e a variação da pressão da garrafa, se disponível). De uma forma "
+"inovadora o utilizador pode verificar a velocidade relativa, e o consumo de "
+"ar durante o mergulho. Os utilizadores que mergulhem com <strong>vários "
+"computadores</strong> de mergulho podem combinar os dados de cada um dos "
+"instrumentos num só mergulho – permitindo a visualização de dados obtidos a "
+"partir de várias fontes."
 
 #: templates/home.html:114
 msgid ""
