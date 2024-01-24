@@ -449,6 +449,9 @@ msgid ""
 "Subsurface lets the user <strong>print</strong> out a detailed log book "
 "including dive profiles and other important information."
 msgstr ""
+"O Subsurface permite ao utilizador <strong>imprimir</strong> um “logbook” "
+"detalhado, que pode incluir o perfil do mergulho e outra informação "
+"importante."
 
 #: templates/home.html:118
 msgid "A bit of history:"
