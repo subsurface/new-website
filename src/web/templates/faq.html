@@ -1,0 +1,828 @@
+{% extends "base.html" %}
+
+{% block title %}FAQ{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+  <div class="row g-5">
+    <div class="col-12">
+      <h1 class="ssrf">FAQ</h1>
+      <p class="lead">
+        {{ _("This page attempts to provide answers to some of the most common questions we keep receiving.") }}
+      </p>
+      <div class="accordion" id="faq">
+        <h3>{{ _("General")}}</h3>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="whyssrf">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#whyssrf_answer" aria-expanded="false" aria-controls="whyssrf_answer">
+              {{ _("Why Should I Use Subsurface?")}}
+            </button>
+          </h2>
+          <div id="whyssrf_answer" class="accordion-collapse collapse" aria-labelledby="whyssrf" data-bs-parent="#faq">
+            <div class="accordion-body">
+              {{ _("Subsurface provides recreational scuba divers, tech divers, and diving professionals with an easy to use interface for planning and logging and organizing dives. Dives can be entered manually, via spreadsheets, directly from some other dive logging software, and most importantly from many dive computers. What if you change dive computers? This is no problem with Subsurface as it is not tied to a specific dive computer manufacturer. Tech divers will appreciate the dive planner which allows you to plan using VPM-B or Bühlmann ZH-L16. Testing bailout gases, comparing different gas mixes and gradient factors, and finally printing the plan is made easy. Subsurface is free and available on multiple platforms making it the perfect software for a wide range of scuba divers.") }}
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="ossupport">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#ossupport_answer" aria-expanded="false" aria-controls="ossupport_answer">
+              {{ _("What operating systems does Subsurface support?")}}
+            </button>
+          </h2>
+          <div id="ossupport_answer" class="accordion-collapse collapse" aria-labelledby="ossupport"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Subsurface runs on Windows 10 and newer, MacOS 10.15 and newer, and many flavors of Linux. Mobile versions of Subsurface are available for Android and iOS allow a portable platform for viewing your dive log and performing minor edits; depending on your OS/hardware comby, you may even be able to download dive data directly from your dive computer using Subsurface-mobile.") }}
+              </p>
+              <p>
+                {{ _("We provide Linux packages for some Linux distributions (currently Ubuntu and Fedora, Debian is supported by a community contributor). Additionally, a Snap package and a generic AppImage are available for other distributions of Linux. Details on where to find Subsurface for your OS are on our <a %(crelease)s>current release</a> page.", crelease="href=/current-release/") }}
+              </p>
+              <p>
+                {{ _("Subsurface-mobile for iOS is available in the iOS App Store. Subsurface-mobile for Android is available as sideloaded APK at our <a %(crelease)s>current release</a> page.", crelease="href=/current-release/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="cost">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#cost_answer" aria-expanded="false" aria-controls="cost_answer">
+              {{ _("How much does Subsurface cost?")}}
+            </button>
+          </h2>
+          <div id="cost_answer" class="accordion-collapse collapse" aria-labelledby="cost" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Subsurface is open source software. It's free to use. It's written by a group of enthusiasts who do this in their spare time - including providing the Subsurface Cloud storage and all the other infrastructure. Please understand that this also means that they will respond to your requests when they have time, and they generally don't appreciate being treated like the support team of a commercial vendor. If you'd like a commercial dive log program, there are plenty others to choose from.") }}
+              </p>
+              <p>
+                {{ _("If you would like to contribute and help, there are many ways to do so. Please take a look at our <a %(contributing)s>contributing</a> page.", contributing="href=/contributing/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="feature">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#feature_answer" aria-expanded="false" aria-controls="feature_answer">
+              {{ _("Please add the following awesome feature")}}
+            </button>
+          </h2>
+          <div id="feature_answer" class="accordion-collapse collapse" aria-labelledby="feature" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("As mentioned in the previous question, Subsurface is written and maintained by volunteers. It also has several ten thousand users. The current feature set aims to find a reasonable balance between a user experience that is easy to understand, and addressing the most commonly requested features. New features often get rejected if none of the existing developers feel strongly that they would make a significant difference to the majority of our users.") }}
+              </p>
+              <p>
+                {{ _("You are of course invited and encouraged to provide an implementation for your desired new feature. Please take a look at our <a %(contributing)s>contributing</a> page.", contributing="href=/contributing/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="sac">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#sac_answer" aria-expanded="false" aria-controls="sac_answer">
+              {{ _("The gas consumption / SAC rate reported by Subsurface is wrong")}}
+            </button>
+          </h2>
+          <div id="sac_answer" class="accordion-collapse collapse" aria-labelledby="sac" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Most likely you are expecting the gas consumption calculation to follow the naive ideal gas laws. Unfortunately, real gases aren't ideal gases. And Subsurface <a %(sac)s>takes the compressibility of gases into account</a>.", sac="href=https://thetheoreticaldiver.org/wordpress/index.php/2017/11/02/when-real-gas-corrections-matter/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="my-3">OS Support</h3>
+        <h4>Windows</h4>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="wininst">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#wininst_answer" aria-expanded="false" aria-controls="wininst_answer">
+              {{ _("How do I install Subsurface on Windows?")}}
+            </button>
+          </h2>
+          <div id="wininst_answer" class="accordion-collapse collapse" aria-labelledby="wininst" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Download the installer from our <a %(crelease)s>current release</a> page and double-click on it. You will get a warning that the installer is from an unknown publisher (but should identify that publisher as Dirk Hohndel / DH Consulting). Please click Yes to allow installation. Next you are presented with the license for Subsurface, after that you can choose where you would like to install Subsurface (the default should be reasonable in most cases) and the Start Menu Folder where a shortcut to call Subsurface and an entry to uninstall Subsurface will be installed.", crelease="href=/current-release/") }}
+              </p>
+              <p>
+                {{ _("For technical reasons, some of the Windows binaries you can download from our website aren't signed at all, in which case Windows provides more and stronger warnings when trying to use them. As long as you download the binaries from this website they are save and do not contain any malware.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="winversions">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#winversions_answer" aria-expanded="false" aria-controls="winversions_answer">
+              {{ _("Supported versions")}}
+            </button>
+          </h2>
+          <div id="winversions_answer" class="accordion-collapse collapse" aria-labelledby="winversions"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Subsurface runs on Windows 10 and newer. It should still run on Windows 8 (but then, why would you want to run that). Older versions aren't supported anymore.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="winlogs">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#winlogs_answer" aria-expanded="false" aria-controls="winlogs_answer">
+              {{ _("Where do I find the log files on Windows?")}}
+            </button>
+          </h2>
+          <div id="winlogs_answer" class="accordion-collapse collapse" aria-labelledby="winlogs" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("The logs are in <code>C:\\Users\\Home\\AppData\\Roaming\\Subsurface</code> in the two files <code>subsurface_out.log</code> and <code>subsurface_err.log</code>") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="windrivers">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#windrivers_answer" aria-expanded="false" aria-controls="windrivers_answer">
+              {{ _("Which drivers do I need for my dive computer")}}
+            </button>
+          </h2>
+          <div id="windrivers_answer" class="accordion-collapse collapse" aria-labelledby="windrivers"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Great question - typically those are specific to the combination of dive computer and download cable that you use. And it's really hard to give universally correct answers.") }}
+              </p>
+              <p>
+                {{ _("Installing the vendor provided dive log software often is enough to trigger an install of those drivers, but sometimes things are a bit more complicated. Searching the <a %(forum)s>User Forum</a> often helps.", forum="href=/user-forum") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="winvirus">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#winvirus_answer" aria-expanded="false" aria-controls="winvirus_answer">
+              {{ _("Is there a virus in the Subsurface installer?")}}
+            </button>
+          </h2>
+          <div id="winvirus_answer" class="accordion-collapse collapse" aria-labelledby="winvirus"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("If you get a warning message or if Subsurface is blocked by your anti virus (AV) software, that is almost certainly a false positive. Subsurface is not built on a Windows machine, it is cross built from source on Linux on a well maintained and clean server image.") }}
+              </p>
+              <p>
+                {{ _("Most/all Windows Anti-Virus software packages support an “add exception” feature, which skips an executable from being scanned. Try adding Subsurface to the list of non-harmful software. If the Subsurface installer download is detected as malware, please temporary disable your AV software until Subsurface is installed") }}
+              </p>
+              <p>
+                {{ _("In either case, please inform your AV software vendor of a “false positive” as we assure your that Subsurface is not malware.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="wincloud">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#wincloud_answer" aria-expanded="false" aria-controls="wincloud_answer">
+              {{ _("Subsurface suddenly stops accessing the cloud")}}
+            </button>
+          </h2>
+          <div id="wincloud_answer" class="accordion-collapse collapse" aria-labelledby="wincloud"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("This can have many reasons, but a really odd one we have found is that some anti-malware products on Windows seemingly randomly decide that the traffic between Subsurface and the cloud server is an indication of malware activity and interrupt the transmissions. This can lead to cloud storage corruption and prevents things from working. You may have to add an exception for Subsurface to your hyper-aggressive anti-malware tool.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <h4 class="mt-3">macOS</h4>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="macinstall">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#macinstall_answer" aria-expanded="false" aria-controls="macinstall_answer">
+              {{ _("How do I install Subsurface on macOS?")}}
+            </button>
+          </h2>
+          <div id="macinstall_answer" class="accordion-collapse collapse" aria-labelledby="macinstall"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Download the installer DMG from our <a %(crelease)s>current release</a> page and open it. Drag the Subsurface icon on to the Applications folder icon.", crelease="href=/current-release/") }}
+              </p>
+              <p>
+                {{ _("When opening the Subsurface app for the first time, you will get a warning that this binary was downloaded from the internet. Depending on your settings and on whether or not this is a signed DMG, macOS will allow you to simply click Ok to open the app.") }}
+              </p>
+              <p>
+                {{ _("For technical reasons, some of the macOS DMGs you can download from our website aren't signed at all, in which case macOS will force you to go through the System Preferences / Security in order to allow you to start Subsurface. As long as you download the DMG from this website it are save and does not contain any malware.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="macversions">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#macversions_answer" aria-expanded="false" aria-controls="macversions_answer">
+              {{ _("Supported Versions")}}
+            </button>
+          </h2>
+          <div id="macversions_answer" class="accordion-collapse collapse" aria-labelledby="macversions"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Subsurface runs on both Apple M and Intel Macs running macOS 10.15 and newer. On Apple M Macs Subsurface currently runs in Rosettastone emulation mode. Work on fat binaries with native support for both x86_64 and Apple M chips has been started but for technical reasons currently doesn't create binaries with a great user experience.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="maceol">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#maceol_answer" aria-expanded="false" aria-controls="maceol_answer">
+              {{ _("Can you make binaries available for older macOS versions?")}}
+            </button>
+          </h2>
+          <div id="maceol_answer" class="accordion-collapse collapse" aria-labelledby="maceol" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Apple stopped supporting macOS 11 and older. We are trying to keep making binaries for 10.15 and 11 available while we can, we are no longer are able to support older versions of macOS.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="macble">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#macble_answer" aria-expanded="false" aria-controls="macble_answer">
+              {{ _("I can't download from my Bluetooth dive computer on macOS")}}
+            </button>
+          </h2>
+          <div id="macble_answer" class="accordion-collapse collapse" aria-labelledby="macble" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("This has been an ongoing issue for a while; it seems to work fine for many/most users, but some cannot seem to get Subsurface on their Mac to talk to BLE dive computers. For those people, right now the only option is to download using a mobile device / Subsurface-mobile and sync their dive log using Subsurface Cloud.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="macirda">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#macirda_answer" aria-expanded="false" aria-controls="macirda_answer">
+              {{ _("Why is my IRDA (infrared) based dive computer not working on a Mac?")}}
+            </button>
+          </h2>
+          <div id="macirda_answer" class="accordion-collapse collapse" aria-labelledby="macirda" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Subsurface on the Mac does not support IRDA based dive computers. This is an issue of missing support libraries for us to use -- other dive log software may have implemented their own IRDA stack on the Mac, we have not. Subsurface on Windows still supports IRDA based dive computers for now.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <h4 class="mt-3">Linux</h4>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="linuxversions">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#linuxversions_answer" aria-expanded="false" aria-controls="linuxversions_answer">
+              {{ _("Supported versions")}}
+            </button>
+          </h2>
+          <div id="linuxversions_answer" class="accordion-collapse collapse" aria-labelledby="linuxversions"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Subsurface can run on most Linux distributions. The project actively maintain builds for current Ubuntu and Fedora releases. A community contributor maintains Debian packages. There is also a Subsurface Snap and an AppImage for other distributions. Generally try a distribution specific binary first. If that doesn't work, try the Snap or the AppImage.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="linuxdistros">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#linuxdistros_answer" aria-expanded="false" aria-controls="linuxdistros_answer">
+              {{ _("Can you add binaries for my favorite Linux distribution?")}}
+            </button>
+          </h2>
+          <div id="linuxdistros_answer" class="accordion-collapse collapse" aria-labelledby="linuxdistros"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Adding support for another Linux distribution is generally a lot of work and given the tiny user numbers not likely to happen. But please, talk to us if you think there is a distribution that we should add instead of the ones that we currently support.") }}
+              </p>
+              <p>
+                {{ _("If you would like to contribute and help, this is a perfect opportunity to do so. Please take a look at our <a %(contributing)s>contributing</a> page.", contributing="href=/contributing/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="linuxbinaries">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#linuxbinaries_answer" aria-expanded="false" aria-controls="linuxbinaries_answer">
+              {{ _("Can I build my own binaries?")}}
+            </button>
+          </h2>
+          <div id="linuxbinaries_answer" class="accordion-collapse collapse" aria-labelledby="linuxbinaries"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Yes, generally this is pretty easy (assuming you are somewhat familiar with C/C++ development under Linux). The <code>INSTALL</code> file in the source directory should get you started. Reach out to the developers if you need help beyond that (because likely that means we need to update the <code>INSTALL</code> file...).") }}
+              </p>
+              <p>
+                {{ _("If you would like to contribute and help, this is a perfect opportunity to do so. Please take a look at our <a %(contributing)s>contributing</a> page.", contributing="href=/contributing/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="my-3">Mobile Support</h3>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="mobileinstall">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mobileinstall_answer" aria-expanded="false" aria-controls="mobileinstall_answer">
+              {{ _("How do I install Subsurface-mobile on my phone / tablet?")}}
+            </button>
+          </h2>
+          <div id="mobileinstall_answer" class="accordion-collapse collapse" aria-labelledby="mobileinstall"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("iOS users can simply install the Subsurface-mobile app that is available in iOS App Store. There is still an older version of Subsurface-mobile available in the Android Play Store, but because of the excessive bureaucracy and constantly changing rules and requirements associated with the Google Play store, we currently aren't able to update this package (and expect it to become unavailble at some point). To work around this, we have made an Android APK package available on our <a %(crelease)s>current release</a> page that can be side-loaded on most Android devices.", crelease="href=/current-release") }}
+              </p>
+              <p>
+                {{ _("Once you have installed Subsurface-mobile on your device, enable cloud storage in Subsurface from your desktop or laptop and store your dive information in the Subsurface cloud. The dives will now be available on your mobile device as well. Subsurface-mobile does not support all the features of the desktop version of Subsurface. For example dive planning is not available in Subsurface-mobile.") }}
+              </p>
+              <p>
+                {{ _("From all other devices (including tablets and phones with OSs that we don’t support with Subsurface-mobile), you can open our <a %(cloudweb)s>cloud website</a> and log in with the same email address / password. This allows you to access your dive data from any device with a web browser.", cloudweb="href=https://cloud.subsurface-divelog.org") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <h4 class="mt-3">Android</h4>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="cost">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#cost_answer" aria-expanded="false" aria-controls="cost_answer">
+              {{ _("How much does Subsurface cost?")}}
+            </button>
+          </h2>
+          <div id="cost_answer" class="accordion-collapse collapse" aria-labelledby="cost" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Subsurface is open source software. It's free to use. It's written by a group of enthusiasts who do this in their spare time - including providing the Subsurface Cloud storage and all the other infrastructure. Please understand that this
+                        also means that they will respond to your requests when they have time, and they generally don't appreciate being treated like the support team of a commercial vendor. If you'd like a commercial dive log program, there are plenty
+                        others to choose from.") }}
+              </p>
+              <p>
+                {{ _("If you would like to contribute and help, there are many ways to do so. Please take a look at our <a %(contributing)s>contributing</a> page.", contributing="href=/contributing/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="androidversion">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#androidversion_answer" aria-expanded="false" aria-controls="androidversion_answer">
+              {{ _("What's the minimum Android version required?")}}
+            </button>
+          </h2>
+          <div id="androidversion_answer" class="accordion-collapse collapse" aria-labelledby="androidversion"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("The side-loaded APK should work with Android 8.0 and newer. Older Android versions are known not to work with the Subsurface Cloud.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="androiddivecomputers">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#androiddivecomputers_answer" aria-expanded="false"
+                    aria-controls="androiddivecomputers_answer">
+              {{ _("From which dive computers can Subsurface-mobile on Android directly download?")}}
+            </button>
+          </h2>
+          <div id="androiddivecomputers_answer" class="accordion-collapse collapse"
+               aria-labelledby="androiddivecomputers" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Bluetooth and BLE based dive computers as well USB serial dive computers should generally work (assuming they are supported by Subsurface at all, of course). What doesn't work are other USB devices like USB HID (e.g., Suunto EON Steel family via cable - BLE works), USB storage (e.g., Uemis Zurich), or MTP (e.g., Garmin).") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <h4 class="mt-3">iOS</h4>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="iosdivecomputers">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iosdivecomputers_answer" aria-expanded="false"
+                    aria-controls="iosdivecomputers_answer">
+              {{ _("From which dive computers can Subsurface-mobile on iOS directly download?")}}
+            </button>
+          </h2>
+          <div id="iosdivecomputers_answer" class="accordion-collapse collapse" aria-labelledby="iosdivecomputers"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Only dive computers that support download via BLE (that are already supported in Subsurface) work with iOS devices. The Garmin dive computers are the exception to this rule, they aren't supported on iOS at all. No cable based downloads are possible.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="my-3">Usage</h3>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usageupdate">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usageupdate_answer" aria-expanded="false" aria-controls="usageupdate_answer">
+              {{ _("How do I know I have the latest version of Subsurface?")}}
+            </button>
+          </h2>
+          <div id="usageupdate_answer" class="accordion-collapse collapse" aria-labelledby="usageupdate"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("With the desktop version you can check from the Help menu: simply select “Check for updates”. The iOS version notifies you via the regular AppStore mechanisms. A notification mechanism for Android is under development.") }}
+              </p>
+              <p>
+                You can also check the <a %(crelease)s>current release</a> page to look at our reasonably frequent
+                (“weekly”) updates.", crelease="href=/current-release/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usageimport">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usageimport_answer" aria-expanded="false" aria-controls="usageimport_answer">
+              {{ _("How can I import my dives into Subsurface?")}}
+            </button>
+          </h2>
+          <div id="usageimport_answer" class="accordion-collapse collapse" aria-labelledby="usageimport"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("There are multiple ways to import into Subsurface. Details can be found in the <a %(usermanual)s>User Manual</a>.", usermanual="href=/usermanual") }}
+              </p>
+              <p>
+                {{ _("Manually logged dives can directly be entered in the UI or (in the desktop version) imported from various forms of spreadsheets.") }}
+              </p>
+              <p>
+                {{ _("Dives can be downloaded from supported dive computers. Details vary greatly depending on how the dive computer connects to your computer or mobile device.") }}
+              </p>
+              <p>
+                {{ _("It is also possible to import dive data from other software or websites. See the User Manual for the most up to date information on this – it can be found in Section 5.3.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usagesamegas">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usagesamegas_answer" aria-expanded="false" aria-controls="usagesamegas_answer">
+              {{ _("How can I use more than one tank with the same gas?")}}
+            </button>
+          </h2>
+          <div id="usagesamegas_answer" class="accordion-collapse collapse" aria-labelledby="usagesamegas"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("This is a typical question for side mount divers or some tec divers. Subsurface supports having more than one tank with the same gas, even if some dive computers don’t. Simply add a gas change to your second tank of the same gas as both tanks will be included in the gas use calculations. In order to add gas changes simply right-click on the profile at the appropriate spot and you will be offered to add such an event.") }}
+              </p>
+              <p>
+                {{ _("If you have pressure transmitters on multiple tanks with the same gas, the situation is slightly more complicated. The easiest way to ensure that there is no confusion when importing these dives is to assign slightly different gasses to those tanks, e.g. oxygen contents of 21%% and 22%% for two tanks holding air.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usagedlissues">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usagedlissues_answer" aria-expanded="false" aria-controls="usagedlissues_answer">
+              {{ _("Why is Subsurface not able to download my dives from my dive computer?")}}
+            </button>
+          </h2>
+          <div id="usagedlissues_answer" class="accordion-collapse collapse" aria-labelledby="usagedlissues"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Obvioiusly there can be many reasons for this. If your dive computer connects via cable, clean the contacts and make sure they are dry. Repeat if necessary. Make sure the connector is firmly connected. Wiggle it. Seriously. Make sure the dive computer is in transfer mode (this isn’t necessary for all dive computers but for many common ones). Check with other software that the download works in general. Try another cable. Check your battery. There are some dive computer (especially earlier Suunto models) that will happily work with a low battery, but will fail to transfer dives to a connected PC unless the battery is changed.") }}
+              </p>
+              <p>
+                {{ _("There are many more potential issues with Bluetooth or BLE dive computers. Please see our user manual for pairing with such devices and troubleshooting suggestions.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usagecsv">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usagecsv_answer" aria-expanded="false" aria-controls="usagecsv_answer">
+              {{ _("Why is the CSV import failing?")}}
+            </button>
+          </h2>
+          <div id="usagecsv_answer" class="accordion-collapse collapse" aria-labelledby="usagecsv"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("The CSV import has a couple of caveats. You should avoid some special characters like ampersand (&), less than (<), greater than (>) and double quotes (“), the latter if quoting text cells. The file should use UTF-8 character set, if having non-ASCII characters. Also the size of the CSV file might cause problems. Importing 100 dives at a time (without dive profile) has worked previously, but larger files might exceed limits of the parser used. When having  problems with CSV imports, try first with a smaller sample to make sure everything works.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usagemultiuser">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usagemultiuser_answer" aria-expanded="false" aria-controls="usagemultiuser_answer">
+              {{ _("How can I use Subsurface for multiple users?")}}
+            </button>
+          </h2>
+          <div id="usagemultiuser_answer" class="accordion-collapse collapse" aria-labelledby="usagemultiuser"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Potentially the best way to achieve this is to use multiple user accounts on the computer, all operating systems have built-in support for multiple users. This way the Subsurface configuration for each user is truely separated.") }}
+              </p>
+              <p>
+                {{ _("Another option is to store logs of different users to separate log files. From Subsurface, you can open individual files for different divers and multiple users are supported quite well, the downside of this approach is that it's incompatible with Subsurface cloud storage.") }}
+              </p>
+              <p>
+                {{ _("A blend of these approaches where you want multi-user Subsurface support within a single computer user account can be achieved as well. Subsurface has the ability support user profiles, simply launch Subsurface with the <code>--user</code> flag e.g. <code>subsurface --user=joebloggs</code>. From this user-specific workspace you can then open either locally stored or cloud hosted dive logs. You can then create different desktop shortcut icons that include this command line flag in order to make the experience more user friendly.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usagepictures">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usagepictures_answer" aria-expanded="false" aria-controls="usagepictures_answer">
+              {{ _("How can I load pictures and associate them with my dive?")}}
+            </button>
+          </h2>
+          <div id="usagepictures_answer" class="accordion-collapse collapse" aria-labelledby="usagepictures"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("This is supported in the desktop version of Subsurface. Select the dives you want to load and associate the pictures with. Then right click on one of the selected dives and select “Load images” from the popup menu. This will bring in a file selection dialog where you can select one or more pictures. When the selection is done and hit Open and you get a new dialog where you can shift the times of the images (in case of inconsistent clocks between camera and dive computer). Once you confirm this, the pictures are loaded and associated with the right dives and shown (as thumbnails) in the respective dive profiles.") }}
+              </p>
+              <p>
+                {{ _("If you are having trouble with loading the images, check that you have at least one of the following tags in the Exif headers: <code>DateTimeOriginal</code> or <code>DateTime</code>. We take the time from these fields to detect if the image was taken during the dive or not. If the picture is edited, make sure that the original Exif information is stored in the new/edited image in order for it to be loaded properly. Most modern photo editing software does that correctly by default.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usagedlimport">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usagedlimport_answer" aria-expanded="false" aria-controls="usagedlimport_answer">
+              {{ _("Can I import my dives from my old log software?")}}
+            </button>
+          </h2>
+          <div id="usagedlimport_answer" class="accordion-collapse collapse" aria-labelledby="usagedlimport"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Many common programs are already supported and we are always happy to try to add new ones. If your old log software supports exporting the log book, we might well be able to import that (for example via CSV files or UDDF). However, usually support for importing the native format will help you to get more complete information into Subsurface. To implement support for the log format, we will need a sample log file. It would be great to have also a screenshot from
+                the original log software or description of the dive that is shown on the sample log. Preferably we would like to have a reasonably simple dive to get basic support and another dive that has as many features enabled as possible (e.g. gas
+                changes during the dive). Please post this information to the user forum or send it to the developer mailing list subsurface@subsurface-divelog.org. Unfortunately some of the log formats we have not been able to decipher (as some
+                vendors have decided to encrypt their log files to increase the degree of lock-in of their customers), so there are no guarantees that this will bring support for your old log software, but it is worth a try.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usagemoredives">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usagemoredives_answer" aria-expanded="false" aria-controls="usagemoredives_answer">
+              {{ _("I cannot download all my dives, only the most recent ones even though my dive computer's manual states that it records history of e.g. 999 dives.")}}
+            </button>
+          </h2>
+          <div id="usagemoredives_answer" class="accordion-collapse collapse" aria-labelledby="usagemoredives"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Dive history is different than the dive profiles on the log. The history only keeps track of the total number of dives and total amount of time spent below surface. The logs, on the other hand, store the dive profile, but they have limited amount of memory to do so. The exact amount of dive profiles that can be stored on the device depend on sample interval and duration of the dives. Once the memory is full the oldest dives get overwritten with new dives. Thus we are only able to download the last 13, 30 or 199 dives.") }}
+              </p>
+              <p>
+                {{ _("If you have downloaded your dives to different dive logging software before they were overwritten, there is a high chance that Subsurface can import these. However, if the logs are only on your dive computer, they cannot be salvaged after being over written by new dives.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usagecloudauth">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usagecloudauth_answer" aria-expanded="false" aria-controls="usagecloudauth_answer">
+              {{ _("What to do when authentication to cloud storage fails?")}}
+            </button>
+          </h2>
+          <div id="usagecloudauth_answer" class="accordion-collapse collapse" aria-labelledby="usagecloudauth"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("If you have configured your correct user credentials to Subsurface and cloud authentication still fails, try to change the password on via the <a %(pwdreset)s>password reset</a> on our website. If your credentials are still not working or there is something else wrong, contact Dirk to sort it out.", pwdreset="href=https://cloud.subsurface-divelog.org/passwordreset") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="usagedifferentcloud">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#usagedifferentcloud_answer" aria-expanded="false"
+                    aria-controls="usagedifferentcloud_answer">
+              {{ _("Can Subsurface store my files on a different cloud server?")}}
+            </button>
+          </h2>
+          <div id="usagedifferentcloud_answer" class="accordion-collapse collapse" aria-labelledby="usagedifferentcloud"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Subsurface can store your dive log securely in the Subsurface Cloud, backing up your data, allowing you to access your dive logs on a desktop, Android, or iOS device. Additionally there is a read only web view available at <a %(cloudweb)s>the cloud webpage</a>.", cloudweb="href=https://cloud.subsurface-divelog.org") }}
+              </p>
+              <p>
+                {{ _("This is the only cloud solution available, which allows the developers the ability to enhance Subsurface, fix issues, and support users (with your permission) if something goes wrong with the Cloud Storage. The incremental effort to support additional cloud backends is substantial, while at the same time making it much harder for us to help users who run into trouble. In the end this is not a useful trade-off for us to make, so other cloud solutions continue to not be supported.") }}
+              </p>
+              <p>
+                {{ _("If you only use Subsurface on the desktop and wish to backup your log on a remote storage server, the documention describes how to store your XML data on DropBox or other similar services such as OwnCloud, TeamDrive, MiniBox, etc.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="my-3">Issues with specific dive computers</h3>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="adddc">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#adddc_answer" aria-expanded="false" aria-controls="adddc_answer">
+              {{ _("Can you add support for dive computer X?")}}
+            </button>
+          </h2>
+          <div id="adddc_answer" class="accordion-collapse collapse" aria-labelledby="adddc" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("We support a large number of dive computers already and are always happy to add support for more. Please contact us via the <a %(userforum)s>User Forum</a> so we can try to help. Some vendors have actively helped us in our work and adding support for new models from those vendors is usually easy. Other vendors are more neutral, some are actively hostile. Without help from the vendor it can be rather challenging to reverse engineer the transfer protocol and the dive encoding, but with sufficient help from you it is often possible to do so.", userforum="href=/user-forum") }}
+              </p>
+              <p>
+                {{ _("A good starting point is often to send us a libdivecomputer log and dump (you can pick those in the dive computer download dialog) when connecting to the dive computer using a similar existing model (if possible). But generally it might make the most sense to first reach out in order to avoid wasting your time.") }}
+              </p>
+              <p>
+                {{ _("If you would like to contribute and help, there are many ways to do so. Please take a look at our <a %(contributing)s>contributing</a> page.", contributing="href=/contributing/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="oldsuunto">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#oldsuunto_answer" aria-expanded="false" aria-controls="oldsuunto_answer">
+              {{ _("Old style Suunto dive computers?")}}
+            </button>
+          </h2>
+          <div id="oldsuunto_answer" class="accordion-collapse collapse" aria-labelledby="oldsuunto"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Most of the download cables are FTDI based and need the appropriate drivers installed. Some other third party cables need different drivers. Without those drivers, the dive computer device won't show up. Once you can see the device (<code>COMn</code> or <code>/dev/tty...</code>), if you get timeouts or data errors, see the data error question below.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="timeouts">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#timeouts_answer" aria-expanded="false" aria-controls="timeouts_answer">
+              {{ _("I get timeouts or data error when downloading")}}
+            </button>
+          </h2>
+          <div id="timeouts_answer" class="accordion-collapse collapse" aria-labelledby="timeouts"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Astoundingly commonly the reason are wet or dirty contacts or a low battery. It doesn't matter if the dive computer turns on. Download mode often requires much higher stable voltage to work. And sadly we even have seen situations where the vendor dive log will work (because it can do a much better job at 'error correction'), but Subsurface won't download until you have a fresh battery and really clean and really dry contacts.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="slowble">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#slowble_answer" aria-expanded="false" aria-controls="slowble_answer">
+              {{ _("BLE (Bluetooth Low Energy) downloads are incredibly slow")}}
+            </button>
+          </h2>
+          <div id="slowble_answer" class="accordion-collapse collapse" aria-labelledby="slowble" data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("Yes, yes they are. Since Subsurface supports BLE download from many different dive computers from many different vendors, the code is generally not as well tuned for a specific dive computer as the vendor app can be. So unfortunately these downloads are painfully slow. Usually downloading a few dives a day is tedious, but not horrible. But especially a first download with a hundred or more dives can take an hour and longer - and sometimes it is hard to complete the download without running into errors that lead the download to abort. It really pays off to download early and often.") }}
+              </p>
+              <p>
+                {{ _("If the dive computer offers a way to download with a USB cable (in addition to BLE, like for example the Suunto EON Steel family), that is definitely preferable especially for that first download.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <h4 class="my-3">Garmin Descent</h4>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="garminsupport">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#garminsupport_answer" aria-expanded="false" aria-controls="garminsupport_answer">
+              {{ _("Does Subsurface-mobile support the Garmin Descent family?")}}
+            </button>
+          </h2>
+          <div id="garminsupport_answer" class="accordion-collapse collapse" aria-labelledby="garminsupport"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("The Descent dive computers are only supported on Windows, macOS, and Linux, and only for cable based download. Based on a specific request from Garmin, we will not be able to support BLE downloads on any platform.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="garminfitfiles">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#garminfitfiles_answer" aria-expanded="false" aria-controls="garminfitfiles_answer">
+              {{ _("Can I import '.FIT' files directly?")}}
+            </button>
+          </h2>
+          <div id="garminfitfiles_answer" class="accordion-collapse collapse" aria-labelledby="garminfitfiles"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("If for some reason you cannot get regular downloads to work, but have access to the `.FIT` files, you can still use Subsurface to import those, still using the download code. Simply create a folder <code>...somepath.../Garmin/Activity</code> and copy the <code>.FIT</code> files into that folder. Now start a Subsurface download and enter <code>...somepath...</code> (without the <code>Garmin/Actity</code> part) in the Connection field and press Download.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="mtpconnection">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mtpconnection_answer" aria-expanded="false" aria-controls="mtpconnection_answer">
+              {{ _("Garmin Descent Mk2/Mk2i doesn't want to connect")}}
+            </button>
+          </h2>
+          <div id="mtpconnection_answer" class="accordion-collapse collapse" aria-labelledby="mtpconnection"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("The Descent Mk2/Mk2i is an MTP device which causes occasional problems when trying to download from it using Subsurface. MTP supports only a single connection, so other MTP apps may prevent Subsurface from talking to your dive computer. Exit all other apps that might try to connect to a media device, like for example the Android File Transfer.") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="mtpwindows">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mtpwindows_answer" aria-expanded="false" aria-controls="mtpwindows_answer">
+              {{ _("Garmin Descent Mk2/Mk2i on Windows")}}
+            </button>
+          </h2>
+          <div id="mtpwindows_answer" class="accordion-collapse collapse" aria-labelledby="mtpwindows"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("You need the correct USB driver in order to talk to the Descent Mk2/Mk2i.") }}
+              </p>
+              <p>
+                {{ _("Please download <a %(zadig)s>Zadig 2.6</a> and run it, plug in the Descent and select MTP, wait for Zadig to offer the Descent as an option (this may require an unplug / replug cycle), select the Descent and tell Zadig to install `libusb-win32` (wait for this to finish which takes a while), unplug the Descent and plug it back in, again selecting MTP. Now Subsurface is able to download from it (don't enter anything in the connection field)", zadig="href=https://zadig.akeo.ie/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="otherquestions">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#otherquestions_answer" aria-expanded="false" aria-controls="otherquestions_answer">
+              {{ _("Other questions")}}
+            </button>
+          </h2>
+          <div id="otherquestions_answer" class="accordion-collapse collapse" aria-labelledby="otherquestions"
+               data-bs-parent="#faq">
+            <div class="accordion-body">
+              <p>
+                {{ _("If your question wasn't answered here, please check the <a %(userforum)s>User Forum</a> and try the search function. If you don't find an answer there, create a new topic and ask for help.", userforum="https://subsurface-divelog.org/user-forum/") }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="my-5">
+        {{ _("This FAQ is maintained as part of our website in the <a %(webrepo)s>website repo</a>. Pull requests are of course welcome - you can also suggest additions to the FAQ in the <a %(userforum)s>User Forum</a>.", webrepo="href=https://github.com/subsurface/new-website", userforum="href=/user-forum") }}
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
