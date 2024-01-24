@@ -448,6 +448,9 @@ msgid ""
 "to start a new project, Linux creator Linus Torvalds decided to tackle his "
 "frustration with the lack of decent divelog software on Linux."
 msgstr ""
+"No Outono de 2011, Linus Torvalds aproveitou um periodo mais calmo no "
+"desenvolvimento do kernel Linux, para começar um novo projecto. Decidiu "
+"colmatar a falta de software de registo de mergulhos, no seu ambiente Linux."
 
 #: templates/home.html:123
 msgid ""
