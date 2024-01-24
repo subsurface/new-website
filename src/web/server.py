@@ -104,32 +104,32 @@ def home():
     return render_template("home.html", request=request)
 
 
-@app.get("/latest-release")
+@app.get("/latest-release/")
 def latest_release():
     return render_template("latest-release.html", request=request)
 
 
-@app.get("/current-release")
+@app.get("/current-release/")
 def current_release():
     return render_template("current-release.html", request=request)
 
 
-@app.get("/user-forum")
+@app.get("/user-forum/")
 def user_forum():
     return render_template("user-forum.html", request=request)
 
 
-@app.get("/contributing")
+@app.get("/contributing/")
 def contributing():
     return render_template("contributing.html", request=request)
 
 
-@app.get("/bugtracker")
+@app.get("/bugtracker/")
 def bugtracker():
     return render_template("bugtracker.html", request=request)
 
 
-@app.get("/privacy-policy")
+@app.get("/privacy-policy/")
 def privacy_policy():
     return render_template("privacy-policy.html", request=request)
 
