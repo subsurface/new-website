@@ -527,6 +527,8 @@ msgid ""
 "If you are looking for a somewhat less \"bleeding edge\" set of builds, "
 "please consider the <a %(link)s>Current Release Page</a>."
 msgstr ""
+"Se procura versões mais estáveis, por favor considere <a%(link)s>Página da "
+"versão actual</a>."
 
 #: templates/latest-release.html:49
 msgid ""
