@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-23 23:21+0000\n"
+"POT-Creation-Date: 2024-01-24 14:47+1300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: templates/bugtracker.html:16
 #, python-format
@@ -69,9 +69,9 @@ msgstr ""
 #, python-format
 msgid ""
 "If you would like to work closely with our developers and give them a "
-"hand in testing the latest features and bugfixes, please head over to <a "
-"%(link)s>the code contribution page on GitHub</a> to find out how to join"
-" the community. We especially need people running Windows and Mac (as the"
+"hand in testing the latest features and bugfixes, please head over to the"
+" code contribution page on GitHub to find out <a %(link)s>how to join the"
+" community</a>. We especially need people running Windows and Mac (as the"
 " majority of the active developers are Linux people)."
 msgstr ""
 
@@ -84,15 +84,29 @@ msgstr ""
 msgid ""
 "If you are good with words you can help us by writing, reviewing, and "
 "improving documentation and articles for our website. To get started "
-"please head over to <a %(link)s>the code contribution page on GitHub</a> "
-"to find out how join the community."
+"please head over to the code contribution page on GitHub to find out <a "
+"%(link)s>how to join the community</a>."
 msgstr ""
 
 #: templates/contributing.html:33
-msgid "By Translating Subsurface"
+msgid "By Improving the User Experience"
 msgstr ""
 
 #: templates/contributing.html:35
+#, python-format
+msgid ""
+"If like to obsess over usability and user experience, and ideally have "
+"some experience in UX and / or web design, we can always use help with "
+"improving the user experience and visual design of Subsurface and of our "
+"website. To get started please head over to the code contribution page on"
+" GitHub to find out <a %(link)s>how to join the community</a>."
+msgstr ""
+
+#: templates/contributing.html:38
+msgid "By Translating Subsurface"
+msgstr ""
+
+#: templates/contributing.html:40
 #, python-format
 msgid ""
 "If you are a non-English-speaker, and would like to be able to use "
@@ -103,11 +117,11 @@ msgid ""
 "Team</a>."
 msgstr ""
 
-#: templates/contributing.html:39
+#: templates/contributing.html:44
 msgid "By Helping Other Users"
 msgstr ""
 
-#: templates/contributing.html:41
+#: templates/contributing.html:46
 #, python-format
 msgid ""
 "We want to make Subsurface as friendly and welcoming to new users as "
@@ -116,11 +130,11 @@ msgid ""
 "from new users."
 msgstr ""
 
-#: templates/contributing.html:44
+#: templates/contributing.html:49
 msgid "By Supporting Us Financially"
 msgstr ""
 
-#: templates/contributing.html:46
+#: templates/contributing.html:51
 #, python-format
 msgid ""
 "Running Subsurface costs money. This is particularly the case for the "
