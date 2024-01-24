@@ -340,7 +340,7 @@ msgstr ""
 
 #: templates/home.html:48
 msgid "Dive planner"
-msgstr ""
+msgstr "Planeamento de mergulhos"
 
 #: templates/home.html:50
 msgid ""
