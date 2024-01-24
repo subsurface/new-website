@@ -1,128 +1,266 @@
-# Spanish (Spain) translations for PROJECT.
+# Translations template for PROJECT.
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Boret <salvador.cunat@gmail.com>, 2024
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-22 18:19+0000\n"
-"PO-Revision-Date: 2024-01-22 21:44+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es_ES\n"
-"Language-Team: es_ES <subsurface@subsurface-divelog.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2024-01-24 14:47+1300\n"
+"PO-Revision-Date: 2024-01-21 04:53+0000\n"
+"Last-Translator: Boret <salvador.cunat@gmail.com>, 2024\n"
+"Language-Team: Spanish (Spain) (https://app.transifex.com/subsurface/teams/15508/es_ES/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: templates/current-release.html:14
+#: templates/bugtracker.html:15
+#, python-format
+msgid ""
+"While we are happy to receive bug reports (and patches!) on our <a "
+"%(mailman)s>mailing list</a>, you can also open issues on our <a "
+"%(githubissue)s>main Subsurface repository on GitHub</a>."
+msgstr ""
+
+#: templates/bugtracker.html:18 templates/user-forum.html:21
+msgid ""
+"The preferred language is English, but we’ll make an effort to answer "
+"questions in other languages as well (not everyone is comfortable posting in"
+" English…)"
+msgstr ""
+
+#: templates/contributing.html:3
+msgid "Contributing to Subsurface"
+msgstr ""
+
+#: templates/contributing.html:13
+msgid "Contributing"
+msgstr ""
+
+#: templates/contributing.html:15
+msgid ""
+"Subsurface is a community driven open source project. It is available free "
+"of charge to everybody, and nobody gets paid to work on it. If you like it "
+"and would like to contribute back there are a number of different ways you "
+"can do so:"
+msgstr ""
+
+#: templates/contributing.html:17
+msgid "By Writing Code"
+msgstr ""
+
+#: templates/contributing.html:19
+#, python-format
+msgid ""
+"If you are a software developer (of any experience level), your help with "
+"maintaining and extending Subsurface will be greatly appreciated. Have a "
+"look at <a %(link)s>the code contribution page on GitHub</a> to see how you "
+"can get started."
+msgstr ""
+
+#: templates/contributing.html:22
+msgid "By Testing"
+msgstr ""
+
+#: templates/contributing.html:24
+#, python-format
+msgid ""
+"If you would like to work closely with our developers and give them a hand "
+"in testing the latest features and bugfixes, please head over to the code "
+"contribution page on GitHub to find out <a %(link)s>how to join the "
+"community</a>. We especially need people running Windows and Mac (as the "
+"majority of the active developers are Linux people)."
+msgstr ""
+
+#: templates/contributing.html:27
+msgid "By Writing Documentation"
+msgstr ""
+
+#: templates/contributing.html:29
+#, python-format
+msgid ""
+"If you are good with words you can help us by writing, reviewing, and "
+"improving documentation and articles for our website. To get started please "
+"head over to the code contribution page on GitHub to find out <a "
+"%(link)s>how to join the community</a>."
+msgstr ""
+
+#: templates/contributing.html:33
+msgid "By Improving the User Experience"
+msgstr ""
+
+#: templates/contributing.html:34
+#, python-format
+msgid ""
+"If like to obsess over usability and user experience, and ideally have some "
+"experience in UX and / or web design, we can always use help with improving "
+"the user experience and visual design of Subsurface and of our website. To "
+"get started please head over to the code contribution page on GitHub to find"
+" out <a %(link)s>how to join the community</a>."
+msgstr ""
+
+#: templates/contributing.html:38
+msgid "By Translating Subsurface"
+msgstr ""
+
+#: templates/contributing.html:40
+#, python-format
+msgid ""
+"If you are a non-English-speaker, and would like to be able to use "
+"Subsurface in your native language, you can help make this happen by "
+"supporting us as a translator. As our translations are centrally handled at "
+"<a %(transifex)s>Transifex</a> - please sign up for an account there and "
+"then request to join the <a %(transifex_subsurface)s>Subsurface Team</a>."
+msgstr ""
+
+#: templates/contributing.html:44
+msgid "By Helping Other Users"
+msgstr ""
+
+#: templates/contributing.html:46
+#, python-format
+msgid ""
+"We want to make Subsurface as friendly and welcoming to new users as "
+"possible. If you are a seasoned user of Subsurface please join our <a "
+"%(link)s>User Forum</a> and provide helpful responses to the questions from "
+"new users."
+msgstr ""
+
+#: templates/contributing.html:49
+msgid "By Supporting Us Financially"
+msgstr ""
+
+#: templates/contributing.html:51
+#, python-format
+msgid ""
+"Running Subsurface costs money. This is particularly the case for the free "
+"cloud based synchronisation of dive logs that is built into Subsurface. The "
+"principal maintainer of Subsurface and of our infrastructure appreciates "
+"donations to help cover these expenses. If you would like to help with this "
+"you can do so through <a %(link)s>Dirk's Ko-fi page</a>."
+msgstr ""
+
+#: templates/current-release.html:13
 #, python-format
 msgid "Current \"Weekly\" Release: %(version)s"
-msgstr ""
+msgstr "Versión \"Semanal\" actual: %(version)s"
 
-#: templates/current-release.html:18
+#: templates/current-release.html:17
 msgid ""
-"The releases on this page are what we consider the current release builds"
-" of Subsurface."
+"The releases on this page are what we consider the current release builds of"
+" Subsurface."
 msgstr ""
+"Las publicaciones en esta página son lo que consideramos las compilaciones "
+"de versiones actualizadas de Subsurface."
 
-#: templates/current-release.html:21
+#: templates/current-release.html:20
 msgid ""
-"We expect these builds to be reasonably stable and somewhat tested, and "
-"as the name suggests try to update them about once a week (the actual "
-"frequency may vary)."
+"We expect these builds to be reasonably stable and somewhat tested, and as "
+"the name suggests try to update them about once a week (the actual frequency"
+" may vary)."
 msgstr ""
+"Esperamos que estas compilaciones sean razonablemente estables y testadas "
+"hasta cierto punto y, como el nombre sugiere, intentamos actualizarlas una "
+"vez por semana (la frecuencia real puede variar)."
 
-#: templates/current-release.html:24
+#: templates/current-release.html:23
 #, python-format
 msgid ""
-"If you are looking for more \"bleeding edge\" releases builds, please "
-"check out the <a %(link)s>Latest Release Page</a>."
+"If you are looking for more \"bleeding edge\" releases builds, please check "
+"out the <a %(link)s>Latest Release Page</a>."
 msgstr ""
+"Si estás buscando publicaciones más \"de última hora\", visita la página <a "
+"%(link)s>Últimas Versiones</a>."
 
-#: templates/current-release.html:33 templates/current-release.html:47
-#: templates/current-release.html:61 templates/current-release.html:104
-#: templates/latest-release.html:30 templates/latest-release.html:44
-#: templates/latest-release.html:58 templates/latest-release.html:101
+#: templates/current-release.html:32 templates/current-release.html:46
+#: templates/current-release.html:60 templates/current-release.html:103
+#: templates/latest-release.html:29 templates/latest-release.html:43
+#: templates/latest-release.html:57 templates/latest-release.html:100
 msgid "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-msgstr ""
+msgstr "Descargar...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 
-#: templates/current-release.html:39 templates/latest-release.html:36
+#: templates/current-release.html:38 templates/latest-release.html:35
 msgid ""
-"This Subsurface Windows installer is not signed and Windows will likely "
-"ask you to confirm that you want to install this program."
+"This Subsurface Windows installer is not signed and Windows will likely ask "
+"you to confirm that you want to install this program."
 msgstr ""
+"Este instalador de Subsurface en Windows no está firmado, así que Windows "
+"probablemente te pida que confirmes que quieres instalar este programa."
 
-#: templates/current-release.html:53
+#: templates/current-release.html:52
 #, python-format
 msgid ""
-"We try to post a signed Subsurface macOS DMG here. If your Mac doesn't "
-"want to install this image, please let us know in the <a %(link)s>User "
-"Forum</a>."
+"We try to post a signed Subsurface macOS DMG here. If your Mac doesn't want "
+"to install this image, please let us know in the <a %(link)s>User Forum</a>."
 msgstr ""
 
-#: templates/current-release.html:67 templates/latest-release.html:64
+#: templates/current-release.html:66 templates/latest-release.html:63
 msgid ""
-"The Subsurface Android APK can be side-loaded on most Android devices. If"
-" you previously had installed Subsurface-mobile from the Google Play "
-"store, the first time you switch to a side-loaded app, you'll have to "
-"uninstall the Play store version. Make sure your data is synced to the "
-"Subsurface Cloud. After you install this APK and log in to the Subsurface"
-" Cloud again, the data will be restored. Every subsequent update will not"
-" require an uninstall."
+"The Subsurface Android APK can be side-loaded on most Android devices. If "
+"you previously had installed Subsurface-mobile from the Google Play store, "
+"the first time you switch to a side-loaded app, you'll have to uninstall the"
+" Play store version. Make sure your data is synced to the Subsurface Cloud. "
+"After you install this APK and log in to the Subsurface Cloud again, the "
+"data will be restored. Every subsequent update will not require an "
+"uninstall."
 msgstr ""
 
-#: templates/current-release.html:75 templates/latest-release.html:72
+#: templates/current-release.html:74 templates/latest-release.html:71
 msgid "AppStore Link&nbsp;&nbsp;"
 msgstr ""
 
-#: templates/current-release.html:81
+#: templates/current-release.html:80
 msgid ""
 "iOS is the only platform right now where in general side-loading or "
-"installing unsigned binaries is impossible (apparently that may change "
-"for users in the EU, but not elsewhere). As a result we cannot make new "
-"versions of Subsurface-mobile for iOS available here, but the goal is to "
-"update the AppStore version to the \"weekly\" versions reasonably "
-"frequently as well."
+"installing unsigned binaries is impossible (apparently that may change for "
+"users in the EU, but not elsewhere). As a result we cannot make new versions"
+" of Subsurface-mobile for iOS available here, but the goal is to update the "
+"AppStore version to the \"weekly\" versions reasonably frequently as well."
 msgstr ""
 
-#: templates/current-release.html:87 templates/latest-release.html:84
+#: templates/current-release.html:86 templates/latest-release.html:83
 msgid ""
-"The Subsurface team is providing distribution packages for Ubuntu and "
-"Fedora as well as a generic \"AppImage\" that should work on most other "
-"x86_64 Linux distributions."
+"The Subsurface team is providing distribution packages for Ubuntu and Fedora"
+" as well as a generic \"AppImage\" that should work on most other x86_64 "
+"Linux distributions."
 msgstr ""
 
-#: templates/current-release.html:89 templates/latest-release.html:86
+#: templates/current-release.html:88 templates/latest-release.html:85
 msgid "Ubuntu and compatible distros"
 msgstr ""
 
-#: templates/current-release.html:90 templates/latest-release.html:87
+#: templates/current-release.html:89 templates/latest-release.html:86
 msgid ""
-"To use these binaries in Ubuntu, simply add the Subsurface Daily Release "
-"PPA to your system:"
+"To use these binaries in Ubuntu, simply add the Subsurface Daily Release PPA"
+" to your system:"
 msgstr ""
 
-#: templates/current-release.html:92 templates/latest-release.html:89
-msgid "and then install Subsurface with <code>sudo apt install subsurface </code>"
+#: templates/current-release.html:91 templates/latest-release.html:88
+msgid ""
+"and then install Subsurface with <code>sudo apt install subsurface </code>"
 msgstr ""
 
-#: templates/current-release.html:94 templates/latest-release.html:91
+#: templates/current-release.html:93 templates/latest-release.html:90
 msgid "To install the Subsurface CICD binaries on Fedora simply run"
 msgstr ""
 
-#: templates/current-release.html:96 templates/latest-release.html:93
+#: templates/current-release.html:95 templates/latest-release.html:92
 msgid "and then install Subsurface with <code>dnf install subsurface</code>"
 msgstr ""
 
-#: templates/current-release.html:97 templates/latest-release.html:94
+#: templates/current-release.html:96 templates/latest-release.html:93
 msgid "Other x86_64 Linux distributions"
 msgstr ""
 
-#: templates/current-release.html:110 templates/latest-release.html:107
+#: templates/current-release.html:109 templates/latest-release.html:106
 #, python-format
 msgid ""
 "A generic AppImage is available. After you download this file, make it "
@@ -130,189 +268,264 @@ msgid ""
 "release.AppImage</code>, and then simply run this file."
 msgstr ""
 
-#: templates/home.html:15
+#: templates/home.html:14
 msgid "We switched to rolling releases"
 msgstr ""
 
-#: templates/home.html:17
+#: templates/home.html:16
 #, python-format
-msgid "Please check out <a %(link)s>the announcement of the Release Changes</a>"
+msgid ""
+"Please check out <a %(link)s>the announcement of the Release Changes</a>"
 msgstr ""
 
-#: templates/home.html:29
+#: templates/home.html:28
 msgid "Multiplatform"
 msgstr ""
 
-#: templates/home.html:31
+#: templates/home.html:30
 msgid ""
 "Subsurface is an open source divelog program for recreational, tech, and "
 "free-divers that runs on Windows, Mac, and Linux"
 msgstr ""
 
-#: templates/home.html:39
+#: templates/home.html:38
 msgid "Log all your dives"
 msgstr ""
 
-#: templates/home.html:41
+#: templates/home.html:40
 msgid ""
-"Download your dives from your dive computer. Import them from other dive "
-"log programs or dive log websites. Manually enter them directly in "
-"Subsurface or via a simple spreadsheet."
+"Download your dives from your dive computer. Import them from other dive log"
+" programs or dive log websites. Manually enter them directly in Subsurface "
+"or via a simple spreadsheet."
 msgstr ""
 
-#: templates/home.html:49
+#: templates/home.html:48
 msgid "Dive planner"
 msgstr ""
 
-#: templates/home.html:51
+#: templates/home.html:50
 msgid ""
-"The planner module makes it simple to visually plan dives either based on"
-" Bühlmann ZH-16 or VPM-B"
+"The planner module makes it simple to visually plan dives either based on "
+"Bühlmann ZH-16 or VPM-B"
 msgstr ""
 
-#: templates/home.html:59
+#: templates/home.html:58
 msgid "Subsurface-mobile"
 msgstr ""
 
-#: templates/home.html:61
+#: templates/home.html:60
 msgid ""
-"Using Subsurface-mobile on your Android or iOS device you can access your"
-" dive log anywhere"
+"Using Subsurface-mobile on your Android or iOS device you can access your "
+"dive log anywhere"
 msgstr ""
 
-#: templates/home.html:69
+#: templates/home.html:68
 msgid "Cloud storage"
 msgstr ""
 
-#: templates/home.html:71
+#: templates/home.html:70
 msgid ""
 "Store your logbook data in the cloud. Work with your data from different "
 "devices, online and offline. Fully integrated, free, and easy to set up."
 msgstr ""
 
-#: templates/home.html:88
+#: templates/home.html:87
 msgid ""
-"Subsurface can <strong>plan</strong> and <strong>track</strong> single- "
-"and multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It "
-"allows tracking of dive locations including GPS coordinates (which can "
-"also conveniently be entered using a map interface), logging of equipment"
-" used and names of other divers, and lets users rate dives and provide "
-"additional notes."
+"Subsurface can <strong>plan</strong> and <strong>track</strong> single- and "
+"multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It allows "
+"tracking of dive locations including GPS coordinates (which can also "
+"conveniently be entered using a map interface), logging of equipment used "
+"and names of other divers, and lets users rate dives and provide additional "
+"notes."
 msgstr ""
 
-#: templates/home.html:91
+#: templates/home.html:90
 msgid ""
-"You can tag dives and <strong>filter a dive list</strong> based on "
-"criteria including tags, locations and people with whom you were diving. "
-"You can group the dive list into trips, and edit multiple dives at the "
-"same time, making it easy to support a large number of dives."
+"You can tag dives and <strong>filter a dive list</strong> based on criteria "
+"including tags, locations and people with whom you were diving. You can "
+"group the dive list into trips, and edit multiple dives at the same time, "
+"making it easy to support a large number of dives."
 msgstr ""
 
-#: templates/home.html:96
+#: templates/home.html:95
 msgid ""
-"Subsurface also calculates a wide variety of <strong>statistics</strong> "
-"of the user’s diving and tracks information like the SAC rate, partial "
+"Subsurface also calculates a wide variety of <strong>statistics</strong> of "
+"the user’s diving and tracks information like the SAC rate, partial "
 "pressures of O2, N2 and He, calculated deco information, and many more."
 msgstr ""
 
-#: templates/home.html:99
+#: templates/home.html:98
 msgid ""
-"<strong>Multiple divers</strong> can share one instance of Subsurface "
-"using different preferences and settings."
+"<strong>Multiple divers</strong> can share one instance of Subsurface using "
+"different preferences and settings."
 msgstr ""
 
-#: templates/home.html:102
+#: templates/home.html:101
 msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
 
-#: templates/home.html:107
+#: templates/home.html:106
 #, python-format
 msgid ""
-"One of the major strengths of Subsurface is its support of a wide range "
-"of <strong>dive computers</strong> (see the <a %(link)s>list of supported"
-" dive computers</a>). Subsurface can also import existing dive logs from "
-"several sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and "
-"divelogs.de."
+"One of the major strengths of Subsurface is its support of a wide range of "
+"<strong>dive computers</strong> (see the <a %(link)s>list of supported dive "
+"computers</a>). Subsurface can also import existing dive logs from several "
+"sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de."
 msgstr ""
 
-#: templates/home.html:110
+#: templates/home.html:109
 msgid ""
 "Another strength is its ability to <strong>visualize</strong> the depth "
-"profile (and, if available, the tank pressure curve) in innovative ways "
-"that give the user additional information on relative velocity, and "
-"momentary air consumption, during a dive. Users who dive with "
-"<strong>multiple dive computers</strong> can combine the data from each "
-"of their dive computers into one dive – allowing visualization of the "
-"data collected from multiple sources."
+"profile (and, if available, the tank pressure curve) in innovative ways that"
+" give the user additional information on relative velocity, and momentary "
+"air consumption, during a dive. Users who dive with <strong>multiple dive "
+"computers</strong> can combine the data from each of their dive computers "
+"into one dive – allowing visualization of the data collected from multiple "
+"sources."
 msgstr ""
 
-#: templates/home.html:115
+#: templates/home.html:114
 msgid ""
 "Subsurface lets the user <strong>print</strong> out a detailed log book "
 "including dive profiles and other important information."
 msgstr ""
 
-#: templates/home.html:119
+#: templates/home.html:118
 msgid "A bit of history:"
 msgstr ""
 
-#: templates/home.html:121
+#: templates/home.html:120
 msgid ""
-"In fall of 2011, when a forced lull in kernel development gave him a "
-"chance to start a new project, Linux creator Linus Torvalds decided to "
-"tackle his frustration with the lack of decent divelog software on Linux."
+"In fall of 2011, when a forced lull in kernel development gave him a chance "
+"to start a new project, Linux creator Linus Torvalds decided to tackle his "
+"frustration with the lack of decent divelog software on Linux."
 msgstr ""
 
-#: templates/home.html:124
+#: templates/home.html:123
 msgid ""
-"Linus worked with a team of developers, and Subsurface is the result. It "
-"now supports Linux, Windows and MacOS and allows data import from many "
-"dive computers and several existing divelog programs. It provides a quick"
-" and easy way to see the key information provided by a modern dive "
-"computer and lets users track a wide variety of data about their dives. "
-"In fall of 2012 Dirk Hohndel took over as Subsurface maintainer."
+"Linus worked with a team of developers, and Subsurface is the result. It now"
+" supports Linux, Windows and MacOS and allows data import from many dive "
+"computers and several existing divelog programs. It provides a quick and "
+"easy way to see the key information provided by a modern dive computer and "
+"lets users track a wide variety of data about their dives. In fall of 2012 "
+"Dirk Hohndel took over as Subsurface maintainer."
 msgstr ""
 
-#: templates/latest-release.html:14
+#: templates/latest-release.html:13
 #, python-format
 msgid "Latest Development (CICD) Release: %(version)s"
 msgstr ""
 
-#: templates/latest-release.html:18
+#: templates/latest-release.html:17
 msgid ""
 "The releases on this page are the latest builds from the Subsurface CICD "
 "(Continuous Integration, Continuous Development) system. While we don't "
-"expect them to be broken very often, they are generally released in order"
-" to facilitate testing, and as such may not have received a lot of "
-"testing, yet."
+"expect them to be broken very often, they are generally released in order to"
+" facilitate testing, and as such may not have received a lot of testing, "
+"yet."
 msgstr ""
 
-#: templates/latest-release.html:21
+#: templates/latest-release.html:20
 #, python-format
 msgid ""
 "If you are looking for a somewhat less \"bleeding edge\" set of builds, "
-"please consider the <a %(link)s></a>Curren Release Page</a>."
+"please consider the <a %(link)s>Current Release Page</a>."
 msgstr ""
 
-#: templates/latest-release.html:50
+#: templates/latest-release.html:49
 msgid ""
-"The Subsurface macOS DMG is not signed. macOS will force you through a "
-"few extra steps before you can install or run this program. You can "
-"simplify the process by control-clicking (or two-finger-clicking) on the "
-"executable and selecting to open it."
+"The Subsurface macOS DMG is not signed. macOS will force you through a few "
+"extra steps before you can install or run this program. You can simplify the"
+" process by control-clicking (or two-finger-clicking) on the executable and "
+"selecting to open it."
 msgstr ""
 
-#: templates/latest-release.html:78
+#: templates/latest-release.html:77
 #, python-format
 msgid ""
 "iOS is the only platform right now where in general side-loading or "
-"installing unsigned binaries is impossible (apparently that may change "
-"for users in the EU, but not elsewhere). As a result we cannot make new "
-"versions of Subsurface-mobile for iOS available here. We try to push many"
-" of these builds into our public TestFlight account. If you like to be on"
-" the bleading edge, you can <a %(link)s>sign up for the Subsurface-mobile"
-" TestFlight.</a>"
+"installing unsigned binaries is impossible (apparently that may change for "
+"users in the EU, but not elsewhere). As a result we cannot make new versions"
+" of Subsurface-mobile for iOS available here. We try to push many of these "
+"builds into our public TestFlight account. If you like to be on the bleading"
+" edge, you can <a %(link)s>sign up for the Subsurface-mobile TestFlight.</a>"
 msgstr ""
 
+#: templates/privacy-policy.html:15
+msgid ""
+"This Privacy Notice is to inform EU and U.K. citizens who use Subsurface how"
+" their personal information is used."
+msgstr ""
+
+#: templates/privacy-policy.html:18
+msgid ""
+"Personal information is limited to your email address, online and system "
+"identifies, enabling a registered user account to be created and maintained."
+" The information is processed to provide the Subsurface application to "
+"registered users, the lawful purpose: contract obligation."
+msgstr ""
+
+#: templates/privacy-policy.html:21
+msgid ""
+"Personal information is held whilst a user is registered. User accounts can "
+"be deleted on request. See contact information below."
+msgstr ""
+
+#: templates/privacy-policy.html:24
+msgid ""
+"Subsurface is run on mirrored servers, some in the US and others in the EU "
+"(Germany). Personal information is protected by design and the application "
+"of security measures. Personal information is not shared with any other "
+"entity."
+msgstr ""
+
+#: templates/privacy-policy.html:27
+#, python-format
+msgid ""
+"To contact Subsurface please reach out to the Data Protection Lead: Email: "
+"%(email)s"
+msgstr ""
+
+#: templates/privacy-policy.html:30
+msgid ""
+"Post mail: Subsurface Data Protection Lead, c/o DH Consulting, 12725 SW "
+"Millikan Way, #300 Beaverton, OR 97005 USA."
+msgstr ""
+
+#: templates/privacy-policy.html:33
+#, python-format
+msgid ""
+"The EU regulatory authority Subsurface comes under is: <a "
+"%(link)s>https://datenschutz.hessen.de/</a>."
+msgstr ""
+
+#: templates/privacy-policy.html:36
+msgid ""
+"With the GDPR compliance out of the way, here is the summary that applies to"
+" everyone (since we don't actually track where you are from):"
+msgstr ""
+
+#: templates/privacy-policy.html:39
+msgid ""
+"It’s simple. We do not use your data. We do not care who your friends are. "
+"We do not intend to market to you or to do anything else that’s annoying. "
+"There is no monetization and no other use or processing of your data - we "
+"only store it with the purpose of making it available to you again on your "
+"devices."
+msgstr ""
+
+#: templates/user-forum.html:15
+#, python-format
+msgid ""
+"Do you have questions, comments, or suggestions for Subsurface? Please join "
+"our <a %(link)s>User Forum</a>."
+msgstr ""
+
+#: templates/user-forum.html:18
+msgid ""
+"You can access it on the Subsurface Google Group website or you can "
+"subscribe to it via email; simply check the corresponding box when joining "
+"the forum."
+msgstr ""
