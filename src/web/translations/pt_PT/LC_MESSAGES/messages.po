@@ -6,7 +6,7 @@
 # Translators:
 # Pedro António Neves <nevesdiver@gmail.com>, 2024
 # 
-#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
@@ -29,6 +29,10 @@ msgid ""
 "%(mailman)s>mailing list</a>, you can also open issues on our <a "
 "%(githubissue)s>main Subsurface repository on GitHub</a>."
 msgstr ""
+"Apesar de ficarmos contentes se recebermos relatos de falhas e problemas "
+"(bem como código para os resolver!) na nossa  <a %(mailman)s>mailing "
+"list</a>, pode igualmente abrir assuntos na página do nosso "
+"<a%(githubissue)s> repositório principal no GitHub</a>."
 
 #: templates/bugtracker.html:18 templates/user-forum.html:21
 msgid ""
@@ -36,14 +40,17 @@ msgid ""
 "questions in other languages as well (not everyone is comfortable posting in"
 " English…)"
 msgstr ""
+"A língua preferida é o Inglês, mas faremos um esforço para responder a "
+"perguntas noutras línguas também (nem todos estão confortáveis a escrever em"
+" inglês...)"
 
 #: templates/contributing.html:3
 msgid "Contributing to Subsurface"
-msgstr ""
+msgstr "Contribuir para o Subsurface"
 
 #: templates/contributing.html:13
 msgid "Contributing"
-msgstr ""
+msgstr "Contribuir"
 
 #: templates/contributing.html:15
 msgid ""
@@ -52,10 +59,14 @@ msgid ""
 "and would like to contribute back there are a number of different ways you "
 "can do so:"
 msgstr ""
+"O Subsurface é um projecto de código aberto conduzido por uma comunidade de "
+"pessoas. O programa é disponibilizado de forma gratuita a todos e ninguém é "
+"pago para trabalhar no projecto. Se gosta do Subsurface e gostaria de "
+"contribuir, existe um conjunto de formas através das quais pode fazê-lo:"
 
 #: templates/contributing.html:17
 msgid "By Writing Code"
-msgstr ""
+msgstr "A programar"
 
 #: templates/contributing.html:19
 #, python-format
@@ -65,10 +76,14 @@ msgid ""
 "look at <a %(link)s>the code contribution page on GitHub</a> to see how you "
 "can get started."
 msgstr ""
+"Se é um programador (com qualquer nível de experiência), a sua ajuda a "
+"manter e a melhorar o Subsurface será bem apreciada. Dê uma vista de olhos "
+"à<a %(link)s>página de contribuição com código no GitHib</a> para ver como "
+"começar."
 
 #: templates/contributing.html:22
 msgid "By Testing"
-msgstr ""
+msgstr "A testar"
 
 #: templates/contributing.html:24
 #, python-format
@@ -82,7 +97,7 @@ msgstr ""
 
 #: templates/contributing.html:27
 msgid "By Writing Documentation"
-msgstr ""
+msgstr "Escrevendo documentação"
 
 #: templates/contributing.html:29
 #, python-format
@@ -95,7 +110,7 @@ msgstr ""
 
 #: templates/contributing.html:33
 msgid "By Improving the User Experience"
-msgstr ""
+msgstr "Melhorando a experiência dos utilizadores"
 
 #: templates/contributing.html:34
 #, python-format
@@ -109,7 +124,7 @@ msgstr ""
 
 #: templates/contributing.html:38
 msgid "By Translating Subsurface"
-msgstr ""
+msgstr "Traduzindo o Subsurface"
 
 #: templates/contributing.html:40
 #, python-format
@@ -123,7 +138,7 @@ msgstr ""
 
 #: templates/contributing.html:44
 msgid "By Helping Other Users"
-msgstr ""
+msgstr "Ajudando outros utilizadores"
 
 #: templates/contributing.html:46
 #, python-format
@@ -136,7 +151,7 @@ msgstr ""
 
 #: templates/contributing.html:49
 msgid "By Supporting Us Financially"
-msgstr ""
+msgstr "Apoiando-nos financeiramente"
 
 #: templates/contributing.html:51
 #, python-format
@@ -292,7 +307,7 @@ msgstr ""
 
 #: templates/home.html:14
 msgid "We switched to rolling releases"
-msgstr ""
+msgstr "Mudámos para versões contínuas"
 
 #: templates/home.html:16
 #, python-format
