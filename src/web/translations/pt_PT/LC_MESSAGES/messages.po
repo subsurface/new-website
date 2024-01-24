@@ -398,6 +398,11 @@ msgid ""
 "group the dive list into trips, and edit multiple dives at the same time, "
 "making it easy to support a large number of dives."
 msgstr ""
+"Os utilizadores podem definir e atribuir etiquetas de classificação aos "
+"mergulhos. Podem também <strong>filtrar a lista de mergulhos</strong> com "
+"base em diversos critérios como etiquetas, locais, ou companheiros de "
+"mergulho. Pode agrupar mergulhos em viagens e editar vários mergulho em "
+"simultâneo, tornando simples a gestão de muitos registos."
 
 #: templates/home.html:95
 msgid ""
