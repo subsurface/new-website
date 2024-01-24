@@ -313,7 +313,7 @@ msgstr "Mudámos para versões contínuas"
 #, python-format
 msgid ""
 "Please check out <a %(link)s>the announcement of the Release Changes</a>"
-msgstr ""
+msgstr "Por favor veja <a%(link)s>os anúncios das novas versões</a>"
 
 #: templates/home.html:28
 msgid "Multiplatform"
