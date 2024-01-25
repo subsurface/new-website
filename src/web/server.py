@@ -63,7 +63,7 @@ def utility_processor():
         if key == "lappimage":
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-v{env['lrelease'].value}-CICD-release.AppImage"
         if key == "cwindows":
-            return f"https://subsurface-divelog.org/download/subsurface-{env['crelease'].value}-CICD-release-installer.exe"
+            return f"https://subsurface-divelog.org/downloads/subsurface-{env['crelease'].value}-CICD-release-installer.exe"
         if key == "cmacos":
             return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease'].value}-CICD-release.dmg"
         if key == "candroid":
