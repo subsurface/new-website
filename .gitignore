@@ -2,5 +2,6 @@ __pycache__
 venv
 .vscode
 .github.secret
+images/
 src/web/templates/SupportedDivecomputers.html
 src/web/persistent.store

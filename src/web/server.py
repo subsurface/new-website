@@ -107,6 +107,11 @@ def favicon():
     )
 
 
+@app.route("/images/<path:path>")
+def send_report(path):
+    return send_from_directory(os.path.join(app.root_path, "images"), path)
+
+
 @app.get("/")
 def home():
     return render_template("home.html", request=request)
@@ -165,6 +170,11 @@ def documentation():
 @app.get("/supported-dive-computers/")
 def supported_dive_computers():
     return render_template("supported-dive-computers.html", request=request)
+
+
+@app.get("/subsurface-user-manual/")
+def subsurface_user_manual():
+    return render_template("subsurface-user-manual.html", request=request)
 
 
 if __name__ == "__main__":
