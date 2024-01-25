@@ -75,19 +75,27 @@ def utility_processor():
     return dict(get_env=get_env)
 
 
+# helper function to consistently redirect multi-level paths to the new flat url scheme
 def redirector(urlpath=""):
-    print(f"universal redirector for request {request.path} with urlpath {urlpath}")
-    lang = request.path.split("/")[1]
-    return redirect(f"/{urlpath}?lang={lang}")
+    print(
+        f"universal redirector for request {request.full_path} with urlpath {urlpath}"
+    )
+    first = request.path.split("/")[1]
+    if first == "misc" or first == "documentation":
+        print(f"converting to {request.full_path.replace(f'/{first}', '')}")
+        return redirect(f"{request.full_path.replace(f'/{first}', '')}")
+    return redirect(f"/{urlpath}?lang={first}")
 
 
-# next set up the various language routes...
+# next set up the various language routes as well as the misc and documentation routes
 for l in languages:
     app.add_url_rule(f"/{l}/", view_func=redirector)
     app.add_url_rule(f"/{l}/<path:urlpath>", view_func=redirector)
     if len(l) > 2 and l[2] == "_":
         app.add_url_rule(f"/{l[:2]}/", view_func=redirector)
         app.add_url_rule(f"/{l[:2]}/<path:urlpath>", view_func=redirector)
+app.add_url_rule(f"/misc/<path:urlpath>", view_func=redirector)
+app.add_url_rule(f"/docuementation/<path:urlpath>", view_func=redirector)
 
 
 @app.route("/favicon.ico")
