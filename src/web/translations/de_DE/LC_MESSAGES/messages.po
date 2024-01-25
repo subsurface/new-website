@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-25 00:20+0000\n"
+"POT-Creation-Date: 2024-01-25 03:52+0000\n"
 "PO-Revision-Date: 2024-01-21 00:12+0000\n"
 "Last-Translator: Dirk Hohndel <dirk@hohndel.org>\n"
 "Language: de_DE\n"
@@ -20,6 +20,46 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
+
+#: templates/base.html:55
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:62
+msgid "Current Release"
+msgstr ""
+
+#: templates/base.html:69
+msgid "Latest Dev Release"
+msgstr ""
+
+#: templates/base.html:75
+msgid "Documentation"
+msgstr ""
+
+#: templates/base.html:82
+msgid "User Forum"
+msgstr ""
+
+#: templates/base.html:88
+msgid "Bug Tracker"
+msgstr ""
+
+#: templates/base.html:94
+msgid "FAQ"
+msgstr ""
+
+#: templates/base.html:101
+msgid "Privacy Policy"
+msgstr ""
+
+#: templates/base.html:107 templates/contributing.html:13
+msgid "Contributing"
+msgstr ""
+
+#: templates/base.html:114
+msgid "Sponsoring"
+msgstr ""
 
 #: templates/bugtracker.html:15
 #, python-format
@@ -38,10 +78,6 @@ msgstr ""
 
 #: templates/contributing.html:3
 msgid "Contributing to Subsurface"
-msgstr ""
-
-#: templates/contributing.html:13
-msgid "Contributing"
 msgstr ""
 
 #: templates/contributing.html:15
@@ -141,12 +177,12 @@ msgstr ""
 #: templates/contributing.html:50
 #, python-format
 msgid ""
-"Running Subsurface costs money. This is particularly the case for the "
-"free cloud based synchronisation of dive logs that is built into "
-"Subsurface. The principal maintainer of Subsurface and of our "
+"Running the Subsurface project costs money. This is particularly the case"
+" for the free cloud based synchronisation of dive logs that is built into"
+" Subsurface. The principal maintainer of Subsurface and of our "
 "infrastructure appreciates donations to help cover these expenses. If you"
 " would like to help with this you can do so through <a %(link)s>Dirk's "
-"Ko-fi page</a>."
+"Ko-fi page</a> or the <a %(ghsponsor)s>Dirk's GitHub Sponsor page</a>."
 msgstr ""
 
 #: templates/current-release.html:13
@@ -259,6 +295,37 @@ msgid ""
 "A generic AppImage is available. After you download this file, make it "
 "executable <code>chmod +x Subsurface-v%(version)s-CICD-"
 "release.AppImage</code>, and then simply run this file."
+msgstr ""
+
+#: templates/documentation.html:15
+msgid ""
+"This page provides an overview of most of the user-facing documentation "
+"for Subsurface"
+msgstr ""
+
+#: templates/documentation.html:17
+#, python-format
+msgid "<a %(faq)s>FAQ</a>"
+msgstr ""
+
+#: templates/documentation.html:18
+#, python-format
+msgid "<a %(supporteddc)s>Supported Divecomputers</a>"
+msgstr ""
+
+#: templates/documentation.html:20
+#, python-format
+msgid "<a %(video)s>(fairly old) Videp Tutorial</a>"
+msgstr ""
+
+#: templates/documentation.html:22
+#, python-format
+msgid "<a %(manual)s>Subsurface User Manual</a>"
+msgstr ""
+
+#: templates/documentation.html:23
+#, python-format
+msgid "<a %(mobilemanual)s>Subsurface-mobile User Manual</a>"
 msgstr ""
 
 #: templates/faq.html:15
@@ -1343,7 +1410,7 @@ msgstr ""
 #, python-format
 msgid ""
 "To contact Subsurface please reach out to the Data Protection Lead: "
-"Email: %(email)s"
+"Email: <code>%(email)s</code>"
 msgstr ""
 
 #: templates/privacy-policy.html:30
@@ -1372,6 +1439,23 @@ msgid ""
 "annoying. There is no monetization and no other use or processing of your"
 " data - we only store it with the purpose of making it available to you "
 "again on your devices."
+msgstr ""
+
+#: templates/sponsoring.html:15
+#, python-format
+msgid ""
+"Running Subsurface costs money. This is particularly the case for the "
+"free cloud based synchronisation of dive logs that is built into "
+"Subsurface. The principal maintainer of Subsurface and of our "
+"infrastructure appreciates donations to help cover these expenses. If you"
+" would like to help with this you can do so through <a %(link)s>Dirk's "
+"Ko-fi page</a> or the <a %(ghsponsor)s>Dirk's GitHub Sponsor page</a>."
+msgstr ""
+
+#: templates/supported-dive-computers.html:15
+msgid ""
+"Currently, these divecomputers are supported in Subsurface. Please note "
+"that Subsurface-mobile only supports a subset of these devices."
 msgstr ""
 
 #: templates/thanks.html:13
@@ -1449,5 +1533,24 @@ msgstr ""
 #~ "You need the correct USB driver in"
 #~ " order to talk to the Descent "
 #~ "Mk2/Mk2i."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Running Subsurface costs money. This is"
+#~ " particularly the case for the free"
+#~ " cloud based synchronisation of dive "
+#~ "logs that is built into Subsurface. "
+#~ "The principal maintainer of Subsurface "
+#~ "and of our infrastructure appreciates "
+#~ "donations to help cover these expenses."
+#~ " If you would like to help with"
+#~ " this you can do so through <a"
+#~ " %(link)s>Dirk's Ko-fi page</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To contact Subsurface please reach out"
+#~ " to the Data Protection Lead: Email:"
+#~ " %(email)s"
 #~ msgstr ""
 
