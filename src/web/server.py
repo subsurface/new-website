@@ -152,5 +152,10 @@ def thanks():
     return render_template("thanks.html", request=request)
 
 
+@app.get("/sponsoring/")
+def sponsoring():
+    return render_template("sponsoring.html", request=request)
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port="8002", debug=True)

@@ -108,10 +108,10 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://ko-fi.com/dirkhh" target="_blank"
-                               class="nav-link link-secondary px-md-0 px-2"><i class="fa fa-fw fa-coffee"></i><span
-                                      class="ms-1 d-none d-md-inline">Support
-                                    me</span></a>
+                            <a href="/sponsoring" target="_blank"
+                               class="nav-link {% if request.endpoint == 'sponsoring' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2"><i
+                                   class="fa fa-fw fa-coffee"></i><span
+                                      class="ms-1 d-none d-md-inline">Sponsoring</span></a>
                         </li>
                     </ul>
                 </div>
