@@ -55,21 +55,21 @@ def utility_processor():
         if key in env.keys():
             return env[key].value
         if key == "lwindows":
-            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/subsurface-{env['lrelease']}-CICD-release-installer.exe"
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/subsurface-{env['lrelease'].value}-CICD-release-installer.exe"
         if key == "lmacos":
-            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/Subsurface-{env['lrelease']}-CICD-release.dmg"
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-{env['lrelease'].value}-CICD-release.dmg"
         if key == "landroid":
-            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/Subsurface-mobile-{env['lrelease']}-CICD-release.apk"
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-mobile-{env['lrelease'].value}-CICD-release.apk"
         if key == "lappimage":
-            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease']}-CICD-release/Subsurface-v{env['lrelease']}-CICD-release.AppImage"
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-v{env['lrelease'].value}-CICD-release.AppImage"
         if key == "cwindows":
-            return f"https://subsurface-divelog.org/download/subsurface-{env['crelease']}-CICD-release-installer.exe"
+            return f"https://subsurface-divelog.org/download/subsurface-{env['crelease'].value}-CICD-release-installer.exe"
         if key == "cmacos":
-            return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease']}-CICD-release.dmg"
+            return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease'].value}-CICD-release.dmg"
         if key == "candroid":
-            return f"https://subsurface-divelog.org/downloads/Subsurface-mobile-{env['crelease']}-CICD-release.apk"
+            return f"https://subsurface-divelog.org/downloads/Subsurface-mobile-{env['crelease'].value}-CICD-release.apk"
         if key == "cappimage":
-            return f"https://subsurface-divelog.org/downloads/Subsurface-v{env['crelease']}-CICD-release.AppImage"
+            return f"https://subsurface-divelog.org/downloads/Subsurface-v{env['crelease'].value}-CICD-release.AppImage"
         return ""
 
     return dict(get_env=get_env)
@@ -95,7 +95,7 @@ for l in languages:
         app.add_url_rule(f"/{l[:2]}/", view_func=redirector)
         app.add_url_rule(f"/{l[:2]}/<path:urlpath>", view_func=redirector)
 app.add_url_rule(f"/misc/<path:urlpath>", view_func=redirector)
-app.add_url_rule(f"/docuementation/<path:urlpath>", view_func=redirector)
+app.add_url_rule(f"/documentation/<path:urlpath>", view_func=redirector)
 
 
 @app.route("/favicon.ico")
