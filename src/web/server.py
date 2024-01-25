@@ -147,5 +147,10 @@ def faq():
     return render_template("faq.html", request=request)
 
 
+@app.get("/thanks/")
+def thanks():
+    return render_template("thanks.html", request=request)
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port="8002", debug=True)

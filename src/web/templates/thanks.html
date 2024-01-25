@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Thanks{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+  <div class="row g-5">
+    <div class="col-12">
+      <h1 class="ssrf">{{ _("Thanks") }}</h1>
+      <p>
+        {{ _("The Subsurface team would like to thank a few companies and individuals for their help through documentation, hardware donations, loaner devices, and <a %(link)s>sponsorship</a> of the project:", link="href=https://github.com/sponsors/subsurface") }}
+      <ul>
+        <li>Uemis</li>
+        <li><a href="http://www.heinrichsweikamp.com">heinrichs weikamp</a></li>
+        <li><a href="http://www.shearwaterresearch.com">Shearwater Research</a></li>
+        <li><a href="http://www.atomicaquatics.com">Atomics Aquatics</a></li>
+        <li><a href="http://www.mares.com">Mares</a></li>
+        <li><a href="https://www.scuba.tech">Scuba.Tech</a></li>
+        <li>Sea Bear</li>
+        <li>Oleg Mazurov</li>
+        <li>Andy Clements</li>
+        <li>Jan Johansson</li>
+        <li>Benjamin Fogel</li>
+        <li>Xiang Ji</li>
+        <li>Ben Andrews</li>
+        <li>Aren Leishman</li>
+        <li>Adric Norris</li>
+        <li><a href="https://www.samakër.com">Julie Dumortier</a></li>
+        <li><a href="https://jeroen.massar.ch/">Jeroen Massar</a></li>
+      </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

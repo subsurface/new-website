@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-24 22:28+0000\n"
+"POT-Creation-Date: 2024-01-25 00:20+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Pedro António Neves <nevesdiver@gmail.com>, 2024\n"
 "Language: pt_PT\n"
@@ -1153,11 +1153,11 @@ msgstr ""
 msgid "Please check out <a %(link)s>the announcement of the Release Changes</a>"
 msgstr ""
 
-#: templates/home.html:28
+#: templates/home.html:27
 msgid "Multiplatform"
 msgstr "Multiplataforma"
 
-#: templates/home.html:30
+#: templates/home.html:29
 msgid ""
 "Subsurface is an open source divelog program for recreational, tech, and "
 "free-divers that runs on Windows, Mac, and Linux"
@@ -1165,32 +1165,32 @@ msgstr ""
 "O Subsurface é um programa de código aberto para mergulho desportivo, "
 "técnico e em apneia, que corre em Windows, Mac e Linux."
 
-#: templates/home.html:38
+#: templates/home.html:37
 msgid "Log all your dives"
 msgstr "Registe todos os seus mergulhos"
 
-#: templates/home.html:40
+#: templates/home.html:39
 msgid ""
 "Download your dives from your dive computer. Import them from other dive "
 "log programs or dive log websites. Manually enter them directly in "
 "Subsurface or via a simple spreadsheet."
 msgstr ""
 
-#: templates/home.html:48
+#: templates/home.html:47
 msgid "Dive planner"
 msgstr ""
 
-#: templates/home.html:50
+#: templates/home.html:49
 msgid ""
 "The planner module makes it simple to visually plan dives either based on"
 " Bühlmann ZH-16 or VPM-B"
 msgstr ""
 
-#: templates/home.html:58
+#: templates/home.html:57
 msgid "Subsurface-mobile"
 msgstr "Subsurface móvel"
 
-#: templates/home.html:60
+#: templates/home.html:59
 msgid ""
 "Using Subsurface-mobile on your Android or iOS device you can access your"
 " dive log anywhere"
@@ -1198,11 +1198,11 @@ msgstr ""
 "Ao usar o Subsurface móvel no seu dispositivo Android ou iOS pode aceder "
 "ao registo dos seus mergulhos em qualquer lugar"
 
-#: templates/home.html:68
+#: templates/home.html:67
 msgid "Cloud storage"
 msgstr "Armazenamento remoto"
 
-#: templates/home.html:70
+#: templates/home.html:69
 msgid ""
 "Store your logbook data in the cloud. Work with your data from different "
 "devices, online and offline. Fully integrated, free, and easy to set up."
@@ -1211,7 +1211,7 @@ msgstr ""
 "diferentes dispositivos, online e offline. Integração completa, gratuito "
 "e fácil de configurar."
 
-#: templates/home.html:87
+#: templates/home.html:86
 msgid ""
 "Subsurface can <strong>plan</strong> and <strong>track</strong> single- "
 "and multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It "
@@ -1221,7 +1221,7 @@ msgid ""
 "additional notes."
 msgstr ""
 
-#: templates/home.html:90
+#: templates/home.html:89
 msgid ""
 "You can tag dives and <strong>filter a dive list</strong> based on "
 "criteria including tags, locations and people with whom you were diving. "
@@ -1229,26 +1229,26 @@ msgid ""
 "same time, making it easy to support a large number of dives."
 msgstr ""
 
-#: templates/home.html:95
+#: templates/home.html:94
 msgid ""
 "Subsurface also calculates a wide variety of <strong>statistics</strong> "
 "of the user’s diving and tracks information like the SAC rate, partial "
 "pressures of O2, N2 and He, calculated deco information, and many more."
 msgstr ""
 
-#: templates/home.html:98
+#: templates/home.html:97
 msgid ""
 "<strong>Multiple divers</strong> can share one instance of Subsurface "
 "using different preferences and settings."
 msgstr ""
 
-#: templates/home.html:101
+#: templates/home.html:100
 msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
 
-#: templates/home.html:106
+#: templates/home.html:105
 #, python-format
 msgid ""
 "One of the major strengths of Subsurface is its support of a wide range "
@@ -1258,7 +1258,7 @@ msgid ""
 "divelogs.de."
 msgstr ""
 
-#: templates/home.html:109
+#: templates/home.html:108
 msgid ""
 "Another strength is its ability to <strong>visualize</strong> the depth "
 "profile (and, if available, the tank pressure curve) in innovative ways "
@@ -1269,24 +1269,24 @@ msgid ""
 "data collected from multiple sources."
 msgstr ""
 
-#: templates/home.html:114
+#: templates/home.html:113
 msgid ""
 "Subsurface lets the user <strong>print</strong> out a detailed log book "
 "including dive profiles and other important information."
 msgstr ""
 
-#: templates/home.html:118
+#: templates/home.html:117
 msgid "A bit of history:"
 msgstr ""
 
-#: templates/home.html:120
+#: templates/home.html:119
 msgid ""
 "In fall of 2011, when a forced lull in kernel development gave him a "
 "chance to start a new project, Linux creator Linus Torvalds decided to "
 "tackle his frustration with the lack of decent divelog software on Linux."
 msgstr ""
 
-#: templates/home.html:123
+#: templates/home.html:122
 msgid ""
 "Linus worked with a team of developers, and Subsurface is the result. It "
 "now supports Linux, Windows and MacOS and allows data import from many "
@@ -1398,6 +1398,18 @@ msgid ""
 "annoying. There is no monetization and no other use or processing of your"
 " data - we only store it with the purpose of making it available to you "
 "again on your devices."
+msgstr ""
+
+#: templates/thanks.html:13
+msgid "Thanks"
+msgstr ""
+
+#: templates/thanks.html:15
+#, python-format
+msgid ""
+"The Subsurface team would like to thank a few companies and individuals "
+"for their help through documentation, hardware donations, loaner devices,"
+" and <a %(link)s>sponsorship</a> of the project:"
 msgstr ""
 
 #: templates/user-forum.html:15
