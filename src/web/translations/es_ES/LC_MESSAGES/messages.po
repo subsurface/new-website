@@ -1077,6 +1077,12 @@ msgid ""
 "order to add gas changes simply right-click on the profile at the "
 "appropriate spot and you will be offered to add such an event."
 msgstr ""
+"Esta es una pregunta típica de buceadores en side-mount o buzos técnicos. "
+"Subsurface soporta tener más de una botella con el mismo gas, incluso aunque"
+" algunos ordenadores de buceo no lo hagan. Simplemente añade un cambio de "
+"gas a tu segunda botella y ambas se incluirán en los cálculos de gases. Para"
+" añadir el cambio de gas, simplemente haz clic derecho en el perfil en el "
+"punto adecuado y se te ofrecerá la posibilidad de añadir el evento."
 
 #: templates/faq.html:489
 #, python-format
