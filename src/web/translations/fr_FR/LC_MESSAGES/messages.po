@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-25 03:52+0000\n"
+"POT-Creation-Date: 2024-01-26 02:39+0000\n"
 "PO-Revision-Date: 2024-01-22 21:44+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr_FR\n"
@@ -172,7 +172,7 @@ msgstr ""
 msgid "By Supporting Us Financially"
 msgstr ""
 
-#: templates/contributing.html:50
+#: templates/contributing.html:50 templates/sponsoring.html:15
 #, python-format
 msgid ""
 "Running the Subsurface project costs money. This is particularly the case"
@@ -308,12 +308,12 @@ msgstr ""
 
 #: templates/documentation.html:18
 #, python-format
-msgid "<a %(supporteddc)s>Supported Divecomputers</a>"
+msgid "<a %(supporteddc)s>Supported Dive Computers</a>"
 msgstr ""
 
 #: templates/documentation.html:20
 #, python-format
-msgid "<a %(video)s>(fairly old) Videp Tutorial</a>"
+msgid "<a %(video)s>(fairly old) Video Tutorial</a>"
 msgstr ""
 
 #: templates/documentation.html:22
@@ -1359,7 +1359,7 @@ msgid ""
 "for users in the EU, but not elsewhere). As a result we cannot make new "
 "versions of Subsurface-mobile for iOS available here. We try to push many"
 " of these builds into our public TestFlight account. If you like to be on"
-" the bleading edge, you can <a %(link)s>sign up for the Subsurface-mobile"
+" the bleeding edge, you can <a %(link)s>sign up for the Subsurface-mobile"
 " TestFlight.</a>"
 msgstr ""
 
@@ -1426,15 +1426,8 @@ msgid ""
 "again on your devices."
 msgstr ""
 
-#: templates/sponsoring.html:15
-#, python-format
-msgid ""
-"Running Subsurface costs money. This is particularly the case for the "
-"free cloud based synchronisation of dive logs that is built into "
-"Subsurface. The principal maintainer of Subsurface and of our "
-"infrastructure appreciates donations to help cover these expenses. If you"
-" would like to help with this you can do so through <a %(link)s>Dirk's "
-"Ko-fi page</a> or the <a %(ghsponsor)s>Dirk's GitHub Sponsor page</a>."
+#: templates/subsurface-user-manual.html:13
+msgid "Subsurface User Manual"
 msgstr ""
 
 #: templates/supported-dive-computers.html:15
@@ -1537,5 +1530,42 @@ msgstr ""
 #~ "To contact Subsurface please reach out"
 #~ " to the Data Protection Lead: Email:"
 #~ " %(email)s"
+#~ msgstr ""
+
+#~ msgid "<a %(supporteddc)s>Supported Divecomputers</a>"
+#~ msgstr ""
+
+#~ msgid "<a %(video)s>(fairly old) Videp Tutorial</a>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "iOS is the only platform right now"
+#~ " where in general side-loading or "
+#~ "installing unsigned binaries is impossible "
+#~ "(apparently that may change for users"
+#~ " in the EU, but not elsewhere). "
+#~ "As a result we cannot make new "
+#~ "versions of Subsurface-mobile for iOS"
+#~ " available here. We try to push "
+#~ "many of these builds into our "
+#~ "public TestFlight account. If you like"
+#~ " to be on the bleading edge, "
+#~ "you can <a %(link)s>sign up for "
+#~ "the Subsurface-mobile TestFlight.</a>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Running Subsurface costs money. This is"
+#~ " particularly the case for the free"
+#~ " cloud based synchronisation of dive "
+#~ "logs that is built into Subsurface. "
+#~ "The principal maintainer of Subsurface "
+#~ "and of our infrastructure appreciates "
+#~ "donations to help cover these expenses."
+#~ " If you would like to help with"
+#~ " this you can do so through <a"
+#~ " %(link)s>Dirk's Ko-fi page</a> or "
+#~ "the <a %(ghsponsor)s>Dirk's GitHub Sponsor "
+#~ "page</a>."
 #~ msgstr ""
 
