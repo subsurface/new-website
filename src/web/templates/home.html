@@ -10,11 +10,36 @@
 <div class="container">
   <div class="row g-5">
     <div class="col-12">
-      <h1 class="display-3 ssrf">Subsurface</h1>
-      <p class="lead">
-        {{ _("The free, open-source cross-platform dive log software.") }}.
-      </p>
-
+      <div class="row">
+        <div class="col-auto">
+          <h1 class="display-3 ssrf">Subsurface</h1>
+          <p class="lead col-auto">
+            {{ _("The free, open-source cross-platform dive log software.") }}.
+          </p>
+        </div>
+        <div class="col-auto mt-4 {% if 'Windows' not in request.user_agent.string %}d-none{% endif %}">
+          <h2><a class="face-button" href="{{ get_env("cwindows")}}">
+              <div class="face-primary">
+                <i class="fa-brands fa-fw fa-windows"></i> Windows Download
+              </div>
+              <div class="face-secondary">
+                v{{get_env("crelease")}}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div class="col-auto mt-4 {% if 'Mac' not in request.user_agent.string %}d-none{% endif %}">
+          <h2><a class="face-button" href="{{ get_env("cmacos")}}">
+              <div class="face-primary">
+                <i class="fa-brands fa-fw fa-windows"></i> macOS Download
+              </div>
+              <div class="face-secondary">
+                v{{get_env("crelease")}}
+              </div>
+            </a>
+          </h2>
+        </div>
+      </div>
     </div>
     <div class="col-12 align-items-center justify-content-center ">
       <div id="homePageCarousel" class="carousel carousel-dark slide d-flexpb-md-5 mx-auto" style="max-width: 800px;"
