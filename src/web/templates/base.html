@@ -51,67 +51,67 @@
                         <li class="nav-item">
                             <a href="/"
                                class="nav-link {% if request.endpoint == 'home' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
-                                <i class="fa fa-fw fa-home"></i><span class="ms-1 d-none d-md-inline">Home</span>
+                                <i class="fa fa-fw fa-home"></i><span
+                                      class="ms-1 d-none d-md-inline">{{ _("Home") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="/current-release"
                                class="nav-link {% if request.endpoint == 'current_release' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
-                                <i class="fa fa-fw fa-download"></i><span class="ms-1 d-none d-md-inline">Current
-                                    Release</span>
+                                <i class="fa fa-fw fa-download"></i><span
+                                      class="ms-1 d-none d-md-inline">{{ _("Current Release") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="/latest-release"
                                class="nav-link {% if request.endpoint == 'latest_release' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
-                                <i class="fa fa-fw fa-cloud-download"></i><span class="ms-1 d-none d-md-inline">Latest
-                                    Dev
-                                    Release</span></a>
+                                <i class="fa fa-fw fa-cloud-download"></i><span
+                                      class="ms-1 d-none d-md-inline">{{ _("Latest Dev Release") }}</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="/documentation"
                                class="nav-link {% if request.endpoint == 'documentation' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-file"></i><span
-                                      class="ms-1 d-none d-md-inline">Documentation</span>
+                                      class="ms-1 d-none d-md-inline">{{ _("Documentation") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="/user-forum"
                                class="nav-link {% if request.endpoint == 'user_forum' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
-                                <i class="fa fa-fw fa-comments"></i><span class="ms-1 d-none d-md-inline">User
-                                    Forum</span></a>
+                                <i class="fa fa-fw fa-comments"></i><span
+                                      class="ms-1 d-none d-md-inline">{{ _("User Forum") }}</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="/bugtracker"
                                class="nav-link {% if request.endpoint == 'bugtracker' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
-                                <i class="fa fa-fw fa-bug"></i><span class="ms-1 d-none d-md-inline">Bug
-                                    Tracker</span></a>
+                                <i class="fa fa-fw fa-bug"></i><span
+                                      class="ms-1 d-none d-md-inline">{{ _("Bug Tracker") }}</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="/faq"
                                class="nav-link {% if request.endpoint == 'faq' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-circle-question"></i><span
-                                      class=" ms-1 d-none d-md-inline">FAQ</span>
+                                      class=" ms-1 d-none d-md-inline">{{ _("FAQ") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="/privacy-policy"
                                class="nav-link {% if request.endpoint == 'privacy_policy' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2"><i
-                                   class="fa fa-fw fa-user-circle"></i><span class="ms-1 d-none d-md-inline">Privacy
-                                    Policy</span></a>
+                                   class="fa fa-fw fa-user-circle"></i><span
+                                      class="ms-1 d-none d-md-inline">{{ _("Privacy Policy") }}</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="/contributing"
                                class="nav-link {% if request.endpoint == 'contributing' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-recycle"></i><span
-                                      class=" ms-1 d-none d-md-inline">Contributing</span>
+                                      class=" ms-1 d-none d-md-inline">{{ _("Contributing") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://ko-fi.com/dirkhh" target="_blank"
-                               class="nav-link link-secondary px-md-0 px-2"><i class="fa fa-fw fa-coffee"></i><span
-                                      class="ms-1 d-none d-md-inline">Support
-                                    me</span></a>
+                            <a href="/sponsoring" target="_blank"
+                               class="nav-link {% if request.endpoint == 'sponsoring' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2"><i
+                                   class="fa fa-fw fa-coffee"></i><span
+                                      class="ms-1 d-none d-md-inline">{{ _("Sponsoring") }}</span></a>
                         </li>
                     </ul>
                 </div>
@@ -121,13 +121,10 @@
                     {% block page_content %}
                     {% endblock %}
                 </main>
-                <!--
                 <footer class="row bg-secondary py-4 mt-auto">
-                    <div class="col"> <a class="text-light"
-                           href="https://subsurface-divelog.org/misc/privacy-policy/">Privacy
-                            Policy</a> </div>
+                    <div class="col text-light">(c) Subsurface Developer Community -- <a class="text-light"
+                           href="https://github.com/subsurface/new-website">Repo</a></div>
                 </footer>
-                -->
             </div>
         </div>
     </div>
