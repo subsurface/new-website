@@ -1093,6 +1093,11 @@ msgid ""
 "gasses to those tanks, e.g. oxygen contents of 21%% and 22%% for two tanks "
 "holding air."
 msgstr ""
+"Si tienes transmisores en varias botellas con el mismo gas, la situación es "
+"ligeramente más complicada. La forma más fácil de asegurarse de que no hay "
+"confusiones al importar estas inmersiones es asignar gases un poco distintos"
+" a esas botellas, por ejemplo contenidos de oxigeno de 21%% y 22%% para dos "
+"botellas con aire."
 
 #: templates/faq.html:499
 msgid "Why is Subsurface not able to download my dives from my dive computer?"
