@@ -962,6 +962,8 @@ msgid ""
 "The side-loaded APK should work with Android 8.0 and newer. Older Android "
 "versions are known not to work with the Subsurface Cloud."
 msgstr ""
+"La APK descargable debería funcionar con Android 8.0 y más recientes. Las "
+"versiones más antiguas de Android no funcionan con la nube de Subsurface."
 
 #: templates/faq.html:398
 msgid ""
