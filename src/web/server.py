@@ -1,3 +1,5 @@
+import hashlib
+import hmac
 import json
 import os
 
@@ -39,6 +41,23 @@ def get_locale():
 app = Flask(__name__)
 app.secret_key = os.urandom(16).hex()
 babel = Babel(app, locale_selector=get_locale)
+
+#
+# we want only one of the workers to process any outstanding release IDs
+# try to create the lock in Redis and hold it for 30 seconds
+# (by which time all the other workers have gotten past this code)
+redis.set(name="processReleaseIds", value=os.getpid(), nx=True, ex=30)
+lock = int(redis.get(name="processReleaseIds"))
+print(f"process {os.getpid()} got lock {lock}")
+if lock == os.getpid():
+    print("processing any remembered release IDs")
+    for release_id in env["release_ids"].value:
+        # we got restarted while waiting for releases to populate - remove their locks
+        redis.delete(f"processing_{release_id}")
+        # we don't know how long we've been waiting, so give it a minute and then check
+        AssetDownloader(release_id, 60)
+else:
+    print(f"worker {lock} is dealing with release IDs")
 
 
 @app.context_processor
@@ -167,6 +186,63 @@ def supported_dive_computers():
 @app.get("/subsurface-user-manual/")
 def subsurface_user_manual():
     return render_template("subsurface-user-manual.html", request=request)
+
+
+#
+# GitHub webhook that drives our latest release updates
+def verifySignature():
+    secret = os.environ.get("webhook_secret").strip()
+    signature = (
+        "sha256="
+        + hmac.new(
+            bytes(secret, "utf-8"),
+            msg=request.data,
+            digestmod=hashlib.sha256,
+        )
+        .hexdigest()
+        .lower()
+    )
+    print(f"request.data {request.data}")
+    print(f"comparing {signature} and {request.headers.get('X-Hub-Signature-256')}")
+    return hmac.compare_digest(signature, request.headers.get("X-Hub-Signature-256"))
+
+
+@app.route("/subsurface-release-webhook", methods=["POST"])
+def webhook():
+    print("webhook")
+    if not verifySignature():
+        response = app.response_class(
+            response=json.dumps({"success": False}),
+            status=403,
+            mimetype="application/json",
+        )
+        return response
+    release_ids = env["release_ids"].value
+    body = request.data
+    with open("/var/log/webhook-requests.log", "a") as logfile:
+        print(body, file=logfile)
+    data = json.loads(body)
+    action = data.get("action")
+    release = data.get("release")
+    if release:
+        release_id = release.get("id")
+        assets_url = release.get("assets_url")
+        repository = release.get("repository")
+        name = repository.get("name") if repository else "unknown"
+        print(
+            f"Relase: {release.get('name')} id {release_id} from repo {name} with action {action}"
+        )
+        print(f"With assets URL {assets_url}")
+        if release_id not in release_ids:
+            release_ids.append(release_id)
+            env["release_ids"].value = release_ids
+            a = AssetDownloader(release_id, 900)
+
+    # in any case, report success
+    response = app.response_class(
+        response=json.dumps({"success": True}), status=200, mimetype="application/json"
+    )
+    return response
 
 
 if __name__ == "__main__":

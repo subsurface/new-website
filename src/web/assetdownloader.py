@@ -1,3 +1,4 @@
+import datetime
 import os
 import re
 import sys
@@ -5,6 +6,7 @@ from github import Auth, Github
 from threading import Timer
 
 from .env import env
+from .redis import redis
 
 
 class Background:
@@ -34,11 +36,13 @@ class Background:
 
 class AssetDownloader:
     def __init__(self, release_id, delay):
-        self._release_id = release_id
-        self._bg = Background(delay, self._downloadAssets)
-        print(
-            f"setting up to update the assets for release id {release_id} in {delay/60} minutes"
-        )
+        lock_name = f"processing_{release_id}"
+        if redis.set(lock_name, "1", nx=True):
+            self._release_id = release_id
+            self._bg = Background(delay, self._downloadAssets)
+            print(
+                f"setting up to update the assets for release id {release_id} in {delay/60} minutes"
+            )
 
     def _downloadAssets(self):
         updateReleaseWebsite(self._release_id)
@@ -69,7 +73,7 @@ def updateReleaseWebsite(release_id):
                 windowsurl = url
             if re.search("Subsurface-6.*-CICD-release.dmg", url):
                 macosurl = url
-            match = re.search(r"Subsurface-(v6.*)-CICD-release.AppImage", url)
+            match = re.search(r"Subsurface-v(6.*)-CICD-release.AppImage", url)
             if match:
                 appimageurl = url
                 appimagename = match.group(0)
@@ -78,23 +82,16 @@ def updateReleaseWebsite(release_id):
             f"so far I found apkurl {apkurl} windowsurl {windowsurl} macosurl {macosurl} appimagename {appimagename} appimageurl {appimageurl} version {version}"
         )
         if all([apkurl, windowsurl, macosurl, appimagename, appimageurl, version]):
-            # only use complete releases
-            replacements = [
-                ["ANDROIDAPKLINK", apkurl],
-                ["ANDROIDAPKFILE", apkname],
-                ["WINDOWSINSTALLER", windowsurl],
-                ["MACDMG", macosurl],
-                ["APPIMAGELINK", appimageurl],
-                ["APPIMAGEBINARY", appimagename],
-                ["VERSION", version],
-            ]
-            with open("/www/latest-release/index-template.html") as template, open(
-                "/www/latest-release/index.html", "w"
-            ) as html:
-                text = template.read()
-                for [old, new] in replacements:
-                    text = text.replace(old, new)
-                html.write(text)
+            # only update the website once the releases is complete
+            # the three step update for release_ids is needed since we copy values in the Env class
+            release_ids = env["release_ids"].value
+            if release_id in release_ids:
+                release_ids.remove(release_id)
+                env["release_ids"].value = release_ids
+                env["lrelease_date"].value = datetime.datetime.today().strftime(
+                    "%Y-%m-%d"
+                )
+                env["lrelease"].value = version
         else:
             a = AssetDownloader(release_id, 150)
 
