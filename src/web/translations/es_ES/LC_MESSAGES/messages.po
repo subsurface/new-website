@@ -1000,6 +1000,10 @@ msgid ""
 "are the exception to this rule, they aren't supported on iOS at all. No "
 "cable based downloads are possible."
 msgstr ""
+"Solo los ordenadores de buceo que soportan descarga vía BLE (y que ya estén "
+"soportados en Subsurface) funcionan con los dispositivos iOS. Los "
+"ordenadores Garmin son la excepción a esta regla, no están soportados en "
+"absoluto en iOs. No existe la posibilidad de descargar por cable."
 
 #: templates/faq.html:434
 msgid "How do I know I have the latest version of Subsurface?"
