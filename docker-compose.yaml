@@ -12,3 +12,9 @@ services:
       - /var/log/webserver:/logs
     ports:
       - 8001:8001
+  redis:
+    image: "redis:alpine"
+    container_name: redis
+    restart: always
+    ports:
+      - "6379:6379"

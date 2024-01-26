@@ -4,6 +4,8 @@
 #
 #    pip-compile
 #
+async-timeout==4.0.3
+    # via redis
 babel==2.14.0
     # via
     #   -r requirements.in
@@ -63,6 +65,8 @@ python-dotenv==1.0.1
     # via -r requirements.in
 pytz==2023.3.post1
     # via flask-babel
+redis==5.0.1
+    # via -r requirements.in
 requests==2.31.0
     # via
     #   -r requirements.in

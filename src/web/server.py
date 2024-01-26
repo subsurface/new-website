@@ -16,6 +16,7 @@ from flask import (
     send_from_directory,
     session,
 )
+from .redis import redis
 
 
 description = """

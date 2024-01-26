@@ -6,3 +6,4 @@ babel
 PyGithub
 Flask-Babel
 python-dotenv
+redis
