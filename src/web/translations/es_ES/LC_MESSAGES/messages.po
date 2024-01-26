@@ -1015,6 +1015,10 @@ msgid ""
 "“Check for updates”. The iOS version notifies you via the regular AppStore "
 "mechanisms. A notification mechanism for Android is under development."
 msgstr ""
+"En la versión de escritorio, desde el menú \"Ayuda\", selecciona \"Comprobar"
+" actualizaciones\". La versión para iOS te avisa por los mecanismos "
+"habituales de la AppStore. Para Android estamos desarrollando un mecanismo "
+"de aviso."
 
 #: templates/faq.html:454
 msgid "How can I import my dives into Subsurface?"
