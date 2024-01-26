@@ -1038,6 +1038,9 @@ msgid ""
 "Manually logged dives can directly be entered in the UI or (in the desktop "
 "version) imported from various forms of spreadsheets."
 msgstr ""
+"Las inmersiones registradas manualmente se pueden introducir directamente en"
+" la UI o (en la versión de escritorio) se pueden importar desde varios tipos"
+" de hojas de cálculo."
 
 #: templates/faq.html:467
 msgid ""
