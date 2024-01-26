@@ -3,7 +3,7 @@ import os
 
 
 from .assetdownloader import AssetDownloader
-from .env import Env
+from .env import Env, env
 from .globals import globals
 
 from dotenv import load_dotenv
@@ -38,12 +38,6 @@ def get_locale():
 app = Flask(__name__)
 app.secret_key = os.urandom(16).hex()
 babel = Babel(app, locale_selector=get_locale)
-env = {
-    "lrelease": Env("lrelease", default="6.0.5067"),
-    "lrelease_date": Env("lrelase_date", default="2024-01-21"),
-    "crelease": Env("crelease", default="6.0.5054"),
-    "crelease_date": Env("crelease_date", default="2024-01-13"),
-}
 
 
 @app.context_processor

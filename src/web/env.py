@@ -1,5 +1,5 @@
-import sys
-
+import copy
+import json
 from os import path
 from .globals import globals
 
@@ -45,7 +45,7 @@ class Env:
                     if line.strip().startswith("#"):
                         continue
                     key, var = line.partition("=")[::2]
-                    ret[key.strip()] = var.strip()
+                    ret[key.strip()] = json.loads(var)
         except:
             pass
 
@@ -60,7 +60,7 @@ class Env:
         with open(globals.get("env_file_path"), "w") as f:
             for key, value in values.items():
                 if key:
-                    f.write(f"{key}={value}\n")
+                    f.write(f"{key}={json.dumps(value)}\n")
 
     def __str__(self):
         return f"Env({self._name}, {self._value})"
@@ -74,13 +74,22 @@ class Env:
         if self._value_call:
             return self._value_call()
         elif self._value != None:
-            return self._value
+            return copy.copy(self._value)
         elif self._default != None:
-            return self._default
+            return copy.copy(self._default)
         return ""
 
     @value.setter
     def value(self, value):
         if value != self._value:
-            self._value = value
+            self._value = copy.copy(value)
             self._reconcile(value)
+
+
+env = {
+    "lrelease": Env("lrelease", default="6.0.5067"),
+    "lrelease_date": Env("lrelase_date", default="2024-01-21"),
+    "crelease": Env("crelease", default="6.0.5054"),
+    "crelease_date": Env("crelease_date", default="2024-01-13"),
+    "release_ids": Env("release_ids", default=[]),
+}
