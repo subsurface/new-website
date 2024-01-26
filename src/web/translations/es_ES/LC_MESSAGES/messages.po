@@ -980,6 +980,11 @@ msgid ""
 "EON Steel family via cable - BLE works), USB storage (e.g., Uemis Zurich), "
 "or MTP (e.g., Garmin)."
 msgstr ""
+"Los ordenadores de buceo basados en Bluetooth o BLE, así como USB serie "
+"deberían funcionar en general (suponiendo que estén soportados por "
+"Subsurface, desde luego). Los que no funcionan son otros dispositivos USB, "
+"como USB HID (por ejemplo la familia Suunto EON Steel), USB storage (por "
+"ejemplo el Uemis Zurich), MTP (por ejemplo, Garmin)."
 
 #: templates/faq.html:417
 msgid ""
