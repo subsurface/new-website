@@ -1066,7 +1066,7 @@ msgstr ""
 
 #: templates/faq.html:479
 msgid "How can I use more than one tank with the same gas?"
-msgstr ""
+msgstr "¿Como puedo usar más de una botella con el mismo gas?"
 
 #: templates/faq.html:486
 msgid ""
