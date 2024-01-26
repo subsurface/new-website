@@ -4,4 +4,5 @@ venv
 .env
 images/
 src/web/templates/SupportedDivecomputers.html
+src/web/templates/raw-user-manual.html
 src/web/persistent.store
