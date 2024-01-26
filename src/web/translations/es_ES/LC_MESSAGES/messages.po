@@ -1058,6 +1058,11 @@ msgid ""
 " the User Manual for the most up to date information on this – it can be "
 "found in Section 5.3."
 msgstr ""
+"Existe también la posibilidad de añadir inmersiones desde otros softwares o "
+"páginas web. Dirígete al Manual de Usuario para la información más "
+"actualizada sobre este tema. Puedes encontrarla en la Sección 5.3 (Nota del "
+"traductor, la versión inglesa del manual suele estar actualizada. La "
+"española está muy desfasada)."
 
 #: templates/faq.html:479
 msgid "How can I use more than one tank with the same gas?"
