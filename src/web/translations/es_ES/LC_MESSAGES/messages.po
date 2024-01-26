@@ -1030,6 +1030,8 @@ msgid ""
 "There are multiple ways to import into Subsurface. Details can be found in "
 "the <a %(usermanual)s>User Manual</a>."
 msgstr ""
+"Hay muchas formas de importar a Subsurface. Puedes encontrar más detalles en"
+" el <a %(usermanual)s>Manual de Usuario</a>."
 
 #: templates/faq.html:464
 msgid ""
