@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-26 02:39+0000\n"
+"POT-Creation-Date: 2024-01-26 21:50+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Peter Zaal, 2024\n"
 "Language: nl_NL\n"
@@ -1179,13 +1179,8 @@ msgid ""
 "Forum</a>."
 msgstr ""
 
-#: templates/home.html:14
-msgid "We switched to rolling releases"
-msgstr ""
-
-#: templates/home.html:16
-#, python-format
-msgid "Please check out <a %(link)s>the announcement of the Release Changes</a>"
+#: templates/home.html:15
+msgid "The free, open-source cross-platform dive log software."
 msgstr ""
 
 #: templates/home.html:27
@@ -1304,17 +1299,26 @@ msgid ""
 msgstr ""
 
 #: templates/home.html:117
-msgid "A bit of history:"
+msgid "We switched to rolling releases"
 msgstr ""
 
 #: templates/home.html:119
+#, python-format
+msgid "Please check out <a %(link)s>the announcement of the Release Changes</a>"
+msgstr ""
+
+#: templates/home.html:124
+msgid "A bit of history:"
+msgstr ""
+
+#: templates/home.html:126
 msgid ""
 "In fall of 2011, when a forced lull in kernel development gave him a "
 "chance to start a new project, Linux creator Linus Torvalds decided to "
 "tackle his frustration with the lack of decent divelog software on Linux."
 msgstr ""
 
-#: templates/home.html:122
+#: templates/home.html:129
 msgid ""
 "Linus worked with a team of developers, and Subsurface is the result. It "
 "now supports Linux, Windows and MacOS and allows data import from many "
