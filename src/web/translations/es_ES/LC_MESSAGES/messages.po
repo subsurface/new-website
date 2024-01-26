@@ -947,6 +947,11 @@ msgid ""
 "website</a> and log in with the same email address / password. This allows "
 "you to access your dive data from any device with a web browser."
 msgstr ""
+"Para el resto de dispositivos (incluyendo tablets y teléfonos con SOs que no"
+" soportamos con Subsurface-mobile), puedes abrir nuestra <a "
+"%(cloudweb)s>página web de la nube</a> y logarte con la misma dirección de "
+"email / password. Esto te permitirá acceder a tus datos de buceo desde "
+"cualquier dispositivo con un navegador web."
 
 #: templates/faq.html:380
 msgid "What's the minimum Android version required?"
