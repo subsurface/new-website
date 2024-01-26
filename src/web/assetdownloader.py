@@ -1,7 +1,10 @@
+import os
 import re
 import sys
 from github import Auth, Github
 from threading import Timer
+
+from .env import env
 
 
 class Background:
@@ -42,9 +45,7 @@ class AssetDownloader:
 
 
 def updateReleaseWebsite(release_id):
-    with open("/app/.token", "r") as token_file:
-        token = token_file.read().strip()
-    auth = Auth.Token(token)
+    auth = Auth.Token(os.environ.get("github_token").strip())
     gh = Github(auth=auth)
     repo = gh.get_repo("subsurface/nightly-builds")
     for r in repo.get_releases():

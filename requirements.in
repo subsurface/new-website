@@ -5,3 +5,4 @@ jinja2
 babel
 PyGithub
 Flask-Babel
+python-dotenv

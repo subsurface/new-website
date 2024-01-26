@@ -1,14 +1,12 @@
 import json
 import os
-import pathlib
-import sys
 
-from setuptools import Require
 
 from .assetdownloader import AssetDownloader
 from .env import Env
 from .globals import globals
 
+from dotenv import load_dotenv
 from flask_babel import Babel, get_translations, get_locale as gl
 from flask import (
     Flask,
@@ -23,9 +21,8 @@ from flask import (
 description = """
 Simple backend to run the Subsurface website
 """
-
-
 languages = ["en", "de_DE", "fr_FR", "nl_NL", "it_IT", "es_ES", "pt_PT"]
+load_dotenv()
 
 
 def get_locale():
