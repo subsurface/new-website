@@ -3,10 +3,16 @@ import hmac
 import json
 import os
 
+from .globals import testrun
+
+if __name__ != "__main__":
+    from .redis import redis
+else:
+    testrun = True
+
 
 from .assetdownloader import AssetDownloader
 from .env import Env, env
-from .globals import globals
 
 from dotenv import load_dotenv
 from flask_babel import Babel, get_translations, get_locale as gl
@@ -18,7 +24,6 @@ from flask import (
     send_from_directory,
     session,
 )
-from .redis import redis
 
 
 description = """
@@ -42,22 +47,23 @@ app = Flask(__name__)
 app.secret_key = os.urandom(16).hex()
 babel = Babel(app, locale_selector=get_locale)
 
-#
-# we want only one of the workers to process any outstanding release IDs
-# try to create the lock in Redis and hold it for 30 seconds
-# (by which time all the other workers have gotten past this code)
-redis.set(name="processReleaseIds", value=os.getpid(), nx=True, ex=30)
-lock = int(redis.get(name="processReleaseIds"))
-print(f"process {os.getpid()} got lock {lock}")
-if lock == os.getpid():
-    print("processing any remembered release IDs")
-    for release_id in env["release_ids"].value:
-        # we got restarted while waiting for releases to populate - remove their locks
-        redis.delete(f"processing_{release_id}")
-        # we don't know how long we've been waiting, so give it a minute and then check
-        AssetDownloader(release_id, 60)
-else:
-    print(f"worker {lock} is dealing with release IDs")
+if __name__ != "__main__":
+    # if this runs under gunicorn as a production server,
+    # we want only one of the workers to process any outstanding release IDs
+    # try to create the lock in Redis and hold it for 30 seconds
+    # (by which time all the other workers have gotten past this code)
+    redis.set(name="processReleaseIds", value=os.getpid(), nx=True, ex=30)
+    lock = int(redis.get(name="processReleaseIds"))
+    print(f"process {os.getpid()} got lock {lock}")
+    if lock == os.getpid():
+        print("processing any remembered release IDs")
+        for release_id in env["release_ids"].value:
+            # we got restarted while waiting for releases to populate - remove their locks
+            redis.delete(f"processing_{release_id}")
+            # we don't know how long we've been waiting, so give it a minute and then check
+            AssetDownloader(release_id, 60)
+    else:
+        print(f"worker {lock} is dealing with release IDs")
 
 
 @app.context_processor

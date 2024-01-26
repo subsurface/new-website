@@ -6,7 +6,10 @@ from github import Auth, Github
 from threading import Timer
 
 from .env import env
-from .redis import redis
+from .globals import testrun
+
+if not testrun:
+    from .redis import redis
 
 
 class Background:
