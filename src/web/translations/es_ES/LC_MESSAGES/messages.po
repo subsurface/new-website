@@ -1754,6 +1754,13 @@ msgid ""
 "into one dive – allowing visualization of the data collected from multiple "
 "sources."
 msgstr ""
+"Otra ventaja es la posibilidad de <strong>visualizar</strong> perfiles de "
+"profundidad (y, si está disponible, la curva de presión del tanque de buceo)"
+" de maneras muy innovadoras que le dan al usuario información adicional en "
+"cuanto a velocidad relativa (y consumo de aire momentáneo) durante el buceo."
+" Los buceadores que utilizan <strong>varios ordenadores de buceo</strong> "
+"pueden combinar los datos en una única inmersión y visualizar los datos "
+"recogidos de varios ordenadores."
 
 #: templates/home.html:113
 msgid ""
