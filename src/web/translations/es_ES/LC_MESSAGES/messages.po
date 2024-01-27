@@ -1583,7 +1583,7 @@ msgstr ""
 
 #: templates/faq.html:794
 msgid "Other questions"
-msgstr ""
+msgstr "Otras preguntas"
 
 #: templates/faq.html:801
 #, python-format
