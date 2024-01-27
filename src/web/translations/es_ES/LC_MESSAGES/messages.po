@@ -1609,7 +1609,7 @@ msgstr ""
 
 #: templates/home.html:15
 msgid "The free, open-source cross-platform dive log software."
-msgstr ""
+msgstr "El software gratuito, de código abierto y multiplataforma."
 
 #: templates/home.html:27
 msgid "Multiplatform"
