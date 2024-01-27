@@ -1215,7 +1215,7 @@ msgstr ""
 
 #: templates/faq.html:556
 msgid "How can I load pictures and associate them with my dive?"
-msgstr ""
+msgstr "¿Como puedo cargar fotografías y asociarlas con mi inmersión?"
 
 #: templates/faq.html:563
 msgid ""
