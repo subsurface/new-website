@@ -1955,6 +1955,11 @@ msgid ""
 "only store it with the purpose of making it available to you again on your "
 "devices."
 msgstr ""
+"Es muy simple. No utilizamos tus datos. No nos interesa quienes son tus "
+"amigos. No intentamos venderte nada ni hacer cualquier otra cosa que pueda "
+"resultar molesta. No hay monetización ni ningún otro uso o procesamiento de "
+"tus datos - solo los guardamos con el propósito de que puedas tenerlos "
+"disponibles en tus dispositivos."
 
 #: templates/subsurface-user-manual.html:13
 msgid "Subsurface User Manual"
