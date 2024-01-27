@@ -1779,6 +1779,7 @@ msgstr "Hemos cambiado publicaciones continuas"
 msgid ""
 "Please check out <a %(link)s>the announcement of the Release Changes</a>"
 msgstr ""
+"Por favor, visita <a %(link)s>el anuncio de los cambios en publicaciones</a>"
 
 #: templates/home.html:124
 msgid "A bit of history:"
