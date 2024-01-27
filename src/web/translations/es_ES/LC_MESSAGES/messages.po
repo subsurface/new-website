@@ -1639,7 +1639,7 @@ msgstr ""
 
 #: templates/home.html:47
 msgid "Dive planner"
-msgstr ""
+msgstr "Planificador de inmersiones"
 
 #: templates/home.html:49
 msgid ""
