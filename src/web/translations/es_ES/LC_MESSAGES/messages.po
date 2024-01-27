@@ -771,7 +771,7 @@ msgstr ""
 
 #: templates/faq.html:240
 msgid "Supported Versions"
-msgstr "Versiones Soportadas"
+msgstr "Versiones Compatibles"
 
 #: templates/faq.html:247
 msgid ""
