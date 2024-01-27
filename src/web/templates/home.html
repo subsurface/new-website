@@ -31,7 +31,19 @@
         <div class="col-auto mt-4 {% if 'Mac' not in request.user_agent.string %}d-none{% endif %}">
           <h2><a class="face-button" href="{{ get_env("cmacos")}}">
               <div class="face-primary">
-                <i class="fa-brands fa-fw fa-windows"></i> macOS Download
+                <i class="fa-brands fa-fw fa-apple"></i> macOS Download
+              </div>
+              <div class=" face-secondary">
+                v{{get_env("crelease")}}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div
+             class="col-auto mt-4 {% if 'Mac' in request.user_agent.string  or  'Windows' in request.user_agent.string %}d-none{% endif %}">
+          <h2><a class="face-button" href="/current-release">
+              <div class="face-primary">
+                <i class="fa-solid fa-fw fa-file-arrow-down"></i> Download
               </div>
               <div class="face-secondary">
                 v{{get_env("crelease")}}
