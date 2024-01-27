@@ -1908,6 +1908,10 @@ msgid ""
 "of security measures. Personal information is not shared with any other "
 "entity."
 msgstr ""
+"Subsurface se ejecuta en servidores replicados, algunos en USA y otros en la"
+" UE (Alemania). La información personal está protegida por diseño y "
+"aplicación de medidas de seguridad. La información personal no se comparte "
+"con ninguna otra entidad."
 
 #: templates/privacy-policy.html:27
 #, python-format
