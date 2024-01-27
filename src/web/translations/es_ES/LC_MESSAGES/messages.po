@@ -1176,6 +1176,10 @@ msgid ""
 "users. This way the Subsurface configuration for each user is truely "
 "separated."
 msgstr ""
+"Potencialmente la mejor forma de conseguir esto es utilizar diferentes "
+"usuarios en el ordenador. Todos los sistemas operativos soportan usuarios "
+"múltiples. De esta forma la configuración de Subsurface para cada usuario "
+"está separada de verdad."
 
 #: templates/faq.html:544
 msgid ""
