@@ -1826,6 +1826,11 @@ msgid ""
 " facilitate testing, and as such may not have received a lot of testing, "
 "yet."
 msgstr ""
+"Las publicaciones en esta página son las últimas compilaciones del sistema "
+"CICD de Subsurface (siglas en inglés de Integración Continua, Desarrollo "
+"Continuo). Aunque esperamos que no fallen muy a menudo, se publican "
+"generalmente para facilitar los test y, por tanto, no habrán sido probadas "
+"en profundidad aún."
 
 #: templates/latest-release.html:20
 #, python-format
