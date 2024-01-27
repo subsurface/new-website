@@ -1378,6 +1378,10 @@ msgid ""
 "on DropBox or other similar services such as OwnCloud, TeamDrive, MiniBox, "
 "etc."
 msgstr ""
+"Si solo usas la versión de escritorio y deseas guardar una copia de backup "
+"de tu divelog en un servidor remoto, la documentación describe como guardar "
+"tus datos en Dropbox u otros servicios similares como OwnCloud, TeamDrive, "
+"MiniBox, etc."
 
 #: templates/faq.html:655
 msgid "Can you add support for dive computer X?"
