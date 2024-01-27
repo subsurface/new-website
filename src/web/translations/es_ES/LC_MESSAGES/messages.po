@@ -1897,6 +1897,9 @@ msgid ""
 "Personal information is held whilst a user is registered. User accounts can "
 "be deleted on request. See contact information below."
 msgstr ""
+"La información personal se guarda mientras un usuario permanece registrado. "
+"Las cuentas de usuario se pueden eliminar a petición del mismo. Ver la "
+"información de contacto a continuación."
 
 #: templates/privacy-policy.html:24
 msgid ""
