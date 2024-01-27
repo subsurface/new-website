@@ -1863,6 +1863,13 @@ msgid ""
 "builds into our public TestFlight account. If you like to be on the bleeding"
 " edge, you can <a %(link)s>sign up for the Subsurface-mobile TestFlight.</a>"
 msgstr ""
+"iOS es la única plataforma, en estos momentos, donde en general descargar o "
+"instalar binarios sin firmar es imposible (aparentemente esto puede cambiar "
+"para los usuarios en la UE, pero no en el resto del mundo). Como "
+"consecuencia no podemos ofrecer aquí nuevas versiones de Subsurface-mobile "
+"para iOs. Intentamos enviar muchas de estas compilaciones a nuestra cuenta "
+"pública de TestFlight. Si te gusta estar al filo, puedes <a "
+"%(link)s>inscribirte en Subsurface-mobile TestFlight.</a>"
 
 #: templates/privacy-policy.html:15
 msgid ""
