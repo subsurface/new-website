@@ -1435,6 +1435,12 @@ msgid ""
 "device (<code>COMn</code> or <code>/dev/tty...</code>), if you get timeouts "
 "or data errors, see the data error question below."
 msgstr ""
+"La mayoría de los cables de descarga están basados en FTDI y necesitan los "
+"drivers apropiados. Algunos cables de terceros necesitan drivers diferentes."
+" Sin esos drivers, el ordenador de buceo no se mostrará. Una vez puedas ver "
+"el dispositivo (<code>COMn</code> o <code>/dev/tty...</code>), si tienes "
+"tiempos de espera o errores de datos, visita la pregunta sobre errores de "
+"datos un poco más abajo."
 
 #: templates/faq.html:692
 msgid "I get timeouts or data error when downloading"
