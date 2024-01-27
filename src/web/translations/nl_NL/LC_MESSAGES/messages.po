@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-26 21:50+0000\n"
+"POT-Creation-Date: 2024-01-27 22:11+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Peter Zaal, 2024\n"
 "Language: nl_NL\n"
@@ -185,6 +185,59 @@ msgid ""
 "Ko-fi page</a> or the <a %(ghsponsor)s>Dirk's GitHub Sponsor page</a>."
 msgstr ""
 
+#: templates/credits.html:15
+#, python-format
+msgid ""
+"Subsurface is itself open source software released under the <a "
+"%(license)s>GPLv2</a> -- and it is based on many other open source "
+"components."
+msgstr ""
+
+#: templates/credits.html:18 templates/credits.html:20
+#: templates/credits.html:22 templates/credits.html:24
+#: templates/credits.html:26 templates/credits.html:28
+#: templates/credits.html:30 templates/credits.html:32
+#: templates/credits.html:34 templates/credits.html:36
+#: templates/credits.html:38 templates/credits.html:40
+#: templates/credits.html:42 templates/credits.html:49
+#: templates/credits.html:51
+msgid "Homepage"
+msgstr ""
+
+#: templates/credits.html:19 templates/credits.html:21
+#: templates/credits.html:23 templates/credits.html:25
+#: templates/credits.html:27 templates/credits.html:29
+#: templates/credits.html:31 templates/credits.html:33
+#: templates/credits.html:35 templates/credits.html:37
+#: templates/credits.html:39 templates/credits.html:41
+#: templates/credits.html:43 templates/credits.html:50
+#: templates/credits.html:52
+msgid "License"
+msgstr ""
+
+#: templates/credits.html:46
+#, fuzzy
+msgid "Subsurface-mobile additionally uses"
+msgstr "Subsurface-mobile"
+
+#: templates/credits.html:54
+#, python-format
+msgid "The Windows binaries are built using <a %(mxe)s>MXE</a>."
+msgstr ""
+
+#: templates/credits.html:56
+#, python-format
+msgid ""
+"The Mac binaries are built using the Apple toolchain and <a "
+"%(brew)s>Homebrew</a>."
+msgstr ""
+
+#: templates/credits.html:59
+msgid ""
+"If you are aware of open source components that we are using but not "
+"listing here, please let us know so we can add them!"
+msgstr ""
+
 #: templates/current-release.html:13
 #, python-format
 msgid "Current \"Weekly\" Release: %(version)s"
@@ -297,6 +350,15 @@ msgid ""
 "release.AppImage</code>, and then simply run this file."
 msgstr ""
 
+#: templates/data-deletion.html:15
+#, python-format
+msgid ""
+"Your cloud data can be deleted from within the mobile app or you can "
+"request that your data, or your data and account are deleted by simply "
+"sending an email to the Subsurface team at <a %(link)s>in-app-support"
+"@subsurface-divelog</a>."
+msgstr ""
+
 #: templates/documentation.html:15
 msgid ""
 "This page provides an overview of most of the user-facing documentation "
@@ -323,9 +385,24 @@ msgstr ""
 msgid "<a %(manual)s>Subsurface User Manual</a>"
 msgstr ""
 
-#: templates/documentation.html:23
+#: templates/documentation.html:24
 #, python-format
 msgid "<a %(mobilemanual)s>Subsurface-mobile User Manual</a>"
+msgstr ""
+
+#: templates/documentation.html:27
+#, python-format
+msgid "<a %(datadeletion)s>Deleting Cloud Data and Account</a>"
+msgstr ""
+
+#: templates/documentation.html:30
+#, python-format
+msgid "<a %(credits)s>Credits</a>"
+msgstr ""
+
+#: templates/documentation.html:33
+#, python-format
+msgid "<a %(thanks)s>Thanks</a>"
 msgstr ""
 
 #: templates/faq.html:15
@@ -1179,62 +1256,62 @@ msgid ""
 "Forum</a>."
 msgstr ""
 
-#: templates/home.html:15
+#: templates/home.html:17
 msgid "The free, open-source cross-platform dive log software."
 msgstr ""
 
-#: templates/home.html:27
+#: templates/home.html:64
 msgid "Multiplatform"
 msgstr "Multiplatform"
 
-#: templates/home.html:29
+#: templates/home.html:66
 msgid ""
 "Subsurface is an open source divelog program for recreational, tech, and "
 "free-divers that runs on Windows, Mac, and Linux"
 msgstr ""
 
-#: templates/home.html:37
+#: templates/home.html:74
 msgid "Log all your dives"
 msgstr ""
 
-#: templates/home.html:39
+#: templates/home.html:76
 msgid ""
 "Download your dives from your dive computer. Import them from other dive "
 "log programs or dive log websites. Manually enter them directly in "
 "Subsurface or via a simple spreadsheet."
 msgstr ""
 
-#: templates/home.html:47
+#: templates/home.html:84
 msgid "Dive planner"
 msgstr ""
 
-#: templates/home.html:49
+#: templates/home.html:86
 msgid ""
 "The planner module makes it simple to visually plan dives either based on"
 " Bühlmann ZH-16 or VPM-B"
 msgstr ""
 
-#: templates/home.html:57
+#: templates/home.html:94
 msgid "Subsurface-mobile"
 msgstr "Subsurface-mobile"
 
-#: templates/home.html:59
+#: templates/home.html:96
 msgid ""
 "Using Subsurface-mobile on your Android or iOS device you can access your"
 " dive log anywhere"
 msgstr ""
 
-#: templates/home.html:67
+#: templates/home.html:104
 msgid "Cloud storage"
 msgstr "Cloud opslag"
 
-#: templates/home.html:69
+#: templates/home.html:106
 msgid ""
 "Store your logbook data in the cloud. Work with your data from different "
 "devices, online and offline. Fully integrated, free, and easy to set up."
 msgstr ""
 
-#: templates/home.html:86
+#: templates/home.html:123
 msgid ""
 "Subsurface can <strong>plan</strong> and <strong>track</strong> single- "
 "and multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It "
@@ -1244,7 +1321,7 @@ msgid ""
 "additional notes."
 msgstr ""
 
-#: templates/home.html:89
+#: templates/home.html:126
 msgid ""
 "You can tag dives and <strong>filter a dive list</strong> based on "
 "criteria including tags, locations and people with whom you were diving. "
@@ -1252,26 +1329,26 @@ msgid ""
 "same time, making it easy to support a large number of dives."
 msgstr ""
 
-#: templates/home.html:94
+#: templates/home.html:131
 msgid ""
 "Subsurface also calculates a wide variety of <strong>statistics</strong> "
 "of the user’s diving and tracks information like the SAC rate, partial "
 "pressures of O2, N2 and He, calculated deco information, and many more."
 msgstr ""
 
-#: templates/home.html:97
+#: templates/home.html:134
 msgid ""
 "<strong>Multiple divers</strong> can share one instance of Subsurface "
 "using different preferences and settings."
 msgstr ""
 
-#: templates/home.html:100
+#: templates/home.html:137
 msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
 
-#: templates/home.html:105
+#: templates/home.html:142
 #, python-format
 msgid ""
 "One of the major strengths of Subsurface is its support of a wide range "
@@ -1281,7 +1358,7 @@ msgid ""
 "divelogs.de."
 msgstr ""
 
-#: templates/home.html:108
+#: templates/home.html:145
 msgid ""
 "Another strength is its ability to <strong>visualize</strong> the depth "
 "profile (and, if available, the tank pressure curve) in innovative ways "
@@ -1292,33 +1369,33 @@ msgid ""
 "data collected from multiple sources."
 msgstr ""
 
-#: templates/home.html:113
+#: templates/home.html:150
 msgid ""
 "Subsurface lets the user <strong>print</strong> out a detailed log book "
 "including dive profiles and other important information."
 msgstr ""
 
-#: templates/home.html:117
+#: templates/home.html:154
 msgid "We switched to rolling releases"
 msgstr ""
 
-#: templates/home.html:119
+#: templates/home.html:156
 #, python-format
 msgid "Please check out <a %(link)s>the announcement of the Release Changes</a>"
 msgstr ""
 
-#: templates/home.html:124
+#: templates/home.html:161
 msgid "A bit of history:"
 msgstr ""
 
-#: templates/home.html:126
+#: templates/home.html:163
 msgid ""
 "In fall of 2011, when a forced lull in kernel development gave him a "
 "chance to start a new project, Linux creator Linus Torvalds decided to "
 "tackle his frustration with the lack of decent divelog software on Linux."
 msgstr ""
 
-#: templates/home.html:129
+#: templates/home.html:166
 msgid ""
 "Linus worked with a team of developers, and Subsurface is the result. It "
 "now supports Linux, Windows and MacOS and allows data import from many "
@@ -1453,6 +1530,27 @@ msgid ""
 "The Subsurface team would like to thank a few companies and individuals "
 "for their help through documentation, hardware donations, loaner devices,"
 " and <a %(link)s>sponsorship</a> of the project:"
+msgstr ""
+
+#: templates/tutorial-video.html:15
+msgid ""
+"This video is based on a slightly older version of Subsurface, but should"
+" still be very useful to get an idea of the functionality."
+msgstr ""
+
+#: templates/tutorial-video.html:29
+msgid ""
+"You can also download the video for offline viewing, using one of the "
+"following links:"
+msgstr ""
+
+#: templates/tutorial-video.html:37
+msgid "or any other of the links at"
+msgstr ""
+
+#: templates/tutorial-video.html:41
+#, python-format
+msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
 msgstr ""
 
 #: templates/user-forum.html:15
