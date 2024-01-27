@@ -1318,6 +1318,7 @@ msgstr ""
 #: templates/faq.html:614
 msgid "What to do when authentication to cloud storage fails?"
 msgstr ""
+"¿Qué hacer cuando falla la autenticación con el almacenamiento en la nube?"
 
 #: templates/faq.html:621
 #, python-format
