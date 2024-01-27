@@ -1561,7 +1561,7 @@ msgstr "Garmin Descent Mk2/Mk3 en Windows"
 #: templates/faq.html:782
 msgid ""
 "You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
-msgstr ""
+msgstr "Necesitas el driver USB correcto para \"hablar\" con el Descent Mk2/Mk3."
 
 #: templates/faq.html:785
 #, python-format
