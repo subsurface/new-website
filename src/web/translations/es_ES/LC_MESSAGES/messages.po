@@ -1994,6 +1994,8 @@ msgid ""
 "Do you have questions, comments, or suggestions for Subsurface? Please join "
 "our <a %(link)s>User Forum</a>."
 msgstr ""
+"¿Tienes preguntas, comentarios o sugerencias para Subsurface? Por favor, "
+"únete a nuestro <a %(link)s>Foro de Usuarios</a>."
 
 #: templates/user-forum.html:18
 msgid ""
