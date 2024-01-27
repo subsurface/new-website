@@ -1620,8 +1620,8 @@ msgid ""
 "Subsurface is an open source divelog program for recreational, tech, and "
 "free-divers that runs on Windows, Mac, and Linux"
 msgstr ""
-"Subsurface es un programa de divelog para buceadores recreativos, técnicos y"
-" apneístas, que corre en Windows, Mac y Linux"
+"Subsurface es un programa de registro de inmersiones para buceadores "
+"recreativos, técnicos y apneístas, que corre en Windows, Mac y Linux"
 
 #: templates/home.html:37
 msgid "Log all your dives"
