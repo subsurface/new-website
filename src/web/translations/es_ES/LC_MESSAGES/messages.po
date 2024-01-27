@@ -1738,6 +1738,11 @@ msgid ""
 "computers</a>). Subsurface can also import existing dive logs from several "
 "sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de."
 msgstr ""
+"Una de las mayores ventajas de Subsurface es el soporte de una gran variedad"
+" de <strong>ordenadores de buceo</strong> (ver la %(link)slista de "
+"computadores de buceo soportados</a>). Subsurface también puede importar "
+"divelogs de diferentes fuentes externas incluyendo MacDive, Suunto DM3, DM4 "
+"y DM5, JDiveLog y divelogs.de"
 
 #: templates/home.html:108
 msgid ""
