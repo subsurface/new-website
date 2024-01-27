@@ -1651,7 +1651,7 @@ msgstr ""
 
 #: templates/home.html:57
 msgid "Subsurface-mobile"
-msgstr ""
+msgstr "Subsurface-mobile"
 
 #: templates/home.html:59
 msgid ""
