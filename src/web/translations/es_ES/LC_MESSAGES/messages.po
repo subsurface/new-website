@@ -1603,6 +1603,9 @@ msgid ""
 "repo</a>. Pull requests are of course welcome - you can also suggest "
 "additions to the FAQ in the <a %(userforum)s>User Forum</a>."
 msgstr ""
+"Este FAQ es mantenido como parte de nuestra web en el <a %(webrepo)s>website"
+" repo</a>. Las PRs son bienvenidas y también puedes sugerir cambios y "
+"mejoras al FAQ en el <a %(userforum)s>Foro de Usuarios</a>."
 
 #: templates/home.html:15
 msgid "The free, open-source cross-platform dive log software."
