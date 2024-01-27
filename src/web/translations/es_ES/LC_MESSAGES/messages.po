@@ -1573,6 +1573,13 @@ msgid ""
 " the Descent and plug it back in, again selecting MTP. Now Subsurface is "
 "able to download from it (don't enter anything in the connection field)"
 msgstr ""
+"Descarga <a %(zadig)s>Zadig 2.6</a> y ejecútalo, conecta el Descent y "
+"selecciona MTP, espera a que Zadig te ofrezca el Descent como opción (esto "
+"puede necesitar que desconectes y vuelvas a conectar el cable), selecciona "
+"el Descent y pídele a Zadig que instale `libusb-win32` (espera a que "
+"termine, lo que puede tardar un poco), desenchufa el Descent y vuelve a "
+"enchufarlo, de nuevo seleccionando MTP, ahora Subsurface puede descargar de "
+"él (no introduzcas nada en el campo de conexión)"
 
 #: templates/faq.html:794
 msgid "Other questions"
