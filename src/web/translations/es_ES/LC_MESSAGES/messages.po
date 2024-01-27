@@ -1260,7 +1260,7 @@ msgstr ""
 
 #: templates/faq.html:575
 msgid "Can I import my dives from my old log software?"
-msgstr ""
+msgstr "¿Puedo importar mis buceos desde mi viejo software de divelog?"
 
 #: templates/faq.html:582
 msgid ""
