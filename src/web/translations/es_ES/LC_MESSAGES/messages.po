@@ -1141,7 +1141,7 @@ msgstr ""
 
 #: templates/faq.html:518
 msgid "Why is the CSV import failing?"
-msgstr ""
+msgstr "¿Por qué está fallando la importación de CSV?"
 
 #: templates/faq.html:525
 msgid ""
