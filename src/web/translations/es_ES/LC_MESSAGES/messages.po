@@ -620,7 +620,7 @@ msgstr ""
 
 #: templates/faq.html:129 templates/faq.html:302
 msgid "Supported versions"
-msgstr "Versiones soportadas"
+msgstr "Versiones compatibles"
 
 #: templates/faq.html:136
 msgid ""
