@@ -1633,6 +1633,9 @@ msgid ""
 " programs or dive log websites. Manually enter them directly in Subsurface "
 "or via a simple spreadsheet."
 msgstr ""
+"Descarga tus inmersiones de tu ordenador de buceo. Impórtalas desde otros "
+"programas o webs de divelogs. Introdúcelas directamente a mano o a través de"
+" una simple hoja de cálculo."
 
 #: templates/home.html:47
 msgid "Dive planner"
