@@ -258,6 +258,11 @@ def tutorial_video():
     return render_template("tutorial-video.html", request=request)
 
 
+@app.get("/data-deletion/")
+def data_deletion():
+    return render_template("data-deletion.html", request=request)
+
+
 #
 # GitHub webhook that drives our latest release updates
 def verifySignature():
