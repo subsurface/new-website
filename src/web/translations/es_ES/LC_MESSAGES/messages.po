@@ -1970,6 +1970,8 @@ msgid ""
 "Currently, these divecomputers are supported in Subsurface. Please note that"
 " Subsurface-mobile only supports a subset of these devices."
 msgstr ""
+"Actualmente, estos ordenadores de buceo están soportados en Subsurface. "
+"Subsurface-mobile solo soporta un subconjunto de estos dispositivos."
 
 #: templates/thanks.html:13
 msgid "Thanks"
