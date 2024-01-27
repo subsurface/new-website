@@ -1385,7 +1385,7 @@ msgstr ""
 
 #: templates/faq.html:655
 msgid "Can you add support for dive computer X?"
-msgstr ""
+msgstr "¿Podéis añadir soporte para el ordenador X?"
 
 #: templates/faq.html:661
 #, python-format
