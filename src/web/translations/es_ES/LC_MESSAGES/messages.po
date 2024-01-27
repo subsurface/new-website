@@ -1048,7 +1048,7 @@ msgid ""
 "depending on how the dive computer connects to your computer or mobile "
 "device."
 msgstr ""
-"Se pueden descargar inmersiones desde los ordenadores de buceo soportados. "
+"Se pueden descargar inmersiones desde los ordenadores de buceo compatibles. "
 "Los detalles varían mucho dependiendo de la forma en que el ordenador de "
 "buceo se conecte a tu PC o dispositivo móvil."
 
