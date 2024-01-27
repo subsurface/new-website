@@ -1495,6 +1495,9 @@ msgid ""
 "to BLE, like for example the Suunto EON Steel family), that is definitely "
 "preferable especially for that first download."
 msgstr ""
+"Si el ordenador de buceo ofrece la posibilidad de descargar con un cable USB"
+" (además de BLE, como por ejemplo la familia Suunto EON Steel), es, "
+"definitivamente, preferible para esa primera descarga."
 
 #: templates/faq.html:727
 msgid "Does Subsurface-mobile support the Garmin Descent family?"
