@@ -1425,7 +1425,7 @@ msgstr ""
 
 #: templates/faq.html:676
 msgid "Old style Suunto dive computers?"
-msgstr ""
+msgstr "¿Ordenadores de buceo Suunto de estilo antiguo?"
 
 #: templates/faq.html:683
 msgid ""
