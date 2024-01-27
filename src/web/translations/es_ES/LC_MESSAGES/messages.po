@@ -1625,7 +1625,7 @@ msgstr ""
 
 #: templates/home.html:37
 msgid "Log all your dives"
-msgstr ""
+msgstr "Registra todos tus buceos"
 
 #: templates/home.html:39
 msgid ""
