@@ -1670,6 +1670,9 @@ msgid ""
 "Store your logbook data in the cloud. Work with your data from different "
 "devices, online and offline. Fully integrated, free, and easy to set up."
 msgstr ""
+"Guarda los datos de tu registro de inmersiones en la nube. Trabaja con tus "
+"datos desde diferentes dispositivos, on-line u off-line. Completamente "
+"integrado, gratuito y fácil de configurar."
 
 #: templates/home.html:86
 msgid ""
