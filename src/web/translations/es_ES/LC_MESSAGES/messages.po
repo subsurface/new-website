@@ -1417,6 +1417,11 @@ msgid ""
 "generally it might make the most sense to first reach out in order to avoid "
 "wasting your time."
 msgstr ""
+"Un buen punto de inicio suele ser enviarnos un log y un volcado de "
+"libdivecomputer (puedes seleccionarlos en el diálogo de Descarga desde el "
+"ordenador de buceo), cuando te conectes a un ordenador de buceo usando un "
+"modelo parecido (si es posible). Pero, en general, lo que tiene más sentido "
+"es que nos contactes primero para evitar que pierdas el tiempo."
 
 #: templates/faq.html:676
 msgid "Old style Suunto dive computers?"
