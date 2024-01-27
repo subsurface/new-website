@@ -238,6 +238,11 @@ def thanks():
     return render_template("thanks.html", request=request)
 
 
+@app.get("/credits/")
+def credits():
+    return render_template("credits.html", request=request)
+
+
 @app.get("/sponsoring/")
 def sponsoring():
     return render_template("sponsoring.html", request=request)

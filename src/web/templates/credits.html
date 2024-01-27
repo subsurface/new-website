@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Credits{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+  <div class="row g-5">
+    <div class="col-12">
+      <h1 class="ssrf">Credits</h1>
+      <p>
+        {{ _("Subsurface is itself open source software released under the <a %(license)s>GPLv2</a> -- and it is based on many other open source components.", license="href=https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE") }}
+      </p>
+      <ul>
+        <li><strong>libdivecomputer</strong>: <a href="http://libdivecomputer.org">{{ _("Homepage") }}</a> <a
+             href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">{{ _("License") }}</a></li>
+        <li><strong>Qt</strong>: <a href="http://qt.io">{{ _("Homepage") }}</a> <a
+             href="https://github.com/qt/qtbase/blob/dev/LICENSE.LGPLv3">{{ _("License") }}</a></li>
+        <li><strong>libxml2</strong>: <a href="http://xmlsoft.org/">{{ _("Homepage") }}</a> <a
+             href="https://opensource.org/licenses/mit-license.html">{{ _("License") }}</a></li>
+        <li><strong>libxslt</strong>: <a href="http://xmlsoft.org/">{{ _("Homepage") }}</a> <a
+             href="https://opensource.org/licenses/mit-license.html">{{ _("License") }}</a></li>
+        <li><strong>libgit2</strong>: <a href="https://libgit2.github.com/">{{ _("Homepage") }}</a> <a
+             href="https://github.com/libgit2/libgit2/blob/master/COPYING">{{ _("License") }}</a></li>
+        <li><strong>libzip</strong>: <a href="https://nih.at/libzip/">{{ _("Homepage") }}</a> <a
+             href="https://nih.at/libzip/LICENSE.html">{{ _("License") }}</a></li>
+        <li><strong>libsqlite</strong>: <a href="https://www.sqlite.org/">{{ _("Homepage") }}</a> <a
+             href="https://www.sqlite.org/copyright.html">{{ _("License") }}</a></li>
+        <li><strong>libusb</strong>: <a href="http://libusb.info/">{{ _("Homepage") }}</a> <a
+             href="https://github.com/libusb/libusb/blob/master/COPYING">{{ _("License") }}</a></li>
+        <li><strong>libcurl</strong>: <a href="https://curl.haxx.se/libcurl/">{{ _("Homepage") }}</a> <a
+             href="https://curl.haxx.se/docs/copyright.html">{{ _("License") }}</a></li>
+        <li><strong>libssh</strong>: <a href="https://www.libssh.org/">{{ _("Homepage") }}</a> <a
+             href="https://git.libssh.org/projects/libssh.git/tree/COPYING">{{ _("License") }}</a></li>
+        <li><strong>Grantlee</strong>: <a href="https://github.com/steveire/grantlee">{{ _("Homepage") }}</a> <a
+             href="https://github.com/steveire/grantlee/blob/master/COPYING.LIB">{{ _("License") }}</a></li>
+        <li><strong>easyexif</strong>: <a href="https://github.com/mayanklahiri/easyexif">{{ _("Homepage") }}</a> <a
+             href="://github.com/mayanklahiri/easyexif/blob/master/LICENSE">{{ _("License") }}</a></li>
+        <li><strong>mdbtools</strong>: <a href="https://github.com/brianb/mdbtools">{{ _("Homepage") }}</a> <a
+             href="https://github.com/brianb/mdbtools/blob/master/COPYING">{{ _("License") }}</a></li>
+      </ul>
+      <p>
+        {{ _("Subsurface-mobile additionally uses") }}
+      </p>
+      <ul>
+        <li><strong>Kirigami</strong>: <a href="https://github.com/KDE/kirigami">{{ _("Homepage") }}</a> <a
+             href="https://github.com/KDE/kirigami/blob/master/LICENSE.LGPL-2">{{ _("License") }}</a></li>
+        <li><strong>breeze icons</strong>: <a href="https://github.com/KDE/breeze-icons">{{ _("Homepage") }}</a> <a
+             href="https://github.com/KDE/breeze-icons/blob/master/COPYING-ICONS">{{ _("License") }}</a></li>
+      </ul>
+      <p>{{ _("The Windows binaries are built using <a %(mxe)s>MXE</a>.", mxe="href=http://mxe.cc/")}}</p>
+      <p>
+        {{ _("The Mac binaries are built using the Apple toolchain and <a %(brew)s>Homebrew</a>.", brew="href=https://brew.sh/")}}
+      </p>
+      <p>
+        {{ _("If you are aware of open source components that we are using but not listing here, please let us know so we can add them!")}}
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
