@@ -1719,6 +1719,8 @@ msgid ""
 "<strong>Multiple divers</strong> can share one instance of Subsurface using "
 "different preferences and settings."
 msgstr ""
+"Una sola copia de Subsurface puede ser utilizada por <strong>varios "
+"buceadores</strong>  cada uno con sus preferencias y ajustes."
 
 #: templates/home.html:100
 msgid ""
