@@ -1309,6 +1309,11 @@ msgid ""
 "these. However, if the logs are only on your dive computer, they cannot be "
 "salvaged after being over written by new dives."
 msgstr ""
+"Si has descargado tus inmersiones a otro software de divelog antes de que se"
+" sobrescribieran hay muchas posibilidades de que Subsurface pueda "
+"importarlas. Sin embargo, si los registros solo estaban en el computador de "
+"buceo, no pueden ser recuperados después de haber sido sobrescritos por "
+"nuevas inmersiones."
 
 #: templates/faq.html:614
 msgid "What to do when authentication to cloud storage fails?"
