@@ -2,7 +2,16 @@ body {
 background-color: #fbfbfb;
 }
 
-.carousel { overflow: hidden; padding-bottom: 10rem !important; }
+.carousel { overflow: visible; padding-bottom: 14rem !important; }
+@media (min-width: 420px) {
+  .carousel { padding-bottom: 10rem !important; }
+}
+@media (min-width: 576px) {
+  .carousel { padding-bottom: 7rem !important; }
+}
+@media (min-width: 1200px) {
+  .carousel { padding-bottom: 4rem !important; }
+}
 .carousel-caption { top: 100%; }
 .carousel-inner { overflow: visible; margin: auto; }
 .carousel-control-next, .carousel-control-prev { bottom: 6rem; }
