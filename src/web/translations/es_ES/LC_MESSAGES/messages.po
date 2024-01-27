@@ -1683,6 +1683,12 @@ msgid ""
 "and names of other divers, and lets users rate dives and provide additional "
 "notes."
 msgstr ""
+"Subsurface puede <strong>planificar</strong> y <strong>registrar</strong> "
+"single- and multi-tank <strong>inmersiones</strong> con una sola botella o "
+"con varias, con aire, Nitrox o Trimix. Permite guardar puntos de buceo "
+"incluidas coordenadas GPS (que también se pueden introducir usando un mapa),"
+" registrar el equipo utilizado y otras personas de la inmersión, y permite "
+"al usuario calificar los buceos y guardar notas adicionales."
 
 #: templates/home.html:89
 msgid ""
