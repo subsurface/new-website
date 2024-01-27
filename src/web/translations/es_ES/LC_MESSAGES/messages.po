@@ -1338,6 +1338,7 @@ msgstr ""
 #: templates/faq.html:632
 msgid "Can Subsurface store my files on a different cloud server?"
 msgstr ""
+"¿Puede Subsurface guardar mis archivos en un servidor en la nube diferente?"
 
 #: templates/faq.html:639
 #, python-format
