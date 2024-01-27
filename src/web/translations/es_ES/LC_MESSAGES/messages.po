@@ -1839,7 +1839,7 @@ msgid ""
 "please consider the <a %(link)s>Current Release Page</a>."
 msgstr ""
 "Si estás buscando algo que sea menos \"de última hora\", por favor, "
-"considera la página %(link)sVersión Actual</a>."
+"considera la página <a %(link)s>Versión Actual</a>."
 
 #: templates/latest-release.html:49
 msgid ""
