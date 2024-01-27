@@ -1984,6 +1984,9 @@ msgid ""
 "their help through documentation, hardware donations, loaner devices, and <a"
 " %(link)s>sponsorship</a> of the project:"
 msgstr ""
+"El equipo de Subsurface desea mostrar su agradecimiento a algunas compañías "
+"y personas por su ayuda a través de documentación, donaciones de hardware, "
+"cesiones de dispositivos o <a %(link)s>esponsorización</a> del proyecto:"
 
 #: templates/user-forum.html:15
 #, python-format
