@@ -1250,6 +1250,13 @@ msgid ""
 "stored in the new/edited image in order for it to be loaded properly. Most "
 "modern photo editing software does that correctly by default."
 msgstr ""
+"Si tienes problemas con la carga de imágenes, comprueba si tienes al menos "
+"una de las siguientes etiquetas en las cabeceras Exif: "
+"<code>DateTimeOriginal</code> o <code>DateTime</code>. Tomamos la hora desde"
+" estos campos para detectar si la foto se tomó durante la inmersión o no. Si"
+" la foto está editada, deberías guardar la información Exif original en la "
+"imagen nueva/editada para que se cargue correctamente. Casi todo software "
+"moderno de edición de imágenes lo hace correctamente por defecto."
 
 #: templates/faq.html:575
 msgid "Can I import my dives from my old log software?"
