@@ -1727,6 +1727,8 @@ msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
+"El programa esta disponible en alrededor de <strong>veinte idiomas</strong> "
+"y bien respaldado por una activa comunidad de desarrolladores."
 
 #: templates/home.html:105
 #, python-format
