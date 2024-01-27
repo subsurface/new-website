@@ -629,7 +629,7 @@ msgid ""
 "anymore."
 msgstr ""
 "Subsurface se ejecuta en Windows 10 y más recientes. Debería de correr "
-"también en Windows 8. Las versiones más antiguas ya no están soportadas."
+"también en Windows 8. Las versiones más antiguas ya no son compatibles."
 
 #: templates/faq.html:145
 msgid "Where do I find the log files on Windows?"
