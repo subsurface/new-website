@@ -1805,6 +1805,13 @@ msgid ""
 "lets users track a wide variety of data about their dives. In fall of 2012 "
 "Dirk Hohndel took over as Subsurface maintainer."
 msgstr ""
+"Linus trabajó con un equipo de desarrolladores y Subsurface es el resultado."
+" Ahora es compatible con Linux, Windows y MacOS y permite importar datos de "
+"muchos ordenadores de buceo y varios programas de diarios de buceo "
+"existentes. Proporciona una forma rápida y sencilla de visualizar la "
+"información que facilita un ordenador de buceo moderno y permite a los "
+"usuarios registrar una amplia variedad de datos de sus inmersiones. En el "
+"otoño de 2012 Dirk Hohndel asumió el mantenimiento de Subsurface."
 
 #: templates/latest-release.html:13
 #, python-format
