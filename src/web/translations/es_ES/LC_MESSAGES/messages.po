@@ -1444,7 +1444,7 @@ msgstr ""
 
 #: templates/faq.html:692
 msgid "I get timeouts or data error when downloading"
-msgstr ""
+msgstr "Tengo tiempos de espera o errores de datos al descargar"
 
 #: templates/faq.html:699
 msgid ""
