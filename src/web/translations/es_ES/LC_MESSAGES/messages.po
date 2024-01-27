@@ -1663,7 +1663,7 @@ msgstr ""
 
 #: templates/home.html:67
 msgid "Cloud storage"
-msgstr ""
+msgstr "Almacenamiento en la nube"
 
 #: templates/home.html:69
 msgid ""
