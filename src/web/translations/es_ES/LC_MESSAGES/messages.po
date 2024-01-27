@@ -1466,6 +1466,7 @@ msgstr ""
 #: templates/faq.html:708
 msgid "BLE (Bluetooth Low Energy) downloads are incredibly slow"
 msgstr ""
+"Las descargas con BLE (Bluetooth Low Energy) son increíblemente lentas"
 
 #: templates/faq.html:714
 msgid ""
