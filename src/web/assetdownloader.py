@@ -65,6 +65,7 @@ def updateReleaseWebsite(release_id):
         version = ""
         apkname = ""
         apkurl = ""
+        missing = ""
         for a in r.get_assets():
             url = a.browser_download_url
             print(f"{url}")
@@ -72,21 +73,27 @@ def updateReleaseWebsite(release_id):
             if match:
                 apkurl = url
                 apkname = match.group(0)
+            else:
+                missing += " Android APK,"
             if re.search("subsurface-6.*-CICD-release-installer.exe", url):
                 windowsurl = url
+            else:
+                missing += " Windows Installer,"
             if re.search("Subsurface-6.*-CICD-release.dmg", url):
                 macosurl = url
+            else:
+                missing += " macOS DMG,"
             match = re.search(r"Subsurface-v(6.*)-CICD-release.AppImage", url)
             if match:
                 appimageurl = url
                 appimagename = match.group(0)
                 version = match.group(1)
-        print(
-            f"so far I found apkurl {apkurl} windowsurl {windowsurl} macosurl {macosurl} appimagename {appimagename} appimageurl {appimageurl} version {version}"
-        )
-        if all([apkurl, windowsurl, macosurl, appimagename, appimageurl, version]):
+            else:
+                missing += " Linux AppImage,"
+        if missing != "":
             # only update the website once the releases is complete
             # the three step update for release_ids is needed since we copy values in the Env class
+            print("found all binaries, updating the website")
             release_ids = env["release_ids"].value
             if release_id in release_ids:
                 release_ids.remove(release_id)
@@ -96,6 +103,7 @@ def updateReleaseWebsite(release_id):
                 )
                 env["lrelease"].value = version
         else:
+            print(f"Still missing {missing[:-1]} - scheduling myself to check again")
             a = AssetDownloader(release_id, 150)
 
 
