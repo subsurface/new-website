@@ -85,9 +85,18 @@ if __name__ != "__main__":
             "/web/subsurface/Documentation/user-manual.html.git",
             "/web/src/web/static/user-manual.html",
         )
+        shutil.copy(
+            "/web/subsurface/Documentation/mobile-manual-v3.html.git",
+            "/web/src/web/static/mobile-user-manual.html",
+        )
         shutil.copytree(
             "/web/subsurface/Documentation/images",
             "/web/src/web/static/images",
+            dirs_exist_ok=True,
+        )
+        shutil.copytree(
+            "/web/subsurface/Documentation/mobile-images",
+            "/web/src/web/static/mobile-images",
             dirs_exist_ok=True,
         )
         print("processing any remembered release IDs")
@@ -159,14 +168,28 @@ def favicon():
 
 
 @app.route("/subsurface-user-manual/images/<path:path>")
-def send_report(path):
+def user_manual_images(path):
     return send_from_directory(os.path.join(app.root_path, "static/images"), path)
+
+
+@app.route("/subsurface-mobile-user-manual/mobile-images/<path:path>")
+def mobile_user_manual_images(path):
+    return send_from_directory(
+        os.path.join(app.root_path, "static/mobile-images"), path
+    )
 
 
 @app.route("/subsurface-user-manual/")
 def static_user_manual():
     return send_from_directory(
         os.path.join(app.root_path, "static"), "user-manual.html"
+    )
+
+
+@app.route("/subsurface-mobile-user-manual/")
+def static_mobile_user_manual():
+    return send_from_directory(
+        os.path.join(app.root_path, "static"), "mobile-user-manual.html"
     )
 
 
@@ -228,7 +251,11 @@ def documentation():
 @app.get("/supported-dive-computers/")
 def supported_dive_computers():
     return render_template("supported-dive-computers.html", request=request)
-    return render_template("subsurface-user-manual.html", request=request)
+
+
+@app.get("/tutorial-video/")
+def tutorial_video():
+    return render_template("tutorial-video.html", request=request)
 
 
 #

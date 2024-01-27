@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Subsurface Video Tutorial{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+  <div class="row g-5">
+    <div class="col-12">
+      <h1 class="ssrf">Video Tutorial</h1>
+      <p>
+        {{ _("This video is based on a slightly older version of Subsurface, but should still be very useful to get an idea of the functionality.") }}
+      </p>
+      <p>
+        <video poster="http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_1080p_2500kbps.gif" controls
+               height="540" width="960">
+          <source src="http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_1080p_2500kbps.mp4"
+                  type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+          <source src="http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_720p_1500kbps.webm"
+                  type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+          <source src="http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_720p_1500kbps.ogv"
+                  type="video/ogg; codecs=&quot;theora, vorbis&quot;">Your browser does not support the HTML5 video tag.
+        </video>
+      </p>
+      <p>
+        {{ _("You can also download the video for offline viewing, using one of the following links:") }}
+      </p>
+      <p><a
+           href="http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_1080p_2500kbps.mp4">http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_1080p_2500kbps.mp4</a>
+      </p>
+      <p><a
+           href="http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_720p_1500kbps.webm">http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_720p_1500kbps.webm</a>
+      </p>
+      <p>&#8230; {{_("or any other of the links at")}} <a
+           href="https://archive.org/details/Subsurface_v4_Tutorial">https://archive.org/details/Subsurface_v4_Tutorial</a>
+      </p>
+      <p>&#8230;
+        {{_("and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>).", vlc="href=http://www.videolan.org/vlc/")}}
+      </p>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
