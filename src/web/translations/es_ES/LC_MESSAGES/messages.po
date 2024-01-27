@@ -1277,6 +1277,9 @@ msgid ""
 "I cannot download all my dives, only the most recent ones even though my "
 "dive computer's manual states that it records history of e.g. 999 dives."
 msgstr ""
+"No consigo descargar todas mis inmersiones, solo las más recientes, aunque "
+"el manual de mi computador de buceo afirma que guarda el historial de, por "
+"ejemplo, 999 buceos."
 
 #: templates/faq.html:602
 msgid ""
