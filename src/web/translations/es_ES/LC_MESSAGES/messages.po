@@ -1509,6 +1509,9 @@ msgid ""
 "and only for cable based download. Based on a specific request from Garmin, "
 "we will not be able to support BLE downloads on any platform."
 msgstr ""
+"Los ordenadores de buceo Descent solo están soportados en Windows, macOS, y "
+"Linux, y solo para descargas por cable. No hay planes para soportar "
+"descargas por BLE en ninguna de las plataformas."
 
 #: templates/faq.html:743
 msgid "Can I import '.FIT' files directly?"
