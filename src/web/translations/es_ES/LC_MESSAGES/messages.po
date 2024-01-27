@@ -1772,7 +1772,7 @@ msgstr ""
 
 #: templates/home.html:117
 msgid "We switched to rolling releases"
-msgstr ""
+msgstr "Hemos cambiado publicaciones continuas"
 
 #: templates/home.html:119
 #, python-format
