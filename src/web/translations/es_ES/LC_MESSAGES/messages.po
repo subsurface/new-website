@@ -1188,6 +1188,10 @@ msgid ""
 "multiple users are supported quite well, the downside of this approach is "
 "that it's incompatible with Subsurface cloud storage."
 msgstr ""
+"Otra opción es guardar los registros de los diferentes usuarios en archivos "
+"distintos. Desde Subsurface puedes abrir archivos individuales para "
+"diferentes buceadores y funciona bien. El problema con esta solución es que "
+"es incompatible con el almacenamiento en la nube de Subsurface."
 
 #: templates/faq.html:547
 msgid ""
