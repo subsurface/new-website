@@ -393,7 +393,7 @@ msgstr "<a %(faq)s>FAQ</a>"
 #: templates/documentation.html:18
 #, python-format
 msgid "<a %(supporteddc)s>Supported Dive Computers</a>"
-msgstr "<a %(supporteddc)s>Ordenadores de Buceo Soportados</a>"
+msgstr "<a %(supporteddc)s>Ordenadores de Buceo Compatibles</a>"
 
 #: templates/documentation.html:20
 #, python-format
