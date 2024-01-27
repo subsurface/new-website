@@ -1348,6 +1348,10 @@ msgid ""
 "or iOS device. Additionally there is a read only web view available at <a "
 "%(cloudweb)s>the cloud webpage</a>."
 msgstr ""
+"Subsurface puede guardar tu divelog seguro en la nube, sirviendo como copia "
+"de respaldo de tus datos, permitiéndote ver tus divelogs en un escritorio, o"
+" en apps Android o iOS. Adicionalmente, hay una vista web de solo lectura "
+"disponible en <a %(cloudweb)s>la web de la nube</a>."
 
 #: templates/faq.html:642
 msgid ""
