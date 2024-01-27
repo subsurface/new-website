@@ -1556,7 +1556,7 @@ msgstr ""
 
 #: templates/faq.html:775
 msgid "Garmin Descent Mk2/Mk3 on Windows"
-msgstr ""
+msgstr "Garmin Descent Mk2/Mk3 en Windows"
 
 #: templates/faq.html:782
 msgid ""
