@@ -1963,7 +1963,7 @@ msgstr ""
 
 #: templates/subsurface-user-manual.html:13
 msgid "Subsurface User Manual"
-msgstr ""
+msgstr "Manual de Usuario de Subsurface"
 
 #: templates/supported-dive-computers.html:15
 msgid ""
