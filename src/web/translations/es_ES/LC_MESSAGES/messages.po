@@ -1944,6 +1944,8 @@ msgid ""
 "With the GDPR compliance out of the way, here is the summary that applies to"
 " everyone (since we don't actually track where you are from):"
 msgstr ""
+"Dejando de lado el cumplimiento de la GDPR, aquí esta el resumen que se "
+"aplica a todos (ya que no registramos de donde eres en realidad):"
 
 #: templates/privacy-policy.html:39
 msgid ""
