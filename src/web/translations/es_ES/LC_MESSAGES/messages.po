@@ -1936,6 +1936,8 @@ msgid ""
 "The EU regulatory authority Subsurface comes under is: <a "
 "%(link)s>https://datenschutz.hessen.de/</a>."
 msgstr ""
+"La autoridad reguladora de la UE a la que pertenece Subsurface es: <a "
+"%(link)s>https://datenschutz.hessen.de/</a>."
 
 #: templates/privacy-policy.html:36
 msgid ""
