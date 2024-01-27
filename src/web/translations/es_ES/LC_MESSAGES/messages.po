@@ -1363,6 +1363,13 @@ msgid ""
 "In the end this is not a useful trade-off for us to make, so other cloud "
 "solutions continue to not be supported."
 msgstr ""
+"Solo hay un servidor en la nube disponible lo que permite a los "
+"desarrolladores mejorar Subsurface, solucionar problemas y dar soporte a los"
+" usuarios (con su permiso) si algo falla. El esfuerzo incremental para "
+"soportar backends de nube adicionales es notable, al mismo tiempo que hace "
+"mucho más difícil para nosotros ayudar a los usuarios que tienen problemas. "
+"Al final no compensa, por tanto otras soluciones en la nube continúan sin "
+"estar soportadas."
 
 #: templates/faq.html:645
 msgid ""
