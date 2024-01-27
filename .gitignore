@@ -2,7 +2,8 @@ __pycache__
 venv
 .vscode
 .env
-images/
+subsurface/
 src/web/templates/SupportedDivecomputers.html
-src/web/templates/raw-user-manual.html
 src/web/persistent.store
+src/web/static/user-manual.html
+src/web/static/images

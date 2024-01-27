@@ -2,6 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /web
 COPY ./requirements.txt /web
+RUN apt update && apt install -y git
 RUN pip install --no-cache-dir -r /web/requirements.txt
 COPY . /web
 RUN pip install -e .

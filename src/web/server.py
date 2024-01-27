@@ -2,6 +2,8 @@ import hashlib
 import hmac
 import json
 import os
+import shutil
+import subprocess
 
 from .globals import testrun
 
@@ -52,10 +54,42 @@ if __name__ != "__main__":
     # we want only one of the workers to process any outstanding release IDs
     # try to create the lock in Redis and hold it for 30 seconds
     # (by which time all the other workers have gotten past this code)
-    redis.set(name="processReleaseIds", value=os.getpid(), nx=True, ex=30)
-    lock = int(redis.get(name="processReleaseIds"))
+    redis.set(name="initWorker", value=os.getpid(), nx=True, ex=30)
+    lock = int(redis.get(name="initWorker"))
     print(f"process {os.getpid()} got lock {lock}")
     if lock == os.getpid():
+        print("this is the initWorker")
+        print("make sure Subsurface tree is checked out and current")
+        if not os.path.isdir("/web/subsurface"):
+            # ok - this is a brand new setup. Weeee
+            try:
+                subprocess.run(
+                    "cd /web; git clone https://github.com/subsurface/subsurface",
+                    shell=True,
+                    check=True,
+                )
+            except:
+                print(
+                    "cloning the Subsurface repo into /web/subsurface failed; the server will mostly run but "
+                    "will be missing the user manual and the list of supported dive computers; please clone "
+                    "the repo manually and restart"
+                )
+        try:
+            subprocess.run("cd /web/subsurface; git pull", shell=True, check=True)
+        except:
+            print("issue pulling the latest Subsurface sources - please check")
+        shutil.copy(
+            "/web/subsurface/SupportedDivecomputers.html", "/web/src/web/templates/"
+        )
+        shutil.copy(
+            "/web/subsurface/Documentation/user-manual.html.git",
+            "/web/src/web/static/user-manual.html",
+        )
+        shutil.copytree(
+            "/web/subsurface/Documentation/images",
+            "/web/src/web/static/images",
+            dirs_exist_ok=True,
+        )
         print("processing any remembered release IDs")
         for release_id in env["release_ids"].value:
             # we got restarted while waiting for releases to populate - remove their locks
@@ -124,9 +158,16 @@ def favicon():
     )
 
 
-@app.route("/images/<path:path>")
+@app.route("/subsurface-user-manual/images/<path:path>")
 def send_report(path):
-    return send_from_directory(os.path.join(app.root_path, "images"), path)
+    return send_from_directory(os.path.join(app.root_path, "static/images"), path)
+
+
+@app.route("/subsurface-user-manual/")
+def static_user_manual():
+    return send_from_directory(
+        os.path.join(app.root_path, "static"), "user-manual.html"
+    )
 
 
 @app.get("/")
@@ -187,10 +228,6 @@ def documentation():
 @app.get("/supported-dive-computers/")
 def supported_dive_computers():
     return render_template("supported-dive-computers.html", request=request)
-
-
-@app.get("/subsurface-user-manual/")
-def subsurface_user_manual():
     return render_template("subsurface-user-manual.html", request=request)
 
 
