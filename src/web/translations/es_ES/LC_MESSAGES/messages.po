@@ -1455,6 +1455,13 @@ msgid ""
 "better job at 'error correction'), but Subsurface won't download until you "
 "have a fresh battery and really clean and really dry contacts."
 msgstr ""
+"Resulta pasmosa la frecuencia con la que los motivos son unos contactos "
+"húmedos o sucios, o una batería baja. No importa si el ordenador de buceo se"
+" enciende. Los modos de descarga suelen necesitar voltajes altos y estables "
+"para funcionar. Y, lamentablemente, incluso hemos visto una situación en la "
+"que el software del fabricante funcionaba (porque puede hacer un trabajo "
+"mucho mejor corrigiendo errores), pero Subsurface no descargará hasta que "
+"tengas una batería cargada y los contactos limpios y secos de verdad."
 
 #: templates/faq.html:708
 msgid "BLE (Bluetooth Low Energy) downloads are incredibly slow"
