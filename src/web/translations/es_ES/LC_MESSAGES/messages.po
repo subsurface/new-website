@@ -1697,6 +1697,11 @@ msgid ""
 "group the dive list into trips, and edit multiple dives at the same time, "
 "making it easy to support a large number of dives."
 msgstr ""
+"Los usuarios pueden proporcionar diferentes etiquetas a cada inmersión y "
+"<strong>filtrar su lista de buceos</strong> en base a diferentes criterios "
+"(etiquetas, lugares, compañeros, etc). Se pueden agrupar los buceos en "
+"viajes o editar varias inmersiones a la vez, facilitando así el "
+"mantenimiento de listas largas."
 
 #: templates/home.html:94
 msgid ""
