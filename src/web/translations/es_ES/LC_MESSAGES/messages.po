@@ -1329,6 +1329,11 @@ msgid ""
 "still not working or there is something else wrong, contact Dirk to sort it "
 "out."
 msgstr ""
+"Si has configurado correctamente tus credenciales de Subsurface y el "
+"almacenamiento en la nube aún falla, intenta cambiar el password vía <a "
+"%(pwdreset)s>password reset</a> en nuestra página web. Si tus credenciales "
+"siguen sin funcionar, o hay alguna otra cosa mal, contacta con Dirk para "
+"solucionarlo."
 
 #: templates/faq.html:632
 msgid "Can Subsurface store my files on a different cloud server?"
