@@ -1783,7 +1783,7 @@ msgstr ""
 
 #: templates/home.html:124
 msgid "A bit of history:"
-msgstr ""
+msgstr "Un poco de historia:"
 
 #: templates/home.html:126
 msgid ""
