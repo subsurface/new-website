@@ -495,7 +495,7 @@ msgstr "<a %(credits)s>Créditos</a>"
 #: templates/documentation.html:33
 #, python-format
 msgid "<a %(thanks)s>Thanks</a>"
-msgstr ""
+msgstr "<a %(thanks)s>Agradecimientos</a>"
 
 #: templates/faq.html:15
 msgid ""
