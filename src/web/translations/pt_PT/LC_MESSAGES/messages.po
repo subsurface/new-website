@@ -727,6 +727,8 @@ msgstr ""
 #: templates/faq.html:145
 msgid "Where do I find the log files on Windows?"
 msgstr ""
+"Onde estão localizados os ficheiros com os registos dos mergulhos no "
+"Windows?"
 
 #: templates/faq.html:151
 msgid ""
