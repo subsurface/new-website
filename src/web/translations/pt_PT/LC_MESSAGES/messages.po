@@ -752,6 +752,9 @@ msgid ""
 "computer and download cable that you use. And it's really hard to give "
 "universally correct answers."
 msgstr ""
+"Boa pergunta - normalmente aqueles que sejam específicos para a sua "
+"combinação de computador de mergulho e cabo para o download. E é bastante "
+"difícil darmos uma resposta universalmente correcta a esta questão."
 
 #: templates/faq.html:170
 #, python-format
