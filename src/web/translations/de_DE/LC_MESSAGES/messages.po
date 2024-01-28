@@ -1133,7 +1133,7 @@ msgstr ""
 
 #: templates/faq.html:454
 msgid "How can I import my dives into Subsurface?"
-msgstr ""
+msgstr "Wie kann ich meine Tauchgänge in Subsurface importieren?"
 
 #: templates/faq.html:461
 #, python-format
