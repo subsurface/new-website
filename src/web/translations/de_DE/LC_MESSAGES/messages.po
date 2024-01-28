@@ -1052,6 +1052,11 @@ msgid ""
 "website</a> and log in with the same email address / password. This allows "
 "you to access your dive data from any device with a web browser."
 msgstr ""
+"Von allen anderen Geräten (inklusive Tabletts und Telefonen, die wir nicht "
+"direkt unterstützen), kann man unsere  <a %(cloudweb)s>Cloud-Webseite</a> "
+"öffnen und mit der gleichen Email-/Passwort-Kombination sich einloggen. Auf "
+"diese Weise kann man sein Logbuch von jedem Gerät mit einem Webbrowser "
+"erreichen."
 
 #: templates/faq.html:380
 msgid "What's the minimum Android version required?"
