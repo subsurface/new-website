@@ -1067,6 +1067,8 @@ msgid ""
 "The side-loaded APK should work with Android 8.0 and newer. Older Android "
 "versions are known not to work with the Subsurface Cloud."
 msgstr ""
+"Das \"side-load\" APK sollte mit Android 8.0 und später funktionieren. "
+"Ältere Android-Versionen funktionieren nicht mit der Subsurface-Cloud."
 
 #: templates/faq.html:398
 msgid ""
