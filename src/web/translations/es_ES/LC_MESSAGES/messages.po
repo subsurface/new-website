@@ -2088,6 +2088,8 @@ msgid ""
 "You can also download the video for offline viewing, using one of the "
 "following links:"
 msgstr ""
+"También lo puedes descargar para visualizarlo off-line usando uno de los "
+"siguientes enlaces:"
 
 #: templates/tutorial-video.html:37
 msgid "or any other of the links at"
