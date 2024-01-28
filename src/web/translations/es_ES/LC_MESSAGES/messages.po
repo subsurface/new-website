@@ -444,6 +444,10 @@ msgid ""
 "email to the Subsurface team at <a %(link)s>in-app-support@subsurface-"
 "divelog</a>."
 msgstr ""
+"Tus datos en la nube se pueden borrar desde la propia app móvil o puedes "
+"pedir que tus datos o los datos y la cuenta sean borrados, simplemente "
+"enviando un correo al equipo de Subsurface en <a %(link)s>in-app-"
+"support@subsurface-divelog</a>."
 
 #: templates/documentation.html:15
 msgid ""
