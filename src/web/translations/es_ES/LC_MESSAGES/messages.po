@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-27 22:11+0000\n"
+"POT-Creation-Date: 2024-01-28 21:25+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Boret <salvador.cunat@gmail.com>, 2024\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/subsurface/teams/15508/es_ES/)\n"
@@ -161,17 +161,12 @@ msgstr "Mejorando la Experiencia de Usuario"
 #: templates/contributing.html:34
 #, python-format
 msgid ""
-"If like to obsess over usability and user experience, and ideally have some "
-"experience in UX and / or web design, we can always use help with improving "
-"the user experience and visual design of Subsurface and of our website. To "
-"get started please head over to the code contribution page on GitHub to find"
-" out <a %(link)s>how to join the community</a>."
+"If you like to obsess over usability and user experience, and ideally have "
+"some experience in UX and / or web design, we can always use help with "
+"improving the user experience and visual design of Subsurface and of our "
+"website. To get started please head over to the code contribution page on "
+"GitHub to find out <a %(link)s>how to join the community</a>."
 msgstr ""
-"Si te obsesiona la usabilidad y la experiencia de usuario, y tienes alguna "
-"experiencia en UX y/o diseño web, siempre puedes ayudarnos en mejorar la "
-"experiencia de usuario y el diseño visual de Subsurface y de nuestra web. "
-"Para empezar, por favor, visita la página de contribución de código en "
-"GitHub, para ver <a %(link)s>como unirte a la comunidad</a>."
 
 #: templates/contributing.html:37
 msgid "By Translating Subsurface"
@@ -666,6 +661,10 @@ msgstr ""
 " gases ideales y Subsurface <a %(sac)s>tiene en cuenta la compresibilidad de"
 " los gases</a>."
 
+#: templates/faq.html:105
+msgid "OS Support"
+msgstr ""
+
 #: templates/faq.html:111
 msgid "How do I install Subsurface on Windows?"
 msgstr "¿Como instalo Subsurface en Windows?"
@@ -985,6 +984,10 @@ msgstr ""
 "que aparece en dicho archivo (porque eso significaría, probablemente, que "
 "hay que actualizar el archivo <code>INSTALL</code>)."
 
+#: templates/faq.html:352
+msgid "Mobile Support"
+msgstr ""
+
 #: templates/faq.html:357
 msgid "How do I install Subsurface-mobile on my phone / tablet?"
 msgstr "¿Como instalo Subsurface-mobile en mi teléfono / tablet?"
@@ -1092,6 +1095,10 @@ msgstr ""
 "ordenadores Garmin son la excepción a esta regla, no están soportados en "
 "absoluto en iOs. No existe la posibilidad de descargar por cable."
 
+#: templates/faq.html:429
+msgid "Usage"
+msgstr ""
+
 #: templates/faq.html:434
 msgid "How do I know I have the latest version of Subsurface?"
 msgstr "¿Como sé si tengo la última versión de Subsurface?"
@@ -1106,6 +1113,13 @@ msgstr ""
 " actualizaciones\". La versión para iOS te avisa por los mecanismos "
 "habituales de la AppStore. Para Android estamos desarrollando un mecanismo "
 "de aviso."
+
+#: templates/faq.html:444
+#, python-format
+msgid ""
+"You can also check the <a %(crelease)s>current release</a> page to look at our reasonably frequent\n"
+"                (“weekly”) updates."
+msgstr ""
 
 #: templates/faq.html:454
 msgid "How can I import my dives into Subsurface?"
@@ -1470,6 +1484,10 @@ msgstr ""
 "tus datos en Dropbox u otros servicios similares como OwnCloud, TeamDrive, "
 "MiniBox, etc."
 
+#: templates/faq.html:650
+msgid "Issues with specific dive computers"
+msgstr ""
+
 #: templates/faq.html:655
 msgid "Can you add support for dive computer X?"
 msgstr "¿Podéis añadir soporte para el ordenador X?"
@@ -1668,11 +1686,11 @@ msgstr ""
 "enchufarlo, de nuevo seleccionando MTP, ahora Subsurface puede descargar de "
 "él (no introduzcas nada en el campo de conexión)"
 
-#: templates/faq.html:794
+#: templates/faq.html:790
 msgid "Other questions"
 msgstr "Otras preguntas"
 
-#: templates/faq.html:801
+#: templates/faq.html:792
 #, python-format
 msgid ""
 "If your question wasn't answered here, please check the <a "
@@ -1683,7 +1701,7 @@ msgstr ""
 "de Usuarios</a> (prueba con la función de búsqueda) y, si no encuentras "
 "respuesta allí, abre un nuevo tema y pide ayuda."
 
-#: templates/faq.html:808
+#: templates/faq.html:796
 #, python-format
 msgid ""
 "This FAQ is maintained as part of our website in the <a %(webrepo)s>website "
@@ -1698,11 +1716,15 @@ msgstr ""
 msgid "The free, open-source cross-platform dive log software."
 msgstr "El software gratuito, de código abierto y multiplataforma."
 
-#: templates/home.html:64
+#: templates/home.html:32 templates/home.html:48
+msgid "Downloads for other platforms"
+msgstr ""
+
+#: templates/home.html:74
 msgid "Multiplatform"
 msgstr "Multiplataforma"
 
-#: templates/home.html:66
+#: templates/home.html:76
 msgid ""
 "Subsurface is an open source divelog program for recreational, tech, and "
 "free-divers that runs on Windows, Mac, and Linux"
@@ -1710,11 +1732,11 @@ msgstr ""
 "Subsurface es un programa de registro de inmersiones para buceadores "
 "recreativos, técnicos y apneístas, que corre en Windows, Mac y Linux"
 
-#: templates/home.html:74
+#: templates/home.html:84
 msgid "Log all your dives"
 msgstr "Registra todos tus buceos"
 
-#: templates/home.html:76
+#: templates/home.html:86
 msgid ""
 "Download your dives from your dive computer. Import them from other dive log"
 " programs or dive log websites. Manually enter them directly in Subsurface "
@@ -1724,11 +1746,11 @@ msgstr ""
 "programas o webs de divelogs. Introdúcelas directamente a mano o a través de"
 " una simple hoja de cálculo."
 
-#: templates/home.html:84
+#: templates/home.html:94
 msgid "Dive planner"
 msgstr "Planificador de inmersiones"
 
-#: templates/home.html:86
+#: templates/home.html:96
 msgid ""
 "The planner module makes it simple to visually plan dives either based on "
 "Bühlmann ZH-16 or VPM-B"
@@ -1736,11 +1758,11 @@ msgstr ""
 "El módulo planificador hace que sea sencillo planificar visualmente buceos "
 "basándose en Bühlmann ZH-16 o VPM-B"
 
-#: templates/home.html:94
+#: templates/home.html:104
 msgid "Subsurface-mobile"
 msgstr "Subsurface-mobile"
 
-#: templates/home.html:96
+#: templates/home.html:106
 msgid ""
 "Using Subsurface-mobile on your Android or iOS device you can access your "
 "dive log anywhere"
@@ -1748,11 +1770,11 @@ msgstr ""
 "Utilizando Subsurface-mobile en tu dispositivo Android o iOS puedes acceder "
 "a tu divelog en cualquier lugar"
 
-#: templates/home.html:104
+#: templates/home.html:114
 msgid "Cloud storage"
 msgstr "Almacenamiento en la nube"
 
-#: templates/home.html:106
+#: templates/home.html:116
 msgid ""
 "Store your logbook data in the cloud. Work with your data from different "
 "devices, online and offline. Fully integrated, free, and easy to set up."
@@ -1761,7 +1783,7 @@ msgstr ""
 "datos desde diferentes dispositivos, on-line u off-line. Completamente "
 "integrado, gratuito y fácil de configurar."
 
-#: templates/home.html:123
+#: templates/home.html:133
 msgid ""
 "Subsurface can <strong>plan</strong> and <strong>track</strong> single- and "
 "multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It allows "
@@ -1777,7 +1799,7 @@ msgstr ""
 "utilizado y otras personas de la inmersión, y permite al usuario calificar "
 "los buceos y guardar notas adicionales."
 
-#: templates/home.html:126
+#: templates/home.html:136
 msgid ""
 "You can tag dives and <strong>filter a dive list</strong> based on criteria "
 "including tags, locations and people with whom you were diving. You can "
@@ -1790,7 +1812,7 @@ msgstr ""
 "viajes o editar varias inmersiones a la vez, facilitando así el "
 "mantenimiento de listas largas."
 
-#: templates/home.html:131
+#: templates/home.html:141
 msgid ""
 "Subsurface also calculates a wide variety of <strong>statistics</strong> of "
 "the user’s diving and tracks information like the SAC rate, partial "
@@ -1801,7 +1823,7 @@ msgstr ""
 "en superficie, presiones parciales de O2, N2 y He, información de deco y "
 "muchas más."
 
-#: templates/home.html:134
+#: templates/home.html:144
 msgid ""
 "<strong>Multiple divers</strong> can share one instance of Subsurface using "
 "different preferences and settings."
@@ -1809,7 +1831,7 @@ msgstr ""
 "Una sola copia de Subsurface puede ser utilizada por <strong>varios "
 "buceadores</strong> cada uno con sus preferencias y ajustes."
 
-#: templates/home.html:137
+#: templates/home.html:147
 msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
@@ -1817,7 +1839,7 @@ msgstr ""
 "El programa esta disponible en alrededor de <strong>veinte idiomas</strong> "
 "y bien respaldado por una activa comunidad de desarrolladores."
 
-#: templates/home.html:142
+#: templates/home.html:152
 #, python-format
 msgid ""
 "One of the major strengths of Subsurface is its support of a wide range of "
@@ -1831,7 +1853,7 @@ msgstr ""
 "divelogs de diferentes fuentes externas incluyendo MacDive, Suunto DM3, DM4 "
 "y DM5, JDiveLog y divelogs.de"
 
-#: templates/home.html:145
+#: templates/home.html:155
 msgid ""
 "Another strength is its ability to <strong>visualize</strong> the depth "
 "profile (and, if available, the tank pressure curve) in innovative ways that"
@@ -1849,7 +1871,7 @@ msgstr ""
 "pueden combinar los datos en una única inmersión y visualizar los datos "
 "recogidos de varios ordenadores."
 
-#: templates/home.html:150
+#: templates/home.html:160
 msgid ""
 "Subsurface lets the user <strong>print</strong> out a detailed log book "
 "including dive profiles and other important information."
@@ -1857,22 +1879,22 @@ msgstr ""
 "Subsurface permite al usuario <strong>imprimir</strong> un registro "
 "detallado, que incluye perfiles de inmersión y otra información de interés."
 
-#: templates/home.html:154
+#: templates/home.html:164
 msgid "We switched to rolling releases"
 msgstr "Hemos cambiado publicaciones continuas"
 
-#: templates/home.html:156
+#: templates/home.html:166
 #, python-format
 msgid ""
 "Please check out <a %(link)s>the announcement of the Release Changes</a>"
 msgstr ""
 "Por favor, visita <a %(link)s>el anuncio de los cambios en publicaciones</a>"
 
-#: templates/home.html:161
+#: templates/home.html:171
 msgid "A bit of history:"
 msgstr "Un poco de historia:"
 
-#: templates/home.html:163
+#: templates/home.html:173
 msgid ""
 "In fall of 2011, when a forced lull in kernel development gave him a chance "
 "to start a new project, Linux creator Linus Torvalds decided to tackle his "
@@ -1883,7 +1905,7 @@ msgstr ""
 "el creador de Linux, decidió enfrentar su frustración por la falta de un "
 "programa decente de diarios de buceo en Linux."
 
-#: templates/home.html:166
+#: templates/home.html:176
 msgid ""
 "Linus worked with a team of developers, and Subsurface is the result. It now"
 " supports Linux, Windows and MacOS and allows data import from many dive "
@@ -1908,16 +1930,10 @@ msgstr "Última Publicación de Desarrollo (CICD): %(version)s"
 #: templates/latest-release.html:17
 msgid ""
 "The releases on this page are the latest builds from the Subsurface CICD "
-"(Continuous Integration, Continuous Development) system. While we don't "
-"expect them to be broken very often, they are generally released in order to"
-" facilitate testing, and as such may not have received a lot of testing, "
-"yet."
+"(Continuous Integration, Continuous Delivery) system. While we don't expect "
+"them to be broken very often, they are generally released in order to "
+"facilitate testing, and as such may not have received a lot of testing, yet."
 msgstr ""
-"Las publicaciones en esta página son las últimas compilaciones del sistema "
-"CICD de Subsurface (siglas en inglés de Integración Continua, Desarrollo "
-"Continuo). Aunque esperamos que no fallen muy a menudo, se publican "
-"generalmente para facilitar los test y, por tanto, no habrán sido probadas "
-"en profundidad aún."
 
 #: templates/latest-release.html:20
 #, python-format
@@ -1969,15 +1985,10 @@ msgstr ""
 #: templates/privacy-policy.html:18
 msgid ""
 "Personal information is limited to your email address, online and system "
-"identifies, enabling a registered user account to be created and maintained."
+"identities, enabling a registered user account to be created and maintained."
 " The information is processed to provide the Subsurface application to "
 "registered users, the lawful purpose: contract obligation."
 msgstr ""
-"La información personal se limita a tu correo electrónico, identificativo en"
-" línea y de sistema, que permite que una cuenta de usuario se cree y pueda "
-"ser mantenida. La información es procesada para proveer la aplicación "
-"Subsurface a los usuarios registrados, el propósito legítimo: la obligación "
-"contractual."
 
 #: templates/privacy-policy.html:21
 msgid ""
