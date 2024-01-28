@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-28 21:37+0000\n"
+"POT-Creation-Date: 2024-01-28 22:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -259,9 +259,9 @@ msgid ""
 msgstr ""
 
 #: templates/current-release.html:32 templates/current-release.html:46
-#: templates/current-release.html:60 templates/current-release.html:103
+#: templates/current-release.html:60 templates/current-release.html:108
 #: templates/latest-release.html:29 templates/latest-release.html:43
-#: templates/latest-release.html:57 templates/latest-release.html:100
+#: templates/latest-release.html:57 templates/latest-release.html:105
 msgid "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 msgstr ""
 
@@ -279,7 +279,7 @@ msgid ""
 "Forum</a>."
 msgstr ""
 
-#: templates/current-release.html:66 templates/latest-release.html:63
+#: templates/current-release.html:67 templates/latest-release.html:64
 msgid ""
 "The Subsurface Android APK can be side-loaded on most Android devices. If"
 " you previously had installed Subsurface-mobile from the Google Play "
@@ -290,11 +290,18 @@ msgid ""
 " require an uninstall."
 msgstr ""
 
-#: templates/current-release.html:74 templates/latest-release.html:71
+#: templates/current-release.html:70 templates/latest-release.html:67
+#, python-format
+msgid ""
+"A brief explanation of the concept of side-loading can be found in <a "
+"%(explanation)s>this androidcentral article</a>."
+msgstr ""
+
+#: templates/current-release.html:79 templates/latest-release.html:76
 msgid "AppStore Link&nbsp;&nbsp;"
 msgstr ""
 
-#: templates/current-release.html:80
+#: templates/current-release.html:85
 msgid ""
 "iOS is the only platform right now where in general side-loading or "
 "installing unsigned binaries is impossible (apparently that may change "
@@ -304,40 +311,40 @@ msgid ""
 "frequently as well."
 msgstr ""
 
-#: templates/current-release.html:86 templates/latest-release.html:83
+#: templates/current-release.html:91 templates/latest-release.html:88
 msgid ""
 "The Subsurface team is providing distribution packages for Ubuntu and "
 "Fedora as well as a generic \"AppImage\" that should work on most other "
 "x86_64 Linux distributions."
 msgstr ""
 
-#: templates/current-release.html:88 templates/latest-release.html:85
+#: templates/current-release.html:93 templates/latest-release.html:90
 msgid "Ubuntu and compatible distros"
 msgstr ""
 
-#: templates/current-release.html:89 templates/latest-release.html:86
+#: templates/current-release.html:94 templates/latest-release.html:91
 msgid ""
 "To use these binaries in Ubuntu, simply add the Subsurface Daily Release "
 "PPA to your system:"
 msgstr ""
 
-#: templates/current-release.html:91 templates/latest-release.html:88
+#: templates/current-release.html:96 templates/latest-release.html:93
 msgid "and then install Subsurface with <code>sudo apt install subsurface </code>"
 msgstr ""
 
-#: templates/current-release.html:93 templates/latest-release.html:90
+#: templates/current-release.html:98 templates/latest-release.html:95
 msgid "To install the Subsurface CICD binaries on Fedora simply run"
 msgstr ""
 
-#: templates/current-release.html:95 templates/latest-release.html:92
+#: templates/current-release.html:100 templates/latest-release.html:97
 msgid "and then install Subsurface with <code>dnf install subsurface</code>"
 msgstr ""
 
-#: templates/current-release.html:96 templates/latest-release.html:93
+#: templates/current-release.html:101 templates/latest-release.html:98
 msgid "Other x86_64 Linux distributions"
 msgstr ""
 
-#: templates/current-release.html:109 templates/latest-release.html:106
+#: templates/current-release.html:114 templates/latest-release.html:111
 #, python-format
 msgid ""
 "A generic AppImage is available. After you download this file, make it "
@@ -1458,7 +1465,7 @@ msgid ""
 "executable and selecting to open it."
 msgstr ""
 
-#: templates/latest-release.html:77
+#: templates/latest-release.html:82
 #, python-format
 msgid ""
 "iOS is the only platform right now where in general side-loading or "

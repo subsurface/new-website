@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-27 22:11+0000\n"
+"POT-Creation-Date: 2024-01-28 22:14+0000\n"
 "PO-Revision-Date: 2024-01-22 21:44+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr_FR\n"
@@ -133,11 +133,11 @@ msgstr ""
 #: templates/contributing.html:34
 #, python-format
 msgid ""
-"If like to obsess over usability and user experience, and ideally have "
-"some experience in UX and / or web design, we can always use help with "
-"improving the user experience and visual design of Subsurface and of our "
-"website. To get started please head over to the code contribution page on"
-" GitHub to find out <a %(link)s>how to join the community</a>."
+"If you like to obsess over usability and user experience, and ideally "
+"have some experience in UX and / or web design, we can always use help "
+"with improving the user experience and visual design of Subsurface and of"
+" our website. To get started please head over to the code contribution "
+"page on GitHub to find out <a %(link)s>how to join the community</a>."
 msgstr ""
 
 #: templates/contributing.html:37
@@ -261,9 +261,9 @@ msgid ""
 msgstr ""
 
 #: templates/current-release.html:32 templates/current-release.html:46
-#: templates/current-release.html:60 templates/current-release.html:103
+#: templates/current-release.html:60 templates/current-release.html:108
 #: templates/latest-release.html:29 templates/latest-release.html:43
-#: templates/latest-release.html:57 templates/latest-release.html:100
+#: templates/latest-release.html:57 templates/latest-release.html:105
 msgid "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 msgstr ""
 
@@ -281,7 +281,7 @@ msgid ""
 "Forum</a>."
 msgstr ""
 
-#: templates/current-release.html:66 templates/latest-release.html:63
+#: templates/current-release.html:67 templates/latest-release.html:64
 msgid ""
 "The Subsurface Android APK can be side-loaded on most Android devices. If"
 " you previously had installed Subsurface-mobile from the Google Play "
@@ -292,11 +292,18 @@ msgid ""
 " require an uninstall."
 msgstr ""
 
-#: templates/current-release.html:74 templates/latest-release.html:71
+#: templates/current-release.html:70 templates/latest-release.html:67
+#, python-format
+msgid ""
+"A brief explanation of the concept of side-loading can be found in <a "
+"%(explanation)s>this androidcentral article</a>."
+msgstr ""
+
+#: templates/current-release.html:79 templates/latest-release.html:76
 msgid "AppStore Link&nbsp;&nbsp;"
 msgstr ""
 
-#: templates/current-release.html:80
+#: templates/current-release.html:85
 msgid ""
 "iOS is the only platform right now where in general side-loading or "
 "installing unsigned binaries is impossible (apparently that may change "
@@ -306,40 +313,40 @@ msgid ""
 "frequently as well."
 msgstr ""
 
-#: templates/current-release.html:86 templates/latest-release.html:83
+#: templates/current-release.html:91 templates/latest-release.html:88
 msgid ""
 "The Subsurface team is providing distribution packages for Ubuntu and "
 "Fedora as well as a generic \"AppImage\" that should work on most other "
 "x86_64 Linux distributions."
 msgstr ""
 
-#: templates/current-release.html:88 templates/latest-release.html:85
+#: templates/current-release.html:93 templates/latest-release.html:90
 msgid "Ubuntu and compatible distros"
 msgstr ""
 
-#: templates/current-release.html:89 templates/latest-release.html:86
+#: templates/current-release.html:94 templates/latest-release.html:91
 msgid ""
 "To use these binaries in Ubuntu, simply add the Subsurface Daily Release "
 "PPA to your system:"
 msgstr ""
 
-#: templates/current-release.html:91 templates/latest-release.html:88
+#: templates/current-release.html:96 templates/latest-release.html:93
 msgid "and then install Subsurface with <code>sudo apt install subsurface </code>"
 msgstr ""
 
-#: templates/current-release.html:93 templates/latest-release.html:90
+#: templates/current-release.html:98 templates/latest-release.html:95
 msgid "To install the Subsurface CICD binaries on Fedora simply run"
 msgstr ""
 
-#: templates/current-release.html:95 templates/latest-release.html:92
+#: templates/current-release.html:100 templates/latest-release.html:97
 msgid "and then install Subsurface with <code>dnf install subsurface</code>"
 msgstr ""
 
-#: templates/current-release.html:96 templates/latest-release.html:93
+#: templates/current-release.html:101 templates/latest-release.html:98
 msgid "Other x86_64 Linux distributions"
 msgstr ""
 
-#: templates/current-release.html:109 templates/latest-release.html:106
+#: templates/current-release.html:114 templates/latest-release.html:111
 #, python-format
 msgid ""
 "A generic AppImage is available. After you download this file, make it "
@@ -522,6 +529,10 @@ msgid ""
 "account</a>."
 msgstr ""
 
+#: templates/faq.html:105
+msgid "OS Support"
+msgstr ""
+
 #: templates/faq.html:111
 msgid "How do I install Subsurface on Windows?"
 msgstr ""
@@ -665,11 +676,12 @@ msgstr ""
 
 #: templates/faq.html:247
 msgid ""
-"Subsurface runs on both Apple M and Intel Macs running macOS 10.15 and "
-"newer. On Apple M Macs Subsurface currently runs in Rosettastone "
-"emulation mode. Work on fat binaries with native support for both x86_64 "
-"and Apple M chips has been started but for technical reasons currently "
-"doesn't create binaries with a great user experience."
+"Subsurface runs on both Apple Silicon (M1/M2/M3 CPUs) and Intel Macs "
+"running macOS 10.15 and newer. On Apple Silicon Macs Subsurface currently"
+" runs in x86_64 emulation mode via Rosetta 2. Work on fat binaries with "
+"native support for both x86_64 and Apple Silicon CPUs has been started "
+"but for technical reasons currently doesn't create binaries with a great "
+"user experience."
 msgstr ""
 
 #: templates/faq.html:256
@@ -752,6 +764,10 @@ msgid ""
 "the <code>INSTALL</code> file...)."
 msgstr ""
 
+#: templates/faq.html:352
+msgid "Mobile Support"
+msgstr ""
+
 #: templates/faq.html:357
 msgid "How do I install Subsurface-mobile on my phone / tablet?"
 msgstr ""
@@ -827,6 +843,10 @@ msgid ""
 "cable based downloads are possible."
 msgstr ""
 
+#: templates/faq.html:429
+msgid "Usage"
+msgstr ""
+
 #: templates/faq.html:434
 msgid "How do I know I have the latest version of Subsurface?"
 msgstr ""
@@ -837,6 +857,14 @@ msgid ""
 "“Check for updates”. The iOS version notifies you via the regular "
 "AppStore mechanisms. A notification mechanism for Android is under "
 "development."
+msgstr ""
+
+#: templates/faq.html:444
+#, python-format
+msgid ""
+"You can also check the <a %(crelease)s>current release</a> page to look "
+"at our reasonably frequent\n"
+"                (“weekly”) updates."
 msgstr ""
 
 #: templates/faq.html:454
@@ -900,7 +928,7 @@ msgstr ""
 
 #: templates/faq.html:506
 msgid ""
-"Obvioiusly there can be many reasons for this. If your dive computer "
+"Obviously there can be many reasons for this. If your dive computer "
 "connects via cable, clean the contacts and make sure they are dry. Repeat"
 " if necessary. Make sure the connector is firmly connected. Wiggle it. "
 "Seriously. Make sure the dive computer is in transfer mode (this isn’t "
@@ -1094,6 +1122,10 @@ msgid ""
 "MiniBox, etc."
 msgstr ""
 
+#: templates/faq.html:650
+msgid "Issues with specific dive computers"
+msgstr ""
+
 #: templates/faq.html:655
 msgid "Can you add support for dive computer X?"
 msgstr ""
@@ -1232,11 +1264,11 @@ msgid ""
 "connection field)"
 msgstr ""
 
-#: templates/faq.html:794
+#: templates/faq.html:790
 msgid "Other questions"
 msgstr ""
 
-#: templates/faq.html:801
+#: templates/faq.html:792
 #, python-format
 msgid ""
 "If your question wasn't answered here, please check the <a "
@@ -1244,7 +1276,7 @@ msgid ""
 "find an answer there, create a new topic and ask for help."
 msgstr ""
 
-#: templates/faq.html:808
+#: templates/faq.html:796
 #, python-format
 msgid ""
 "This FAQ is maintained as part of our website in the <a "
@@ -1257,58 +1289,62 @@ msgstr ""
 msgid "The free, open-source cross-platform dive log software."
 msgstr ""
 
-#: templates/home.html:64
+#: templates/home.html:32 templates/home.html:48
+msgid "Downloads for other platforms"
+msgstr ""
+
+#: templates/home.html:74
 msgid "Multiplatform"
 msgstr ""
 
-#: templates/home.html:66
+#: templates/home.html:76
 msgid ""
 "Subsurface is an open source divelog program for recreational, tech, and "
 "free-divers that runs on Windows, Mac, and Linux"
 msgstr ""
 
-#: templates/home.html:74
+#: templates/home.html:84
 msgid "Log all your dives"
 msgstr ""
 
-#: templates/home.html:76
+#: templates/home.html:86
 msgid ""
 "Download your dives from your dive computer. Import them from other dive "
 "log programs or dive log websites. Manually enter them directly in "
 "Subsurface or via a simple spreadsheet."
 msgstr ""
 
-#: templates/home.html:84
+#: templates/home.html:94
 msgid "Dive planner"
 msgstr ""
 
-#: templates/home.html:86
+#: templates/home.html:96
 msgid ""
 "The planner module makes it simple to visually plan dives either based on"
 " Bühlmann ZH-16 or VPM-B"
 msgstr ""
 
-#: templates/home.html:94
+#: templates/home.html:104
 msgid "Subsurface-mobile"
 msgstr ""
 
-#: templates/home.html:96
+#: templates/home.html:106
 msgid ""
 "Using Subsurface-mobile on your Android or iOS device you can access your"
 " dive log anywhere"
 msgstr ""
 
-#: templates/home.html:104
+#: templates/home.html:114
 msgid "Cloud storage"
 msgstr ""
 
-#: templates/home.html:106
+#: templates/home.html:116
 msgid ""
 "Store your logbook data in the cloud. Work with your data from different "
 "devices, online and offline. Fully integrated, free, and easy to set up."
 msgstr ""
 
-#: templates/home.html:123
+#: templates/home.html:133
 msgid ""
 "Subsurface can <strong>plan</strong> and <strong>track</strong> single- "
 "and multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It "
@@ -1318,7 +1354,7 @@ msgid ""
 "additional notes."
 msgstr ""
 
-#: templates/home.html:126
+#: templates/home.html:136
 msgid ""
 "You can tag dives and <strong>filter a dive list</strong> based on "
 "criteria including tags, locations and people with whom you were diving. "
@@ -1326,26 +1362,26 @@ msgid ""
 "same time, making it easy to support a large number of dives."
 msgstr ""
 
-#: templates/home.html:131
+#: templates/home.html:141
 msgid ""
 "Subsurface also calculates a wide variety of <strong>statistics</strong> "
 "of the user’s diving and tracks information like the SAC rate, partial "
 "pressures of O2, N2 and He, calculated deco information, and many more."
 msgstr ""
 
-#: templates/home.html:134
+#: templates/home.html:144
 msgid ""
 "<strong>Multiple divers</strong> can share one instance of Subsurface "
 "using different preferences and settings."
 msgstr ""
 
-#: templates/home.html:137
+#: templates/home.html:147
 msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
 
-#: templates/home.html:142
+#: templates/home.html:152
 #, python-format
 msgid ""
 "One of the major strengths of Subsurface is its support of a wide range "
@@ -1355,7 +1391,7 @@ msgid ""
 "divelogs.de."
 msgstr ""
 
-#: templates/home.html:145
+#: templates/home.html:155
 msgid ""
 "Another strength is its ability to <strong>visualize</strong> the depth "
 "profile (and, if available, the tank pressure curve) in innovative ways "
@@ -1366,33 +1402,33 @@ msgid ""
 "data collected from multiple sources."
 msgstr ""
 
-#: templates/home.html:150
+#: templates/home.html:160
 msgid ""
 "Subsurface lets the user <strong>print</strong> out a detailed log book "
 "including dive profiles and other important information."
 msgstr ""
 
-#: templates/home.html:154
+#: templates/home.html:164
 msgid "We switched to rolling releases"
 msgstr ""
 
-#: templates/home.html:156
+#: templates/home.html:166
 #, python-format
 msgid "Please check out <a %(link)s>the announcement of the Release Changes</a>"
 msgstr ""
 
-#: templates/home.html:161
+#: templates/home.html:171
 msgid "A bit of history:"
 msgstr ""
 
-#: templates/home.html:163
+#: templates/home.html:173
 msgid ""
 "In fall of 2011, when a forced lull in kernel development gave him a "
 "chance to start a new project, Linux creator Linus Torvalds decided to "
 "tackle his frustration with the lack of decent divelog software on Linux."
 msgstr ""
 
-#: templates/home.html:166
+#: templates/home.html:176
 msgid ""
 "Linus worked with a team of developers, and Subsurface is the result. It "
 "now supports Linux, Windows and MacOS and allows data import from many "
@@ -1410,7 +1446,7 @@ msgstr ""
 #: templates/latest-release.html:17
 msgid ""
 "The releases on this page are the latest builds from the Subsurface CICD "
-"(Continuous Integration, Continuous Development) system. While we don't "
+"(Continuous Integration, Continuous Delivery) system. While we don't "
 "expect them to be broken very often, they are generally released in order"
 " to facilitate testing, and as such may not have received a lot of "
 "testing, yet."
@@ -1431,7 +1467,7 @@ msgid ""
 "executable and selecting to open it."
 msgstr ""
 
-#: templates/latest-release.html:77
+#: templates/latest-release.html:82
 #, python-format
 msgid ""
 "iOS is the only platform right now where in general side-loading or "
@@ -1452,7 +1488,7 @@ msgstr ""
 #: templates/privacy-policy.html:18
 msgid ""
 "Personal information is limited to your email address, online and system "
-"identifies, enabling a registered user account to be created and "
+"identities, enabling a registered user account to be created and "
 "maintained. The information is processed to provide the Subsurface "
 "application to registered users, the lawful purpose: contract obligation."
 msgstr ""
@@ -1668,5 +1704,76 @@ msgstr ""
 #~ " %(link)s>Dirk's Ko-fi page</a> or "
 #~ "the <a %(ghsponsor)s>Dirk's GitHub Sponsor "
 #~ "page</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If like to obsess over usability "
+#~ "and user experience, and ideally have"
+#~ " some experience in UX and / or"
+#~ " web design, we can always use "
+#~ "help with improving the user experience"
+#~ " and visual design of Subsurface and"
+#~ " of our website. To get started "
+#~ "please head over to the code "
+#~ "contribution page on GitHub to find "
+#~ "out <a %(link)s>how to join the "
+#~ "community</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Subsurface runs on both Apple M "
+#~ "and Intel Macs running macOS 10.15 "
+#~ "and newer. On Apple M Macs "
+#~ "Subsurface currently runs in Rosettastone "
+#~ "emulation mode. Work on fat binaries "
+#~ "with native support for both x86_64 "
+#~ "and Apple M chips has been started"
+#~ " but for technical reasons currently "
+#~ "doesn't create binaries with a great "
+#~ "user experience."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Obvioiusly there can be many reasons "
+#~ "for this. If your dive computer "
+#~ "connects via cable, clean the contacts"
+#~ " and make sure they are dry. "
+#~ "Repeat if necessary. Make sure the "
+#~ "connector is firmly connected. Wiggle "
+#~ "it. Seriously. Make sure the dive "
+#~ "computer is in transfer mode (this "
+#~ "isn’t necessary for all dive computers"
+#~ " but for many common ones). Check "
+#~ "with other software that the download"
+#~ " works in general. Try another cable."
+#~ " Check your battery. There are some"
+#~ " dive computer (especially earlier Suunto"
+#~ " models) that will happily work with"
+#~ " a low battery, but will fail "
+#~ "to transfer dives to a connected "
+#~ "PC unless the battery is changed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The releases on this page are the"
+#~ " latest builds from the Subsurface "
+#~ "CICD (Continuous Integration, Continuous "
+#~ "Development) system. While we don't "
+#~ "expect them to be broken very "
+#~ "often, they are generally released in"
+#~ " order to facilitate testing, and as"
+#~ " such may not have received a "
+#~ "lot of testing, yet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Personal information is limited to your"
+#~ " email address, online and system "
+#~ "identifies, enabling a registered user "
+#~ "account to be created and maintained."
+#~ " The information is processed to "
+#~ "provide the Subsurface application to "
+#~ "registered users, the lawful purpose: "
+#~ "contract obligation."
 #~ msgstr ""
 
