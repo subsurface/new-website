@@ -780,6 +780,11 @@ msgid ""
 "built on a Windows machine, it is cross built from source on Linux on a well"
 " maintained and clean server image."
 msgstr ""
+"Se receber uma mensagem de aviso ou se o Subsurface for bloqueado pelo seu "
+"software antivírus (AV), isso é quase certamente um falso positivo. Os "
+"ficheiros binários do Subsurface não são construídos em máquinas Windows, "
+"mas sim a partir do código-fonte no Linux numa imagem de um servidor limpa e"
+" bem mantida."
 
 #: templates/faq.html:189
 msgid ""
