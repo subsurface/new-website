@@ -485,7 +485,7 @@ msgstr "<a %(mobilemanual)s>Manual de Usuario de Subsurface-mobile</a>"
 #: templates/documentation.html:27
 #, python-format
 msgid "<a %(datadeletion)s>Deleting Cloud Data and Account</a>"
-msgstr ""
+msgstr "<a %(datadeletion)s>Borrar datos en la nube y cuenta</a>"
 
 #: templates/documentation.html:30
 #, python-format
