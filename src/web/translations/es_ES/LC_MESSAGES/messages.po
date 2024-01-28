@@ -266,7 +266,7 @@ msgstr "Licencia"
 
 #: templates/credits.html:46
 msgid "Subsurface-mobile additionally uses"
-msgstr ""
+msgstr "Subsurface-mobile, adicionalmente, usa"
 
 #: templates/credits.html:54
 #, python-format
