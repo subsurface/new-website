@@ -720,6 +720,9 @@ msgid ""
 "(but then, why would you want to run that). Older versions aren't supported "
 "anymore."
 msgstr ""
+"O Subsurface corre no Windows 10 e nas versões mais recentes. Provavelmente "
+"ainda deve correr no Windows 8 (mas por que razão quereria fazê-lo?). "
+"Versões mais antigas não são suportadas."
 
 #: templates/faq.html:145
 msgid "Where do I find the log files on Windows?"
