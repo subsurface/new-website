@@ -1075,6 +1075,8 @@ msgid ""
 "From which dive computers can Subsurface-mobile on Android directly "
 "download?"
 msgstr ""
+"Von welchen Tauchcomputern kann man mit Subsurface-mobile auf Android direkt"
+" die Tauchgänge herunterladen?"
 
 #: templates/faq.html:405
 msgid ""
