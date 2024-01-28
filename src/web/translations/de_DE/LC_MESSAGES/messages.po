@@ -1060,7 +1060,7 @@ msgstr ""
 
 #: templates/faq.html:380
 msgid "What's the minimum Android version required?"
-msgstr ""
+msgstr "Was ist die minimale Android-Version, die unterstützt wird?"
 
 #: templates/faq.html:387
 msgid ""
