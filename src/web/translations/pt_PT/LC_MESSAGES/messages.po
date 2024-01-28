@@ -943,7 +943,7 @@ msgstr ""
 
 #: templates/faq.html:357
 msgid "How do I install Subsurface-mobile on my phone / tablet?"
-msgstr ""
+msgstr "Como posso instalar o Subsurface-mobile no meu telemóvel/tablet?"
 
 #: templates/faq.html:364
 #, python-format
