@@ -853,7 +853,7 @@ msgstr ""
 
 #: templates/faq.html:240
 msgid "Supported Versions"
-msgstr ""
+msgstr "Versões suportadas"
 
 #: templates/faq.html:247
 msgid ""
