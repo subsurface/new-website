@@ -238,6 +238,9 @@ msgid ""
 "%(license)s>GPLv2</a> -- and it is based on many other open source "
 "components."
 msgstr ""
+"Subsurface en si mismo es software de código abierto bajo <a "
+"%(license)s>GPLv2</a> - y está basado en muchos otros componentes de código "
+"abierto."
 
 #: templates/credits.html:18 templates/credits.html:20
 #: templates/credits.html:22 templates/credits.html:24
