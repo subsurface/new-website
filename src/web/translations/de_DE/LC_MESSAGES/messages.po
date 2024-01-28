@@ -1113,6 +1113,7 @@ msgstr "Benützung"
 #: templates/faq.html:434
 msgid "How do I know I have the latest version of Subsurface?"
 msgstr ""
+"Wie kann ich herausfinden ob ich die neueste Version von Subsurface habe?"
 
 #: templates/faq.html:441
 msgid ""
