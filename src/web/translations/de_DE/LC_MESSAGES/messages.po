@@ -1086,6 +1086,11 @@ msgid ""
 "EON Steel family via cable - BLE works), USB storage (e.g., Uemis Zurich), "
 "or MTP (e.g., Garmin)."
 msgstr ""
+"Tauchcomputer mit Bluetooth- oder BLE-Verbindung sowie solche mit USB-"
+"Serieller-Schnittstelle sollten funktionieren (solange sie überhaupt von "
+"Subsurface unterstützt werden). Dahingegen funktionieren andere USB-Geräte "
+"nicht wie etwa USB HID (etwa die Suunto EON Steel  Familie per Kabel --- BLE"
+" funktioniert hier), USB Speicher (eta Uemis Zurich) oder MTP (etwa Garmin)."
 
 #: templates/faq.html:417
 msgid ""
