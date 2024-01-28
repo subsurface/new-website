@@ -1413,7 +1413,7 @@ msgstr ""
 
 #: templates/faq.html:676
 msgid "Old style Suunto dive computers?"
-msgstr ""
+msgstr "Ältere Suunto Tauchcomputermodelle?"
 
 #: templates/faq.html:683
 msgid ""
