@@ -806,6 +806,8 @@ msgid ""
 "In either case, please inform your AV software vendor of a “false positive” "
 "as we assure your that Subsurface is not malware."
 msgstr ""
+"Em todos os casos, informe o seu fornecedor de software AV sobre um “falso "
+"positivo”, pois garantimos que o Subsurface não é malware."
 
 #: templates/faq.html:201
 msgid "Subsurface suddenly stops accessing the cloud"
