@@ -1269,7 +1269,7 @@ msgstr ""
 
 #: templates/faq.html:556
 msgid "How can I load pictures and associate them with my dive?"
-msgstr ""
+msgstr "Wie kann ich Bilder laden und sie mit meinem Tauchgang verknüpfen?"
 
 #: templates/faq.html:563
 msgid ""
