@@ -490,7 +490,7 @@ msgstr "<a %(datadeletion)s>Borrar datos en la nube y cuenta</a>"
 #: templates/documentation.html:30
 #, python-format
 msgid "<a %(credits)s>Credits</a>"
-msgstr ""
+msgstr "<a %(credits)s>Créditos</a>"
 
 #: templates/documentation.html:33
 #, python-format
