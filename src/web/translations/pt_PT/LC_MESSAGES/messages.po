@@ -911,7 +911,7 @@ msgstr ""
 
 #: templates/faq.html:318
 msgid "Can you add binaries for my favorite Linux distribution?"
-msgstr ""
+msgstr "Podem adicionar binários para a minha distribuição Linux favorita?"
 
 #: templates/faq.html:325
 msgid ""
