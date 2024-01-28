@@ -787,22 +787,10 @@
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="otherquestions">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#otherquestions_answer" aria-expanded="false" aria-controls="otherquestions_answer">
-              <a href="/faq/#otherquestions">{{ _("Other questions")}}</a>
-            </button>
-          </h2>
-          <div id="otherquestions_answer" class="accordion-collapse collapse" aria-labelledby="otherquestions"
-               data-bs-parent="#faq">
-            <div class="accordion-body">
-              <p>
-                {{ _("If your question wasn't answered here, please check the <a %(userforum)s>User Forum</a> and try the search function. If you don't find an answer there, create a new topic and ask for help.", userforum="https://subsurface-divelog.org/user-forum/") }}
-              </p>
-            </div>
-          </div>
-        </div>
+        <h3 class="my-3">{{ _("Other questions")}}</h3>
+        <p>
+          {{ _("If your question wasn't answered here, please check the <a %(userforum)s>User Forum</a> and try the search function. If you don't find an answer there, create a new topic and ask for help.", userforum="https://subsurface-divelog.org/user-forum/") }}
+        </p>
       </div>
       <p class="my-5">
         {{ _("This FAQ is maintained as part of our website in the <a %(webrepo)s>website repo</a>. Pull requests are of course welcome - you can also suggest additions to the FAQ in the <a %(userforum)s>User Forum</a>.", webrepo="href=https://github.com/subsurface/new-website", userforum="href=/user-forum") }}
