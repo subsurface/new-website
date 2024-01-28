@@ -27,6 +27,11 @@
               </div>
             </a>
           </h2>
+          <p class="text-center">
+            <a href="/current-release">
+                [{{ _("Downloads for other platforms") }}]
+            </a>
+          </p>
         </div>
         <div class="col-auto mt-4 {% if 'Mac' not in request.user_agent.string %}d-none{% endif %}">
           <h2><a class="face-button" href="{{ get_env("cmacos")}}">
@@ -38,6 +43,11 @@
               </div>
             </a>
           </h2>
+          <p class="text-center">
+            <a href="/current-release">
+                [{{ _("Downloads for other platforms") }}]
+            </a>
+          </p>
         </div>
         <div
              class="col-auto mt-4 {% if 'Mac' in request.user_agent.string  or  'Windows' in request.user_agent.string %}d-none{% endif %}">
