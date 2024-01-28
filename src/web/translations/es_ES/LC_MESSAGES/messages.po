@@ -271,7 +271,7 @@ msgstr "Subsurface-mobile, adicionalmente, usa"
 #: templates/credits.html:54
 #, python-format
 msgid "The Windows binaries are built using <a %(mxe)s>MXE</a>."
-msgstr ""
+msgstr "Los binarios de Windows se compilan usando <a %(mxe)s>MXE</a>."
 
 #: templates/credits.html:56
 #, python-format
