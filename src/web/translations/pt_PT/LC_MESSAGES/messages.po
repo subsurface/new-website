@@ -704,10 +704,15 @@ msgid ""
 "stronger warnings when trying to use them. As long as you download the "
 "binaries from this website they are save and do not contain any malware."
 msgstr ""
+"Por motivos técnicos, alguns dos binários do Windows que podem ser "
+"descarregados na nossa página não estão assinados e, nesse caso, o Windows "
+"apresentará avisos cada vez mais fortes ao tentar instalá-los. Desde que "
+"esses ficheiros binários sejam descarregados desta página, eles serão "
+"seguros e não conterão nenhum malware."
 
 #: templates/faq.html:129 templates/faq.html:302
 msgid "Supported versions"
-msgstr ""
+msgstr "Versões suportadas"
 
 #: templates/faq.html:136
 msgid ""
