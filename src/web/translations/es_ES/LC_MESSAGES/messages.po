@@ -251,7 +251,7 @@ msgstr ""
 #: templates/credits.html:42 templates/credits.html:49
 #: templates/credits.html:51
 msgid "Homepage"
-msgstr ""
+msgstr "Página principal"
 
 #: templates/credits.html:19 templates/credits.html:21
 #: templates/credits.html:23 templates/credits.html:25
@@ -262,7 +262,7 @@ msgstr ""
 #: templates/credits.html:43 templates/credits.html:50
 #: templates/credits.html:52
 msgid "License"
-msgstr ""
+msgstr "Licencia"
 
 #: templates/credits.html:46
 msgid "Subsurface-mobile additionally uses"
