@@ -811,7 +811,7 @@ msgstr ""
 
 #: templates/faq.html:201
 msgid "Subsurface suddenly stops accessing the cloud"
-msgstr ""
+msgstr "O Subsurface deixa repentinamente de aceder ao armazenamento remoto"
 
 #: templates/faq.html:208
 msgid ""
