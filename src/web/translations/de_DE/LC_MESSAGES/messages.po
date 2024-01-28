@@ -1196,6 +1196,8 @@ msgstr ""
 #: templates/faq.html:499
 msgid "Why is Subsurface not able to download my dives from my dive computer?"
 msgstr ""
+"Wieso kann Subsurface die Tauchgänge nicht von meinem Tauchcomputer "
+"herunterladen?"
 
 #: templates/faq.html:506
 msgid ""
