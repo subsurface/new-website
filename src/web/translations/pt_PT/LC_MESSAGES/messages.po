@@ -930,7 +930,7 @@ msgstr ""
 
 #: templates/faq.html:337
 msgid "Can I build my own binaries?"
-msgstr ""
+msgstr "Posso construir os meus próprios ficheiros binários?"
 
 #: templates/faq.html:344
 msgid ""
