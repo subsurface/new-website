@@ -2099,6 +2099,7 @@ msgstr "o cualquiera de los enlaces en"
 #, python-format
 msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
 msgstr ""
+"y ver el vídeo con cualquier reproductor (por ejemplo: <a %(vlc)s>VLC</a>)."
 
 #: templates/user-forum.html:15
 #, python-format
