@@ -1464,7 +1464,7 @@ msgstr ""
 
 #: templates/faq.html:727
 msgid "Does Subsurface-mobile support the Garmin Descent family?"
-msgstr ""
+msgstr "Unterstützt Subsurface-mobile Garmin Descent Tauchcomputermodelle?"
 
 #: templates/faq.html:734
 msgid ""
