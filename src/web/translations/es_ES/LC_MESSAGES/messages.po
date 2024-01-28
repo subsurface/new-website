@@ -287,6 +287,8 @@ msgid ""
 "If you are aware of open source components that we are using but not listing"
 " here, please let us know so we can add them!"
 msgstr ""
+"Si sabes de componentes de código abierto que estemos usando y no aparezcan "
+"en esta lista, por favor, háznoslo saber para que podamos añadirlos."
 
 #: templates/current-release.html:13
 #, python-format
