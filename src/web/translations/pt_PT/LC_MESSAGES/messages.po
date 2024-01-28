@@ -794,6 +794,12 @@ msgid ""
 "is detected as malware, please temporary disable your AV software until "
 "Subsurface is installed"
 msgstr ""
+"A maioria/todos os pacotes de software antivírus do Windows têm a "
+"possibilidade de «adicionar uma excepção», que ignora a verificação de um "
+"determinado ficheiro executável. Tente adicionar o Subsurface à lista de "
+"softwares não prejudiciais. Se o download do ficheiro de instalação do "
+"Subsurface for detectado como malware, desactive temporariamente o seu "
+"software AV até que o Subsurface seja instalado"
 
 #: templates/faq.html:192
 msgid ""
