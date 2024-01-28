@@ -763,6 +763,11 @@ msgid ""
 "an install of those drivers, but sometimes things are a bit more "
 "complicated. Searching the <a %(forum)s>User Forum</a> often helps."
 msgstr ""
+"Normalmente instalar o programa de registo de mergulhos do fabricante do seu"
+" computador de mergulho deve ser suficiente para instalar esses "
+"controladores de dispositivo, embora por vezes, as coisas possam ser um "
+"pouco mais complicadas. Procurar ajuda no  <a %(forum)s>Fórum de "
+"utilizadores</a> normalmente resulta."
 
 #: templates/faq.html:179
 msgid "Is there a virus in the Subsurface installer?"
