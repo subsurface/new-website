@@ -996,6 +996,11 @@ msgid ""
 "help beyond that (because likely that means we need to update the "
 "<code>INSTALL</code> file...)."
 msgstr ""
+"Ja, das ist recht einfach (angenommen, du hast etwas Erfahrung mit "
+"C/C++-Entwicklung unter Linux). Die <code>INSTALL-Datei</code> im Source-"
+"Verzeichnis sollte die nötige Information enthalten. Wende dich bitte an die"
+" Entwickler, wenn du darüber hinaus Hilfe benötigst (da dass wahrscheinlich "
+"heisst, dass wir die <code>INSTALL-Datei</code> verbessern müssen)."
 
 #: templates/faq.html:357
 msgid "How do I install Subsurface-mobile on my phone / tablet?"
