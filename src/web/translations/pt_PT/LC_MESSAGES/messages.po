@@ -771,7 +771,7 @@ msgstr ""
 
 #: templates/faq.html:179
 msgid "Is there a virus in the Subsurface installer?"
-msgstr ""
+msgstr "Há um vírus no ficheiro de instalação do Subsurface?"
 
 #: templates/faq.html:186
 msgid ""
