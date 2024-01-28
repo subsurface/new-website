@@ -743,6 +743,8 @@ msgstr ""
 #: templates/faq.html:160
 msgid "Which drivers do I need for my dive computer"
 msgstr ""
+"Que gestores de dispositivos são necessários para o meu computador de "
+"mergulho"
 
 #: templates/faq.html:167
 msgid ""
