@@ -736,6 +736,9 @@ msgid ""
 "in the two files <code>subsurface_out.log</code> and "
 "<code>subsurface_err.log</code>"
 msgstr ""
+"Os logbooks estão guardados em "
+"<code>C:\\Users\\Home\\AppData\\Roaming\\Subsurface</code> nos dois "
+"ficheiros <code>subsurface_out.log</code> e <code>subsurface_err.log</code>"
 
 #: templates/faq.html:160
 msgid "Which drivers do I need for my dive computer"
