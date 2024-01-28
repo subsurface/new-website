@@ -1096,6 +1096,8 @@ msgstr ""
 msgid ""
 "From which dive computers can Subsurface-mobile on iOS directly download?"
 msgstr ""
+"Von welchen Tauchcomputern kann Subsurface-mobile auf iOS direkt Tauchgänge "
+"herunterladen?"
 
 #: templates/faq.html:424
 msgid ""
