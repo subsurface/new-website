@@ -1006,7 +1006,7 @@ msgstr ""
 
 #: templates/faq.html:352
 msgid "Mobile Support"
-msgstr ""
+msgstr "Mobilgeräteunterstützung"
 
 #: templates/faq.html:357
 msgid "How do I install Subsurface-mobile on my phone / tablet?"
