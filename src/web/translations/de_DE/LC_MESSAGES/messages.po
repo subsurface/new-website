@@ -1351,6 +1351,7 @@ msgstr ""
 #: templates/faq.html:632
 msgid "Can Subsurface store my files on a different cloud server?"
 msgstr ""
+"Kann Subsurface meine Daten bei einem anderen Cloud-Anbieter speichern?"
 
 #: templates/faq.html:639
 #, python-format
