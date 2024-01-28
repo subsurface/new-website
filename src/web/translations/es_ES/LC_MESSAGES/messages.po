@@ -279,6 +279,8 @@ msgid ""
 "The Mac binaries are built using the Apple toolchain and <a "
 "%(brew)s>Homebrew</a>."
 msgstr ""
+"Los binarios de Mac se complilan usando las herramientas de Apple y <a "
+"%(brew)s>Homebrew</a>."
 
 #: templates/credits.html:59
 msgid ""
