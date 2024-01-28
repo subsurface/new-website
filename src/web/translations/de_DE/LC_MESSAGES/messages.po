@@ -1038,6 +1038,11 @@ msgid ""
 "of the desktop version of Subsurface. For example dive planning is not "
 "available in Subsurface-mobile."
 msgstr ""
+"Sobald Subsurface-mobile auf dem Gerät installiert ist, aktiviere Speichern "
+"in der Cloud auf deinem Desktop-Computer und speichere dein Logbuch in der "
+"Subsurface Cloud. Die Tauchgänge sind nun auch auf dem Mobilgerät verfügbar."
+" Subsurface-mobile enthält nicht alle Funktionen der Desktop-Version, etwa "
+"den Tauchgangs-Planer gibt es nicht in Subsurface-mobile."
 
 #: templates/faq.html:370
 #, python-format
