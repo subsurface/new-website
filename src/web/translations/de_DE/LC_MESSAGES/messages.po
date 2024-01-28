@@ -1005,6 +1005,7 @@ msgstr ""
 #: templates/faq.html:357
 msgid "How do I install Subsurface-mobile on my phone / tablet?"
 msgstr ""
+"Wie installiere ich Subsurface-mobile auf meinem Telefon oder Tablett?"
 
 #: templates/faq.html:364
 #, python-format
