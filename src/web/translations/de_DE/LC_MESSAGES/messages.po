@@ -1259,6 +1259,9 @@ msgid ""
 "Please see our user manual for pairing with such devices and troubleshooting"
 " suggestions."
 msgstr ""
+"Es gibt viel mehr mögliche Probleme mit Bluetooth und BLE Tauchcomputern. "
+"Schau ins Benutzerhandbuch, wie das Koppeln mit diesen funktioniert und "
+"welche Tipps bei Problemen es dort gibt."
 
 #: templates/faq.html:518
 msgid "Why is the CSV import failing?"
