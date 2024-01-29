@@ -1206,6 +1206,13 @@ msgid ""
 "order to add gas changes simply right-click on the profile at the "
 "appropriate spot and you will be offered to add such an event."
 msgstr ""
+"Dies ist eine haüfige Frage von Side-Mount-Tauchern oder Tec-Tauchern. "
+"Subsurface unterstützt, mehr als eine Flasche mit demselben Gas zu "
+"verwenden, auch wenn einige Tauchcomputer dies nicht tun. Füge einfach einen"
+" Gaswechsel zur zweiten Flasche mit demselben Gas hinzu. Nun werden beide "
+"Tanks in die Gasverbrauchsberechnungen einbezogen werden. Um Gaswechsel "
+"hinzuzufügen, klicke einfach mit der rechten Maustaste auf das Profil an der"
+" entsprechenden Stelle und dann ist es möglich, den Gaswechsel einzufügen."
 
 #: templates/faq.html:489
 #, python-format
