@@ -1299,6 +1299,10 @@ msgid ""
 "users. This way the Subsurface configuration for each user is truely "
 "separated."
 msgstr ""
+"Am besten funktioniert das, wenn alle eigene Accounts auf dem Computer "
+"verwenden, alle Betriebssysteme unterstützen mehrere Benutzer von Hause aus."
+" Auf diese Weise sind die Subsurface-Einstellungen für alle Benutzer "
+"wirklich getrennt."
 
 #: templates/faq.html:544
 msgid ""
