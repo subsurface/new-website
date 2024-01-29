@@ -51,7 +51,7 @@ msgstr "Fehler melden"
 
 #: templates/base.html:94
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: templates/base.html:101
 msgid "Privacy Policy"
