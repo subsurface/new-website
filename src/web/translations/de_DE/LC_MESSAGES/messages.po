@@ -1490,6 +1490,10 @@ msgid ""
 "or iOS device. Additionally there is a read only web view available at <a "
 "%(cloudweb)s>the cloud webpage</a>."
 msgstr ""
+"Subsurface kann dein Logbuch sicher in der Subsurface Cloud speichern, "
+"sichert deine Daten und erlaubt es, dein Logbuch auf dem Desktop, Android "
+"und iOS zu erreichen. Zusätzlich gibt es eine nur lesbare Webansicht auf der"
+" <a %(cloudweb)s>Cloud Webseite</a>."
 
 #: templates/faq.html:642
 msgid ""
