@@ -169,6 +169,12 @@ msgid ""
 "website. To get started please head over to the code contribution page on "
 "GitHub to find out <a %(link)s>how to join the community</a>."
 msgstr ""
+"Wenn du dich gerne mit Benutzbarkeit und User Experience befasst und idealer"
+" Weise etwas Erfahrung mit US und/oder Web-Design hast, bist du willkommen "
+"uns bei der Verbesserung der UX und dem visuellen Design von Subsurface und "
+"unseren Webseiten zu helfen. Um loszulegen, komm auf die <a %(link)s>Mit-"
+"Mach-Seite</a> und finde heraus, wie du Teil der Subsurface-Community werden"
+" kannst."
 
 #: templates/contributing.html:37
 msgid "By Translating Subsurface"
