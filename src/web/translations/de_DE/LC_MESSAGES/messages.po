@@ -1521,6 +1521,10 @@ msgid ""
 "on DropBox or other similar services such as OwnCloud, TeamDrive, MiniBox, "
 "etc."
 msgstr ""
+"Wenn du Subsurface nur auf dem Desktop benutzt und Dein Logbuch auf einen "
+"anderen Speicher sichern möchtest, beschreibt das Handbuch, wie du deine "
+"XML-Daten in DropBox oder einem anderen, ähnlichen Dienst, wie OwnCloud, "
+"TeamDrive oder MiniBox speicherst."
 
 #: templates/faq.html:650
 msgid "Issues with specific dive computers"
