@@ -1532,7 +1532,7 @@ msgstr "Probleme mit bestimmten Tauchcomputern"
 
 #: templates/faq.html:655
 msgid "Can you add support for dive computer X?"
-msgstr ""
+msgstr "Könnt ihr Tauchcomputer X unterstützen?"
 
 #: templates/faq.html:661
 #, python-format
