@@ -1451,6 +1451,11 @@ msgid ""
 "these. However, if the logs are only on your dive computer, they cannot be "
 "salvaged after being over written by new dives."
 msgstr ""
+"Hast du deine Tauchgänge in eine andere Logbuchsoftware heruntergeladen, "
+"bevor die überschrieben wurden, besteht eine gute Chance, dass Subsurface "
+"sie importieren kann. Waren die Profile jedoch nur auf dem Tauchcomputer, "
+"besteht keine Hoffnung, sie noch herunterladen zu können, sobald sie einmal "
+"überschrieben sind."
 
 #: templates/faq.html:614
 msgid "What to do when authentication to cloud storage fails?"
