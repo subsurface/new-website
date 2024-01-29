@@ -1722,7 +1722,7 @@ msgstr "Bitte lies <a %(link)s>die Ankündigung der Versionsänderungen</a>"
 
 #: templates/home.html:171
 msgid "A bit of history:"
-msgstr ""
+msgstr "Ein bisschen Hintergrund Geschichte zu Subsurface:"
 
 #: templates/home.html:173
 msgid ""
@@ -1730,6 +1730,10 @@ msgid ""
 "to start a new project, Linux creator Linus Torvalds decided to tackle his "
 "frustration with the lack of decent divelog software on Linux."
 msgstr ""
+"Als im Herbst 2011 eine vorübergehende Flaute bei der Linux-Kernel "
+"Weiterentwicklung Gelegenheit dazu gab, entschied sich Linux-Erfinder Linus "
+"Torvalds etwas gegen das frustrierende Fehlen einer brauchbaren Software für"
+" die Verwaltung von Taucher-Logbucheinträgen unter Linux zu tun."
 
 #: templates/home.html:176
 msgid ""
