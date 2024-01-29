@@ -1189,6 +1189,9 @@ msgid ""
 " the User Manual for the most up to date information on this – it can be "
 "found in Section 5.3."
 msgstr ""
+"Es ist auch möglich, Tauchdaten aus anderen Softwareprogrammen oder Websiten"
+" zu importieren. Siehe das Benutzerhandbuch für die aktuellsten "
+"Informationen dazu - sie befinden sich in Abschnitt 5.3."
 
 #: templates/faq.html:479
 msgid "How can I use more than one tank with the same gas?"
