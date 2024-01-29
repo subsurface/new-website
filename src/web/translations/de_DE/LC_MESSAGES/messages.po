@@ -1375,6 +1375,13 @@ msgid ""
 "stored in the new/edited image in order for it to be loaded properly. Most "
 "modern photo editing software does that correctly by default."
 msgstr ""
+"Gibt es Probleme beim Laden der Bilder, stelle zunächst sicher, dass es "
+"mindestens einen der EXIF Header <code>DateTimeOriginal</code> oder "
+"<code>DateTime</code> in den Bildern gibt. Wir benutzen diese Zeiten, um zu "
+"entscheiden, zu welchem Tauchgang ein Bild zugeordnet werden muss. Wurden "
+"die Bilder bearbeitet, stell sicher, dass ursprüngliche Aufnahmezeit in den "
+"Bildern erhalten bleibt. Die meisten Bildbearbeitungsprogramme machen das "
+"von Hause aus richtig."
 
 #: templates/faq.html:575
 msgid "Can I import my dives from my old log software?"
