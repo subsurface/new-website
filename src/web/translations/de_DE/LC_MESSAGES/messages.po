@@ -1223,6 +1223,11 @@ msgid ""
 "gasses to those tanks, e.g. oxygen contents of 21%% and 22%% for two tanks "
 "holding air."
 msgstr ""
+"Die Situation ist etwas komplizierter, wenn mehreren Flaschen mit demselben "
+"Gas  Drucksensoren haben. Der einfachste Weg sicherzustellen, dass es keine "
+"Verwirrung beim Einlesen dieser Tauchgänge gibt, besteht darin, den Flaschen"
+" leicht unterschiedliche Gase zuzuweisen, z.B. Sauerstoffgehalte von 21%% "
+"und 22%% für zwei Flaschen, die Luft enthalten."
 
 #: templates/faq.html:499
 msgid "Why is Subsurface not able to download my dives from my dive computer?"
