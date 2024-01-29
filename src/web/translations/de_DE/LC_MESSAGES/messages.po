@@ -1873,6 +1873,12 @@ msgid ""
 "only store it with the purpose of making it available to you again on your "
 "devices."
 msgstr ""
+"Es ist ganz einfach. Wir verwenden die Daten unserer Benutzer nicht. Es ist "
+"uns egal, wer Deine Freunde sind. Wir beabsichtigen nicht, Dir Werbung zu "
+"schicken oder irgendetwas anderes zu tun, was lästig ist. Es gibt keine "
+"andere Verwendung, Verwertung oder Verarbeitung der Benuter-Daten - wir "
+"speichern sie ausschließlich, um sie Nemutzern wieder auf Ihren Geräten zur "
+"Verfügung zu stellen."
 
 #: templates/subsurface-user-manual.html:13
 msgid "Subsurface User Manual"
