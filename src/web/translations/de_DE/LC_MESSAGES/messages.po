@@ -1580,6 +1580,8 @@ msgstr ""
 #: templates/home.html:17
 msgid "The free, open-source cross-platform dive log software."
 msgstr ""
+"Das kostenlose, quell-offene und plattformübergreifende digitale "
+"Tauchlogbuch."
 
 #: templates/home.html:32 templates/home.html:48
 msgid "Downloads for other platforms"
