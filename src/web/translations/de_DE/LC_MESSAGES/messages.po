@@ -1311,6 +1311,11 @@ msgid ""
 "multiple users are supported quite well, the downside of this approach is "
 "that it's incompatible with Subsurface cloud storage."
 msgstr ""
+"Eine andere Möglichkeit besteht darin, dass die Logbücher von verschiedenen "
+"Benutzern in verschiedenen Dateien gespeichert werden. In Subsurface kannst "
+"Du verschiedene Dateien für verschiedene Taucher öffnen und mehrere Benutzer"
+" werden auf diese Weise hinreichend gut unterstützt. Der Nachteil ist hier "
+"aber, dass das nicht zusammen mit der Subsurface Cloud funktioniert."
 
 #: templates/faq.html:547
 msgid ""
