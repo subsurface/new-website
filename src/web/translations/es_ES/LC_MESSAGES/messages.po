@@ -883,6 +883,12 @@ msgid ""
 "technical reasons currently doesn't create binaries with a great user "
 "experience."
 msgstr ""
+"Subsurface corre en Apple Silicon (CPUs M1/M2/M3) y Macs Intel con macOS "
+"10.15 o más reciente. En Macs Apple Silicon actualmente corre en modo de "
+"emulación vía Rosetta 2. Hemos iniciado trabajos para crear binarios grandes"
+" con soporte nativo para ambos chips x86_64 y CPUs Apple Silicon pero, por "
+"motivos técnicos, los binarios que se producen actualmente no resultan en "
+"una buena experiencia para el usuario."
 
 #: templates/faq.html:256
 msgid "Can you make binaries available for older macOS versions?"
