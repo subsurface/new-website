@@ -1861,6 +1861,9 @@ msgid ""
 "With the GDPR compliance out of the way, here is the summary that applies to"
 " everyone (since we don't actually track where you are from):"
 msgstr ""
+"Nun da die DSGVO-Konformität bestätigt ist, hier die Zusammenfassung, die "
+"für alle gilt (da es uns tatsächlich egal ist, woher unsere Benutzer "
+"kommen):"
 
 #: templates/privacy-policy.html:39
 msgid ""
