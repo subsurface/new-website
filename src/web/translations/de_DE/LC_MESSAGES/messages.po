@@ -1419,6 +1419,9 @@ msgid ""
 "I cannot download all my dives, only the most recent ones even though my "
 "dive computer's manual states that it records history of e.g. 999 dives."
 msgstr ""
+"Ich kann nicht alle meine Tauchgänge herunterladen, nur die neusten und das "
+"obwohl im Handbuch meines Tauchcomputers steht, dass er z.B. 999 Tauchgänge "
+"speichert."
 
 #: templates/faq.html:602
 msgid ""
