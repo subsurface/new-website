@@ -1737,7 +1737,7 @@ msgstr "El software gratuito, de código abierto y multiplataforma."
 
 #: templates/home.html:32 templates/home.html:48
 msgid "Downloads for other platforms"
-msgstr ""
+msgstr "Descargas para otras plataformas"
 
 #: templates/home.html:74
 msgid "Multiplatform"
