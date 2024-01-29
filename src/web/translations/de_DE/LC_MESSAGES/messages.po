@@ -1528,7 +1528,7 @@ msgstr ""
 
 #: templates/faq.html:650
 msgid "Issues with specific dive computers"
-msgstr ""
+msgstr "Probleme mit bestimmten Tauchcomputern"
 
 #: templates/faq.html:655
 msgid "Can you add support for dive computer X?"
