@@ -678,7 +678,7 @@ msgstr ""
 
 #: templates/faq.html:105
 msgid "OS Support"
-msgstr ""
+msgstr "Sistemas Operativos"
 
 #: templates/faq.html:111
 msgid "How do I install Subsurface on Windows?"
