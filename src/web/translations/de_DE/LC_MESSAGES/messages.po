@@ -1824,6 +1824,11 @@ msgid ""
 "of security measures. Personal information is not shared with any other "
 "entity."
 msgstr ""
+"Subsurface wird auf redundanten / gespiegelten Servern betrieben, einige in "
+"den USA und andere in der EU (Deutschland). Personenbezogene Daten sind "
+"durch das Design und die Anwendung von Sicherheitsmaßnahmen geschützt. "
+"Personenbezogene Daten werden nicht mit anderen Firmen oder Organisationen "
+"geteilt."
 
 #: templates/privacy-policy.html:27
 #, python-format
