@@ -1744,6 +1744,9 @@ msgid ""
 "lets users track a wide variety of data about their dives. In fall of 2012 "
 "Dirk Hohndel took over as Subsurface maintainer."
 msgstr ""
+"Subsurface ist das Resultat der Arbeit, die er und viele andere Entwickler "
+"seitdem geleistet haben. Seit Herbst 2012 hat Dirk Hohndel die Betreuung von"
+" Subsurface übernommen."
 
 #: templates/latest-release.html:13
 #, python-format
