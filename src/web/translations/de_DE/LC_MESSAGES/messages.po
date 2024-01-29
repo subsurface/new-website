@@ -477,7 +477,7 @@ msgstr "<a %(supporteddc)s>Unterstützte Tauchcomputer</a>"
 #: templates/documentation.html:20
 #, python-format
 msgid "<a %(video)s>(fairly old) Video Tutorial</a>"
-msgstr "%(video)s(relativ altes) Video Tutorial</a>"
+msgstr "<a %(video)s>(relativ altes) Video Tutorial</a>"
 
 #: templates/documentation.html:22
 #, python-format
