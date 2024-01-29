@@ -2013,6 +2013,11 @@ msgid ""
 " The information is processed to provide the Subsurface application to "
 "registered users, the lawful purpose: contract obligation."
 msgstr ""
+"La información personal se limita a tu correo electrónico, identificativo en"
+" línea y de sistema, que permite que una cuenta de usuario se cree y pueda "
+"ser mantenida. La información es procesada para proveer la aplicación "
+"Subsurface a los usuarios registrados, el propósito legítimo: la obligación "
+"contractual."
 
 #: templates/privacy-policy.html:21
 msgid ""
