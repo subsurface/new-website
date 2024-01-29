@@ -1471,6 +1471,11 @@ msgid ""
 "still not working or there is something else wrong, contact Dirk to sort it "
 "out."
 msgstr ""
+"Wenn du deine richtigen Benutzerdaten in Subsurface eingetragen hast und die"
+" Cloud-Anmeldung nach wie vor scheitert, versuche dein Passwort über die<a "
+"%(pwdreset)s>Passwort zurücksetzen Webseite</a> zu ändern. Sollte es dann "
+"immer noch nicht funktionieren oder etwas anderes geht nicht, melde dich bei"
+" Dirk, damit er dir helfen kann."
 
 #: templates/faq.html:632
 msgid "Can Subsurface store my files on a different cloud server?"
