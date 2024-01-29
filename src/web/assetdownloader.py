@@ -6,9 +6,9 @@ from github import Auth, Github
 from threading import Timer
 
 from .env import env
-from .globals import testrun
+from .globals import globals
 
-if not testrun:
+if not globals["testrun"]:
     from .redis import redis
 
 

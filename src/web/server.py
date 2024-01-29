@@ -4,13 +4,18 @@ import json
 import os
 import shutil
 import subprocess
+from pathlib import Path
 
-from .globals import testrun
+from .globals import globals
+from .subsurfacesync import SubsurfaceSync
 
+# if we are running standalone for testing, we don't need or want redis
 if __name__ != "__main__":
     from .redis import redis
 else:
-    testrun = True
+    globals["testrun"] = True
+    path = Path(__file__)
+    globals["app_path"] = path.parent.parent.parent.absolute()
 
 
 from .assetdownloader import AssetDownloader
@@ -48,7 +53,7 @@ def get_locale():
 app = Flask(__name__)
 app.secret_key = os.urandom(16).hex()
 babel = Babel(app, locale_selector=get_locale)
-
+globals["subsurfacesync"] = SubsurfaceSync()
 if __name__ != "__main__":
     # if this runs under gunicorn as a production server,
     # we want only one of the workers to process any outstanding release IDs
@@ -60,45 +65,8 @@ if __name__ != "__main__":
     if lock == os.getpid():
         print("this is the initWorker")
         print("make sure Subsurface tree is checked out and current")
-        if not os.path.isdir("/web/subsurface"):
-            # ok - this is a brand new setup. Weeee
-            try:
-                subprocess.run(
-                    "cd /web; git clone https://github.com/subsurface/subsurface",
-                    shell=True,
-                    check=True,
-                )
-            except:
-                print(
-                    "cloning the Subsurface repo into /web/subsurface failed; the server will mostly run but "
-                    "will be missing the user manual and the list of supported dive computers; please clone "
-                    "the repo manually and restart"
-                )
-        try:
-            subprocess.run("cd /web/subsurface; git pull", shell=True, check=True)
-        except:
-            print("issue pulling the latest Subsurface sources - please check")
-        shutil.copy(
-            "/web/subsurface/SupportedDivecomputers.html", "/web/src/web/templates/"
-        )
-        shutil.copy(
-            "/web/subsurface/Documentation/user-manual.html.git",
-            "/web/src/web/static/user-manual.html",
-        )
-        shutil.copy(
-            "/web/subsurface/Documentation/mobile-manual-v3.html.git",
-            "/web/src/web/static/mobile-user-manual.html",
-        )
-        shutil.copytree(
-            "/web/subsurface/Documentation/images",
-            "/web/src/web/static/images",
-            dirs_exist_ok=True,
-        )
-        shutil.copytree(
-            "/web/subsurface/Documentation/mobile-images",
-            "/web/src/web/static/mobile-images",
-            dirs_exist_ok=True,
-        )
+        globals["subsurfacesync"].setup()
+        globals["subsurfacesync"].sync()
         print("processing any remembered release IDs")
         for release_id in env["release_ids"].value:
             # we got restarted while waiting for releases to populate - remove their locks
@@ -107,6 +75,9 @@ if __name__ != "__main__":
             AssetDownloader(release_id, 60)
     else:
         print(f"worker {lock} is dealing with release IDs")
+else:
+    globals["subsurfacesync"].setup()
+    globals["subsurfacesync"].sync()
 
 
 @app.context_processor
