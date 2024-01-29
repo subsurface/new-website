@@ -1386,6 +1386,7 @@ msgstr ""
 #: templates/faq.html:575
 msgid "Can I import my dives from my old log software?"
 msgstr ""
+"Kann ich meine Tauchgänge aus meinem alten Logbuchprogramm importieren?"
 
 #: templates/faq.html:582
 msgid ""
