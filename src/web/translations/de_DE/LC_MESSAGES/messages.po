@@ -1169,6 +1169,9 @@ msgid ""
 "Manually logged dives can directly be entered in the UI or (in the desktop "
 "version) imported from various forms of spreadsheets."
 msgstr ""
+"Manuell erfasste Tauchgänge können direkt in der Benutzeroberfläche "
+"eingegeben oder (in der Desktop-Version) aus verschiedenen "
+"Tabellenkalkulationen importiert werden."
 
 #: templates/faq.html:467
 msgid ""
