@@ -1901,6 +1901,9 @@ msgid ""
 "their help through documentation, hardware donations, loaner devices, and <a"
 " %(link)s>sponsorship</a> of the project:"
 msgstr ""
+"Das Subsurface-Team möchte einigen Unternehmen und Einzelpersonen für ihre "
+"Hilfe durch Dokumentation, Hardware-Spenden, Leihgeräte und <a "
+"%(link)s>finanzielle Unterstützung</a> des Projekts danken."
 
 #: templates/tutorial-video.html:15
 msgid ""
