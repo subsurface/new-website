@@ -1137,6 +1137,8 @@ msgid ""
 "You can also check the <a %(crelease)s>current release</a> page to look at our reasonably frequent\n"
 "                (“weekly”) updates."
 msgstr ""
+"También puedes visitar la página <a %(crelease)s>Versión Actual</a> para ver nuestras (razonablemente frecuentes)\n"
+"actualizaciones \"semanales\"."
 
 #: templates/faq.html:454
 msgid "How can I import my dives into Subsurface?"
