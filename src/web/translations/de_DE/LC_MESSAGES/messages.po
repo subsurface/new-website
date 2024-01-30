@@ -1603,6 +1603,13 @@ msgid ""
 "better job at 'error correction'), but Subsurface won't download until you "
 "have a fresh battery and really clean and really dry contacts."
 msgstr ""
+"Ein erstaunlich häufiges Problem sind nasse oder verschmutzte Kontakte am "
+"Übertragungskabel oder Tauchcomputer oder eine niedrige Batterieladung. Der "
+"Übertragunsmodus erfordert oft eine höhere und stabilere Spannung, um zu "
+"funktionieren. Und wir haben sogar schon Situationen gesehen, bei denen das "
+"Programm des Tauchcomputerherstellers funktioniert (da es eine bessere "
+"Fehlerkorrektur hat), aber Subsurface erst wieder mit einer erneuerten "
+"Batterie und gesäuberten und getrockneten Kontakten die Daten überträgt."
 
 #: templates/faq.html:708
 msgid "BLE (Bluetooth Low Energy) downloads are incredibly slow"
