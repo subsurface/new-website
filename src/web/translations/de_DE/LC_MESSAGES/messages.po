@@ -1592,7 +1592,7 @@ msgstr ""
 
 #: templates/faq.html:692
 msgid "I get timeouts or data error when downloading"
-msgstr ""
+msgstr "Ich bekomme timeouts oder Datenfehler beim Ausleseversuch"
 
 #: templates/faq.html:699
 msgid ""
