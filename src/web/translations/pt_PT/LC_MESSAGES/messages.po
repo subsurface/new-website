@@ -372,6 +372,8 @@ msgid ""
 "A brief explanation of the concept of side-loading can be found in <a "
 "%(explanation)s>this androidcentral article</a>."
 msgstr ""
+"Uma explicação breve sobre o conceito de side-loading pode ser encontrada "
+"neste <a %(explanation)s> artigo na Androidcentral</a>."
 
 #: templates/current-release.html:79 templates/latest-release.html:76
 msgid "AppStore Link&nbsp;&nbsp;"
