@@ -1564,6 +1564,12 @@ msgid ""
 "generally it might make the most sense to first reach out in order to avoid "
 "wasting your time."
 msgstr ""
+"Ein guter Anfang ist meist, uns die libdivecomputer.log und einen "
+"libdivecomputer Dump (im Tauchcomputer-auslesen-Dialog kann man beide "
+"anwählen) von dem Versuch sich mit dem Tauchcomputer zu verbinden (ein "
+"möglichst ähnliches Modell in den Einstellungen auswählen). Aber es lohnt "
+"sich meistens, erstmal mit uns in Kontakt zu treten, um nicht deine Zeit zu "
+"verschwenden."
 
 #: templates/faq.html:676
 msgid "Old style Suunto dive computers?"
