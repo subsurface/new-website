@@ -839,7 +839,7 @@ msgstr ""
 
 #: templates/faq.html:218
 msgid "How do I install Subsurface on macOS?"
-msgstr ""
+msgstr "Como posso instalar o Subsurface no macOS?"
 
 #: templates/faq.html:225
 #, python-format
