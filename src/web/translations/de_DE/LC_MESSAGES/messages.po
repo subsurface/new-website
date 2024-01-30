@@ -1583,6 +1583,12 @@ msgid ""
 "device (<code>COMn</code> or <code>/dev/tty...</code>), if you get timeouts "
 "or data errors, see the data error question below."
 msgstr ""
+"Die meisten Übertragungskabel basieren auf dem FTDI-Chip und brauchen einen "
+"entsprechenden Treiber. Einige Kabel, vor allem von Drittherstellern "
+"brauchen auch andere Treiber. Ohne den passenden Treiber wird der "
+"Tauchcomputer nicht angezeigt. Der Tauchcomputer erscheint als Gerät "
+"(<code>COMn</code> oder <code>/dev/tty...</code>). Sollte es zu timeouts "
+"oder Datenfehlern kommen, siehe die die Datenfehler-Frage weiter unten."
 
 #: templates/faq.html:692
 msgid "I get timeouts or data error when downloading"
