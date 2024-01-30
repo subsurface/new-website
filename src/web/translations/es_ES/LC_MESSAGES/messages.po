@@ -1900,7 +1900,7 @@ msgstr ""
 
 #: templates/home.html:164
 msgid "We switched to rolling releases"
-msgstr "Hemos cambiado publicaciones continuas"
+msgstr "Hemos cambiado a publicaciones continuas"
 
 #: templates/home.html:166
 #, python-format
