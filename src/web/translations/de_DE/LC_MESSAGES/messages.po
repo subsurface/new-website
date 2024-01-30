@@ -1644,6 +1644,9 @@ msgid ""
 "to BLE, like for example the Suunto EON Steel family), that is definitely "
 "preferable especially for that first download."
 msgstr ""
+"Bietet der Tauchcomputer noch einen Übertragungsweg über ein USB-Kabel neben"
+" BLE, wie zum Beispiel die Suunto EON Steel Familie, ist das definitiv der "
+"bessere Übertragungsweg, insbesondere beim allerersten Download."
 
 #: templates/faq.html:727
 msgid "Does Subsurface-mobile support the Garmin Descent family?"
