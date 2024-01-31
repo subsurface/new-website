@@ -2119,7 +2119,7 @@ msgstr ""
 
 #: templates/subsurface-user-manual.html:13
 msgid "Subsurface User Manual"
-msgstr ""
+msgstr "Subsurface Benutzerhandbuch"
 
 #: templates/supported-dive-computers.html:15
 msgid ""
