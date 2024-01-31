@@ -1868,6 +1868,10 @@ msgid ""
 "the user’s diving and tracks information like the SAC rate, partial "
 "pressures of O2, N2 and He, calculated deco information, and many more."
 msgstr ""
+"Du kannst mit Subsurface auch eine große Zahl von "
+"<strong>Statistiken</strong> über deine Tauchgänge erstellen und Daten wie "
+"den Gasverbrauch, Gaszusammensetzungen, Dekoinformationen und vieles mehr "
+"einbeziehen."
 
 #: templates/home.html:144
 msgid ""
