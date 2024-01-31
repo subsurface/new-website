@@ -1804,10 +1804,12 @@ msgid ""
 "The planner module makes it simple to visually plan dives either based on "
 "Bühlmann ZH-16 or VPM-B"
 msgstr ""
+"Der Tauchgangsplaner lässt dich einfach grafisch deine Tauchgänge mit "
+"Bühlmann ZH-16 oder VPM-B planen"
 
 #: templates/home.html:104
 msgid "Subsurface-mobile"
-msgstr ""
+msgstr "Subsurface-mobile"
 
 #: templates/home.html:106
 msgid ""
