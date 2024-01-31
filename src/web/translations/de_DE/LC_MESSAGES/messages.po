@@ -1778,7 +1778,7 @@ msgid ""
 "Subsurface is an open source divelog program for recreational, tech, and "
 "free-divers that runs on Windows, Mac, and Linux"
 msgstr ""
-"Subsurface ist ein quelloffenes und kostenloses Tauchlogbuch für Freizeit-, "
+"Subsurface ist ein quelloffenes und kostenloses Tauchlogbuch für Sport-, "
 "Tech- und Freitaucher, das auf Windows, Mac und Linux läuft"
 
 #: templates/home.html:84
