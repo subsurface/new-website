@@ -1979,6 +1979,10 @@ msgid ""
 "them to be broken very often, they are generally released in order to "
 "facilitate testing, and as such may not have received a lot of testing, yet."
 msgstr ""
+"Die Versionen auf dieser Seite sind die neusten Produkte des Subsurface CICD"
+" (Continuous Integration, Continuous Delivery) Systems. Diese sollten "
+"funktionieren, sind aber in erster Linie zur Vereinfachung des Testens und "
+"sind daher möglicher Weise noch nicht ausreichend getestet. "
 
 #: templates/latest-release.html:20
 #, python-format
