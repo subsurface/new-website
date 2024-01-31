@@ -1941,7 +1941,7 @@ msgstr "Bitte lies <a %(link)s>die Ankündigung der Versionsänderungen</a>"
 
 #: templates/home.html:171
 msgid "A bit of history:"
-msgstr "Ein bisschen Hintergrund Geschichte zu Subsurface:"
+msgstr "Etwas Hintergrund-Geschichte zu Subsurface:"
 
 #: templates/home.html:173
 msgid ""
