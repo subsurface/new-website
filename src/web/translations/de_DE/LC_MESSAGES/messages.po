@@ -1821,7 +1821,7 @@ msgstr ""
 
 #: templates/home.html:114
 msgid "Cloud storage"
-msgstr "Cloud-Specher"
+msgstr "Cloud-Speicher"
 
 #: templates/home.html:116
 msgid ""
