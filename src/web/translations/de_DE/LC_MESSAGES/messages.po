@@ -1970,7 +1970,7 @@ msgstr ""
 #: templates/latest-release.html:13
 #, python-format
 msgid "Latest Development (CICD) Release: %(version)s"
-msgstr ""
+msgstr "Neueste Entwickler-Version (CICD): %(version)s"
 
 #: templates/latest-release.html:17
 msgid ""
