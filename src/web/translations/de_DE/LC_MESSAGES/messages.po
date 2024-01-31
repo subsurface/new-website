@@ -1724,10 +1724,17 @@ msgid ""
 " the Descent and plug it back in, again selecting MTP. Now Subsurface is "
 "able to download from it (don't enter anything in the connection field)"
 msgstr ""
+"Bitte besorge dir <a %(zadig)s>Zadig 2.6</a> und starte es, verbinde den "
+"Descent und wähle MTP, warte, dass Zadig den Descent als eine Option anzeigt"
+" (das kann ein Ein- und Ausstecken erfordern), wähle den Descent aus und "
+"lass Zadig 'libusb-win32' installieren (warte, bis das erfolgt ist, das kann"
+" eine Weile dauern), trenne die Verbinding zum Descent und stecke ihn wieder"
+" ein und wähle nochmals MTP. Jetzt kann Subsurface Daten übertragen (lass "
+"\"Verbinding\" leer)."
 
 #: templates/faq.html:790
 msgid "Other questions"
-msgstr ""
+msgstr "Andere Fragen"
 
 #: templates/faq.html:792
 #, python-format
