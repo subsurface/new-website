@@ -2162,7 +2162,7 @@ msgstr ""
 
 #: templates/tutorial-video.html:37
 msgid "or any other of the links at"
-msgstr ""
+msgstr "oder einem anderne der Links unter"
 
 #: templates/tutorial-video.html:41
 #, python-format
