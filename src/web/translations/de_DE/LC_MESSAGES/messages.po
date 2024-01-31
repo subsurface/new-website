@@ -1791,10 +1791,13 @@ msgid ""
 " programs or dive log websites. Manually enter them directly in Subsurface "
 "or via a simple spreadsheet."
 msgstr ""
+"Übertrage deine Tauchgänge von deinem Tauchcomputer. Importiere sie aus "
+"einer anderen Logbuchsoftware oder Tauchlogbuch-Webseiten. Trage sie manuell"
+" in Subsurface ein oder mittels einer einfachen Tabellenkalkulations-Datei"
 
 #: templates/home.html:94
 msgid "Dive planner"
-msgstr ""
+msgstr "Tauchgangsplaner"
 
 #: templates/home.html:96
 msgid ""
