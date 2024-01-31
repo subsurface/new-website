@@ -1147,6 +1147,10 @@ msgid ""
 "“Check for updates”. The iOS version notifies you via the regular AppStore "
 "mechanisms. A notification mechanism for Android is under development."
 msgstr ""
+"In der Desktop kannst du dies aus dem Hilfe-Menü prüfen: Wähle \"Nach neuer "
+"Version suchen\". Die iOS Version informiert dich über den üblichen "
+"AppStore-Mechanismus. Ein Benachrichtigungsmechnismus für Android ist noch "
+"in Arbeit."
 
 #: templates/faq.html:444
 #, python-format
@@ -1252,6 +1256,17 @@ msgid ""
 "that will happily work with a low battery, but will fail to transfer dives "
 "to a connected PC unless the battery is changed."
 msgstr ""
+"Offenbar kann es dafür verschiedene Gründe geben. Wenn dein Tauchcomputer "
+"mittels Kabel verbunden ist, säubere die Kontakte und überzeuge dich, dass "
+"alles ganz trocken ist. Mach das nochmal. Stelle sicher, dass das Kabel fest"
+" verbunden ist. Wackle daran. Wirklich. Stelle den Tauchcomputer in den "
+"Datenübertragungs-Modus (das ist nicht für alle Tauchcomputer nötig aber für"
+" viele sehr verbreitete). Probiere, ob du mit einer anderen Software die "
+"Daten übertragen kannst. Probiere ein anderes Kabel. Prüfe die Batterie. Es "
+"gibt einige Tauchcomputer (vor allem die älteren Suunto-Modelle) die noch "
+"gut mit niedrigem Batteriestand funktionieren aber die Daten nicht mehr zu "
+"einem verbundenen Computer übertragen können, bevor nicht die Batterie "
+"erneuert ist."
 
 #: templates/faq.html:509
 msgid ""
@@ -1564,6 +1579,12 @@ msgid ""
 "generally it might make the most sense to first reach out in order to avoid "
 "wasting your time."
 msgstr ""
+"Ein guter Anfang ist meist, uns die libdivecomputer.log und einen "
+"libdivecomputer Dump (im Tauchcomputer-auslesen-Dialog kann man beide "
+"anwählen) von dem Versuch sich mit dem Tauchcomputer zu verbinden (ein "
+"möglichst ähnliches Modell in den Einstellungen auswählen). Aber es lohnt "
+"sich meistens, erstmal mit uns in Kontakt zu treten, um nicht deine Zeit zu "
+"verschwenden."
 
 #: templates/faq.html:676
 msgid "Old style Suunto dive computers?"
@@ -1577,10 +1598,16 @@ msgid ""
 "device (<code>COMn</code> or <code>/dev/tty...</code>), if you get timeouts "
 "or data errors, see the data error question below."
 msgstr ""
+"Die meisten Übertragungskabel basieren auf dem FTDI-Chip und brauchen einen "
+"entsprechenden Treiber. Einige Kabel, vor allem von Drittherstellern "
+"brauchen auch andere Treiber. Ohne den passenden Treiber wird der "
+"Tauchcomputer nicht angezeigt. Der Tauchcomputer erscheint als Gerät "
+"(<code>COMn</code> oder <code>/dev/tty...</code>). Sollte es zu timeouts "
+"oder Datenfehlern kommen, siehe die die Datenfehler-Frage weiter unten."
 
 #: templates/faq.html:692
 msgid "I get timeouts or data error when downloading"
-msgstr ""
+msgstr "Ich bekomme timeouts oder Datenfehler beim Ausleseversuch"
 
 #: templates/faq.html:699
 msgid ""
@@ -1591,6 +1618,13 @@ msgid ""
 "better job at 'error correction'), but Subsurface won't download until you "
 "have a fresh battery and really clean and really dry contacts."
 msgstr ""
+"Ein erstaunlich häufiges Problem sind nasse oder verschmutzte Kontakte am "
+"Übertragungskabel oder Tauchcomputer oder eine niedrige Batterieladung. Der "
+"Übertragunsmodus erfordert oft eine höhere und stabilere Spannung, um zu "
+"funktionieren. Und wir haben sogar schon Situationen gesehen, bei denen das "
+"Programm des Tauchcomputerherstellers funktioniert (da es eine bessere "
+"Fehlerkorrektur hat), aber Subsurface erst wieder mit einer erneuerten "
+"Batterie und gesäuberten und getrockneten Kontakten die Daten überträgt."
 
 #: templates/faq.html:708
 msgid "BLE (Bluetooth Low Energy) downloads are incredibly slow"
@@ -1608,6 +1642,16 @@ msgid ""
 "is hard to complete the download without running into errors that lead the "
 "download to abort. It really pays off to download early and often."
 msgstr ""
+"Ja, das stimmt. Subsurface unterstützt die BLE-Übertragung von vielen "
+"verschiedenen Tauchcomputern von verschiedenen Herstellern. Daher ist der "
+"Code nicht so gut speziell auf einen Tauchcomputer angepasst, wie das eine "
+"Herstellersoftware sein kann. Daher sind diese Übertragungen quälend "
+"langsam. Normalerweise ist diese Übertragung für ein paar Tauchgänge am Tag "
+"langsam aber nicht furchtbar. Aber insbesondere die erste Übertragung mit "
+"möglicherweise hunderten Tauchgängen kann eine Stunde oder länger dauern und"
+" gelegentlich ist es schwer die Übertragung abzuschliessen, bevor "
+"Übertragungsfehler die Übertragung abbrechen lassen. Daher lohnt es sich, "
+"früh und oft die Tauchgänge zu übertragen."
 
 #: templates/faq.html:717
 msgid ""
@@ -1615,6 +1659,9 @@ msgid ""
 "to BLE, like for example the Suunto EON Steel family), that is definitely "
 "preferable especially for that first download."
 msgstr ""
+"Bietet der Tauchcomputer noch einen Übertragungsweg über ein USB-Kabel neben"
+" BLE, wie zum Beispiel die Suunto EON Steel Familie, ist das definitiv der "
+"bessere Übertragungsweg, insbesondere beim allerersten Download."
 
 #: templates/faq.html:727
 msgid "Does Subsurface-mobile support the Garmin Descent family?"
@@ -1626,10 +1673,13 @@ msgid ""
 "and only for cable based download. Based on a specific request from Garmin, "
 "we will not be able to support BLE downloads on any platform."
 msgstr ""
+"Die Descent-Tauchcomputer sind nur unter Windows, macOS und Linux "
+"unterstützt und nur mittels Kabel-Übertragung. Aufgrund einer Bitte von "
+"Garmin wird es keine BLE-Übertragungen auf irgendeiner Plattform geben."
 
 #: templates/faq.html:743
 msgid "Can I import '.FIT' files directly?"
-msgstr ""
+msgstr "Kann ich '.FIT'-Dateien direkt einlesen?"
 
 #: templates/faq.html:750
 msgid ""
@@ -1641,10 +1691,17 @@ msgid ""
 "<code>...somepath...</code> (without the <code>Garmin/Actity</code> part) in"
 " the Connection field and press Download."
 msgstr ""
+"Wenn aus irgendeinem Grund die direkte Übertragung nicht funktioniert, du "
+"aber Zugriff auf die '.FIT'-Dateien hast, kannst du auch diese in Subsurface"
+" einlesen. Erzeuge ein "
+"Verzeichnis<code>...somepath.../Garmin/Activity</code> kopiere die  "
+"<code>.FIT</code>-Dateien in dieses Verzeichnis. Nun starte die Übertragung "
+"in Subsurface und wähle <code>...somepath...</code> (ohne den "
+"<code>Garmin/Actity</code>-Teil) als Pfad aus und starte die Übertragung."
 
 #: templates/faq.html:759
 msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
-msgstr ""
+msgstr "Garmin Descent Mk2/Mk3 will sich nicht verbinden."
 
 #: templates/faq.html:766
 msgid ""
@@ -1654,15 +1711,23 @@ msgid ""
 "dive computer. Exit all other apps that might try to connect to a media "
 "device, like for example the Android File Transfer."
 msgstr ""
+"Der Descent Mk2/Mk3 ist ein MTP-Gerät, was gelegentlich Probleme verursacht,"
+" wenn man versucht, davon mit Subsurface Tauchgänge herunterzuladen. MTP "
+"unterstützt nur eine einzige Verbindung, daher können andere MTP-Apps "
+"verhindern, dass Subsurface den Tauchcomputer erreichen kann. Beende alle "
+"anderen Apps, die versuchen könnten, sich mit einem Mediengerät zu "
+"verbinden, wie etwa den die Android Dateien-Übertragung."
 
 #: templates/faq.html:775
 msgid "Garmin Descent Mk2/Mk3 on Windows"
-msgstr ""
+msgstr "Germin Descent Mk2/Mk3 und Windows"
 
 #: templates/faq.html:782
 msgid ""
 "You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
 msgstr ""
+"Du brauchst den richtigen USB-Treiber, um dich mit dem Descent Mk2/Mk3 zu "
+"verbinden."
 
 #: templates/faq.html:785
 #, python-format
@@ -1674,10 +1739,17 @@ msgid ""
 " the Descent and plug it back in, again selecting MTP. Now Subsurface is "
 "able to download from it (don't enter anything in the connection field)"
 msgstr ""
+"Bitte besorge dir <a %(zadig)s>Zadig 2.6</a> und starte es, verbinde den "
+"Descent und wähle MTP, warte, dass Zadig den Descent als eine Option anzeigt"
+" (das kann ein Ein- und Ausstecken erfordern), wähle den Descent aus und "
+"lass Zadig 'libusb-win32' installieren (warte, bis das erfolgt ist, das kann"
+" eine Weile dauern), trenne die Verbinding zum Descent und stecke ihn wieder"
+" ein und wähle nochmals MTP. Jetzt kann Subsurface Daten übertragen (lass "
+"\"Verbinding\" leer)."
 
 #: templates/faq.html:790
 msgid "Other questions"
-msgstr ""
+msgstr "Andere Fragen"
 
 #: templates/faq.html:792
 #, python-format
@@ -1686,6 +1758,9 @@ msgid ""
 "%(userforum)s>User Forum</a> and try the search function. If you don't find "
 "an answer there, create a new topic and ask for help."
 msgstr ""
+"Falls deine Frage hier nicht beantwortet wurde, schau bitte ins <a "
+"%(userforum)s>Benutzer-Forum</a> und verwende die Suche. Wenn du auch dort "
+"keine Antwort findest, beginne eine neue Konversation und bitte um Hilfe."
 
 #: templates/faq.html:796
 #, python-format
@@ -1694,6 +1769,10 @@ msgid ""
 "repo</a>. Pull requests are of course welcome - you can also suggest "
 "additions to the FAQ in the <a %(userforum)s>User Forum</a>."
 msgstr ""
+"Diese FAQ wird unterhalten als Teil unserer Webseite im <a "
+"%(webrepo)s>Webseiten repo</a>. Pull requests sind immer willkommen, du "
+"kannst auch Ergänzungen zu dieser FAQ im <a %(userforum)s>Benutzer-Forum</a>"
+" vorschlagen."
 
 #: templates/home.html:17
 msgid "The free, open-source cross-platform dive log software."
@@ -1703,23 +1782,23 @@ msgstr ""
 
 #: templates/home.html:32 templates/home.html:48
 msgid "Downloads for other platforms"
-msgstr ""
+msgstr "Übertragungen für andere Plattformen"
 
 #: templates/home.html:74
 msgid "Multiplatform"
-msgstr ""
+msgstr "Multiplatform"
 
 #: templates/home.html:76
 msgid ""
 "Subsurface is an open source divelog program for recreational, tech, and "
 "free-divers that runs on Windows, Mac, and Linux"
 msgstr ""
-"Subsurface ist ein quelloffenes und kostenloses Tauchlogbuch für Freizeit-, "
+"Subsurface ist ein quelloffenes und kostenloses Tauchlogbuch für Sport-, "
 "Tech- und Freitaucher, das auf Windows, Mac und Linux läuft"
 
 #: templates/home.html:84
 msgid "Log all your dives"
-msgstr ""
+msgstr "Logge alle deine Tauchgänge"
 
 #: templates/home.html:86
 msgid ""
@@ -1727,36 +1806,46 @@ msgid ""
 " programs or dive log websites. Manually enter them directly in Subsurface "
 "or via a simple spreadsheet."
 msgstr ""
+"Übertrage deine Tauchgänge von deinem Tauchcomputer. Importiere sie aus "
+"einer anderen Logbuchsoftware oder Tauchlogbuch-Webseiten. Trage sie manuell"
+" in Subsurface ein oder mittels einer einfachen Tabellenkalkulations-Datei"
 
 #: templates/home.html:94
 msgid "Dive planner"
-msgstr ""
+msgstr "Tauchgangsplaner"
 
 #: templates/home.html:96
 msgid ""
 "The planner module makes it simple to visually plan dives either based on "
 "Bühlmann ZH-16 or VPM-B"
 msgstr ""
+"Der Tauchgangsplaner lässt dich einfach grafisch deine Tauchgänge mit "
+"Bühlmann ZH-16 oder VPM-B planen"
 
 #: templates/home.html:104
 msgid "Subsurface-mobile"
-msgstr ""
+msgstr "Subsurface-mobile"
 
 #: templates/home.html:106
 msgid ""
 "Using Subsurface-mobile on your Android or iOS device you can access your "
 "dive log anywhere"
 msgstr ""
+"Mit Subsurface-mobile kannst du dein Logbuch auf Android oder iOS überall "
+"erreichen."
 
 #: templates/home.html:114
 msgid "Cloud storage"
-msgstr ""
+msgstr "Cloud-Speicher"
 
 #: templates/home.html:116
 msgid ""
 "Store your logbook data in the cloud. Work with your data from different "
 "devices, online and offline. Fully integrated, free, and easy to set up."
 msgstr ""
+"Sichere dein Logbuch in der Subsurface-Cloud. Bearbeite deine Daten auf "
+"verschiedenen Geräten, online und offline. In Subsurface integriert, "
+"kostenlos und einfach einzurichten."
 
 #: templates/home.html:133
 msgid ""
@@ -1768,9 +1857,9 @@ msgid ""
 "notes."
 msgstr ""
 "Subsurface kann <strong>Tauchgänge</strong> mit einer oder mehreren "
-"Tauchflaschen mit Luft, Nitrox oder TriMix <strong>planen</strong> und "
-"<strong>verfolgen</strong>. Es ermöglicht die Verfolgung von Tauchstandorten"
-" einschließlich GPS-Koordinaten (die auch bequem über eine "
+"Tauchflaschen mit Luft, Nitrox oder Trimix <strong>planen</strong> und "
+"<strong>erfassen</strong>. Es ermöglicht die Erfassung von Tauchplätzen "
+"einschließlich GPS-Koordinaten (die auch bequem über eine "
 "Kartenschnittstelle eingegeben werden können), die Aufzeichnung der "
 "verwendeten Ausrüstung und der Namen anderer Taucher, und lässt die Nutzer "
 "Tauchgänge bewerten und zusätzliche Notizen hinterlegen."
@@ -1782,6 +1871,11 @@ msgid ""
 "group the dive list into trips, and edit multiple dives at the same time, "
 "making it easy to support a large number of dives."
 msgstr ""
+"Du kannst Tauchgänge mit Schlagworten versehen und <strong>die "
+"Tauchgangsliste </strong> nach Kriterien wie den Schlagwörtern, Tauchplätzen"
+" oder Tauchpartnerinnen und -partnern. Fasse Tauchgänge zu Reisen zusammen "
+"und bearbeite mehrere Tauchgänge auf einmal. Auf diese Weise lässt sich auch"
+" mit vielen Tauchgängen im Logbuch gut umgehen."
 
 #: templates/home.html:141
 msgid ""
@@ -1789,18 +1883,27 @@ msgid ""
 "the user’s diving and tracks information like the SAC rate, partial "
 "pressures of O2, N2 and He, calculated deco information, and many more."
 msgstr ""
+"Du kannst mit Subsurface auch eine große Zahl von "
+"<strong>Statistiken</strong> über deine Tauchgänge erstellen und Daten wie "
+"den Gasverbrauch, Gaszusammensetzungen, Dekoinformationen und vieles mehr "
+"einbeziehen."
 
 #: templates/home.html:144
 msgid ""
 "<strong>Multiple divers</strong> can share one instance of Subsurface using "
 "different preferences and settings."
 msgstr ""
+"<strong>Mehrere Taucherinnen und Tauchen</strong> können sich eine "
+"Installation von Subsurface teilen und jeder seine eigenen Einstellungen "
+"vornehmen."
 
 #: templates/home.html:147
 msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
+"Das Programm kann in etwa <strong>20 Sprachen</strong> benutzt werden und "
+"wird von einer aktiven Entwicklergemeinschaft unterhalten."
 
 #: templates/home.html:152
 #, python-format
@@ -1810,6 +1913,11 @@ msgid ""
 "computers</a>). Subsurface can also import existing dive logs from several "
 "sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de."
 msgstr ""
+"Eine der besonderen Stärken von Subsurface ist die große Zahl unterstützer  "
+"<strong>Tauchcomputer</strong> (eine Liste findet sich <a "
+"%(link)s>hier</a>). Subsurface kann ebenso vorhandene Logbücher aus anderen "
+"Quellen wie  MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de "
+"importieren."
 
 #: templates/home.html:155
 msgid ""
@@ -1821,16 +1929,24 @@ msgid ""
 "into one dive – allowing visualization of the data collected from multiple "
 "sources."
 msgstr ""
+"Eine andere Stärke ist die Möglichkeit das Tiefenprofil <strong>zu "
+"visualisieren</strong> the depth profile (und, falls vorhanden, den "
+"Restrduck der Atemgase). Dies geschieht auf auf eine innovative Weise, die "
+"auch die relative Geschwindigkeit  momentanen Gasverbrauch sichtbar macht. "
+"Anwender mit <strong>mehr als einem Tauchcomputer</strong> können die Daten "
+"von diesem kombinieren und die Daten mit ihren Quellen visualisieren."
 
 #: templates/home.html:160
 msgid ""
 "Subsurface lets the user <strong>print</strong> out a detailed log book "
 "including dive profiles and other important information."
 msgstr ""
+"Aus Subsurface  kann ein detailliertes Logbuch mit Tiefenprofil und anderen "
+"wichtigen Informationen <strong>ausgedruckt</strong> werden."
 
 #: templates/home.html:164
 msgid "We switched to rolling releases"
-msgstr ""
+msgstr "Wir sind zu \"rolling releases\" übergegangen"
 
 #: templates/home.html:166
 #, python-format
@@ -1840,7 +1956,7 @@ msgstr "Bitte lies <a %(link)s>die Ankündigung der Versionsänderungen</a>"
 
 #: templates/home.html:171
 msgid "A bit of history:"
-msgstr "Ein bisschen Hintergrund Geschichte zu Subsurface:"
+msgstr "Etwas Hintergrund-Geschichte zu Subsurface:"
 
 #: templates/home.html:173
 msgid ""
@@ -1869,7 +1985,7 @@ msgstr ""
 #: templates/latest-release.html:13
 #, python-format
 msgid "Latest Development (CICD) Release: %(version)s"
-msgstr ""
+msgstr "Neueste Entwickler-Version (CICD): %(version)s"
 
 #: templates/latest-release.html:17
 msgid ""
@@ -1878,6 +1994,10 @@ msgid ""
 "them to be broken very often, they are generally released in order to "
 "facilitate testing, and as such may not have received a lot of testing, yet."
 msgstr ""
+"Die Versionen auf dieser Seite sind die neusten Produkte des Subsurface CICD"
+" (Continuous Integration, Continuous Delivery) Systems. Diese sollten "
+"funktionieren, sind aber in erster Linie zur Vereinfachung des Testens und "
+"sind daher möglicher Weise noch nicht ausreichend getestet. "
 
 #: templates/latest-release.html:20
 #, python-format
@@ -1885,6 +2005,8 @@ msgid ""
 "If you are looking for a somewhat less \"bleeding edge\" set of builds, "
 "please consider the <a %(link)s>Current Release Page</a>."
 msgstr ""
+"Suchst du nach etwas stabileren Veröffentlichungen, findest du diese auf der"
+" <a %(link)s>Aktuelle-Veröffentlichungs-Seite</a>."
 
 #: templates/latest-release.html:49
 msgid ""
@@ -1893,6 +2015,10 @@ msgid ""
 " process by control-clicking (or two-finger-clicking) on the executable and "
 "selecting to open it."
 msgstr ""
+"Das Subsurface macOS DMG ist nicht signiert. macOS zwingt dich zu ein paar "
+"Extraschritten, bevor du dieses Programm installieren und benutzen kannst. "
+"Du kannst diesen Prozess vereinfachen, indem du beim Start die Control-Taste"
+" drückst oder mit zwei Fingern klickst und \"öffnen\" wählst."
 
 #: templates/latest-release.html:82
 #, python-format
@@ -1904,6 +2030,14 @@ msgid ""
 "builds into our public TestFlight account. If you like to be on the bleeding"
 " edge, you can <a %(link)s>sign up for the Subsurface-mobile TestFlight.</a>"
 msgstr ""
+"iOS ist momentan die einzige Plattform, auf der \"side loading\" oder das "
+"installieren von nicht signierten Apps unmöglich ist (möglicherweise wird "
+"sich das in der EU bald ändern aber wahrscheinlich nicht im Rest der Welt). "
+"Daher können wir hier keine Testversionen von Subsurface-mobile für iOS zur "
+"Verfügung stellen. Viele dieser Versionen machen wir mittels unseres "
+"öffentlichen TestFlight-Accounts zugänglich. Wenn du diese Testversionen "
+"beziehen willst, kannst du dich <a %(link)s>für Subsurface-mobile TestFlight"
+" eintragen</a>."
 
 #: templates/privacy-policy.html:15
 msgid ""
@@ -2000,17 +2134,19 @@ msgstr ""
 
 #: templates/subsurface-user-manual.html:13
 msgid "Subsurface User Manual"
-msgstr ""
+msgstr "Subsurface Benutzerhandbuch"
 
 #: templates/supported-dive-computers.html:15
 msgid ""
 "Currently, these divecomputers are supported in Subsurface. Please note that"
 " Subsurface-mobile only supports a subset of these devices."
 msgstr ""
+"Momentan werden diese Tauchcomputer von Subsurface unterstützt. Bitte "
+"beachte, dass Subsurface-mobile nur einen Teil davon unterstützt."
 
 #: templates/thanks.html:13
 msgid "Thanks"
-msgstr "Danke"
+msgstr "Dank"
 
 #: templates/thanks.html:15
 #, python-format
@@ -2028,21 +2164,25 @@ msgid ""
 "This video is based on a slightly older version of Subsurface, but should "
 "still be very useful to get an idea of the functionality."
 msgstr ""
+"Dieses Video basiert auf einer etwas älteren Subsurface-Version, sollte aber"
+" dennoch eine gute Idee von der Funktionalität geben."
 
 #: templates/tutorial-video.html:29
 msgid ""
 "You can also download the video for offline viewing, using one of the "
 "following links:"
 msgstr ""
+"Du kannst das Video auch zum offline-Ansehen unter einem der folgenden "
+"Links:"
 
 #: templates/tutorial-video.html:37
 msgid "or any other of the links at"
-msgstr ""
+msgstr "oder einem anderne der Links unter"
 
 #: templates/tutorial-video.html:41
 #, python-format
 msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
-msgstr ""
+msgstr "und mit einem anderen Videoplayer (etwa <a %(vlc)s>VLC</a>) ansehen."
 
 #: templates/user-forum.html:15
 #, python-format
@@ -2050,6 +2190,8 @@ msgid ""
 "Do you have questions, comments, or suggestions for Subsurface? Please join "
 "our <a %(link)s>User Forum</a>."
 msgstr ""
+"Hast du Fragen, Kommentare oder Vorschläge für Subsurface? Tritt einfach "
+"unserm  <a %(link)s>Benutzer-Forum</a> bei."
 
 #: templates/user-forum.html:18
 msgid ""
@@ -2057,3 +2199,6 @@ msgid ""
 "subscribe to it via email; simply check the corresponding box when joining "
 "the forum."
 msgstr ""
+"Du erreichst es auf der Subsurface Google Gruppen Webseite oder du kannst es"
+" per Email abonnieren, wähle einfach das entsprechende Kästchen an, wenn du "
+"dem Forum beitrittst."
