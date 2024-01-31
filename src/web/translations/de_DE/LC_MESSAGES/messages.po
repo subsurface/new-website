@@ -1686,7 +1686,7 @@ msgstr ""
 
 #: templates/faq.html:759
 msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
-msgstr ""
+msgstr "Garmin Descent Mk2/Mk3 will sich nicht verbinden."
 
 #: templates/faq.html:766
 msgid ""
