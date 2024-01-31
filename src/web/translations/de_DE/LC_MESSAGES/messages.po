@@ -2000,6 +2000,10 @@ msgid ""
 " process by control-clicking (or two-finger-clicking) on the executable and "
 "selecting to open it."
 msgstr ""
+"Das Subsurface macOS DMG ist nicht signiert. macOS zwingt dich zu ein paar "
+"Extraschritten, bevor du dieses Programm installieren und benutzen kannst. "
+"Du kannst diesen Prozess vereinfachen, indem du beim Start die Control-Taste"
+" drückst oder mit zwei Fingern klickst und \"öffnen\" wählst."
 
 #: templates/latest-release.html:82
 #, python-format
