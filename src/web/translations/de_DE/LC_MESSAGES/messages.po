@@ -2149,6 +2149,8 @@ msgid ""
 "This video is based on a slightly older version of Subsurface, but should "
 "still be very useful to get an idea of the functionality."
 msgstr ""
+"Dieses Video basiert auf einer etwas älteren Subsurface-Version, sollte aber"
+" dennoch eine gute Idee von der Funktionalität geben."
 
 #: templates/tutorial-video.html:29
 msgid ""
