@@ -1887,6 +1887,8 @@ msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
+"Das Programm kann in etwa <strong>20 Sprachen</strong> benutzt werden und "
+"wird von einer aktiven Entwicklergemeinschaft unterhalten."
 
 #: templates/home.html:152
 #, python-format
