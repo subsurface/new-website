@@ -1664,7 +1664,7 @@ msgstr ""
 
 #: templates/faq.html:743
 msgid "Can I import '.FIT' files directly?"
-msgstr ""
+msgstr "Kann ich '.FIT'-Dateien direkt einlesen?"
 
 #: templates/faq.html:750
 msgid ""
