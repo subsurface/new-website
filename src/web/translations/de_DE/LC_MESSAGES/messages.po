@@ -1696,6 +1696,12 @@ msgid ""
 "dive computer. Exit all other apps that might try to connect to a media "
 "device, like for example the Android File Transfer."
 msgstr ""
+"Der Descent Mk2/Mk3 ist ein MTP-Gerät, was gelegentlich Probleme verursacht,"
+" wenn man versucht, davon mit Subsurface Tauchgänge herunterzuladen. MTP "
+"unterstützt nur eine einzige Verbindung, daher können andere MTP-Apps "
+"verhindern, dass Subsurface den Tauchcomputer erreichen kann. Beende alle "
+"anderen Apps, die versuchen könnten, sich mit einem Mediengerät zu "
+"verbinden, wie etwa den die Android Dateien-Übertragung."
 
 #: templates/faq.html:775
 msgid "Garmin Descent Mk2/Mk3 on Windows"
