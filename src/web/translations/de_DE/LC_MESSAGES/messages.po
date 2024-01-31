@@ -1676,6 +1676,13 @@ msgid ""
 "<code>...somepath...</code> (without the <code>Garmin/Actity</code> part) in"
 " the Connection field and press Download."
 msgstr ""
+"Wenn aus irgendeinem Grund die direkte Übertragung nicht funktioniert, du "
+"aber Zugriff auf die '.FIT'-Dateien hast, kannst du auch diese in Subsurface"
+" einlesen. Erzeuge ein "
+"Verzeichnis<code>...somepath.../Garmin/Activity</code> kopiere die  "
+"<code>.FIT</code>-Dateien in dieses Verzeichnis. Nun starte die Übertragung "
+"in Subsurface und wähle <code>...somepath...</code> (ohne den "
+"<code>Garmin/Actity</code>-Teil) als Pfad aus und starte die Übertragung."
 
 #: templates/faq.html:759
 msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
