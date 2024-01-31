@@ -1816,10 +1816,12 @@ msgid ""
 "Using Subsurface-mobile on your Android or iOS device you can access your "
 "dive log anywhere"
 msgstr ""
+"Mit Subsurface-mobile kannst du dein Logbuch auf Android oder iOS überall "
+"erreichen."
 
 #: templates/home.html:114
 msgid "Cloud storage"
-msgstr ""
+msgstr "Cloud-Specher"
 
 #: templates/home.html:116
 msgid ""
