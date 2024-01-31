@@ -1767,11 +1767,11 @@ msgstr ""
 
 #: templates/home.html:32 templates/home.html:48
 msgid "Downloads for other platforms"
-msgstr ""
+msgstr "Übertragungen für andere Plattformen"
 
 #: templates/home.html:74
 msgid "Multiplatform"
-msgstr ""
+msgstr "Multiplatform"
 
 #: templates/home.html:76
 msgid ""
