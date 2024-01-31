@@ -1914,6 +1914,12 @@ msgid ""
 "into one dive – allowing visualization of the data collected from multiple "
 "sources."
 msgstr ""
+"Eine andere Stärke ist die Möglichkeit das Tiefenprofil <strong>zu "
+"visualisieren</strong> the depth profile (und, falls vorhanden, den "
+"Restrduck der Atemgase). Dies geschieht auf auf eine innovative Weise, die "
+"auch die relative Geschwindigkeit  momentanen Gasverbrauch sichtbar macht. "
+"Anwender mit <strong>mehr als einem Tauchcomputer</strong> können die Daten "
+"von diesem kombinieren und die Daten mit ihren Quellen visualisieren."
 
 #: templates/home.html:160
 msgid ""
