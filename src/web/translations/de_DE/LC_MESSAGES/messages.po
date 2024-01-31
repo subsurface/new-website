@@ -2131,7 +2131,7 @@ msgstr ""
 
 #: templates/thanks.html:13
 msgid "Thanks"
-msgstr "Danke"
+msgstr "Dank"
 
 #: templates/thanks.html:15
 #, python-format
