@@ -2167,7 +2167,7 @@ msgstr "oder einem anderne der Links unter"
 #: templates/tutorial-video.html:41
 #, python-format
 msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
-msgstr ""
+msgstr "und mit einem anderen Videoplayer (etwa <a %(vlc)s>VLC</a>) ansehen."
 
 #: templates/user-forum.html:15
 #, python-format
