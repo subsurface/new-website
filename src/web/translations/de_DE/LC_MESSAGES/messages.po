@@ -1147,6 +1147,10 @@ msgid ""
 "“Check for updates”. The iOS version notifies you via the regular AppStore "
 "mechanisms. A notification mechanism for Android is under development."
 msgstr ""
+"In der Desktop kannst du dies aus dem Hilfe-Menü prüfen: Wähle \"Nach neuer "
+"Version suchen\". Die iOS Version informiert dich über den üblichen "
+"AppStore-Mechanismus. Ein Benachrichtigungsmechnismus für Android ist noch "
+"in Arbeit."
 
 #: templates/faq.html:444
 #, python-format
