@@ -1926,6 +1926,8 @@ msgid ""
 "Subsurface lets the user <strong>print</strong> out a detailed log book "
 "including dive profiles and other important information."
 msgstr ""
+"Aus Subsurface  kann ein detailliertes Logbuch mit Tiefenprofil und anderen "
+"wichtigen Informationen <strong>ausgedruckt</strong> werden."
 
 #: templates/home.html:164
 msgid "We switched to rolling releases"
