@@ -1829,7 +1829,8 @@ msgid ""
 "devices, online and offline. Fully integrated, free, and easy to set up."
 msgstr ""
 "Sichere dein Logbuch in der Subsurface-Cloud. Bearbeite deine Daten auf "
-"verschiedenen Geräten, online und offline."
+"verschiedenen Geräten, online und offline. In Subsurface integriert, "
+"kostenlos und einfach einzurichten."
 
 #: templates/home.html:133
 msgid ""
