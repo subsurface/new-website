@@ -1990,6 +1990,8 @@ msgid ""
 "If you are looking for a somewhat less \"bleeding edge\" set of builds, "
 "please consider the <a %(link)s>Current Release Page</a>."
 msgstr ""
+"Suchst du nach etwas stabileren Veröffentlichungen, findest du diese auf der"
+" <a %(link)s>Aktuelle-Veröffentlichungs-Seite</a>."
 
 #: templates/latest-release.html:49
 msgid ""
