@@ -1711,6 +1711,8 @@ msgstr "Germin Descent Mk2/Mk3 und Windows"
 msgid ""
 "You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
 msgstr ""
+"Du brauchst den richtigen USB-Treiber, um dich mit dem Descent Mk2/Mk3 zu "
+"verbinden."
 
 #: templates/faq.html:785
 #, python-format
