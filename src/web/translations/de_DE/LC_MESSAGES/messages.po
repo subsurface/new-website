@@ -1931,7 +1931,7 @@ msgstr ""
 
 #: templates/home.html:164
 msgid "We switched to rolling releases"
-msgstr ""
+msgstr "Wir sind zu \"rolling releases\" übergegangen"
 
 #: templates/home.html:166
 #, python-format
