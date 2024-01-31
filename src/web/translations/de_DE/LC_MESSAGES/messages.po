@@ -1856,6 +1856,11 @@ msgid ""
 "group the dive list into trips, and edit multiple dives at the same time, "
 "making it easy to support a large number of dives."
 msgstr ""
+"Du kannst Tauchgänge mit Schlagworten versehen und <strong>die "
+"Tauchgangsliste </strong> nach Kriterien wie den Schlagwörtern, Tauchplätzen"
+" oder Tauchpartnerinnen und -partnern. Fasse Tauchgänge zu Reisen zusammen "
+"und bearbeite mehrere Tauchgänge auf einmal. Auf diese Weise lässt sich auch"
+" mit vielen Tauchgängen im Logbuch gut umgehen."
 
 #: templates/home.html:141
 msgid ""
