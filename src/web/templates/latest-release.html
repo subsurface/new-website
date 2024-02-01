@@ -17,6 +17,12 @@
         {{ _("The releases on this page are the latest builds from the Subsurface CICD (Continuous Integration, Continuous Delivery) system. While we don't expect them to be broken very often, they are generally released in order to facilitate testing, and as such may not have received a lot of testing, yet.") }}
       </p>
       <p>
+        {{ _("The latest change-sets merged into this release are:") }}
+      <ul>
+        {{ get_env("pr_summary") }}
+      </ul>
+      </p>
+      <p>
         {{ _("If you are looking for a somewhat less \"bleeding edge\" set of builds, please consider the <a %(link)s>Current Release Page</a>.", link="href=/current-release") }}
       </p>
       <div class="row">

@@ -1,6 +1,7 @@
 import datetime
 import os
 import re
+import requests
 import sys
 from github import Auth, Github
 from threading import Timer
@@ -49,6 +50,17 @@ class AssetDownloader:
 
     def _downloadAssets(self):
         updateReleaseWebsite(self._release_id)
+
+
+def get_pr_title(bn: int):
+    r = requests.get(
+        f"https://github.com/subsurface/nightly-builds/releases/download/v6.0.{bn}-CICD-release/release_content_title.txt"
+    )
+    if r.status_code == 200:
+        print(f"finished build number {bn}, got PR title {r.content.decode()}")
+        return r.content.decode()
+    print(f"no PR title for build number {bn}")
+    return ""
 
 
 def updateReleaseWebsite(release_id):
@@ -102,6 +114,16 @@ def updateReleaseWebsite(release_id):
                     "%Y-%m-%d"
                 )
                 env["lrelease"].value = version
+                # finally assemble the last 5 PR titles
+                current = version.split(".")
+                pr_titles = ""
+                if len(current) == 3:
+                    buildnr = int(current[2])
+                    for bn in range(buildnr, buildnr - 5, -1):
+                        pr_title = get_pr_title(bn)
+                        if pr_title:
+                            pr_titles += "<li>" + pr_title + "</li>"
+                env["pr_summary"].value = pr_titles
         else:
             print(f"Still missing {missing[:-1]} - scheduling myself to check again")
             a = AssetDownloader(release_id, 150)

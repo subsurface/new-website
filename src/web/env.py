@@ -92,4 +92,5 @@ env = {
     "crelease": Env("crelease", default="6.0.5054"),
     "crelease_date": Env("crelease_date", default="2024-01-13"),
     "release_ids": Env("release_ids", default=[]),
+    "pr_summary": Env("pr_summary", default=""),
 }
