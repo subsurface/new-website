@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block page_content %}
-<div class="container">
+<div class="container mb-5">
   <div class="row">
     <div class="col-12">
       <h1 class="ssrf">{{ _("Latest Development (CICD) Release: %(version)s", version=get_env("lrelease")) }}
@@ -91,7 +91,7 @@
         <div class="col-12 mt-3">
           <h3>Linux</h3>
           <p>
-            {{ _("The Subsurface team is providing distribution packages for Ubuntu and Fedora as well as a generic \"AppImage\" that should work on most other x86_64 Linux distributions.") }}
+            {{ _("The Subsurface team is providing distribution packages for Ubuntu and Fedora as well as a Snap and a generic \"AppImage\" that should work on most other x86_64 Linux distributions.") }}
           </p>
           <h4>{{ _("Ubuntu and compatible distros") }}</h4>
           <p>{{ _("To use these binaries in Ubuntu, simply add the Subsurface Daily Release PPA to your system:") }}</p>
@@ -103,6 +103,20 @@
           <p>{{ _("and then install Subsurface with <code>dnf install subsurface</code>") }}</p>
           <h4>{{ _("Other x86_64 Linux distributions") }}</h4>
         </div>
+        <div class="col-md-auto">
+          <h2><a class="face-button" href="https://snapcraft.io/subsurface">
+              <div class="face-primary"><i class="fa fa-solid fa-fw fa-external-link"></i> Snap
+              </div>
+              <div class="face-secondary">
+                {{ _("Snap link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-6">
+          {{ _("The 'edge' Snap-channel contains our latest build.") }}
+        </div>
+        <div class="col-12"></div>
         <div class="col-md-auto">
           <h2><a class="face-button" href="{{ get_env("lappimage")}}">
               <div class="face-primary"><i class="fa-brands fa-solid fa-fw fa-linux"></i> AppImage
