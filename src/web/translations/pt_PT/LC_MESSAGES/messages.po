@@ -6,7 +6,6 @@
 # Translators:
 # Pedro António Neves <nevesdiver@gmail.com>, 2024
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
