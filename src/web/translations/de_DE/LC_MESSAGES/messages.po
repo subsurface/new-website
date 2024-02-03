@@ -446,7 +446,7 @@ msgstr "Snap link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 
 #: templates/current-release.html:114
 msgid "The 'candidate' Snap-channel contains our current build."
-msgstr "Der 'candidate' Snap-Channel enthält unsere aktuelle Version."
+msgstr "Der 'candidate' Snap-Channel bietet unsere aktuelle Version an."
 
 #: templates/current-release.html:128 templates/latest-release.html:131
 #, python-format
