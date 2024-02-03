@@ -88,7 +88,7 @@ class Env:
 
 env = {
     "lrelease": Env("lrelease", default="6.0.5067"),
-    "lrelease_date": Env("lrelase_date", default="2024-01-21"),
+    "lrelease_date": Env("lrelease_date", default="2024-01-21"),
     "crelease": Env("crelease", default="6.0.5054"),
     "crelease_date": Env("crelease_date", default="2024-01-13"),
     "release_ids": Env("release_ids", default=[]),
