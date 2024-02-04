@@ -184,9 +184,9 @@ def user_forum():
     return render_template("user-forum.html", request=request)
 
 
-@app.get("/contributing/")
-def contributing():
-    return render_template("contributing.html", request=request)
+@app.get("/contribute/")
+def contribute():
+    return render_template("contribute.html", request=request)
 
 
 @app.get("/bugtracker/")
