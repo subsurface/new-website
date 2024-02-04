@@ -143,6 +143,7 @@ def user_manual_images(path):
     return send_from_directory(os.path.join(app.root_path, "static/images"), path)
 
 
+@app.route("/subsurface-mobile-v3-user-manual/mobile-images/<path:path>")
 @app.route("/subsurface-mobile-user-manual/mobile-images/<path:path>")
 def mobile_user_manual_images(path):
     return send_from_directory(
@@ -157,6 +158,7 @@ def static_user_manual():
     )
 
 
+@app.route("/subsurface-mobile-v3-user-manual/")
 @app.route("/subsurface-mobile-user-manual/")
 def static_mobile_user_manual():
     return send_from_directory(
