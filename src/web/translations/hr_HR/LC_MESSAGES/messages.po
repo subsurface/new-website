@@ -1,0 +1,2158 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# 
+# Translators:
+# Ivan Karlović, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-04 23:31+0000\n"
+"PO-Revision-Date: 2024-01-21 04:53+0000\n"
+"Last-Translator: Ivan Karlović, 2024\n"
+"Language-Team: Croatian (Croatia) (https://app.transifex.com/subsurface/teams/15508/hr_HR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: templates/base.html:55
+msgid "Home"
+msgstr "Početna"
+
+#: templates/base.html:62
+msgid "Current Release"
+msgstr "Trenutna verzija"
+
+#: templates/base.html:69
+msgid "Latest Dev Release"
+msgstr "Najnovija Dev verzija"
+
+#: templates/base.html:75
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: templates/base.html:82
+msgid "User Forum"
+msgstr "Korisnički Forum"
+
+#: templates/base.html:88
+msgid "Bug Tracker"
+msgstr "Pratitelj bugova"
+
+#: templates/base.html:94
+msgid "FAQ"
+msgstr "FAQ"
+
+#: templates/base.html:101
+msgid "Privacy Policy"
+msgstr "Politika privatnosti"
+
+#: templates/base.html:107 templates/contribute.html:13
+msgid "Contribute"
+msgstr "Doprinos"
+
+#: templates/base.html:114
+msgid "Sponsoring"
+msgstr "Sponzoriranje"
+
+#: templates/bugtracker.html:15
+#, python-format
+msgid ""
+"While we are happy to receive bug reports (and patches!) on our <a "
+"%(mailman)s>mailing list</a>, you can also open issues on our <a "
+"%(githubissue)s>main Subsurface repository on GitHub</a>."
+msgstr ""
+"Iako smo sretni što primamo izvješća o greškama (i zakrpe!) na našoj <a "
+"%(mailman)s>listi za slanje e-pošte</a>, također možete otvoriti probleme na"
+" našem <a %(githubissue)s>glavnom Subsurface repozitoriju na GitHubu</a>."
+
+#: templates/bugtracker.html:18 templates/user-forum.html:21
+msgid ""
+"The preferred language is English, but we’ll make an effort to answer "
+"questions in other languages as well (not everyone is comfortable posting in"
+" English…)"
+msgstr ""
+"Preferirani jezik je Engleski, ali potruditi ćemo se odgovoriti na pitanja u"
+" drugim jezicima (nije svima ugodno pisati na engleskom...)"
+
+#: templates/contribute.html:3
+msgid "Contribute to Subsurface"
+msgstr "Doprinesite Subsurfaceu"
+
+#: templates/contribute.html:15
+msgid ""
+"Subsurface is a community driven open source project. It is available free "
+"of charge to everybody, and nobody gets paid to work on it. If you like it "
+"and would like to contribute back there are a number of different ways you "
+"can do so:"
+msgstr ""
+"Subsurface je open source projekt kojeg pokreće zajednica. Dostupan je "
+"besplatno za sve i nitko nije plaćen za rad na njemu. Ako vam se sviđa i "
+"želite doprinjeti, možete to učiniti na niz različitih načina:"
+
+#: templates/contribute.html:17
+msgid "By Writing Code"
+msgstr "Pisanjem koda"
+
+#: templates/contribute.html:19
+#, python-format
+msgid ""
+"If you are a software developer (of any experience level), your help with "
+"maintaining and extending Subsurface will be greatly appreciated. Have a "
+"look at our <a %(link)s>code contribution page on GitHub</a> to see how you "
+"can get started."
+msgstr ""
+"Ako ste programer (bilo koje razine iskustva), vaša pomoć u održavanju i "
+"proširenju Subsurfacea bit će vrlo cijenjena. Pogledajte <a "
+"%(link)s>stranicu doprinosa kodu na GitHubu</a> da vidite kako možete "
+"započeti."
+
+#: templates/contribute.html:22
+msgid "By Testing"
+msgstr "Testiranjem"
+
+#: templates/contribute.html:24
+#, python-format
+msgid ""
+"If you would like to work closely with our developers and give them a hand "
+"in testing the latest features and bugfixes, please head over to our code "
+"contribution page on GitHub to find out <a %(link)s>how to join the "
+"community</a>. We especially need people running Windows and Mac (as the "
+"majority of the active developers are Linux people)."
+msgstr ""
+"Ako želite blisko surađivati ​​s našim programerima i pomoći im u testiranju"
+" najnovijih značajki i ispravki bugova, prijeđite na stranicu za doprinos "
+"kodu na GitHubu kako biste saznali <a %(link)s>kako se pridružiti "
+"zajednici</a>. Posebno su nam potrebni ljudi koji koriste Windows i Mac "
+"(budući da su većina aktivnih programera Linux ljudi)."
+
+#: templates/contribute.html:27
+msgid "By Writing Documentation"
+msgstr "Pisanjem dokumentacija"
+
+#: templates/contribute.html:29
+#, python-format
+msgid ""
+"If you are good with words you can help us by writing, reviewing, and "
+"improving documentation and articles for our website. To get started please "
+"head over to our code contribution page on GitHub to find out <a "
+"%(link)s>how to join the community</a>."
+msgstr ""
+"Ako ste dobri s riječima, možete nam pomoći pisanjem, pregledom i "
+"poboljšanjem dokumentacije i članaka za našu web stranicu. Za početak idite "
+"na stranicu za doprinos kodu na GitHubu da biste saznali <a %(link)s>kako se"
+" pridružiti zajednici</a>."
+
+#: templates/contribute.html:32
+msgid "By Improving the User Experience"
+msgstr "Unaprijeđenjem korisničkog iskustva"
+
+#: templates/contribute.html:34
+#, python-format
+msgid ""
+"If you like to obsess over usability and user experience, and ideally have "
+"some experience in UX and / or web design, we can always use help with "
+"improving the user experience and visual design of Subsurface and of our "
+"website. To get started please head over to our code contribution page on "
+"GitHub to find out <a %(link)s>how to join the community</a>."
+msgstr ""
+"Ako ste opsjednuti upotrebljivošću i korisničkim iskustvom, a idealno imate "
+"neko iskustvo u UX-u i/ili web dizajnu, uvijek nam može dobro doći pomoć u "
+"poboljšanju korisničkog iskustva i vizualnog dizajna Subsurfacea i naše web "
+"stranice. Za početak idite na stranicu za doprinos kodu na GitHubu da biste "
+"saznali <a %(link)s>kako se pridružiti zajednici</a>."
+
+#: templates/contribute.html:37
+msgid "By Translating Subsurface"
+msgstr "Prevođenjem Subsurface-a"
+
+#: templates/contribute.html:39
+#, python-format
+msgid ""
+"If you are a non-English-speaker, and would like to be able to use "
+"Subsurface in your native language, you can help make this happen by "
+"supporting us as a translator. As our translations are centrally handled at "
+"<a %(transifex)s>Transifex</a> - please sign up for an account there and "
+"then request to join the <a %(transifex_subsurface)s>Subsurface Team</a>."
+msgstr ""
+"Ako govorite drugim jezikom osim engleskog, a željeli biste koristiti "
+"Subsurface na svom materinjem jeziku, možete pomoći da se to dogodi tako što"
+" ćete nas podržati kao prevoditelj. Budući da se našim prijevodima upravlja "
+"centralno u <a %(transifex)s>Transifexu</a> - prijavite se za račun i "
+"zatražite pridruživanje <a%(transifex_subsurface)s>Subsurface timu</a>."
+
+#: templates/contribute.html:43
+msgid "By Helping Other Users"
+msgstr "Pomaganjem drugim korisnicima"
+
+#: templates/contribute.html:45
+#, python-format
+msgid ""
+"We want to make Subsurface as friendly and welcoming to new users as "
+"possible. If you are a seasoned user of Subsurface please join our <a "
+"%(link)s>User Forum</a> and provide helpful responses to the questions from "
+"new users."
+msgstr ""
+"Želimo učiniti Subsurface što je moguće susretljivijim novim korisnicima. "
+"Ako ste iskusni korisnik Subsurfacea, pridružite se našem <a "
+"%(link)s>korisničkom forumu</a> i pružite odgovore na pitanja novih "
+"korisnika."
+
+#: templates/contribute.html:48
+msgid "By Supporting Us Financially"
+msgstr "Financijskom potporom"
+
+#: templates/contribute.html:50 templates/sponsoring.html:15
+#, python-format
+msgid ""
+"Running the Subsurface project costs money. This is particularly the case "
+"for the free cloud based synchronisation of dive logs that is built into "
+"Subsurface. The principal maintainer of Subsurface and of our infrastructure"
+" appreciates donations to help cover these expenses. If you would like to "
+"help with this you can do so through <a %(link)s>Dirk's Ko-fi page</a> or "
+"the <a %(ghsponsor)s>Dirk's GitHub Sponsor page</a>."
+msgstr ""
+"Vođenje Subsurfacea košta. To je osobito slučaj za besplatnu cloud "
+"sinkronizaciju zarona koja je ugrađena u Subsurface. Glavni održavatelj "
+"Subsurfacea i naše infrastrukture cijeni donacije koje će pomoći u "
+"pokrivanju ovih troškova. Ako želite pomoći u ovome, možete to učiniti putem"
+" <a%(link)s>Dirk's Ko-fi stranice</a> ili <a%(ghsponsor)s>Dirk's GitHub "
+"Sponsor stranice</a>."
+
+#: templates/credits.html:15
+#, python-format
+msgid ""
+"Subsurface is itself open source software released under the <a "
+"%(license)s>GPLv2</a> -- and it is based on many other open source "
+"components."
+msgstr ""
+"Subsurface je sam po sebi open source softver objavljen pod <a "
+"%(license)s>GPLv2</a> -- i temelji se na mnogim drugim open source "
+"komponentama."
+
+#: templates/credits.html:18 templates/credits.html:20
+#: templates/credits.html:22 templates/credits.html:24
+#: templates/credits.html:26 templates/credits.html:28
+#: templates/credits.html:30 templates/credits.html:32
+#: templates/credits.html:34 templates/credits.html:36
+#: templates/credits.html:38 templates/credits.html:40
+#: templates/credits.html:42 templates/credits.html:49
+#: templates/credits.html:51
+msgid "Homepage"
+msgstr "Početna stranica"
+
+#: templates/credits.html:19 templates/credits.html:21
+#: templates/credits.html:23 templates/credits.html:25
+#: templates/credits.html:27 templates/credits.html:29
+#: templates/credits.html:31 templates/credits.html:33
+#: templates/credits.html:35 templates/credits.html:37
+#: templates/credits.html:39 templates/credits.html:41
+#: templates/credits.html:43 templates/credits.html:50
+#: templates/credits.html:52
+msgid "License"
+msgstr "Licenca"
+
+#: templates/credits.html:46
+msgid "Subsurface-mobile additionally uses"
+msgstr "Subsurface-mobile dodatno koristi"
+
+#: templates/credits.html:54
+#, python-format
+msgid "The Windows binaries are built using <a %(mxe)s>MXE</a>."
+msgstr "Windows binarne datoteke izgrađene su pomoću <a %(mxe)s>MXE</a>."
+
+#: templates/credits.html:56
+#, python-format
+msgid ""
+"The Mac binaries are built using the Apple toolchain and <a "
+"%(brew)s>Homebrew</a>."
+msgstr ""
+"Binarne datoteke za Mac izgrađene su korištenjem Appleovog toolchaina i <a "
+"%(brew)s>Homebrewa</a>."
+
+#: templates/credits.html:59
+msgid ""
+"If you are aware of open source components that we are using but not listing"
+" here, please let us know so we can add them!"
+msgstr ""
+"Ako ste svjesni open source komponenti koje koristimo, ali ih ovdje ne "
+"navodimo, javite nam kako bismo ih mogli dodati!"
+
+#: templates/current-release.html:13
+#, python-format
+msgid "Current \"Weekly\" Release: %(version)s"
+msgstr "Trenutna \"Tjedna\" Verzija: %(version)s"
+
+#: templates/current-release.html:17
+msgid ""
+"The releases on this page are what we consider the current release builds of"
+" Subsurface."
+msgstr ""
+"Verzije na ovoj stranici su ono što smatramo trenutnim verzijama "
+"Subsurfacea."
+
+#: templates/current-release.html:20
+msgid ""
+"We expect these builds to be reasonably stable and somewhat tested, and as "
+"the name suggests try to update them about once a week (the actual frequency"
+" may vary)."
+msgstr ""
+"Očekujemo da će ove verzije biti relativno stabilne i donekle testirane, a "
+"kao što ime sugerira pokušajte ih ažurirati otprilike jednom tjedno (stvarna"
+" učestalost može varirati)."
+
+#: templates/current-release.html:23
+#, python-format
+msgid ""
+"If you are looking for more \"bleeding edge\" releases builds, please check "
+"out the <a %(link)s>Latest Release Page</a>."
+msgstr ""
+"Ako ste u potrazi za više \"bleeding edge\" verzija, pogledajte <a "
+"%(link)s>stranicu s najnovijim izdanjima</a>."
+
+#: templates/current-release.html:32 templates/current-release.html:46
+#: templates/current-release.html:60 templates/current-release.html:122
+#: templates/latest-release.html:35 templates/latest-release.html:49
+#: templates/latest-release.html:63 templates/latest-release.html:125
+msgid "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr "Preuzmite...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+
+#: templates/current-release.html:38 templates/latest-release.html:41
+msgid ""
+"This Subsurface Windows installer is not signed and Windows will likely ask "
+"you to confirm that you want to install this program."
+msgstr ""
+"Ovaj Subsurface Windows instalacijski program nije potpisan i Windows će vas"
+" vjerojatno tražiti da potvrdite da želite instalirati ovaj program."
+
+#: templates/current-release.html:52
+#, python-format
+msgid ""
+"We try to post a signed Subsurface macOS DMG here. If your Mac doesn't want "
+"to install this image, please let us know in the <a %(link)s>User Forum</a>."
+msgstr ""
+"Ovdje pokušavamo objaviti potpisani Subsurface macOS DMG. Ako ga vaš Mac ne "
+"želi instalirati, javite nam na <a %(link)s>korisnički forum</a>."
+
+#: templates/current-release.html:67 templates/latest-release.html:70
+msgid ""
+"The Subsurface Android APK can be side-loaded on most Android devices. If "
+"you previously had installed Subsurface-mobile from the Google Play store, "
+"the first time you switch to a side-loaded app, you'll have to uninstall the"
+" Play store version. Make sure your data is synced to the Subsurface Cloud. "
+"After you install this APK and log in to the Subsurface Cloud again, the "
+"data will be restored. Every subsequent update will not require an "
+"uninstall."
+msgstr ""
+"Subsurface Android APK može se side-loadati na većini Android uređaja. Ako "
+"ste prethodno instalirali Subsurface-mobile iz trgovine Google Play, prvi "
+"put kada prijeđete na side-loadanu aplikaciju, morat ćete deinstalirati "
+"verziju trgovine Play. Pobrinite se da su vaši podaci sinkronizirani s "
+"Subsurface Cloudom. Nakon što instalirate ovaj APK i ponovno se prijavite u "
+"Subsurface Cloud, podaci će se vratiti. Svako sljedeće ažuriranje neće "
+"zahtijevati deinstalaciju."
+
+#: templates/current-release.html:70 templates/latest-release.html:73
+#, python-format
+msgid ""
+"A brief explanation of the concept of side-loading can be found in <a "
+"%(explanation)s>this androidcentral article</a>."
+msgstr ""
+"Kratko objašnjenje koncepta side-loadanja može se pronaći u "
+"<a%(explanation)s>ovom androidcentral članku</a>."
+
+#: templates/current-release.html:79 templates/latest-release.html:82
+msgid "AppStore Link&nbsp;&nbsp;"
+msgstr "Link na AppStore&nbsp;&nbsp;"
+
+#: templates/current-release.html:85
+msgid ""
+"iOS is the only platform right now where in general side-loading or "
+"installing unsigned binaries is impossible (apparently that may change for "
+"users in the EU, but not elsewhere). As a result we cannot make new versions"
+" of Subsurface-mobile for iOS available here, but the goal is to update the "
+"AppStore version to the \"weekly\" versions reasonably frequently as well."
+msgstr ""
+"iOS je trenutačno jedina platforma na kojoj je općenito side-loadanje ili "
+"instaliranje nepotpisanih binarnih datoteka nemoguće (navodno bi se to moglo"
+" promijeniti za korisnike u EU, ali ne i drugdje). Kao rezultat toga, ne "
+"možemo učiniti nove verzije Subsurface-mobile za iOS dostupnima ovdje, ali "
+"cilj je također razumno često ažurirati verziju AppStorea na \"tjedne\" "
+"verzije."
+
+#: templates/current-release.html:91 templates/latest-release.html:94
+msgid ""
+"The Subsurface team is providing distribution packages for Ubuntu and Fedora"
+" as well as a Snap and a generic \"AppImage\" that should work on most other"
+" x86_64 Linux distributions."
+msgstr ""
+"Subsurface tim osigurava distribucijske pakete za Ubuntu i Fedoru, kao i "
+"Snap i generičku \"AppImage\" koja bi trebala raditi na većini drugih x86_64"
+" Linux distribucija."
+
+#: templates/current-release.html:93 templates/latest-release.html:96
+msgid "Ubuntu and compatible distros"
+msgstr "Ubuntu i kompatibilne distribucije"
+
+#: templates/current-release.html:94 templates/latest-release.html:97
+msgid ""
+"To use these binaries in Ubuntu, simply add the Subsurface Daily Release PPA"
+" to your system:"
+msgstr ""
+"Za korištenje ovih binarnih datoteka u Ubuntuu jednostavno dodajte "
+"Subsurface Daily Release PPA u svoj sustav:"
+
+#: templates/current-release.html:96 templates/latest-release.html:99
+msgid ""
+"and then install Subsurface with <code>sudo apt install subsurface </code>"
+msgstr ""
+"i onda instalirajte Subsurface sa <code>sudo apt install subsurface </code>"
+
+#: templates/current-release.html:98 templates/latest-release.html:101
+msgid "To install the Subsurface CICD binaries on Fedora simply run"
+msgstr ""
+"Za instalaciju Subsurface CICD binarnih datoteka na Fedoru jednostavno "
+"pokrenite"
+
+#: templates/current-release.html:100 templates/latest-release.html:103
+msgid "and then install Subsurface with <code>dnf install subsurface</code>"
+msgstr ""
+"i onda instalirajte Subsurface sa <code>dnf install subsurface</code> "
+
+#: templates/current-release.html:101 templates/latest-release.html:104
+msgid "Other x86_64 Linux distributions"
+msgstr "Druge x86_64 Linux distribucije"
+
+#: templates/current-release.html:108 templates/latest-release.html:111
+msgid "Snap link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr "Link na Snap&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+
+#: templates/current-release.html:114
+msgid "The 'candidate' Snap-channel contains our current build."
+msgstr "Snap-kanal 'candidate' sadrži našu trenutnu verziju."
+
+#: templates/current-release.html:128 templates/latest-release.html:131
+#, python-format
+msgid ""
+"A generic AppImage is available. After you download this file, make it "
+"executable <code>chmod +x Subsurface-v%(version)s-CICD-"
+"release.AppImage</code>, and then simply run this file."
+msgstr ""
+"Dostupan je generički AppImage. Nakon što preuzmete ovu datoteku, učinite je"
+" izvršnom <code>chmod +x Subsurface-v%(version)s-CICD-"
+"release.AppImage</code>, a zatim je jednostavno pokrenite."
+
+#: templates/data-deletion.html:15
+#, python-format
+msgid ""
+"Your cloud data can be deleted from within the mobile app or you can request"
+" that your data, or your data and account are deleted by simply sending an "
+"email to the Subsurface team at <a %(link)s>in-app-support@subsurface-"
+"divelog</a>."
+msgstr ""
+"Vaši podaci u oblaku mogu se izbrisati unutar mobilne aplikacije ili možete "
+"zatražiti da se vaši podaci, ili vaši podaci i račun izbrišu jednostavnim "
+"slanjem e-pošte Subsurface timu na <a %(link)s>in-app-support@subsurface-"
+"divelog</a>."
+
+#: templates/documentation.html:15
+msgid ""
+"This page provides an overview of most of the user-facing documentation for "
+"Subsurface"
+msgstr "Ova stranica pruža većinu korisničke dokumentacija za Subsruface"
+
+#: templates/documentation.html:17
+#, python-format
+msgid "<a %(faq)s>FAQ</a>"
+msgstr "<a %(faq)s>FAQ</a>"
+
+#: templates/documentation.html:18
+#, python-format
+msgid "<a %(supporteddc)s>Supported Dive Computers</a>"
+msgstr "<a%(supporteddc)s>Podržanja ronilačka računala</a>"
+
+#: templates/documentation.html:20
+#, python-format
+msgid "<a %(video)s>(fairly old) Video Tutorial</a>"
+msgstr "<a %(video)s>(prilično star) Video vodič</a>"
+
+#: templates/documentation.html:22
+#, python-format
+msgid "<a %(manual)s>Subsurface User Manual</a>"
+msgstr "<a%(manual)s>Subsurface korisnički priručnik</a>"
+
+#: templates/documentation.html:24
+#, python-format
+msgid "<a %(mobilemanual)s>Subsurface-mobile User Manual</a>"
+msgstr "<a%(mobilemanual)s>Subsurface-mobile Korisnički Priručnik</a>"
+
+#: templates/documentation.html:27
+#, python-format
+msgid "<a %(datadeletion)s>Deleting Cloud Data and Account</a>"
+msgstr "<a %(datadeletion)s>Brisanje podataka iz oblaka i računa</a>"
+
+#: templates/documentation.html:30
+#, python-format
+msgid "<a %(credits)s>Credits</a>"
+msgstr "<a %(credits)s>Zasluge</a>"
+
+#: templates/documentation.html:33
+#, python-format
+msgid "<a %(thanks)s>Thanks</a>"
+msgstr "<a%(thanks)s>Zahvale</a>"
+
+#: templates/faq.html:15
+msgid ""
+"This page attempts to provide answers to some of the most common questions "
+"we keep receiving."
+msgstr ""
+"Ova stranica pokušava pružiti odgovore na neka od najčešćih pitanja koja "
+"neprestano primamo."
+
+#: templates/faq.html:18
+msgid "General"
+msgstr "Generalno"
+
+#: templates/faq.html:23
+msgid "Why Should I Use Subsurface?"
+msgstr "Zašto bih koristio Subsurface?"
+
+#: templates/faq.html:28
+msgid ""
+"Subsurface provides recreational scuba divers, tech divers, and diving "
+"professionals with an easy to use interface for planning and logging and "
+"organizing dives. Dives can be entered manually, via spreadsheets, directly "
+"from some other dive logging software, and most importantly from many dive "
+"computers. What if you change dive computers? This is no problem with "
+"Subsurface as it is not tied to a specific dive computer manufacturer. Tech "
+"divers will appreciate the dive planner which allows you to plan using VPM-B"
+" or Bühlmann ZH-L16. Testing bailout gases, comparing different gas mixes "
+"and gradient factors, and finally printing the plan is made easy. Subsurface"
+" is free and available on multiple platforms making it the perfect software "
+"for a wide range of scuba divers."
+msgstr ""
+"Subsurface rekreativnim roniocima, tehničkim roniocima i ronilačkim "
+"profesionalcima pruža jednostavno sučelje za planiranje, bilježenje te "
+"organiziranje ronjenja. Zaroni se mogu unositi ručno, putem tablica, izravno"
+" iz nekog drugog softvera za bilježenje ronjenja, i što je najvažnije s "
+"mnogih ronilačkih računala. Što ako promijenite ronilačka računala? To nije "
+"problem sa Subsurface jer nije vezan uz određenog proizvođača ronilačkog "
+"računala. Tehnički ronioci će cijeniti planer ronjenja koji vam omogućuje "
+"planiranje pomoću VPM-B ili Bühlmann ZH-L16. Ispitivanje bailout plinova, "
+"usporedba različitih mješavina plinova i faktora gradijenta te konačno "
+"ispisivanje plana je jednostavno. Subsurface je besplatan i dostupan na više"
+" platformi što ga čini savršenim softverom za širok raspon ronilaca. "
+
+#: templates/faq.html:36
+msgid "What operating systems does Subsurface support?"
+msgstr "Koje operativne sustave Subsurface podržava?"
+
+#: templates/faq.html:43
+msgid ""
+"Subsurface runs on Windows 10 and newer, MacOS 10.15 and newer, and many "
+"flavors of Linux. Mobile versions of Subsurface are available for Android "
+"and iOS allow a portable platform for viewing your dive log and performing "
+"minor edits; depending on your OS/hardware comby, you may even be able to "
+"download dive data directly from your dive computer using Subsurface-mobile."
+msgstr ""
+"Subsurface radi na Windows 10 i novijim, MacOS 10.15 i novijim te mnogim "
+"verzijama Linuxa. Mobilne verzije Subsurfacea dostupne su za Android i iOS "
+"te omogućuju prijenosnu platformu za pregled vašeg dnevnika ronjenja i "
+"izvođenje manjih izmjena; ovisno o vašem operativnom sustavu/hardveru, možda"
+" ćete čak moći preuzeti podatke o ronjenju izravno sa svog ronilačkog "
+"računala koristeći Subsurface-mobile."
+
+#: templates/faq.html:46
+#, python-format
+msgid ""
+"We provide Linux packages for some Linux distributions (currently Ubuntu and"
+" Fedora, Debian is supported by a community contributor). Additionally, a "
+"Snap package and a generic AppImage are available for other distributions of"
+" Linux. Details on where to find Subsurface for your OS are on our <a "
+"%(crelease)s>current release</a> page."
+msgstr ""
+"Nudimo Linux pakete za neke distribucije Linuxa (trenutno Ubuntu i Fedora, "
+"Debian podržava suradnik). Dodatno, paket Snap i generički AppImage dostupni"
+" su za druge distribucije Linuxa. Pojedinosti o tome gdje pronaći Subsurface"
+" za vaš OS nalaze se na našoj stranici <a %(crelease)s>trenutne verzije</a>."
+
+#: templates/faq.html:49
+#, python-format
+msgid ""
+"Subsurface-mobile for iOS is available in the iOS App Store. Subsurface-"
+"mobile for Android is available as sideloaded APK at our <a "
+"%(crelease)s>current release</a> page."
+msgstr ""
+"Subsurface-mobile za iOS dostupan je u iOS App Storeu. Subsurface-mobile za "
+"Android dostupan je kao side-loadani APK na našoj stranici <a%(crelease)s> "
+"trenutne verzije."
+
+#: templates/faq.html:58
+msgid "How much does Subsurface cost?"
+msgstr "Koliko Subsurface košta?"
+
+#: templates/faq.html:64
+msgid ""
+"Subsurface is open source software. It's free to use. It's written by a "
+"group of enthusiasts who do this in their spare time - including providing "
+"the Subsurface Cloud storage and all the other infrastructure. Please "
+"understand that this also means that they will respond to your requests when"
+" they have time, and they generally don't appreciate being treated like the "
+"support team of a commercial vendor. If you'd like a commercial dive log "
+"program, there are plenty others to choose from."
+msgstr ""
+"Subsurface je open source softver. Besplatan je za korištenje. Napisala ga "
+"je skupina entuzijasta koji to rade u svoje slobodno vrijeme - uključujući "
+"pružanje Subsurface Cloud pohrane i sve ostale infrastrukture. Imajte na umu"
+" da to također znači da će odgovoriti na vaše zahtjeve kada budu imali "
+"vremena i općenito ne cijene da ih se tretira kao tim za podršku "
+"komercijalnog programa. Ako želite komercijalni program dnevnika ronjenja, "
+"postoji mnogo drugih na izbori."
+
+#: templates/faq.html:67
+#, python-format
+msgid ""
+"If you would like to contribute and help, there are many ways to do so. Our "
+"'<a %(contribute)s>Contribute</a>' page lists a few options and provides "
+"information on how to get started."
+msgstr ""
+"Ako želite doprinijeti i pomoći, postoji mnogo načina da to učinite. Naša "
+"stranica '<a  %(contribute)s>Doprinos</a>' navodi nekoliko opcija i pruža "
+"informacije o tome kako započeti."
+
+#: templates/faq.html:76
+msgid "Please add the following awesome feature"
+msgstr "Dodajte sljedeću izvrsnu opciju"
+
+#: templates/faq.html:82
+msgid ""
+"As mentioned in the previous question, Subsurface is written and maintained "
+"by volunteers. It also has several ten thousand users. The current feature "
+"set aims to find a reasonable balance between a user experience that is easy"
+" to understand, and addressing the most commonly requested features. New "
+"features often get rejected if none of the existing developers feel strongly"
+" that they would make a significant difference to the majority of our users."
+msgstr ""
+"Kao što je spomenuto u prethodnom pitanju, Subsurface pišu i održavaju "
+"volonteri. Ima i nekoliko desetaka tisuća korisnika. Trenutačni skup opcija "
+"ima za cilj pronaći razumnu ravnotežu između korisničkog iskustva koje je "
+"lako razumjeti i rješavanja najčešće traženih opcija. Nove opcije često "
+"bivaju odbijene ako nitko od postojećih programera ne smatra da bi mogle "
+"značajno utjecati na većinu naših korisnika."
+
+#: templates/faq.html:85
+#, python-format
+msgid ""
+"You are of course invited and encouraged to provide an implementation for "
+"your desired new feature. Please take a look at our <a "
+"%(code_contribution)s>code contribution page on GitHub</a>."
+msgstr ""
+"Naravno, pozvani ste i ohrabreni da osigurate implementaciju željene nove "
+"opcije. Molimo pogledajte našu <a %(code_contribution)s>stranicu doprinosa "
+"kodu na GitHubu</a>."
+
+#: templates/faq.html:94
+msgid "The gas consumption / SAC rate reported by Subsurface is wrong"
+msgstr " Potrošnja plina / SAC rate koju je prijavio Subsurface je pogrešan"
+
+#: templates/faq.html:100
+#, python-format
+msgid ""
+"Most likely you are expecting the gas consumption calculation to follow the "
+"naive ideal gas laws. Unfortunately, real gases aren't ideal gases. And "
+"Subsurface <a %(sac)s>takes the compressibility of gases into account</a>."
+msgstr ""
+"Najvjerojatnije očekujete da će izračun potrošnje plina slijediti naivne "
+"zakone idealnog plina. Nažalost, stvarni plinovi nisu idealni plinovi. A "
+"Subsurface <a%(sac)s>uzima u obzir kompresibilnost plinova</a>."
+
+#: templates/faq.html:105
+msgid "OS Support"
+msgstr "Podrška za OS"
+
+#: templates/faq.html:111
+msgid "How do I install Subsurface on Windows?"
+msgstr "Kako mogu instalirati Subsurface na Windows?"
+
+#: templates/faq.html:117
+#, python-format
+msgid ""
+"Download the installer from our <a %(crelease)s>current release</a> page and"
+" double-click on it. You will get a warning that the installer is from an "
+"unknown publisher (but should identify that publisher as Dirk Hohndel / DH "
+"Consulting). Please click Yes to allow installation. Next you are presented "
+"with the license for Subsurface, after that you can choose where you would "
+"like to install Subsurface (the default should be reasonable in most cases) "
+"and the Start Menu Folder where a shortcut to call Subsurface and an entry "
+"to uninstall Subsurface will be installed."
+msgstr ""
+"Preuzmite program za instalaciju s naše <a %(crelease)s>stranice trenutne "
+"verzije</a> i dvaput kliknite na njega. Dobit ćete upozorenje da je program "
+"za instalaciju od nepoznatog izdavača (ali trebali biste identificirati tog "
+"izdavača kao Dirk Hohndel / DH Consulting). Kliknite Yes kako biste "
+"dopustili instalaciju. Zatim vam se prikazuje licenca za Subsurface, nakon "
+"toga možete odabrati gdje želite instalirati Subsurface (zadano bi trebalo "
+"biti razumno u većini slučajeva) i mapu izbornika Start gdje će se nalaziti "
+"prečac za Subsurfacea i unos za deinstalaciju Subsurfacea."
+
+#: templates/faq.html:120
+msgid ""
+"For technical reasons, some of the Windows binaries you can download from "
+"our website aren't signed at all, in which case Windows provides more and "
+"stronger warnings when trying to use them. As long as you download the "
+"binaries from this website they are safe and do not contain any malware."
+msgstr ""
+"Iz tehničkih razloga, neke od Windows binarnih datoteka koje možete preuzeti"
+" s naše stranice uopće nisu potpisane, u kojem slučaju Windows daje više i "
+"snažnija upozorenja kada ih pokušate koristiti. Sve dok preuzimate binarne "
+"datoteke s ove web stranice, one su spremljene i ne sadrže zlonamjerni "
+"softver."
+
+#: templates/faq.html:129 templates/faq.html:302
+msgid "Supported versions"
+msgstr "Podržane verzije"
+
+#: templates/faq.html:136
+msgid ""
+"Subsurface runs on Windows 10 and newer. It should still run on Windows 8 "
+"(but then, why would you want to run that). Older versions aren't supported "
+"anymore."
+msgstr ""
+"Subsurface radi na Windows 10 i novijim. I dalje bi trebao raditi na Windows"
+" 8 (ali zašto biste to htjeli pokrenuti). Starije verzije više nisu "
+"podržane."
+
+#: templates/faq.html:145
+msgid "Where do I find the log files on Windows?"
+msgstr "Gdje mogu pronaći logove na Windowsu?"
+
+#: templates/faq.html:151
+msgid ""
+"The logs are in <code>C:\\Users\\Home\\AppData\\Roaming\\Subsurface</code> "
+"in the two files <code>subsurface_out.log</code> and "
+"<code>subsurface_err.log</code>"
+msgstr ""
+"Logovi se nalaze u "
+"<code>C:\\Users\\Home\\AppData\\Roaming\\Subsurface</code> u dvije datoteke "
+"<code>subsurface_out.log</code> i <code>subsurface_err.log</code>"
+
+#: templates/faq.html:160
+msgid "Which drivers do I need for my dive computer"
+msgstr "Koji upravljačke datoteke su potrebne za moje ronilačko računalo"
+
+#: templates/faq.html:167
+msgid ""
+"Great question - typically those are specific to the combination of dive "
+"computer and download cable that you use. And it's really hard to give "
+"universally correct answers."
+msgstr ""
+"Sjajno pitanje - obično su specifična za kombinaciju ronilačkog računala i "
+"kabela za preuzimanje koji koristite. I zaista je teško dati univerzalno "
+"točne odgovore."
+
+#: templates/faq.html:170
+#, python-format
+msgid ""
+"Installing the vendor provided dive log software often is enough to trigger "
+"an install of those drivers, but sometimes things are a bit more "
+"complicated. Searching the <a %(forum)s>User Forum</a> often helps."
+msgstr ""
+"Instalacija službenog softvera za dnevnik ronjenja za vaše ronilačko "
+"računalo često je dovoljna da pokrene instalaciju tih upravljačkih programa,"
+" ali ponekad su stvari malo kompliciranije. Pretraživanje <a "
+"%(forum)s>korisničkog foruma</a> često pomaže. "
+
+#: templates/faq.html:179
+msgid "Is there a virus in the Subsurface installer?"
+msgstr "Postoji li virus u Subsurface instalacijskom programu?"
+
+#: templates/faq.html:186
+msgid ""
+"If you get a warning message or if Subsurface is blocked by your anti virus "
+"(AV) software, that is almost certainly a false positive. Subsurface is not "
+"built on a Windows machine, it is cross built from source on Linux on a well"
+" maintained and clean server image."
+msgstr ""
+"Ako dobijete poruku upozorenja ili ako vaš protuvirusni (AV) softver blokira"
+" Subsurface, to je gotovo sigurno lažno pozitivno. Subsurface nije izgrađen "
+"na Windows stroju, već je izgrađen iz izvora na Linuxu na dobro održavanoj i"
+" čistoj serverskoj slici."
+
+#: templates/faq.html:189
+msgid ""
+"Most/all Windows Anti-Virus software packages support an “add exception” "
+"feature, which skips an executable from being scanned. Try adding Subsurface"
+" to the list of non-harmful software. If the Subsurface installer download "
+"is detected as malware, please temporary disable your AV software until "
+"Subsurface is installed"
+msgstr ""
+"Većina/svi antivirusni softverski paketi sustava Windows podržavaju značajku"
+" \"dodaj iznimku\", koja preskače skeniranje izvršne datoteke. Pokušajte "
+"dodati Subsurface na popis neškodljivog softvera. Ako se preuzimanje "
+"programa za instalaciju Subsurface otkrije kao zlonamjerni softver, "
+"privremeno onemogućite svoj AV softver dok se Subsurface ne instalira"
+
+#: templates/faq.html:192
+msgid ""
+"In either case, please inform your AV software vendor of a “false positive” "
+"as we assure your that Subsurface is not malware."
+msgstr ""
+"U svakom slučaju, molimo vas da obavijestite svog dobavljača AV softvera o "
+"\"lažno pozitivnom\" jer vas uvjeravamo da Subsurface nije zlonamjerni "
+"softver."
+
+#: templates/faq.html:201
+msgid "Subsurface suddenly stops accessing the cloud"
+msgstr "Subsurface iznenada prestaje pristupati oblaku"
+
+#: templates/faq.html:208
+msgid ""
+"This can have many reasons, but a really odd one we have found is that some "
+"anti-malware products on Windows seemingly randomly decide that the traffic "
+"between Subsurface and the cloud server is an indication of malware activity"
+" and interrupt the transmissions. This can lead to cloud storage corruption "
+"and prevents things from working. You may have to add an exception for "
+"Subsurface to your hyper-aggressive anti-malware tool."
+msgstr ""
+"To može imati mnogo razloga, ali stvarno čudan koji smo otkrili jest taj da "
+"neki proizvodi protiv zlonamjernog softvera u sustavu Windows naizgled "
+"nasumično odlučuju da je promet između Subsurfacea i servera u oblaku "
+"pokazatelj aktivnosti zlonamjernog softvera i prekidaju prijenose. To može "
+"dovesti do oštećenja pohrane u oblaku i spriječiti rad stvari. Možda ćete "
+"morati dodati iznimku za Subsurface u svoj hiper-agresivni anti-malware "
+"alat."
+
+#: templates/faq.html:218
+msgid "How do I install Subsurface on macOS?"
+msgstr "Kako mogu instalirati Subsurface na macOS?"
+
+#: templates/faq.html:225
+#, python-format
+msgid ""
+"Download the installer DMG from our <a %(crelease)s>current release</a> page"
+" and open it. Drag the Subsurface icon on to the Applications folder icon."
+msgstr ""
+"Preuzmite instalacijski DMG s naše <a %(crelease)s>stranice trenutne "
+"verzije</a> i otvorite ga. Povucite ikonu Subsurface na ikonu mape "
+"Applications."
+
+#: templates/faq.html:228
+msgid ""
+"When opening the Subsurface app for the first time, you will get a warning "
+"that this binary was downloaded from the internet. Depending on your "
+"settings and on whether or not this is a signed DMG, macOS will allow you to"
+" simply click Ok to open the app."
+msgstr ""
+"Kada prvi put otvorite aplikaciju Subsurface, dobit ćete upozorenje da je "
+"ova binarna datoteka preuzeta s interneta. Ovisno o vašim postavkama i o "
+"tome radi li se o potpisanom DMG-u ili ne, macOS će vam omogućiti da "
+"jednostavno kliknete Ok za otvaranje aplikacije."
+
+#: templates/faq.html:231
+msgid ""
+"For technical reasons, some of the macOS DMGs you can download from our "
+"website aren't signed at all, in which case macOS will force you to go "
+"through the System Preferences / Security in order to allow you to start "
+"Subsurface. As long as you download the DMG from this website it is safe and"
+" does not contain any malware."
+msgstr ""
+"Iz tehničkih razloga, neki od macOS DMG-ova koje možete preuzeti s naše web "
+"stranice uopće nisu potpisani, u kojem će vas slučaju macOS prisiliti da "
+"prođete kroz System Preferences / Security kako bi vam omogućio pokretanje "
+"Subsurfacea. Sve dok preuzimate DMG s ove web stranice, on je siguran i ne "
+"sadrži zlonamjerni softver."
+
+#: templates/faq.html:240
+msgid "Supported Versions"
+msgstr "Podržane verzije"
+
+#: templates/faq.html:247
+msgid ""
+"Subsurface runs on both Apple Silicon (M1/M2/M3 CPUs) and Intel Macs running"
+" macOS 10.15 and newer. On Apple Silicon Macs Subsurface currently runs in "
+"x86_64 emulation mode via Rosetta 2. Work on fat binaries with native "
+"support for both x86_64 and Apple Silicon CPUs has been started but for "
+"technical reasons currently doesn't create binaries with a great user "
+"experience."
+msgstr ""
+"Subsurface radi na Apple Silicon (M1/M2/M3 CPU) i Intel Mac računalima s "
+"macOS 10.15 i novijim. Na Apple Silicon Mac računalima Subsurface trenutačno"
+" radi u x86_64 emulation mode via Rosetta 2. Započet je rad na binarnim "
+"datotekama s nativnom podrškom za procesore x86_64 i Apple Silicon, ali iz "
+"tehničkih razloga trenutačno ne stvara binarne datoteke s dobrim korisničkim"
+" iskustvom."
+
+#: templates/faq.html:256
+msgid "Can you make binaries available for older macOS versions?"
+msgstr ""
+"Možete li binarne datoteke učiniti dostupnima za starije verzije macOS-a?"
+
+#: templates/faq.html:262
+msgid ""
+"Apple stopped supporting macOS 11 and older. We are trying to keep making "
+"binaries for 10.15 and 11 available while we can, we are no longer are able "
+"to support older versions of macOS."
+msgstr ""
+"Apple je prestao podržavati macOS 11 i starije.  Binarne datoteke za 10.15 i"
+" 11 pokušavamo i dalje činiti dostupnima dok možemo, no više ne možemo "
+"podržavati starije verzije macOS-a."
+
+#: templates/faq.html:271
+msgid "I can't download from my Bluetooth dive computer on macOS"
+msgstr "Ne mogu preuzeti sa svog Bluetooth ronilačkog računala na macOS"
+
+#: templates/faq.html:277
+msgid ""
+"This has been an ongoing issue for a while; it seems to work fine for "
+"many/most users, but some cannot seem to get Subsurface on their Mac to talk"
+" to BLE dive computers. For those people, right now the only option is to "
+"download using a mobile device / Subsurface-mobile and sync their dive log "
+"using Subsurface Cloud."
+msgstr ""
+"Ovo je problem koji traje već neko vrijeme; Čini se da dobro funkcionira za "
+"mnoge/većinu korisnika, ali čini se da neki ne mogu natjerati Subsurface na "
+"svom Macu da razgovara s BLE ronilačkim računalima. Za te je ljude trenutno "
+"jedina opcija preuzimanje pomoću mobilnog uređaja / Subsurface-mobile i "
+"sinkronizacija njihovog dnevnika ronjenja pomoću Subsurface Clouda."
+
+#: templates/faq.html:286
+msgid "Why is my IRDA (infrared) based dive computer not working on a Mac?"
+msgstr ""
+"Zašto moje ronilačko računalo temeljeno na IRDA (infracrvenom) ne radi na "
+"Macu?"
+
+#: templates/faq.html:292
+msgid ""
+"Subsurface on the Mac does not support IRDA based dive computers. This is an"
+" issue of missing support libraries for us to use -- other dive log software"
+" may have implemented their own IRDA stack on the Mac, we have not. "
+"Subsurface on Windows still supports IRDA based dive computers for now."
+msgstr ""
+"Subsurface na Macu ne podržava ronilačka računala temeljena na IRDA. Ovo je "
+"problem nedostatka libraryja za podršku koje bismo mogli koristiti -- drugi "
+"softveri za zapise ronjenja možda su implementirali vlastiti IRDA stack na "
+"Macu, mi nismo. Subsurface na Windowsima za sada još uvijek podržava "
+"ronilačka računala temeljena na IRDA."
+
+#: templates/faq.html:309
+msgid ""
+"Subsurface can run on most Linux distributions. The project actively "
+"maintain builds for current Ubuntu and Fedora releases. A community "
+"contributor maintains Debian packages. There is also a Subsurface Snap and "
+"an AppImage for other distributions. Generally try a distribution specific "
+"binary first. If that doesn't work, try the Snap or the AppImage."
+msgstr ""
+"Subsurface može raditi na većini Linux distribucija. Projekt aktivno održava"
+" verzije za trenutna izdanja Ubuntua i Fedore. Suradnik održava Debian "
+"pakete. Tu su i Subsurface Snap i AppImage za druge distribucije. Općenito "
+"prvo pokušajte s distribucijskom binarnom datotekom. Ako to ne uspije, "
+"isprobajte Snap ili AppImage."
+
+#: templates/faq.html:318
+msgid "Can you add binaries for my favorite Linux distribution?"
+msgstr ""
+"Možete li dodati binarne datoteke za moju omiljenu Linux distribuciju?"
+
+#: templates/faq.html:325
+msgid ""
+"Adding support for another Linux distribution is generally a lot of work and"
+" given the tiny user numbers not likely to happen. But please, talk to us if"
+" you think there is a distribution that we should add instead of the ones "
+"that we currently support."
+msgstr ""
+"Dodavanje podrške za drugu distribuciju Linuxa općenito je puno posla, a s "
+"obzirom na mali broj korisnika malo je vjerojatno da će se dogoditi. Ali "
+"molimo, razgovarajte s nama ako mislite da postoji distribucija koju bismo "
+"trebali dodati umjesto onih koje trenutno podržavamo."
+
+#: templates/faq.html:328 templates/faq.html:347
+#, python-format
+msgid ""
+"If you would like to contribute and help, this is a perfect opportunity to "
+"do so. Please take a look at our <a %(code_contribution)s>code contribution "
+"page on GitHub</a>."
+msgstr ""
+"Ako želite doprinijeti i pomoći, ovo je savršena prilika za to. Molimo "
+"pogledajte našu <a %(code_contribution)s>stranicu doprinosa kodu na "
+"GitHubu</a>."
+
+#: templates/faq.html:337
+msgid "Can I build my own binaries?"
+msgstr "Mogu li izgraditi vlastite binarne datoteke?"
+
+#: templates/faq.html:344
+msgid ""
+"Yes, generally this is pretty easy (assuming you are somewhat familiar with "
+"C/C++ development under Linux). The <code>INSTALL</code> file in the source "
+"directory should get you started. Reach out to the developers if you need "
+"help beyond that (because likely that means we need to update the "
+"<code>INSTALL</code> file...)."
+msgstr ""
+"Da, općenito je ovo prilično jednostavno (pod pretpostavkom da ste donekle "
+"upoznati s C/C++ razvojem pod Linuxom). Datoteka INSTALL u izvornom "
+"direktoriju trebala bi vam pomoći da počnete. Obratite se programerima ako "
+"trebate pomoć izvan toga (jer to vjerojatno znači da moramo ažurirati "
+"INSTALL datoteku...)."
+
+#: templates/faq.html:352
+msgid "Mobile Support"
+msgstr "Mobilna podrška"
+
+#: templates/faq.html:357
+msgid "How do I install Subsurface-mobile on my phone / tablet?"
+msgstr "Kako mogu instalirati Subsurface-mobile na svoj telefon/tablet?"
+
+#: templates/faq.html:364
+#, python-format
+msgid ""
+"iOS users can simply install the Subsurface-mobile app that is available in "
+"iOS App Store. There is still an older version of Subsurface-mobile "
+"available in the Android Play Store, but because of the excessive "
+"bureaucracy and constantly changing rules and requirements associated with "
+"the Google Play store, we currently aren't able to update this package (and "
+"expect it to become unavailble at some point). To work around this, we have "
+"made an Android APK package available on our <a %(crelease)s>current "
+"release</a> page that can be side-loaded on most Android devices."
+msgstr ""
+"iOS korisnici mogu jednostavno instalirati Subsurface-mobile aplikaciju koja"
+" je dostupna u iOS App Storeu. Još uvijek postoji starija verzija "
+"Subsurface-mobile dostupna u trgovini Android Play, ali zbog pretjerane "
+"birokracije i stalnih promjena pravila i zahtjeva povezanih s trgovinom "
+"Google Play, trenutno ne možemo ažurirati ovaj paket (i očekujemo da će "
+"postati nedostupan u nekom trenutku). Kako bismo to zaobišli, učinili smo "
+"Android APK paket dostupnim na našoj <a%(crelease)s>stranici trenutne "
+"verzije</a> koji se može side-loadati na većini Android uređaja."
+
+#: templates/faq.html:367
+msgid ""
+"Once you have installed Subsurface-mobile on your device, enable cloud "
+"storage in Subsurface from your desktop or laptop and store your dive "
+"information in the Subsurface cloud. The dives will now be available on your"
+" mobile device as well. Subsurface-mobile does not support all the features "
+"of the desktop version of Subsurface. For example dive planning is not "
+"available in Subsurface-mobile."
+msgstr ""
+"Nakon što instalirate Subsurface-mobile na svoj uređaj, omogućite pohranu u "
+"oblaku u Subsurface sa svog stolnog ili prijenosnog računala i pohranite "
+"informacije o ronjenju u Subsurface Cloud. Zaroni će sada biti dostupni i na"
+" vašem mobilnom uređaju. Subsurface-mobile ne podržava sve značajke desktop "
+"verzije Subsurfacea. Na primjer, planiranje zarona nije dostupno u "
+"Subsurface-mobile."
+
+#: templates/faq.html:370
+#, python-format
+msgid ""
+"From all other devices (including tablets and phones with OSs that we don’t "
+"support with Subsurface-mobile), you can open our <a %(cloudweb)s>cloud "
+"website</a> and log in with the same email address / password. This allows "
+"you to access your dive data from any device with a web browser."
+msgstr ""
+"Sa svih ostalih uređaja (uključujući tablete i telefone s operativnim "
+"sustavima koji ne podržavaju Subsurface-mobile), možete otvoriti našu  <a "
+"%(cloudweb)s>cloud web stranicu</a> i prijaviti se s istom adresom e-pošte /"
+" lozinkom. To vam omogućuje pristup podacima o ronjenju s bilo kojeg uređaja"
+" s web-preglednikom."
+
+#: templates/faq.html:380
+msgid "What's the minimum Android version required?"
+msgstr "Koja je minimalna potrebna verzija Androida?"
+
+#: templates/faq.html:387
+msgid ""
+"The side-loaded APK should work with Android 8.0 and newer. Older Android "
+"versions are known not to work with the Subsurface Cloud."
+msgstr ""
+"Side-loadan APK trebao bi raditi s Androidom 8.0 i novijim. Poznato je da "
+"starije verzije Androida ne rade s Subsurface Cloudom."
+
+#: templates/faq.html:398
+msgid ""
+"From which dive computers can Subsurface-mobile on Android directly "
+"download?"
+msgstr ""
+"S kojih ronilačkih računala Subsurface-mobile na Androidu može izravno "
+"preuzeti ronjenja?"
+
+#: templates/faq.html:405
+msgid ""
+"Bluetooth and BLE based dive computers as well USB serial dive computers "
+"should generally work (assuming they are supported by Subsurface at all, of "
+"course). What doesn't work are other USB devices like USB HID (e.g., Suunto "
+"EON Steel family via cable - BLE works), USB storage (e.g., Uemis Zurich), "
+"or MTP (e.g., Garmin)."
+msgstr ""
+"Ronilačka računala temeljena na Bluetoothu i BLE-u, kao i USB serijska "
+"ronilačka računala općenito bi trebala raditi (pod pretpostavkom da ih "
+"Subsurface uopće podržava, naravno). Ono što ne radi su drugi USB uređaji "
+"kao što je USB HID (npr. obitelj Suunto EON Steel putem kabela - BLE radi), "
+"USB pohrana (npr. Uemis Zurich) ili MTP (npr. Garmin)."
+
+#: templates/faq.html:417
+msgid ""
+"From which dive computers can Subsurface-mobile on iOS directly download?"
+msgstr ""
+"S kojih ronilačkih računala Subsurface-mobile na iOS-u može izravno preuzeti"
+" ronjenja?"
+
+#: templates/faq.html:424
+msgid ""
+"Only dive computers that support download via BLE (that are already "
+"supported in Subsurface) work with iOS devices. The Garmin dive computers "
+"are the exception to this rule, they aren't supported on iOS at all. No "
+"cable based downloads are possible."
+msgstr ""
+"Samo ronilačka računala koja podržavaju preuzimanje putem BLE (koja su već "
+"podržana u Subsurfaceu) rade s iOS uređajima. Garmin ronilačka računala su "
+"iznimka ovom pravilu, ona uopće nisu podržana na iOS-u. Nisu moguća "
+"preuzimanja putem kabela."
+
+#: templates/faq.html:429
+msgid "Usage"
+msgstr "Korištenje"
+
+#: templates/faq.html:434
+msgid "How do I know I have the latest version of Subsurface?"
+msgstr "Kako znam da imam najnoviju verziju Subsurface-a?"
+
+#: templates/faq.html:441
+msgid ""
+"With the desktop version you can check from the Help menu: simply select "
+"“Check for updates”. The iOS version notifies you via the regular AppStore "
+"mechanisms. A notification mechanism for Android is under development."
+msgstr ""
+"S desktop verzijom možete provjeriti iz izbornika Pomoć: jednostavno "
+"odaberite “Provjeri ažuriranja”. iOS verzija vas obavještava putem "
+"uobičajenih AppStore mehanizama. Mehanizam obavijesti za Android je u "
+"razvoju."
+
+#: templates/faq.html:444
+#, python-format
+msgid ""
+"You can also check the <a %(crelease)s>current release</a> page to look at our reasonably frequent\n"
+"                (“weekly”) updates."
+msgstr ""
+"Također možete provjeriti <a %(crelease)s>stranicu s trenutnom verzijom</a> kako biste pogledali naša relativno česta\n"
+"(\"tjedna\") ažuriranja."
+
+#: templates/faq.html:454
+msgid "How can I import my dives into Subsurface?"
+msgstr "Kako da uvezem svoje zarone u Subsurface?"
+
+#: templates/faq.html:461
+#, python-format
+msgid ""
+"There are multiple ways to import into Subsurface. Details can be found in "
+"the <a %(usermanual)s>User Manual</a>."
+msgstr ""
+"Postoji više načina za unos u Subsurface. Detalji se mogu pronaći u "
+"<a%(usermanual)s>Korisničkom Priručniku</a>."
+
+#: templates/faq.html:464
+msgid ""
+"Manually logged dives can directly be entered in the UI or (in the desktop "
+"version) imported from various forms of spreadsheets."
+msgstr ""
+"Ručno zabilježeni zaroni mogu se izravno unijeti u korisničko sučelje ili (u"
+" desktop verziji) uvesti iz različitih oblika tablica."
+
+#: templates/faq.html:467
+msgid ""
+"Dives can be downloaded from supported dive computers. Details vary greatly "
+"depending on how the dive computer connects to your computer or mobile "
+"device."
+msgstr ""
+"Zaroni mogu biti skinuti sa podržanih ronilačkih računala. Detalji značajno "
+"variraju ovisno o tome kako se ronilačko računalo spaja na vaše računalo ili"
+" mobilni uređaj."
+
+#: templates/faq.html:470
+msgid ""
+"It is also possible to import dive data from other software or websites. See"
+" the User Manual for the most up to date information on this – it can be "
+"found in Section 5.3."
+msgstr ""
+"Također je moguće uvesti podatke o ronjenju iz drugog softvera ili web "
+"stranica. Za najnovije informacije o tome pogledajte korisnički priručnik – "
+"možete ga pronaći u odjeljku 5.3."
+
+#: templates/faq.html:479
+msgid "How can I use more than one tank with the same gas?"
+msgstr "Kako mogu koristiti više od jedne boce s istim plinom? "
+
+#: templates/faq.html:486
+msgid ""
+"This is a typical question for side mount divers or some tec divers. "
+"Subsurface supports having more than one tank with the same gas, even if "
+"some dive computers don’t. Simply add a gas change to your second tank of "
+"the same gas as both tanks will be included in the gas use calculations. In "
+"order to add gas changes simply right-click on the profile at the "
+"appropriate spot and you will be offered to add such an event."
+msgstr ""
+"Ovo je tipično pitanje za sidemount ronioce ili neke tehničke ronioce. "
+"Subsurface podržava više od jedne boce s istim plinom, čak i ako neka "
+"ronilačka računala to ne čine. Jednostavno dodajte promjenu plina u svoju "
+"drugu bocu istog plina jer će obje boce biti uključena u izračun potrošnje "
+"plina. Kako biste dodali promjene plina jednostavno kliknite desnom tipkom "
+"miša na profil na odgovarajućem mjestu i ponudit će vam se da dodate takav "
+"događaj."
+
+#: templates/faq.html:489
+#, python-format
+msgid ""
+"If you have pressure transmitters on multiple tanks with the same gas, the "
+"situation is slightly more complicated. The easiest way to ensure that there"
+" is no confusion when importing these dives is to assign slightly different "
+"gasses to those tanks, e.g. oxygen contents of 21%% and 22%% for two tanks "
+"holding air."
+msgstr ""
+"Ako imate transmitere na više boca s istim plinom, situacija je malo "
+"kompliciranija. Najlakši način da osigurate da ne dođe do zabune prilikom "
+"uvoza ovih ronjenja je da tim bocama dodijelite nešto drugačije plinove, "
+"npr. sadržaj kisika od 21%% i 22%% za dvije boce sa zrakom."
+
+#: templates/faq.html:499
+msgid "Why is Subsurface not able to download my dives from my dive computer?"
+msgstr ""
+"Zašto Subsurface ne može skinuti moje zarone s mog ronilačkog računala?"
+
+#: templates/faq.html:506
+msgid ""
+"Obviously there can be many reasons for this. If your dive computer connects"
+" via cable, clean the contacts and make sure they are dry. Repeat if "
+"necessary. Make sure the connector is firmly connected. Wiggle it. "
+"Seriously. Make sure the dive computer is in transfer mode (this isn’t "
+"necessary for all dive computers but for many common ones). Check with other"
+" software that the download works in general. Try another cable. Check your "
+"battery. There are some dive computer (especially earlier Suunto models) "
+"that will happily work with a low battery, but will fail to transfer dives "
+"to a connected PC unless the battery is changed."
+msgstr ""
+"Očito za to može postojati mnogo razloga. Ako se vaše ronilačko računalo "
+"povezuje putem kabela, očistite kontakte i provjerite jesu li suhi. Ponovite"
+" ako je potrebno. Provjerite je li konektor čvrsto spojen. Mrdajte ga. "
+"Ozbiljno. Provjerite je li ronilačko računalo u načinu prijenosa (ovo nije "
+"potrebno za sva ronilačka računala, ali za mnoga jest). Provjerite s drugim "
+"softverom radi li preuzimanje općenito. Pokušajte s drugim kabelom. "
+"Provjerite svoju bateriju. Postoje neka ronilačka računala (osobito raniji "
+"modeli Suunto) koja će rado raditi s slabom baterijom, ali neće uspjeti "
+"prenijeti urone na povezano računalo osim ako se baterija ne promijeni."
+
+#: templates/faq.html:509
+msgid ""
+"There are many more potential issues with Bluetooth or BLE dive computers. "
+"Please see our user manual for pairing with such devices and troubleshooting"
+" suggestions."
+msgstr ""
+"Postoji mnogo više potencijalnih problema s Bluetooth ili BLE ronilačkim "
+"računalima. Pogledajte naš korisnički priručnik za uparivanje s takvim "
+"uređajima i prijedloge za rješavanje problema."
+
+#: templates/faq.html:518
+msgid "Why is the CSV import failing?"
+msgstr "Zašto CSV uvoz ne uspijeva?"
+
+#: templates/faq.html:525
+msgid ""
+"The CSV import has a couple of caveats. You should avoid some special "
+"characters like ampersand (&), less than (<), greater than (>) and double "
+"quotes (“), the latter if quoting text cells. The file should use UTF-8 "
+"character set, if having non-ASCII characters. Also the size of the CSV file"
+" might cause problems. Importing 100 dives at a time (without dive profile) "
+"has worked previously, but larger files might exceed limits of the parser "
+"used. When having  problems with CSV imports, try first with a smaller "
+"sample to make sure everything works."
+msgstr ""
+"CSV uvoz ima nekoliko potencijalnih problema. Trebali biste izbjegavati neke"
+" posebne znakove kao što su ampersand (&), manje od (<), veće od (>) i "
+"dvostruke navodnike (“), potonje ako citirate tekstualne ćelije. Datoteka "
+"treba koristiti skup znakova UTF-8, ako sadrži znakove koji nisu ASCII. "
+"Veličina CSV datoteke također može uzrokovati probleme. Uvoz 100 ronjenja "
+"odjednom (bez profila ronjenja) već je funkcionirao, ali veće datoteke mogu "
+"premašiti ograničenja korištenog parsera. Ako imate problema s uvozom CSV-a,"
+" prvo pokušajte s manjim primjerkom kako biste bili sigurni da sve radi."
+
+#: templates/faq.html:534
+msgid "How can I use Subsurface for multiple users?"
+msgstr "Kako mogu koristiti Subsurface za više korisnika?"
+
+#: templates/faq.html:541
+msgid ""
+"Potentially the best way to achieve this is to use multiple user accounts on"
+" the computer, all operating systems have built-in support for multiple "
+"users. This way the Subsurface configuration for each user is truely "
+"separated."
+msgstr ""
+"Potencijalno najbolji način da se to postigne je korištenje više korisničkih"
+" računa na računalu, svi operativni sustavi imaju ugrađenu podršku za više "
+"korisnika. Na ovaj način konfiguracija Subsurface za svakog korisnika je "
+"uistinu odvojena."
+
+#: templates/faq.html:544
+msgid ""
+"Another option is to store logs of different users to separate log files. "
+"From Subsurface, you can open individual files for different divers and "
+"multiple users are supported quite well, the downside of this approach is "
+"that it's incompatible with Subsurface cloud storage."
+msgstr ""
+"Druga mogućnost je pohraniti zapise različitih korisnika u zasebne logove. "
+"Iz Subsurfacea možete otvoriti pojedinačne datoteke za različite ronioce i "
+"više korisnika je dobro podržano, loša strana ovog pristupa je da nije "
+"kompatibilan s Subsurface Cloudom."
+
+#: templates/faq.html:547
+msgid ""
+"A blend of these approaches where you want multi-user Subsurface support "
+"within a single computer user account can be achieved as well. Subsurface "
+"has the ability support user profiles, simply launch Subsurface with the "
+"<code>--user</code> flag e.g. <code>subsurface --user=joebloggs</code>. From"
+" this user-specific workspace you can then open either locally stored or "
+"cloud hosted dive logs. You can then create different desktop shortcut icons"
+" that include this command line flag in order to make the experience more "
+"user friendly."
+msgstr ""
+"Mješavina ovih pristupa gdje želite višekorisničku Subsurface podršku unutar"
+" jednog korisničkog računa računala također se može postići. Subsurface ima "
+"mogućnost podržavanja korisničkih profila, jednostavno pokrenite Subsurface "
+"s oznakom <code>--user</code>, npr. <code>subsurface--user=joebloggs</code>."
+" Iz ovog korisničkog radnog prostora možete otvoriti ili lokalno pohranjene "
+"ili zapise ronjenja u oblaku. Zatim možete stvoriti različite ikone prečaca "
+"na radnoj površini koje uključuju ovu oznaku kako biste to učinili lakšim za"
+" korištenje."
+
+#: templates/faq.html:556
+msgid "How can I load pictures and associate them with my dive?"
+msgstr "Kako mogu učitati slike i povezati ih sa svojim zaronom?"
+
+#: templates/faq.html:563
+msgid ""
+"This is supported in the desktop version of Subsurface. Select the dives you"
+" want to load and associate the pictures with. Then right click on one of "
+"the selected dives and select “Load images” from the popup menu. This will "
+"bring in a file selection dialog where you can select one or more pictures. "
+"When the selection is done and hit Open and you get a new dialog where you "
+"can shift the times of the images (in case of inconsistent clocks between "
+"camera and dive computer). Once you confirm this, the pictures are loaded "
+"and associated with the right dives and shown (as thumbnails) in the "
+"respective dive profiles."
+msgstr ""
+"Ovo je podržano u desktop verziji Subsurfacea. Odaberite urone koje želite "
+"učitati i pridružiti im slike. Zatim kliknite desnom tipkom na jedan od "
+"odabranih urona i odaberite \"Učitaj slike\" iz izbornika. Ovo će dovesti do"
+" dijaloga za odabir datoteke u kojem možete odabrati jednu ili više slika. "
+"Kada je odabir gotov, pritisnite Otvori i dobit ćete novi okvir u kojem "
+"možete pomicati vremena slika (u slučaju nedosljednih satova između kamere i"
+" ronilačkog računala). Nakon što to potvrdite, slike se učitavaju i povezuju"
+" s pravim zaronima i prikazuju (kao minijature) u odgovarajućim profilima "
+"ronjenja."
+
+#: templates/faq.html:566
+msgid ""
+"If you are having trouble with loading the images, check that you have at "
+"least one of the following tags in the Exif headers: "
+"<code>DateTimeOriginal</code> or <code>DateTime</code>. We take the time "
+"from these fields to detect if the image was taken during the dive or not. "
+"If the picture is edited, make sure that the original Exif information is "
+"stored in the new/edited image in order for it to be loaded properly. Most "
+"modern photo editing software does that correctly by default."
+msgstr ""
+"Ako imate problema s učitavanjem slika, provjerite imate li barem jednu od "
+"sljedećih oznaka u Exif zaglavljima: <code>DateTimeOriginal</code> ili "
+"<code>DateTime</code>. Uzimamo vrijeme iz ovih polja kako bismo otkrili je "
+"li slika snimljena tijekom zarona ili ne. Ako je slika uređena, provjerite "
+"jesu li izvorne Exif informacije pohranjene u novoj/uređenoj slici kako bi "
+"se pravilno učitala. Većina modernih softvera za uređivanje fotografija to "
+"radi ispravno."
+
+#: templates/faq.html:575
+msgid "Can I import my dives from my old log software?"
+msgstr ""
+"Mogu li uvesti svoje zarone iz svog starog softvera za bilježenje zarona?"
+
+#: templates/faq.html:582
+msgid ""
+"Many common programs are already supported and we are always happy to try to add new ones. If your old log software supports exporting the log book, we might well be able to import that (for example via CSV files or UDDF). However, usually support for importing the native format will help you to get more complete information into Subsurface. To implement support for the log format, we will need a sample log file. It would be great to have also a screenshot from\n"
+"                the original log software or description of the dive that is shown on the sample log. Preferably we would like to have a reasonably simple dive to get basic support and another dive that has as many features enabled as possible (e.g. gas\n"
+"                changes during the dive). Please post this information to the user forum or send it to the developer mailing list subsurface@subsurface-divelog.org. Unfortunately some of the log formats we have not been able to decipher (as some\n"
+"                vendors have decided to encrypt their log files to increase the degree of lock-in of their customers), so there are no guarantees that this will bring support for your old log software, but it is worth a try."
+msgstr ""
+"Mnogi uobičajeni programi već su podržani i uvijek rado pokušavamo dodati nove. Ako vaš stari softver podržava izvoz dnevnika, možda ga je mougće uvesti (na primjer putem CSV datoteka ili UDDF). Međutim, obično će vam podrška za uvoz izvornog formata pomoći da dobijete potpunije informacije u Subsurface. Da bismo implementirali podršku za format dnevnika, trebat će nam ogledna datoteka dnevnika. Bilo bi sjajno imati i snimak zaslona iz\n"
+"izvornog softvera ili opis ronjenja koji je prikazan na oglednom zapisniku. Preferabilno bismo htjeli imati razumno jednostavan zaron da bismo dobili osnovnu podršku i drugi zaron koji ima što više omogućenih značajki (npr. promjene plina tijekom ronjenja). Objavite ove informacije na korisničkom forumu ili ih pošaljite na mailing listu programera subsurface@subsurface-divelog.org. Nažalost, neke od formata dnevnika nismo uspjeli dešifrirati (kako su neki\n"
+"prodavači su odlučili kriptirati svoje datoteke dnevnika kako bi otežali prelazak na drugi softver), tako da nema jamstava da će ovo donijeti podršku za vaš stari softver dnevnika, ali vrijedi pokušati."
+
+#: templates/faq.html:595
+msgid ""
+"I cannot download all my dives, only the most recent ones even though my "
+"dive computer's manual states that it records history of e.g. 999 dives."
+msgstr ""
+"Ne mogu preuzeti sva svoja ronjenja, samo najnovija iako moj priručnik za "
+"ronilačko računalo navodi da bilježi povijest npr. 999 urona."
+
+#: templates/faq.html:602
+msgid ""
+"Dive history is different than the dive profiles on the log. The history "
+"only keeps track of the total number of dives and total amount of time spent"
+" below surface. The logs, on the other hand, store the dive profile, but "
+"they have limited amount of memory to do so. The exact amount of dive "
+"profiles that can be stored on the device depend on sample interval and "
+"duration of the dives. Once the memory is full the oldest dives get "
+"overwritten with new dives. Thus we are only able to download the last 13, "
+"30 or 199 dives."
+msgstr ""
+"Povijest ronjenja razlikuje se od profila ronjenja u zapisniku. Povijest "
+"prati samo ukupan broj zarona i ukupno vrijeme provedeno ispod površine. "
+"Dnevnici, s druge strane, pohranjuju profil ronjenja, ali imaju ograničenu "
+"količinu memorije za to. Točan broj profila ronjenja koji se mogu pohraniti "
+"na uređaj ovisi o intervalu uzorkovanja i trajanju ronjenja. Nakon što se "
+"memorija napuni, najstariji zaroni se prebrišu novim zaronima. Stoga možemo "
+"preuzeti samo zadnjih 13, 30 ili 199 zarona."
+
+#: templates/faq.html:605
+msgid ""
+"If you have downloaded your dives to different dive logging software before "
+"they were overwritten, there is a high chance that Subsurface can import "
+"these. However, if the logs are only on your dive computer, they cannot be "
+"salvaged after being over written by new dives."
+msgstr ""
+"Ako ste svoje zarone preuzeli u drugi softver za bilježenje ronjenja prije "
+"nego što su prebrisani, postoji velika vjerojatnost da ih Subsurface može "
+"uvesti. Međutim, ako su zaroni samo na vašem ronilačkom računalu, ne mogu se"
+" spasiti nakon što su prepisani novim zaronima."
+
+#: templates/faq.html:614
+msgid "What to do when authentication to cloud storage fails?"
+msgstr "Što učiniti kada autentifikacija za pohranu u oblaku ne uspije?"
+
+#: templates/faq.html:621
+#, python-format
+msgid ""
+"If you have configured your correct user credentials to Subsurface and cloud"
+" authentication still fails, try to change the password on via the <a "
+"%(pwdreset)s>password reset</a> on our website. If your credentials are "
+"still not working or there is something else wrong, contact Dirk to sort it "
+"out."
+msgstr ""
+"Ako ste konfigurirali ispravne korisničke podatke za Subsurface, a provjera "
+"autentičnosti u oblaku i dalje ne uspijeva, pokušajte promijeniti lozinku "
+"putem <a %(pwdreset)s>resetiranja lozinke</a> na našoj web stranici. Ako "
+"vaši podaci i dalje ne rade ili nešto drugo nije u redu, kontaktirajte "
+"Dirk-a da to riješi. "
+
+#: templates/faq.html:632
+msgid "Can Subsurface store my files on a different cloud server?"
+msgstr ""
+"Može li Subsurface pohraniti moje datoteke na drugi poslužitelj u oblaku?"
+
+#: templates/faq.html:639
+#, python-format
+msgid ""
+"Subsurface can store your dive log securely in the Subsurface Cloud, backing"
+" up your data, allowing you to access your dive logs on a desktop, Android, "
+"or iOS device. Additionally there is a read only web view available at <a "
+"%(cloudweb)s>the cloud webpage</a>."
+msgstr ""
+"Subsurface može sigurno pohraniti vaš dnevnik ronjenja u Subsurface Cloud, "
+"stvarajući sigurnosnu kopiju vaših podataka, omogućujući vam pristup "
+"zapisnicima ronjenja na desktopu, Android ili iOS uređaju. Osim toga, na <a "
+"%(cloudweb)s>cloud web stranici</a> dostupan je web prikaz samo za čitanje."
+
+#: templates/faq.html:642
+msgid ""
+"This is the only cloud solution available, which allows the developers the "
+"ability to enhance Subsurface, fix issues, and support users (with your "
+"permission) if something goes wrong with the Cloud Storage. The incremental "
+"effort to support additional cloud backends is substantial, while at the "
+"same time making it much harder for us to help users who run into trouble. "
+"In the end this is not a useful trade-off for us to make, so other cloud "
+"solutions continue to not be supported."
+msgstr ""
+"Ovo je jedini dostupan cloud, što programerima omogućuje poboljšanje "
+"Subsurfacea, rješavanje problema i podršku korisnicima (uz vaše dopuštenje) "
+"ako nešto pođe po zlu s cloud pohranom. Inkrementalni napori da se podrže "
+"dodatne cloudove su značajni, dok nam je u isto vrijeme mnogo teže pomoći "
+"korisnicima koji naiđu na probleme. Na kraju, ovo nije koristan kompromis za"
+" nas, tako da druga cloud rješenja i dalje nisu podržana."
+
+#: templates/faq.html:645
+msgid ""
+"If you only use Subsurface on the desktop and wish to backup your log on a "
+"remote storage server, the documention describes how to store your XML data "
+"on DropBox or other similar services such as OwnCloud, TeamDrive, MiniBox, "
+"etc."
+msgstr ""
+"Ako koristite samo Subsurface na desktopu i želite sigurnosno kopirati svoj "
+"zapisnik na neki server, dokumentacija opisuje kako pohraniti svoje XML "
+"podatke na DropBox ili druge slične usluge kao što su OwnCloud, TeamDrive, "
+"MiniBox itd."
+
+#: templates/faq.html:650
+msgid "Issues with specific dive computers"
+msgstr "Problemi sa specifičnim ronilačkim računalima"
+
+#: templates/faq.html:655
+msgid "Can you add support for dive computer X?"
+msgstr "Možete li dodati podršku za ronilačko računalo X?"
+
+#: templates/faq.html:661
+#, python-format
+msgid ""
+"We support a large number of dive computers already and are always happy to "
+"add support for more. Please contact us via the <a %(userforum)s>User "
+"Forum</a> so we can try to help. Some vendors have actively helped us in our"
+" work and adding support for new models from those vendors is usually easy. "
+"Other vendors are more neutral, some are actively hostile. Without help from"
+" the vendor it can be rather challenging to reverse engineer the transfer "
+"protocol and the dive encoding, but with sufficient help from you it is "
+"often possible to do so."
+msgstr ""
+"Već podržavamo velik broj ronilačkih računala i uvijek ćemo rado dodati "
+"podršku za još. Kontaktirajte nas putem <a %(userforum)s>korisničkog "
+"foruma</a> kako bismo vam mogli pomoći. Neki proizvođači su nam aktivno "
+"pomogli u našem radu i dodavanje podrške za nove modele tih proizvođača "
+"obično je jednostavno. Drugi proizvođači su neutralniji, neki su aktivno "
+"neprijateljski raspoloženi. Bez pomoći proizvođača može biti prilično teško "
+"napraviti obrnuti inženjering protokola prijenosa i kodiranja ronjenja, ali "
+"uz vašu pomoć to je često moguće učiniti."
+
+#: templates/faq.html:664
+msgid ""
+"A good starting point is often to send us a libdivecomputer log and dump "
+"(you can pick those in the dive computer download dialog) when connecting to"
+" the dive computer using a similar existing model (if possible). But "
+"generally it might make the most sense to first reach out in order to avoid "
+"wasting your time."
+msgstr ""
+"Dobra početna točka često je slanje libdivecomputer loga i dump-a (možete ih"
+" odabrati u dijaloškom okviru za preuzimanje ronilačkog računala) kada se "
+"povezujete na ronilačko računalo koristeći sličan postojeći model (ako je "
+"moguće). No općenito bi bilo najsmislenije prvo nam se obratiti kako biste "
+"izbjegli gubljenje vremena."
+
+#: templates/faq.html:667
+#, python-format
+msgid ""
+"If you would like to contribute and help, there are many ways to do so. "
+"Please take a look at our '<a %(contribute)s>Contribute</a>' page."
+msgstr ""
+"Ako želite doprinijeti i pomoći, postoji mnogo načina da to učinite. "
+"Pogledajte našu stranicu '<a %(contribute)s>Doprinos</a>'."
+
+#: templates/faq.html:676
+msgid "Old style Suunto dive computers?"
+msgstr "Stara Suunto ronilačka računala?"
+
+#: templates/faq.html:683
+msgid ""
+"Most of the download cables are FTDI based and need the appropriate drivers "
+"installed. Some other third party cables need different drivers. Without "
+"those drivers, the dive computer device won't show up. Once you can see the "
+"device (<code>COMn</code> or <code>/dev/tty...</code>), if you get timeouts "
+"or data errors, see the data error question below."
+msgstr ""
+"Većina kabela za preuzimanje temelji se na FTDI i trebaju im instalirani "
+"odgovarajući upravljački programi. Neki drugi kabeli trećih strana trebaju "
+"različite upravljačke programe. Bez tih upravljačkih programa, uređaj "
+"ronilačkog računala se neće pojaviti. Nakon što vidite uređaj "
+"(<code>COMn</code> ili <code>/dev/tty...</code>), ako dobijete timeout ili "
+"pogreške u podacima, pogledajte pitanje o pogrešci podataka u nastavku."
+
+#: templates/faq.html:692
+msgid "I get timeouts or data error when downloading"
+msgstr "Dobivam timeout ili podatkovnu pogrešku prilikom preuzimanja zarona"
+
+#: templates/faq.html:699
+msgid ""
+"Astoundingly commonly the reason are wet or dirty contacts or a low battery."
+" It doesn't matter if the dive computer turns on. Download mode often "
+"requires much higher stable voltage to work. And sadly we even have seen "
+"situations where the vendor dive log will work (because it can do a much "
+"better job at 'error correction'), but Subsurface won't download until you "
+"have a fresh battery and really clean and really dry contacts."
+msgstr ""
+"Nevjerojatno često razlog su mokri ili prljavi kontakti ili slaba baterija. "
+"Nije važno hoće li se ronilačko računalo uključiti. Način preuzimanja često "
+"zahtijeva mnogo veći stabilni napon za rad. Nažalost, vidjeli smo čak i "
+"situacije u kojima će dnevnik ronjenja proizvođača raditi (jer može obaviti "
+"puno bolji posao u 'ispravljanju grešaka'), ali Subsurface neće preuzeti dok"
+" nemate novu bateriju i vrlo čiste i vrlo suhe kontakte."
+
+#: templates/faq.html:708
+msgid "BLE (Bluetooth Low Energy) downloads are incredibly slow"
+msgstr "BLE (Bluetooth Low Energy) preuzimanja su nevjerojatno spora"
+
+#: templates/faq.html:714
+msgid ""
+"Yes, yes they are. Since Subsurface supports BLE download from many "
+"different dive computers from many different vendors, the code is generally "
+"not as well tuned for a specific dive computer as the vendor app can be. So "
+"unfortunately these downloads are painfully slow. Usually downloading a few "
+"dives a day is tedious, but not horrible. But especially a first download "
+"with a hundred or more dives can take an hour and longer - and sometimes it "
+"is hard to complete the download without running into errors that lead the "
+"download to abort. It really pays off to download early and often."
+msgstr ""
+"Da, da jesu. Budući da Subsurface podržava preuzimanje BLE-a s mnogo "
+"različitih ronilačkih računala od mnogih različitih proizvođača, kod "
+"općenito nije tako dobro podešen za određeno ronilačko računalo kao što to "
+"može biti aplikacija proizvođača. Nažalost, ta su preuzimanja bolno spora. "
+"Obično je preuzimanje nekoliko zarona dnevno zamorno, ali nije strašno. Ali "
+"posebno prvo preuzimanje sa stotinu ili više urona može trajati sat vremena "
+"i dulje - a ponekad je teško dovršiti preuzimanje bez nailaska na pogreške "
+"koje dovode do prekida preuzimanja. Zaista se isplati rano i često "
+"preuzimati."
+
+#: templates/faq.html:717
+msgid ""
+"If the dive computer offers a way to download with a USB cable (in addition "
+"to BLE, like for example the Suunto EON Steel family), that is definitely "
+"preferable especially for that first download."
+msgstr ""
+"Ako ronilačko računalo nudi način preuzimanja putem USB kabela (uz BLE, kao "
+"na primjer obitelj Suunto EON Steel), to je svakako poželjno, posebno za "
+"prvo preuzimanje."
+
+#: templates/faq.html:727
+msgid "Does Subsurface-mobile support the Garmin Descent family?"
+msgstr "Podržava li Subsurface-mobile Garmin Descent računala?"
+
+#: templates/faq.html:734
+msgid ""
+"The Descent dive computers are only supported on Windows, macOS, and Linux, "
+"and only for cable based download. Based on a specific request from Garmin, "
+"we will not be able to support BLE downloads on any platform."
+msgstr ""
+"Ronilačka računala Descent podržana su samo u sustavima Windows, macOS i "
+"Linux i samo za preuzimanje putem kabela. Na temelju posebnog zahtjeva "
+"Garmina, nećemo moći podržati BLE preuzimanja ni na jednoj platformi."
+
+#: templates/faq.html:743
+msgid "Can I import '.FIT' files directly?"
+msgstr "Mogu li izravno uvesti '.FIT' datoteke?"
+
+#: templates/faq.html:750
+msgid ""
+"If for some reason you cannot get regular downloads to work, but have access"
+" to the `.FIT` files, you can still use Subsurface to import those, still "
+"using the download code. Simply create a folder "
+"<code>...somepath.../Garmin/Activity</code> and copy the <code>.FIT</code> "
+"files into that folder. Now start a Subsurface download and enter "
+"<code>...somepath...</code> (without the <code>Garmin/Actity</code> part) in"
+" the Connection field and press Download."
+msgstr ""
+"Ako iz nekog razloga ne možete pokrenuti redovita preuzimanja, ali imate "
+"pristup datotekama `.FIT`, svejedno možete koristiti Subsurface za njihov "
+"uvoz, i dalje koristeći kod za preuzimanje. Jednostavno stvorite mapu "
+"<code>...somepath.../Garmin/Activity</code> i kopirajte<code> .FIT</code> "
+"datoteke u tu mapu. Sada započnite preuzimanje Subsurface i unesite "
+"<code>...neki put...</code> (bez dijela <code>Garmin/Actity</code>) u polje "
+"Veza i pritisnite Preuzimanje."
+
+#: templates/faq.html:759
+msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
+msgstr "Garmin Descent Mk2/Mk3 se ne želi spojiti"
+
+#: templates/faq.html:766
+msgid ""
+"The Descent Mk2/Mk3 is an MTP device which causes occasional problems when "
+"trying to download from it using Subsurface. MTP supports only a single "
+"connection, so other MTP apps may prevent Subsurface from talking to your "
+"dive computer. Exit all other apps that might try to connect to a media "
+"device, like for example the Android File Transfer."
+msgstr ""
+"Descent Mk2/Mk3 je MTP uređaj koji uzrokuje povremene probleme prilikom "
+"pokušaja preuzimanja s njega koristeći Subsurface. MTP podržava samo jednu "
+"vezu, tako da druge MTP aplikacije mogu spriječiti Subsurface da komunicira "
+"s vašim ronilačkim računalom. Zatvorite sve druge aplikacije koje bi se "
+"mogle pokušati povezati s medijskim uređajem, kao što je, na primjer, "
+"Android File Transfer."
+
+#: templates/faq.html:775
+msgid "Garmin Descent Mk2/Mk3 on Windows"
+msgstr "Garmin Descent Mk2/Mk3 na Windowsu"
+
+#: templates/faq.html:782
+msgid ""
+"You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
+msgstr ""
+"Potreban vam je ispravan USB upravljački program kako biste mogli "
+"komunicirati s Descent Mk2/Mk3."
+
+#: templates/faq.html:785
+#, python-format
+msgid ""
+"Please download <a %(zadig)s>Zadig 2.6</a> and run it, plug in the Descent "
+"and select MTP, wait for Zadig to offer the Descent as an option (this may "
+"require an unplug / replug cycle), select the Descent and tell Zadig to "
+"install `libusb-win32` (wait for this to finish which takes a while), unplug"
+" the Descent and plug it back in, again selecting MTP. Now Subsurface is "
+"able to download from it (don't enter anything in the connection field)"
+msgstr ""
+"Preuzmite <a %(zadig)s>Zadig 2.6</a> i pokrenite ga, uključite Descent i "
+"odaberite MTP, pričekajte da Zadig ponudi Descent kao opciju (ovo može "
+"zahtijevati ciklus isključivanja/ponovnog uključivanja), odaberite Descent i"
+" recite Zadigu da instalira `libusb -win32` (pričekajte da ovo završi što "
+"traje neko vrijeme), isključite Descent i ponovno ga uključite, ponovno "
+"odabirući MTP. Sada Subsurface može preuzimati s njega (nemojte ništa "
+"unositi u polje veze)"
+
+#: templates/faq.html:790
+msgid "Other questions"
+msgstr "Druga pitanja"
+
+#: templates/faq.html:792
+#, python-format
+msgid ""
+"If your question wasn't answered here, please check the <a "
+"%(userforum)s>User Forum</a> and try the search function. If you don't find "
+"an answer there, create a new topic and ask for help."
+msgstr ""
+"Ako ovdje nema odgovora na vaše pitanje, provjerite <a "
+"%(userforum)s>korisnički forum</a> i pokušajte s funkcijom pretraživanja. "
+"Ako tamo ne pronađete odgovor, otvorite novu temu i zatražite pomoć."
+
+#: templates/faq.html:796
+#, python-format
+msgid ""
+"This FAQ is maintained as part of our website in the <a %(webrepo)s>website "
+"repo</a>. Pull requests are of course welcome - you can also suggest "
+"additions to the FAQ in the <a %(userforum)s>User Forum</a>."
+msgstr ""
+"Ovaj FAQ se održava kao dio naše web stranice u <a %(webrepo)s>repou web "
+"stranice</a>. Pull requestovi su naravno dobrodošli - također možete "
+"predložiti dodatke za FAQ na <a %(userforum)s>korisničkom forumu</a>."
+
+#: templates/home.html:17
+msgid "The free, open-source cross-platform dive log software."
+msgstr ""
+"Besplatni open source softver za evidenciju ronjenja za više platformi."
+
+#: templates/home.html:32 templates/home.html:48
+msgid "Downloads for other platforms"
+msgstr "Preuzimanja za druge platforme"
+
+#: templates/home.html:74
+msgid "Multiplatform"
+msgstr "Multiplatform"
+
+#: templates/home.html:76
+msgid ""
+"Subsurface is an open source divelog program for recreational, tech, and "
+"free-divers that runs on Windows, Mac, and Linux"
+msgstr ""
+"Subsurface je open source divelog program za rekreativne, tehničke i ronioce"
+" na dah koji radi na Windowsu, Macu i Linuxu"
+
+#: templates/home.html:84
+msgid "Log all your dives"
+msgstr "Zabilježite sve svoje urone"
+
+#: templates/home.html:86
+msgid ""
+"Download your dives from your dive computer. Import them from other dive log"
+" programs or dive log websites. Manually enter them directly in Subsurface "
+"or via a simple spreadsheet."
+msgstr ""
+"Preuzmite svoje urone sa svog ronilačkog računala. Uvezite ih iz drugih "
+"programa za  dnevnike ronjenja ili web stranica s zapisnicima ronjenja. "
+"Ručno ih unesite izravno u Subsurface ili putem jednostavne tablice."
+
+#: templates/home.html:94
+msgid "Dive planner"
+msgstr "Planer ronjenja"
+
+#: templates/home.html:96
+msgid ""
+"The planner module makes it simple to visually plan dives either based on "
+"Bühlmann ZH-16 or VPM-B"
+msgstr ""
+"Modul planera olakšava vizualno planiranje ronjenja na temelju Bühlmann "
+"ZH-16 ili VPM-B"
+
+#: templates/home.html:104
+msgid "Subsurface-mobile"
+msgstr "Subsurface-mobile"
+
+#: templates/home.html:106
+msgid ""
+"Using Subsurface-mobile on your Android or iOS device you can access your "
+"dive log anywhere"
+msgstr ""
+"Koristeći Subsurface-mobile na svom Android ili iOS uređaju možete "
+"pristupiti dnevniku ronjenja bilo gdje"
+
+#: templates/home.html:114
+msgid "Cloud storage"
+msgstr "Pohrana u oblaku"
+
+#: templates/home.html:116
+msgid ""
+"Optionally store your logbook data in the cloud. Work with your data from "
+"different devices, online and offline. Fully integrated, free, and easy to "
+"set up."
+msgstr ""
+"Opcionalno pohranite podatke iz dnevnika u oblak. Radite sa svojim podacima "
+"s različitih uređaja, online i offline. Potpuno integriran, besplatan i "
+"jednostavan za postavljanje."
+
+#: templates/home.html:133
+msgid ""
+"Subsurface can <strong>plan</strong> and <strong>track</strong> single- and "
+"multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It allows "
+"tracking of dive locations including GPS coordinates (which can also "
+"conveniently be entered using a map interface), logging of equipment used "
+"and names of other divers, and lets users rate dives and provide additional "
+"notes."
+msgstr ""
+"Subsurface može <strong>planirati</strong> i <strong>pratiti</strong> "
+"<strong>ronjenja</strong> s jednom i više boca koristeći zrak, Nitrox ili "
+"TriMix. Omogućuje praćenje lokacija ronjenja, uključujući GPS koordinate "
+"(koje se također mogu jednostavno unijeti pomoću karte), bilježenje "
+"korištene opreme i imena drugih ronilaca, a korisnicima omogućuje "
+"ocjenjivanje ronjenja i dodavanje dodatnih bilješki."
+
+#: templates/home.html:136
+msgid ""
+"You can tag dives and <strong>filter a dive list</strong> based on criteria "
+"including tags, locations and people with whom you were diving. You can "
+"group the dive list into trips, and edit multiple dives at the same time, "
+"making it easy to support a large number of dives."
+msgstr ""
+"Možete označiti ronjenja i <strong>filtrirati popis zarona</strong> na "
+"temelju kriterija uključujući oznake, lokacije i ljude s kojima ste ronili. "
+"Popis ronjenja možete grupirati u putovanja i uređivati ​​više ronjenja "
+"istovremeno, što olakšava podržavanje velikog broja ronjenja."
+
+#: templates/home.html:141
+msgid ""
+"Subsurface also calculates a wide variety of <strong>statistics</strong> of "
+"the user’s diving and tracks information like the SAC rate, partial "
+"pressures of O2, N2 and He, calculated deco information, and many more."
+msgstr ""
+"Subsurface također izračunava široku paletu statistika korisnikovog ronjenja"
+" i prati informacije poput SAC rate-a, parcijalnih tlakova O2, N2 i He, "
+"izračunate informacije o dekompresiji i mnoge druge."
+
+#: templates/home.html:144
+msgid ""
+"<strong>Multiple divers</strong> can share one instance of Subsurface using "
+"different preferences and settings."
+msgstr ""
+"<strong>Više ronioca</strong> može dijeliti jednu instancu Subsurfacea "
+"koristeći različite preference i postavke."
+
+#: templates/home.html:147
+msgid ""
+"The program is localized in about <strong>20 languages</strong> and well "
+"supported by an active developer community."
+msgstr ""
+"Program je lokaliziran na oko 20 jezika i dobro ga podržava aktivna "
+"zajednica programera."
+
+#: templates/home.html:152
+#, python-format
+msgid ""
+"One of the major strengths of Subsurface is its support of a wide range of "
+"<strong>dive computers</strong> (see the <a %(link)s>list of supported dive "
+"computers</a>). Subsurface can also import existing dive logs from several "
+"sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de."
+msgstr ""
+"Jedna od glavnih prednosti Subsurfacea je podrška za širok raspon "
+"<strong>ronilačkih računala</strong> (pogledajte <a %(link)s>popis podržanih"
+" ronilačkih računala</a>). Subsurface također može uvesti postojeće "
+"zapisnike ronjenja iz nekoliko izvora uključujući MacDive, Suunto DM3, DM4 &"
+" DM5, JDiveLog i divelogs.de."
+
+#: templates/home.html:155
+msgid ""
+"Another strength is its ability to <strong>visualize</strong> the depth "
+"profile (and, if available, the tank pressure curve) in innovative ways that"
+" give the user additional information on relative velocity, and momentary "
+"air consumption, during a dive. Users who dive with <strong>multiple dive "
+"computers</strong> can combine the data from each of their dive computers "
+"into one dive – allowing visualization of the data collected from multiple "
+"sources."
+msgstr ""
+"Još jedna prednost je sposobnost <strong>vizualizacije</strong> profila "
+"dubine (i, ako je dostupna, krivulje tlaka u boci) na inovativne načine koji"
+" korisniku daju dodatne informacije o relativnoj brzini i trenutnoj "
+"potrošnji zraka tijekom ronjenja. Korisnici koji rone s <strong>više "
+"ronilačkih računala</strong> mogu kombinirati podatke sa svakog od svojih "
+"ronilačkih računala u jedno ronjenje – što omogućuje vizualizaciju podataka "
+"prikupljenih iz više izvora."
+
+#: templates/home.html:160
+msgid ""
+"Subsurface lets the user <strong>print</strong> out a detailed log book "
+"including dive profiles and other important information."
+msgstr ""
+"Subsurface korisniku omogućuje <strong>ispis</strong> detaljnog dnevnika "
+"uključujući profile ronjenja i druge važne informacije."
+
+#: templates/home.html:164
+msgid "We switched to rolling releases"
+msgstr "Prešli smo na pokretni model izdanja"
+
+#: templates/home.html:166
+#, python-format
+msgid ""
+"Please check out <a %(link)s>the announcement of the Release Changes</a>"
+msgstr "Molimo pogledajte <a %(link)s>najavu izmjena verzije"
+
+#: templates/home.html:171
+msgid "A bit of history:"
+msgstr "Malo povijesti:"
+
+#: templates/home.html:173
+msgid ""
+"In fall of 2011, when a forced lull in kernel development gave him a chance "
+"to start a new project, Linux creator Linus Torvalds decided to tackle his "
+"frustration with the lack of decent divelog software on Linux."
+msgstr ""
+"U jesen 2011., kada mu je prisilno zatišje u razvoju kernela dalo priliku da"
+" započne novi projekt, tvorac Linuxa Linus Torvalds odlučio je riješiti "
+"svoju frustraciju nedostatkom pristojnog divelog softvera na Linuxu."
+
+#: templates/home.html:176
+msgid ""
+"Linus worked with a team of developers, and Subsurface is the result. It now"
+" supports Linux, Windows and MacOS and allows data import from many dive "
+"computers and several existing divelog programs. It provides a quick and "
+"easy way to see the key information provided by a modern dive computer and "
+"lets users track a wide variety of data about their dives. In fall of 2012 "
+"Dirk Hohndel took over as Subsurface maintainer."
+msgstr ""
+"Linus je radio s timom programera, a rezultat je Subsurface. Sada podržava "
+"Linux, Windows i MacOS i omogućuje uvoz podataka s mnogih ronilačkih "
+"računala i nekoliko postojećih divelog programa. Omogućuje brz i jednostavan"
+" način da vidite ključne informacije koje nudi moderno ronilačko računalo i "
+"omogućuje korisnicima praćenje širokog spektra podataka o njihovim "
+"ronjenjima. U jesen 2012. Dirk Hohndel preuzeo je dužnost održavatelja "
+"Subsurfacea."
+
+#: templates/latest-release.html:13
+#, python-format
+msgid "Latest Development (CICD) Release: %(version)s"
+msgstr "Najnovija development (CICD) verzija: %(version)s"
+
+#: templates/latest-release.html:17
+msgid ""
+"The releases on this page are the latest builds from the Subsurface CICD "
+"(Continuous Integration, Continuous Delivery) system. While we don't expect "
+"them to be broken very often, they are generally released in order to "
+"facilitate testing, and as such may not have received a lot of testing, yet."
+msgstr ""
+"Izdanja na ovoj stranici su najnovije verzije iz Subsurface CICD (Continuous"
+" Integration, Continuous Delivery) sustava. Iako ne očekujemo da će se često"
+" kvariti, općenito se puštaju u promet kako bi se olakšalo testiranje i kao "
+"takve možda još nisu bile puno testirane."
+
+#: templates/latest-release.html:20
+msgid "The latest change-sets merged into this release are:"
+msgstr "Najnovije promjene u ovoj verziji su:"
+
+#: templates/latest-release.html:26
+#, python-format
+msgid ""
+"If you are looking for a somewhat less \"bleeding edge\" set of builds, "
+"please consider the <a %(link)s>Current Release Page</a>."
+msgstr ""
+"Ako ste u potrazi za nešto manje \"bleeding edge\" verzija, molimo vas da "
+"razmislite o <a %(link)s>stranici trenutne verzije</a>."
+
+#: templates/latest-release.html:55
+msgid ""
+"The Subsurface macOS DMG is not signed. macOS will force you through a few "
+"extra steps before you can install or run this program. You can simplify the"
+" process by control-clicking (or two-finger-clicking) on the executable and "
+"selecting to open it."
+msgstr ""
+"Subsurface macOS DMG nije potpisan. macOS će vas prisiliti na nekoliko "
+"dodatnih koraka prije nego što možete instalirati ili pokrenuti ovaj "
+"program. Možete pojednostaviti postupak tako da pritisnete tipku Control "
+"(ili kliknete s dva prsta) na izvršnu datoteku i odaberete da je otvorite."
+
+#: templates/latest-release.html:88
+#, python-format
+msgid ""
+"iOS is the only platform right now where in general side-loading or "
+"installing unsigned binaries is impossible (apparently that may change for "
+"users in the EU, but not elsewhere). As a result we cannot make new versions"
+" of Subsurface-mobile for iOS available here. We try to push many of these "
+"builds into our public TestFlight account. If you like to be on the bleeding"
+" edge, you can <a %(link)s>sign up for the Subsurface-mobile TestFlight.</a>"
+msgstr ""
+"iOS je trenutačno jedina platforma na kojoj je općenit side-loading ili "
+"instaliranje nepotpisanih binarnih datoteka nemoguće (navodno bi se to moglo"
+" promijeniti za korisnike u EU, ali ne i drugdje). Zbog toga ne možemo "
+"učiniti nove verzije Subsurface-mobile za iOS dostupnima ovdje. Pokušavamo "
+"staviti mnoge od ovih verzija na naš javni TestFlight račun. Ako volite biti"
+" na \"bleeding edgu\", možete se <a %(link)s>prijaviti za Subsurface-mobile "
+"TestFlight</a>."
+
+#: templates/latest-release.html:117
+msgid "The 'edge' Snap-channel contains our latest build."
+msgstr "Snap-channel 'edge' sadrži našu najnoviju verziju."
+
+#: templates/privacy-policy.html:15
+msgid ""
+"This Privacy Notice is to inform EU and U.K. citizens who use Subsurface how"
+" their personal information is used."
+msgstr ""
+"Ova Obavijest o privatnosti informira građane EU-a i Ujedinjenog Kraljevstva"
+" koji koriste Subsurface kako se koriste njihovi osobni podaci."
+
+#: templates/privacy-policy.html:18
+msgid ""
+"Personal information is limited to your email address, online and system "
+"identities, enabling a registered user account to be created and maintained."
+" The information is processed to provide the Subsurface application to "
+"registered users, the lawful purpose: contract obligation."
+msgstr ""
+"Osobni podaci ograničeni su na vašu adresu e-pošte, online i sistemske "
+"identitete, što omogućuje stvaranje i održavanje registriranog korisničkog "
+"računa. Podaci se obrađuju za pružanje Subsurface aplikacije registriranim "
+"korisnicima, zakonita svrha: ugovorna obveza."
+
+#: templates/privacy-policy.html:21
+msgid ""
+"Personal information is held whilst a user is registered. User accounts can "
+"be deleted on request. See contact information below."
+msgstr ""
+"Osobni podaci se čuvaju dok je korisnik registriran. Korisnički računi mogu "
+"se obrisati na zahtjev. Pogledajte podatke za kontakt ispod."
+
+#: templates/privacy-policy.html:24
+msgid ""
+"Subsurface is run on mirrored servers, some in the US and others in the EU "
+"(Germany). Personal information is protected by design and the application "
+"of security measures. Personal information is not shared with any other "
+"entity."
+msgstr ""
+"Subsurface se izvodi na zrcaljenim poslužiteljima, neki u SAD-u, a drugi u "
+"EU (Njemačka). Osobni podaci zaštićeni su dizajnom i primjenom sigurnosnih "
+"mjera. Osobni podaci ne dijele se ni sa jednim drugim subjektom."
+
+#: templates/privacy-policy.html:27
+#, python-format
+msgid ""
+"To contact Subsurface please reach out to the Data Protection Lead: Email: "
+"<code>%(email)s</code>"
+msgstr ""
+"Da biste kontaktirali Subsurface, obratite se voditelju zaštite podataka: "
+"E-pošta:<code>%(email)s</code>"
+
+#: templates/privacy-policy.html:30
+msgid ""
+"Post mail: Subsurface Data Protection Lead, c/o DH Consulting, 12725 SW "
+"Millikan Way, #300 Beaverton, OR 97005 USA."
+msgstr ""
+"Poštom: Subsurface Data Protection Lead, c/o DH Consulting, 12725 SW "
+"Millikan Way, #300 Beaverton, OR 97005 USA."
+
+#: templates/privacy-policy.html:33
+#, python-format
+msgid ""
+"The EU regulatory authority Subsurface comes under is: <a "
+"%(link)s>https://datenschutz.hessen.de/</a>."
+msgstr ""
+"Regulatorno tijelo EU pod koje Subsurface spada je: <a "
+"%(link)s>https://datenschutz.hessen.de/</a>."
+
+#: templates/privacy-policy.html:36
+msgid ""
+"With the GDPR compliance out of the way, here is the summary that applies to"
+" everyone (since we don't actually track where you are from):"
+msgstr ""
+"S riješenom usklađenosti s GDPR-om, evo sažetka koji se odnosi na sve "
+"(budući da zapravo ne pratimo odakle ste):"
+
+#: templates/privacy-policy.html:39
+msgid ""
+"It’s simple. We do not use your data. We do not care who your friends are. "
+"We do not intend to market to you or to do anything else that’s annoying. "
+"There is no monetization and no other use or processing of your data - we "
+"only store it with the purpose of making it available to you again on your "
+"devices."
+msgstr ""
+"Jednostavno je. Ne koristimo vaše podatke. Nije nas briga tko su vam "
+"prijatelji. Nemamo vam namjeru reklamirati ili raditi bilo što drugo što vas"
+" iritira. Nema monetizacije niti druge upotrebe ili obrade vaših podataka - "
+"pohranjujemo ih samo u svrhu da vam ponovno budu dostupni na vašim "
+"uređajima."
+
+#: templates/subsurface-user-manual.html:13
+msgid "Subsurface User Manual"
+msgstr "Subsurface korisnički priručnik"
+
+#: templates/supported-dive-computers.html:15
+msgid ""
+"Currently, these divecomputers are supported in Subsurface. Please note that"
+" Subsurface-mobile only supports a subset of these devices."
+msgstr ""
+"Trenutno su ova ronilačka računala podržana u Subsurfaceu. Imajte na umu da "
+"Subsurface-mobile podržava samo podskup ovih uređaja."
+
+#: templates/thanks.html:13
+msgid "Thanks"
+msgstr "Zahvale"
+
+#: templates/thanks.html:15
+#, python-format
+msgid ""
+"The Subsurface team would like to thank a few companies and individuals for "
+"their help through documentation, hardware donations, loaner devices, and <a"
+" %(link)s>sponsorship</a> of the project:"
+msgstr ""
+"Subsurface tim želi zahvaliti nekoliko tvrtki i pojedinaca na njihovoj "
+"pomoći kroz dokumentaciju, donacije hardvera, posuđene uređaje i <a "
+"%(link)s>sponzorstvo</a> projekta:"
+
+#: templates/tutorial-video.html:15
+msgid ""
+"This video is based on a slightly older version of Subsurface, but should "
+"still be very useful to get an idea of the functionality."
+msgstr ""
+"Ovaj se video temelji na nešto starijoj verziji Subsurfacea, ali bi i dalje "
+"trebao biti vrlo koristan da biste dobili ideju o funkcionalnosti."
+
+#: templates/tutorial-video.html:29
+msgid ""
+"You can also download the video for offline viewing, using one of the "
+"following links:"
+msgstr ""
+"Također možete preuzeti video za offline gledanje koristeći jednu od "
+"sljedećih poveznica:"
+
+#: templates/tutorial-video.html:37
+msgid "or any other of the links at"
+msgstr "ili bilo koji drugi link na"
+
+#: templates/tutorial-video.html:41
+#, python-format
+msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
+msgstr "i gledajte ga s bilo kojim video playerom (npr.: <a %(vlc)s>VLC</a>)."
+
+#: templates/user-forum.html:15
+#, python-format
+msgid ""
+"Do you have questions, comments, or suggestions for Subsurface? Please join "
+"our <a %(link)s>User Forum</a>."
+msgstr ""
+"Imate li pitanja, komentara ili prijedloga za Subsurface? Pridružite se "
+"našem <a %(link)s>korisničkom forumu</a>."
+
+#: templates/user-forum.html:18
+msgid ""
+"You can access it on the Subsurface Google Group website or you can "
+"subscribe to it via email; simply check the corresponding box when joining "
+"the forum."
+msgstr ""
+"Možete mu pristupiti na stranicama Subsurface Google Groupe ili se na njega "
+"možete pretplatiti putem e-pošte; jednostavno označite odgovarajuću kućicu "
+"kada se pridružite forumu."
