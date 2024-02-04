@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-02 23:54+0000\n"
+"POT-Creation-Date: 2024-02-04 22:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,8 +49,8 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
-#: templates/base.html:107 templates/contributing.html:13
-msgid "Contributing"
+#: templates/base.html:107 templates/contribute.html:13
+msgid "Contribute"
 msgstr ""
 
 #: templates/base.html:114
@@ -72,11 +72,11 @@ msgid ""
 " in English…)"
 msgstr ""
 
-#: templates/contributing.html:3
-msgid "Contributing to Subsurface"
+#: templates/contribute.html:3
+msgid "Contribute to Subsurface"
 msgstr ""
 
-#: templates/contributing.html:15
+#: templates/contribute.html:15
 msgid ""
 "Subsurface is a community driven open source project. It is available "
 "free of charge to everybody, and nobody gets paid to work on it. If you "
@@ -84,65 +84,65 @@ msgid ""
 " ways you can do so:"
 msgstr ""
 
-#: templates/contributing.html:17
+#: templates/contribute.html:17
 msgid "By Writing Code"
 msgstr ""
 
-#: templates/contributing.html:19
+#: templates/contribute.html:19
 #, python-format
 msgid ""
 "If you are a software developer (of any experience level), your help with"
 " maintaining and extending Subsurface will be greatly appreciated. Have a"
-" look at <a %(link)s>the code contribution page on GitHub</a> to see how "
+" look at our <a %(link)s>code contribution page on GitHub</a> to see how "
 "you can get started."
 msgstr ""
 
-#: templates/contributing.html:22
+#: templates/contribute.html:22
 msgid "By Testing"
 msgstr ""
 
-#: templates/contributing.html:24
+#: templates/contribute.html:24
 #, python-format
 msgid ""
 "If you would like to work closely with our developers and give them a "
-"hand in testing the latest features and bugfixes, please head over to the"
+"hand in testing the latest features and bugfixes, please head over to our"
 " code contribution page on GitHub to find out <a %(link)s>how to join the"
 " community</a>. We especially need people running Windows and Mac (as the"
 " majority of the active developers are Linux people)."
 msgstr ""
 
-#: templates/contributing.html:27
+#: templates/contribute.html:27
 msgid "By Writing Documentation"
 msgstr ""
 
-#: templates/contributing.html:29
+#: templates/contribute.html:29
 #, python-format
 msgid ""
 "If you are good with words you can help us by writing, reviewing, and "
 "improving documentation and articles for our website. To get started "
-"please head over to the code contribution page on GitHub to find out <a "
+"please head over to our code contribution page on GitHub to find out <a "
 "%(link)s>how to join the community</a>."
 msgstr ""
 
-#: templates/contributing.html:32
+#: templates/contribute.html:32
 msgid "By Improving the User Experience"
 msgstr ""
 
-#: templates/contributing.html:34
+#: templates/contribute.html:34
 #, python-format
 msgid ""
 "If you like to obsess over usability and user experience, and ideally "
 "have some experience in UX and / or web design, we can always use help "
 "with improving the user experience and visual design of Subsurface and of"
-" our website. To get started please head over to the code contribution "
+" our website. To get started please head over to our code contribution "
 "page on GitHub to find out <a %(link)s>how to join the community</a>."
 msgstr ""
 
-#: templates/contributing.html:37
+#: templates/contribute.html:37
 msgid "By Translating Subsurface"
 msgstr ""
 
-#: templates/contributing.html:39
+#: templates/contribute.html:39
 #, python-format
 msgid ""
 "If you are a non-English-speaker, and would like to be able to use "
@@ -153,11 +153,11 @@ msgid ""
 "Team</a>."
 msgstr ""
 
-#: templates/contributing.html:43
+#: templates/contribute.html:43
 msgid "By Helping Other Users"
 msgstr ""
 
-#: templates/contributing.html:45
+#: templates/contribute.html:45
 #, python-format
 msgid ""
 "We want to make Subsurface as friendly and welcoming to new users as "
@@ -166,11 +166,11 @@ msgid ""
 "from new users."
 msgstr ""
 
-#: templates/contributing.html:48
+#: templates/contribute.html:48
 msgid "By Supporting Us Financially"
 msgstr ""
 
-#: templates/contributing.html:50 templates/sponsoring.html:15
+#: templates/contribute.html:50 templates/sponsoring.html:15
 #, python-format
 msgid ""
 "Running the Subsurface project costs money. This is particularly the case"
@@ -492,11 +492,12 @@ msgid ""
 "commercial dive log program, there are plenty others to choose from."
 msgstr ""
 
-#: templates/faq.html:67 templates/faq.html:667
+#: templates/faq.html:67
 #, python-format
 msgid ""
 "If you would like to contribute and help, there are many ways to do so. "
-"Please take a look at our <a %(contributing)s>contributing</a> page."
+"Our '<a %(contribute)s>Contribute</a>' page lists a few options and "
+"provides information on how to get started."
 msgstr ""
 
 #: templates/faq.html:76
@@ -519,7 +520,7 @@ msgstr ""
 msgid ""
 "You are of course invited and encouraged to provide an implementation for"
 " your desired new feature. Please take a look at our <a "
-"%(contributing)s>contributing</a> page."
+"%(code_contribution)s>code contribution page on GitHub</a>."
 msgstr ""
 
 #: templates/faq.html:94
@@ -561,7 +562,7 @@ msgid ""
 "For technical reasons, some of the Windows binaries you can download from"
 " our website aren't signed at all, in which case Windows provides more "
 "and stronger warnings when trying to use them. As long as you download "
-"the binaries from this website they are save and do not contain any "
+"the binaries from this website they are safe and do not contain any "
 "malware."
 msgstr ""
 
@@ -672,8 +673,8 @@ msgid ""
 "For technical reasons, some of the macOS DMGs you can download from our "
 "website aren't signed at all, in which case macOS will force you to go "
 "through the System Preferences / Security in order to allow you to start "
-"Subsurface. As long as you download the DMG from this website it are save"
-" and does not contain any malware."
+"Subsurface. As long as you download the DMG from this website it is safe "
+"and does not contain any malware."
 msgstr ""
 
 #: templates/faq.html:240
@@ -753,8 +754,8 @@ msgstr ""
 #, python-format
 msgid ""
 "If you would like to contribute and help, this is a perfect opportunity "
-"to do so. Please take a look at our <a %(contributing)s>contributing</a> "
-"page."
+"to do so. Please take a look at our <a %(code_contribution)s>code "
+"contribution page on GitHub</a>."
 msgstr ""
 
 #: templates/faq.html:337
@@ -1156,6 +1157,13 @@ msgid ""
 " to the dive computer using a similar existing model (if possible). But "
 "generally it might make the most sense to first reach out in order to "
 "avoid wasting your time."
+msgstr ""
+
+#: templates/faq.html:667
+#, python-format
+msgid ""
+"If you would like to contribute and help, there are many ways to do so. "
+"Please take a look at our '<a %(contribute)s>Contribute</a>' page."
 msgstr ""
 
 #: templates/faq.html:676
