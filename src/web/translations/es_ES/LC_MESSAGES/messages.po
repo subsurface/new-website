@@ -4,13 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
+# Dirk Hohndel <dirk@hohndel.org>, 2024
 # Boret <salvador.cunat@gmail.com>, 2024
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-28 22:14+0000\n"
+"POT-Creation-Date: 2024-02-02 23:54+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Boret <salvador.cunat@gmail.com>, 2024\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/subsurface/teams/15508/es_ES/)\n"
@@ -322,13 +324,13 @@ msgstr ""
 "%(link)s>Últimas Versiones</a>."
 
 #: templates/current-release.html:32 templates/current-release.html:46
-#: templates/current-release.html:60 templates/current-release.html:108
-#: templates/latest-release.html:29 templates/latest-release.html:43
-#: templates/latest-release.html:57 templates/latest-release.html:105
+#: templates/current-release.html:60 templates/current-release.html:122
+#: templates/latest-release.html:35 templates/latest-release.html:49
+#: templates/latest-release.html:63 templates/latest-release.html:125
 msgid "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 msgstr "Descargar...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 
-#: templates/current-release.html:38 templates/latest-release.html:35
+#: templates/current-release.html:38 templates/latest-release.html:41
 msgid ""
 "This Subsurface Windows installer is not signed and Windows will likely ask "
 "you to confirm that you want to install this program."
@@ -346,7 +348,7 @@ msgstr ""
 " Mac no quiere instalar esta imagen, por favor, avísanos en el <a "
 "%(link)s>Foro de usuarios</a>."
 
-#: templates/current-release.html:67 templates/latest-release.html:64
+#: templates/current-release.html:67 templates/latest-release.html:70
 msgid ""
 "The Subsurface Android APK can be side-loaded on most Android devices. If "
 "you previously had installed Subsurface-mobile from the Google Play store, "
@@ -364,7 +366,7 @@ msgstr ""
 "instales la APK y te vuelvas a logar en la Nube de Subsurface, los datos se "
 "restaurarán. Las actualizaciones posteriores no requerirán desinstalar."
 
-#: templates/current-release.html:70 templates/latest-release.html:67
+#: templates/current-release.html:70 templates/latest-release.html:73
 #, python-format
 msgid ""
 "A brief explanation of the concept of side-loading can be found in <a "
@@ -374,7 +376,7 @@ msgstr ""
 "inglés) se puede encontrar en <a %(explanation)s> este artículo de "
 "androidcentral</a>."
 
-#: templates/current-release.html:79 templates/latest-release.html:76
+#: templates/current-release.html:79 templates/latest-release.html:82
 msgid "AppStore Link&nbsp;&nbsp;"
 msgstr "Enlace a AppStore&nbsp;&nbsp;"
 
@@ -393,21 +395,21 @@ msgstr ""
 "para iOs, pero el objetivo es actualizar también la versión de la AppStore a"
 " las versiones \"semanales\" con una frecuencia razonable."
 
-#: templates/current-release.html:91 templates/latest-release.html:88
+#: templates/current-release.html:91 templates/latest-release.html:94
 msgid ""
 "The Subsurface team is providing distribution packages for Ubuntu and Fedora"
-" as well as a generic \"AppImage\" that should work on most other x86_64 "
-"Linux distributions."
+" as well as a Snap and a generic \"AppImage\" that should work on most other"
+" x86_64 Linux distributions."
 msgstr ""
 "El equipo de Subsurface proporciona paquetes para Ubuntu y Fedora, así como "
-"una \"AppImage\" genérica que debería funcionar en la mayoría del resto de "
-"distribuciones de Linux para x86_64."
+"un Snap y una \"AppImage\" genérica que debería funcionar en la mayoría del "
+"resto de distribuciones de Linux para x86_64."
 
-#: templates/current-release.html:93 templates/latest-release.html:90
+#: templates/current-release.html:93 templates/latest-release.html:96
 msgid "Ubuntu and compatible distros"
 msgstr "Ubuntu y distribuciones compatibles"
 
-#: templates/current-release.html:94 templates/latest-release.html:91
+#: templates/current-release.html:94 templates/latest-release.html:97
 msgid ""
 "To use these binaries in Ubuntu, simply add the Subsurface Daily Release PPA"
 " to your system:"
@@ -415,26 +417,34 @@ msgstr ""
 "Para usar estos binarios en Ubuntu, simplemente añade la PPA de versiones "
 "diarias de Subsurface a tu sistema:"
 
-#: templates/current-release.html:96 templates/latest-release.html:93
+#: templates/current-release.html:96 templates/latest-release.html:99
 msgid ""
 "and then install Subsurface with <code>sudo apt install subsurface </code>"
 msgstr ""
 "y entonces instala Subsurface con <code>sudo apt install subsurface </code>"
 
-#: templates/current-release.html:98 templates/latest-release.html:95
+#: templates/current-release.html:98 templates/latest-release.html:101
 msgid "To install the Subsurface CICD binaries on Fedora simply run"
 msgstr ""
 "Para instalar los binarios CICD de Subsurface en Fedora, simplemente ejecuta"
 
-#: templates/current-release.html:100 templates/latest-release.html:97
+#: templates/current-release.html:100 templates/latest-release.html:103
 msgid "and then install Subsurface with <code>dnf install subsurface</code>"
 msgstr "y luego instala Subsurface con <code>dnf install subsurface</code>"
 
-#: templates/current-release.html:101 templates/latest-release.html:98
+#: templates/current-release.html:101 templates/latest-release.html:104
 msgid "Other x86_64 Linux distributions"
 msgstr "Otras distribuciones de Linux x86_64"
 
-#: templates/current-release.html:114 templates/latest-release.html:111
+#: templates/current-release.html:108 templates/latest-release.html:111
+msgid "Snap link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr "Snap link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+
+#: templates/current-release.html:114
+msgid "The 'candidate' Snap-channel contains our current build."
+msgstr "El canal de Snap 'candidate' contiene nuestra Versión Actual."
+
+#: templates/current-release.html:128 templates/latest-release.html:131
 #, python-format
 msgid ""
 "A generic AppImage is available. After you download this file, make it "
@@ -1959,6 +1969,10 @@ msgstr ""
 "en profundidad aún."
 
 #: templates/latest-release.html:20
+msgid "The latest change-sets merged into this release are:"
+msgstr "Los últimos cambios introducidos en esta publicación son:"
+
+#: templates/latest-release.html:26
 #, python-format
 msgid ""
 "If you are looking for a somewhat less \"bleeding edge\" set of builds, "
@@ -1967,7 +1981,7 @@ msgstr ""
 "Si estás buscando algo que sea menos \"de última hora\", por favor, "
 "considera la página <a %(link)s>Versión Actual</a>."
 
-#: templates/latest-release.html:49
+#: templates/latest-release.html:55
 msgid ""
 "The Subsurface macOS DMG is not signed. macOS will force you through a few "
 "extra steps before you can install or run this program. You can simplify the"
@@ -1979,7 +1993,7 @@ msgstr ""
 "Puedes simplificar el proceso haciendo control-clic (o clic con dos dedos) "
 "en el ejecutable para abrirlo."
 
-#: templates/latest-release.html:82
+#: templates/latest-release.html:88
 #, python-format
 msgid ""
 "iOS is the only platform right now where in general side-loading or "
@@ -1996,6 +2010,10 @@ msgstr ""
 "para iOs. Intentamos enviar muchas de estas compilaciones a nuestra cuenta "
 "pública de TestFlight. Si te gusta estar al filo, puedes <a "
 "%(link)s>inscribirte en Subsurface-mobile TestFlight.</a>"
+
+#: templates/latest-release.html:117
+msgid "The 'edge' Snap-channel contains our latest build."
+msgstr "El canal de Snap 'edge' contiene nuestra Última Versión."
 
 #: templates/privacy-policy.html:15
 msgid ""
