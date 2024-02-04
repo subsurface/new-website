@@ -29,7 +29,7 @@
           </h2>
           <p class="text-center">
             <a href="/current-release">
-                [{{ _("Downloads for other platforms") }}]
+              [{{ _("Downloads for other platforms") }}]
             </a>
           </p>
         </div>
@@ -45,7 +45,7 @@
           </h2>
           <p class="text-center">
             <a href="/current-release">
-                [{{ _("Downloads for other platforms") }}]
+              [{{ _("Downloads for other platforms") }}]
             </a>
           </p>
         </div>
@@ -135,7 +135,7 @@
       <p>
         {{ _("You can tag dives and <strong>filter a dive list</strong> based on criteria including tags, locations and people with whom you were diving. You can group the dive list into trips, and edit multiple dives at the same time, making it easy to support a large number of dives.") }}
       </p>
-      <img class="img-fluid" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png"
+      <img class="img-fluid" src="{{ url_for('static', filename='images/TagsAndRating1.png') }}"
            alt="Screenshot of rating, tags and other data fields">
       <p>
         {{ _("Subsurface also calculates a wide variety of <strong>statistics</strong> of the user’s diving and tracks information like the SAC rate, partial pressures of O2, N2 and He, calculated deco information, and many more.") }}
@@ -154,7 +154,7 @@
       <p>
         {{ _("Another strength is its ability to <strong>visualize</strong> the depth profile (and, if available, the tank pressure curve) in innovative ways that give the user additional information on relative velocity, and momentary air consumption, during a dive. Users who dive with <strong>multiple dive computers</strong> can combine the data from each of their dive computers into one dive – allowing visualization of the data collected from multiple sources.") }}
       </p>
-      <img class="img-fluid" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Profile.png"
+      <img class="img-fluid" src="{{ url_for('static', filename='images/Profile.png') }}"
            alt="Screenshot of dive profile">
       <p>
         {{ _("Subsurface lets the user <strong>print</strong> out a detailed log book including dive profiles and other important information.") }}
