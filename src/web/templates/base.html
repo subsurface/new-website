@@ -84,10 +84,8 @@
                                       class="ms-1 d-none d-md-inline">{{ _("User Forum") }}</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{get_env("lang")+"/bugtracker"}}
-                               class=" nav-link
-                               {% if request.endpoint == 'bugtracker' %}ssrf{% else %}link-secondary{% endif %} px-md-0
-                               px-2">
+                            <a href={{get_env("lang")+"/bugtracker"}}
+                               class="nav-link {% if request.endpoint == 'bugtracker' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-bug"></i><span
                                       class="ms-1 d-none d-md-inline">{{ _("Bug Tracker") }}</span></a>
                         </li>
