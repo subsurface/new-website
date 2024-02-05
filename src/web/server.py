@@ -36,13 +36,26 @@ from flask import (
 description = """
 Simple backend to run the Subsurface website
 """
-languages = ["en", "de_DE", "fr_FR", "nl_NL", "it_IT", "es_ES", "pt_PT"]
+languages = [
+    "en",
+    "de_DE",
+    "el_GR",
+    "es_ES",
+    "fi_FI",
+    "fr_FR",
+    "hr_HR",
+    "hu_HU",
+    "it_IT",
+    "ko_KR",
+    "nl_NL",
+    "pt_PT",
+    "sv_SE",
+]
 load_dotenv()
 
 
 def get_locale():
     # try to guess the language from the user accept header the browser transmits.
-    # At the moment we support en/de/fr/nl/it/es/pt_pt.
     if request.args.get("lang"):
         session["lang"] = request.args.get("lang")
     if session.get("lang"):
