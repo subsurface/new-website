@@ -2206,7 +2206,7 @@ msgstr ""
 
 #: templates/tutorial-video.html:3 templates/tutorial-video.html:13
 msgid "Video Tutorial"
-msgstr "Video-Tutorial"
+msgstr "Video-Tutorial "
 
 #: templates/tutorial-video.html:15
 msgid ""
