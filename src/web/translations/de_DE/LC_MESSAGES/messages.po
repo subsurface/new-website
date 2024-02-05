@@ -9,11 +9,12 @@
 # Robert C. Helling <helling@atdotde.de>, 2024
 # Dirk Hohndel <dirk@hohndel.org>, 2024
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-05 00:56+0000\n"
+"POT-Creation-Date: 2024-02-05 17:38+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Dirk Hohndel <dirk@hohndel.org>, 2024\n"
 "Language-Team: German (Germany) (https://app.transifex.com/subsurface/teams/15508/de_DE/)\n"
@@ -36,15 +37,18 @@ msgstr "Aktuelle Version"
 msgid "Latest Dev Release"
 msgstr "Neuste Entwicklungsversion"
 
-#: templates/base.html:77
+#: templates/base.html:77 templates/documentation.html:3
+#: templates/documentation.html:13
 msgid "Documentation"
 msgstr "Hilfe"
 
-#: templates/base.html:84
+#: templates/base.html:84 templates/user-forum.html:3
+#: templates/user-forum.html:13
 msgid "User Forum"
 msgstr "Benutzer-Forum"
 
-#: templates/base.html:90
+#: templates/base.html:90 templates/bugtracker.html:3
+#: templates/bugtracker.html:13
 msgid "Bug Tracker"
 msgstr "Fehler melden"
 
@@ -52,7 +56,8 @@ msgstr "Fehler melden"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: templates/base.html:103
+#: templates/base.html:103 templates/privacy-policy.html:3
+#: templates/privacy-policy.html:13
 msgid "Privacy Policy"
 msgstr "Datenschutzerklärung"
 
@@ -60,7 +65,8 @@ msgstr "Datenschutzerklärung"
 msgid "Contribute"
 msgstr "Mitarbeiten"
 
-#: templates/base.html:116
+#: templates/base.html:116 templates/sponsoring.html:3
+#: templates/sponsoring.html:13
 msgid "Sponsoring"
 msgstr "Unterstützen"
 
@@ -232,6 +238,10 @@ msgstr ""
 "Infrastruktur freut sich über Spenden, die seine Ausgaben unterstützen. Wer "
 "hier beitragen möchte, kann das auf <a %(link)s>Dirks Ko-fi-Seite</a> oder "
 "<a %(ghsponsor)s>Dirks GitHub-Sponsorenseite</a>tun."
+
+#: templates/credits.html:3 templates/credits.html:13
+msgid "Credits"
+msgstr "Anerkennung"
 
 #: templates/credits.html:15
 #, python-format
@@ -458,6 +468,10 @@ msgstr ""
 "ausführbar mit <code>chmod +x Subsurface-v%(version)s-CICD-"
 "release.AppImage</code> und starte direkt diese Datei."
 
+#: templates/data-deletion.html:3 templates/data-deletion.html:13
+msgid "Deleting Cloud Data and Account"
+msgstr "Löschen von Cloud-Daten und Konto"
+
 #: templates/data-deletion.html:15
 #, python-format
 msgid ""
@@ -467,7 +481,7 @@ msgid ""
 "divelog</a>."
 msgstr ""
 "Deine Daten in der Subsurface Cloud können aus der mobilen App gelöscht "
-"werden oder deine Daten und dein Account wird umgehend gelöscht, wenn Du "
+"werden oder deine Daten und dein Account wird umgehend gelöscht, wenn du "
 "dies per Mail vom Subsurface-Team unter <a %(link)s>in-app-"
 "support@subsurface-divelog</a>verlangst."
 
@@ -686,7 +700,7 @@ msgid ""
 "naive ideal gas laws. Unfortunately, real gases aren't ideal gases. And "
 "Subsurface <a %(sac)s>takes the compressibility of gases into account</a>."
 msgstr ""
-"Wahrscheinlich erwartest Du, dass der Gasverbrauch den (naiven) Regeln des "
+"Wahrscheinlich erwartest du, dass der Gasverbrauch den (naiven) Regeln des "
 "idealen Gases folgen, wie du sie in deinem Tauchkurs gelernt hast, "
 "insbesondere des Boyle-Mariotte-Gesetzes. Reale Gase folgen diesem Gesetz "
 "jedoch nicht genau. Aber Subsurface berücksichtigt die <a "
@@ -801,7 +815,7 @@ msgid ""
 "built on a Windows machine, it is cross built from source on Linux on a well"
 " maintained and clean server image."
 msgstr ""
-"Wenn Du eine Warnung bekommst oder Subsurface von deiner Anti-Viren-Software"
+"Wenn du eine Warnung bekommst oder Subsurface von deiner Anti-Viren-Software"
 " (AV) blockiert wird, ist das fast immer ein Fehlalarm. Subsurface wird "
 "nicht auf einem Windows-Computer übersetzt, es wird auf einem gut "
 "gewarteten, sauberen Linux-Server cross-kompiliert."
@@ -885,8 +899,8 @@ msgid ""
 " does not contain any malware."
 msgstr ""
 "Aus technischen Gründen sind einige der auf unserer Seite verfügbaren DMGs "
-"für MacOS nicht signiert. In diesem Fall erfordert MacOS, dass Du in den "
-"Systemeinstellungen/Sicherheit den Start von Subsurface erlaubst. Solange Du"
+"für MacOS nicht signiert. In diesem Fall erfordert MacOS, dass du in den "
+"Systemeinstellungen/Sicherheit den Start von Subsurface erlaubst. Solange du"
 " das DMG von dieser Webseite herunter geladen hast, ist es sicher und "
 "enthält keine Malware."
 
@@ -1338,7 +1352,7 @@ msgid ""
 msgstr ""
 "Eine andere Möglichkeit besteht darin, dass die Logbücher von verschiedenen "
 "Benutzern in verschiedenen Dateien gespeichert werden. In Subsurface kannst "
-"Du verschiedene Dateien für verschiedene Taucher öffnen und mehrere Benutzer"
+"du verschiedene Dateien für verschiedene Taucher öffnen und mehrere Benutzer"
 " werden auf diese Weise hinreichend gut unterstützt. Der Nachteil ist hier "
 "aber, dass das nicht zusammen mit der Subsurface Cloud funktioniert."
 
@@ -1359,7 +1373,7 @@ msgstr ""
 "mit der <code>--user</code> Option, also etwa <code>subsurface "
 "--user=joebloggs</code>. Aus dieser Benutzer-spezifischen Umgebung kannst du"
 " dann sowohl auf lokal gespeicherte oder auf Cloud Logbücher zugreifen. Wenn"
-" Du verschiedene Desktop-Verknüpfungen inklusive dieser Option erstellst, "
+" du verschiedene Desktop-Verknüpfungen inklusive dieser Option erstellst, "
 "vereinfacht das die Benutzung."
 
 #: templates/faq.html:568
@@ -1801,7 +1815,7 @@ msgstr ""
 
 #: templates/home.html:32 templates/home.html:48
 msgid "Downloads for other platforms"
-msgstr "Übertragungen für andere Plattformen"
+msgstr "Downloads für andere Plattformen"
 
 #: templates/home.html:74
 msgid "Multiplatform"
@@ -2162,9 +2176,10 @@ msgstr ""
 "speichern sie ausschließlich, um sie Nemutzern wieder auf Ihren Geräten zur "
 "Verfügung zu stellen."
 
-#: templates/subsurface-user-manual.html:13
-msgid "Subsurface User Manual"
-msgstr "Subsurface Benutzerhandbuch"
+#: templates/supported-dive-computers.html:3
+#: templates/supported-dive-computers.html:13
+msgid "Supported Dive Computers"
+msgstr "Unterstützte Tauchcomputer"
 
 #: templates/supported-dive-computers.html:15
 msgid ""
@@ -2174,7 +2189,7 @@ msgstr ""
 "Momentan werden diese Tauchcomputer von Subsurface unterstützt. Bitte "
 "beachte, dass Subsurface-mobile nur einen Teil davon unterstützt."
 
-#: templates/thanks.html:13
+#: templates/thanks.html:3 templates/thanks.html:13
 msgid "Thanks"
 msgstr "Dank"
 
@@ -2188,6 +2203,10 @@ msgstr ""
 "Das Subsurface-Team möchte einigen Unternehmen und Einzelpersonen für ihre "
 "Hilfe durch Dokumentation, Hardware-Spenden, Leihgeräte und <a "
 "%(link)s>finanzielle Unterstützung</a> des Projekts danken."
+
+#: templates/tutorial-video.html:3 templates/tutorial-video.html:13
+msgid "Video Tutorial"
+msgstr "Video-Tutorial"
 
 #: templates/tutorial-video.html:15
 msgid ""
