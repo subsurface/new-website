@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-05 17:21+0000\n"
+"POT-Creation-Date: 2024-02-05 17:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,8 @@ msgstr ""
 msgid "User Forum"
 msgstr ""
 
-#: templates/base.html:90
+#: templates/base.html:90 templates/bugtracker.html:3
+#: templates/bugtracker.html:13
 msgid "Bug Tracker"
 msgstr ""
 
@@ -59,10 +60,6 @@ msgstr ""
 #: templates/base.html:116 templates/sponsoring.html:3
 #: templates/sponsoring.html:13
 msgid "Sponsoring"
-msgstr ""
-
-#: templates/bugtracker.html:3 templates/bugtracker.html:13
-msgid "Bugtracker"
 msgstr ""
 
 #: templates/bugtracker.html:15
