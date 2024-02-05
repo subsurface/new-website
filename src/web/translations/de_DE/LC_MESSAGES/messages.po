@@ -468,7 +468,7 @@ msgid ""
 "divelog</a>."
 msgstr ""
 "Deine Daten in der Subsurface Cloud können aus der mobilen App gelöscht "
-"werden oder deine Daten und dein Account wird umgehend gelöscht, wenn Du "
+"werden oder deine Daten und dein Account wird umgehend gelöscht, wenn du "
 "dies per Mail vom Subsurface-Team unter <a %(link)s>in-app-"
 "support@subsurface-divelog</a>verlangst."
 
