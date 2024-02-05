@@ -6,7 +6,6 @@
 # Translators:
 # Wonchan Lee (Andrew), 2024
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
