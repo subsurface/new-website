@@ -7,7 +7,6 @@
 # Dirk Hohndel <dirk@hohndel.org>, 2024
 # Boret <salvador.cunat@gmail.com>, 2024
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
