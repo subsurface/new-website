@@ -43,7 +43,7 @@
       <h4>{{ _("By Helping Other Users") }}</h4>
       <p>
         {{ _("We want to make Subsurface as friendly and welcoming to new users as possible. If you are a seasoned user of Subsurface please join our <a %(link)s>User Forum</a> and provide helpful responses to the questions from new users.",
-        link="href=/user-forum") }}
+        link="href="+get_env("lang")+"/user-forum") }}
       </p>
       <h4>{{ _("By Supporting Us Financially") }}</h4>
       <p>

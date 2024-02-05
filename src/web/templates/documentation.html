@@ -14,23 +14,27 @@
       <p>
         {{ _("This page provides an overview of most of the user-facing documentation for Subsurface")}}
       <ul>
-        <li>{{ _("<a %(faq)s>FAQ</a>", faq="href=/faq") }}</li>
-        <li>{{ _("<a %(supporteddc)s>Supported Dive Computers</a>", supporteddc="href=supported-dive-computers") }}</li>
+        <li>{{ _("<a %(faq)s>FAQ</a>", faq="href="+get_env("lang")+"/faq") }}</li>
         <li>
-          {{ _("<a %(video)s>(fairly old) Video Tutorial</a>", video="href=/tutorial-video") }}
-        </li>
-        <li>{{ _("<a %(manual)s>Subsurface User Manual</a>", manual="href=/subsurface-user-manual") }}</li>
-        <li>
-          {{ _("<a %(mobilemanual)s>Subsurface-mobile User Manual</a>", mobilemanual="href=/subsurface-mobile-user-manual") }}
+          {{ _("<a %(supporteddc)s>Supported Dive Computers</a>", supporteddc="href="+get_env("lang")+"/supported-dive-computers") }}
         </li>
         <li>
-          {{ _("<a %(datadeletion)s>Deleting Cloud Data and Account</a>", datadeletion="href=/data-deletion") }}
+          {{ _("<a %(video)s>(fairly old) Video Tutorial</a>", video="href="+get_env("lang")+"/tutorial-video") }}
         </li>
         <li>
-          {{ _("<a %(credits)s>Credits</a>", credits="href=/credits") }}
+          {{ _("<a %(manual)s>Subsurface User Manual</a>", manual="href="+get_env("lang")+"/subsurface-user-manual") }}
         </li>
         <li>
-          {{ _("<a %(thanks)s>Thanks</a>", thanks="href=/thanks") }}
+          {{ _("<a %(mobilemanual)s>Subsurface-mobile User Manual</a>", mobilemanual="href="+get_env("lang")+"/subsurface-mobile-user-manual") }}
+        </li>
+        <li>
+          {{ _("<a %(datadeletion)s>Deleting Cloud Data and Account</a>", datadeletion="href="+get_env("lang")+"/data-deletion") }}
+        </li>
+        <li>
+          {{ _("<a %(credits)s>Credits</a>", credits="href="+get_env("lang")+"/credits") }}
+        </li>
+        <li>
+          {{ _("<a %(thanks)s>Thanks</a>", thanks="href="+get_env("lang")+"/thanks") }}
         </li>
       </ul>
       </p>

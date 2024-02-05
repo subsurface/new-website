@@ -43,10 +43,10 @@
                 {{ _("Subsurface runs on Windows 10 and newer, MacOS 10.15 and newer, and many flavors of Linux. Mobile versions of Subsurface are available for Android and iOS allow a portable platform for viewing your dive log and performing minor edits; depending on your OS/hardware comby, you may even be able to download dive data directly from your dive computer using Subsurface-mobile.") }}
               </p>
               <p>
-                {{ _("We provide Linux packages for some Linux distributions (currently Ubuntu and Fedora, Debian is supported by a community contributor). Additionally, a Snap package and a generic AppImage are available for other distributions of Linux. Details on where to find Subsurface for your OS are on our <a %(crelease)s>current release</a> page.", crelease="href=/current-release/") }}
+                {{ _("We provide Linux packages for some Linux distributions (currently Ubuntu and Fedora, Debian is supported by a community contributor). Additionally, a Snap package and a generic AppImage are available for other distributions of Linux. Details on where to find Subsurface for your OS are on our <a %(crelease)s>current release</a> page.", crelease="href="+get_env("lang")+"/current-release/") }}
               </p>
               <p>
-                {{ _("Subsurface-mobile for iOS is available in the iOS App Store. Subsurface-mobile for Android is available as sideloaded APK at our <a %(crelease)s>current release</a> page.", crelease="href=/current-release/") }}
+                {{ _("Subsurface-mobile for iOS is available in the iOS App Store. Subsurface-mobile for Android is available as sideloaded APK at our <a %(crelease)s>current release</a> page.", crelease="href="+get_env("lang")+"/current-release/") }}
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@
                 {{ _("Subsurface is open source software. It's free to use. It's written by a group of enthusiasts who do this in their spare time - including providing the Subsurface Cloud storage and all the other infrastructure. Please understand that this also means that they will respond to your requests when they have time, and they generally don't appreciate being treated like the support team of a commercial vendor. If you'd like a commercial dive log program, there are plenty others to choose from.") }}
               </p>
               <p>
-                {{ _("If you would like to contribute and help, there are many ways to do so. Our '<a %(contribute)s>Contribute</a>' page lists a few options and provides information on how to get started.", contribute="href=/contribute/") }}
+                {{ _("If you would like to contribute and help, there are many ways to do so. Our '<a %(contribute)s>Contribute</a>' page lists a few options and provides information on how to get started.", contribute="href="+get_env("lang")+"/contribute/") }}
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@
           <div id="wininst_answer" class="accordion-collapse collapse" aria-labelledby="wininst" data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("Download the installer from our <a %(crelease)s>current release</a> page and double-click on it. You will get a warning that the installer is from an unknown publisher (but should identify that publisher as Dirk Hohndel / DH Consulting). Please click Yes to allow installation. Next you are presented with the license for Subsurface, after that you can choose where you would like to install Subsurface (the default should be reasonable in most cases) and the Start Menu Folder where a shortcut to call Subsurface and an entry to uninstall Subsurface will be installed.", crelease="href=/current-release/") }}
+                {{ _("Download the installer from our <a %(crelease)s>current release</a> page and double-click on it. You will get a warning that the installer is from an unknown publisher (but should identify that publisher as Dirk Hohndel / DH Consulting). Please click Yes to allow installation. Next you are presented with the license for Subsurface, after that you can choose where you would like to install Subsurface (the default should be reasonable in most cases) and the Start Menu Folder where a shortcut to call Subsurface and an entry to uninstall Subsurface will be installed.", crelease="href="+get_env("lang")+"/current-release/") }}
               </p>
               <p>
                 {{ _("For technical reasons, some of the Windows binaries you can download from our website aren't signed at all, in which case Windows provides more and stronger warnings when trying to use them. As long as you download the binaries from this website they are safe and do not contain any malware.") }}
@@ -167,7 +167,7 @@
                 {{ _("Great question - typically those are specific to the combination of dive computer and download cable that you use. And it's really hard to give universally correct answers.") }}
               </p>
               <p>
-                {{ _("Installing the vendor provided dive log software often is enough to trigger an install of those drivers, but sometimes things are a bit more complicated. Searching the <a %(forum)s>User Forum</a> often helps.", forum="href=/user-forum") }}
+                {{ _("Installing the vendor provided dive log software often is enough to trigger an install of those drivers, but sometimes things are a bit more complicated. Searching the <a %(forum)s>User Forum</a> often helps.", forum="href="+get_env("lang")+"/user-forum") }}
               </p>
             </div>
           </div>
@@ -222,7 +222,7 @@
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("Download the installer DMG from our <a %(crelease)s>current release</a> page and open it. Drag the Subsurface icon on to the Applications folder icon.", crelease="href=/current-release/") }}
+                {{ _("Download the installer DMG from our <a %(crelease)s>current release</a> page and open it. Drag the Subsurface icon on to the Applications folder icon.", crelease="href="+get_env("lang")+"/current-release/") }}
               </p>
               <p>
                 {{ _("When opening the Subsurface app for the first time, you will get a warning that this binary was downloaded from the internet. Depending on your settings and on whether or not this is a signed DMG, macOS will allow you to simply click Ok to open the app.") }}
@@ -325,7 +325,7 @@
                 {{ _("Adding support for another Linux distribution is generally a lot of work and given the tiny user numbers not likely to happen. But please, talk to us if you think there is a distribution that we should add instead of the ones that we currently support.") }}
               </p>
               <p>
-	      {{ _("If you would like to contribute and help, this is a perfect opportunity to do so. Please take a look at our <a %(code_contribution)s>code contribution page on GitHub</a>.", code_contribution="href=https://github.com/subsurface/subsurface/blob/master/CONTRIBUTING.md") }}
+                {{ _("If you would like to contribute and help, this is a perfect opportunity to do so. Please take a look at our <a %(code_contribution)s>code contribution page on GitHub</a>.", code_contribution="href=https://github.com/subsurface/subsurface/blob/master/CONTRIBUTING.md") }}
               </p>
             </div>
           </div>
@@ -344,7 +344,7 @@
                 {{ _("Yes, generally this is pretty easy (assuming you are somewhat familiar with C/C++ development under Linux). The <code>INSTALL</code> file in the source directory should get you started. Reach out to the developers if you need help beyond that (because likely that means we need to update the <code>INSTALL</code> file...).") }}
               </p>
               <p>
-	      {{ _("If you would like to contribute and help, this is a perfect opportunity to do so. Please take a look at our <a %(code_contribution)s>code contribution page on GitHub</a>.", code_contribution="href=https://github.com/subsurface/subsurface/blob/master/CONTRIBUTING.md") }}
+                {{ _("If you would like to contribute and help, this is a perfect opportunity to do so. Please take a look at our <a %(code_contribution)s>code contribution page on GitHub</a>.", code_contribution="href=https://github.com/subsurface/subsurface/blob/master/CONTRIBUTING.md") }}
               </p>
             </div>
           </div>
@@ -361,7 +361,7 @@
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("iOS users can simply install the Subsurface-mobile app that is available in iOS App Store. There is still an older version of Subsurface-mobile available in the Android Play Store, but because of the excessive bureaucracy and constantly changing rules and requirements associated with the Google Play store, we currently aren't able to update this package (and expect it to become unavailble at some point). To work around this, we have made an Android APK package available on our <a %(crelease)s>current release</a> page that can be side-loaded on most Android devices.", crelease="href=/current-release") }}
+                {{ _("iOS users can simply install the Subsurface-mobile app that is available in iOS App Store. There is still an older version of Subsurface-mobile available in the Android Play Store, but because of the excessive bureaucracy and constantly changing rules and requirements associated with the Google Play store, we currently aren't able to update this package (and expect it to become unavailble at some point). To work around this, we have made an Android APK package available on our <a %(crelease)s>current release</a> page that can be side-loaded on most Android devices.", crelease="href="+get_env("lang")+"/current-release") }}
               </p>
               <p>
                 {{ _("Once you have installed Subsurface-mobile on your device, enable cloud storage in Subsurface from your desktop or laptop and store your dive information in the Subsurface cloud. The dives will now be available on your mobile device as well. Subsurface-mobile does not support all the features of the desktop version of Subsurface. For example dive planning is not available in Subsurface-mobile.") }}
@@ -442,7 +442,7 @@
               </p>
               <p>
                 {{ _("You can also check the <a %(crelease)s>current release</a> page to look at our reasonably frequent
-                (“weekly”) updates.", crelease="href=/current-release/") }}
+                (“weekly”) updates.", crelease="href="+get_env("lang")+"/current-release/") }}
               </p>
             </div>
           </div>
@@ -458,7 +458,7 @@
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("There are multiple ways to import into Subsurface. Details can be found in the <a %(usermanual)s>User Manual</a>.", usermanual="href=/subsurface-user-manual") }}
+                {{ _("There are multiple ways to import into Subsurface. Details can be found in the <a %(usermanual)s>User Manual</a>.", usermanual="href="+get_env("lang")+"/subsurface-user-manual") }}
               </p>
               <p>
                 {{ _("Manually logged dives can directly be entered in the UI or (in the desktop version) imported from various forms of spreadsheets.") }}
@@ -658,13 +658,13 @@
           <div id="adddc_answer" class="accordion-collapse collapse" aria-labelledby="adddc" data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("We support a large number of dive computers already and are always happy to add support for more. Please contact us via the <a %(userforum)s>User Forum</a> so we can try to help. Some vendors have actively helped us in our work and adding support for new models from those vendors is usually easy. Other vendors are more neutral, some are actively hostile. Without help from the vendor it can be rather challenging to reverse engineer the transfer protocol and the dive encoding, but with sufficient help from you it is often possible to do so.", userforum="href=/user-forum") }}
+                {{ _("We support a large number of dive computers already and are always happy to add support for more. Please contact us via the <a %(userforum)s>User Forum</a> so we can try to help. Some vendors have actively helped us in our work and adding support for new models from those vendors is usually easy. Other vendors are more neutral, some are actively hostile. Without help from the vendor it can be rather challenging to reverse engineer the transfer protocol and the dive encoding, but with sufficient help from you it is often possible to do so.", userforum="href="+get_env("lang")+"/user-forum") }}
               </p>
               <p>
                 {{ _("A good starting point is often to send us a libdivecomputer log and dump (you can pick those in the dive computer download dialog) when connecting to the dive computer using a similar existing model (if possible). But generally it might make the most sense to first reach out in order to avoid wasting your time.") }}
               </p>
               <p>
-                {{ _("If you would like to contribute and help, there are many ways to do so. Please take a look at our '<a %(contribute)s>Contribute</a>' page.", contribute="href=/contribute/") }}
+                {{ _("If you would like to contribute and help, there are many ways to do so. Please take a look at our '<a %(contribute)s>Contribute</a>' page.", contribute="href="+get_env("lang")+"/contribute/") }}
               </p>
             </div>
           </div>
@@ -793,7 +793,7 @@
         </p>
       </div>
       <p class="my-5">
-        {{ _("This FAQ is maintained as part of our website in the <a %(webrepo)s>website repo</a>. Pull requests are of course welcome - you can also suggest additions to the FAQ in the <a %(userforum)s>User Forum</a>.", webrepo="href=https://github.com/subsurface/new-website", userforum="href=/user-forum") }}
+        {{ _("This FAQ is maintained as part of our website in the <a %(webrepo)s>website repo</a>. Pull requests are of course welcome - you can also suggest additions to the FAQ in the <a %(userforum)s>User Forum</a>.", webrepo="href=https://github.com/subsurface/new-website", userforum="href="+get_env("lang")+"/user-forum") }}
       </p>
     </div>
   </div>

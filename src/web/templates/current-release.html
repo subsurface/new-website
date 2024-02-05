@@ -20,7 +20,7 @@
         {{ _("We expect these builds to be reasonably stable and somewhat tested, and as the name suggests try to update them about once a week (the actual frequency may vary).")}}
       </p>
       <p>
-        {{ _("If you are looking for more \"bleeding edge\" releases builds, please check out the <a %(link)s>Latest Release Page</a>.", link="href=/latest-release") }}
+        {{ _("If you are looking for more \"bleeding edge\" releases builds, please check out the <a %(link)s>Latest Release Page</a>.", link="href="+get_env("lang")+"/latest-release") }}
       </p>
       <div class="row">
         <div class="col-md-auto mt-3">
@@ -49,7 +49,7 @@
           </h2>
         </div>
         <div class="col-12 col-md-6 mt-3">
-          {{ _("We try to post a signed Subsurface macOS DMG here. If your Mac doesn't want to install this image, please let us know in the <a %(link)s>User Forum</a>.", link="href=https://subsurface-divelog.org/user-forum/") }}
+          {{ _("We try to post a signed Subsurface macOS DMG here. If your Mac doesn't want to install this image, please let us know in the <a %(link)s>User Forum</a>.", link="href="+get_env("lang")+"/user-forum/") }}
         </div>
         <div class="col-12"></div>
         <div class="col-md-auto mt-3">

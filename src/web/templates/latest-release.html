@@ -23,7 +23,7 @@
       </ul>
       </p>
       <p>
-        {{ _("If you are looking for a somewhat less \"bleeding edge\" set of builds, please consider the <a %(link)s>Current Release Page</a>.", link="href=/current-release") }}
+        {{ _("If you are looking for a somewhat less \"bleeding edge\" set of builds, please consider the <a %(link)s>Current Release Page</a>.", link="href="+get_env("lang")+"/current-release") }}
       </p>
       <div class="row">
         <div class="col-md-auto mt-3">
