@@ -6,11 +6,12 @@
 # Translators:
 # Peter Zaal, 2024
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-02 23:54+0000\n"
+"POT-Creation-Date: 2024-02-05 17:38+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Peter Zaal, 2024\n"
 "Language-Team: Dutch (Netherlands) (https://app.transifex.com/subsurface/teams/15508/nl_NL/)\n"
@@ -21,43 +22,48 @@ msgstr ""
 "Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/base.html:55
+#: templates/base.html:57
 msgid "Home"
 msgstr "Start"
 
-#: templates/base.html:62
+#: templates/base.html:64
 msgid "Current Release"
 msgstr "Huidige versie"
 
-#: templates/base.html:69
+#: templates/base.html:71
 msgid "Latest Dev Release"
 msgstr "Laatste ontwikkelversie"
 
-#: templates/base.html:75
+#: templates/base.html:77 templates/documentation.html:3
+#: templates/documentation.html:13
 msgid "Documentation"
 msgstr "Documentatie"
 
-#: templates/base.html:82
+#: templates/base.html:84 templates/user-forum.html:3
+#: templates/user-forum.html:13
 msgid "User Forum"
 msgstr "Gebruikersforum"
 
-#: templates/base.html:88
+#: templates/base.html:90 templates/bugtracker.html:3
+#: templates/bugtracker.html:13
 msgid "Bug Tracker"
 msgstr "Bugtracker"
 
-#: templates/base.html:94
+#: templates/base.html:96
 msgid "FAQ"
 msgstr "FAQ"
 
-#: templates/base.html:101
+#: templates/base.html:103 templates/privacy-policy.html:3
+#: templates/privacy-policy.html:13
 msgid "Privacy Policy"
 msgstr "Privacybeleid"
 
-#: templates/base.html:107 templates/contributing.html:13
-msgid "Contributing"
+#: templates/base.html:109 templates/contribute.html:13
+msgid "Contribute"
 msgstr "Bijdragen"
 
-#: templates/base.html:114
+#: templates/base.html:116 templates/sponsoring.html:3
+#: templates/sponsoring.html:13
 msgid "Sponsoring"
 msgstr "Sponsoring"
 
@@ -82,11 +88,11 @@ msgstr ""
 "andere talen te beantwoorden (niet iedereen vindt het gemakkelijk om in het "
 "Engels te schrijven...)"
 
-#: templates/contributing.html:3
-msgid "Contributing to Subsurface"
+#: templates/contribute.html:3
+msgid "Contribute to Subsurface"
 msgstr "Bijdragen aan Subsurface"
 
-#: templates/contributing.html:15
+#: templates/contribute.html:15
 msgid ""
 "Subsurface is a community driven open source project. It is available free "
 "of charge to everybody, and nobody gets paid to work on it. If you like it "
@@ -98,85 +104,85 @@ msgstr ""
 "het je bevalt en een bijdrage wilt leveren, dan kun je dat op verschillende "
 "manieren doen:"
 
-#: templates/contributing.html:17
+#: templates/contribute.html:17
 msgid "By Writing Code"
 msgstr "Door programmeren en code bijdragen"
 
-#: templates/contributing.html:19
+#: templates/contribute.html:19
 #, python-format
 msgid ""
 "If you are a software developer (of any experience level), your help with "
 "maintaining and extending Subsurface will be greatly appreciated. Have a "
-"look at <a %(link)s>the code contribution page on GitHub</a> to see how you "
+"look at our <a %(link)s>code contribution page on GitHub</a> to see how you "
 "can get started."
 msgstr ""
 "Als je een softwareontwikkelaar bent (van elk ervaringsniveau), wordt je "
 "hulp bij het onderhouden en uitbreiden van Subsurface zeer op prijs gesteld."
-" Kijk op <a %(link)s>de code bijdragen pagina op GitHub</a> om te zien hoe "
-"je aan de slag kunt."
+" Kijk op onze <a %(link)s>code bijdragen pagina op GitHub</a> om te zien hoe"
+" je aan de slag kunt."
 
-#: templates/contributing.html:22
+#: templates/contribute.html:22
 msgid "By Testing"
 msgstr "Door testen"
 
-#: templates/contributing.html:24
+#: templates/contribute.html:24
 #, python-format
 msgid ""
 "If you would like to work closely with our developers and give them a hand "
-"in testing the latest features and bugfixes, please head over to the code "
+"in testing the latest features and bugfixes, please head over to our code "
 "contribution page on GitHub to find out <a %(link)s>how to join the "
 "community</a>. We especially need people running Windows and Mac (as the "
 "majority of the active developers are Linux people)."
 msgstr ""
 "Als je graag nauw wilt samenwerken met onze ontwikkelaars en ze een handje "
 "wilt helpen bij het testen van de nieuwste functies en bugfixes, ga dan naar"
-" de pagina voor codebijdragen op GitHub om te zien <a %(link)s>hoe je lid "
+" onze pagina voor codebijdragen op GitHub om te zien <a %(link)s>hoe je lid "
 "kunt worden van de community</a>. We hebben vooral mensen nodig die Windows "
-"of Mac gebruiken (aangezien de meerderheid van de actieve ontwikkelaars "
-"Linux-mensen zijn)."
+"en Mac draaien (aangezien de meerderheid van de actieve ontwikkelaars Linux-"
+"mensen zijn)."
 
-#: templates/contributing.html:27
+#: templates/contribute.html:27
 msgid "By Writing Documentation"
 msgstr "Door het schrijven van documentatie"
 
-#: templates/contributing.html:29
+#: templates/contribute.html:29
 #, python-format
 msgid ""
 "If you are good with words you can help us by writing, reviewing, and "
 "improving documentation and articles for our website. To get started please "
-"head over to the code contribution page on GitHub to find out <a "
+"head over to our code contribution page on GitHub to find out <a "
 "%(link)s>how to join the community</a>."
 msgstr ""
-"Als je goed bent met woorden, kun je ons helpen door documentatie en "
-"artikelen voor onze website te schrijven, beoordelen en verbeteren. Om te "
-"beginnen ga naar de pagina voor codebijdragen op GitHub om te zien <a "
+"Als je goed met woorden bent, kun je ons helpen door het schrijven, "
+"beoordelen en verbeteren van documentatie en artikelen voor onze website. "
+"Kijk om te beginnen op onze codebijdragen pagina op GitHub om te zien <a "
 "%(link)s>hoe je lid kunt worden van de community</a>."
 
-#: templates/contributing.html:32
+#: templates/contribute.html:32
 msgid "By Improving the User Experience"
 msgstr "Door de gebruikerservaring te verbeteren"
 
-#: templates/contributing.html:34
+#: templates/contribute.html:34
 #, python-format
 msgid ""
 "If you like to obsess over usability and user experience, and ideally have "
 "some experience in UX and / or web design, we can always use help with "
 "improving the user experience and visual design of Subsurface and of our "
-"website. To get started please head over to the code contribution page on "
+"website. To get started please head over to our code contribution page on "
 "GitHub to find out <a %(link)s>how to join the community</a>."
 msgstr ""
 "Als je graag bezig bent met gebruiksvriendelijkheid en gebruikerservaring, "
 "en idealiter enige ervaring hebt in UX en/of webdesign, kunnen we altijd "
 "hulp gebruiken bij het verbeteren van de gebruikerservaring en het visuele "
-"ontwerp van Subsurface en onze website. Ga om te beginnen naar de pagina "
-"voor codebijdragen op GitHub om te zien <a %(link)s>hoe je lid kunt worden "
-"van de community</a>."
+"ontwerp van Subsurface en onze website. Kijk om te beginnen op onze "
+"codebijdragen pagina op GitHub om te zien <a %(link)s>hoe je lid kunt worden"
+" van de community</a>."
 
-#: templates/contributing.html:37
+#: templates/contribute.html:37
 msgid "By Translating Subsurface"
 msgstr "Door Subsurface te vertalen"
 
-#: templates/contributing.html:39
+#: templates/contribute.html:39
 #, python-format
 msgid ""
 "If you are a non-English-speaker, and would like to be able to use "
@@ -191,11 +197,11 @@ msgstr ""
 "%(transifex)s>Transifex</a> - meld u daar aan voor een account en vraag dan "
 "om lid te worden van het <a %(transifex_subsurface)s>Subsurface Team</a>."
 
-#: templates/contributing.html:43
+#: templates/contribute.html:43
 msgid "By Helping Other Users"
 msgstr "Door andere gebruikers te helpen"
 
-#: templates/contributing.html:45
+#: templates/contribute.html:45
 #, python-format
 msgid ""
 "We want to make Subsurface as friendly and welcoming to new users as "
@@ -208,11 +214,11 @@ msgstr ""
 "dan deel aan ons <a %(link)s>Gebruikersforum</a> en bied nuttige antwoorden "
 "op de vragen van nieuwe gebruikers."
 
-#: templates/contributing.html:48
+#: templates/contribute.html:48
 msgid "By Supporting Us Financially"
 msgstr "Door ons financieel te steunen"
 
-#: templates/contributing.html:50 templates/sponsoring.html:15
+#: templates/contribute.html:50 templates/sponsoring.html:15
 #, python-format
 msgid ""
 "Running the Subsurface project costs money. This is particularly the case "
@@ -229,6 +235,10 @@ msgstr ""
 "dat via <a %(link)s>Dirk's Ko-fi pagina</a> of <a %(ghsponsor)s>Dirk's "
 "GitHub Sponsor pagina</a>."
 
+#: templates/credits.html:3 templates/credits.html:13
+msgid "Credits"
+msgstr "Credits"
+
 #: templates/credits.html:15
 #, python-format
 msgid ""
@@ -239,39 +249,39 @@ msgstr ""
 "Subsurface is zelf open source software onder de <a %(license)s>GPLv2 "
 "licentie</a> -- en maakt gebruik van veel andere open source software."
 
-#: templates/credits.html:18 templates/credits.html:20
-#: templates/credits.html:22 templates/credits.html:24
-#: templates/credits.html:26 templates/credits.html:28
-#: templates/credits.html:30 templates/credits.html:32
-#: templates/credits.html:34 templates/credits.html:36
-#: templates/credits.html:38 templates/credits.html:40
-#: templates/credits.html:42 templates/credits.html:49
-#: templates/credits.html:51
-msgid "Homepage"
-msgstr "Startpagina"
-
-#: templates/credits.html:19 templates/credits.html:21
+#: templates/credits.html:18 templates/credits.html:21
 #: templates/credits.html:23 templates/credits.html:25
 #: templates/credits.html:27 templates/credits.html:29
 #: templates/credits.html:31 templates/credits.html:33
 #: templates/credits.html:35 templates/credits.html:37
-#: templates/credits.html:39 templates/credits.html:41
-#: templates/credits.html:43 templates/credits.html:50
-#: templates/credits.html:52
+#: templates/credits.html:39 templates/credits.html:42
+#: templates/credits.html:45 templates/credits.html:53
+#: templates/credits.html:56
+msgid "Homepage"
+msgstr "Startpagina"
+
+#: templates/credits.html:19 templates/credits.html:22
+#: templates/credits.html:24 templates/credits.html:26
+#: templates/credits.html:28 templates/credits.html:30
+#: templates/credits.html:32 templates/credits.html:34
+#: templates/credits.html:36 templates/credits.html:38
+#: templates/credits.html:40 templates/credits.html:43
+#: templates/credits.html:46 templates/credits.html:54
+#: templates/credits.html:57
 msgid "License"
 msgstr "Licentie"
 
-#: templates/credits.html:46
+#: templates/credits.html:50
 msgid "Subsurface-mobile additionally uses"
 msgstr "Subsurface-mobile gebruikt daarnaast"
 
-#: templates/credits.html:54
+#: templates/credits.html:60
 #, python-format
 msgid "The Windows binaries are built using <a %(mxe)s>MXE</a>."
 msgstr ""
 "The Windows installaties worden gemaakt met behulp van <a %(mxe)s>MXE</a>."
 
-#: templates/credits.html:56
+#: templates/credits.html:62
 #, python-format
 msgid ""
 "The Mac binaries are built using the Apple toolchain and <a "
@@ -280,7 +290,7 @@ msgstr ""
 "De Mac installaties worden gemaakt met de Apple toolchain en <a "
 "%(brew)s>Homebrew</a>."
 
-#: templates/credits.html:59
+#: templates/credits.html:65
 msgid ""
 "If you are aware of open source components that we are using but not listing"
 " here, please let us know so we can add them!"
@@ -453,6 +463,10 @@ msgstr ""
 "het downloaden <code>chmod +x Subsurface-v%(version)s-CICD-"
 "release.AppImage</code>, en voer dan eenvoudig dit bestand uit."
 
+#: templates/data-deletion.html:3 templates/data-deletion.html:13
+msgid "Deleting Cloud Data and Account"
+msgstr "Cloudgegevens en account verwijderen"
+
 #: templates/data-deletion.html:15
 #, python-format
 msgid ""
@@ -479,37 +493,37 @@ msgstr ""
 msgid "<a %(faq)s>FAQ</a>"
 msgstr "<a %(faq)s>FAQ</a>"
 
-#: templates/documentation.html:18
+#: templates/documentation.html:19
 #, python-format
 msgid "<a %(supporteddc)s>Supported Dive Computers</a>"
 msgstr "<a %(supporteddc)s>Ondersteunde duikcomputers</a>"
 
-#: templates/documentation.html:20
+#: templates/documentation.html:22
 #, python-format
 msgid "<a %(video)s>(fairly old) Video Tutorial</a>"
 msgstr "<a %(video)s>(vrij oud) Video handleiding</a>"
 
-#: templates/documentation.html:22
+#: templates/documentation.html:25
 #, python-format
 msgid "<a %(manual)s>Subsurface User Manual</a>"
 msgstr "<a %(manual)s>Subsurface gebruikershandleiding</a>"
 
-#: templates/documentation.html:24
+#: templates/documentation.html:28
 #, python-format
 msgid "<a %(mobilemanual)s>Subsurface-mobile User Manual</a>"
 msgstr "<a %(mobilemanual)s>Subsurface-mobile gebruikershandleiding</a>"
 
-#: templates/documentation.html:27
+#: templates/documentation.html:31
 #, python-format
 msgid "<a %(datadeletion)s>Deleting Cloud Data and Account</a>"
 msgstr "<a %(datadeletion)s>Cloudgegevens en account verwijderen</a>"
 
-#: templates/documentation.html:30
+#: templates/documentation.html:34
 #, python-format
 msgid "<a %(credits)s>Credits</a>"
 msgstr "<a %(credits)s>Credits</a>"
 
-#: templates/documentation.html:33
+#: templates/documentation.html:37
 #, python-format
 msgid "<a %(thanks)s>Thanks</a>"
 msgstr "<a %(thanks)s>Dankwoord</a>"
@@ -557,11 +571,11 @@ msgstr ""
 "Subsurface is gratis en beschikbaar op meerdere platforms, waardoor het de "
 "perfecte software is voor een breed scala aan duikers."
 
-#: templates/faq.html:36
+#: templates/faq.html:37
 msgid "What operating systems does Subsurface support?"
 msgstr "Welke besturingssystemen worden door Subsurface ondersteund?"
 
-#: templates/faq.html:43
+#: templates/faq.html:44
 msgid ""
 "Subsurface runs on Windows 10 and newer, MacOS 10.15 and newer, and many "
 "flavors of Linux. Mobile versions of Subsurface are available for Android "
@@ -576,7 +590,7 @@ msgstr ""
 " je met Subsurface-mobile zelfs duikgegevens rechtstreeks van je "
 "duikcomputer downloaden."
 
-#: templates/faq.html:46
+#: templates/faq.html:47
 #, python-format
 msgid ""
 "We provide Linux packages for some Linux distributions (currently Ubuntu and"
@@ -591,7 +605,7 @@ msgstr ""
 " andere Linux distributies. Details over waar je Subsurface voor jouw OS "
 "kunt vinden staan op onze <a %(crelease)s>huidige versie</a> pagina."
 
-#: templates/faq.html:49
+#: templates/faq.html:50
 #, python-format
 msgid ""
 "Subsurface-mobile for iOS is available in the iOS App Store. Subsurface-"
@@ -602,11 +616,11 @@ msgstr ""
 "mobile voor Android is beschikbaar als sideloaded APK op onze <a "
 "%(crelease)s>huidige versie</a> pagina."
 
-#: templates/faq.html:58
+#: templates/faq.html:59
 msgid "How much does Subsurface cost?"
 msgstr "Hoeveel kost Subsurface?"
 
-#: templates/faq.html:64
+#: templates/faq.html:65
 msgid ""
 "Subsurface is open source software. It's free to use. It's written by a "
 "group of enthusiasts who do this in their spare time - including providing "
@@ -625,20 +639,22 @@ msgstr ""
 "leverancier. Als je een commercieel duiklog programma wilt, zijn er genoeg "
 "andere om uit kunt kiezen."
 
-#: templates/faq.html:67 templates/faq.html:667
+#: templates/faq.html:68
 #, python-format
 msgid ""
-"If you would like to contribute and help, there are many ways to do so. "
-"Please take a look at our <a %(contributing)s>contributing</a> page."
+"If you would like to contribute and help, there are many ways to do so. Our "
+"'<a %(contribute)s>Contribute</a>' page lists a few options and provides "
+"information on how to get started."
 msgstr ""
-"Als je wilt bijdragen en helpen kan dat op verschillende manieren. Kijk op "
-"onze <a %(contributing)s>bijdragen</a> pagina."
+"Als je wilt bijdragen en helpen kan dat op verschillende manieren. Op onze "
+"'<a %(contribute)s>Bijdragen</a>' pagina staan een paar opties en informatie"
+" over hoe je kunt beginnen."
 
-#: templates/faq.html:76
+#: templates/faq.html:77
 msgid "Please add the following awesome feature"
 msgstr "Voeg de volgende fantastische functie toe"
 
-#: templates/faq.html:82
+#: templates/faq.html:83
 msgid ""
 "As mentioned in the previous question, Subsurface is written and maintained "
 "by volunteers. It also has several ten thousand users. The current feature "
@@ -655,22 +671,22 @@ msgstr ""
 "van de huidige ontwikkelaars het gevoel heeft dat ze een groot verschil "
 "maken voor de meerderheid van onze gebruikers."
 
-#: templates/faq.html:85
+#: templates/faq.html:86
 #, python-format
 msgid ""
 "You are of course invited and encouraged to provide an implementation for "
 "your desired new feature. Please take a look at our <a "
-"%(contributing)s>contributing</a> page."
+"%(code_contribution)s>code contribution page on GitHub</a>."
 msgstr ""
-"Je wordt uiteraard uitgenodigd en aangemoedigd om een implementatie voor je "
-"gewenste nieuwe functie te maken. Kijk op onze <a "
-"%(contributing)s>bijdragen</a> pagina."
+"Uiteraard wordt u uitgenodigd en aangemoedigd om een implementatie te "
+"leveren voor uw gewenste nieuwe functie. Kijk op onze <a "
+"%(code_contribution)s>codebijdragen pagina op GitHub</a>."
 
-#: templates/faq.html:94
+#: templates/faq.html:96
 msgid "The gas consumption / SAC rate reported by Subsurface is wrong"
 msgstr "Het getoonde gasverbruik / SAC is onjuist in Subsurface"
 
-#: templates/faq.html:100
+#: templates/faq.html:102
 #, python-format
 msgid ""
 "Most likely you are expecting the gas consumption calculation to follow the "
@@ -682,15 +698,15 @@ msgstr ""
 "Subsurface <a %(sac)s>houdt rekening met de samendrukbaarheid van "
 "gassen</a>."
 
-#: templates/faq.html:105
+#: templates/faq.html:107
 msgid "OS Support"
 msgstr "OS ondersteuning"
 
-#: templates/faq.html:111
+#: templates/faq.html:113
 msgid "How do I install Subsurface on Windows?"
 msgstr "Hoe installeer ik Subsurface op Windows?"
 
-#: templates/faq.html:117
+#: templates/faq.html:119
 #, python-format
 msgid ""
 "Download the installer from our <a %(crelease)s>current release</a> page and"
@@ -712,24 +728,24 @@ msgstr ""
 "wordt geïnstalleerd om Subsurface aan te roepen en een optie om Subsurface "
 "te verwijderen."
 
-#: templates/faq.html:120
+#: templates/faq.html:122
 msgid ""
 "For technical reasons, some of the Windows binaries you can download from "
 "our website aren't signed at all, in which case Windows provides more and "
 "stronger warnings when trying to use them. As long as you download the "
-"binaries from this website they are save and do not contain any malware."
+"binaries from this website they are safe and do not contain any malware."
 msgstr ""
-"Vanwege technische redenen zijn sommige Windows bestanden die je van onze "
-"website kunt downloaden niet ondertekend, waardoor Windows meer en sterkere "
-"waarschuwingen geeft wanneer je ze probeert te gebruiken. Zolang je de "
-"bestanden van deze website downloadt, zijn ze veilig en bevatten ze geen "
-"malware."
+"Vanwege technische redenen zijn sommige van de Windows bestanden die je van "
+"onze website kunt downloaden niet ondertekend, waardoor Windows meer en "
+"krachtigere waarschuwingen geeft wanneer je ze probeert te gebruiken. Zolang"
+" je de bestanden van deze website downloadt, zijn ze veilig en bevatten ze "
+"geen malware."
 
-#: templates/faq.html:129 templates/faq.html:302
+#: templates/faq.html:131 templates/faq.html:307
 msgid "Supported versions"
 msgstr "Ondersteunde versies"
 
-#: templates/faq.html:136
+#: templates/faq.html:138
 msgid ""
 "Subsurface runs on Windows 10 and newer. It should still run on Windows 8 "
 "(but then, why would you want to run that). Older versions aren't supported "
@@ -739,11 +755,11 @@ msgstr ""
 "moeten draaien (maar waarom zou je dat willen draaien). Oudere versies "
 "worden niet meer ondersteund."
 
-#: templates/faq.html:145
+#: templates/faq.html:147
 msgid "Where do I find the log files on Windows?"
 msgstr "Waar vind ik de logbestanden op Windows?"
 
-#: templates/faq.html:151
+#: templates/faq.html:153
 msgid ""
 "The logs are in <code>C:\\Users\\Home\\AppData\\Roaming\\Subsurface</code> "
 "in the two files <code>subsurface_out.log</code> and "
@@ -753,11 +769,11 @@ msgstr ""
 "<code>C:\\Users\\Home\\AppData\\Roaming\\Subsurface</code> in de twee "
 "bestanden <code>subsurface_out.log</code> en <code>subsurface_err.log</code>"
 
-#: templates/faq.html:160
+#: templates/faq.html:162
 msgid "Which drivers do I need for my dive computer"
 msgstr "Welke drivers heb ik nodig voor mijn duikcomputer"
 
-#: templates/faq.html:167
+#: templates/faq.html:169
 msgid ""
 "Great question - typically those are specific to the combination of dive "
 "computer and download cable that you use. And it's really hard to give "
@@ -767,7 +783,7 @@ msgstr ""
 "duikcomputer en downloadkabel die je gebruikt. En het is echt moeilijk om "
 "universeel juist te beantwoorden."
 
-#: templates/faq.html:170
+#: templates/faq.html:172
 #, python-format
 msgid ""
 "Installing the vendor provided dive log software often is enough to trigger "
@@ -778,11 +794,11 @@ msgstr ""
 "om die drivers geïnstalleerd te krijgen, maar soms ligt het iets "
 "ingewikkelder. Zoeken op het <a %(forum)s>Gebruikersforum</a> helpt vaak."
 
-#: templates/faq.html:179
+#: templates/faq.html:181
 msgid "Is there a virus in the Subsurface installer?"
 msgstr "Zit er een virus in het installatieprogramma van Subsurface?"
 
-#: templates/faq.html:186
+#: templates/faq.html:188
 msgid ""
 "If you get a warning message or if Subsurface is blocked by your anti virus "
 "(AV) software, that is almost certainly a false positive. Subsurface is not "
@@ -794,7 +810,7 @@ msgstr ""
 "Subsurface is niet gebouwd op een Windows machine, het is cross-build vanuit"
 " de broncode op een goed onderhouden en schone Linux server."
 
-#: templates/faq.html:189
+#: templates/faq.html:191
 msgid ""
 "Most/all Windows Anti-Virus software packages support an “add exception” "
 "feature, which skips an executable from being scanned. Try adding Subsurface"
@@ -809,7 +825,7 @@ msgstr ""
 "gedetecteerd als malware, schakel dan tijdelijk je AV software uit totdat "
 "Subsurface is geïnstalleerd."
 
-#: templates/faq.html:192
+#: templates/faq.html:194
 msgid ""
 "In either case, please inform your AV software vendor of a “false positive” "
 "as we assure your that Subsurface is not malware."
@@ -817,11 +833,11 @@ msgstr ""
 "Stelt u in elk geval alstublieft uw AV-softwareleverancier op de hoogte van "
 "een \"false positive\" omdat we verzekeren dat Subsurface geen malware is."
 
-#: templates/faq.html:201
+#: templates/faq.html:203
 msgid "Subsurface suddenly stops accessing the cloud"
 msgstr "Subsurface heeft plotseling geen toegang meer tot de cloud"
 
-#: templates/faq.html:208
+#: templates/faq.html:210
 msgid ""
 "This can have many reasons, but a really odd one we have found is that some "
 "anti-malware products on Windows seemingly randomly decide that the traffic "
@@ -838,11 +854,11 @@ msgstr ""
 "moet je een uitzondering voor Subsurface toevoegen aan je hyper agressieve "
 "anti-malwareprogramma."
 
-#: templates/faq.html:218
+#: templates/faq.html:220
 msgid "How do I install Subsurface on macOS?"
 msgstr "Hoe installeer ik Subsurface op macOS?"
 
-#: templates/faq.html:225
+#: templates/faq.html:227
 #, python-format
 msgid ""
 "Download the installer DMG from our <a %(crelease)s>current release</a> page"
@@ -852,7 +868,7 @@ msgstr ""
 "versie</a> page en open het. Sleep het Subsurface-pictogram naar de Apps "
 "map."
 
-#: templates/faq.html:228
+#: templates/faq.html:230
 msgid ""
 "When opening the Subsurface app for the first time, you will get a warning "
 "that this binary was downloaded from the internet. Depending on your "
@@ -864,25 +880,25 @@ msgstr ""
 "instellingen en of dit een ondertekende DMG is of niet, kun je in macOS "
 "gewoon op Ok klikken om de app te openen."
 
-#: templates/faq.html:231
+#: templates/faq.html:233
 msgid ""
 "For technical reasons, some of the macOS DMGs you can download from our "
 "website aren't signed at all, in which case macOS will force you to go "
 "through the System Preferences / Security in order to allow you to start "
-"Subsurface. As long as you download the DMG from this website it are save "
-"and does not contain any malware."
+"Subsurface. As long as you download the DMG from this website it is safe and"
+" does not contain any malware."
 msgstr ""
 "Vanwege technische redenen zijn sommige van de macOS DMG's die je van onze "
-"website kunt downloaden niet ondertekend. In dat geval moet je in macOS naar"
-" Systeemvoorkeuren / Beveiliging gaan om Subsurface te kunnen starten. "
-"Zolang je de DMG van deze website downloadt, is hij veilig en bevat hij geen"
-" malware."
+"website kunt downloaden niet ondertekend. In dat geval moet je in macOS via "
+"Systeemvoorkeuren / Beveiliging gaan om Subsurface te kunnen starten. Zolang"
+" je de DMG van deze website downloadt, is hij veilig en bevat hij geen "
+"malware."
 
-#: templates/faq.html:240
+#: templates/faq.html:242
 msgid "Supported Versions"
 msgstr "Ondersteunde versies"
 
-#: templates/faq.html:247
+#: templates/faq.html:249
 msgid ""
 "Subsurface runs on both Apple Silicon (M1/M2/M3 CPUs) and Intel Macs running"
 " macOS 10.15 and newer. On Apple Silicon Macs Subsurface currently runs in "
@@ -898,11 +914,11 @@ msgstr ""
 "vanwege technische redenen levert dit momenteel geen binaries op met een "
 "goede gebruikerservaring."
 
-#: templates/faq.html:256
+#: templates/faq.html:259
 msgid "Can you make binaries available for older macOS versions?"
 msgstr "Kunnen jullie binaries beschikbaar maken voor oudere macOS versies?"
 
-#: templates/faq.html:262
+#: templates/faq.html:265
 msgid ""
 "Apple stopped supporting macOS 11 and older. We are trying to keep making "
 "binaries for 10.15 and 11 available while we can, we are no longer are able "
@@ -912,11 +928,11 @@ msgstr ""
 "binaire bestanden voor 10.15 en 11 beschikbaar te houden zolang we kunnen, "
 "maar we kunnen oudere versies van macOS niet langer ondersteunen."
 
-#: templates/faq.html:271
+#: templates/faq.html:275
 msgid "I can't download from my Bluetooth dive computer on macOS"
 msgstr "Ik kan niet downloaden vanuit mijn Bluetooth duikcomputer op macOS"
 
-#: templates/faq.html:277
+#: templates/faq.html:281
 msgid ""
 "This has been an ongoing issue for a while; it seems to work fine for "
 "many/most users, but some cannot seem to get Subsurface on their Mac to talk"
@@ -930,12 +946,12 @@ msgstr ""
 "enige optie om te downloaden met een mobiel apparaat / Subsurface-mobile en "
 "hun duiklogboek te synchroniseren met Subsurface Cloud."
 
-#: templates/faq.html:286
+#: templates/faq.html:291
 msgid "Why is my IRDA (infrared) based dive computer not working on a Mac?"
 msgstr ""
 "Waarom werkt mijn IRDA (infrarood) gebaseerde duikcomputer niet op een Mac?"
 
-#: templates/faq.html:292
+#: templates/faq.html:297
 msgid ""
 "Subsurface on the Mac does not support IRDA based dive computers. This is an"
 " issue of missing support libraries for us to use -- other dive log software"
@@ -948,7 +964,7 @@ msgstr ""
 "eigen IRDA-stack op de Mac hebben geïmplementeerd, wij niet. Subsurface op "
 "Windows ondersteunt voorlopig nog wel IRDA-gebaseerde duikcomputers."
 
-#: templates/faq.html:309
+#: templates/faq.html:314
 msgid ""
 "Subsurface can run on most Linux distributions. The project actively "
 "maintain builds for current Ubuntu and Fedora releases. A community "
@@ -963,11 +979,11 @@ msgstr ""
 " een distributiespecifieke binary. Als dat niet werkt, probeer dan de Snap "
 "of de AppImage."
 
-#: templates/faq.html:318
+#: templates/faq.html:324
 msgid "Can you add binaries for my favorite Linux distribution?"
 msgstr "Kun je binaries toevoegen voor mijn favoriete Linux distributie?"
 
-#: templates/faq.html:325
+#: templates/faq.html:331
 msgid ""
 "Adding support for another Linux distribution is generally a lot of work and"
 " given the tiny user numbers not likely to happen. But please, talk to us if"
@@ -980,20 +996,22 @@ msgstr ""
 "die we zouden moeten toevoegen in plaats van de distributies die we "
 "momenteel ondersteunen."
 
-#: templates/faq.html:328 templates/faq.html:347
+#: templates/faq.html:334 templates/faq.html:353
 #, python-format
 msgid ""
 "If you would like to contribute and help, this is a perfect opportunity to "
-"do so. Please take a look at our <a %(contributing)s>contributing</a> page."
+"do so. Please take a look at our <a %(code_contribution)s>code contribution "
+"page on GitHub</a>."
 msgstr ""
 "Als je wilt bijdragen en helpen, is dit een perfecte gelegenheid om dat te "
-"doen. Kijk op onze <a %(contributing)s>bijdragen</a> pagina."
+"doen. Kijk op onze <a %(code_contribution)s>codebijdragen pagina op "
+"GitHub</a>."
 
-#: templates/faq.html:337
+#: templates/faq.html:343
 msgid "Can I build my own binaries?"
 msgstr "Kan ik mijn eigen binaries maken?"
 
-#: templates/faq.html:344
+#: templates/faq.html:350
 msgid ""
 "Yes, generally this is pretty easy (assuming you are somewhat familiar with "
 "C/C++ development under Linux). The <code>INSTALL</code> file in the source "
@@ -1007,15 +1025,15 @@ msgstr ""
 " met de ontwikkelaars als je verder hulp nodig hebt (want dat betekent "
 "waarschijnlijk dat we het INSTALL bestand moeten bijwerken...)."
 
-#: templates/faq.html:352
+#: templates/faq.html:358
 msgid "Mobile Support"
 msgstr "Mobiele ondersteuning"
 
-#: templates/faq.html:357
+#: templates/faq.html:364
 msgid "How do I install Subsurface-mobile on my phone / tablet?"
 msgstr "Hoe installeer ik Subsurface-mobile op mijn telefoon/tablet?"
 
-#: templates/faq.html:364
+#: templates/faq.html:371
 #, python-format
 msgid ""
 "iOS users can simply install the Subsurface-mobile app that is available in "
@@ -1037,7 +1055,7 @@ msgstr ""
 "gemaakt op onze <a %(crelease)s>huidige versie</a> pagina die sideloaded "
 "geïnstalleerd kan worden op de meeste Android-apparaten."
 
-#: templates/faq.html:367
+#: templates/faq.html:374
 msgid ""
 "Once you have installed Subsurface-mobile on your device, enable cloud "
 "storage in Subsurface from your desktop or laptop and store your dive "
@@ -1053,7 +1071,7 @@ msgstr ""
 "functies van de desktopversie van Subsurface. Duikplanning is bijvoorbeeld "
 "niet beschikbaar in Subsurface-mobile."
 
-#: templates/faq.html:370
+#: templates/faq.html:377
 #, python-format
 msgid ""
 "From all other devices (including tablets and phones with OSs that we don’t "
@@ -1067,11 +1085,11 @@ msgstr ""
 "wachtwoord. Hierdoor heb je toegang tot je duikgegevens vanaf elk apparaat "
 "met een webbrowser."
 
-#: templates/faq.html:380
+#: templates/faq.html:388
 msgid "What's the minimum Android version required?"
 msgstr "Wat is de minimaal vereiste Android versie?"
 
-#: templates/faq.html:387
+#: templates/faq.html:395
 msgid ""
 "The side-loaded APK should work with Android 8.0 and newer. Older Android "
 "versions are known not to work with the Subsurface Cloud."
@@ -1079,7 +1097,7 @@ msgstr ""
 "De sideloaded APK zou moeten werken met Android 8.0 en nieuwer. Van oudere "
 "Android versies is bekend dat ze niet werken met de Subsurface Cloud."
 
-#: templates/faq.html:398
+#: templates/faq.html:406
 msgid ""
 "From which dive computers can Subsurface-mobile on Android directly "
 "download?"
@@ -1087,7 +1105,7 @@ msgstr ""
 "Vanuit welke duikcomputers kan Subsurface-mobile op Android rechtsreeks "
 "worden gedownload?"
 
-#: templates/faq.html:405
+#: templates/faq.html:413
 msgid ""
 "Bluetooth and BLE based dive computers as well USB serial dive computers "
 "should generally work (assuming they are supported by Subsurface at all, of "
@@ -1101,14 +1119,14 @@ msgstr ""
 "USB apparaten zoals USB HID (bijv. Suunto EON Steel familie via kabel - BLE "
 "werkt), USB opslag (bijv. Uemis Zurich) of MTP (bijv. Garmin)."
 
-#: templates/faq.html:417
+#: templates/faq.html:425
 msgid ""
 "From which dive computers can Subsurface-mobile on iOS directly download?"
 msgstr ""
 "Vanuit welke duikcomputers kan Subsurface-mobile op iOS rechtstreeks worden "
 "gedownload?"
 
-#: templates/faq.html:424
+#: templates/faq.html:432
 msgid ""
 "Only dive computers that support download via BLE (that are already "
 "supported in Subsurface) work with iOS devices. The Garmin dive computers "
@@ -1120,15 +1138,15 @@ msgstr ""
 " zijn de uitzondering op deze regel, zij worden helemaal niet ondersteund op"
 " iOS. Downloaden via een kabel is niet mogelijk."
 
-#: templates/faq.html:429
+#: templates/faq.html:437
 msgid "Usage"
 msgstr "Gebruik"
 
-#: templates/faq.html:434
+#: templates/faq.html:443
 msgid "How do I know I have the latest version of Subsurface?"
 msgstr "Hoe weet ik dat ik de nieuwste versie van Subsurface heb?"
 
-#: templates/faq.html:441
+#: templates/faq.html:450
 msgid ""
 "With the desktop version you can check from the Help menu: simply select "
 "“Check for updates”. The iOS version notifies you via the regular AppStore "
@@ -1139,7 +1157,7 @@ msgstr ""
 "via de standaard AppStore mechanismen. Een meldingsmechanisme voor Android "
 "is in ontwikkeling."
 
-#: templates/faq.html:444
+#: templates/faq.html:453
 #, python-format
 msgid ""
 "You can also check the <a %(crelease)s>current release</a> page to look at our reasonably frequent\n"
@@ -1148,11 +1166,11 @@ msgstr ""
 "Je kunt ook kijken op de <a %(crelease)s>huidige versie</a> pagina om onze "
 "redelijk frequente (\"wekelijkse\") updates te bekijken."
 
-#: templates/faq.html:454
+#: templates/faq.html:463
 msgid "How can I import my dives into Subsurface?"
 msgstr "Hoe kan ik mijn duiken importeren in Subsurface?"
 
-#: templates/faq.html:461
+#: templates/faq.html:470
 #, python-format
 msgid ""
 "There are multiple ways to import into Subsurface. Details can be found in "
@@ -1161,7 +1179,7 @@ msgstr ""
 "Er zijn meerdere manieren om in Subsurface te importeren. Details zijn te "
 "vinden in de <a %(usermanual)s>Gebruikerhandleiding</a>."
 
-#: templates/faq.html:464
+#: templates/faq.html:473
 msgid ""
 "Manually logged dives can directly be entered in the UI or (in the desktop "
 "version) imported from various forms of spreadsheets."
@@ -1170,7 +1188,7 @@ msgstr ""
 "(in de desktopversie) worden geïmporteerd vanuit verschillende vormen van "
 "spreadsheets."
 
-#: templates/faq.html:467
+#: templates/faq.html:476
 msgid ""
 "Dives can be downloaded from supported dive computers. Details vary greatly "
 "depending on how the dive computer connects to your computer or mobile "
@@ -1180,7 +1198,7 @@ msgstr ""
 "details variëren sterk, afhankelijk van hoe de duikcomputer verbinding maakt"
 " met je computer of mobiele apparaat."
 
-#: templates/faq.html:470
+#: templates/faq.html:479
 msgid ""
 "It is also possible to import dive data from other software or websites. See"
 " the User Manual for the most up to date information on this – it can be "
@@ -1190,11 +1208,11 @@ msgstr ""
 "importeren. Raadpleeg de Gebruikershandleiding voor de meest recente "
 "informatie hierover - deze is te vinden in paragraaf 5.3."
 
-#: templates/faq.html:479
+#: templates/faq.html:489
 msgid "How can I use more than one tank with the same gas?"
 msgstr "Hoe kan ik meer dan één tank met hetzelfde gas gebruiken?"
 
-#: templates/faq.html:486
+#: templates/faq.html:496
 msgid ""
 "This is a typical question for side mount divers or some tec divers. "
 "Subsurface supports having more than one tank with the same gas, even if "
@@ -1211,7 +1229,7 @@ msgstr ""
 "klik eenvoudig op het profiel op de juiste plek en je krijgt de mogelijkheid"
 " om zo'n gebeurtenis toe te voegen."
 
-#: templates/faq.html:489
+#: templates/faq.html:499
 #, python-format
 msgid ""
 "If you have pressure transmitters on multiple tanks with the same gas, the "
@@ -1226,12 +1244,12 @@ msgstr ""
 "verschillende gassen aan die tanks toe te wijzen, bijvoorbeeld een "
 "zuurstofgehalte van 21%% en 22%% voor twee tanks met lucht."
 
-#: templates/faq.html:499
+#: templates/faq.html:509
 msgid "Why is Subsurface not able to download my dives from my dive computer?"
 msgstr ""
 "Waarom kan Subsurface mijn duiken niet downloaden uit mijn duikcomputer?"
 
-#: templates/faq.html:506
+#: templates/faq.html:516
 msgid ""
 "Obviously there can be many reasons for this. If your dive computer connects"
 " via cable, clean the contacts and make sure they are dry. Repeat if "
@@ -1254,7 +1272,7 @@ msgstr ""
 "batterij bijna leeg is, maar geen duiken kunnen overbrengen naar een "
 "aangesloten pc, tenzij de batterij wordt vervangen."
 
-#: templates/faq.html:509
+#: templates/faq.html:519
 msgid ""
 "There are many more potential issues with Bluetooth or BLE dive computers. "
 "Please see our user manual for pairing with such devices and troubleshooting"
@@ -1264,11 +1282,11 @@ msgstr ""
 "duikcomputers. Raadpleeg onze gebruikershandleiding voor het koppelen met "
 "dergelijke apparaten en suggesties voor het oplossen van problemen."
 
-#: templates/faq.html:518
+#: templates/faq.html:528
 msgid "Why is the CSV import failing?"
 msgstr "Waarom mislukt de CSV import?"
 
-#: templates/faq.html:525
+#: templates/faq.html:535
 msgid ""
 "The CSV import has a couple of caveats. You should avoid some special "
 "characters like ampersand (&), less than (<), greater than (>) and double "
@@ -1289,11 +1307,11 @@ msgstr ""
 "problemen hebt met CSV import, probeer het dan eerst met een kleiner aantal "
 "om er zeker van te zijn dat alles werkt."
 
-#: templates/faq.html:534
+#: templates/faq.html:545
 msgid "How can I use Subsurface for multiple users?"
 msgstr "Hoe kan ik Subsurface voor meerdere gebruikers gebruiken?"
 
-#: templates/faq.html:541
+#: templates/faq.html:552
 msgid ""
 "Potentially the best way to achieve this is to use multiple user accounts on"
 " the computer, all operating systems have built-in support for multiple "
@@ -1305,7 +1323,7 @@ msgstr ""
 "ondersteuning voor meerdere gebruikers. Op deze manier is de Subsurface "
 "configuratie voor elke gebruiker echt gescheiden."
 
-#: templates/faq.html:544
+#: templates/faq.html:555
 msgid ""
 "Another option is to store logs of different users to separate log files. "
 "From Subsurface, you can open individual files for different divers and "
@@ -1318,7 +1336,7 @@ msgstr ""
 "ondersteund. Het nadeel van deze aanpak is dat het niet compatibel is met de"
 " Subsurface cloudopslag."
 
-#: templates/faq.html:547
+#: templates/faq.html:558
 msgid ""
 "A blend of these approaches where you want multi-user Subsurface support "
 "within a single computer user account can be achieved as well. Subsurface "
@@ -1339,11 +1357,11 @@ msgstr ""
 "je bureaublad maken die deze commandoregel optie bevatten om het "
 "gebruiksvriendelijker te maken."
 
-#: templates/faq.html:556
+#: templates/faq.html:568
 msgid "How can I load pictures and associate them with my dive?"
 msgstr "Hoe kan ik foto's uploaden en ze aan mijn duik koppelen?"
 
-#: templates/faq.html:563
+#: templates/faq.html:575
 msgid ""
 "This is supported in the desktop version of Subsurface. Select the dives you"
 " want to load and associate the pictures with. Then right click on one of "
@@ -1366,7 +1384,7 @@ msgstr ""
 "gekoppeld met de juiste duiken en getoond (als thumbnails) in de "
 "respectievelijke duikprofielen."
 
-#: templates/faq.html:566
+#: templates/faq.html:578
 msgid ""
 "If you are having trouble with loading the images, check that you have at "
 "least one of the following tags in the Exif headers: "
@@ -1385,11 +1403,11 @@ msgstr ""
 "kan worden ingeladen. De meeste moderne fotobewerkingssoftware doet dat "
 "standaard al goed."
 
-#: templates/faq.html:575
+#: templates/faq.html:588
 msgid "Can I import my dives from my old log software?"
 msgstr "Kan ik mijn duiken importeren uit mijn oude duiklogsoftware?"
 
-#: templates/faq.html:582
+#: templates/faq.html:595
 msgid ""
 "Many common programs are already supported and we are always happy to try to add new ones. If your old log software supports exporting the log book, we might well be able to import that (for example via CSV files or UDDF). However, usually support for importing the native format will help you to get more complete information into Subsurface. To implement support for the log format, we will need a sample log file. It would be great to have also a screenshot from\n"
 "                the original log software or description of the dive that is shown on the sample log. Preferably we would like to have a reasonably simple dive to get basic support and another dive that has as many features enabled as possible (e.g. gas\n"
@@ -1414,7 +1432,7 @@ msgstr ""
 "in van hun klanten te vergroten), dus er zijn geen garanties dat er "
 "ondersteuning komt voor je oude logsoftware, maar het is het proberen waard."
 
-#: templates/faq.html:595
+#: templates/faq.html:608
 msgid ""
 "I cannot download all my dives, only the most recent ones even though my "
 "dive computer's manual states that it records history of e.g. 999 dives."
@@ -1423,7 +1441,7 @@ msgstr ""
 " in de handleiding van mijn duikcomputer dat deze de geschiedenis van "
 "bijvoorbeeld 999 duiken opslaat."
 
-#: templates/faq.html:602
+#: templates/faq.html:615
 msgid ""
 "Dive history is different than the dive profiles on the log. The history "
 "only keeps track of the total number of dives and total amount of time spent"
@@ -1443,7 +1461,7 @@ msgstr ""
 "de oudste duiken overschreven met nieuwe duiken. We kunnen dus alleen de "
 "laatste 13, 30 of 199 duiken downloaden."
 
-#: templates/faq.html:605
+#: templates/faq.html:618
 msgid ""
 "If you have downloaded your dives to different dive logging software before "
 "they were overwritten, there is a high chance that Subsurface can import "
@@ -1455,11 +1473,11 @@ msgstr ""
 "Als de logboeken echter alleen op je duikcomputer staan, kunnen ze niet "
 "worden gered nadat ze zijn overschreven door nieuwe duiken."
 
-#: templates/faq.html:614
+#: templates/faq.html:628
 msgid "What to do when authentication to cloud storage fails?"
 msgstr "Wat te doen wanneer authenticatie naar cloudopslag mislukt?"
 
-#: templates/faq.html:621
+#: templates/faq.html:635
 #, python-format
 msgid ""
 "If you have configured your correct user credentials to Subsurface and cloud"
@@ -1474,11 +1492,11 @@ msgstr ""
 "inloggegevens nog steeds niet werken of als er iets anders mis is, neem dan "
 "contact op met Dirk om het op te lossen."
 
-#: templates/faq.html:632
+#: templates/faq.html:646
 msgid "Can Subsurface store my files on a different cloud server?"
 msgstr "Kan Subsurface mijn bestanden op een andere cloud server opslaan?"
 
-#: templates/faq.html:639
+#: templates/faq.html:653
 #, python-format
 msgid ""
 "Subsurface can store your dive log securely in the Subsurface Cloud, backing"
@@ -1491,7 +1509,7 @@ msgstr ""
 "desktop, Android of iOS-apparaat. Daarnaast is er een alleen-lezen "
 "webweergave beschikbaar op <a %(cloudweb)s>de cloud webpagina</a>."
 
-#: templates/faq.html:642
+#: templates/faq.html:656
 msgid ""
 "This is the only cloud solution available, which allows the developers the "
 "ability to enhance Subsurface, fix issues, and support users (with your "
@@ -1510,7 +1528,7 @@ msgstr ""
 "geen zinvolle afweging, dus andere cloudoplossingen worden nog steeds niet "
 "ondersteund."
 
-#: templates/faq.html:645
+#: templates/faq.html:659
 msgid ""
 "If you only use Subsurface on the desktop and wish to backup your log on a "
 "remote storage server, the documention describes how to store your XML data "
@@ -1522,15 +1540,15 @@ msgstr ""
 " je je XML-gegevens kunt opslaan op DropBox of andere vergelijkbare diensten"
 " zoals OwnCloud, TeamDrive, MiniBox, etc."
 
-#: templates/faq.html:650
+#: templates/faq.html:664
 msgid "Issues with specific dive computers"
 msgstr "Problemen met specifieke duikcomputers"
 
-#: templates/faq.html:655
+#: templates/faq.html:669
 msgid "Can you add support for dive computer X?"
 msgstr "Kun je ondersteuning voor duikcomputer X toevoegen?"
 
-#: templates/faq.html:661
+#: templates/faq.html:675
 #, python-format
 msgid ""
 "We support a large number of dive computers already and are always happy to "
@@ -1552,7 +1570,7 @@ msgstr ""
 "overdrachtsprotocol en de duikcodering te reverse engineeren, maar met "
 "voldoende hulp van jullie is het vaak mogelijk om dat te doen."
 
-#: templates/faq.html:664
+#: templates/faq.html:678
 msgid ""
 "A good starting point is often to send us a libdivecomputer log and dump "
 "(you can pick those in the dive computer download dialog) when connecting to"
@@ -1566,11 +1584,20 @@ msgstr ""
 " model (indien mogelijk). Maar over het algemeen is het het meest zinvol om "
 "eerst contact op te nemen om tijdverspilling te voorkomen."
 
-#: templates/faq.html:676
+#: templates/faq.html:681
+#, python-format
+msgid ""
+"If you would like to contribute and help, there are many ways to do so. "
+"Please take a look at our '<a %(contribute)s>Contribute</a>' page."
+msgstr ""
+"Als je wilt bijdragen en helpen kan dat op verschillende manieren. Kijk op "
+"onze '<a %(contribute)s>Bijdragen</a>' pagina."
+
+#: templates/faq.html:690
 msgid "Old style Suunto dive computers?"
 msgstr "Suunto duikcomputers oude stijl?"
 
-#: templates/faq.html:683
+#: templates/faq.html:697
 msgid ""
 "Most of the download cables are FTDI based and need the appropriate drivers "
 "installed. Some other third party cables need different drivers. Without "
@@ -1585,11 +1612,11 @@ msgstr ""
 "(<code>COMn</code> or <code>/dev/tty...</code>), en je krijgt timeouts of "
 "gegevensfouten, zie dan de gegevensfouten vraag hieronder."
 
-#: templates/faq.html:692
+#: templates/faq.html:706
 msgid "I get timeouts or data error when downloading"
 msgstr "Ik krijg timeouts of gegevensfouten bij het downloaden"
 
-#: templates/faq.html:699
+#: templates/faq.html:713
 msgid ""
 "Astoundingly commonly the reason are wet or dirty contacts or a low battery."
 " It doesn't matter if the dive computer turns on. Download mode often "
@@ -1606,11 +1633,11 @@ msgstr ""
 "Subsurface niet downloadt totdat je een nieuwe batterij en echt schone en "
 "echt droge contacten hebt."
 
-#: templates/faq.html:708
+#: templates/faq.html:723
 msgid "BLE (Bluetooth Low Energy) downloads are incredibly slow"
 msgstr "BLE (Bluetooth Low Energy) downloads zijn ongelooflijk traag"
 
-#: templates/faq.html:714
+#: templates/faq.html:729
 msgid ""
 "Yes, yes they are. Since Subsurface supports BLE download from many "
 "different dive computers from many different vendors, the code is generally "
@@ -1632,7 +1659,7 @@ msgstr ""
 "waardoor de download wordt afgebroken. Het loont echt de moeite om vroeg en "
 "vaak te downloaden."
 
-#: templates/faq.html:717
+#: templates/faq.html:732
 msgid ""
 "If the dive computer offers a way to download with a USB cable (in addition "
 "to BLE, like for example the Suunto EON Steel family), that is definitely "
@@ -1642,11 +1669,11 @@ msgstr ""
 "(naast BLE, zoals bijvoorbeeld de Suunto EON Steel familie), dan heeft dat "
 "zeker de voorkeur, vooral voor die eerste download."
 
-#: templates/faq.html:727
+#: templates/faq.html:743
 msgid "Does Subsurface-mobile support the Garmin Descent family?"
 msgstr "Ondersteunt Subsurface-mobile de Garmin Descent familie?"
 
-#: templates/faq.html:734
+#: templates/faq.html:750
 msgid ""
 "The Descent dive computers are only supported on Windows, macOS, and Linux, "
 "and only for cable based download. Based on a specific request from Garmin, "
@@ -1656,33 +1683,34 @@ msgstr ""
 "Linux, en alleen voor downloads via een kabel. Vanwege een specifiek verzoek"
 " van Garmin kunnen we downloads via BLE op geen enkel platform ondersteunen."
 
-#: templates/faq.html:743
+#: templates/faq.html:759
 msgid "Can I import '.FIT' files directly?"
 msgstr "Kan ik '.FIT'-bestanden rechtstreeks importeren?"
 
-#: templates/faq.html:750
+#: templates/faq.html:766
 msgid ""
 "If for some reason you cannot get regular downloads to work, but have access"
 " to the `.FIT` files, you can still use Subsurface to import those, still "
 "using the download code. Simply create a folder "
 "<code>...somepath.../Garmin/Activity</code> and copy the <code>.FIT</code> "
 "files into that folder. Now start a Subsurface download and enter "
-"<code>...somepath...</code> (without the <code>Garmin/Actity</code> part) in"
-" the Connection field and press Download."
+"<code>...somepath...</code> (without the <code>Garmin/Activity</code> part) "
+"in the Connection field and press Download."
 msgstr ""
-"Als u om de een of andere reden de gewone downloads niet aan de praat "
+"Als u om de een of andere reden de standaard downloads niet aan de praat "
 "krijgt, maar wel toegang hebt tot de `.FIT` bestanden, kunt u nog steeds "
-"Subsurface gebruiken om deze te importeren met behulp van de download code. "
-"Maak eenvoudig een map <code>...somepath.../Garmin/Activity</code> en "
-"kopieer de <code>.FIT</code> bestanden naar die map. Start nu een Subsurface"
-" download en selecteer <code>...somepath...</code> (zonder het "
-"<code>Garmin/Actity</code> deel) in het Apparaat veld en druk op Downloaden."
+"Subsurface gebruiken om deze te importeren met behulp van de downloadcode. "
+"Maak eenvoudig een map <code>...eenmap.../Garmin/Activity</code> en kopieer "
+"de <code>.FIT</code> bestanden naar die map. Start nu een download in "
+"Subsurface en voer <code>...eenmap...</code> in (zonder het "
+"<code>Garmin/Activity</code> gedeelte) in het Apparaat veld en druk op "
+"Downloaden."
 
-#: templates/faq.html:759
+#: templates/faq.html:776
 msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
 msgstr "Garmin Descent Mk2/Mk3 wil niet verbinden"
 
-#: templates/faq.html:766
+#: templates/faq.html:783
 msgid ""
 "The Descent Mk2/Mk3 is an MTP device which causes occasional problems when "
 "trying to download from it using Subsurface. MTP supports only a single "
@@ -1697,18 +1725,18 @@ msgstr ""
 "te maken met een media apparaat, zoals bijvoorbeeld de Android File "
 "Transfer."
 
-#: templates/faq.html:775
+#: templates/faq.html:792
 msgid "Garmin Descent Mk2/Mk3 on Windows"
 msgstr "Garmin Descent Mk2/Mk3 op Windows"
 
-#: templates/faq.html:782
+#: templates/faq.html:799
 msgid ""
 "You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
 msgstr ""
 "Je hebt het juiste USB-stuurprogramma nodig om met de Descent Mk2/Mk3 te "
 "kunnen verbinden."
 
-#: templates/faq.html:785
+#: templates/faq.html:802
 #, python-format
 msgid ""
 "Please download <a %(zadig)s>Zadig 2.6</a> and run it, plug in the Descent "
@@ -1725,11 +1753,11 @@ msgstr ""
 "koppel de Descent los en sluit het weer aan, opnieuw MTP kiezen. Nu kan "
 "Subsurface downloaden (niets invullen in het apparaat veld)."
 
-#: templates/faq.html:790
+#: templates/faq.html:807
 msgid "Other questions"
 msgstr "Overige vragen"
 
-#: templates/faq.html:792
+#: templates/faq.html:809
 #, python-format
 msgid ""
 "If your question wasn't answered here, please check the <a "
@@ -1740,7 +1768,7 @@ msgstr ""
 "%(userforum)s>Gebruikersforum</a> en probeer de zoekfunctie. Als je daar "
 "geen antwoord vindt, maak dan een nieuw onderwerp en vraag om hulp."
 
-#: templates/faq.html:796
+#: templates/faq.html:813
 #, python-format
 msgid ""
 "This FAQ is maintained as part of our website in the <a %(webrepo)s>website "
@@ -1816,10 +1844,11 @@ msgstr "Cloud opslag"
 
 #: templates/home.html:116
 msgid ""
-"Store your logbook data in the cloud. Work with your data from different "
-"devices, online and offline. Fully integrated, free, and easy to set up."
+"Optionally store your logbook data in the cloud. Work with your data from "
+"different devices, online and offline. Fully integrated, free, and easy to "
+"set up."
 msgstr ""
-"Sla je logboekgegevens op in de cloud. Werk met je gegevens vanaf "
+"Sla je logboekgegevens optioneel op in de cloud. Werk met je gegevens vanaf "
 "verschillende apparaten, online en offline. Volledig geïntegreerd, gratis en"
 " eenvoudig in te stellen."
 
@@ -2118,9 +2147,10 @@ msgstr ""
 "gebruik of verwerking van je gegevens - we slaan ze alleen op met het doel "
 "om ze weer beschikbaar te maken voor jou op je apparaten."
 
-#: templates/subsurface-user-manual.html:13
-msgid "Subsurface User Manual"
-msgstr "Subsurface gebruikershandleiding"
+#: templates/supported-dive-computers.html:3
+#: templates/supported-dive-computers.html:13
+msgid "Supported Dive Computers"
+msgstr "Ondersteunde duikcomputers"
 
 #: templates/supported-dive-computers.html:15
 msgid ""
@@ -2131,7 +2161,7 @@ msgstr ""
 "rekening mee dat Subsurface-mobile slechts een subset van deze apparaten "
 "ondersteunt."
 
-#: templates/thanks.html:13
+#: templates/thanks.html:3 templates/thanks.html:13
 msgid "Thanks"
 msgstr "Dankwoord"
 
@@ -2145,6 +2175,10 @@ msgstr ""
 "Het Subsurface team wil een aantal bedrijven en personen bedanken voor hun "
 "hulp door middel van documentatie, hardware donaties, leenapparatuur en <a "
 "%(link)s>sponsoring</a> van het project:"
+
+#: templates/tutorial-video.html:3 templates/tutorial-video.html:13
+msgid "Video Tutorial"
+msgstr "Video handleiding"
 
 #: templates/tutorial-video.html:15
 msgid ""
