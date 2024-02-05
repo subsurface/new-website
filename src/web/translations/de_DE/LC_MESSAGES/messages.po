@@ -1360,7 +1360,7 @@ msgstr ""
 "mit der <code>--user</code> Option, also etwa <code>subsurface "
 "--user=joebloggs</code>. Aus dieser Benutzer-spezifischen Umgebung kannst du"
 " dann sowohl auf lokal gespeicherte oder auf Cloud Logbücher zugreifen. Wenn"
-" Du verschiedene Desktop-Verknüpfungen inklusive dieser Option erstellst, "
+" du verschiedene Desktop-Verknüpfungen inklusive dieser Option erstellst, "
 "vereinfacht das die Benutzung."
 
 #: templates/faq.html:568
