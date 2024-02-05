@@ -6,16 +6,17 @@
 # Translators:
 # nautilusx, 2024
 # Michael Keller, 2024
-# Robert C. Helling <helling@atdotde.de>, 2024
 # Dirk Hohndel <dirk@hohndel.org>, 2024
+# Robert C. Helling <helling@atdotde.de>, 2024
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-02-05 00:56+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
-"Last-Translator: Dirk Hohndel <dirk@hohndel.org>, 2024\n"
+"Last-Translator: Robert C. Helling <helling@atdotde.de>, 2024\n"
 "Language-Team: German (Germany) (https://app.transifex.com/subsurface/teams/15508/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1801,7 +1802,7 @@ msgstr ""
 
 #: templates/home.html:32 templates/home.html:48
 msgid "Downloads for other platforms"
-msgstr "Übertragungen für andere Plattformen"
+msgstr "Downloads für andere Plattformen"
 
 #: templates/home.html:74
 msgid "Multiplatform"
