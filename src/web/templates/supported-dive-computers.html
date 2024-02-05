@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Supported Dive Computers{% endblock %}
+{% block title %}{{_("Supported Dive Computers")}}{% endblock %}
 {% block head %}
 {{ super() }}
 
@@ -10,7 +10,7 @@
 <div class="container">
   <div class="row g-5">
     <div class="col-12">
-      <h1 class="ssrf">Supported Dive Computers</h1>
+      <h1 class="ssrf">{{_("Supported Dive Computers")}}</h1>
       <p>
         {{ _("Currently, these divecomputers are supported in Subsurface. Please note that Subsurface-mobile only supports a subset of these devices.") }}
       </p>

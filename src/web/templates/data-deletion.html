@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Deleting Cloud Data and Account{% endblock %}
+{% block title %}{{_("Deleting Cloud Data and Account")}}{% endblock %}
 {% block head %}
 {{ super() }}
 
@@ -10,7 +10,7 @@
 <div class="container">
   <div class="row g-5">
     <div class="col-12">
-      <h1 class="ssrf">Deleting Cloud Data and Account</h1>
+      <h1 class="ssrf">{{_("Deleting Cloud Data and Account")}}</h1>
       <p>
         {{ _("Your cloud data can be deleted from within the mobile app or you can request that your data, or your data and account are deleted by simply sending an email to the Subsurface team at <a %(link)s>in-app-support@subsurface-divelog</a>.", link="href=mailto:in-app-support@subsurface-divelog") }}
       </p>

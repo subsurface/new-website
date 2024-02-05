@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Bugtracker{% endblock %}
+{% block title %}{{_("Bugtracker")}}{% endblock %}
 {% block head %}
 {{ super() }}
 
@@ -10,7 +10,7 @@
 <div class="container">
   <div class="row g-5">
     <div class="col-12">
-      <h1 class="ssrf">Bugtracker</h1>
+      <h1 class="ssrf">{{_("Bugtracker")}}</h1>
       <p>
         {{ _("While we are happy to receive bug reports (and patches!) on our <a %(mailman)s>mailing list</a>, you can also open issues on our <a %(githubissue)s>main Subsurface repository on GitHub</a>.", mailman="href=http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface", githubissue="href=https://github.com/Subsurface-divelog/subsurface/issues") }}
       </p>

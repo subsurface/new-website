@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Credits{% endblock %}
+{% block title %}{{_("Credits")}}{% endblock %}
 {% block head %}
 {{ super() }}
 
@@ -10,7 +10,7 @@
 <div class="container">
   <div class="row g-5">
     <div class="col-12">
-      <h1 class="ssrf">Credits</h1>
+      <h1 class="ssrf">{{_("Credits")}}</h1>
       <p>
         {{ _("Subsurface is itself open source software released under the <a %(license)s>GPLv2</a> -- and it is based on many other open source components.", license="href=https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE") }}
       </p>

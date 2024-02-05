@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-05 00:56+0000\n"
+"POT-Creation-Date: 2024-02-05 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,13 @@ msgstr ""
 msgid "Latest Dev Release"
 msgstr ""
 
-#: templates/base.html:77
+#: templates/base.html:77 templates/documentation.html:3
+#: templates/documentation.html:13
 msgid "Documentation"
 msgstr ""
 
-#: templates/base.html:84
+#: templates/base.html:84 templates/user-forum.html:3
+#: templates/user-forum.html:13
 msgid "User Forum"
 msgstr ""
 
@@ -45,7 +47,8 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
-#: templates/base.html:103
+#: templates/base.html:103 templates/privacy-policy.html:3
+#: templates/privacy-policy.html:13
 msgid "Privacy Policy"
 msgstr ""
 
@@ -53,8 +56,13 @@ msgstr ""
 msgid "Contribute"
 msgstr ""
 
-#: templates/base.html:116
+#: templates/base.html:116 templates/sponsoring.html:3
+#: templates/sponsoring.html:13
 msgid "Sponsoring"
+msgstr ""
+
+#: templates/bugtracker.html:3 templates/bugtracker.html:13
+msgid "Bugtracker"
 msgstr ""
 
 #: templates/bugtracker.html:15
@@ -179,6 +187,10 @@ msgid ""
 "infrastructure appreciates donations to help cover these expenses. If you"
 " would like to help with this you can do so through <a %(link)s>Dirk's "
 "Ko-fi page</a> or the <a %(ghsponsor)s>Dirk's GitHub Sponsor page</a>."
+msgstr ""
+
+#: templates/credits.html:3 templates/credits.html:13
+msgid "Credits"
 msgstr ""
 
 #: templates/credits.html:15
@@ -358,6 +370,10 @@ msgid ""
 "A generic AppImage is available. After you download this file, make it "
 "executable <code>chmod +x Subsurface-v%(version)s-CICD-"
 "release.AppImage</code>, and then simply run this file."
+msgstr ""
+
+#: templates/data-deletion.html:3 templates/data-deletion.html:13
+msgid "Deleting Cloud Data and Account"
 msgstr ""
 
 #: templates/data-deletion.html:15
@@ -1565,8 +1581,9 @@ msgid ""
 "again on your devices."
 msgstr ""
 
-#: templates/subsurface-user-manual.html:13
-msgid "Subsurface User Manual"
+#: templates/supported-dive-computers.html:3
+#: templates/supported-dive-computers.html:13
+msgid "Supported Dive Computers"
 msgstr ""
 
 #: templates/supported-dive-computers.html:15
@@ -1575,7 +1592,7 @@ msgid ""
 "that Subsurface-mobile only supports a subset of these devices."
 msgstr ""
 
-#: templates/thanks.html:13
+#: templates/thanks.html:3 templates/thanks.html:13
 msgid "Thanks"
 msgstr ""
 
@@ -1585,6 +1602,10 @@ msgid ""
 "The Subsurface team would like to thank a few companies and individuals "
 "for their help through documentation, hardware donations, loaner devices,"
 " and <a %(link)s>sponsorship</a> of the project:"
+msgstr ""
+
+#: templates/tutorial-video.html:3 templates/tutorial-video.html:13
+msgid "Video Tutorial"
 msgstr ""
 
 #: templates/tutorial-video.html:15
