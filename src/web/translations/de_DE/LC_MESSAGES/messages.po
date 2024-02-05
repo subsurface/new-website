@@ -9,6 +9,7 @@
 # Robert C. Helling <helling@atdotde.de>, 2024
 # Dirk Hohndel <dirk@hohndel.org>, 2024
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
