@@ -1718,7 +1718,7 @@ msgstr "우리는 롤링 릴리스 - 잦은, 지속적인 업데이트 - 방식�
 #, python-format
 msgid ""
 "Please check out <a %(link)s>the announcement of the Release Changes</a>"
-msgstr ""
+msgstr "<a %(link)s>릴리스 변경 공지</a>를 참조하세요"
 
 #: templates/home.html:171
 msgid "A bit of history:"
