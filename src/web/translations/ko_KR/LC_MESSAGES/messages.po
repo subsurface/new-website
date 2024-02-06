@@ -1826,6 +1826,7 @@ msgid ""
 "Personal information is held whilst a user is registered. User accounts can "
 "be deleted on request. See contact information below."
 msgstr ""
+"개인정보는 사용자가 등록되어 있는 동안 보유됩니다. 사용자 계정은 요청에 따라 삭제될 수 있습니다. 아래의 연락처 정보를 참조하세요."
 
 #: templates/privacy-policy.html:24
 msgid ""
