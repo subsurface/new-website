@@ -1809,6 +1809,7 @@ msgid ""
 "This Privacy Notice is to inform EU and U.K. citizens who use Subsurface how"
 " their personal information is used."
 msgstr ""
+"이 개인정보 정책은 Subsurface를 사용하는 EU 및 영국 시민들에게 그들의 개인 정보가 어떻게 이용되는지를 알리기 위함입니다."
 
 #: templates/privacy-policy.html:18
 msgid ""
