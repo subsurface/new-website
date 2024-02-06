@@ -1712,7 +1712,7 @@ msgstr ""
 
 #: templates/home.html:164
 msgid "We switched to rolling releases"
-msgstr ""
+msgstr "우리는 롤링 릴리스 - 잦은, 지속적인 업데이트 - 방식으로 전환했습니다."
 
 #: templates/home.html:166
 #, python-format
