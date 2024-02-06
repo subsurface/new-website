@@ -1730,6 +1730,8 @@ msgid ""
 "to start a new project, Linux creator Linus Torvalds decided to tackle his "
 "frustration with the lack of decent divelog software on Linux."
 msgstr ""
+"2011년 가을, 커널 개발이 강제로 중단되고 새로운 프로젝트를 시작할 기회가 생겼을 때, Linux 창시자인 Linus "
+"Torvalds는 Linux에 쓸만한 다이브로그 소프트웨어가 없다는 불만을 해결하기로 결정했습니다."
 
 #: templates/home.html:176
 msgid ""
