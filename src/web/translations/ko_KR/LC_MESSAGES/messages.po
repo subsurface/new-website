@@ -6,6 +6,7 @@
 # Translators:
 # Wonchan Lee (Andrew), 2024
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
@@ -50,7 +51,7 @@ msgstr "버그 추적기"
 
 #: templates/base.html:96
 msgid "FAQ"
-msgstr "자주하는 질문"
+msgstr "자주 하는 질문"
 
 #: templates/base.html:103 templates/privacy-policy.html:3
 #: templates/privacy-policy.html:13
@@ -64,7 +65,7 @@ msgstr "기여하기"
 #: templates/base.html:116 templates/sponsoring.html:3
 #: templates/sponsoring.html:13
 msgid "Sponsoring"
-msgstr "스폰서"
+msgstr "후원하기"
 
 #: templates/bugtracker.html:15
 #, python-format
@@ -218,7 +219,7 @@ msgstr ""
 
 #: templates/credits.html:3 templates/credits.html:13
 msgid "Credits"
-msgstr ""
+msgstr "크레딧"
 
 #: templates/credits.html:15
 #, python-format
@@ -421,7 +422,7 @@ msgstr ""
 
 #: templates/data-deletion.html:3 templates/data-deletion.html:13
 msgid "Deleting Cloud Data and Account"
-msgstr ""
+msgstr "클라우드 데이터 및 계정 삭제"
 
 #: templates/data-deletion.html:15
 #, python-format
@@ -444,7 +445,7 @@ msgstr "이 페이지는 사용자가 접하게 되는 Subsurface의 문서 자�
 #: templates/documentation.html:17
 #, python-format
 msgid "<a %(faq)s>FAQ</a>"
-msgstr "<a %(faq)s>자주하는 질문</a>"
+msgstr "<a %(faq)s>자주 하는 질문</a>"
 
 #: templates/documentation.html:19
 #, python-format
@@ -1321,6 +1322,9 @@ msgid ""
 "or iOS device. Additionally there is a read only web view available at <a "
 "%(cloudweb)s>the cloud webpage</a>."
 msgstr ""
+"Subsurface는 다이브 로그를 Subsurface 클라우드에 안전하게 보관하고, 데이터를 백업하며, 데스크톱과 안드로이드 및 iOS"
+" 장치에서 다이브 로그에 접근할 수 있도록 해 줍니다. 게다가 <a %(cloudweb)s>클라우드 웹페이지</a>에서는 읽기 전용 "
+"웹보기가 가능합니다."
 
 #: templates/faq.html:656
 msgid ""
@@ -1332,6 +1336,10 @@ msgid ""
 "In the end this is not a useful trade-off for us to make, so other cloud "
 "solutions continue to not be supported."
 msgstr ""
+"이것은 개발자들이 Subsurface를 향상시키고, 문제를 해결하며, 클라우드 스토리지에 문제가 생겼을 때 사용자를 지원(사용자의 허가 "
+"하에)할 수 있도록 하는 유일한 클라우드 솔루션입니다. 추가적인 클라우드 백엔드를 지원하는 것은 상당한 노력을 필요로 하는 것인 반면 "
+"저희가 사용자들의 문제를 해결하는 것을 훨씬 어렵게 만듭니다. 이는 우리에게 유용한 트레이드-오프가 아니므로, 결국 다른 클라우드 "
+"솔루션은 당분간 지원 계획이 없습니다. "
 
 #: templates/faq.html:659
 msgid ""
@@ -1340,14 +1348,17 @@ msgid ""
 "on DropBox or other similar services such as OwnCloud, TeamDrive, MiniBox, "
 "etc."
 msgstr ""
+"만약 당신이 데스크톱에서만 Subsurface를 사용하면서 로그 데이터를 원격 스토리지 서버에 백업하고자 한다면, 당신의 XML 데이터를"
+" DropBox 및 기타 유사한 서비스 - OwnCloud, TeamDrive, MiniBox 등 - 에 저장하는 방법을 설명하는 문서 "
+"자료가 있습니다."
 
 #: templates/faq.html:664
 msgid "Issues with specific dive computers"
-msgstr ""
+msgstr "특정 다이브 컴퓨터 관련 문제"
 
 #: templates/faq.html:669
 msgid "Can you add support for dive computer X?"
-msgstr ""
+msgstr "특정 다이브 컴퓨터에 대한 지원을 추가할 수 있나요?"
 
 #: templates/faq.html:675
 #, python-format
@@ -1361,6 +1372,11 @@ msgid ""
 "protocol and the dive encoding, but with sufficient help from you it is "
 "often possible to do so."
 msgstr ""
+"우리는 이미 수많은 다이브 컴퓨터를 지원하고 있으며 그 지원 대상을 지속적으로 확대하고자 합니다. 우리가 도울 수 있도록 <a "
+"%(userforum)s>사용자 포럼</a>을 통해 연락하세요. 일부 공급업체들은 우리에게 적극적으로 협력하고 있으며 그 공급업체들의 새"
+" 모델을 지원하는 것은 일반적으로 쉽습니다. 다른 공급업체들은 중립적이거나, 오히려 적극적으로 적대하는 공급업체들도 있습니다. 공급업체의"
+" 도움 없이 전송 프로토콜과 다이브 인코딩을 리버스엔지니어링하는 것은 꽤 어려운 일이지만, 당신이 충분히 도와준다면 성공할 가능성도 "
+"상당합니다."
 
 #: templates/faq.html:678
 msgid ""
@@ -1370,6 +1386,9 @@ msgid ""
 "generally it might make the most sense to first reach out in order to avoid "
 "wasting your time."
 msgstr ""
+"유사한 기존 모델(가능한 경우)을 사용해 다이브 컴퓨터에 연결했을 때의 libdivecomputer 로그와 덤프(다이브 컴퓨터 다운로드 "
+"대화상자에서 선택 가능)를 우리에게 보내주는 것이 좋은 출발점입니다. 그러나 일반적인 경우 시간 낭비를 피하기 위해 우리에게 먼저 연락을"
+" 취하는 것이 합리적일 것입니다."
 
 #: templates/faq.html:681
 #, python-format
@@ -1377,10 +1396,12 @@ msgid ""
 "If you would like to contribute and help, there are many ways to do so. "
 "Please take a look at our '<a %(contribute)s>Contribute</a>' page."
 msgstr ""
+"만약 당신이 기여 또는 도움을 주고자 한다면 그 방법은 많습니다. 우리의 '<a %(contribute)s>기여하기</a>' 페이지를 "
+"살펴보세요."
 
 #: templates/faq.html:690
 msgid "Old style Suunto dive computers?"
-msgstr ""
+msgstr "오래된 Suunto 다이브 컴퓨터들은요?"
 
 #: templates/faq.html:697
 msgid ""
@@ -1390,10 +1411,13 @@ msgid ""
 "device (<code>COMn</code> or <code>/dev/tty...</code>), if you get timeouts "
 "or data errors, see the data error question below."
 msgstr ""
+"대부분의 다운로드 케이블은 FTDI 기반으로서 적합한 드라이버를 설치해야 합니다. 다른 서드파티 케이블은 다른 드라이버를 필요로 합니다."
+" 그러한 드라이버 없이는 다이브 컴퓨터가 표시되지 않을 것입니다. 일단 다이브 컴퓨터가 표시되었음에도(<code>COMn</code> "
+"or <code>/dev/tty...</code>) 타임아웃이나 데이터 에러가 발생한다면, 아래의 데이터 에러 관련 문항을 보세요."
 
 #: templates/faq.html:706
 msgid "I get timeouts or data error when downloading"
-msgstr ""
+msgstr "다운로드 시 타임아웃 또는 데이터 에러가 발생합니다."
 
 #: templates/faq.html:713
 msgid ""
@@ -1404,10 +1428,14 @@ msgid ""
 "better job at 'error correction'), but Subsurface won't download until you "
 "have a fresh battery and really clean and really dry contacts."
 msgstr ""
+"놀랍게도 가장 흔한 원인은 젖어 있거나 더러운 접점 또는 배터리 부족입니다. 다이브 컴퓨터가 켜지더라도 마찬가지입니다. 다운로드 모드는 "
+"종종 훨씬 높고 안정적인 전압을 필요로 합니다. 그리고 안타깝지만 심지어는 공급업체의 다이브 로그는 작동하지만('오류 보정'을 훨씬 더 "
+"잘 할 수 있으므로) Subsurface의 다운로드는 작동하지 않는 - 새 배터리로 교체하고 접점을 정말 깨끗하고 건조하게 할 때까지 -"
+" 상황도 보아 왔습니다."
 
 #: templates/faq.html:723
 msgid "BLE (Bluetooth Low Energy) downloads are incredibly slow"
-msgstr ""
+msgstr "BLE (Bluetooth Low Energy) 다운로드가 너무 느립니다"
 
 #: templates/faq.html:729
 msgid ""
@@ -1420,6 +1448,11 @@ msgid ""
 "is hard to complete the download without running into errors that lead the "
 "download to abort. It really pays off to download early and often."
 msgstr ""
+"예, 그렇습니다. Subsurface는 다양한 공급업체의 다양한 다이브 컴퓨터에서 BLE 다운로드를 지원하므로, 그 코드는 공급업체의 "
+"앱만큼 특정 다이브 컴퓨터에 맞추어 튠 되지 않았습니다. 그래서 안타깝지만 이러한 다운로드는 고통스러울 정도로 느립니다. 보통 하루에 "
+"다이브 로그 몇 개를 다운로드하는 것은 지루할지라도 끔찍할 정도는 아닙니다. 그러나 특히 100회 이상의 다이브가 포함된 최초 다운로드는"
+" 1 시간 이상 걸릴 수 있으며 - 때로는 다운로드가 중단되는 오류 없이 다운로드를 완료하기가 어려울 수도 있습니다. 그러므로 일찍, "
+"자주 다운로드하는 것이 좋습니다."
 
 #: templates/faq.html:732
 msgid ""
@@ -1427,10 +1460,12 @@ msgid ""
 "to BLE, like for example the Suunto EON Steel family), that is definitely "
 "preferable especially for that first download."
 msgstr ""
+"다이브 컴퓨터가 USB 케이블로 다운로드할 수 있는 방법을 제공하는 경우(예: Suunto EON Steel 제품군과 같이 BLE 외에 "
+"추가로 USB 케이블 지원) 그것이 확실히 나은 방법이며, 특히 최초 다운로드의 경우 더욱 그러합니다."
 
 #: templates/faq.html:743
 msgid "Does Subsurface-mobile support the Garmin Descent family?"
-msgstr ""
+msgstr "Subsurface-mobile은 가민 디센트 제품군을 지원하나요?"
 
 #: templates/faq.html:750
 msgid ""
@@ -1438,10 +1473,12 @@ msgid ""
 "and only for cable based download. Based on a specific request from Garmin, "
 "we will not be able to support BLE downloads on any platform."
 msgstr ""
+"디센트 다이브 컴퓨터는 Windows, macOS, Linux에서만 지원되며 케이블 기반 다운로드만 지원됩니다. 가민의 요청에 따라 "
+"어떠한 플랫폼에서도 BLE 다운로드를 지원할 수 없습니다."
 
 #: templates/faq.html:759
 msgid "Can I import '.FIT' files directly?"
-msgstr ""
+msgstr "'.FIT' 파일을 직접 가져올 수 있나요?"
 
 #: templates/faq.html:766
 msgid ""
@@ -1453,10 +1490,15 @@ msgid ""
 "<code>...somepath...</code> (without the <code>Garmin/Activity</code> part) "
 "in the Connection field and press Download."
 msgstr ""
+"어떤 이유에서든 일반 다운로드는 실패했지만 `.FIT` 파일에 접근할 수 있는 경우, 여전히 다운로드 코드를 사용해 Subsurface로"
+" 해당 파일을 가져올 수 있습니다. 간단히 <code>...somepath.../Garmin/Activity</code> 폴더를 만들고 "
+"<code>.FIT</code> 파일을 그 폴더로 복사하세요. 이제 Subsurface 다운로드를 시작하고 Connection 필드에 "
+"<code>...somepath...</code> 경로(<code>Garmin/Activity</code> 부분은 제외)를 입력한 뒤 "
+"Download를 누르세요."
 
 #: templates/faq.html:776
 msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
-msgstr ""
+msgstr "가민 디센트 Mk2/Mk3가 연결되지 않습니다"
 
 #: templates/faq.html:783
 msgid ""
@@ -1466,15 +1508,18 @@ msgid ""
 "dive computer. Exit all other apps that might try to connect to a media "
 "device, like for example the Android File Transfer."
 msgstr ""
+"디센트 Mk2/Mk3는 MTP 장치로서 Subsurface를 이용한 다운로드 시 종종 문제를 일으킵니다. MTP는 오직 단일 연결만을 "
+"지원하므로 다른 MTP 앱이 Subsurface와 다이브 컴퓨터 사이의 통신을 방해할 가능성이 있습니다. Android File "
+"Transfer와 같이 미디어 장치와의 연결을 시도할 가능성이 있는 앱을 모두 종료하세요."
 
 #: templates/faq.html:792
 msgid "Garmin Descent Mk2/Mk3 on Windows"
-msgstr ""
+msgstr "Windows에서의 가민 디센트 Mk2/Mk3"
 
 #: templates/faq.html:799
 msgid ""
 "You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
-msgstr ""
+msgstr "디센트 Mk2/Mk3와 통신하기 위해서는 올바른 USB 드라이버가 필요합니다."
 
 #: templates/faq.html:802
 #, python-format
@@ -1486,10 +1531,14 @@ msgid ""
 " the Descent and plug it back in, again selecting MTP. Now Subsurface is "
 "able to download from it (don't enter anything in the connection field)"
 msgstr ""
+"<a %(zadig)s>Zadig 2.6</a>을 다운로드하고 실행하세요. 디센트를 연결한 뒤 MTP를 선택하고, Zadig가 디센트 "
+"선택 옵션을 제시하기를 기다리세요(분리하고 재연결하는 절차를 반복해야 할 수도 있습니다). 디센트를 선택하고 Zadig가 `libusb-"
+"win32`를 설치하도록 하세요(완료되기까지 시간이 걸릴 수 있습니다). 디센트를 분리 후 재연결 하고, MTP를 다시 선택하세요. 이제"
+" Subsurface가 디센트로부터 다운로드할 수 있을 것입니다(connection 필드에 아무 것도 입력하지 마세요)."
 
 #: templates/faq.html:807
 msgid "Other questions"
-msgstr ""
+msgstr "기타 질문들"
 
 #: templates/faq.html:809
 #, python-format
@@ -1498,6 +1547,8 @@ msgid ""
 "%(userforum)s>User Forum</a> and try the search function. If you don't find "
 "an answer there, create a new topic and ask for help."
 msgstr ""
+"여기에서 질문에 대한 답변을 찾을 수 없다면, <a %(userforum)s>사용자 포럼</a>에 방문해서 검색해보세요. 그럼에도 답변을"
+" 찾을 수 없다면, 새 주제를 개설해서 도움을 구하세요."
 
 #: templates/faq.html:813
 #, python-format
@@ -1506,28 +1557,33 @@ msgid ""
 "repo</a>. Pull requests are of course welcome - you can also suggest "
 "additions to the FAQ in the <a %(userforum)s>User Forum</a>."
 msgstr ""
+"이 자주 하는 질문 - FAQ - 페이지는 웹사이트의 일부로서 <a %(webrepo)s>웹사이트 저장소</a> 내에 유지 관리됩니다. "
+"풀 리퀘스트도 얼마든지 환영이며, 물론 <a %(userforum)s>사용자 포럼</a>을 통해 자주 하는 질문에 추가할 사항을 제안할 "
+"수도 있습니다."
 
 #: templates/home.html:17
 msgid "The free, open-source cross-platform dive log software."
-msgstr ""
+msgstr "무료, 오픈소스 크로스 플랫폼 다이브 로그 소프트웨어"
 
 #: templates/home.html:32 templates/home.html:48
 msgid "Downloads for other platforms"
-msgstr ""
+msgstr "다른 플랫폼에서의 다운로드"
 
 #: templates/home.html:74
 msgid "Multiplatform"
-msgstr ""
+msgstr "다양한 플랫폼"
 
 #: templates/home.html:76
 msgid ""
 "Subsurface is an open source divelog program for recreational, tech, and "
 "free-divers that runs on Windows, Mac, and Linux"
 msgstr ""
+"Subsurface는 레크리에이셔널, 테크 및 프리 다이버들을 위한 오픈소스 다이브 로그 프로그램으로서 Windows, Mac, 및 "
+"Linux에서 동작합니다."
 
 #: templates/home.html:84
 msgid "Log all your dives"
-msgstr ""
+msgstr "당신의 모든 다이브를 기록하세요"
 
 #: templates/home.html:86
 msgid ""
@@ -1535,30 +1591,32 @@ msgid ""
 " programs or dive log websites. Manually enter them directly in Subsurface "
 "or via a simple spreadsheet."
 msgstr ""
+"다이브 컴퓨터로부터 다이브 로그를 다운로드하세요. 다른 다이브 로그 프로그램이나 웹사이트에서 가져오기하세요. Subsurface에서 직접"
+" 수동으로 입력하거나 간단한 스프레드시트를 통해 입력할 수도 있습니다."
 
 #: templates/home.html:94
 msgid "Dive planner"
-msgstr ""
+msgstr "다이브 플래너"
 
 #: templates/home.html:96
 msgid ""
 "The planner module makes it simple to visually plan dives either based on "
 "Bühlmann ZH-16 or VPM-B"
-msgstr ""
+msgstr "플래너 모듈을 사용하면 Bühlmann ZH-16 또는 VPM-B에 기반하여 다이빙을 시각적으로 쉽게 계획할 수 있습니다."
 
 #: templates/home.html:104
 msgid "Subsurface-mobile"
-msgstr ""
+msgstr "Subsurface-mobile"
 
 #: templates/home.html:106
 msgid ""
 "Using Subsurface-mobile on your Android or iOS device you can access your "
 "dive log anywhere"
-msgstr ""
+msgstr "안드로이드나 iOS 장치에서는 Subsurface-mobile을 사용해 어디에서든 다이브 로그에 접근할 수 있습니다"
 
 #: templates/home.html:114
 msgid "Cloud storage"
-msgstr ""
+msgstr "클라우드 스토리지"
 
 #: templates/home.html:116
 msgid ""
@@ -1566,6 +1624,8 @@ msgid ""
 "different devices, online and offline. Fully integrated, free, and easy to "
 "set up."
 msgstr ""
+"로그북 데이터를 클라우드에 저장할 수도 있습니다. 온라인이든 오프라인이든 다양한 장치에서 당신의 데이터로 작업할 수 있습니다. 완전히 "
+"통합되어 있으며 무료이고 설정도 간단합니다."
 
 #: templates/home.html:133
 msgid ""
@@ -1576,6 +1636,10 @@ msgid ""
 "and names of other divers, and lets users rate dives and provide additional "
 "notes."
 msgstr ""
+"Subsurface는 일반 공기, 나이트록스 및 트라이믹스를 사용한 단일 또는 멀티 탱크 <strong> 다이브 </strong>를 "
+"<strong>계획</strong>하고 <strong>기록</strong>할 수 있습니다. GPS 좌표(지도 인터페이스를 사용해 편리하게"
+" 입력 가능)를 포함한 다이브 위치 기록, 사용한 장비 및 다른 다이버의 이름 기록이 가능하며, 다이브를 평가하고 추가적인 메모를 남길 "
+"수도 있습니다."
 
 #: templates/home.html:136
 msgid ""
@@ -1584,6 +1648,9 @@ msgid ""
 "group the dive list into trips, and edit multiple dives at the same time, "
 "making it easy to support a large number of dives."
 msgstr ""
+"다이브에 태그를 지정할 수 있으며 태그, 장소, 함께 다이빙한 사람 등의 기준에 따라 <strong>다이브 목록을 "
+"필터링</strong>할 수도 있습니다. 다이브 목록을 트립으로 그룹화하고 여러 다이브들을 동시에 편집하는 등의 방법으로 많은 수의 "
+"다이브를 쉽게 관리할 수 있습니다."
 
 #: templates/home.html:141
 msgid ""
@@ -1591,18 +1658,22 @@ msgid ""
 "the user’s diving and tracks information like the SAC rate, partial "
 "pressures of O2, N2 and He, calculated deco information, and many more."
 msgstr ""
+"Subsurface는 또한 사용자의 다이빙에 대한 다양한 <strong>통계 수치</strong>를 계산하여 제공하고 SAC 레이트, "
+"O2, N2 및 He의 부분압, 계산된 감압 정보 등과 같은 정보를 기록합니다."
 
 #: templates/home.html:144
 msgid ""
 "<strong>Multiple divers</strong> can share one instance of Subsurface using "
 "different preferences and settings."
 msgstr ""
+"<strong>여러 다이버들</strong>이 서로 다른 설정값을 사용하여 하나의 Subsurface 인스턴스를 공유할 수도 있습니다."
 
 #: templates/home.html:147
 msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
+"이 프로그램은 약 <strong>20개의 언어</strong>로 현지화되었으며 활동적인 개발자 커뮤니티의 지원을 받고 있습니다."
 
 #: templates/home.html:152
 #, python-format
@@ -1612,6 +1683,9 @@ msgid ""
 "computers</a>). Subsurface can also import existing dive logs from several "
 "sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de."
 msgstr ""
+"Subsurface의 주요 강점 중 하나는 넓은 범위의 <strong>다이브 컴퓨터</strong>(<a %(link)s>지원되는 다이브"
+" 컴퓨터의 목록</a> 참조)를 지원한다는 것입니다. 또한 Subsurface는 기존에 존재하는 다이브 로그를 여러가지 소스 - "
+"MacDive, Suunto DM3, DM4 & DM5, JDiveLog 및 divelogs.de 포함 - 로부터 가져올 수 있습니다."
 
 #: templates/home.html:155
 msgid ""
@@ -1623,6 +1697,10 @@ msgid ""
 "into one dive – allowing visualization of the data collected from multiple "
 "sources."
 msgstr ""
+"또 다른 강점은 사용자에게 다이빙 중 상대속도, 순간 공기 소비량에 대한 정보를 추가로 제공하는 혁신적인 방식으로 수심 프로필(가능한 "
+"경우 탱크 압력 곡선 포함)을 <strong>시각화</strong>하여 보여준다는 것입니다. <strong>여러 개의 다이브 "
+"컴퓨터</strong>를 가지고 다이브하는 사용자는 각 다이브 컴퓨터의 데이터를 하나의 다이브로 결합함으로써 여러 소스로부터 수집된 "
+"데이터를 시각화할 수 있습니다."
 
 #: templates/home.html:160
 msgid ""
@@ -1774,17 +1852,19 @@ msgstr ""
 #: templates/supported-dive-computers.html:3
 #: templates/supported-dive-computers.html:13
 msgid "Supported Dive Computers"
-msgstr ""
+msgstr "지원되는 다이브 컴퓨터"
 
 #: templates/supported-dive-computers.html:15
 msgid ""
 "Currently, these divecomputers are supported in Subsurface. Please note that"
 " Subsurface-mobile only supports a subset of these devices."
 msgstr ""
+"현재 Subsurface가 지원하는 다이브 컴퓨터는 아래와 같습니다. Subsurface-mobile은 아래 장치 중 일부만 지원한다는 "
+"점에 유의하세요."
 
 #: templates/thanks.html:3 templates/thanks.html:13
 msgid "Thanks"
-msgstr ""
+msgstr "감사한 분들"
 
 #: templates/thanks.html:15
 #, python-format
@@ -1793,31 +1873,35 @@ msgid ""
 "their help through documentation, hardware donations, loaner devices, and <a"
 " %(link)s>sponsorship</a> of the project:"
 msgstr ""
+"Subsurface 팀은 문서자료, 하드웨어 기부, 장치 대여 및 프로젝트 <a %(link)s>후원</a>을 통해 도움을 주신 몇몇 "
+"회사들과 개인들에게 감사의 말씀을 전합니다:"
 
 #: templates/tutorial-video.html:3 templates/tutorial-video.html:13
 msgid "Video Tutorial"
-msgstr ""
+msgstr "영상 튜토리얼"
 
 #: templates/tutorial-video.html:15
 msgid ""
 "This video is based on a slightly older version of Subsurface, but should "
 "still be very useful to get an idea of the functionality."
 msgstr ""
+"이 영상은 약간 오래된 버전의 Subsurface를 기반으로 제작된 것입니다만, 기능에 대한 아이디어를 얻는 데에는 여전히 유용할 "
+"것입니다. "
 
 #: templates/tutorial-video.html:29
 msgid ""
 "You can also download the video for offline viewing, using one of the "
 "following links:"
-msgstr ""
+msgstr "다음 링크 중 하나를 사용해 영상을 다운로드하여 오프라인에서 시청할 수 있습니다:"
 
 #: templates/tutorial-video.html:37
 msgid "or any other of the links at"
-msgstr ""
+msgstr "또는 다음 링크들 중 하나에서"
 
 #: templates/tutorial-video.html:41
 #, python-format
 msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
-msgstr ""
+msgstr "그리고 편한 비디오 플레이어로 시청하세요 (예시: <a %(vlc)s>VLC</a>)."
 
 #: templates/user-forum.html:15
 #, python-format
