@@ -1759,6 +1759,9 @@ msgid ""
 "them to be broken very often, they are generally released in order to "
 "facilitate testing, and as such may not have received a lot of testing, yet."
 msgstr ""
+"이 페이지의 릴리스는 Subsurface CICD (Continuous Integration, Continuous Delivery) "
+"시스템의 최신 빌드입니다. 오작동이 빈번할 것이라고 예상하진 않지만, 일반적으로 테스트를 촉진하기 위한 릴리스이므로 아직까지 많은 "
+"테스트를 거치지 않았을 수 있습니다."
 
 #: templates/latest-release.html:20
 msgid "The latest change-sets merged into this release are:"
