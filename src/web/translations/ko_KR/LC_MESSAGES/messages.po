@@ -1722,7 +1722,7 @@ msgstr "<a %(link)s>릴리스 변경 공지</a>를 참조하세요"
 
 #: templates/home.html:171
 msgid "A bit of history:"
-msgstr ""
+msgstr "약간의 히스토리:"
 
 #: templates/home.html:173
 msgid ""
