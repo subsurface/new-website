@@ -1795,6 +1795,10 @@ msgid ""
 "builds into our public TestFlight account. If you like to be on the bleeding"
 " edge, you can <a %(link)s>sign up for the Subsurface-mobile TestFlight.</a>"
 msgstr ""
+"iOS는 현재 사이드로드나 서명되지 않은 바이너리의 설치가 일반적으로 금지되는 유일한 플랫폼입니다(이 정책은 EU 지역에서 변경될 수도 "
+"있으나, 다른 지역은 아닙니다). 그에 따라 우리는 iOS용 Subsurface-mobile의 신규 버전을 여기에서 배포할 수 없습니다."
+" 우리는 새로운 빌드 다수를 우리의 TestFlight 공개 계정에 푸시하려고 합니다. 만약 최첨단의 빌드를 경험하고 싶다면, <a "
+"%(link)s>Subsurface-mobile TestFlight에 가입</a>하세요."
 
 #: templates/latest-release.html:117
 msgid "The 'edge' Snap-channel contains our latest build."
