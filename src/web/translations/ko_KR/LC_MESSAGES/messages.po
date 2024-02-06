@@ -1772,7 +1772,7 @@ msgstr "이 릴리스에 병합된 최신 변경 사항은 다음과 같습니�
 msgid ""
 "If you are looking for a somewhat less \"bleeding edge\" set of builds, "
 "please consider the <a %(link)s>Current Release Page</a>."
-msgstr ""
+msgstr "만약 약간이라도 덜 첨단의 빌드를 찾고 있다면, <a %(link)s>현재 릴리스 페이지</a>를 살펴보세요."
 
 #: templates/latest-release.html:55
 msgid ""
