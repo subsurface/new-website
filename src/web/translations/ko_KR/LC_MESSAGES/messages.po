@@ -530,9 +530,9 @@ msgid ""
 "minor edits; depending on your OS/hardware comby, you may even be able to "
 "download dive data directly from your dive computer using Subsurface-mobile."
 msgstr ""
-"Subsurface는 Windows 10 이상, MacOS 10.15 이상 및 다양한 Linux 버전에서 실행됩니다. Android 및 "
-"iOS에서 사용 가능한 Subsurface 모바일 버전에서는 다이빙 로그를 보거나 사소한 편집을 할 수 있습니다; OS/하드웨어 조합에 "
-"따서는 Subsurface-mobile을 사용해 다이빙 컴퓨터에서 직접 다이빙 데이터를 다운로드할 수 있습니다."
+"Subsurface는 Windows 10 이상, MacOS 10.15 이상 및 다양한 Linux 버전에서 실행됩니다. 안드로이드 및 "
+"iOS에서 사용 가능한 Subsurface 모바일 버전에서는 다이브 로그를 보거나 사소한 편집을 할 수 있습니다; OS/하드웨어 조합에 "
+"따서는 Subsurface-mobile을 사용해 다이브 컴퓨터에서 직접 다이브 데이터를 다운로드할 수 있습니다."
 
 #: templates/faq.html:47
 #, python-format
