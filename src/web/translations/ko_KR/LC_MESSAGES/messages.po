@@ -1707,6 +1707,8 @@ msgid ""
 "Subsurface lets the user <strong>print</strong> out a detailed log book "
 "including dive profiles and other important information."
 msgstr ""
+"Subsurface를 통해 사용자는 다이브 프로필과 기타 중요한 정보가 포함된 상세한 로그북을 <strong>출력</strong>할 수 "
+"있습니다."
 
 #: templates/home.html:164
 msgid "We switched to rolling releases"
