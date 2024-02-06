@@ -1877,6 +1877,9 @@ msgid ""
 "only store it with the purpose of making it available to you again on your "
 "devices."
 msgstr ""
+"간단합니다. 우리는 당신의 데이터를 이용하지 않습니다. 우리는 당신의 친구가 누군지도 상관하지 않습니다. 우리는 당신에게 마케팅을 하거나"
+" 당신을 성가시게 할 의도도 없습니다. 당신의 데이터를 이용한 수익창출이나 다른 용도로의 사용, 처리도 없습니다. 우리는 오로지 당신의 "
+"장치에서 당신에게 제공하기 위한 용도로만 데이터를 저장합니다."
 
 #: templates/supported-dive-computers.html:3
 #: templates/supported-dive-computers.html:13
