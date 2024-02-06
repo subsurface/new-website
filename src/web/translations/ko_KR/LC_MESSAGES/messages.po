@@ -1940,7 +1940,7 @@ msgstr "그리고 편한 비디오 플레이어로 시청하세요 (예시: <a %
 msgid ""
 "Do you have questions, comments, or suggestions for Subsurface? Please join "
 "our <a %(link)s>User Forum</a>."
-msgstr ""
+msgstr "Subsurface에 대한 질문이나 코멘트, 제안이 있나요? 우리의 <a %(link)s>사용자 포럼</a>에 가입하세요."
 
 #: templates/user-forum.html:18
 msgid ""
