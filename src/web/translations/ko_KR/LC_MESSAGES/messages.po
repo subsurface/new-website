@@ -1765,7 +1765,7 @@ msgstr ""
 
 #: templates/latest-release.html:20
 msgid "The latest change-sets merged into this release are:"
-msgstr ""
+msgstr "이 릴리스에 병합된 최신 변경 셋은 다음과 같습니다:"
 
 #: templates/latest-release.html:26
 #, python-format
