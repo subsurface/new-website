@@ -1750,7 +1750,7 @@ msgstr ""
 #: templates/latest-release.html:13
 #, python-format
 msgid "Latest Development (CICD) Release: %(version)s"
-msgstr ""
+msgstr "최신 개발 (CICD) 릴리스: %(version)s"
 
 #: templates/latest-release.html:17
 msgid ""
