@@ -1843,7 +1843,7 @@ msgstr ""
 msgid ""
 "To contact Subsurface please reach out to the Data Protection Lead: Email: "
 "<code>%(email)s</code>"
-msgstr ""
+msgstr "Subsurface에 문의하려면 데이터 보호 책임자에게 연락하세요: 이메일: <code>%(email)s</code>"
 
 #: templates/privacy-policy.html:30
 msgid ""
