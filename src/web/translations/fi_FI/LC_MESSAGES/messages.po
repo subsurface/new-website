@@ -1186,7 +1186,7 @@ msgid ""
 "the <a %(usermanual)s>User Manual</a>."
 msgstr ""
 "Subsurfaceen voidaan tuoda sukelluksen tietoja monella eri tavalla.. "
-"Tarkemmat tiedot löytyvät <%(usermanual)s>Käyttöohjeesta</a>."
+"Tarkemmat tiedot löytyvät <a%(usermanual)s>Käyttöohjeesta</a>."
 
 #: templates/faq.html:473
 msgid ""
