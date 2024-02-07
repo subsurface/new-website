@@ -99,8 +99,8 @@ msgid ""
 "can do so:"
 msgstr ""
 "Subsurface는 커뮤니티 중심의 오픈소스 프로젝트입니다. Subsurface는 모두에게 무료로 제공되며, Subsurface에 "
-"참여한 어느 누구도 이를 통해 수익을 얻지 않습니다. 만약 당신도 Subsurface에 기여를 하고 싶다면, 다음과 같은 여러가지 다양한"
-" 방법이 있습니다:"
+"참여한 어느 누구도 이를 통해 수익을 얻지 않습니다. 만약 여러분도 Subsurface에 기여를 하고 싶다면, 다음과 같은 여러가지 "
+"다양한 방법이 있습니다:"
 
 #: templates/contribute.html:17
 msgid "By Writing Code"
