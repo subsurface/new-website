@@ -1411,7 +1411,7 @@ msgid ""
 "or data errors, see the data error question below."
 msgstr ""
 "대부분의 다운로드 케이블은 FTDI 기반으로서 적합한 드라이버를 설치해야 합니다. 다른 서드파티 케이블은 다른 드라이버를 필요로 합니다."
-" 그러한 드라이버 없이는 다이브 컴퓨터가 표시되지 않을 것입니다. 일단 다이브 컴퓨터가 표시되었음에도(<code>COMn</code> "
+" 그러한 드라이버가 없다면 다이브 컴퓨터가 표시되지 않을 것입니다. 일단 다이브 컴퓨터가 표시되었음에도(<code>COMn</code> "
 "or <code>/dev/tty...</code>) 타임아웃이나 데이터 에러가 발생한다면, 아래의 데이터 에러 관련 문항을 보세요."
 
 #: templates/faq.html:706
