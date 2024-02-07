@@ -1,0 +1,2165 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# 
+# Translators:
+# Gianluca Montecchi, 2024
+# Cosma Tassinari, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-05 17:38+0000\n"
+"PO-Revision-Date: 2024-01-21 04:53+0000\n"
+"Last-Translator: Cosma Tassinari, 2024\n"
+"Language-Team: Italian (Italy) (https://app.transifex.com/subsurface/teams/15508/it_IT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: templates/base.html:57
+msgid "Home"
+msgstr "Home"
+
+#: templates/base.html:64
+msgid "Current Release"
+msgstr "Versione corrente"
+
+#: templates/base.html:71
+msgid "Latest Dev Release"
+msgstr "Versione di sviluppo più recente"
+
+#: templates/base.html:77 templates/documentation.html:3
+#: templates/documentation.html:13
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: templates/base.html:84 templates/user-forum.html:3
+#: templates/user-forum.html:13
+msgid "User Forum"
+msgstr "Forum degli utenti"
+
+#: templates/base.html:90 templates/bugtracker.html:3
+#: templates/bugtracker.html:13
+msgid "Bug Tracker"
+msgstr "Bug Tracker"
+
+#: templates/base.html:96
+msgid "FAQ"
+msgstr "FAQ"
+
+#: templates/base.html:103 templates/privacy-policy.html:3
+#: templates/privacy-policy.html:13
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: templates/base.html:109 templates/contribute.html:13
+msgid "Contribute"
+msgstr "Come contribuire"
+
+#: templates/base.html:116 templates/sponsoring.html:3
+#: templates/sponsoring.html:13
+msgid "Sponsoring"
+msgstr "Diventa un sostenitore"
+
+#: templates/bugtracker.html:15
+#, python-format
+msgid ""
+"While we are happy to receive bug reports (and patches!) on our <a "
+"%(mailman)s>mailing list</a>, you can also open issues on our <a "
+"%(githubissue)s>main Subsurface repository on GitHub</a>."
+msgstr ""
+"Mentre siamo lieti di ricevere segnalazioni di errori (e contributi)  sulla "
+"nostra <a%(mailman)slista</a>, è anche possibile aprire delle segnalazioni "
+"sul nostro <a%(githubissue)srepository principale di Subsurface su "
+"GitHub</a>."
+
+#: templates/bugtracker.html:18 templates/user-forum.html:21
+msgid ""
+"The preferred language is English, but we’ll make an effort to answer "
+"questions in other languages as well (not everyone is comfortable posting in"
+" English…)"
+msgstr ""
+"La lingua normalmente usata è l'inglese ma cercheremo di rispondere a "
+"domande in altre lingue (non tutti sono a loro agio a postare in inglese...)"
+
+#: templates/contribute.html:3
+msgid "Contribute to Subsurface"
+msgstr "Contribuire a Subsurface"
+
+#: templates/contribute.html:15
+msgid ""
+"Subsurface is a community driven open source project. It is available free "
+"of charge to everybody, and nobody gets paid to work on it. If you like it "
+"and would like to contribute back there are a number of different ways you "
+"can do so:"
+msgstr ""
+"Subsurface è un progetto open source gestito dalla comunità. E' disponibile "
+"gratuitamente per tutti e nessuno viene pagato per lavorarci. Se lo trovi "
+"utile e ti piacerebbe contribuire qualcosa in cambio ci sono diversi modi in"
+" cui lo puoi fare:"
+
+#: templates/contribute.html:17
+msgid "By Writing Code"
+msgstr "Scrivendo codice"
+
+#: templates/contribute.html:19
+#, python-format
+msgid ""
+"If you are a software developer (of any experience level), your help with "
+"maintaining and extending Subsurface will be greatly appreciated. Have a "
+"look at our <a %(link)s>code contribution page on GitHub</a> to see how you "
+"can get started."
+msgstr ""
+"Se sei uno sviluppatore (con qualsiasi esperienzia), il tuo aiuto a "
+"mantenere ed estendere Subsurface sarà molto apprezzato. Dai un'occhiata "
+"alla nostra <a %(link)s>pagina per contribuire su GitHub</a> per capire come"
+" iniziare."
+
+#: templates/contribute.html:22
+msgid "By Testing"
+msgstr "Testando"
+
+#: templates/contribute.html:24
+#, python-format
+msgid ""
+"If you would like to work closely with our developers and give them a hand "
+"in testing the latest features and bugfixes, please head over to our code "
+"contribution page on GitHub to find out <a %(link)s>how to join the "
+"community</a>. We especially need people running Windows and Mac (as the "
+"majority of the active developers are Linux people)."
+msgstr ""
+"Se ti piacerebbe lavorare a stretto contatto con i nostri sviluppatore e "
+"aiutare a testare le ultime funzionalità à correzioni, puoi andare sulla "
+"nostra pagina su come contribuire al codice su GitHub per capire <a%(link)s>"
+" come unirti alla comunità </a>Ci servono specialmente persone che usino "
+"Windows e Mac (dato che la maggior parte degli sviluppatori lavora su "
+"Linux)."
+
+#: templates/contribute.html:27
+msgid "By Writing Documentation"
+msgstr "Scrivendo documentazione"
+
+#: templates/contribute.html:29
+#, python-format
+msgid ""
+"If you are good with words you can help us by writing, reviewing, and "
+"improving documentation and articles for our website. To get started please "
+"head over to our code contribution page on GitHub to find out <a "
+"%(link)s>how to join the community</a>."
+msgstr ""
+"Se sei bravo a scrivere puoi aiutarci scrivendo, rivedendo e migliorando la "
+"documentazione e gli articoli per il nostro sito web. Per iniziare puoi "
+"andare sulla nostra pagina su come contribuire su GitHub per capire <a "
+"%(link)s>come unirti alla comunità</a>"
+
+#: templates/contribute.html:32
+msgid "By Improving the User Experience"
+msgstr "Migliorando la User Experience"
+
+#: templates/contribute.html:34
+#, python-format
+msgid ""
+"If you like to obsess over usability and user experience, and ideally have "
+"some experience in UX and / or web design, we can always use help with "
+"improving the user experience and visual design of Subsurface and of our "
+"website. To get started please head over to our code contribution page on "
+"GitHub to find out <a %(link)s>how to join the community</a>."
+msgstr ""
+"Se ti piace ossessionarti sull'usabilità e l'esperienza dell'utente, e "
+"idealmente hai dell'esperienza nella progettazione di UX o siti web, abbiamo"
+" sempre bisogno di aiuto nel migliorare l'esperieza dell'utente e il design "
+"di Subsurface e del nostro sito. Per iniziare puoi andare sulla nostra "
+"pagina su come contribuire su GitHub per capire <a %(link)s>come unirti alla"
+" comunità</a>."
+
+#: templates/contribute.html:37
+msgid "By Translating Subsurface"
+msgstr "Traducendo Subsurface"
+
+#: templates/contribute.html:39
+#, python-format
+msgid ""
+"If you are a non-English-speaker, and would like to be able to use "
+"Subsurface in your native language, you can help make this happen by "
+"supporting us as a translator. As our translations are centrally handled at "
+"<a %(transifex)s>Transifex</a> - please sign up for an account there and "
+"then request to join the <a %(transifex_subsurface)s>Subsurface Team</a>."
+msgstr ""
+"Se la tua lingua principare non è l'inglese e ti piacerebbe usare Subsurface"
+" nella tua lingua, puoi aiutare supportandoci come traduttore. Le nostre "
+"traduzioni sono centralizzate su <a %(transifex)s>Transifex</a> - registra "
+"un account e dopo richiedi di unirti alla <a "
+"%(transifex_subsurface)s>squadra di Subsurface</a>."
+
+#: templates/contribute.html:43
+msgid "By Helping Other Users"
+msgstr "Aiutando altri utenti"
+
+#: templates/contribute.html:45
+#, python-format
+msgid ""
+"We want to make Subsurface as friendly and welcoming to new users as "
+"possible. If you are a seasoned user of Subsurface please join our <a "
+"%(link)s>User Forum</a> and provide helpful responses to the questions from "
+"new users."
+msgstr ""
+"Vogliamo rendere Subsurface il più possibile facile e amichevole possibile "
+"per i nuovi utenti. Se sei un utente esperto di Subsurface unisciti al "
+"nostro <a %(link)s>Forum degli utenti</a> e fornisci risposte utili alle "
+"domande dei nuovi utenti."
+
+#: templates/contribute.html:48
+msgid "By Supporting Us Financially"
+msgstr "Supportandoci finanziariamente"
+
+#: templates/contribute.html:50 templates/sponsoring.html:15
+#, python-format
+msgid ""
+"Running the Subsurface project costs money. This is particularly the case "
+"for the free cloud based synchronisation of dive logs that is built into "
+"Subsurface. The principal maintainer of Subsurface and of our infrastructure"
+" appreciates donations to help cover these expenses. If you would like to "
+"help with this you can do so through <a %(link)s>Dirk's Ko-fi page</a> or "
+"the <a %(ghsponsor)s>Dirk's GitHub Sponsor page</a>."
+msgstr ""
+"Gestire il progetto Subsurface costa. Questo è particolarmente vero per il "
+"sistema di salvataggio in cloud delle immersioni di Subsurface. Il "
+"maintainer principale di Subsurface e la nostra infrastruttura apprezzano "
+"donazioni che aiutano a coprire le spese. Se vuoi aiutare in questo caso lo "
+"puoi fare tramite la <%(link)s>pagina Dirk'd Ko-fi</a> o sulla <a "
+"%(ghsponsor)s> Pagina degli sponsor di Dirk su GitHub</a>."
+
+#: templates/credits.html:3 templates/credits.html:13
+msgid "Credits"
+msgstr "Riconoscimenti"
+
+#: templates/credits.html:15
+#, python-format
+msgid ""
+"Subsurface is itself open source software released under the <a "
+"%(license)s>GPLv2</a> -- and it is based on many other open source "
+"components."
+msgstr ""
+"Subsurface è un software open source rilasciato sotto la <a "
+"%(license)sGPLv2</a>- e si appoggia a moltri altri componenti open source."
+
+#: templates/credits.html:18 templates/credits.html:21
+#: templates/credits.html:23 templates/credits.html:25
+#: templates/credits.html:27 templates/credits.html:29
+#: templates/credits.html:31 templates/credits.html:33
+#: templates/credits.html:35 templates/credits.html:37
+#: templates/credits.html:39 templates/credits.html:42
+#: templates/credits.html:45 templates/credits.html:53
+#: templates/credits.html:56
+msgid "Homepage"
+msgstr "Homepage"
+
+#: templates/credits.html:19 templates/credits.html:22
+#: templates/credits.html:24 templates/credits.html:26
+#: templates/credits.html:28 templates/credits.html:30
+#: templates/credits.html:32 templates/credits.html:34
+#: templates/credits.html:36 templates/credits.html:38
+#: templates/credits.html:40 templates/credits.html:43
+#: templates/credits.html:46 templates/credits.html:54
+#: templates/credits.html:57
+msgid "License"
+msgstr "Licenza"
+
+#: templates/credits.html:50
+msgid "Subsurface-mobile additionally uses"
+msgstr "Subsurface-mobile in aggiunta usa"
+
+#: templates/credits.html:60
+#, python-format
+msgid "The Windows binaries are built using <a %(mxe)s>MXE</a>."
+msgstr "Gli eseguibile per Windows sono compilati usando <A%(mxe)s>MXE</a>."
+
+#: templates/credits.html:62
+#, python-format
+msgid ""
+"The Mac binaries are built using the Apple toolchain and <a "
+"%(brew)s>Homebrew</a>."
+msgstr ""
+"Gli eseguibili per Mac son compilati usando l'ambiente Apple e  "
+"<%(brew)s>Homebrew</a>."
+
+#: templates/credits.html:65
+msgid ""
+"If you are aware of open source components that we are using but not listing"
+" here, please let us know so we can add them!"
+msgstr ""
+"Se sei a conoscenza di componenti open source che stiamo usando ma che non "
+"sono listati qui, per favore avvertici così possiamo aggiungerli!"
+
+#: templates/current-release.html:13
+#, python-format
+msgid "Current \"Weekly\" Release: %(version)s"
+msgstr "Rilascio \"Weekly\" corrente: %(version)s"
+
+#: templates/current-release.html:17
+msgid ""
+"The releases on this page are what we consider the current release builds of"
+" Subsurface."
+msgstr ""
+"Le versioni su questa pagina sono quelle che noi consideriamo le attuali "
+"versioni correnti di Subsurface."
+
+#: templates/current-release.html:20
+msgid ""
+"We expect these builds to be reasonably stable and somewhat tested, and as "
+"the name suggests try to update them about once a week (the actual frequency"
+" may vary)."
+msgstr ""
+"Ci aspettiamo che queste build siano ragionevolmente stabili e in qualche "
+"mono testate, come il nome suggerisce cerchiamo di aggiornarle una volta a "
+"settimana (la frequenza reale può variare)."
+
+#: templates/current-release.html:23
+#, python-format
+msgid ""
+"If you are looking for more \"bleeding edge\" releases builds, please check "
+"out the <a %(link)s>Latest Release Page</a>."
+msgstr ""
+"Se stai cercano per release più \"bleeding edge\", per favore controlla la "
+"<a %(link)s>Pagine delle ultime versioni</a>."
+
+#: templates/current-release.html:32 templates/current-release.html:46
+#: templates/current-release.html:60 templates/current-release.html:122
+#: templates/latest-release.html:35 templates/latest-release.html:49
+#: templates/latest-release.html:63 templates/latest-release.html:125
+msgid "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+
+#: templates/current-release.html:38 templates/latest-release.html:41
+msgid ""
+"This Subsurface Windows installer is not signed and Windows will likely ask "
+"you to confirm that you want to install this program."
+msgstr ""
+"Questa pacchetto di installazione di Subsurface per Windows non è firmato e "
+"probabilmente Windows ti chiederà di confermare la sua installazione."
+
+#: templates/current-release.html:52
+#, python-format
+msgid ""
+"We try to post a signed Subsurface macOS DMG here. If your Mac doesn't want "
+"to install this image, please let us know in the <a %(link)s>User Forum</a>."
+msgstr ""
+"Proviamo a rilasciare DMG per macOS firmati di Subsurface. Se il tuo Mac non"
+" vuole installare l'immagine per favore avvertici usando il <a "
+"%(link)s>Forum per gli utenti</a>."
+
+#: templates/current-release.html:67 templates/latest-release.html:70
+msgid ""
+"The Subsurface Android APK can be side-loaded on most Android devices. If "
+"you previously had installed Subsurface-mobile from the Google Play store, "
+"the first time you switch to a side-loaded app, you'll have to uninstall the"
+" Play store version. Make sure your data is synced to the Subsurface Cloud. "
+"After you install this APK and log in to the Subsurface Cloud again, the "
+"data will be restored. Every subsequent update will not require an "
+"uninstall."
+msgstr ""
+"L'APK di Subsurface per Android può essere caricato sulla maggior parte dei "
+"dispositivi Android. Se in precedenza si era installato Subsurface-mobile "
+"dal Google Play Store, la prima volta che si passa a un'applicazione \"side-"
+"loaded\", si dovrà disinstallare la versione del Play Store. Assicuratevi "
+"che i vostri dati siano sincronizzati con Subsurface Cloud. Dopo aver "
+"installato questo APK e aver effettuato nuovamente l'accesso a Subsurface "
+"Cloud, i dati verranno ripristinati. Ogni aggiornamento successivo non "
+"richiederà la disinstallazione."
+
+#: templates/current-release.html:70 templates/latest-release.html:73
+#, python-format
+msgid ""
+"A brief explanation of the concept of side-loading can be found in <a "
+"%(explanation)s>this androidcentral article</a>."
+msgstr ""
+"Una breve spiegazione del concetto di \"side-loading\" può essere trovata in"
+" <a %(explanation)s>questo articolo di androidcentral</a>."
+
+#: templates/current-release.html:79 templates/latest-release.html:82
+msgid "AppStore Link&nbsp;&nbsp;"
+msgstr "Link AppStore&nbsp;&nbsp;"
+
+#: templates/current-release.html:85
+msgid ""
+"iOS is the only platform right now where in general side-loading or "
+"installing unsigned binaries is impossible (apparently that may change for "
+"users in the EU, but not elsewhere). As a result we cannot make new versions"
+" of Subsurface-mobile for iOS available here, but the goal is to update the "
+"AppStore version to the \"weekly\" versions reasonably frequently as well."
+msgstr ""
+"iOS è al momento l'unica piattaforma dove generalmente \"side-loading\" e "
+"l'installazione di pacchetti non firmati è impossibile (in futuro questo "
+"potrebbe cambiare per gli utenti in Europa, ma non altrove). Di conseguenza "
+"non possiamo rendere disponibili nuove versione di Subsurface-mobile per iOS"
+" qui, l'intenzione è di aggiornare la versione su AppStore alla \"weekly\" "
+"release con una frequenza ragionevole."
+
+#: templates/current-release.html:91 templates/latest-release.html:94
+msgid ""
+"The Subsurface team is providing distribution packages for Ubuntu and Fedora"
+" as well as a Snap and a generic \"AppImage\" that should work on most other"
+" x86_64 Linux distributions."
+msgstr ""
+"La comunità di Subsurface fornisce pacchetti per Ubuntu e Fedora, pacchetti "
+"per Snap e un generico \"AppImage\" che dovrebbe funzionare su molte delle "
+"altre distribuzioni Linux x86_64."
+
+#: templates/current-release.html:93 templates/latest-release.html:96
+msgid "Ubuntu and compatible distros"
+msgstr "Ubuntu e distribuzioni compatibili"
+
+#: templates/current-release.html:94 templates/latest-release.html:97
+msgid ""
+"To use these binaries in Ubuntu, simply add the Subsurface Daily Release PPA"
+" to your system:"
+msgstr ""
+"Per usare i pacchetti binari su Ubuntu aggiungi semplicemente si PPA delle "
+"release giornaliere di Subsurface al tuo sistema:"
+
+#: templates/current-release.html:96 templates/latest-release.html:99
+msgid ""
+"and then install Subsurface with <code>sudo apt install subsurface </code>"
+msgstr ""
+"e dopo installa Subsurface con <code>sudo apt install subsurface</code>"
+
+#: templates/current-release.html:98 templates/latest-release.html:101
+msgid "To install the Subsurface CICD binaries on Fedora simply run"
+msgstr ""
+"Per installare i binari si Subsurface generati dalla CICD su Fedora esegui "
+"semplicemente "
+
+#: templates/current-release.html:100 templates/latest-release.html:103
+msgid "and then install Subsurface with <code>dnf install subsurface</code>"
+msgstr "e dopo installa Subsurface con <code>dnf install subsurface</code>"
+
+#: templates/current-release.html:101 templates/latest-release.html:104
+msgid "Other x86_64 Linux distributions"
+msgstr "Altre distribuzioni Linux x86_64"
+
+#: templates/current-release.html:108 templates/latest-release.html:111
+msgid "Snap link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr "Snap link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+
+#: templates/current-release.html:114
+msgid "The 'candidate' Snap-channel contains our current build."
+msgstr "Il canale Snap  'candidate' contiene la nostra build corrente."
+
+#: templates/current-release.html:128 templates/latest-release.html:131
+#, python-format
+msgid ""
+"A generic AppImage is available. After you download this file, make it "
+"executable <code>chmod +x Subsurface-v%(version)s-CICD-"
+"release.AppImage</code>, and then simply run this file."
+msgstr ""
+"Un'immagine AppImage generica è disponibile. Dopo averla scaricata, rendila "
+"eseguibile con <code>chmod +x Subsurface-v%(version)s-CICD-"
+"release.AppImage</code>e semplicemente lancia il comando."
+
+#: templates/data-deletion.html:3 templates/data-deletion.html:13
+msgid "Deleting Cloud Data and Account"
+msgstr "Cancella dati su cloud e l'account"
+
+#: templates/data-deletion.html:15
+#, python-format
+msgid ""
+"Your cloud data can be deleted from within the mobile app or you can request"
+" that your data, or your data and account are deleted by simply sending an "
+"email to the Subsurface team at <a %(link)s>in-app-support@subsurface-"
+"divelog</a>."
+msgstr ""
+"I tuoi dati sul cloud possono essere cancellati dall'applicazione mobile o "
+"puoi richiedere che i tuoi dati, o i tuoi dati ed il tuo account siano "
+"cancellati semplicemente mandando una mail alla squadra di Subsurface a <a "
+"%(link)s>in-app-support@subsurface-divelog</a>."
+
+#: templates/documentation.html:15
+msgid ""
+"This page provides an overview of most of the user-facing documentation for "
+"Subsurface"
+msgstr ""
+"Questa pagina contiene un sommario della maggior parte della documentazione "
+"utente di Subsurcafe"
+
+#: templates/documentation.html:17
+#, python-format
+msgid "<a %(faq)s>FAQ</a>"
+msgstr "<a %(faq)sFAQ</a>"
+
+#: templates/documentation.html:19
+#, python-format
+msgid "<a %(supporteddc)s>Supported Dive Computers</a>"
+msgstr "<a %(supporteddc)s>Computer subacquei supportati</a>"
+
+#: templates/documentation.html:22
+#, python-format
+msgid "<a %(video)s>(fairly old) Video Tutorial</a>"
+msgstr "<a %(video)s>(piuttosto vecchi) Tutorial video</a>"
+
+#: templates/documentation.html:25
+#, python-format
+msgid "<a %(manual)s>Subsurface User Manual</a>"
+msgstr "<a %(manual)sManuale utente di Subsurface</a>"
+
+#: templates/documentation.html:28
+#, python-format
+msgid "<a %(mobilemanual)s>Subsurface-mobile User Manual</a>"
+msgstr "<a %(mobilemanual)sManuale utente di Subsurface-mobile</a>"
+
+#: templates/documentation.html:31
+#, python-format
+msgid "<a %(datadeletion)s>Deleting Cloud Data and Account</a>"
+msgstr "<a %(datadeletion)s> Cancellazione dati su Cloud e Account</a>"
+
+#: templates/documentation.html:34
+#, python-format
+msgid "<a %(credits)s>Credits</a>"
+msgstr "<a %(credits)s>Riconoscimenti</a>"
+
+#: templates/documentation.html:37
+#, python-format
+msgid "<a %(thanks)s>Thanks</a>"
+msgstr "<a %(thanks)s>Ringraziamenti</a>"
+
+#: templates/faq.html:15
+msgid ""
+"This page attempts to provide answers to some of the most common questions "
+"we keep receiving."
+msgstr ""
+"Questa pagina tenta di rispondere ad alcune delle domande più comuni che "
+"riceviamo."
+
+#: templates/faq.html:18
+msgid "General"
+msgstr "Generale"
+
+#: templates/faq.html:23
+msgid "Why Should I Use Subsurface?"
+msgstr "Perchè dovrei usare Subsurface"
+
+#: templates/faq.html:28
+msgid ""
+"Subsurface provides recreational scuba divers, tech divers, and diving "
+"professionals with an easy to use interface for planning and logging and "
+"organizing dives. Dives can be entered manually, via spreadsheets, directly "
+"from some other dive logging software, and most importantly from many dive "
+"computers. What if you change dive computers? This is no problem with "
+"Subsurface as it is not tied to a specific dive computer manufacturer. Tech "
+"divers will appreciate the dive planner which allows you to plan using VPM-B"
+" or Bühlmann ZH-L16. Testing bailout gases, comparing different gas mixes "
+"and gradient factors, and finally printing the plan is made easy. Subsurface"
+" is free and available on multiple platforms making it the perfect software "
+"for a wide range of scuba divers."
+msgstr ""
+"Subsurface offre ai subacquei ricreativi, tecnici e professionisti una facile interfaccia per pianificare, registrare ed organizzare le immersioni. Le immersioni pososno essere aggiunte manualmente, con uno spreadsheet, direttamente da alcuni altri software di registrazione delle immersioni e più importante, da molti computer subacquei. Cosa succede se cambi il computer subacqueo ? Questo non è un problema con Subsurface dato che non è legato ad uno specifico produttore. I subacquei tecnici apprezzeranno il pianificatore di immersioni che permette di pianificare usando VPN-B o Bühlmann ZH-L16. Testare il risparmi di gas, confrontare le diverse miscele di gas ed infine stampare il piano è reso semplice. \n"
+"Subsurface è libero e disponibile su diverse piattaforme rendendolo il software perfetto per una ampia gamma di subacquei."
+
+#: templates/faq.html:37
+msgid "What operating systems does Subsurface support?"
+msgstr "Su che sistemi operativi funziona Subsurface"
+
+#: templates/faq.html:44
+msgid ""
+"Subsurface runs on Windows 10 and newer, MacOS 10.15 and newer, and many "
+"flavors of Linux. Mobile versions of Subsurface are available for Android "
+"and iOS allow a portable platform for viewing your dive log and performing "
+"minor edits; depending on your OS/hardware comby, you may even be able to "
+"download dive data directly from your dive computer using Subsurface-mobile."
+msgstr ""
+"Subsurface funziona su Windows 10 e successivi, MacOS 10.15 e successivi e "
+"molte versioni di Linux. Versioni di Subsurface per dispositivi mobili sono "
+"disponibili per Android e iOS consentono di avere una piattaforma portatile "
+"per consultare le tue immersioni ed effettuare modifiche minori; a seconda "
+"della tua combinazione di OS / dispositivo, puoi anche avere la possibilità "
+"di scaricare i dati dell'immersione direttamente da tuo computere subacqueo "
+"usando Subsurface-mobile."
+
+#: templates/faq.html:47
+#, python-format
+msgid ""
+"We provide Linux packages for some Linux distributions (currently Ubuntu and"
+" Fedora, Debian is supported by a community contributor). Additionally, a "
+"Snap package and a generic AppImage are available for other distributions of"
+" Linux. Details on where to find Subsurface for your OS are on our <a "
+"%(crelease)s>current release</a> page."
+msgstr ""
+"Forniamo pacchetti Linux per alcune distribuzioni Linux (attualmente Ubuntu "
+"e Fedora, Debian è supportata da un collaboratore della comunità). Inoltre, "
+"sono disponibili un pacchetto Snap e una AppImage generica per altre "
+"distribuzioni di Linux. I dettagli su dove trovare Subsurface per il vostro "
+"sistema operativo sono riportati nella nostra pagina <a %(crelease)s>delle "
+"release attuali</a>."
+
+#: templates/faq.html:50
+#, python-format
+msgid ""
+"Subsurface-mobile for iOS is available in the iOS App Store. Subsurface-"
+"mobile for Android is available as sideloaded APK at our <a "
+"%(crelease)s>current release</a> page."
+msgstr ""
+"Subsurface-mobile per iOS è disponibile nell'App Store di iOS. Subsurface-"
+"mobile per Android è disponibile come APK sideloaded alla nostra <a "
+"%(crelease)s> pagina delle release attuali</a>."
+
+#: templates/faq.html:59
+msgid "How much does Subsurface cost?"
+msgstr "Quanto costa Subsurface"
+
+#: templates/faq.html:65
+msgid ""
+"Subsurface is open source software. It's free to use. It's written by a "
+"group of enthusiasts who do this in their spare time - including providing "
+"the Subsurface Cloud storage and all the other infrastructure. Please "
+"understand that this also means that they will respond to your requests when"
+" they have time, and they generally don't appreciate being treated like the "
+"support team of a commercial vendor. If you'd like a commercial dive log "
+"program, there are plenty others to choose from."
+msgstr ""
+"Subsurface è un software open source. Si può usare gratuitamente. È scritto "
+"da un gruppo di appassionati che lo fanno nel loro tempo libero - e che "
+"forniscono anche lo storage Subsurface Cloud e tutte le altre "
+"infrastrutture. Questo significa anche che risponderanno alle vostre "
+"richieste quando avranno tempo, e in genere non apprezzano di essere "
+"trattati come il team di supporto di un fornitore commerciale. Se si "
+"desidera un divelog digitale commerciale, ce ne sono molti altri tra cui "
+"scegliere."
+
+#: templates/faq.html:68
+#, python-format
+msgid ""
+"If you would like to contribute and help, there are many ways to do so. Our "
+"'<a %(contribute)s>Contribute</a>' page lists a few options and provides "
+"information on how to get started."
+msgstr ""
+"Se desiderate contribuire e aiutare, ci sono molti modi per farlo. La nostra"
+" pagina '<a %(contribute)s>Contribute</a>' elenca alcune opzioni e fornisce "
+"informazioni su come iniziare."
+
+#: templates/faq.html:77
+msgid "Please add the following awesome feature"
+msgstr "Per favore aggiungete questa fantastica funzionalità"
+
+#: templates/faq.html:83
+msgid ""
+"As mentioned in the previous question, Subsurface is written and maintained "
+"by volunteers. It also has several ten thousand users. The current feature "
+"set aims to find a reasonable balance between a user experience that is easy"
+" to understand, and addressing the most commonly requested features. New "
+"features often get rejected if none of the existing developers feel strongly"
+" that they would make a significant difference to the majority of our users."
+msgstr ""
+"Come accennato nella domanda precedente, Subsurface è scritto e gestito da "
+"volontari. Ha anche diverse decine di migliaia di utenti. L'attuale set di "
+"funzionalità mira a trovare un ragionevole equilibrio tra un'esperienza "
+"utente di facile comprensione e la realizzazione delle funzionalità più "
+"comunemente richieste. Le nuove funzionalità vengono spesso rifiutate se "
+"nessuno degli sviluppatori esistenti ritiene che possano fare una differenza"
+" significativa per la maggior parte dei nostri utenti."
+
+#: templates/faq.html:86
+#, python-format
+msgid ""
+"You are of course invited and encouraged to provide an implementation for "
+"your desired new feature. Please take a look at our <a "
+"%(code_contribution)s>code contribution page on GitHub</a>."
+msgstr ""
+"Siete ovviamente invitati e incoraggiati a fornire un'implementazione per la"
+" nuova funzionalità che desiderate. Si prega di dare un'occhiata alla nostra"
+" pagina <a %(code_contribution)s> per contribuire al codice su GitHub</a>."
+
+#: templates/faq.html:96
+msgid "The gas consumption / SAC rate reported by Subsurface is wrong"
+msgstr "Il consumo di aria / il rapporo SAC riportato da Subsurface è errato"
+
+#: templates/faq.html:102
+#, python-format
+msgid ""
+"Most likely you are expecting the gas consumption calculation to follow the "
+"naive ideal gas laws. Unfortunately, real gases aren't ideal gases. And "
+"Subsurface <a %(sac)s>takes the compressibility of gases into account</a>."
+msgstr ""
+"Molto probabilmente ci si aspetta che il calcolo del consumo di gas segua le"
+" ingenue leggi dei gas ideali. Purtroppo i gas reali non sono gas ideali. E "
+"Subsurface <a %(sac)s>tiene conto della comprimibilità dei gas</a>."
+
+#: templates/faq.html:107
+msgid "OS Support"
+msgstr "Aiuto sui Sistemi Operativi"
+
+#: templates/faq.html:113
+msgid "How do I install Subsurface on Windows?"
+msgstr "Come installo Subsurface su Windows"
+
+#: templates/faq.html:119
+#, python-format
+msgid ""
+"Download the installer from our <a %(crelease)s>current release</a> page and"
+" double-click on it. You will get a warning that the installer is from an "
+"unknown publisher (but should identify that publisher as Dirk Hohndel / DH "
+"Consulting). Please click Yes to allow installation. Next you are presented "
+"with the license for Subsurface, after that you can choose where you would "
+"like to install Subsurface (the default should be reasonable in most cases) "
+"and the Start Menu Folder where a shortcut to call Subsurface and an entry "
+"to uninstall Subsurface will be installed."
+msgstr ""
+"Scaricate il programma d'installazione dalla nostra pagina <a "
+"%(crelease)s>delle release attuali</a> e fate doppio clic su di esso. Verrà "
+"visualizzato un avviso che indica che il programma di installazione proviene"
+" da un autore sconosciuto (ma dovrebbe essere identificato come Dirk Hohndel"
+" / DH Consulting). Fare clic su Sì per consentire l'installazione. "
+"Successivamente vi verrà presentata la licenza di Subsurface, dopodiché "
+"potrete scegliere dove installare Subsurface (il valore predefinito dovrebbe"
+" essere corretto nella maggior parte dei casi) e la cartella del menu di "
+"avvio in cui verranno installati un collegamento per richiamare Subsurface e"
+" una voce per disinstallare Subsurface."
+
+#: templates/faq.html:122
+msgid ""
+"For technical reasons, some of the Windows binaries you can download from "
+"our website aren't signed at all, in which case Windows provides more and "
+"stronger warnings when trying to use them. As long as you download the "
+"binaries from this website they are safe and do not contain any malware."
+msgstr ""
+"Per motivi tecnici, alcuni dei file di installazione di Windows che si "
+"possono scaricare dal nostro sito web non sono firmati, nel qual caso "
+"Windows fornisce avvisi sempre più forti quando si cerca di utilizzarli. Se "
+"scaricate i file di installazione da questo sito web, essi sono sicuri e non"
+" contengono malware."
+
+#: templates/faq.html:131 templates/faq.html:307
+msgid "Supported versions"
+msgstr "Versioni supportate"
+
+#: templates/faq.html:138
+msgid ""
+"Subsurface runs on Windows 10 and newer. It should still run on Windows 8 "
+"(but then, why would you want to run that). Older versions aren't supported "
+"anymore."
+msgstr ""
+"Subsurface funziona su Windows 10 e versioni successive. Dovrebbe funzionare"
+" anche su Windows 8 (ma perché mai si vorrebbe farlo...). Le versioni "
+"precedenti non sono più supportate."
+
+#: templates/faq.html:147
+msgid "Where do I find the log files on Windows?"
+msgstr "Dove trovo i file di log su Windows"
+
+#: templates/faq.html:153
+msgid ""
+"The logs are in <code>C:\\Users\\Home\\AppData\\Roaming\\Subsurface</code> "
+"in the two files <code>subsurface_out.log</code> and "
+"<code>subsurface_err.log</code>"
+msgstr ""
+"I log si trovano in <code>C:\\Users\\Home\\AppData\\Roaming\\Subsurface "
+"</code>in due file <code>subsurface_out.log </code>e "
+"<code>subsurface_err.log</code>"
+
+#: templates/faq.html:162
+msgid "Which drivers do I need for my dive computer"
+msgstr "Di che driver ho bisogno per il mio computer subacqueo"
+
+#: templates/faq.html:169
+msgid ""
+"Great question - typically those are specific to the combination of dive "
+"computer and download cable that you use. And it's really hard to give "
+"universally correct answers."
+msgstr ""
+"Ottima domanda: in genere questi fattori sono specifici della combinazione "
+"di computer subacqueo e cavo di download che si utilizza. È davvero "
+"difficile dare risposte universalmente corrette."
+
+#: templates/faq.html:172
+#, python-format
+msgid ""
+"Installing the vendor provided dive log software often is enough to trigger "
+"an install of those drivers, but sometimes things are a bit more "
+"complicated. Searching the <a %(forum)s>User Forum</a> often helps."
+msgstr ""
+"L'installazione del software divelog del fornitore è spesso sufficiente per "
+"attivare l'installazione di tali driver, ma a volte le cose sono un po' più "
+"complicate. La ricerca nel <a %(forum)s>Forum degli utenti</a> è spesso di "
+"aiuto."
+
+#: templates/faq.html:181
+msgid "Is there a virus in the Subsurface installer?"
+msgstr "C'è un virus nel setup di Subsurface ?"
+
+#: templates/faq.html:188
+msgid ""
+"If you get a warning message or if Subsurface is blocked by your anti virus "
+"(AV) software, that is almost certainly a false positive. Subsurface is not "
+"built on a Windows machine, it is cross built from source on Linux on a well"
+" maintained and clean server image."
+msgstr ""
+"Se viene visualizzato un messaggio di avviso o se Subsurface viene bloccato "
+"dal software antivirus (AV), si tratta quasi certamente di un falso "
+"positivo. Subsurface non è stato creato su una macchina Windows, ma è stato "
+"costruito da zero su Linux su un'immagine di server ben mantenuta e sicura."
+
+#: templates/faq.html:191
+msgid ""
+"Most/all Windows Anti-Virus software packages support an “add exception” "
+"feature, which skips an executable from being scanned. Try adding Subsurface"
+" to the list of non-harmful software. If the Subsurface installer download "
+"is detected as malware, please temporary disable your AV software until "
+"Subsurface is installed"
+msgstr ""
+"La maggior parte dei pacchetti software antivirus di Windows supportano la "
+"funzione \"aggiungi eccezione\", che evita la scansione di un eseguibile. "
+"Provate ad aggiungere Subsurface all'elenco dei software non dannosi. Se il "
+"download del programma di installazione di Subsurface viene rilevato come "
+"malware, disattivare temporaneamente il software AV fino al completamento "
+"dell'installazione di Subsurface."
+
+#: templates/faq.html:194
+msgid ""
+"In either case, please inform your AV software vendor of a “false positive” "
+"as we assure your that Subsurface is not malware."
+msgstr ""
+"In ogni caso, per favore informa il produttore del tuo software AV di un "
+"\"falso positivo\" dato che ti assicuriamo che Subsurface non è un malware."
+
+#: templates/faq.html:203
+msgid "Subsurface suddenly stops accessing the cloud"
+msgstr "Subsurface improvvisamente non accede più al cloud"
+
+#: templates/faq.html:210
+msgid ""
+"This can have many reasons, but a really odd one we have found is that some "
+"anti-malware products on Windows seemingly randomly decide that the traffic "
+"between Subsurface and the cloud server is an indication of malware activity"
+" and interrupt the transmissions. This can lead to cloud storage corruption "
+"and prevents things from working. You may have to add an exception for "
+"Subsurface to your hyper-aggressive anti-malware tool."
+msgstr ""
+"Questo può avere molte ragioni, ma una davvero strana che abbiamo "
+"riscontrato è che alcuni prodotti anti-malware su Windows decidono "
+"apparentemente in modo casuale che il traffico tra Subsurface e il server "
+"cloud è un'indicazione di attività malware e interrompono le trasmissioni. "
+"Questo può portare alla corruzione del cloud storage e impedisce il "
+"funzionamento del sistema. Potrebbe essere necessario aggiungere "
+"un'eccezione per Subsurface al vostro strumento anti-malware iper-"
+"aggressivo."
+
+#: templates/faq.html:220
+msgid "How do I install Subsurface on macOS?"
+msgstr "Come installo Subsurface su macOS ?"
+
+#: templates/faq.html:227
+#, python-format
+msgid ""
+"Download the installer DMG from our <a %(crelease)s>current release</a> page"
+" and open it. Drag the Subsurface icon on to the Applications folder icon."
+msgstr ""
+"Scarica l'installatore DMG dalla nostra pagina <a %(crelease)sRelease "
+"correnti</a>e aprilo. Trascine l'icona di Subsurface nella cartella delle "
+"icone delle Applicazioni."
+
+#: templates/faq.html:230
+msgid ""
+"When opening the Subsurface app for the first time, you will get a warning "
+"that this binary was downloaded from the internet. Depending on your "
+"settings and on whether or not this is a signed DMG, macOS will allow you to"
+" simply click Ok to open the app."
+msgstr ""
+"Quando eseguite Subsurface per la prima volta, riceverete un avviso che "
+"questo pacchetto è stato scaricato da Internet. A seconda delle vostre "
+"impostazioni e dal fatto che questo sia un DMG firmato o meno, macOS vi "
+"consentirà di premere semplicemente OK per aprire l'app."
+
+#: templates/faq.html:233
+msgid ""
+"For technical reasons, some of the macOS DMGs you can download from our "
+"website aren't signed at all, in which case macOS will force you to go "
+"through the System Preferences / Security in order to allow you to start "
+"Subsurface. As long as you download the DMG from this website it is safe and"
+" does not contain any malware."
+msgstr ""
+"Per motici tecnici alcuni dei DMG per macOS che puoi scaricare dal nostro "
+"sito non sono firmati, in questo caso macOS ti obbligherà ad andare in "
+"Preferenze di sistema / Sicurezza per consentirti di avviare Subsurface. "
+"Fino a quando scarichi il DMG da questo sito, questo è sicuro e non contiene"
+" nessun malware."
+
+#: templates/faq.html:242
+msgid "Supported Versions"
+msgstr "Versioni supportate"
+
+#: templates/faq.html:249
+msgid ""
+"Subsurface runs on both Apple Silicon (M1/M2/M3 CPUs) and Intel Macs running"
+" macOS 10.15 and newer. On Apple Silicon Macs Subsurface currently runs in "
+"x86_64 emulation mode via Rosetta 2. Work on fat binaries with native "
+"support for both x86_64 and Apple Silicon CPUs has been started but for "
+"technical reasons currently doesn't create binaries with a great user "
+"experience."
+msgstr ""
+"Subsurface funziona sia su architetture Apple (processori M1/M2/M3) che su "
+"Mac Intel con macOS 10.15 o superiori. Su processori Apple Subsurface al "
+"momento funziona in emulazione x86_64 via Rosetta 2. Il lavoro su binari che"
+" abbiano il supporto nativo sia per x86_64 che processori Apple è iniziato "
+"ma per ragioni tecniche non sta producendo pacchetti con decenti per gli "
+"utenti."
+
+#: templates/faq.html:259
+msgid "Can you make binaries available for older macOS versions?"
+msgstr "Potete rilasciare eseguibili per versioni più vecchie di macOS ?"
+
+#: templates/faq.html:265
+msgid ""
+"Apple stopped supporting macOS 11 and older. We are trying to keep making "
+"binaries for 10.15 and 11 available while we can, we are no longer are able "
+"to support older versions of macOS."
+msgstr ""
+"Apple ha smesso di supportare maxOS 11 e precedenti. Stiamo provando a "
+"continuare a rendere disponibili pacchetti per 10.15 e 11 fino a quando "
+"potremo, non siamo più in grado di supportare vecchie versioni di macOS."
+
+#: templates/faq.html:275
+msgid "I can't download from my Bluetooth dive computer on macOS"
+msgstr "Non riesco a scaricare dal mio computer subacqueo Bluetooth su macOS"
+
+#: templates/faq.html:281
+msgid ""
+"This has been an ongoing issue for a while; it seems to work fine for "
+"many/most users, but some cannot seem to get Subsurface on their Mac to talk"
+" to BLE dive computers. For those people, right now the only option is to "
+"download using a mobile device / Subsurface-mobile and sync their dive log "
+"using Subsurface Cloud."
+msgstr ""
+"Questo è un problema che si sta trascinando da tempo; sembra che funzioni "
+"bene per molti utenti ma alcuni non sembrano in grado di far parlare "
+"Subsurface sui loro Mac con i computer subacquei via BLE. Per queste persone"
+" al momento l'unica possibilità è di scaricare usando un dispositivo mobile "
+"/ Subsurface-mobile e sincronizzare le immersioni usando Subsurface Cloud."
+
+#: templates/faq.html:291
+msgid "Why is my IRDA (infrared) based dive computer not working on a Mac?"
+msgstr ""
+"Perchè il mio computer subacqueo IRDA (infrarossi) non funzione su un Mac ?"
+
+#: templates/faq.html:297
+msgid ""
+"Subsurface on the Mac does not support IRDA based dive computers. This is an"
+" issue of missing support libraries for us to use -- other dive log software"
+" may have implemented their own IRDA stack on the Mac, we have not. "
+"Subsurface on Windows still supports IRDA based dive computers for now."
+msgstr ""
+"Subsurface su Mac non supporta i computer subacquei basati su IRDA. Si "
+"tratta di un problema di mancanza di librerie di supporto - altri software "
+"di registrazione delle immersioni possono aver implementato il proprio stack"
+" IRDA sul Mac, ma noi non l'abbiamo fatto. Per ora Subsurface su Windows "
+"supporta ancora i computer per immersioni basati su IRDA."
+
+#: templates/faq.html:314
+msgid ""
+"Subsurface can run on most Linux distributions. The project actively "
+"maintain builds for current Ubuntu and Fedora releases. A community "
+"contributor maintains Debian packages. There is also a Subsurface Snap and "
+"an AppImage for other distributions. Generally try a distribution specific "
+"binary first. If that doesn't work, try the Snap or the AppImage."
+msgstr ""
+"Subsurface può essere eseguito sulla maggior parte delle distribuzioni "
+"Linux. Il progetto mantiene attivamente le build per le attuali versioni di "
+"Ubuntu e Fedora. Un collaboratore della comunità mantiene i pacchetti per "
+"Debian. Esistono anche Subsurface Snap e AppImage per altre distribuzioni. "
+"In genere è consigliato provare prima un pacchetto specifico per la "
+"distribuzione. Se non funziona, provare Snap o AppImage."
+
+#: templates/faq.html:324
+msgid "Can you add binaries for my favorite Linux distribution?"
+msgstr "Potete aggiungere i binari per la mia distribuzione Linux preferita ?"
+
+#: templates/faq.html:331
+msgid ""
+"Adding support for another Linux distribution is generally a lot of work and"
+" given the tiny user numbers not likely to happen. But please, talk to us if"
+" you think there is a distribution that we should add instead of the ones "
+"that we currently support."
+msgstr ""
+"Aggiungere il supporto a un'altra distribuzione Linux è in genere molto "
+"impegnativo e, dato il numero esiguo di utenti, è improbabile che ciò "
+"avvenga. Ma, per favore, contattateci se pensate che ci sia una "
+"distribuzione che dovremmo aggiungere al posto di quelle attualmente "
+"supportate."
+
+#: templates/faq.html:334 templates/faq.html:353
+#, python-format
+msgid ""
+"If you would like to contribute and help, this is a perfect opportunity to "
+"do so. Please take a look at our <a %(code_contribution)s>code contribution "
+"page on GitHub</a>."
+msgstr ""
+"Se desiderate contribuire e aiutare, questa è l'occasione perfetta per "
+"farlo. Date un'occhiata alla nostra pagina di contributo <a "
+"%(code_contribution)s>codice su GitHub</a>."
+
+#: templates/faq.html:343
+msgid "Can I build my own binaries?"
+msgstr "Posso compilare i mie binari ?"
+
+#: templates/faq.html:350
+msgid ""
+"Yes, generally this is pretty easy (assuming you are somewhat familiar with "
+"C/C++ development under Linux). The <code>INSTALL</code> file in the source "
+"directory should get you started. Reach out to the developers if you need "
+"help beyond that (because likely that means we need to update the "
+"<code>INSTALL</code> file...)."
+msgstr ""
+"Sì, in genere è abbastanza facile (supponendo che abbiate una certa "
+"familiarità con lo sviluppo C/C++ in ambiente Linux). Il file "
+"<code>INSTALL</code> nella directory dei sorgenti dovrebbe aiutarvi a "
+"iniziare. Contattate gli sviluppatori se avete bisogno di aiuto oltre a "
+"questo (perché probabilmente significa che dobbiamo aggiornare il file "
+"<code>INSTALL</code>...)."
+
+#: templates/faq.html:358
+msgid "Mobile Support"
+msgstr "Supporto per il Mobile"
+
+#: templates/faq.html:364
+msgid "How do I install Subsurface-mobile on my phone / tablet?"
+msgstr "Come installo Subsurface-mobile sul mio smartphone / tablet ?"
+
+#: templates/faq.html:371
+#, python-format
+msgid ""
+"iOS users can simply install the Subsurface-mobile app that is available in "
+"iOS App Store. There is still an older version of Subsurface-mobile "
+"available in the Android Play Store, but because of the excessive "
+"bureaucracy and constantly changing rules and requirements associated with "
+"the Google Play store, we currently aren't able to update this package (and "
+"expect it to become unavailble at some point). To work around this, we have "
+"made an Android APK package available on our <a %(crelease)s>current "
+"release</a> page that can be side-loaded on most Android devices."
+msgstr ""
+"Gli utenti iOS possono semplicemente installare l'applicazione Subsurface-"
+"mobile disponibile nell'App Store di iOS. Nel Play Store di Android è ancora"
+" disponibile una versione precedente di Subsurface-mobile, ma a causa "
+"dell'eccessiva burocrazia e dei continui cambiamenti delle regole e dei "
+"requisiti associati al Play Store di Google, al momento non siamo in grado "
+"di aggiornare questo pacchetto (e prevediamo che prima o poi non sarà più "
+"disponibile). Per ovviare a questo problema, abbiamo reso disponibile un "
+"pacchetto APK per Android sulla nostra pagina delle <a %(crelease)s>release "
+"attuali</a> che può essere caricato sulla maggior parte dei dispositivi "
+"Android."
+
+#: templates/faq.html:374
+msgid ""
+"Once you have installed Subsurface-mobile on your device, enable cloud "
+"storage in Subsurface from your desktop or laptop and store your dive "
+"information in the Subsurface cloud. The dives will now be available on your"
+" mobile device as well. Subsurface-mobile does not support all the features "
+"of the desktop version of Subsurface. For example dive planning is not "
+"available in Subsurface-mobile."
+msgstr ""
+"Una volta installato Subsurface-mobile sul proprio dispositivo, attivare il "
+"cloud storage in Subsurface dal desktop o dal laptop e salvare le "
+"informazioni sulle immersioni nel cloud di Subsurface. Le immersioni saranno"
+" ora disponibili anche sul dispositivo mobile. Subsurface-mobile non "
+"supporta tutte le funzioni della versione desktop di Subsurface. Ad esempio,"
+" la pianificazione delle immersioni non è disponibile in Subsurface-mobile."
+
+#: templates/faq.html:377
+#, python-format
+msgid ""
+"From all other devices (including tablets and phones with OSs that we don’t "
+"support with Subsurface-mobile), you can open our <a %(cloudweb)s>cloud "
+"website</a> and log in with the same email address / password. This allows "
+"you to access your dive data from any device with a web browser."
+msgstr ""
+"Da tutti gli altri dispositivi (compresi tablet e telefoni con sistemi "
+"operativi che non supportiamo con Subsurface-mobile), è possibile aprire il "
+"nostro <a %(cloudweb)s>sito web cloud</a> e accedere con lo stesso indirizzo"
+" e-mail / password. In questo modo è possibile accedere ai dati delle "
+"immersioni da qualsiasi dispositivo dotato di browser web."
+
+#: templates/faq.html:388
+msgid "What's the minimum Android version required?"
+msgstr "Qual'è la versione minima di Android richiesta ?"
+
+#: templates/faq.html:395
+msgid ""
+"The side-loaded APK should work with Android 8.0 and newer. Older Android "
+"versions are known not to work with the Subsurface Cloud."
+msgstr ""
+"L'APK \"side-loaded\" dovrebbe funzionare con Android 8.0 e versioni "
+"successive. Le versioni Android più vecchie non funzionano con Subsurface "
+"Cloud."
+
+#: templates/faq.html:406
+msgid ""
+"From which dive computers can Subsurface-mobile on Android directly "
+"download?"
+msgstr ""
+"Da quali computer subacquei Subsurface-mobile su Android può effettuare il "
+"download diretto ?"
+
+#: templates/faq.html:413
+msgid ""
+"Bluetooth and BLE based dive computers as well USB serial dive computers "
+"should generally work (assuming they are supported by Subsurface at all, of "
+"course). What doesn't work are other USB devices like USB HID (e.g., Suunto "
+"EON Steel family via cable - BLE works), USB storage (e.g., Uemis Zurich), "
+"or MTP (e.g., Garmin)."
+msgstr ""
+"I computer subacquei basati su Bluetooth e BLE e i computer subacquei "
+"seriali USB dovrebbero generalmente funzionare (ammesso che siano supportati"
+" da Subsurface, ovviamente). Ciò che non funziona sono altri dispositivi USB"
+" come USB HID (ad esempio, la famiglia Suunto EON Steel via cavo - quella "
+"BLE funziona), memorie USB (ad esempio, Uemis Zurich) o MTP (ad esempio, "
+"Garmin)."
+
+#: templates/faq.html:425
+msgid ""
+"From which dive computers can Subsurface-mobile on iOS directly download?"
+msgstr ""
+"Da quali computer subacquei Subsurface-mobile su iOS può effettuare il "
+"download diretto ?"
+
+#: templates/faq.html:432
+msgid ""
+"Only dive computers that support download via BLE (that are already "
+"supported in Subsurface) work with iOS devices. The Garmin dive computers "
+"are the exception to this rule, they aren't supported on iOS at all. No "
+"cable based downloads are possible."
+msgstr ""
+"Solo i computer subacquei che supportano il download via BLE (che sono già "
+"supportati in Subsurface) funzionano con i dispositivi iOS. I computer "
+"subacquei Garmin sono l'eccezione a questa regola: non sono affatto "
+"supportati da iOS. Non è nemmeno possibile scaricare via cavo."
+
+#: templates/faq.html:437
+msgid "Usage"
+msgstr "Utilizzo"
+
+#: templates/faq.html:443
+msgid "How do I know I have the latest version of Subsurface?"
+msgstr "Come faccio a sapere di avere l'ultima versione di Subsurface ?"
+
+#: templates/faq.html:450
+msgid ""
+"With the desktop version you can check from the Help menu: simply select "
+"“Check for updates”. The iOS version notifies you via the regular AppStore "
+"mechanisms. A notification mechanism for Android is under development."
+msgstr ""
+"Con la versione desktop si può controllare dal menu Aiuto: basta selezionare"
+" \"Controlla aggiornamenti\". La versione iOS viene notificata tramite i "
+"normali meccanismi dell'AppStore. È in fase di sviluppo un meccanismo di "
+"notifica per Android."
+
+#: templates/faq.html:453
+#, python-format
+msgid ""
+"You can also check the <a %(crelease)s>current release</a> page to look at our reasonably frequent\n"
+"                (“weekly”) updates."
+msgstr ""
+"È anche possibile consultare la pagina <a %(crelease)s>current release</a> per vedere i nostri ragionevolmente frequenti \n"
+"(\"settimanali\") aggiornamenti."
+
+#: templates/faq.html:463
+msgid "How can I import my dives into Subsurface?"
+msgstr "Come posso importare le mie immersioni in Subsurface ?"
+
+#: templates/faq.html:470
+#, python-format
+msgid ""
+"There are multiple ways to import into Subsurface. Details can be found in "
+"the <a %(usermanual)s>User Manual</a>."
+msgstr ""
+"Esistono diversi modi per importare in Subsurface. I dettagli si trovano nel"
+" <a %(usermanual)s>Manuale utente</a>."
+
+#: templates/faq.html:473
+msgid ""
+"Manually logged dives can directly be entered in the UI or (in the desktop "
+"version) imported from various forms of spreadsheets."
+msgstr ""
+"Le immersioni registrate manualmente possono essere inserite direttamente "
+"nell'interfaccia utente o (nella versione desktop) importate da vari tipi di"
+" fogli di calcolo."
+
+#: templates/faq.html:476
+msgid ""
+"Dives can be downloaded from supported dive computers. Details vary greatly "
+"depending on how the dive computer connects to your computer or mobile "
+"device."
+msgstr ""
+"Le immersioni possono essere scaricate dai computer subacquei supportati. I "
+"dettagli variano notevolmente a seconda della modalità di connessione del "
+"computer subacqueo al computer o al dispositivo mobile."
+
+#: templates/faq.html:479
+msgid ""
+"It is also possible to import dive data from other software or websites. See"
+" the User Manual for the most up to date information on this – it can be "
+"found in Section 5.3."
+msgstr ""
+"È anche possibile importare dati di immersione da altri software o siti web."
+" Per informazioni più aggiornate su questo aspetto, consultare il Manuale "
+"utente (sezione 5.3)."
+
+#: templates/faq.html:489
+msgid "How can I use more than one tank with the same gas?"
+msgstr "Come posso usare più di una bombola con la stessa miscela ?"
+
+#: templates/faq.html:496
+msgid ""
+"This is a typical question for side mount divers or some tec divers. "
+"Subsurface supports having more than one tank with the same gas, even if "
+"some dive computers don’t. Simply add a gas change to your second tank of "
+"the same gas as both tanks will be included in the gas use calculations. In "
+"order to add gas changes simply right-click on the profile at the "
+"appropriate spot and you will be offered to add such an event."
+msgstr ""
+"Questa è una domanda tipica dei subacquei side mount o di alcuni subacquei "
+"tec. Subsurface consente di avere più di una bombola con lo stesso gas, "
+"anche se alcuni computer subacquei non lo fanno. È sufficiente aggiungere un"
+" cambio di gas alla seconda bombola dello stesso gas, perché entrambe le "
+"bombole saranno incluse nel calcolo del consumo di gas. Per aggiungere i "
+"cambi di gas è sufficiente fare clic con il tasto destro del mouse sul "
+"profilo nel punto appropriato e verrà proposto di aggiungere l'evento."
+
+#: templates/faq.html:499
+#, python-format
+msgid ""
+"If you have pressure transmitters on multiple tanks with the same gas, the "
+"situation is slightly more complicated. The easiest way to ensure that there"
+" is no confusion when importing these dives is to assign slightly different "
+"gasses to those tanks, e.g. oxygen contents of 21%% and 22%% for two tanks "
+"holding air."
+msgstr ""
+"Se si dispone di trasmettitori di pressione su più bombole con lo stesso "
+"gas, la situazione è leggermente più complicata. Il modo più semplice per "
+"garantire che non si crei confusione quando si importano queste immersioni è"
+" assegnare gas leggermente diversi alle bombole, ad esempio contenuti di "
+"ossigeno del 21%% e del 22%% per due bombole di aria."
+
+#: templates/faq.html:509
+msgid "Why is Subsurface not able to download my dives from my dive computer?"
+msgstr ""
+"Perchè Subsurface non riesce a scaricare le mie immersioni dal computer "
+"subacqueo ?"
+
+#: templates/faq.html:516
+msgid ""
+"Obviously there can be many reasons for this. If your dive computer connects"
+" via cable, clean the contacts and make sure they are dry. Repeat if "
+"necessary. Make sure the connector is firmly connected. Wiggle it. "
+"Seriously. Make sure the dive computer is in transfer mode (this isn’t "
+"necessary for all dive computers but for many common ones). Check with other"
+" software that the download works in general. Try another cable. Check your "
+"battery. There are some dive computer (especially earlier Suunto models) "
+"that will happily work with a low battery, but will fail to transfer dives "
+"to a connected PC unless the battery is changed."
+msgstr ""
+"Ovviamente i motivi possono essere molteplici. Se il computer subacqueo si "
+"collega via cavo, pulire i contatti e assicurarsi che siano asciutti. "
+"Ripetere l'operazione se necessario. Assicurarsi che il connettore sia "
+"saldamente collegato. Muoverlo. Seriamente... Assicurarsi che il computer "
+"subacqueo sia in modalità di trasferimento (questo non è necessario per "
+"tutti i computer subacquei, ma per molti di quelli più comuni). Verificare "
+"con altri software che il download funzioni regolarmente. Provare con un "
+"altro cavo. Controllare la batteria. Alcuni computer per immersioni "
+"(soprattutto i modelli Suunto più recenti) funzionano anche con la batteria "
+"scarica, ma non riescono a trasferire le immersioni a un PC collegato, a "
+"meno che non si cambi la batteria."
+
+#: templates/faq.html:519
+msgid ""
+"There are many more potential issues with Bluetooth or BLE dive computers. "
+"Please see our user manual for pairing with such devices and troubleshooting"
+" suggestions."
+msgstr ""
+"Esistono molti altri potenziali problemi con i computer subacquei Bluetooth "
+"o BLE. Per l'accoppiamento con tali dispositivi e i suggerimenti per la "
+"risoluzione dei problemi, consultare il nostro manuale utente."
+
+#: templates/faq.html:528
+msgid "Why is the CSV import failing?"
+msgstr "Perchè l'ìmportazione dei file CVS fallisce ?"
+
+#: templates/faq.html:535
+msgid ""
+"The CSV import has a couple of caveats. You should avoid some special "
+"characters like ampersand (&), less than (<), greater than (>) and double "
+"quotes (“), the latter if quoting text cells. The file should use UTF-8 "
+"character set, if having non-ASCII characters. Also the size of the CSV file"
+" might cause problems. Importing 100 dives at a time (without dive profile) "
+"has worked previously, but larger files might exceed limits of the parser "
+"used. When having  problems with CSV imports, try first with a smaller "
+"sample to make sure everything works."
+msgstr ""
+"L'importazione di CSV richiede un paio di avvertenze. È necessario evitare "
+"alcuni caratteri speciali come la E commerciale (&), minore di (<), maggiore"
+" di (>) e le virgolette (\"), queste ultime se si citano le celle di testo. "
+"Il file deve utilizzare il set di caratteri UTF-8, se contiene caratteri non"
+" ASCII. Anche le dimensioni del file CSV potrebbero causare problemi. "
+"L'importazione di 100 immersioni alla volta (senza profilo di immersione) ha"
+" già funzionato in passato, ma file più grandi potrebbero superare i limiti "
+"del parser utilizzato. In caso di problemi con le importazioni CSV, provare "
+"prima con un campione più piccolo per assicurarsi che tutto funzioni."
+
+#: templates/faq.html:545
+msgid "How can I use Subsurface for multiple users?"
+msgstr "Come posso usare Subsurface per più utenti ?"
+
+#: templates/faq.html:552
+msgid ""
+"Potentially the best way to achieve this is to use multiple user accounts on"
+" the computer, all operating systems have built-in support for multiple "
+"users. This way the Subsurface configuration for each user is truely "
+"separated."
+msgstr ""
+"Potenzialmente il modo migliore per ottenere questo risultato è utilizzare "
+"più account utente sul computer; tutti i sistemi operativi hanno un supporto"
+" integrato per gli utenti multipli. In questo modo la configurazione di "
+"Subsurface per ogni utente è veramente separata."
+
+#: templates/faq.html:555
+msgid ""
+"Another option is to store logs of different users to separate log files. "
+"From Subsurface, you can open individual files for different divers and "
+"multiple users are supported quite well, the downside of this approach is "
+"that it's incompatible with Subsurface cloud storage."
+msgstr ""
+"Un'altra opzione è quella di archiviare i log di utenti diversi in file di "
+"log separati. Da Subsurface, è possibile aprire i singoli file per i diversi"
+" subacquei e gli utenti multipli sono supportati abbastanza bene; il lato "
+"negativo di questo approccio è che è incompatibile con il cloud storage di "
+"Subsurface."
+
+#: templates/faq.html:558
+msgid ""
+"A blend of these approaches where you want multi-user Subsurface support "
+"within a single computer user account can be achieved as well. Subsurface "
+"has the ability support user profiles, simply launch Subsurface with the "
+"<code>--user</code> flag e.g. <code>subsurface --user=joebloggs</code>. From"
+" this user-specific workspace you can then open either locally stored or "
+"cloud hosted dive logs. You can then create different desktop shortcut icons"
+" that include this command line flag in order to make the experience more "
+"user friendly."
+msgstr ""
+"È possibile ottenere una combinazione di questi approcci quando si desidera "
+"il supporto di Subsurface per più utenti all'interno di un account utente di"
+" un singolo computer. Subsurface è in grado di supportare i profili utente; "
+"è sufficiente lanciare Subsurface con il flag <code>--user</code>, ad "
+"esempio subsurface <code>--user=joebloggs</code>. Da questo spazio di lavoro"
+" specifico per l'utente è possibile aprire i diari di immersione memorizzati"
+" localmente o ospitati nel cloud. È possibile creare diverse icone di "
+"collegamento sul desktop che includono questo flag della riga di comando per"
+" rendere l'esperienza più semplice per l'utente."
+
+#: templates/faq.html:568
+msgid "How can I load pictures and associate them with my dive?"
+msgstr "Come posso caricare immagini e associarle con le mie immersioni ?"
+
+#: templates/faq.html:575
+msgid ""
+"This is supported in the desktop version of Subsurface. Select the dives you"
+" want to load and associate the pictures with. Then right click on one of "
+"the selected dives and select “Load images” from the popup menu. This will "
+"bring in a file selection dialog where you can select one or more pictures. "
+"When the selection is done and hit Open and you get a new dialog where you "
+"can shift the times of the images (in case of inconsistent clocks between "
+"camera and dive computer). Once you confirm this, the pictures are loaded "
+"and associated with the right dives and shown (as thumbnails) in the "
+"respective dive profiles."
+msgstr ""
+"Questa funzione è supportata dalla versione desktop di Subsurface. "
+"Selezionare le immersioni che si desidera caricare e associare alle "
+"immagini. Fare quindi clic con il pulsante destro del mouse su una delle "
+"immersioni selezionate e selezionare \"Carica immagini\" dal menu a tendina."
+" Verrà visualizzata una finestra di dialogo per la selezione dei file in cui"
+" è possibile selezionare una o più immagini. Una volta terminata la "
+"selezione, premere Apri e si aprirà una nuova finestra di dialogo in cui "
+"sarà possibile spostare l'orario delle immagini (nel caso in cui gli orologi"
+" della fotocamera e del computer subacqueo non siano coerenti). Una volta "
+"confermate, le immagini vengono caricate e associate alle immersioni scelte "
+"e mostrate (come miniature) nei rispettivi profili di immersione."
+
+#: templates/faq.html:578
+msgid ""
+"If you are having trouble with loading the images, check that you have at "
+"least one of the following tags in the Exif headers: "
+"<code>DateTimeOriginal</code> or <code>DateTime</code>. We take the time "
+"from these fields to detect if the image was taken during the dive or not. "
+"If the picture is edited, make sure that the original Exif information is "
+"stored in the new/edited image in order for it to be loaded properly. Most "
+"modern photo editing software does that correctly by default."
+msgstr ""
+"Se si riscontrano problemi nel caricamento delle immagini, verificare che "
+"nelle intestazioni Exif sia presente almeno uno dei seguenti tag: "
+"<code>DateTimeOriginal</code> o <code>DateTime</code>. Questi campi servono "
+"a capire se l'immagine è stata scattata durante l'immersione o meno. Se "
+"l'immagine è stata modificata, assicurarsi che le informazioni Exif "
+"originali siano memorizzate nell'immagine nuova/modificata per poterla "
+"caricare correttamente. La maggior parte dei moderni software di fotoritocco"
+" lo fa correttamente per impostazione predefinita."
+
+#: templates/faq.html:588
+msgid "Can I import my dives from my old log software?"
+msgstr "Posso importare le mie immersioni dal mio vecchio software ?"
+
+#: templates/faq.html:595
+msgid ""
+"Many common programs are already supported and we are always happy to try to add new ones. If your old log software supports exporting the log book, we might well be able to import that (for example via CSV files or UDDF). However, usually support for importing the native format will help you to get more complete information into Subsurface. To implement support for the log format, we will need a sample log file. It would be great to have also a screenshot from\n"
+"                the original log software or description of the dive that is shown on the sample log. Preferably we would like to have a reasonably simple dive to get basic support and another dive that has as many features enabled as possible (e.g. gas\n"
+"                changes during the dive). Please post this information to the user forum or send it to the developer mailing list subsurface@subsurface-divelog.org. Unfortunately some of the log formats we have not been able to decipher (as some\n"
+"                vendors have decided to encrypt their log files to increase the degree of lock-in of their customers), so there are no guarantees that this will bring support for your old log software, but it is worth a try."
+msgstr ""
+"Molti dei programmi più comuni sono già supportati e siamo sempre felici di "
+"provare ad aggiungerne di nuovi. Se il vostro vecchio software supporta "
+"l'esportazione del divelog, potremmo essere in grado di importarlo (ad "
+"esempio tramite file CSV o UDDF). Tuttavia, di solito il supporto per "
+"l'importazione del formato nativo vi aiuterà a ottenere informazioni più "
+"complete in Subsurface. Per implementare il supporto per il formato "
+"specifico, avremo bisogno di un file di esempio. Sarebbe ideale avere anche "
+"una schermata del software originale o una descrizione dell'immersione che "
+"viene mostrata nel log di esempio. Preferibilmente vorremmo avere "
+"un'immersione ragionevolmente semplice per ottenere un supporto di base e "
+"un'altra immersione con il maggior numero possibile di funzioni abilitate "
+"(ad esempio, il cambio di gas durante l'immersione). Si prega di pubblicare "
+"queste informazioni sul forum degli utenti o di inviarle alla mailing list "
+"degli sviluppatori subsurface@subsurface-divelog.org. Purtroppo non siamo "
+"riusciti a decifrare alcuni formati di log (alcuni fornitori hanno deciso di"
+" criptare i loro file di log per aumentare il grado di lock-in dei loro "
+"clienti), quindi non ci sono garanzie che questo porterà il supporto per il "
+"vostro vecchio software, ma vale la pena provare."
+
+#: templates/faq.html:608
+msgid ""
+"I cannot download all my dives, only the most recent ones even though my "
+"dive computer's manual states that it records history of e.g. 999 dives."
+msgstr ""
+"Non riesco a scaricare tutte le mie immersioni, ma solo le più recenti, "
+"anche se il manuale del mio computer subacqueo dice che registra la "
+"cronologia, ad esempio, di 999 immersioni."
+
+#: templates/faq.html:615
+msgid ""
+"Dive history is different than the dive profiles on the log. The history "
+"only keeps track of the total number of dives and total amount of time spent"
+" below surface. The logs, on the other hand, store the dive profile, but "
+"they have limited amount of memory to do so. The exact amount of dive "
+"profiles that can be stored on the device depend on sample interval and "
+"duration of the dives. Once the memory is full the oldest dives get "
+"overwritten with new dives. Thus we are only able to download the last 13, "
+"30 or 199 dives."
+msgstr ""
+"La cronologia delle immersioni è diversa dai profili di immersione sul "
+"diario. La cronologia tiene traccia solo del numero totale di immersioni e "
+"del tempo totale trascorso sotto la superficie. I divelog, invece, "
+"memorizzano il profilo di immersione, ma i computer dispongono di una "
+"quantità limitata di memoria per farlo. La quantità esatta di profili di "
+"immersione che possono essere memorizzati sul dispositivo dipende "
+"dall'intervallo di campionamento e dalla durata delle immersioni. Una volta "
+"che la memoria è piena, le immersioni più vecchie vengono sovrascritte da "
+"quelle nuove. Pertanto, siamo in grado di scaricare solo le ultime 13, 30 o "
+"199 immersioni."
+
+#: templates/faq.html:618
+msgid ""
+"If you have downloaded your dives to different dive logging software before "
+"they were overwritten, there is a high chance that Subsurface can import "
+"these. However, if the logs are only on your dive computer, they cannot be "
+"salvaged after being over written by new dives."
+msgstr ""
+"Se le immersioni sono state scaricate su un altro software prima che "
+"venissero sovrascritte, è molto probabile che Subsurface possa importarle. "
+"Tuttavia, se i divelog si trovano solo sul computer subacqueo, non possono "
+"essere recuperati dopo essere stati sovrascritti da nuove immersioni."
+
+#: templates/faq.html:628
+msgid "What to do when authentication to cloud storage fails?"
+msgstr "Cosa fare quando l'autenticazione al cloud fallisce ?"
+
+#: templates/faq.html:635
+#, python-format
+msgid ""
+"If you have configured your correct user credentials to Subsurface and cloud"
+" authentication still fails, try to change the password on via the <a "
+"%(pwdreset)s>password reset</a> on our website. If your credentials are "
+"still not working or there is something else wrong, contact Dirk to sort it "
+"out."
+msgstr ""
+"Se avete configurato le vostre credenziali utente corrette per Subsurface e "
+"l'autenticazione nel cloud continua a non funzionare, provate a cambiare la "
+"password tramite l'opzione <a %(pwdreset)s>recupero password</a> sul nostro "
+"sito web. Se le credenziali continuano a non funzionare o se c'è "
+"qualcos'altro che non va, contattate Dirk per risolvere il problema."
+
+#: templates/faq.html:646
+msgid "Can Subsurface store my files on a different cloud server?"
+msgstr "Subsurface può salvare le mie immersioni su un cloud server diverso ?"
+
+#: templates/faq.html:653
+#, python-format
+msgid ""
+"Subsurface can store your dive log securely in the Subsurface Cloud, backing"
+" up your data, allowing you to access your dive logs on a desktop, Android, "
+"or iOS device. Additionally there is a read only web view available at <a "
+"%(cloudweb)s>the cloud webpage</a>."
+msgstr ""
+"Subsurface può archiviare il registro delle immersioni in modo sicuro nel "
+"Subsurface Cloud, eseguendo il backup dei dati e consentendo di accedere ai "
+"registri delle immersioni su un dispositivo desktop, Android o iOS. Inoltre,"
+" è disponibile una visualizzazione web di sola lettura alla <a "
+"%(cloudweb)s>pagina web del cloud</a>."
+
+#: templates/faq.html:656
+msgid ""
+"This is the only cloud solution available, which allows the developers the "
+"ability to enhance Subsurface, fix issues, and support users (with your "
+"permission) if something goes wrong with the Cloud Storage. The incremental "
+"effort to support additional cloud backends is substantial, while at the "
+"same time making it much harder for us to help users who run into trouble. "
+"In the end this is not a useful trade-off for us to make, so other cloud "
+"solutions continue to not be supported."
+msgstr ""
+"Questa è l'unica soluzione cloud disponibile, che consente agli sviluppatori"
+" di migliorare Subsurface, di risolvere i problemi e di supportare gli "
+"utenti (con il loro permesso) se qualcosa va storto con il Cloud Storage. Lo"
+" sforzo incrementale per supportare altri backend cloud è notevole, e allo "
+"stesso tempo rende molto più difficile per noi aiutare gli utenti che "
+"incontrano problemi. Alla fine questo non è un buon compromesso per noi, "
+"quindi altre soluzioni cloud continuano a non essere supportate."
+
+#: templates/faq.html:659
+msgid ""
+"If you only use Subsurface on the desktop and wish to backup your log on a "
+"remote storage server, the documention describes how to store your XML data "
+"on DropBox or other similar services such as OwnCloud, TeamDrive, MiniBox, "
+"etc."
+msgstr ""
+"Se si utilizza Subsurface solo sul desktop e si desidera eseguire il backup "
+"del registro su un server di archiviazione remoto, la documentazione "
+"descrive come archiviare i dati XML su DropBox o altri servizi simili come "
+"OwnCloud, TeamDrive, MiniBox, ecc."
+
+#: templates/faq.html:664
+msgid "Issues with specific dive computers"
+msgstr "Problemi con computer subacquei specifici"
+
+#: templates/faq.html:669
+msgid "Can you add support for dive computer X?"
+msgstr "Potete aggiunge il supporto ad uno specifico computer subacqueo ?"
+
+#: templates/faq.html:675
+#, python-format
+msgid ""
+"We support a large number of dive computers already and are always happy to "
+"add support for more. Please contact us via the <a %(userforum)s>User "
+"Forum</a> so we can try to help. Some vendors have actively helped us in our"
+" work and adding support for new models from those vendors is usually easy. "
+"Other vendors are more neutral, some are actively hostile. Without help from"
+" the vendor it can be rather challenging to reverse engineer the transfer "
+"protocol and the dive encoding, but with sufficient help from you it is "
+"often possible to do so."
+msgstr ""
+"Supportiamo già un gran numero di computer subacquei e siamo sempre felici "
+"di aggiungere il supporto per altri. Contattateci tramite il <a "
+"%(userforum)s>Forum utenti</a> in modo che possiamo cercare di aiutarvi. "
+"Alcuni fornitori ci hanno aiutato attivamente nel nostro lavoro e l'aggiunta"
+" del supporto per i nuovi modelli di questi fornitori è solitamente facile. "
+"Altri fornitori sono più neutrali, altri ancora sono attivamente ostili. "
+"Senza l'aiuto del fornitore può essere piuttosto impegnativo effettuare il "
+"reverse engineering del protocollo di trasferimento e della codifica delle "
+"immersioni, ma con un aiuto sufficiente da parte vostra è spesso possibile "
+"farlo."
+
+#: templates/faq.html:678
+msgid ""
+"A good starting point is often to send us a libdivecomputer log and dump "
+"(you can pick those in the dive computer download dialog) when connecting to"
+" the dive computer using a similar existing model (if possible). But "
+"generally it might make the most sense to first reach out in order to avoid "
+"wasting your time."
+msgstr ""
+"Un buon punto di partenza è spesso l'invio di un log e di un dump di "
+"libdivecomputer (si possono scegliere nella finestra di download del "
+"computer subacqueo) quando ci si connette al computer subacqueo utilizzando "
+"un modello simile esistente (se possibile). In genere, però, è più sensato "
+"contattare prima l'azienda per evitare di perdere tempo."
+
+#: templates/faq.html:681
+#, python-format
+msgid ""
+"If you would like to contribute and help, there are many ways to do so. "
+"Please take a look at our '<a %(contribute)s>Contribute</a>' page."
+msgstr ""
+"Se volete contribuire e aiutare, ci sono molti modi per farlo. Date "
+"un'occhiata alla nostra pagina \"<a %(contribute)s>Contributi</a>\"."
+
+#: templates/faq.html:690
+msgid "Old style Suunto dive computers?"
+msgstr "Vecchi computer subacquei Suunto ?"
+
+#: templates/faq.html:697
+msgid ""
+"Most of the download cables are FTDI based and need the appropriate drivers "
+"installed. Some other third party cables need different drivers. Without "
+"those drivers, the dive computer device won't show up. Once you can see the "
+"device (<code>COMn</code> or <code>/dev/tty...</code>), if you get timeouts "
+"or data errors, see the data error question below."
+msgstr ""
+"La maggior parte dei cavi di download sono basati su FTDI e richiedono "
+"l'installazione dei driver appropriati. Altri cavi di terze parti "
+"necessitano di driver diversi. Senza questi driver, il computer subacqueo "
+"non viene visualizzato. Una volta visualizzato il dispositivo (COMn o "
+"/dev/tty...), se si verificano timeout o errori di dati, consultare la "
+"domanda sugli errori relativi ai dati riportata di seguito."
+
+#: templates/faq.html:706
+msgid "I get timeouts or data error when downloading"
+msgstr "Ricevo timeout o data error mentre scarico"
+
+#: templates/faq.html:713
+msgid ""
+"Astoundingly commonly the reason are wet or dirty contacts or a low battery."
+" It doesn't matter if the dive computer turns on. Download mode often "
+"requires much higher stable voltage to work. And sadly we even have seen "
+"situations where the vendor dive log will work (because it can do a much "
+"better job at 'error correction'), but Subsurface won't download until you "
+"have a fresh battery and really clean and really dry contacts."
+msgstr ""
+"Sorprendentemente, i motivi più comuni sono i contatti bagnati o sporchi o "
+"la batteria scarica. Non importa se il computer subacqueo si accende. La "
+"modalità di download spesso richiede una tensione stabile molto più elevata "
+"per funzionare. Purtroppo abbiamo anche visto situazioni in cui il registro "
+"delle immersioni del fornitore funziona (perché può fare un lavoro migliore "
+"di \"correzione degli errori\"), ma Subsurface non scarica fino a quando non"
+" si ha una batteria nuova e contatti puliti e asciutti."
+
+#: templates/faq.html:723
+msgid "BLE (Bluetooth Low Energy) downloads are incredibly slow"
+msgstr "I downlod BLE (Bluetooth Low Energy) sono incredibilmente lenti"
+
+#: templates/faq.html:729
+msgid ""
+"Yes, yes they are. Since Subsurface supports BLE download from many "
+"different dive computers from many different vendors, the code is generally "
+"not as well tuned for a specific dive computer as the vendor app can be. So "
+"unfortunately these downloads are painfully slow. Usually downloading a few "
+"dives a day is tedious, but not horrible. But especially a first download "
+"with a hundred or more dives can take an hour and longer - and sometimes it "
+"is hard to complete the download without running into errors that lead the "
+"download to abort. It really pays off to download early and often."
+msgstr ""
+"Sì, è così. Poiché Subsurface supporta il download BLE da molti computer "
+"subacquei di diversi fornitori, il codice non è generalmente ottimizzato per"
+" uno specifico computer subacqueo come può esserlo l'applicazione del "
+"fornitore. Quindi, purtroppo, questi download sono penosamente lenti. Di "
+"solito il download di alcune immersioni al giorno è noioso, ma non "
+"terribile. Ma soprattutto un primo download con un centinaio o più di "
+"immersioni può richiedere un'ora e più, e a volte è difficile completare il "
+"download senza incappare in errori che lo portano a interrompersi. È "
+"veramente molto utile scaricare subito e frequentemente."
+
+#: templates/faq.html:732
+msgid ""
+"If the dive computer offers a way to download with a USB cable (in addition "
+"to BLE, like for example the Suunto EON Steel family), that is definitely "
+"preferable especially for that first download."
+msgstr ""
+"Se il computer subacqueo offre la possibilità di scaricare con un cavo USB "
+"(oltre a BLE, come ad esempio la famiglia Suunto EON Steel), è sicuramente "
+"preferibile, soprattutto per il primo download."
+
+#: templates/faq.html:743
+msgid "Does Subsurface-mobile support the Garmin Descent family?"
+msgstr "Subsurface-mobile supporta la famiglia Garmin Descent ?"
+
+#: templates/faq.html:750
+msgid ""
+"The Descent dive computers are only supported on Windows, macOS, and Linux, "
+"and only for cable based download. Based on a specific request from Garmin, "
+"we will not be able to support BLE downloads on any platform."
+msgstr ""
+"I computer subacquei Garmin Descent sono supportati solo su Windows, macOS e"
+" Linux e solo per il download via cavo. A causa di una richiesta specifica "
+"di Garmin, non saremo in grado di supportare i download BLE su nessuna "
+"piattaforma."
+
+#: templates/faq.html:759
+msgid "Can I import '.FIT' files directly?"
+msgstr "Posso importare i file '.FIT' direttamente ?"
+
+#: templates/faq.html:766
+msgid ""
+"If for some reason you cannot get regular downloads to work, but have access"
+" to the `.FIT` files, you can still use Subsurface to import those, still "
+"using the download code. Simply create a folder "
+"<code>...somepath.../Garmin/Activity</code> and copy the <code>.FIT</code> "
+"files into that folder. Now start a Subsurface download and enter "
+"<code>...somepath...</code> (without the <code>Garmin/Activity</code> part) "
+"in the Connection field and press Download."
+msgstr ""
+"Se per qualche motivo non si riesce a far funzionare i normali download, ma "
+"si ha accesso ai file `.FIT`, è possibile utilizzare Subsurface per "
+"importarli, sempre utilizzando il codice di download. È sufficiente creare "
+"una cartella <code>...somepath.../Garmin/Activity</code> e copiare i file "
+"<code>.FIT</code> in quella cartella. Ora avviate un download da Subsurface "
+"e inserite <code>...somepath...</code> (senza la parte "
+"<code>Garmin/Activity</code>) nel campo Connection e premete Download."
+
+#: templates/faq.html:776
+msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
+msgstr "Il Garmin Descent Mk2/Mk3 non si connette"
+
+#: templates/faq.html:783
+msgid ""
+"The Descent Mk2/Mk3 is an MTP device which causes occasional problems when "
+"trying to download from it using Subsurface. MTP supports only a single "
+"connection, so other MTP apps may prevent Subsurface from talking to your "
+"dive computer. Exit all other apps that might try to connect to a media "
+"device, like for example the Android File Transfer."
+msgstr ""
+"Il Descent Mk2/Mk3 è un dispositivo MTP che occasionalmente causa problemi "
+"quando si cerca di scaricare da esso utilizzando Subsurface. MTP supporta "
+"solo una singola connessione, quindi altre applicazioni MTP potrebbero "
+"impedire a Subsurface di parlare con il computer subacqueo. Uscire da tutte "
+"le altre applicazioni che potrebbero tentare di connettersi a un dispositivo"
+" multimediale, come ad esempio Android File Transfer."
+
+#: templates/faq.html:792
+msgid "Garmin Descent Mk2/Mk3 on Windows"
+msgstr "Garmin Descent Mk2/Mk3 su Windows"
+
+#: templates/faq.html:799
+msgid ""
+"You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
+msgstr ""
+"Hai bisogno del driver USB giusto per poter connettere il Descent Mk2/Mk3."
+
+#: templates/faq.html:802
+#, python-format
+msgid ""
+"Please download <a %(zadig)s>Zadig 2.6</a> and run it, plug in the Descent "
+"and select MTP, wait for Zadig to offer the Descent as an option (this may "
+"require an unplug / replug cycle), select the Descent and tell Zadig to "
+"install `libusb-win32` (wait for this to finish which takes a while), unplug"
+" the Descent and plug it back in, again selecting MTP. Now Subsurface is "
+"able to download from it (don't enter anything in the connection field)"
+msgstr ""
+"Scaricare <a %(zadig)s>Zadig 2.6</a> ed eseguirlo, collegare il Descent e "
+"selezionare MTP, attendere che Zadig proponga il Descent come opzione "
+"(questo potrebbe richiedere un ciclo di scollegamento/ricollegamento), "
+"selezionare il Descent e dire a Zadig di installare `libusb-win32` "
+"(attendere che finisca, il che richiede un po' di tempo), scollegare il "
+"Descent e ricollegarlo, selezionando nuovamente MTP. Ora Subsurface è in "
+"grado di scaricare da esso (non inserire nulla nel campo della connessione)."
+
+#: templates/faq.html:807
+msgid "Other questions"
+msgstr "Altre domande"
+
+#: templates/faq.html:809
+#, python-format
+msgid ""
+"If your question wasn't answered here, please check the <a "
+"%(userforum)s>User Forum</a> and try the search function. If you don't find "
+"an answer there, create a new topic and ask for help."
+msgstr ""
+"Se la domanda non ha trovato risposta qui, controllare il <a "
+"%(userforum)s>Forum utenti</a> e provare la funzione di ricerca. Se non "
+"trovate una risposta, create un nuovo argomento e chiedete aiuto."
+
+#: templates/faq.html:813
+#, python-format
+msgid ""
+"This FAQ is maintained as part of our website in the <a %(webrepo)s>website "
+"repo</a>. Pull requests are of course welcome - you can also suggest "
+"additions to the FAQ in the <a %(userforum)s>User Forum</a>."
+msgstr ""
+"Questa FAQ è mantenuta come parte del nostro sito web nella repo <a "
+"%(webrepo)s>sito web</a>. Le richieste di pull sono ovviamente benvenute; è "
+"inoltre possibile suggerire aggiunte alle FAQ nell'<a %(userforum)s>User "
+"Forum</a>."
+
+#: templates/home.html:17
+msgid "The free, open-source cross-platform dive log software."
+msgstr ""
+"Il programma per registrare immersioni libero, open-source e "
+"multipiattaforma."
+
+#: templates/home.html:32 templates/home.html:48
+msgid "Downloads for other platforms"
+msgstr "Download per altre piattaforme"
+
+#: templates/home.html:74
+msgid "Multiplatform"
+msgstr "Multipiattaforma"
+
+#: templates/home.html:76
+msgid ""
+"Subsurface is an open source divelog program for recreational, tech, and "
+"free-divers that runs on Windows, Mac, and Linux"
+msgstr ""
+"Subsurface è un programma di divelog open source per subacquei ricreativi, "
+"tecnici e apneisti che funziona su Windows, Mac e Linux.Subsurface è un "
+"programma di divelog open source per subacquei ricreativi, tecnici e "
+"apneisti che funziona su Windows, Mac e Linux."
+
+#: templates/home.html:84
+msgid "Log all your dives"
+msgstr "Salva tutte le tue immersioni"
+
+#: templates/home.html:86
+msgid ""
+"Download your dives from your dive computer. Import them from other dive log"
+" programs or dive log websites. Manually enter them directly in Subsurface "
+"or via a simple spreadsheet."
+msgstr ""
+"Scarica le immersioni dal computer subacqueo. Importale da altri programmi "
+"di registrazione delle immersioni o da siti web di registrazione delle "
+"immersioni. Inseriscile direttamente in Subsurface manualmente o tramite un "
+"semplice foglio di calcolo."
+
+#: templates/home.html:94
+msgid "Dive planner"
+msgstr "Pianificatore di immersioni"
+
+#: templates/home.html:96
+msgid ""
+"The planner module makes it simple to visually plan dives either based on "
+"Bühlmann ZH-16 or VPM-B"
+msgstr ""
+"Il modulo di pianificazione semplifica la pianificazione visiva delle "
+"immersioni sulla base del Bühlmann ZH-16 o del VPM-B."
+
+#: templates/home.html:104
+msgid "Subsurface-mobile"
+msgstr "Subsurface-mobile"
+
+#: templates/home.html:106
+msgid ""
+"Using Subsurface-mobile on your Android or iOS device you can access your "
+"dive log anywhere"
+msgstr ""
+"Utilizzando Subsurface-mobile sul vostro dispositivo Android o iOS potete "
+"accedere al vostro divelog ovunque."
+
+#: templates/home.html:114
+msgid "Cloud storage"
+msgstr "Spazio su Cloud"
+
+#: templates/home.html:116
+msgid ""
+"Optionally store your logbook data in the cloud. Work with your data from "
+"different devices, online and offline. Fully integrated, free, and easy to "
+"set up."
+msgstr ""
+"Possibilità di archiviare i dati nel cloud. Lavorate da diversi dispositivi,"
+" online e offline. Completamente integrato, gratuito e facile da "
+"configurare."
+
+#: templates/home.html:133
+msgid ""
+"Subsurface can <strong>plan</strong> and <strong>track</strong> single- and "
+"multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It allows "
+"tracking of dive locations including GPS coordinates (which can also "
+"conveniently be entered using a map interface), logging of equipment used "
+"and names of other divers, and lets users rate dives and provide additional "
+"notes."
+msgstr ""
+"Subsurface è in grado di pianificare e monitorare immersioni con una o più "
+"bombole utilizzando aria, Nitrox o TriMix. Consente di tracciare i luoghi di"
+" immersione, comprese le coordinate GPS (che possono anche essere "
+"comodamente inserite tramite un'interfaccia cartografica), di registrare "
+"l'attrezzatura utilizzata e i nomi degli altri subacquei, e permette agli "
+"utenti di valutare le immersioni e aggiungere ulteriori note."
+
+#: templates/home.html:136
+msgid ""
+"You can tag dives and <strong>filter a dive list</strong> based on criteria "
+"including tags, locations and people with whom you were diving. You can "
+"group the dive list into trips, and edit multiple dives at the same time, "
+"making it easy to support a large number of dives."
+msgstr ""
+"Potete etichettare le immersioni e filtrare un elenco di immersioni in base "
+"a criteri quali tag, località e persone con cui vi siete immersi. È "
+"possibile raggruppare l'elenco delle immersioni in viaggi e modificare più "
+"immersioni contemporaneamente, semplificando la gestione di un gran numero "
+"di immersioni."
+
+#: templates/home.html:141
+msgid ""
+"Subsurface also calculates a wide variety of <strong>statistics</strong> of "
+"the user’s diving and tracks information like the SAC rate, partial "
+"pressures of O2, N2 and He, calculated deco information, and many more."
+msgstr ""
+"Subsurface calcola anche un'ampia varietà di <strong>statistiche</strong> "
+"sull'immersione dell'utente e tiene traccia di informazioni come il valore "
+"di CAS, le pressioni parziali di O2, N2 e He, le informazioni calcolate "
+"sulla deco e molto altro."
+
+#: templates/home.html:144
+msgid ""
+"<strong>Multiple divers</strong> can share one instance of Subsurface using "
+"different preferences and settings."
+msgstr ""
+"<strong>Più subacquei</strong> possono condividere un'istanza di Subsurface "
+"utilizzando preferenze e impostazioni diverse."
+
+#: templates/home.html:147
+msgid ""
+"The program is localized in about <strong>20 languages</strong> and well "
+"supported by an active developer community."
+msgstr ""
+"Il programma è localizzato in circa 20 lingue ed è ben supportato da "
+"un'attiva comunità di sviluppatori."
+
+#: templates/home.html:152
+#, python-format
+msgid ""
+"One of the major strengths of Subsurface is its support of a wide range of "
+"<strong>dive computers</strong> (see the <a %(link)s>list of supported dive "
+"computers</a>). Subsurface can also import existing dive logs from several "
+"sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de."
+msgstr ""
+"Uno dei principali punti di forza di Subsurface è il supporto di un'ampia "
+"gamma di <strong>computer subacquei</strong> (vedere l'<a %(link)s>elenco "
+"dei computer subacquei supportati</a>). Subsurface può anche importare "
+"registri di immersione esistenti da diverse fonti, tra cui MacDive, Suunto "
+"DM3, DM4 e DM5, JDiveLog e divelogs.de."
+
+#: templates/home.html:155
+msgid ""
+"Another strength is its ability to <strong>visualize</strong> the depth "
+"profile (and, if available, the tank pressure curve) in innovative ways that"
+" give the user additional information on relative velocity, and momentary "
+"air consumption, during a dive. Users who dive with <strong>multiple dive "
+"computers</strong> can combine the data from each of their dive computers "
+"into one dive – allowing visualization of the data collected from multiple "
+"sources."
+msgstr ""
+"Un altro punto di forza è la capacità di <strong>visualizzare</strong> il "
+"profilo di profondità (e, se disponibile, la curva di pressione della "
+"bombola) in modi innovativi che forniscono all'utente informazioni "
+"aggiuntive sulla velocità relativa e sul consumo momentaneo di aria durante "
+"l'immersione. Gli utenti che si immergono con <strong>più computer "
+"subacquei</strong> possono combinare i dati di ciascuno di essi in un'unica "
+"immersione, consentendo la visualizzazione dei dati raccolti da più fonti."
+
+#: templates/home.html:160
+msgid ""
+"Subsurface lets the user <strong>print</strong> out a detailed log book "
+"including dive profiles and other important information."
+msgstr ""
+"Subsurface consente all'utente di <strong>stampare</strong> un registro "
+"dettagliato che include profili di immersione e altre informazioni "
+"importanti."
+
+#: templates/home.html:164
+msgid "We switched to rolling releases"
+msgstr "Siamo passati a rilasci continui"
+
+#: templates/home.html:166
+#, python-format
+msgid ""
+"Please check out <a %(link)s>the announcement of the Release Changes</a>"
+msgstr ""
+
+#: templates/home.html:171
+msgid "A bit of history:"
+msgstr "Un po' di storia:"
+
+#: templates/home.html:173
+msgid ""
+"In fall of 2011, when a forced lull in kernel development gave him a chance "
+"to start a new project, Linux creator Linus Torvalds decided to tackle his "
+"frustration with the lack of decent divelog software on Linux."
+msgstr ""
+
+#: templates/home.html:176
+msgid ""
+"Linus worked with a team of developers, and Subsurface is the result. It now"
+" supports Linux, Windows and MacOS and allows data import from many dive "
+"computers and several existing divelog programs. It provides a quick and "
+"easy way to see the key information provided by a modern dive computer and "
+"lets users track a wide variety of data about their dives. In fall of 2012 "
+"Dirk Hohndel took over as Subsurface maintainer."
+msgstr ""
+
+#: templates/latest-release.html:13
+#, python-format
+msgid "Latest Development (CICD) Release: %(version)s"
+msgstr ""
+
+#: templates/latest-release.html:17
+msgid ""
+"The releases on this page are the latest builds from the Subsurface CICD "
+"(Continuous Integration, Continuous Delivery) system. While we don't expect "
+"them to be broken very often, they are generally released in order to "
+"facilitate testing, and as such may not have received a lot of testing, yet."
+msgstr ""
+
+#: templates/latest-release.html:20
+msgid "The latest change-sets merged into this release are:"
+msgstr ""
+
+#: templates/latest-release.html:26
+#, python-format
+msgid ""
+"If you are looking for a somewhat less \"bleeding edge\" set of builds, "
+"please consider the <a %(link)s>Current Release Page</a>."
+msgstr ""
+
+#: templates/latest-release.html:55
+msgid ""
+"The Subsurface macOS DMG is not signed. macOS will force you through a few "
+"extra steps before you can install or run this program. You can simplify the"
+" process by control-clicking (or two-finger-clicking) on the executable and "
+"selecting to open it."
+msgstr ""
+
+#: templates/latest-release.html:88
+#, python-format
+msgid ""
+"iOS is the only platform right now where in general side-loading or "
+"installing unsigned binaries is impossible (apparently that may change for "
+"users in the EU, but not elsewhere). As a result we cannot make new versions"
+" of Subsurface-mobile for iOS available here. We try to push many of these "
+"builds into our public TestFlight account. If you like to be on the bleeding"
+" edge, you can <a %(link)s>sign up for the Subsurface-mobile TestFlight.</a>"
+msgstr ""
+
+#: templates/latest-release.html:117
+msgid "The 'edge' Snap-channel contains our latest build."
+msgstr ""
+
+#: templates/privacy-policy.html:15
+msgid ""
+"This Privacy Notice is to inform EU and U.K. citizens who use Subsurface how"
+" their personal information is used."
+msgstr ""
+
+#: templates/privacy-policy.html:18
+msgid ""
+"Personal information is limited to your email address, online and system "
+"identities, enabling a registered user account to be created and maintained."
+" The information is processed to provide the Subsurface application to "
+"registered users, the lawful purpose: contract obligation."
+msgstr ""
+
+#: templates/privacy-policy.html:21
+msgid ""
+"Personal information is held whilst a user is registered. User accounts can "
+"be deleted on request. See contact information below."
+msgstr ""
+
+#: templates/privacy-policy.html:24
+msgid ""
+"Subsurface is run on mirrored servers, some in the US and others in the EU "
+"(Germany). Personal information is protected by design and the application "
+"of security measures. Personal information is not shared with any other "
+"entity."
+msgstr ""
+
+#: templates/privacy-policy.html:27
+#, python-format
+msgid ""
+"To contact Subsurface please reach out to the Data Protection Lead: Email: "
+"<code>%(email)s</code>"
+msgstr ""
+
+#: templates/privacy-policy.html:30
+msgid ""
+"Post mail: Subsurface Data Protection Lead, c/o DH Consulting, 12725 SW "
+"Millikan Way, #300 Beaverton, OR 97005 USA."
+msgstr ""
+
+#: templates/privacy-policy.html:33
+#, python-format
+msgid ""
+"The EU regulatory authority Subsurface comes under is: <a "
+"%(link)s>https://datenschutz.hessen.de/</a>."
+msgstr ""
+
+#: templates/privacy-policy.html:36
+msgid ""
+"With the GDPR compliance out of the way, here is the summary that applies to"
+" everyone (since we don't actually track where you are from):"
+msgstr ""
+
+#: templates/privacy-policy.html:39
+msgid ""
+"It’s simple. We do not use your data. We do not care who your friends are. "
+"We do not intend to market to you or to do anything else that’s annoying. "
+"There is no monetization and no other use or processing of your data - we "
+"only store it with the purpose of making it available to you again on your "
+"devices."
+msgstr ""
+
+#: templates/supported-dive-computers.html:3
+#: templates/supported-dive-computers.html:13
+msgid "Supported Dive Computers"
+msgstr "Computer subacquei supportati"
+
+#: templates/supported-dive-computers.html:15
+msgid ""
+"Currently, these divecomputers are supported in Subsurface. Please note that"
+" Subsurface-mobile only supports a subset of these devices."
+msgstr ""
+
+#: templates/thanks.html:3 templates/thanks.html:13
+msgid "Thanks"
+msgstr "Ringraziamenti"
+
+#: templates/thanks.html:15
+#, python-format
+msgid ""
+"The Subsurface team would like to thank a few companies and individuals for "
+"their help through documentation, hardware donations, loaner devices, and <a"
+" %(link)s>sponsorship</a> of the project:"
+msgstr ""
+
+#: templates/tutorial-video.html:3 templates/tutorial-video.html:13
+msgid "Video Tutorial"
+msgstr "Video Tutorial"
+
+#: templates/tutorial-video.html:15
+msgid ""
+"This video is based on a slightly older version of Subsurface, but should "
+"still be very useful to get an idea of the functionality."
+msgstr ""
+"Questo video si riferisce ad una versione leggermente più vecchia di "
+"Subsurface ma dovrebbe essere ancora abbastanza utile a fornire un'idea "
+"delle funzionalità."
+
+#: templates/tutorial-video.html:29
+msgid ""
+"You can also download the video for offline viewing, using one of the "
+"following links:"
+msgstr ""
+
+#: templates/tutorial-video.html:37
+msgid "or any other of the links at"
+msgstr "o qualsiasi altro dei link a "
+
+#: templates/tutorial-video.html:41
+#, python-format
+msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
+msgstr "e guardalo con un qualsiasi player video (es.: <a %(vlc)s>VLC</a>)."
+
+#: templates/user-forum.html:15
+#, python-format
+msgid ""
+"Do you have questions, comments, or suggestions for Subsurface? Please join "
+"our <a %(link)s>User Forum</a>."
+msgstr ""
+
+#: templates/user-forum.html:18
+msgid ""
+"You can access it on the Subsurface Google Group website or you can "
+"subscribe to it via email; simply check the corresponding box when joining "
+"the forum."
+msgstr ""
