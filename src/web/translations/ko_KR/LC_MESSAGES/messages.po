@@ -588,7 +588,7 @@ msgstr ""
 
 #: templates/faq.html:77
 msgid "Please add the following awesome feature"
-msgstr "다음의 멋진 기능을 추가해주세요"
+msgstr "제가 제안하는 멋진 기능을 추가해주세요"
 
 #: templates/faq.html:83
 msgid ""
