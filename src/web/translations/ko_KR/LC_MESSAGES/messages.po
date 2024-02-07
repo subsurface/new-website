@@ -609,7 +609,7 @@ msgid ""
 "your desired new feature. Please take a look at our <a "
 "%(code_contribution)s>code contribution page on GitHub</a>."
 msgstr ""
-"물론 당신이 원하는 새로운 기능을 당신이 직접 구현하는 것은 적극적으로 환영, 권장됩니다. 우리 <a "
+"물론 여러분이 원하는 새로운 기능을 여러분 스스로 구현하는 것은 적극적으로 환영, 권장됩니다. <a "
 "%(code_contribution)s>GitHub의 코드 기여 페이지</a>를 살펴보세요."
 
 #: templates/faq.html:96
