@@ -1394,7 +1394,7 @@ msgid ""
 "If you would like to contribute and help, there are many ways to do so. "
 "Please take a look at our '<a %(contribute)s>Contribute</a>' page."
 msgstr ""
-"만약 당신이 기여 또는 도움을 주고자 한다면 그 방법은 많습니다. 우리의 '<a %(contribute)s>기여하기</a>' 페이지를 "
+"만약 여러분이 기여 또는 도움을 주고자 한다면 그 방법은 많습니다. '<a %(contribute)s>기여하기</a>' 페이지를 "
 "살펴보세요."
 
 #: templates/faq.html:690
@@ -1582,7 +1582,7 @@ msgstr ""
 
 #: templates/home.html:84
 msgid "Log all your dives"
-msgstr "당신의 모든 다이브를 기록하세요"
+msgstr "여러분의 모든 다이브를 기록하세요"
 
 #: templates/home.html:86
 msgid ""
@@ -1623,7 +1623,7 @@ msgid ""
 "different devices, online and offline. Fully integrated, free, and easy to "
 "set up."
 msgstr ""
-"로그북 데이터를 클라우드에 저장할 수도 있습니다. 온라인이든 오프라인이든 다양한 장치에서 당신의 데이터로 작업할 수 있습니다. 완전히 "
+"로그북 데이터를 클라우드에 저장할 수도 있습니다. 온라인이든 오프라인이든 다양한 장치에서 여러분의 데이터로 작업할 수 있습니다. 완전히 "
 "통합되어 있으며 무료이고 설정도 간단합니다."
 
 #: templates/home.html:133
