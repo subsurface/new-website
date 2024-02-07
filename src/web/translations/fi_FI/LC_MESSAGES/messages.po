@@ -619,7 +619,7 @@ msgid ""
 msgstr ""
 "Subsurfacen iOS-käyttöjärjestelmälle tarkoitettu mobiiliversio on tarjolla "
 "iOS AppStoressa. Subsurfacen Android-käyttöjärjestelmälle tarkoitettu "
-"erikseen asennettava eli sivuladattava APK on saatavissa meidän  "
+"erikseen asennettava eli sivuladattava APK on saatavissa "
 "<a%(crelease)s>Nykyinen versio</a>-sivultamme."
 
 #: templates/faq.html:59
