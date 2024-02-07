@@ -1514,7 +1514,7 @@ msgstr ""
 
 #: templates/faq.html:792
 msgid "Garmin Descent Mk2/Mk3 on Windows"
-msgstr "Windows에서의 가민 디센트 Mk2/Mk3"
+msgstr "Windows에서의 Garmin Descent Mk2/Mk3"
 
 #: templates/faq.html:799
 msgid ""
