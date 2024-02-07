@@ -432,9 +432,8 @@ msgid ""
 "email to the Subsurface team at <a %(link)s>in-app-support@subsurface-"
 "divelog</a>."
 msgstr ""
-"당신은 모바일 앱을 이용해 당신의 클라우드 데이터를 삭제할 수 있으며, 또는 당신은 다음 주소 <a %(link)s>in-app-"
-"support@subsurface-divelog</a>로 Subsurface 팀에 이메일을 보내어 당신의 데이터, 또는 당신의 데이터와 "
-"계정의 삭제를 요청할 수도 있습니다. "
+"클라우드의 데이터는 모바일 앱에서 삭제할 수 있고, 또는 간단히 Subsurface 팀으로 이메일을 보내 데이터, 또는 데이터와 계정의 "
+"삭제를 요청할 수도 있습니다. 이메일 주소: <a %(link)s>in-app-support@subsurface-divelog</a>"
 
 #: templates/documentation.html:15
 msgid ""
