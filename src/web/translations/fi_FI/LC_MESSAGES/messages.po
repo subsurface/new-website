@@ -1090,7 +1090,7 @@ msgid ""
 msgstr ""
 "Kaikilta muilta laitteilta (mukaan lukien tabletit ja puhelimet, joiden "
 "käyttöjärjestelmiä Subsurfacen mobiiliversio ei tue) voit avata "
-"<a%(cloudweb)s >pilvisivustomme</a> ja kirjautua sisään samalla "
+"<a%(cloudweb)s>pilvisivustomme</a> ja kirjautua sisään samalla "
 "sähköpostiosoitteella / salasanalla. Näin voit käyttää sukelluslokiasi mistä"
 " tahansa laitteesta, jossa on verkkoselain."
 
