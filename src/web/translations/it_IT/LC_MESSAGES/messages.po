@@ -2082,6 +2082,11 @@ msgid ""
 " The information is processed to provide the Subsurface application to "
 "registered users, the lawful purpose: contract obligation."
 msgstr ""
+"I dati personali si limitano all'indirizzo e-mail, all'identità online e a "
+"quella di sistema, che consentono di creare e mantenere un account utente "
+"registrato. Le informazioni vengono elaborate per fornire l'applicazione "
+"Subsurface agli utenti registrati, con lo scopo legittimo di adempiere agli "
+"obblighi contrattuali."
 
 #: templates/privacy-policy.html:21
 msgid ""
