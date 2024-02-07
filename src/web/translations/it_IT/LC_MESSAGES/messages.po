@@ -1967,6 +1967,8 @@ msgstr "Siamo passati a rilasci continui"
 msgid ""
 "Please check out <a %(link)s>the announcement of the Release Changes</a>"
 msgstr ""
+"Si prega di consultare <a %(link)s>l'annuncio delle modifiche alla "
+"release</a>"
 
 #: templates/home.html:171
 msgid "A bit of history:"
