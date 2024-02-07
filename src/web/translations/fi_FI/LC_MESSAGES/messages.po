@@ -2194,8 +2194,8 @@ msgstr "tai seuraavista linkeistä"
 #, python-format
 msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
 msgstr ""
-"ja katso sitä millä tahansa mediasoittimella (esimerkiksi "
-"<a%(vlc)s>VLC</a>)."
+"ja katso sitä millä tahansa mediasoittimella (esimerkiksi <a "
+"%(vlc)s>VLC</a>)."
 
 #: templates/user-forum.html:15
 #, python-format
