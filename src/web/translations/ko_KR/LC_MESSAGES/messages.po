@@ -195,8 +195,8 @@ msgid ""
 "%(link)s>User Forum</a> and provide helpful responses to the questions from "
 "new users."
 msgstr ""
-"우리는 Subsurface가 신규 사용자들에게 가능한 한 친근하고 따뜻하길 원합니다. 만약 당신이 Subsurface에 익숙한 "
-"사용자라면, 우리의 <a %(link)s>사용자 포럼</a>에 가입하여 신규 사용자들의 질문에 유용한 답변을 제공해주세요. "
+"우리는 Subsurface가 신규 사용자들에게 가능한 한 친근하고 따뜻하길 원합니다. 만약 Subsurface에 익숙한 사용자라면, <a"
+" %(link)s>사용자 포럼</a>에 가입하여 신규 사용자들의 질문에 유용한 답변을 제공해주세요. "
 
 #: templates/contribute.html:48
 msgid "By Supporting Us Financially"
