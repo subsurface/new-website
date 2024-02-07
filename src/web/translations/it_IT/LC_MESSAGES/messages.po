@@ -2182,6 +2182,9 @@ msgid ""
 "their help through documentation, hardware donations, loaner devices, and <a"
 " %(link)s>sponsorship</a> of the project:"
 msgstr ""
+"Il team di Subsurface desidera ringraziare alcune aziende e privati per "
+"l'aiuto fornito attraverso la documentazione, le donazioni di hardware, i "
+"dispositivi in prestito e la <a %(link)ssponsorizzazione</a> del progetto:"
 
 #: templates/tutorial-video.html:3 templates/tutorial-video.html:13
 msgid "Video Tutorial"
