@@ -2204,7 +2204,7 @@ msgid ""
 "our <a %(link)s>User Forum</a>."
 msgstr ""
 "Onko sinulla kysymyksiä, kommentteja tai ehdotuksia Subsurfaceen liittyen? "
-"Liity <a%(link)s>Keskustelu</a>-ryhmäämme."
+"Liity <a %(link)s>Keskustelu</a>-ryhmäämme."
 
 #: templates/user-forum.html:18
 msgid ""
