@@ -871,8 +871,8 @@ msgid ""
 "binary first. If that doesn't work, try the Snap or the AppImage."
 msgstr ""
 "Subsurface는 대부분의 Linux 배포판에서 실행 가능합니다. 이 프로젝트는 현재 Ubuntu 및 Fedora 릴리스에 대한 "
-"빌드를 적극적으로 유지 관리합니다. 데비안 패키지는 커뮤니티 기여자에 의해 관리됩니다. 다른 배포판을 위한 Subsurface Snap "
-"및 AppImage도 있습니다. 일반적으로는 특정 배포판을 위한 바이너리를 먼저 시도하고, 만약 작동하지 않으면 Snap 또는 "
+"빌드를 정식으로 유지 관리합니다. 데비안 패키지는 커뮤니티 기여자에 의해 관리됩니다. 다른 배포판을 위한 Subsurface Snap 및"
+" AppImage도 있습니다. 일반적으로는 특정 배포판을 위한 바이너리를 먼저 시도하고, 만약 작동하지 않으면 Snap 또는 "
 "AppImage를 시도해 보세요."
 
 #: templates/faq.html:324
