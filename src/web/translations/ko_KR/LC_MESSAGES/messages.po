@@ -543,9 +543,9 @@ msgid ""
 " Linux. Details on where to find Subsurface for your OS are on our <a "
 "%(crelease)s>current release</a> page."
 msgstr ""
-"우리는 일부 Linux 배포판(현재 Ubuntu와 Fedora, Debian은 커뮤니티 기여자에 의해 지원)을 위한 Linux 패키지를 "
-"제공합니다. 그 외에 다른 Linux 배포판에서는 Snap 패키지와 일반 AppImage를 사용할 수 있습니다. 해당 OS용 "
-"Subsurface의 위치에 대한 자세한 내용은 <a %(crelease)s>현재 릴리스</a> 페이지를 참조하세요."
+"우리는 일부 Linux 배포판(현재 Ubuntu와 Fedora 지원, Debian은 커뮤니티 기여자에 의해 지원)을 위한 Linux "
+"패키지를 제공합니다. 그 외에 다른 Linux 배포판에서는 Snap 패키지와 일반 AppImage를 사용할 수 있습니다. 해당 OS용 "
+"Subsurface의 다운로드 방법은 <a %(crelease)s>현재 릴리스</a> 페이지를 참조하세요."
 
 #: templates/faq.html:50
 #, python-format
