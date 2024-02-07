@@ -2093,6 +2093,9 @@ msgid ""
 "Personal information is held whilst a user is registered. User accounts can "
 "be deleted on request. See contact information below."
 msgstr ""
+"Le informazioni personali vengono conservate finché l'utente è registrato. "
+"Gli account utente possono essere cancellati su richiesta. Vedere le "
+"informazioni di contatto qui sotto."
 
 #: templates/privacy-policy.html:24
 msgid ""
