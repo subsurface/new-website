@@ -300,7 +300,7 @@ msgstr ""
 msgid ""
 "If you are looking for more \"bleeding edge\" releases builds, please check "
 "out the <a %(link)s>Latest Release Page</a>."
-msgstr "만약 당신이 더 \"최첨단\"의 릴리스 빌드를 찾고 있다면, <a %(link)s>최신 릴리스 페이지</a>를 확인하세요."
+msgstr "만약 더 \"최첨단\"의 릴리스 빌드를 찾고 있다면, <a %(link)s>최신 릴리스 페이지</a>를 확인하세요."
 
 #: templates/current-release.html:32 templates/current-release.html:46
 #: templates/current-release.html:60 templates/current-release.html:122
