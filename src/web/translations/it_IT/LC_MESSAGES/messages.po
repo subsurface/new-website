@@ -2054,6 +2054,13 @@ msgid ""
 "builds into our public TestFlight account. If you like to be on the bleeding"
 " edge, you can <a %(link)s>sign up for the Subsurface-mobile TestFlight.</a>"
 msgstr ""
+"iOS è l'unica piattaforma in cui non è possibile effettuare il side-loading "
+"o l'installazione di binari non firmati (a quanto pare questo potrebbe "
+"cambiare per gli utenti dell'Unione Europea, ma non altrove). Di "
+"conseguenza, non possiamo rendere disponibili qui le nuove versioni di "
+"Subsurface-mobile per iOS. Cerchiamo di inviare molte di queste build al "
+"nostro account pubblico TestFlight. Se volete essere sempre all'avanguardia,"
+" potete <a %(link)s>iscrivervi al TestFlight di Subsurface-mobile</a>."
 
 #: templates/latest-release.html:117
 msgid "The 'edge' Snap-channel contains our latest build."
