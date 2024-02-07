@@ -1781,8 +1781,8 @@ msgid ""
 "selecting to open it."
 msgstr ""
 "Subsurface의 macOS용 DMG는 서명되지 않았습니다. macOS는 이 프로그램을 설치하고 실행하기 전에 몇 가지 추가적인 "
-"단계를 거치도록 요구할 것입니다. 당신은 실행 파일을 Ctrl을 누른 채 클릭(또는 두 손가락으로 클릭)하고 열기를 선택함으로써 과정을 "
-"단순화할 수 있습니다."
+"단계를 거치도록 요구할 것입니다. 실행 파일을 Ctrl을 누른 채 클릭(또는 두 손가락으로 클릭)하고 열기를 선택함으로써 과정을 단순화할"
+" 수 있습니다."
 
 #: templates/latest-release.html:88
 #, python-format
