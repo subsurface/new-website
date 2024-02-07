@@ -859,7 +859,7 @@ msgid ""
 "Subsurface on Windows still supports IRDA based dive computers for now."
 msgstr ""
 "Mac용 Subsurface는 IRDA 기반 다이브 컴퓨터를 지원하지 않습니다. 이는 우리가 사용할 수 있는 지원 라이브러리가 없어 "
-"발생하는 문제입니다 - 다른 다이브 로그 소프트웨어의 경우 Mac에서 작동하는 자체적인 IRDA 스택을 구현했을 수 있지만, 우리는 "
+"발생하는 문제입니다 - 다른 다이브 로그 소프트웨어에서 Mac에서 작동하는 자체적인 IRDA 스택을 구현한 경우도 있지만, 우리는 "
 "아닙니다. Windows용 Subsurface는 현재 IRDA 기반 다이브 컴퓨터를 지원합니다."
 
 #: templates/faq.html:314
