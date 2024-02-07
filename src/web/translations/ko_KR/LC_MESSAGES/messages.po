@@ -1817,8 +1817,8 @@ msgid ""
 " The information is processed to provide the Subsurface application to "
 "registered users, the lawful purpose: contract obligation."
 msgstr ""
-"개인정보는 사용자 계정을 생성하고 유지하기 위한 당신의 이메일 주소, 온라인 및 시스템 신원으로 제한됩니다. 개인정보의 처리는 등록된 "
-"사용자에게 Subsurface 어플리케이션을 제공하기 위해 합법적인 목적 - 계약상 의무 이행 - 으로 이루어집니다."
+"개인정보는 사용자 계정을 생성하고 유지하기 위한 정보, 즉 당신의 이메일 주소, 온라인 및 시스템 신원으로 한정됩니다. 개인정보의 처리는"
+" 등록된 사용자에게 Subsurface 어플리케이션을 제공하기 위해 합법적인 목적 - 계약상 의무 이행 - 으로 이루어집니다."
 
 #: templates/privacy-policy.html:21
 msgid ""
