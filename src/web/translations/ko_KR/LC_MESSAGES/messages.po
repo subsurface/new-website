@@ -1834,8 +1834,8 @@ msgid ""
 "of security measures. Personal information is not shared with any other "
 "entity."
 msgstr ""
-"Subsurface는 미국과 EU (독일)에 있는 미러 서버에서 실행됩니다. 개인정보는 보안 조치의 설계 및 적용에 따라 보호됩니다. "
-"개인정보는 다른 어떤 주체와도 공유되지 않습니다."
+"Subsurface는 미국과 EU (독일)에 있는 미러링 서버에서 실행됩니다. 개인정보는 설계, 그리고 보안 조치의 적용에 따라 "
+"보호됩니다. 개인정보는 다른 어떤 주체와도 공유되지 않습니다."
 
 #: templates/privacy-policy.html:27
 #, python-format
