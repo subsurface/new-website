@@ -1161,7 +1161,7 @@ msgstr ""
 
 #: templates/faq.html:545
 msgid "How can I use Subsurface for multiple users?"
-msgstr "여러 사용자들이 Subsurface를 사용하는 방법은 무엇입니까?"
+msgstr "여러 사용자들이 Subsurface를 사용하려면 어떻게 하나요?"
 
 #: templates/faq.html:552
 msgid ""
