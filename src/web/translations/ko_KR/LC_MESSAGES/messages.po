@@ -1465,7 +1465,7 @@ msgstr ""
 
 #: templates/faq.html:743
 msgid "Does Subsurface-mobile support the Garmin Descent family?"
-msgstr "Subsurface-mobile은 가민 디센트 제품군을 지원하나요?"
+msgstr "Subsurface-mobile은 Garmin Descent 제품군을 지원하나요?"
 
 #: templates/faq.html:750
 msgid ""
