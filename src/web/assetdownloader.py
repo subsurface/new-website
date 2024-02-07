@@ -3,6 +3,7 @@ import os
 import re
 import requests
 import sys
+from dotenv import load_dotenv
 from github import Auth, Github
 from threading import Timer
 
@@ -110,20 +111,18 @@ def updateReleaseWebsite(release_id):
             if release_id in release_ids:
                 release_ids.remove(release_id)
                 env["release_ids"].value = release_ids
-                env["lrelease_date"].value = datetime.datetime.today().strftime(
-                    "%Y-%m-%d"
-                )
-                env["lrelease"].value = version
-                # finally assemble the last 5 PR titles
-                current = version.split(".")
-                pr_titles = ""
-                if len(current) == 3:
-                    buildnr = int(current[2])
-                    for bn in range(buildnr, buildnr - 5, -1):
-                        pr_title = get_pr_title(bn)
-                        if pr_title:
-                            pr_titles += "<li>" + pr_title + "</li>"
-                env["pr_summary"].value = pr_titles
+            env["lrelease_date"].value = datetime.datetime.today().strftime("%Y-%m-%d")
+            env["lrelease"].value = version
+            # finally assemble the last 5 PR titles
+            current = version.split(".")
+            pr_titles = ""
+            if len(current) == 3:
+                buildnr = int(current[2])
+                for bn in range(buildnr, buildnr - 5, -1):
+                    pr_title = get_pr_title(bn)
+                    if pr_title:
+                        pr_titles += "<li>" + pr_title + "</li>"
+            env["pr_summary"].value = pr_titles
         else:
             print(f"Still missing {missing[:-1]} - scheduling myself to check again")
             a = AssetDownloader(release_id, 150)
@@ -134,6 +133,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("call with the release id as argument")
         sys.exit()
+    load_dotenv()
     release_id = int(sys.argv[1])
     print(f"updating website for release with release_id {release_id}")
     updateReleaseWebsite(release_id=release_id)
