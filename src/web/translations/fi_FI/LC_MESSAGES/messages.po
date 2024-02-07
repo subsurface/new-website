@@ -526,7 +526,7 @@ msgstr ""
 #: templates/documentation.html:34
 #, python-format
 msgid "<a %(credits)s>Credits</a>"
-msgstr "<a%(credits)s>Ohjelmistolistaus</a>"
+msgstr "<a %(credits)s>Ohjelmistolistaus</a>"
 
 #: templates/documentation.html:37
 #, python-format
