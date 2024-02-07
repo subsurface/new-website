@@ -2118,7 +2118,7 @@ msgstr ""
 #: templates/supported-dive-computers.html:3
 #: templates/supported-dive-computers.html:13
 msgid "Supported Dive Computers"
-msgstr ""
+msgstr "Tuetut sukellustietokoneet"
 
 #: templates/supported-dive-computers.html:15
 msgid ""
