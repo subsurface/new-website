@@ -499,12 +499,12 @@ msgstr "<a %(video)s>(prilično star) video vodič</a>"
 #: templates/documentation.html:25
 #, python-format
 msgid "<a %(manual)s>Subsurface User Manual</a>"
-msgstr "<a%(manual)s>Subsurface korisnički priručnik</a>"
+msgstr "<a %(manual)s>Subsurface korisnički priručnik</a>"
 
 #: templates/documentation.html:28
 #, python-format
 msgid "<a %(mobilemanual)s>Subsurface-mobile User Manual</a>"
-msgstr "<a%(mobilemanual)s>Subsurface-mobile korisnički priručnik</a>"
+msgstr "<a %(mobilemanual)s>Subsurface-mobile korisnički priručnik</a>"
 
 #: templates/documentation.html:31
 #, python-format
