@@ -2222,6 +2222,8 @@ msgid ""
 "Do you have questions, comments, or suggestions for Subsurface? Please join "
 "our <a %(link)s>User Forum</a>."
 msgstr ""
+"Avete domande, commenti o suggerimenti per Subsurface? Unitevi al nostro <a "
+"%(link)s>Forum utenti</a>."
 
 #: templates/user-forum.html:18
 msgid ""
