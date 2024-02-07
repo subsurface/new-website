@@ -35,7 +35,7 @@ while [[ $# > 0 ]] ; do
         fi
         ;;
     compile)
-        pybabel compile -d translations
+        pybabel compile -d translations --use-fuzzy --statistics
         ;;
     extract)
         pybabel extract -F babel.config -o messages.pot .
