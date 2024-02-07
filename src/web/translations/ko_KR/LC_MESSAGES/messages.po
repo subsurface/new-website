@@ -1010,8 +1010,8 @@ msgid ""
 "are the exception to this rule, they aren't supported on iOS at all. No "
 "cable based downloads are possible."
 msgstr ""
-"BLE를 통한 다운로드를 지원하는(Subsurface에서도 지원하는) 다이브 컴퓨터만 iOS 장치에서 작동합니다. Garmin 다이브 "
-"컴퓨터는 이 규칙의 예외로서, iOS에서는 전혀 지원되지 않습니다. 케이블 기반 다운로드는 불가능합니다."
+"(Subsurface가 지원하는 다이브 컴퓨터 중에서) BLE를 통한 다운로드를 지원하는 다이브 컴퓨터만 iOS 장치에서 작동합니다. "
+"Garmin 다이브 컴퓨터는 이 규칙의 예외로서, iOS에서 전혀 지원되지 않습니다. 케이블 기반 다운로드는 불가능합니다."
 
 #: templates/faq.html:437
 msgid "Usage"
