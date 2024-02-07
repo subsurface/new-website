@@ -494,7 +494,7 @@ msgstr ""
 #: templates/documentation.html:17
 #, python-format
 msgid "<a %(faq)s>FAQ</a>"
-msgstr "<a%(faq)s>Usein kysytyt kysymykset - FAQ</a>"
+msgstr "<a %(faq)s>Usein kysytyt kysymykset - FAQ</a>"
 
 #: templates/documentation.html:19
 #, python-format
