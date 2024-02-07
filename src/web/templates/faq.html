@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}FAQ{% endblock %}
+{% block title %}{{_("FAQ")}}{% endblock %}
 {% block head %}
 {{ super() }}
 
@@ -10,7 +10,7 @@
 <div class="container">
   <div class="row g-5">
     <div class="col-12">
-      <h1 class="ssrf">FAQ</h1>
+      <h1 class="ssrf">{{_("FAQ")}}</h1>
       <p class="lead">
         {{ _("This page attempts to provide answers to some of the most common questions we keep receiving.") }}
       </p>
