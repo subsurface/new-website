@@ -1978,7 +1978,7 @@ msgid ""
 "please consider the <a %(link)s>Current Release Page</a>."
 msgstr ""
 "Ako ste u potrazi za nešto manje \"bleeding edge\" verzija, molimo vas da "
-"razmislite o <a %(link)s>stranici trenutne verzije</a>."
+"razmislite o stranici <a %(link)s>trenutne verzije</a>."
 
 #: templates/latest-release.html:55
 msgid ""
