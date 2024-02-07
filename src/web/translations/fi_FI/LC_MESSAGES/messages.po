@@ -1760,7 +1760,7 @@ msgid ""
 "an answer there, create a new topic and ask for help."
 msgstr ""
 "Jos kysymykseesi ei ole vastattu täällä, tarkista "
-"<a%(userforum)s>Keskusteluryhmästä</a> ja kokeile hakutoimintoa. Jos et "
+"<a%(userforum)s>Keskustelu</a>-ryhmästä ja kokeile hakutoimintoa. Jos et "
 "löydä vastausta sieltä, luo uusi kysymysja pyydä apua."
 
 #: templates/faq.html:813
