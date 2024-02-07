@@ -744,7 +744,7 @@ msgstr ""
 msgid ""
 "In either case, please inform your AV software vendor of a “false positive” "
 "as we assure your that Subsurface is not malware."
-msgstr "어느 경우든, 저희는 Subsurface가 맬웨어가 아님을 보장하므로 당신의 AV 소프트웨어에 \"오탐\" 사실을 알리십시오. "
+msgstr "어느 경우든, 저희는 Subsurface가 맬웨어가 아님을 보장하므로 AV 소프트웨어 공급업체에 \"오탐\" 사실을 알리십시오."
 
 #: templates/faq.html:203
 msgid "Subsurface suddenly stops accessing the cloud"
