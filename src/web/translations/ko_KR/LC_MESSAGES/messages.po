@@ -1473,8 +1473,8 @@ msgid ""
 "and only for cable based download. Based on a specific request from Garmin, "
 "we will not be able to support BLE downloads on any platform."
 msgstr ""
-"디센트 다이브 컴퓨터는 Windows, macOS, Linux에서만 지원되며 케이블 기반 다운로드만 지원됩니다. 가민의 요청에 따라 "
-"어떠한 플랫폼에서도 BLE 다운로드를 지원할 수 없습니다."
+"Garmin Descent 다이브 컴퓨터는 Windows, macOS, Linux에서만 지원되며 케이블 기반 다운로드만 지원됩니다. "
+"Garmin의 요청에 따라 어떠한 플랫폼에서도 BLE 다운로드를 지원할 수 없습니다."
 
 #: templates/faq.html:759
 msgid "Can I import '.FIT' files directly?"
