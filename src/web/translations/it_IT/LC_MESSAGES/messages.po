@@ -2104,6 +2104,10 @@ msgid ""
 "of security measures. Personal information is not shared with any other "
 "entity."
 msgstr ""
+"Subsurface è gestito su server in mirroring, alcuni negli Stati Uniti e "
+"altri nell'Unione Europea (Germania). I dati personali sono protetti dalla "
+"progettazione e dall'applicazione di misure di sicurezza. Le informazioni "
+"personali non vengono condivise con nessun'altra entità."
 
 #: templates/privacy-policy.html:27
 #, python-format
