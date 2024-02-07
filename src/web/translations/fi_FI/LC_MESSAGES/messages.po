@@ -531,7 +531,7 @@ msgstr "<a %(credits)s>Ohjelmistolistaus</a>"
 #: templates/documentation.html:37
 #, python-format
 msgid "<a %(thanks)s>Thanks</a>"
-msgstr "<a%(thanks)s>Kiitokset</a>"
+msgstr "<a %(thanks)s>Kiitokset</a>"
 
 #: templates/faq.html:15
 msgid ""
