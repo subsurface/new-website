@@ -138,7 +138,7 @@ msgstr ""
 "testaamaan uusia toiminnallisuuksia ja virhekorjauksia, tutustu sivullamme "
 "<a%(link)s>ohjelmakoodin yhteisölliseen kehitykseen</a> ja siihen "
 "osallistumiseen. Tarvitsemme erityisesti henkilöitä Windows- ja Mac-"
-"ympäristöihin (koska suurin osa aktiivisista kehittäjistä toimii Linuxilla)."
+"ympäristöihin (koska suurin osa aktiivisista kehittäjistä suosii Linuxia)."
 
 #: templates/contribute.html:27
 msgid "By Writing Documentation"
@@ -424,8 +424,8 @@ msgid ""
 "To use these binaries in Ubuntu, simply add the Subsurface Daily Release PPA"
 " to your system:"
 msgstr ""
-"Käyttääksesi näitä binäärejä Ubuntussa, lisää Subsurfacen Päivittäisen "
-"version PPA järjestelmääsi:"
+"Käyttääksesi näitä binäärejä Ubuntussa, lisää Subsurfacen Päivittäin "
+"julkaistun version PPA järjestelmääsi:"
 
 #: templates/current-release.html:96 templates/latest-release.html:99
 msgid ""
@@ -478,19 +478,18 @@ msgid ""
 "email to the Subsurface team at <a %(link)s>in-app-support@subsurface-"
 "divelog</a>."
 msgstr ""
-"Subsurfacen pilvipalvelussa oleva tieto voidaan poistaa "
-"mobiilisovelluksesta. Voit myös pyytää pilvessä olevan tiedon tai pilvessä "
-"olevan tiedon ja käyttäjätilin poistamista lähettämällä sähköpostin "
-"Subsurface-tiimille osoitteeseen <a%(link)s>in-app-support@subsurface-"
-"divelog</a>."
+"Subsurfacen pilvipalvelussa oleva tieto voidaan poistaa mobiilisovelluksen "
+"avulla. Voit myös pyytää pilvessä olevan tiedon tai pilvessä olevan tiedon "
+"ja käyttäjätilin poistamista lähettämällä sähköpostin Subsurface-tiimille "
+"osoitteeseen <a%(link)s>in-app-support@subsurface-divelog</a>."
 
 #: templates/documentation.html:15
 msgid ""
 "This page provides an overview of most of the user-facing documentation for "
 "Subsurface"
 msgstr ""
-"Tällä sivulle on yleiskatsaus suurimpaan osaan Subsurfacen käyttäjälle "
-"tarpeeelliseen dokumentaatioon."
+"Tällä sivulle on yleiskatsaus Subsurfacen käyttäjälle tarpeeelliseen "
+"dokumentaatioon."
 
 #: templates/documentation.html:17
 #, python-format
@@ -500,12 +499,12 @@ msgstr "<a%(faq)s>Usein kysytyt kysymykset - FAQ</a>"
 #: templates/documentation.html:19
 #, python-format
 msgid "<a %(supporteddc)s>Supported Dive Computers</a>"
-msgstr "<a%(supporteddc)sTuetut sukellustietokoneet</a>"
+msgstr "<a%(supporteddc)s>Tuetut sukellustietokoneet</a>"
 
 #: templates/documentation.html:22
 #, python-format
 msgid "<a %(video)s>(fairly old) Video Tutorial</a>"
-msgstr "<a%(video)s>(vanhahko) opastusvideo</a>"
+msgstr "<a%(video)s>(vanhahko) video-ohje</a>"
 
 #: templates/documentation.html:25
 #, python-format
@@ -527,7 +526,7 @@ msgstr ""
 #: templates/documentation.html:34
 #, python-format
 msgid "<a %(credits)s>Credits</a>"
-msgstr "<a%(credits)sOhjelmistolistaus</a>"
+msgstr "<a%(credits)s>Ohjelmistolistaus</a>"
 
 #: templates/documentation.html:37
 #, python-format
@@ -565,16 +564,16 @@ msgstr ""
 "Subsurface tarjoaa virkistyssukeltajille, tekniikkasukeltajille ja "
 "sukellusammattilaisille helppokäyttöisen käyttöliittymän sukellusten "
 "suunnitteluun, kirjaamiseen sekä järjestelyyn. Sukellukset voidaan syöttää "
-"manuaalisesti, taulukkomuodossa, suoraan jostain muusta sukellulokikirja-"
-"ohjelmistosta ja mikä tärkeintä, monista sukellustietokoneista. Entä jos "
-"vaihdat sukellustietokonetta? Tämä ei ole ongelma Subsurfacelle, koska se ei"
-" ole sidottu tiettyyn sukellustietokoneen valmistajaan tai merkkiin. "
-"Tekniikkasukeltajat arvostavat sukelluksen suunnittelua käyttäen joko VPM-B-"
-" tai Bühlmann ZH-L16-algoritmiä. Bailout-kaasujen testaaminen, eri "
-"kaasuseosten ja gradienttikertoimien vertailu ja lopulta suunnitelman "
-"tulostaminen on helppoa. Subsurface on ilmainen ja saatavilla useilla "
-"alustoilla, mikä tekee siitä täydellisen ohjelmiston erityyppisiin "
-"sukelluksiin."
+"manuaalisesti, taulukkolaskentatiedostosta, suoraan jostain muusta "
+"sukellulokikirja-ohjelmistosta ja mikä tärkeintä, monista "
+"sukellustietokoneista. Entä jos vaihdat sukellustietokonetta? Tämä ei ole "
+"ongelma Subsurfacelle, koska se ei ole sidottu tiettyyn sukellustietokoneen "
+"valmistajaan tai merkkiin. Tekniikkasukeltajat arvostavat sukelluksen "
+"suunnittelua käyttäen joko VPM-B- tai Bühlmann ZH-L16-algoritmiä. Bailout-"
+"kaasujen testaaminen, eri kaasuseosten ja gradienttikertoimien vertailu ja "
+"lopulta suunnitelman tulostaminen on helppoa. Subsurface on ilmainen ja "
+"saatavilla useilla alustoilla, mikä tekee siitä täydellisen ohjelmiston "
+"erityyppisiin sukelluksiin."
 
 #: templates/faq.html:37
 msgid "What operating systems does Subsurface support?"
@@ -593,7 +592,7 @@ msgstr ""
 "mobiiliversiot ovat saatavilla Android- ja iOS-käyttöjärjestelmille ja ne "
 "tarjoavat kannettavan alustan sukelluslokitietojen  tarkasteluun ja pienten "
 "muokkausten tekemiseen; käyttöjärjestelmäsi/laitteistosi yhdistelmästä "
-"riippuen voit jopa ladata sukellustietoja suoraan sukellustietokoneeltasi "
+"riippuen voit myös ladata sukellustietoja suoraan sukellustietokoneeltasi "
 "Subsurfacen mobiiliversion avulla."
 
 #: templates/faq.html:47
@@ -638,13 +637,13 @@ msgid ""
 "program, there are plenty others to choose from."
 msgstr ""
 "Subsurface on avoimen lähdekoodin ohjelmisto. Sen käyttö on ilmaista. Sen on"
-" kirjoittanut joukko harrastajia, jotka tekevät sitä vapaa-ajallaan - ja "
-"tarjoavat myös Subsurface Cloud -pilvitallennustilan ja kaiken muun "
-"tarvittavan infrastruktuurin. Ymmärräthän, että tämä tarkoittaa myös sitä, "
-"että he vastaavat pyyntöihisi silloin, kun heillä on aikaa eivätkä yleensä "
-"pidä siitä, että heitä kohdellaan kuin kaupallisen toimijan tukitiimiä. Jos "
-"haluat kaupallisen sukelluslokikirja-ohjelmiston, on paljon muitakin, joista"
-" valita."
+" kirjoittanut joukko harrastajia, jotka kehittävät ja ylläpitävät sitä "
+"vapaa-ajallaan - ja tarjoavat myös Subsurface Cloud -pilvitallennustilan ja "
+"kaiken muun tarvittavan infrastruktuurin. Ymmärräthän, että tämä tarkoittaa "
+"myös sitä, että he vastaavat pyyntöihisi silloin, kun heillä on aikaa, "
+"eivätkä yleensä pidä siitä, että heitä kohdellaan kuin kaupallisen toimijan "
+"tukitiimiä. Jos haluat kaupallisen sukelluslokikirja-ohjelmiston, tarjolla "
+"on paljon muitakin, joista valita."
 
 #: templates/faq.html:68
 #, python-format
@@ -675,9 +674,9 @@ msgstr ""
 "ylläpitävät vapaaehtoiset. Sillä on myös useita kymmeniä tuhansia käyttäjiä."
 " Nykyinen ominaisuusvalikoima pyrkii löytämään kohtuullisen tasapainon "
 "helposti ymmärrettävän käyttäjäkokemuksen ja yleisimmin toivottujen "
-"ominaisuuksien välillä. Uuden ominaisuuden lisäyspyyntö hylätään usein, jos "
-"yksikään nykyisistä kehittäjistä ei usko, että niillä olisi merkittävää "
-"vaikutusta käyttäjien enemmistölle."
+"ominaisuuksien välillä. Uuden toiminnallisuuden lisäyspyyntö hylätään usein,"
+" jos yksikään nykyisistä kehittäjistä ei usko, että niillä olisi merkittävää"
+" vaikutusta käyttäjien enemmistölle."
 
 #: templates/faq.html:86
 #, python-format
@@ -856,10 +855,10 @@ msgid ""
 "and prevents things from working. You may have to add an exception for "
 "Subsurface to your hyper-aggressive anti-malware tool."
 msgstr ""
-"Tähän voi olla monia syitä, mutta yksi todella outo syy on se, että jotkut "
-"Windows-käyttöjärjestelmän haittaohjelmien torjuntatuotteet päättävät "
-"sattumanvaraisesti, että Subsurface- ja pilvipalvelimen välinen liikenne on "
-"merkki haittaohjelmatoiminnasta, ja keskeyttävät tiedonsiirron. Tämä voi "
+"Tähän voi olla monia syitä, mutta yksi todella erikoinen syy on se, että "
+"jotkut Windows-käyttöjärjestelmän haittaohjelmien torjuntatuotteet päättävät"
+" sattumanvaraisesti, että Subsurface- ja pilvipalvelimen välinen liikenne on"
+" merkki haittaohjelmatoiminnasta, ja keskeyttävät tiedonsiirron. Tämä voi "
 "johtaa pilvitallennuksen korruptoitumiseen ja estää asioita toimimasta. "
 "Sinun on ehkä lisättävä Subsurfacea koskeva poikkeus vahvasti reagoivaan "
 "haittaohjelmien torjuntatyökaluusi."
@@ -954,9 +953,9 @@ msgid ""
 msgstr ""
 "Tämä on ollut ongelma jo jonkin aikaa; yhdistäminen näyttää toimivan hyvin "
 "monille/useimmille käyttäjille, mutta jotkut eivät saa Macin Subsurfacea "
-"puhumaan BLE-sukellustietokoneiden kanssa. Heille ainoa vaihtoehto on tällä "
-"hetkellä ladata sukelluksen tiedot Subsurface mobiililaitteella  ja "
-"synkronoida tiedot Subsurfacen pilvipalvelun avulla."
+"toimimaan yhdessä BLE-sukellustietokoneiden kanssa. Heille ainoa vaihtoehto "
+"on tällä hetkellä ladata sukelluksen tiedot Subsurface mobiililaitteella  ja"
+" synkronoida tiedot Subsurfacen pilvipalvelun avulla."
 
 #: templates/faq.html:291
 msgid "Why is my IRDA (infrared) based dive computer not working on a Mac?"
@@ -1097,7 +1096,7 @@ msgstr ""
 
 #: templates/faq.html:388
 msgid "What's the minimum Android version required?"
-msgstr "Mikä on vanhin Androidin versio, joka vaaditaan?"
+msgstr "Mikä on vanhin Androidin versio, jolla Subsurface toimii?"
 
 #: templates/faq.html:395
 msgid ""
@@ -1219,7 +1218,7 @@ msgstr ""
 
 #: templates/faq.html:489
 msgid "How can I use more than one tank with the same gas?"
-msgstr "Miten voin käyttää useampaa kuin yhtä tankkia samalla kaasulla?"
+msgstr "Miten voin käyttää useampaa kuin yhtä pulloa samalla kaasulla?"
 
 #: templates/faq.html:496
 msgid ""
@@ -1361,11 +1360,11 @@ msgstr ""
 "Edellä mainittujen vaihtoehtojen lisäksi voidaan usean käyttäjän Subsurface-"
 "tuki toteuttaa myös yhden tietokoneen käyttäjätilin sisällä. Subsurface "
 "pystyy tukemaan käyttäjäprofiileja, yksinkertaisesti käynnistämällä "
-"Subsurface --user-lippulauseella, esim. subsurface --user=joebloggs. Tästä "
-"käyttäjäkohtaisesta työtilasta voit sitten avata joko paikallisesti "
-"tallennettuja tai pilvipalveluun tallennettuja sukelluslokeja. Voit luoda "
-"jokaiselle käyttäjälle oman työpöydän pikakuvakkeen, jotta käyttö olisi "
-"helpompaa."
+"Subsurface <code>--user</code>-määritteellä, esim. <code>subsurface "
+"--user=joebloggs</code>. Tästä käyttäjäkohtaisesta työtilasta voit sitten "
+"avata joko paikallisesti tallennettuja tai pilvipalveluun tallennettuja "
+"sukelluslokeja. Voit luoda jokaiselle käyttäjälle oman työpöydän "
+"pikakuvakkeen, jotta käyttö olisi helpompaa."
 
 #: templates/faq.html:568
 msgid "How can I load pictures and associate them with my dive?"
@@ -1405,12 +1404,12 @@ msgid ""
 "modern photo editing software does that correctly by default."
 msgstr ""
 "Jos kuvien lataamisessa on ongelmia, tarkista, että kuvan Exif-otsikoissa on"
-" vähintään yksi seuraavista tunnisteista: DateTimeOriginal tai DateTime. "
-"Näiden kenttien ajan perusteella päättelemme, onko kuva otettu sukelluksen "
-"aikana vai ei. Jos kuvaa on muokattu, varmista, että alkuperäiset Exif-"
-"tiedot on tallennettu uuteen/muokattuun kuvaan, jotta se voidaan ladata "
-"oikein. Useimmat nykyaikaiset kuvankäsittelyohjelmat tekevät tämän "
-"oletusarvoisesti oikein."
+" vähintään yksi seuraavista tunnisteista: <code>DateTimeOriginal</code> tai "
+"<code>DateTime</code>. Näiden kenttien ajan perusteella päättelemme, onko "
+"kuva otettu sukelluksen aikana vai ei. Jos kuvaa on muokattu, varmista, että"
+" alkuperäiset Exif-tiedot on tallennettu uuteen/muokattuun kuvaan, jotta se "
+"voidaan ladata oikein. Useimmat nykyaikaiset kuvankäsittelyohjelmat tekevät "
+"tämän oletusarvoisesti oikein."
 
 #: templates/faq.html:588
 msgid "Can I import my dives from my old log software?"
@@ -1424,9 +1423,9 @@ msgid ""
 "                changes during the dive). Please post this information to the user forum or send it to the developer mailing list subsurface@subsurface-divelog.org. Unfortunately some of the log formats we have not been able to decipher (as some\n"
 "                vendors have decided to encrypt their log files to increase the degree of lock-in of their customers), so there are no guarantees that this will bring support for your old log software, but it is worth a try."
 msgstr ""
-"Monia yleisiä ohjelmia tuetaan jo ja yritämme aina mielellämme lisätä uusia. Jos vanha sukelluslokikirja-ohjelmistostosi tukee lokikirjan vientiä, voimme ehkä tuoda sen (esimerkiksi CSV-tiedostojen tai UDDF:n kautta). Yleensä tuki natiivimuodossa tapahtuvalle tuonnille kuitenkin auttaa sinua saamaan täydellisemmät tiedot Subsurfaceen. Jotta voimme toteuttaa tuen uudelle lokimuodolle, tarvitsemme koosteen lokitiedostosta. Olisi hienoa saada myös kuvakaappaus \n"
+"Monia yleisiä ohjelmia tuetaan jo ja yritämme aina mielellämme lisätä uusia. Jos vanha sukelluslokikirja-ohjelmistostosi tukee lokikirjan vientiä, voimme ehkä tuoda sen (esimerkiksi CSV-tiedostojen tai UDDF:n kautta). Yleensä tuki natiivimuodossa tapahtuvalle tuonnille kuitenkin auttaa sinua saamaan täydellisemmät tiedot Subsurfaceen. Jotta voimme toteuttaa tuen uudelle lokimuodolle, tarvitsemme koosteen lokitiedostosta. Olisi hyvä saada myös kuvakaappaus \n"
 "alkuperäisestä sukelluslokikirja-ohjelmistosta tai kuvaus sukelluksesta, joka näkyy lokitiedostokoosteessa. Mieluiten haluaisimme yhden kohtuullisen yksinkertaisen sukelluksen perusasioiden kuntoonsaattamiseksi ja toisen sukelluksen, jossa on mahdollisimman monta ominaisuutta käytössä (esim. kaasu\n"
-"muutokset sukelluksen aikana). Lähetä nämä tiedot Kesksutelupalstalle tai kehittäjien postituslistalle subsurface@subsurface-divelog.org. Valitettavasti joitakin lokimuotoja emme ole pystyneet tulkitsemaan (koska jotkut\n"
+"muutokset sukelluksen aikana). Lähetä nämä tiedot Keskusteluryhmään tai kehittäjien postituslistalle subsurface@subsurface-divelog.org. Valitettavasti joitakin lokimuotoja emme ole pystyneet tulkitsemaan (koska jotkut\n"
 "toimittajat ovat päättäneet salata lokitiedostojaan lisätäkseen asiakkaidensa sitoutumista), joten ei ole mitään takeita siitä, että tämä tuo siirtotuen vanhalle sukelluslokikirja-ohjelmistollesi, mutta kannattaa joka tapauksessa yrittää."
 
 #: templates/faq.html:608
@@ -1434,9 +1433,9 @@ msgid ""
 "I cannot download all my dives, only the most recent ones even though my "
 "dive computer's manual states that it records history of e.g. 999 dives."
 msgstr ""
-"Ensaa ladattua kaikkia sukelluksiani, vain viimeisimmät, vaikka "
-"sukellustietokoneeni käyttöohjeessa sanotaan, että se tallentaa esimerkiksi "
-"999 sukelluksen historian."
+"Saan ladattua vain viimeisimmät sukellukseni, vaikka sukellustietokoneeni "
+"käyttöohjeessa sanotaan, että se tallentaa esimerkiksi 999 sukelluksen "
+"historian."
 
 #: templates/faq.html:615
 msgid ""
@@ -1449,13 +1448,14 @@ msgid ""
 "overwritten with new dives. Thus we are only able to download the last 13, "
 "30 or 199 dives."
 msgstr ""
-"Sukellushistoria on eri asia kuin lokin sukellusprofiilit. Historiassa "
-"seurataan vain sukellusten kokonaismäärää ja pinnan alla vietetyn ajan "
-"kokonaismäärää. Lokit taas tallentavat sukellusprofiilin, mutta niiden "
-"muistin määrä on rajallinen. Laitteeseen tallennettavien sukellusprofiilien "
-"tarkka määrä riippuu näytteenottovälistä ja sukellusten kestosta. Kun muisti"
-" on täynnä, vanhimmat sukellukset korvataan uusilla sukelluksilla. Näin "
-"ollen voimme ladata vain viimeiset 13, 30 tai 199 sukellusta."
+"Sukellushistoria on eri asia kuin sukelluslokin sukellusprofiilit. "
+"Historiassa seurataan vain sukellusten kokonaismäärää ja pinnan alla "
+"vietetyn ajan kokonaismäärää. Lokit taas tallentavat sukellusprofiilin, "
+"mutta niiden muistin määrä on rajallinen. Laitteeseen tallennettavien "
+"sukellusprofiilien tarkka määrä riippuu näytteenottovälistä ja sukellusten "
+"kestosta. Kun muisti on täynnä, vanhimmat sukellukset korvataan uusilla "
+"sukelluksilla. Näin ollen voimme ladata vain viimeiset 13, 30 tai 199 "
+"sukellusta."
 
 #: templates/faq.html:618
 msgid ""
@@ -1482,7 +1482,7 @@ msgid ""
 "still not working or there is something else wrong, contact Dirk to sort it "
 "out."
 msgstr ""
-"Jos olet määrittänyt oikeat käyttäjättunnuksen ja salasanan Subsurfaceen ja "
+"Jos olet määrittänyt oikeat käyttäjätunnuksen ja salasanan Subsurfaceen ja "
 "kirjautuminen pilvipalveluun ei vieläkään onnistu, yritä vaihtaa salasana "
 "verkkosivumme <a %(pwdreset)s>salasanan palautus</a> kautta. Jos tunnuksesi "
 "eivät vieläkään toimi tai jokin muu asia on vialla, ota yhteyttä Dirkiin "
@@ -1516,13 +1516,13 @@ msgid ""
 "In the end this is not a useful trade-off for us to make, so other cloud "
 "solutions continue to not be supported."
 msgstr ""
-"Tämä on ainoa saatavilla oleva pilvipalvelu, joka samalla mahdollistaa "
-"koodaajien kehittää Subsurfacea, korjata ongelmia ja tukea käyttäjiä "
-"(luvallasi), jos pilvitallennuksessa menee jotain vikaan. Lisätyöt muiden "
-"pilvipohjaisten taustapalveluiden tukemiseksi ovat huomattavia ja samalla "
-"meidän on paljon vaikeampi auttaa käyttäjiä, jotka joutuvat ongelmiin. "
-"Loppujen lopuksi tämä ei ole meille hyödyllistä, joten muita pilviratkaisuja"
-" ei edelleenkään tueta."
+"Tämä on ainoa saatavilla oleva pilvipalvelu. Se antaa kehittäjille "
+"mahdollisuuden tehdä uusia ominaisuuksia Subsurfaceen, korjata ongelmia ja "
+"tukea käyttäjiä (luvallasi), jos pilvitallennuksessa menee jotain vikaan. "
+"Lisätyöt muiden pilvipohjaisten taustapalveluiden tukemiseksi ovat "
+"huomattavia ja samalla meidän on paljon vaikeampi auttaa käyttäjiä, jotka "
+"joutuvat ongelmiin. Loppujen lopuksi tämä ei ole meille hyödyllistä, joten "
+"muita pilviratkaisuja ei edelleenkään tueta."
 
 #: templates/faq.html:659
 msgid ""
@@ -1560,9 +1560,10 @@ msgstr ""
 "pariin . Ota meihin yhteyttä <a%(userforum)s>Keskusteluryhmän</a> kautta, "
 "jotta voimme yrittää auttaa. Jotkut toimittajat ovat aktiivisesti auttaneet "
 "meitä työssämme ja tuen lisääminen heidän uusille tuotteilleen on yleensä "
-"helppoa. Toiset myyjät ovat neutraalej ja jotkut ovat aktiivisesti "
-"vihamielisiä. Ilman myyjän apua siirtoprotokollan ja sukellustietojen "
-"siirtäminen voi olla melko haastavaa, mutta on usein mahdollista."
+"helppoa. Toiset myyjät ovat neutraaleja ja jotkut ovat aktiivisesti "
+"vihamielisiä. Ilman myyjän apua siirtoprotokollan luominen ja "
+"sukellustietojen siirtäminen voi olla melko haastavaa, mutta on usein "
+"mahdollista."
 
 #: templates/faq.html:678
 msgid ""
@@ -1576,7 +1577,7 @@ msgstr ""
 "(voit valita ne sukellustietojen latausvalintaikkunasta), kun muodostat "
 "yhteyden sukellustietokoneeseen käyttämällä samanlaista olemassa olevaa "
 "mallia (jos mahdollista). Mutta yleisesti ottaen saattaa olla järkevintä "
-"ottaa ensin yhteyttä, jotta et tuhlaa aikaasi."
+"ottaa ensin yhteyttä meihin, jotta et tuhlaa aikaasi."
 
 #: templates/faq.html:681
 #, python-format
@@ -1712,11 +1713,11 @@ msgid ""
 "dive computer. Exit all other apps that might try to connect to a media "
 "device, like for example the Android File Transfer."
 msgstr ""
-"Descent Mk2/Mk3 on MTP-laite, joka välillä ongelmallinen latauksen suhteen. "
-"MTP tukee vain yhtä yhteyttä, joten muut MTP-sovellukset saattavat estää "
-"Subsurfacea keskustelemasta sukellustietokoneen kanssa. Lopeta kaikki muut "
-"sovellukset, jotka saattavat yrittää muodostaa yhteyden medialaitteeseen, "
-"kuten esimerkiksi Android File Transfer."
+"Descent Mk2/Mk3 on MTP-laite, joka on välillä ongelmallinen latauksen "
+"suhteen. MTP tukee vain yhtä yhteyttä, joten muut MTP-sovellukset saattavat "
+"estää Subsurfacea keskustelemasta sukellustietokoneen kanssa. Lopeta kaikki "
+"muut sovellukset, jotka saattavat yrittää muodostaa yhteyden "
+"medialaitteeseen, kuten esimerkiksi Android File Transfer."
 
 #: templates/faq.html:792
 msgid "Garmin Descent Mk2/Mk3 on Windows"
@@ -1758,6 +1759,9 @@ msgid ""
 "%(userforum)s>User Forum</a> and try the search function. If you don't find "
 "an answer there, create a new topic and ask for help."
 msgstr ""
+"Jos kysymykseesi ei ole vastattu täällä, tarkista <a%(userforum)s "
+">Keskusteluryhmästä</a> ja kokeile hakutoimintoa. Jos et löydä vastausta "
+"sieltä, luo uusi kysymysja pyydä apua."
 
 #: templates/faq.html:813
 #, python-format
@@ -1766,14 +1770,20 @@ msgid ""
 "repo</a>. Pull requests are of course welcome - you can also suggest "
 "additions to the FAQ in the <a %(userforum)s>User Forum</a>."
 msgstr ""
+"Usein kysytyt kysymykset - FAQ - on osa <a%(webrepo)s>sivustomme "
+"repositoryn</a>  sisältöä. Voit ehdottaa lisäyksiä 'Usein kysyttyjen "
+"kysymyksien' listalle <a%(userforum)sKeskusteluryhmässä</a> ja myös sen "
+"sisällön päivittämistä repositorystä. "
 
 #: templates/home.html:17
 msgid "The free, open-source cross-platform dive log software."
 msgstr ""
+"Ilmainen, avoimen lähdekoodin monella alustalla toimiva "
+"sukelluslokikirjasto-ohjelmisto"
 
 #: templates/home.html:32 templates/home.html:48
 msgid "Downloads for other platforms"
-msgstr ""
+msgstr "Lataukset muille alustoille"
 
 #: templates/home.html:74
 msgid "Multiplatform"
@@ -1836,6 +1846,9 @@ msgid ""
 "different devices, online and offline. Fully integrated, free, and easy to "
 "set up."
 msgstr ""
+"Voit tallentaa lokikirjan tiedot pilvipalveluun. Työskentele tietojesi "
+"kanssa eri laitteilla verkossa ja offline-tilassa. Täysin integroitu, "
+"ilmainen ja helppo ottaa käyttöön."
 
 #: templates/home.html:133
 msgid ""
@@ -1863,7 +1876,7 @@ msgid ""
 msgstr ""
 "Voit merkitä sukelluksia erilaisilla avainsanoilla ja <strong>suodattaa "
 "sukelluslistaa</strong> esimerkiksi avainsanojen, sijainnin ja sukellusparin"
-" perusteella. Voit ryhmitellä sukellusluettelon retkiksi ja muokata useita "
+" perusteella. Voit ryhmitellä sukelluksia retkiksi ja muokata useita "
 "sukelluksia samanaikaisesti, mikä helpottaa monien sukellusten yhtäaikaista "
 "käsittelyä."
 
@@ -1916,11 +1929,11 @@ msgid ""
 "into one dive – allowing visualization of the data collected from multiple "
 "sources."
 msgstr ""
-"Toinen vahvuus on sen kyky visualisoida syvyysprofiili (ja,mikäli "
-"käytettävissä, pullon kaasupainekäyrä) innovatiivisilla tavoilla, jotka "
-"antavat käyttäjälle lisätietoa suhteellisesta nopeudesta ja hetkellisestä "
-"ilmankulutuksesta sukelluksen aikana. Käyttäjät, joilla on sukelluksella "
-"mukana useita sukellustietokoneita, voivat yhdistää kunkin "
+"Toinen vahvuus on sen kyky visualisoida syvyysprofiili (ja pullon "
+"kaasupainekäyrä, jos painelähetin on käytössä) innovatiivisilla tavoilla, "
+"jotka antavat käyttäjälle lisätietoa suhteellisesta nopeudesta ja "
+"hetkellisestä ilmankulutuksesta sukelluksen aikana. Käyttäjät, joilla on "
+"sukelluksella mukana useita sukellustietokoneita, voivat yhdistää kunkin "
 "sukellustietokoneen tiedot yhdeksi sukellukseksi - mikä mahdollistaa useista"
 " lähteistä kerättyjen tietojen visualisoinnin."
 
@@ -1986,10 +1999,14 @@ msgid ""
 "them to be broken very often, they are generally released in order to "
 "facilitate testing, and as such may not have received a lot of testing, yet."
 msgstr ""
+"Tällä sivulla olevat julkaisut ovat Subsurface CICD (Continuous Integration,"
+" Continuous Delivery) -järjestelmän viimeisimmät versiot. Vaikka odotamme "
+"niiden toimivan, ne julkaistaan yleensä testauksen helpottamiseksi, joten "
+"niitä ei välttämättä ole vielä testattu paljon."
 
 #: templates/latest-release.html:20
 msgid "The latest change-sets merged into this release are:"
-msgstr ""
+msgstr "Viimeisimmät tähän julkaisuun tehdyt muutokset ovat:"
 
 #: templates/latest-release.html:26
 #, python-format
@@ -2026,14 +2043,14 @@ msgstr ""
 "iOS on tällä hetkellä ainoa käyttöjärjestelmä, jossa sivulataus tai "
 "allekirjoittamattomien binäärien asennus on mahdotonta (tämä saattaa muuttua"
 " EU-alueella, mutta ei muualla). Tämän vuoksi emme voi tehdä tänne "
-"saataville uusia iOS-versioita Subsurfacesta. Yritämme   siirtää uudet "
+"saataville uusia iOS-versioita Subsurfacesta. Yritämme  siirtää uudet "
 "versiot julkiseen TestFlight-tiliimme. Jos haluat aivan viimeisimmän "
 "version, voit <%(link)s>kirjautua Subsurfacen mobiiliversion TestFlight-"
 "sivustolle</a>."
 
 #: templates/latest-release.html:117
 msgid "The 'edge' Snap-channel contains our latest build."
-msgstr ""
+msgstr " Snap-kanava, joka sisältää viimeisimmän versiomme."
 
 #: templates/privacy-policy.html:15
 msgid ""
@@ -2051,6 +2068,10 @@ msgid ""
 " The information is processed to provide the Subsurface application to "
 "registered users, the lawful purpose: contract obligation."
 msgstr ""
+"Henkilökohtaiset tiedot ovat sähköpostiosoitteesi sekä verkko- ja "
+"järjestelmätunnuksesi, joiden avulla rekisteröitynyt käyttäjätili voidaan "
+"luoda ja ylläpitää. Tietoja käsitellään Subsurface-sovelluksen tarjoamiseksi"
+" rekisteröidyille käyttäjille, laillinen tarkoitus: sopimusvelvoite."
 
 #: templates/privacy-policy.html:21
 msgid ""
@@ -2077,6 +2098,8 @@ msgid ""
 "To contact Subsurface please reach out to the Data Protection Lead: Email: "
 "<code>%(email)s</code>"
 msgstr ""
+"Jos haluat ottaa yhteyttä Subsurfaceen, ota yhteyttä tietosuojavastaavaan. "
+"Sähköposti: <code>%(email)s</code>"
 
 #: templates/privacy-policy.html:30
 msgid ""
@@ -2125,6 +2148,8 @@ msgid ""
 "Currently, these divecomputers are supported in Subsurface. Please note that"
 " Subsurface-mobile only supports a subset of these devices."
 msgstr ""
+"Tällä hetkellä näitä sukellustietokoneita tuetaan Subsurfacessa. Huomaa, "
+"että Subsurfacen mobiiliversio tukee vain osaa näistä laitteista."
 
 #: templates/thanks.html:3 templates/thanks.html:13
 msgid "Thanks"
@@ -2137,6 +2162,9 @@ msgid ""
 "their help through documentation, hardware donations, loaner devices, and <a"
 " %(link)s>sponsorship</a> of the project:"
 msgstr ""
+"Subsurface-tiimi haluaa kiittää seuraavia yrityksiä ja yksityishenkilöitä, "
+"jotka ovat auttaneet dokumentoinnissa, lahjoittaneet tai lainanneet "
+"laitteistoja ja <a %(link)s>sponsoroineet</a> projektia:"
 
 #: templates/tutorial-video.html:3 templates/tutorial-video.html:13
 msgid "Video Tutorial"
@@ -2147,21 +2175,27 @@ msgid ""
 "This video is based on a slightly older version of Subsurface, but should "
 "still be very useful to get an idea of the functionality."
 msgstr ""
+"Tämä video perustuu hieman vanhempaan Subsurfacen versioon, mutta se silti "
+"luultavasti auttaa paljon saamaan hyvän kokonaiskuvan toiminnallisuudesta."
 
 #: templates/tutorial-video.html:29
 msgid ""
 "You can also download the video for offline viewing, using one of the "
 "following links:"
 msgstr ""
+"Voit myös ladata videon offline-katselua varten käyttämällä jotakin "
+"seuraavista linkeistä:"
 
 #: templates/tutorial-video.html:37
 msgid "or any other of the links at"
-msgstr ""
+msgstr "tai seuraavista linkeistä"
 
 #: templates/tutorial-video.html:41
 #, python-format
 msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
 msgstr ""
+"ja katso sitä millä tahansa mediasoittimella (esimerkiksi "
+"<a%(vlc)s>VLC</a>)."
 
 #: templates/user-forum.html:15
 #, python-format
