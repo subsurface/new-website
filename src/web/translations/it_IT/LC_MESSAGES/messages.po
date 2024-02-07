@@ -2064,7 +2064,7 @@ msgstr ""
 
 #: templates/latest-release.html:117
 msgid "The 'edge' Snap-channel contains our latest build."
-msgstr ""
+msgstr "Il canale Snap 'edge' contiene la nostra ultima versione."
 
 #: templates/privacy-policy.html:15
 msgid ""
