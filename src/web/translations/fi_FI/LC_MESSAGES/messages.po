@@ -608,7 +608,7 @@ msgstr ""
 "hetkellä Ubuntu ja Fedora, Debian on tuettu yhteisön kautta) . Lisäksi Snap-"
 "paketti ja geneerinen AppImage ovat saatavilla muille Linux distroille. "
 "Tarkemmat yksityiskohdat sinun käyttöjärjestelmällesi sopivasta "
-"Subsurfacesta löydät <a%(crelease)s>Nykyinen versio</a> -sivulta."
+"Subsurfacesta löydät <a %(crelease)s>Nykyinen versio</a> -sivulta."
 
 #: templates/faq.html:50
 #, python-format
@@ -619,8 +619,8 @@ msgid ""
 msgstr ""
 "Subsurfacen iOS-käyttöjärjestelmälle tarkoitettu mobiiliversio on tarjolla "
 "iOS AppStoressa. Subsurfacen Android-käyttöjärjestelmälle tarkoitettu "
-"erikseen asennettava eli sivuladattava APK on saatavissa "
-"<a%(crelease)s>Nykyinen versio</a>-sivultamme."
+"erikseen asennettava eli sivuladattava APK on saatavissa <a "
+"%(crelease)s>Nykyinen versio</a>-sivultamme."
 
 #: templates/faq.html:59
 msgid "How much does Subsurface cost?"
