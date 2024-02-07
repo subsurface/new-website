@@ -489,7 +489,7 @@ msgstr "<a %(faq)s>FAQ</a>"
 #: templates/documentation.html:19
 #, python-format
 msgid "<a %(supporteddc)s>Supported Dive Computers</a>"
-msgstr "<a%(supporteddc)s>Podržana ronilačka računala</a>"
+msgstr "<a %(supporteddc)s>Podržana ronilačka računala</a>"
 
 #: templates/documentation.html:22
 #, python-format
