@@ -1980,6 +1980,10 @@ msgid ""
 "to start a new project, Linux creator Linus Torvalds decided to tackle his "
 "frustration with the lack of decent divelog software on Linux."
 msgstr ""
+"Nell'autunno del 2011, quando una pausa forzata nello sviluppo del kernel "
+"gli ha dato la possibilità di avviare un nuovo progetto, il creatore di "
+"Linux Linus Torvalds ha deciso di affrontare la sua frustrazione per la "
+"mancanza di software divelog decente su Linux."
 
 #: templates/home.html:176
 msgid ""
