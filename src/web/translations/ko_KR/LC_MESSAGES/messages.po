@@ -1322,8 +1322,8 @@ msgid ""
 "%(cloudweb)s>the cloud webpage</a>."
 msgstr ""
 "Subsurface는 다이브 로그를 Subsurface 클라우드에 안전하게 보관하고, 데이터를 백업하며, 데스크톱과 안드로이드 및 iOS"
-" 장치에서 다이브 로그에 접근할 수 있도록 해 줍니다. 게다가 <a %(cloudweb)s>클라우드 웹페이지</a>에서는 읽기 전용 "
-"웹보기가 가능합니다."
+" 장치에서 다이브 로그에 접근할 수 있도록 해 줍니다. 나아가 <a %(cloudweb)s>클라우드 웹페이지</a>에서는 읽기 전용 웹 "
+"보기가 가능합니다."
 
 #: templates/faq.html:656
 msgid ""
