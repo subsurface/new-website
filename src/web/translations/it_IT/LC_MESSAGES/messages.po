@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
-# Gianluca Montecchi, 2024
 # Cosma Tassinari, 2024
+# Gianluca Montecchi, 2024
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-02-05 17:38+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
-"Last-Translator: Cosma Tassinari, 2024\n"
+"Last-Translator: Gianluca Montecchi, 2024\n"
 "Language-Team: Italian (Italy) (https://app.transifex.com/subsurface/teams/15508/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -574,12 +574,12 @@ msgid ""
 "download dive data directly from your dive computer using Subsurface-mobile."
 msgstr ""
 "Subsurface funziona su Windows 10 e successivi, MacOS 10.15 e successivi e "
-"molte versioni di Linux. Versioni di Subsurface per dispositivi mobili sono "
-"disponibili per Android e iOS consentono di avere una piattaforma portatile "
-"per consultare le tue immersioni ed effettuare modifiche minori; a seconda "
-"della tua combinazione di OS / dispositivo, puoi anche avere la possibilità "
-"di scaricare i dati dell'immersione direttamente da tuo computere subacqueo "
-"usando Subsurface-mobile."
+"molte versioni di Linux. Le versioni di Subsurface per Android e iOS "
+"consentono di avere sempre con te le tue immersioni per consultarle e "
+"apportare piccole modifiche; a seconda della tua combinazione di OS / "
+"dispositivo, puoi anche avere la possibilità di scaricare i dati "
+"dell'immersione direttamente dal tuo computere subacqueo usando Subsurface-"
+"mobile."
 
 #: templates/faq.html:47
 #, python-format
