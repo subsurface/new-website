@@ -74,8 +74,8 @@ msgid ""
 "%(mailman)s>mailing list</a>, you can also open issues on our <a "
 "%(githubissue)s>main Subsurface repository on GitHub</a>."
 msgstr ""
-"Virhetilanteiden raportointi (ja koodikorjaukset!) voi tehdä "
-"<a%(mailman)s>postituslistallemme</a> tai voit avata tiketin <a "
+"Virhetilanteiden raportointi (ja koodikorjaukset!) voi tehdä <a "
+"%(mailman)s>postituslistallemme</a> tai voit avata tiketin <a "
 "%(githubissue)s>Subsurfacen versionhallinnan tietovarastoon GitHubissa</a>."
 
 #: templates/bugtracker.html:18 templates/user-forum.html:21
