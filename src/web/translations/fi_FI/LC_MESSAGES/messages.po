@@ -211,7 +211,7 @@ msgid ""
 msgstr ""
 "Haluamme tehdä Subsurfacesta mahdollisimman käyttäjäystävällisen ja helposti"
 " lähestyttävän. Jos olet jo Subsurfacen pidempiaikainen käyttäjä, toivomme "
-"sinun liittyvän käyttäjäyhteisömme <a %(link)s>Keskusteluryhmään</a> "
+"sinun liittyvän käyttäjäyhteisömme <a %(link)s>Keskustelu</a>-ryhmään "
 "auttamaan uusia käyttäjiä ja vastaamalla heidän kysymyksiinsä."
 
 #: templates/contribute.html:48
