@@ -1772,7 +1772,7 @@ msgid ""
 msgstr ""
 "Usein kysytyt kysymykset - FAQ - on osa <a%(webrepo)s>sivustomme "
 "repositoryn</a>  sisältöä. Voit ehdottaa lisäyksiä 'Usein kysyttyjen "
-"kysymyksien' listalle <a%(userforum)s>Keskusteluryhmässä</a> ja myös sen "
+"kysymyksien' listalle <a%(userforum)s>Keskustelu</a>-ryhmässä ja myös sen "
 "sisällön päivittämistä repositorystä. "
 
 #: templates/home.html:17
