@@ -353,7 +353,7 @@ msgid ""
 msgstr ""
 "Proviamo a rilasciare DMG per macOS firmati di Subsurface. Se il tuo Mac non"
 " vuole installare l'immagine per favore avvertici usando il <a "
-"%(link)s>Forum per gli utenti</a>."
+"%(link)s>Forum degli utenti</a>."
 
 #: templates/current-release.html:67 templates/latest-release.html:70
 msgid ""
