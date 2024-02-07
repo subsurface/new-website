@@ -623,8 +623,8 @@ msgid ""
 "naive ideal gas laws. Unfortunately, real gases aren't ideal gases. And "
 "Subsurface <a %(sac)s>takes the compressibility of gases into account</a>."
 msgstr ""
-"아마도 당신은 기체 소비량 계산이 단순한 이상기체법칙을 따를 것으로 기대하고 있을 것입니다. 그러나 불행하게도 현실의 기체는 이상기체가 "
-"아닙니다. 그리고 Subsurface는 <a %(sac)s>기체의 압축률을 함께 고려</a>합니다."
+"아마도 여러분은 기체 소비량 계산이 단순한 이상기체법칙을 따를 것으로 기대하고 있을 것입니다. 그러나 불행하게도 현실의 기체는 이상기체가"
+" 아닙니다. 그리고 Subsurface는 <a %(sac)s>기체의 압축률을 함께 고려</a>합니다."
 
 #: templates/faq.html:107
 msgid "OS Support"
