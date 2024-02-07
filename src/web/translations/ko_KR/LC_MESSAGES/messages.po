@@ -278,7 +278,7 @@ msgstr "만약 우리가 사용 중임에도 여기에 나열되지 않은 오�
 #: templates/current-release.html:13
 #, python-format
 msgid "Current \"Weekly\" Release: %(version)s"
-msgstr "현재 \"주간\" 릴리스: %(version)s"
+msgstr "\"주간\" 현재 릴리스: %(version)s"
 
 #: templates/current-release.html:17
 msgid ""
