@@ -191,7 +191,7 @@ msgstr ""
 "Subsurface na svom materinjem jeziku, možete pomoći da se to dogodi tako što"
 " ćete nas podržati kao prevoditelj. Budući da se našim prijevodima upravlja "
 "centralno u <a %(transifex)s>Transifexu</a> - prijavite se za račun i "
-"zatražite pridruživanje <a%(transifex_subsurface)s>Subsurface timu</a>."
+"zatražite pridruživanje <a %(transifex_subsurface)s>Subsurface timu</a>."
 
 #: templates/contribute.html:43
 msgid "By Helping Other Users"
