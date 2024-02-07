@@ -86,7 +86,7 @@ msgid ""
 msgstr ""
 "Ensisijainen kieli on englanti, mutta pyrimme vastaamaan myös muilla "
 "kielillä esitettyihin kysymyksiin (englanniksi viestiminen saattaa joskus "
-"olla hankalaa...)"
+"olla hankalaa...)."
 
 #: templates/contribute.html:3
 msgid "Contribute to Subsurface"
