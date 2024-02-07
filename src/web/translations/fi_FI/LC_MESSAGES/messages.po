@@ -1957,7 +1957,7 @@ msgstr "Käy tarkistamassa <%(link)s>Version muutoshistoria</a>"
 
 #: templates/home.html:171
 msgid "A bit of history:"
-msgstr "Hiukan historiasta:"
+msgstr "Historiasta:"
 
 #: templates/home.html:173
 msgid ""
