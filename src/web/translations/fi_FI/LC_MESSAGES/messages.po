@@ -481,7 +481,7 @@ msgstr ""
 "Subsurfacen pilvipalvelussa oleva tieto voidaan poistaa mobiilisovelluksen "
 "avulla. Voit myös pyytää pilvessä olevan tiedon tai pilvessä olevan tiedon "
 "ja käyttäjätilin poistamista lähettämällä sähköpostin Subsurface-tiimille "
-"osoitteeseen <a%(link)s>in-app-support@subsurface-divelog</a>."
+"osoitteeseen <a %(link)s>in-app-support@subsurface-divelog</a>."
 
 #: templates/documentation.html:15
 msgid ""
