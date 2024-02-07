@@ -136,7 +136,7 @@ msgid ""
 msgstr ""
 "Jos haluat työskennellä yhteistyössä kehittäjiemme kanssa ja auttaa heitä "
 "testaamaan uusia toiminnallisuuksia ja virhekorjauksia, tutustu sivullamme "
-"<a%(link)s>ohjelmakoodin yhteisölliseen kehitykseen</a> ja siihen "
+"<a %(link)s>ohjelmakoodin yhteisölliseen kehitykseen</a> ja siihen "
 "osallistumiseen. Tarvitsemme erityisesti henkilöitä Windows- ja Mac-"
 "ympäristöihin (koska suurin osa aktiivisista kehittäjistä suosii Linuxia)."
 
