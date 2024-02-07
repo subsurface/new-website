@@ -240,7 +240,7 @@ msgstr ""
 #: templates/credits.html:45 templates/credits.html:53
 #: templates/credits.html:56
 msgid "Homepage"
-msgstr "Homepage"
+msgstr "홈페이지"
 
 #: templates/credits.html:19 templates/credits.html:22
 #: templates/credits.html:24 templates/credits.html:26
