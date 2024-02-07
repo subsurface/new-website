@@ -2014,6 +2014,10 @@ msgid ""
 "them to be broken very often, they are generally released in order to "
 "facilitate testing, and as such may not have received a lot of testing, yet."
 msgstr ""
+"Le release presenti in questa pagina sono le ultime build del sistema CICD "
+"(Continuous Integration, Continuous Delivery) di Subsurface. Anche se non ci"
+" aspettiamo molti bug, in genere vengono rilasciate per facilitare i test e "
+"quindi potrebbero non aver ricevuto ancora molti test."
 
 #: templates/latest-release.html:20
 msgid "The latest change-sets merged into this release are:"
