@@ -2115,6 +2115,8 @@ msgid ""
 "To contact Subsurface please reach out to the Data Protection Lead: Email: "
 "<code>%(email)s</code>"
 msgstr ""
+"Per contattare Subsurface si prega di contattare il Responsabile della "
+"Protezione dei Dati: Email:<code>%(email)s</code>"
 
 #: templates/privacy-policy.html:30
 msgid ""
