@@ -118,8 +118,8 @@ msgid ""
 msgstr ""
 "Jos olet sovelluskehittäjä (millä tahansa kokemuksella) apusi Subsurfacen "
 "ylläpidossa ja uusien toiminnallisuuksien lisäämisessä on erittäin "
-"tervetullutta. Tutustu <a %(link)s > ohjelmakoodin yhteisölliseen "
-"kehitykseen sivullamme Githubissa </a> nähdäksesi kuinka pääset alkuun."
+"tervetullutta. Tutustu <a %(link)s> ohjelmakoodin yhteisölliseen kehitykseen"
+" sivullamme Githubissa </a> nähdäksesi kuinka pääset alkuun."
 
 #: templates/contribute.html:22
 msgid "By Testing"
