@@ -355,8 +355,8 @@ msgid ""
 "to install this image, please let us know in the <a %(link)s>User Forum</a>."
 msgstr ""
 "Tässä julkaistun macOS DMG asennusohjelman pitäisi olla allekirjoitettu. Jos"
-" MAC-tietokoneesi ei kuitenkaan hyväksy asennusta, laita meille viesti "
-"<a%(link)s>Keskustelu</a>-ryhmään."
+" MAC-tietokoneesi ei kuitenkaan hyväksy asennusta, laita meille viesti <a "
+"%(link)s>Keskustelu</a>-ryhmään."
 
 #: templates/current-release.html:67 templates/latest-release.html:70
 msgid ""
@@ -382,7 +382,7 @@ msgid ""
 "A brief explanation of the concept of side-loading can be found in <a "
 "%(explanation)s>this androidcentral article</a>."
 msgstr ""
-"Lyhyt kuvaus sivulatauksesta löytyy esimerkiksi <a%(explanation)s>tästä "
+"Lyhyt kuvaus sivulatauksesta löytyy esimerkiksi <a %(explanation)s>tästä "
 "androidcentralin artikkelista</a>."
 
 #: templates/current-release.html:79 templates/latest-release.html:82
