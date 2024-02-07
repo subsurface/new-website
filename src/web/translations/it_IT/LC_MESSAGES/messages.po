@@ -2151,6 +2151,11 @@ msgid ""
 "only store it with the purpose of making it available to you again on your "
 "devices."
 msgstr ""
+"È semplice. Non utilizziamo i vostri dati. Non ci interessa sapere chi sono "
+"i vostri amici. Non abbiamo intenzione di fare marketing o di fare qualsiasi"
+" altra cosa che sia fastidiosa. Non c'è monetizzazione, né altri usi o "
+"elaborazioni dei vostri dati: li memorizziamo solo allo scopo di renderli "
+"nuovamente disponibili sui vostri dispositivi."
 
 #: templates/supported-dive-computers.html:3
 #: templates/supported-dive-computers.html:13
