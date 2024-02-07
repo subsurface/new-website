@@ -1916,7 +1916,7 @@ msgstr "Prešli smo na pokretni model izdanja"
 #, python-format
 msgid ""
 "Please check out <a %(link)s>the announcement of the Release Changes</a>"
-msgstr "Molimo pogledajte <a %(link)s>najavu izmjena verzije"
+msgstr "Molimo pogledajte <a %(link)s>najavu izmjena verzije</a>"
 
 #: templates/home.html:171
 msgid "A bit of history:"
