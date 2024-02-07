@@ -800,8 +800,8 @@ msgid ""
 msgstr ""
 "Myyjän tarjoaman sukelluslokikirja-ohjelmiston asentaminen riittää usein "
 "käynnistämään näiden ajurien asentamisen, mutta joskus asiat ovat hieman "
-"monimutkaisempia. <a%(forum)s>Keskustelu</a>-sivulta etsiminen usein auttaa "
-"löytämään vastauksen."
+"monimutkaisempia. <a %(forum)s>Keskustelu</a>-sivulta etsiminen usein auttaa"
+" löytämään vastauksen."
 
 #: templates/faq.html:181
 msgid "Is there a virus in the Subsurface installer?"
