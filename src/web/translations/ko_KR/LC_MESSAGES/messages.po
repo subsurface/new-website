@@ -146,8 +146,8 @@ msgid ""
 "head over to our code contribution page on GitHub to find out <a "
 "%(link)s>how to join the community</a>."
 msgstr ""
-"당신이 글을 잘 쓴다면 당신은 우리 웹사이트의 문서 자료와 기사들을 작성, 리뷰 및 개선하는 데 도움을 줄 수 있습니다. 시작하려면 "
-"GitHub의 코드 기여 페이지에 방문하여 <a %(link)s>커뮤니티에 가입하는 방법</a>을 확인하세요."
+"여러분이 글을 잘 쓴다면 웹사이트의 문서 자료와 기사들을 작성, 리뷰 및 개선하는 데 도움을 줄 수 있습니다. 시작하려면 GitHub의 "
+"코드 기여 페이지에 방문하여 <a %(link)s>커뮤니티에 가입하는 방법</a>을 확인하세요."
 
 #: templates/contribute.html:32
 msgid "By Improving the User Experience"
