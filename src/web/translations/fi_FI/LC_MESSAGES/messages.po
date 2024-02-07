@@ -686,7 +686,7 @@ msgid ""
 "%(code_contribution)s>code contribution page on GitHub</a>."
 msgstr ""
 "Olet tietysti tervetullut tarjoamaan ohjelmistomuutosta toivomaasi uuteen "
-"ominaisuuteen liittyen.  Voit tutustua <a%(code_contribution)s > "
+"ominaisuuteen liittyen.  Voit tutustua <a%(code_contribution)s> "
 "ohjelmakoodin yhteisölliseen kehitykseen sivullamme Githubissa</a> ."
 
 #: templates/faq.html:96
