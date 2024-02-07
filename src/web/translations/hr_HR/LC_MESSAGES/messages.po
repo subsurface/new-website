@@ -604,7 +604,7 @@ msgid ""
 "%(crelease)s>current release</a> page."
 msgstr ""
 "Subsurface-mobile za iOS dostupan je u iOS App Storeu. Subsurface-mobile za "
-"Android dostupan je kao side-loadani APK na našoj stranici <a%(crelease)s> "
+"Android dostupan je kao side-loadani APK na našoj stranici <a %(crelease)s> "
 "trenutne verzije</a>."
 
 #: templates/faq.html:59
