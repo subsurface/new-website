@@ -1726,6 +1726,8 @@ msgstr "Garmin Descent Mk2/Mk3 Windowsissa"
 msgid ""
 "You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
 msgstr ""
+"Tarvitset oikean USB-ohjaintiedoston, jotta saat yhteyden Descent Mk2/Mk3:n "
+"sukellustietokoneeseen."
 
 #: templates/faq.html:802
 #, python-format
