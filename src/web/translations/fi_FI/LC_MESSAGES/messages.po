@@ -331,7 +331,7 @@ msgid ""
 "out the <a %(link)s>Latest Release Page</a>."
 msgstr ""
 "Jos haluat aivan viimeisimmän julkaistun version, siirry sivulle "
-"<a%(link)s>Uusin versio</a>."
+"<a%(link)s>Uusin kehitysversio</a>."
 
 #: templates/current-release.html:32 templates/current-release.html:46
 #: templates/current-release.html:60 templates/current-release.html:122
