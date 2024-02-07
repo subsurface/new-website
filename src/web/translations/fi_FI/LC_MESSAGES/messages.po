@@ -1712,6 +1712,11 @@ msgid ""
 "dive computer. Exit all other apps that might try to connect to a media "
 "device, like for example the Android File Transfer."
 msgstr ""
+"Descent Mk2/Mk3 on MTP-laite, joka välillä ongelmallinen latauksen suhteen. "
+"MTP tukee vain yhtä yhteyttä, joten muut MTP-sovellukset saattavat estää "
+"Subsurfacea keskustelemasta sukellustietokoneen kanssa. Lopeta kaikki muut "
+"sovellukset, jotka saattavat yrittää muodostaa yhteyden medialaitteeseen, "
+"kuten esimerkiksi Android File Transfer."
 
 #: templates/faq.html:792
 msgid "Garmin Descent Mk2/Mk3 on Windows"
