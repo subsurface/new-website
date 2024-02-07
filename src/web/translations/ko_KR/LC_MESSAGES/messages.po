@@ -1233,9 +1233,9 @@ msgid ""
 "modern photo editing software does that correctly by default."
 msgstr ""
 "만약 사진 불러오기에서 문제를 겪는다면, Exif 헤더에 다음 태그가 최소 하나 이상 존재하는지 확인하세요: "
-"<code>DateTimeOriginal</code> or <code>DateTime</code>. 우리는 이 필드로부터 시간을 불러와 "
-"다이브 중에 촬영된 사진인지 여부를 감지합니다. 만약 사진이 편집되었다면, 사진을 제대로 불러오기 위한 원본 Exif 정보가 "
-"새로운/편집된 사진에 저장되어 있는지 확인하세요. 대부분의 최신 사진 편집 소프트웨어는 기본적으로 이를 올바르게 수행합니다."
+"<code>DateTimeOriginal</code> or <code>DateTime</code>. 우리는 이 필드에서 시간을 불러와 "
+"다이브 중에 촬영된 사진인지 여부를 감지합니다. 만약 사진이 편집되었다면 원본 Exif 정보가 새로운/편집된 사진에도 저장되어 있어야 "
+"제대로 불러올 수 있으므로 이를 확인하세요. 대부분의 최신 사진 편집 소프트웨어는 기본적으로 이를 올바르게 수행합니다."
 
 #: templates/faq.html:588
 msgid "Can I import my dives from my old log software?"
