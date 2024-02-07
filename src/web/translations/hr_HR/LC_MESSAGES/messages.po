@@ -228,7 +228,7 @@ msgstr ""
 "sinkronizaciju zarona koja je ugrađena u Subsurface. Glavni održavatelj "
 "Subsurfacea i naše infrastrukture cijeni donacije koje će pomoći u "
 "pokrivanju ovih troškova. Ako želite pomoći u ovome, možete to učiniti putem"
-" <a%(link)s>Dirk's Ko-fi stranice</a> ili <a%(ghsponsor)s>Dirk's GitHub "
+" <a %(link)s>Dirk's Ko-fi stranice</a> ili <a %(ghsponsor)s>Dirk's GitHub "
 "Sponzor stranice</a>."
 
 #: templates/credits.html:3 templates/credits.html:13
