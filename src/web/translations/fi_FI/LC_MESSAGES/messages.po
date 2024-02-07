@@ -1749,7 +1749,7 @@ msgstr ""
 
 #: templates/faq.html:807
 msgid "Other questions"
-msgstr ""
+msgstr "Muut kysymykset"
 
 #: templates/faq.html:809
 #, python-format
@@ -2140,7 +2140,7 @@ msgstr ""
 
 #: templates/tutorial-video.html:3 templates/tutorial-video.html:13
 msgid "Video Tutorial"
-msgstr ""
+msgstr "Video-ohje"
 
 #: templates/tutorial-video.html:15
 msgid ""
