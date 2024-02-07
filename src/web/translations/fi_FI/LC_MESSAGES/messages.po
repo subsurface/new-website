@@ -520,7 +520,7 @@ msgstr "<a %(mobilemanual)s>Subsurfacen mobiiliversion käyttöohje</a>"
 #, python-format
 msgid "<a %(datadeletion)s>Deleting Cloud Data and Account</a>"
 msgstr ""
-"<a%(datadeletion)s>Pilvipalvelussa oleven tietojen ja käyttäjätilin "
+"<a %(datadeletion)s>Pilvipalvelussa oleven tietojen ja käyttäjätilin "
 "poistaminen</a>"
 
 #: templates/documentation.html:34
