@@ -1953,7 +1953,7 @@ msgstr "Siirryimme jatkuvasti julkaistaviin uusiin versioihin"
 #, python-format
 msgid ""
 "Please check out <a %(link)s>the announcement of the Release Changes</a>"
-msgstr "Käy tarkistamassa <%(link)s>Version muutoshistoria</a>"
+msgstr "Käy tarkistamassa <a%(link)s>Version muutoshistoria</a>"
 
 #: templates/home.html:171
 msgid "A bit of history:"
