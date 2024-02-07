@@ -509,12 +509,12 @@ msgstr "<a %(video)s>(vanhahko) video-ohje</a>"
 #: templates/documentation.html:25
 #, python-format
 msgid "<a %(manual)s>Subsurface User Manual</a>"
-msgstr "<a%(manual)s>Subsurfacen käyttöohje</a>"
+msgstr "<a %(manual)s>Subsurfacen käyttöohje</a>"
 
 #: templates/documentation.html:28
 #, python-format
 msgid "<a %(mobilemanual)s>Subsurface-mobile User Manual</a>"
-msgstr "<a%(mobilemanual)s>Subsurfacen mobiiliversion käyttöohje</a>"
+msgstr "<a %(mobilemanual)s>Subsurfacen mobiiliversion käyttöohje</a>"
 
 #: templates/documentation.html:31
 #, python-format
