@@ -684,7 +684,7 @@ msgid ""
 msgstr ""
 "Najvjerojatnije očekujete da će izračun potrošnje plina slijediti naivne "
 "zakone idealnog plina. Nažalost, stvarni plinovi nisu idealni plinovi. A "
-"Subsurface <a%(sac)s>uzima u obzir kompresibilnost plinova</a>."
+"Subsurface <a%(sac)s>uzima u obzir stlačivost plinova</a>."
 
 #: templates/faq.html:107
 msgid "OS Support"
