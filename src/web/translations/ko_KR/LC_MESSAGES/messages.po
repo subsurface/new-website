@@ -1136,7 +1136,7 @@ msgid ""
 " suggestions."
 msgstr ""
 "블루투스 또는 BLE 방식의 다이브 컴퓨터에는 더 많은 잠재적 이슈들이 있습니다. 해당 장치와의 페어링 및 문제 해결 방법에 대해서는 "
-"우리의 사용자 매뉴얼을 참조하세요."
+"사용자 매뉴얼을 참조하세요."
 
 #: templates/faq.html:528
 msgid "Why is the CSV import failing?"
