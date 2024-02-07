@@ -356,7 +356,7 @@ msgid ""
 msgstr ""
 "Tässä julkaistun macOS DMG asennusohjelman pitäisi olla allekirjoitettu. Jos"
 " MAC-tietokoneesi ei kuitenkaan hyväksy asennusta, laita meille viesti "
-"<a%(link)s>Keskusteluryhmää</a>."
+"<a%(link)s>Keskustelu</a>-ryhmään."
 
 #: templates/current-release.html:67 templates/latest-release.html:70
 msgid ""
