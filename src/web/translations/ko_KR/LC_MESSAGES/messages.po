@@ -323,8 +323,8 @@ msgid ""
 "We try to post a signed Subsurface macOS DMG here. If your Mac doesn't want "
 "to install this image, please let us know in the <a %(link)s>User Forum</a>."
 msgstr ""
-"우리는 여기에 서명된 Subsurface macOS DMG를 게시하려고 합니다. 만약 당신의 Mac이 이 이미지의 설치를 거부한다면, "
-"<a %(link)s> 사용자 포럼</a>을 통해 우리에게 알려주세요. "
+"우리는 여기에 서명된 Subsurface macOS DMG를 게시하려고 합니다. 만약 Mac이 이 이미지의 설치를 거부한다면, <a "
+"%(link)s> 사용자 포럼</a>을 통해 우리에게 알려주세요."
 
 #: templates/current-release.html:67 templates/latest-release.html:70
 msgid ""
