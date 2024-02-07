@@ -1041,7 +1041,7 @@ msgstr ""
 "birokracije i stalnih promjena pravila i zahtjeva povezanih s trgovinom "
 "Google Play, trenutno ne možemo ažurirati ovaj paket (i očekujemo da će "
 "postati nedostupan u nekom trenutku). Kako bismo to zaobišli, učinili smo "
-"Android APK paket dostupnim na našoj <a%(crelease)s>stranici trenutne "
+"Android APK paket dostupnim na našoj stranici <a %(crelease)s>trenutne "
 "verzije</a> koji se može side-loadati na većini Android uređaja."
 
 #: templates/faq.html:374
