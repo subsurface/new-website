@@ -852,7 +852,7 @@ msgid ""
 "Download the installer DMG from our <a %(crelease)s>current release</a> page"
 " and open it. Drag the Subsurface icon on to the Applications folder icon."
 msgstr ""
-"Preuzmite instalacijski DMG s naše <a %(crelease)s>stranice trenutne "
+"Preuzmite instalacijski DMG s naše stranice <a %(crelease)s>trenutne "
 "verzije</a> i otvorite ga. Povucite ikonu Subsurface na ikonu mape "
 "Applications."
 
