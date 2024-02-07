@@ -1294,7 +1294,7 @@ msgstr ""
 
 #: templates/faq.html:628
 msgid "What to do when authentication to cloud storage fails?"
-msgstr "클라우드 스토리지 인증에 실패하면 어떻게 해야 합니까?"
+msgstr "클라우드 스토리지 인증에 실패하면 어떡하나요?"
 
 #: templates/faq.html:635
 #, python-format
