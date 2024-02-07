@@ -114,8 +114,8 @@ msgid ""
 "look at our <a %(link)s>code contribution page on GitHub</a> to see how you "
 "can get started."
 msgstr ""
-"만약 당신이 소프트웨어 개발자라면(경력 무관), 당신은 Subsurface의 유지, 관리에 큰 도움을 줄 수 있습니다. 구체적인 방법은 "
-"<a %(link)s>GitHub의 코드 기여 페이지</a>를 참조하세요."
+"소프트웨어 개발자라면(경력 무관) Subsurface의 유지, 관리에 큰 도움을 줄 수 있습니다. 구체적인 방법은 <a "
+"%(link)s>GitHub의 코드 기여 페이지</a>를 참조하세요."
 
 #: templates/contribute.html:22
 msgid "By Testing"
