@@ -499,12 +499,12 @@ msgstr "<a %(faq)s>Usein kysytyt kysymykset - FAQ</a>"
 #: templates/documentation.html:19
 #, python-format
 msgid "<a %(supporteddc)s>Supported Dive Computers</a>"
-msgstr "<a%(supporteddc)s>Tuetut sukellustietokoneet</a>"
+msgstr "<a %(supporteddc)s>Tuetut sukellustietokoneet</a>"
 
 #: templates/documentation.html:22
 #, python-format
 msgid "<a %(video)s>(fairly old) Video Tutorial</a>"
-msgstr "<a%(video)s>(vanhahko) video-ohje</a>"
+msgstr "<a %(video)s>(vanhahko) video-ohje</a>"
 
 #: templates/documentation.html:25
 #, python-format
