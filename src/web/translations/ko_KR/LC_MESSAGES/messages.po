@@ -1507,9 +1507,9 @@ msgid ""
 "dive computer. Exit all other apps that might try to connect to a media "
 "device, like for example the Android File Transfer."
 msgstr ""
-"디센트 Mk2/Mk3는 MTP 장치로서 Subsurface를 이용한 다운로드 시 종종 문제를 일으킵니다. MTP는 오직 단일 연결만을 "
-"지원하므로 다른 MTP 앱이 Subsurface와 다이브 컴퓨터 사이의 통신을 방해할 가능성이 있습니다. Android File "
-"Transfer와 같이 미디어 장치와의 연결을 시도할 가능성이 있는 앱을 모두 종료하세요."
+"Garmin Descent Mk2/Mk3는 MTP 장치로서 Subsurface를 이용한 다운로드 시 종종 문제를 일으킵니다. MTP는 "
+"오직 단일 연결만을 지원하므로 다른 MTP 앱이 Subsurface와 다이브 컴퓨터 사이의 통신을 방해할 가능성이 있습니다. "
+"Android File Transfer와 같이 미디어 장치와의 연결을 시도할 가능성이 있는 앱을 모두 종료하세요."
 
 #: templates/faq.html:792
 msgid "Garmin Descent Mk2/Mk3 on Windows"
