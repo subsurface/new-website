@@ -1347,9 +1347,9 @@ msgid ""
 "on DropBox or other similar services such as OwnCloud, TeamDrive, MiniBox, "
 "etc."
 msgstr ""
-"만약 당신이 데스크톱에서만 Subsurface를 사용하면서 로그 데이터를 원격 스토리지 서버에 백업하고자 한다면, 당신의 XML 데이터를"
-" DropBox 및 기타 유사한 서비스 - OwnCloud, TeamDrive, MiniBox 등 - 에 저장하는 방법을 설명하는 문서 "
-"자료가 있습니다."
+"만약 데스크톱에서만 Subsurface를 사용하면서 로그 데이터를 원격 스토리지 서버에 백업하고자 하는 경우, XML 데이터를 "
+"DropBox 및 기타 유사 서비스 - OwnCloud, TeamDrive, MiniBox 등 - 에 저장하는 방법을 설명한 문서 자료를"
+" 참고하세요."
 
 #: templates/faq.html:664
 msgid "Issues with specific dive computers"
