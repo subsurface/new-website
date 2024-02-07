@@ -1563,7 +1563,7 @@ msgstr ""
 
 #: templates/home.html:17
 msgid "The free, open-source cross-platform dive log software."
-msgstr "무료, 오픈소스 크로스 플랫폼 다이브 로그 소프트웨어"
+msgstr "무료, 오픈소스 크로스플랫폼 다이브 로그 소프트웨어"
 
 #: templates/home.html:32 templates/home.html:48
 msgid "Downloads for other platforms"
