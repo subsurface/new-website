@@ -1769,8 +1769,8 @@ msgid ""
 "an answer there, create a new topic and ask for help."
 msgstr ""
 "Se la domanda non ha trovato risposta qui, controllare il <a "
-"%(userforum)s>Forum utenti</a> e provare la funzione di ricerca. Se non "
-"trovate una risposta, create un nuovo argomento e chiedete aiuto."
+"%(userforum)s>Forum degli utenti</a> e provare la funzione di ricerca. Se "
+"non trovate una risposta, create un nuovo argomento e chiedete aiuto."
 
 #: templates/faq.html:813
 #, python-format
@@ -1781,8 +1781,8 @@ msgid ""
 msgstr ""
 "Questa FAQ è mantenuta come parte del nostro sito web nella repo <a "
 "%(webrepo)s>sito web</a>. Le richieste di pull sono ovviamente benvenute; è "
-"inoltre possibile suggerire aggiunte alle FAQ nell'<a %(userforum)s>User "
-"Forum</a>."
+"inoltre possibile suggerire aggiunte alle FAQ nell'<a %(userforum)s>Forum "
+"degli utenti1</a>."
 
 #: templates/home.html:17
 msgid "The free, open-source cross-platform dive log software."
@@ -2223,7 +2223,7 @@ msgid ""
 "our <a %(link)s>User Forum</a>."
 msgstr ""
 "Avete domande, commenti o suggerimenti per Subsurface? Unitevi al nostro <a "
-"%(link)s>Forum utenti</a>."
+"%(link)s>Forum degli utenti1</a>."
 
 #: templates/user-forum.html:18
 msgid ""
