@@ -886,8 +886,8 @@ msgid ""
 " you think there is a distribution that we should add instead of the ones "
 "that we currently support."
 msgstr ""
-"다른 Linux 배포판을 위한 지원을 추가하는 것은 일반적으로 많은 작업량을 필요로 하는 것으로서 적은 사용자 수를 고려할 때 그 지원이"
-" 이루어질 가능성은 낮습니다. 다만 우리가 현재 지원하는 것 대신에 추가해야 할 배포판이 있다고 생각한다면 우리에게 말씀해 주세요. "
+"다른 Linux 배포판에 대한 지원을 추가하는 것은 일반적으로 많은 작업량을 필요로 하는 것으로서, 적은 사용자 수를 고려할 때 그 "
+"지원이 이루어질 가능성은 낮습니다. 다만 우리가 현재 지원하고 있는 것 대신에 추가해야 할 배포판이 있다고 생각한다면 말씀해 주세요. "
 
 #: templates/faq.html:334 templates/faq.html:353
 #, python-format
