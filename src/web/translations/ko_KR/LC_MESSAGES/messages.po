@@ -1203,7 +1203,7 @@ msgstr ""
 
 #: templates/faq.html:568
 msgid "How can I load pictures and associate them with my dive?"
-msgstr "사진을 불러와 내 다이브와 연동하는 방법은 무엇인가요?"
+msgstr "사진을 불러와 다이브와 연동하려면 어떻게 하나요?"
 
 #: templates/faq.html:575
 msgid ""
