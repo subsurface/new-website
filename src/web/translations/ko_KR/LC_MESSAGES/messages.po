@@ -1865,8 +1865,8 @@ msgid ""
 "With the GDPR compliance out of the way, here is the summary that applies to"
 " everyone (since we don't actually track where you are from):"
 msgstr ""
-"GDPR - EU의 개인정보보호법 -의 준수는 논외로 하고, 아래 내용은 모든 사용자에게 적용되는 사항을 요약한 것입니다(우리는 당신이 "
-"어디 출신인지 추적하지 않으므로):"
+"GDPR - EU의 개인정보보호법 -의 준수는 논외로 하고, 여러분 모두에게 적용되는 사항의 요지는 다음과 같습니다(우리는 여러분이 어디"
+" 출신인지 알지 못하므로):"
 
 #: templates/privacy-policy.html:39
 msgid ""
