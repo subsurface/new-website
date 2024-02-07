@@ -1305,9 +1305,9 @@ msgid ""
 "still not working or there is something else wrong, contact Dirk to sort it "
 "out."
 msgstr ""
-"만약 Subsurface에 대한 올바른 사용자 자격 증명을 구성했음에도 클라우드 인증에 여전히 실패한다면, 우리 웹사이트의 <a "
+"만약 Subsurface에 대한 올바른 사용자 자격 증명을 구성했음에도 클라우드 인증에 여전히 실패한다면, 이 웹사이트의 <a "
 "%(pwdreset)s>비밀번호 리셋</a>을 통해 비밀번호를 변경해보세요. 만약 자격 증명이 여전히 작동하지 않거나 다른 문제가 "
-"있다면, 그 해결을 위해 Dirk에게 문의하세요."
+"있다면, Dirk에게 문의하세요."
 
 #: templates/faq.html:646
 msgid "Can Subsurface store my files on a different cloud server?"
