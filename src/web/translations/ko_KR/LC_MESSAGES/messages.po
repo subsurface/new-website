@@ -284,7 +284,7 @@ msgstr "\"주간\" 현재 릴리스: %(version)s"
 msgid ""
 "The releases on this page are what we consider the current release builds of"
 " Subsurface."
-msgstr "이 페이지의 릴리스는 우리가 Subsurface의 현재 릴리스 빌드로 간주하는 것입니다."
+msgstr "이 페이지의 릴리스는 Subsurface의 현재 릴리스 빌드입니다."
 
 #: templates/current-release.html:20
 msgid ""
