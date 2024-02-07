@@ -392,7 +392,7 @@ msgstr ""
 
 #: templates/current-release.html:98 templates/latest-release.html:101
 msgid "To install the Subsurface CICD binaries on Fedora simply run"
-msgstr "Fedora에 Subsurface CICD 바이너리를 설치하려면 그냥 실행하세요."
+msgstr "Fedora에 Subsurface CICD 바이너리를 설치하려면 다음을 실행하세요."
 
 #: templates/current-release.html:100 templates/latest-release.html:103
 msgid "and then install Subsurface with <code>dnf install subsurface</code>"
