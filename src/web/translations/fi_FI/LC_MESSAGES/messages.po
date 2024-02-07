@@ -2045,7 +2045,7 @@ msgstr ""
 " EU-alueella, mutta ei muualla). Tämän vuoksi emme voi tehdä tänne "
 "saataville uusia iOS-versioita Subsurfacesta. Yritämme  siirtää uudet "
 "versiot julkiseen TestFlight-tiliimme. Jos haluat aivan viimeisimmän "
-"version, voit <%(link)s>kirjautua Subsurfacen mobiiliversion TestFlight-"
+"version, voit <a%(link)s>kirjautua Subsurfacen mobiiliversion TestFlight-"
 "sivustolle</a>."
 
 #: templates/latest-release.html:117
