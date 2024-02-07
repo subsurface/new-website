@@ -247,9 +247,9 @@ msgid ""
 "%(license)s>GPLv2</a> -- and it is based on many other open source "
 "components."
 msgstr ""
-"Subsurface on avoimen lähdekoodin ohjelmisto, joka on julkistettu "
-"<a%(license)s>GPLv2</a> lisenssin alla. Subsurface puolestaan perustuu "
-"moniin muihin avoimen lähdekoodin ohjelmakirjastoihin."
+"Subsurface on avoimen lähdekoodin ohjelmisto, joka on julkistettu <a "
+"%(license)s>GPLv2</a> lisenssin alla. Subsurface puolestaan perustuu moniin "
+"muihin avoimen lähdekoodin ohjelmakirjastoihin."
 
 #: templates/credits.html:18 templates/credits.html:21
 #: templates/credits.html:23 templates/credits.html:25
@@ -281,7 +281,7 @@ msgstr "Subsurface-mobiili käyttää lisäksi"
 #, python-format
 msgid "The Windows binaries are built using <a %(mxe)s>MXE</a>."
 msgstr ""
-"Windowsin binäärit on muodostettu käyttäen <a%(mxe)s>MXE-työkalua</a>."
+"Windowsin binäärit on muodostettu käyttäen <a %(mxe)s>MXE-työkalua</a>."
 
 #: templates/credits.html:62
 #, python-format
