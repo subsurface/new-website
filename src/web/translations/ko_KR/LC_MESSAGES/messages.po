@@ -1079,7 +1079,7 @@ msgstr ""
 
 #: templates/faq.html:489
 msgid "How can I use more than one tank with the same gas?"
-msgstr "동일한 기체로 하나 이상의 탱크를 사용하는 방법은 무엇입니까?"
+msgstr "동일한 기체로 둘 이상의 탱크를 사용하는 방법은 무엇입니까?"
 
 #: templates/faq.html:496
 msgid ""
