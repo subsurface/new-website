@@ -1518,7 +1518,7 @@ msgstr "Windows에서의 Garmin Descent Mk2/Mk3"
 #: templates/faq.html:799
 msgid ""
 "You need the correct USB driver in order to talk to the Descent Mk2/Mk3."
-msgstr "디센트 Mk2/Mk3와 통신하기 위해서는 올바른 USB 드라이버가 필요합니다."
+msgstr "Descent Mk2/Mk3와 통신하기 위해서는 올바른 USB 드라이버가 필요합니다."
 
 #: templates/faq.html:802
 #, python-format
