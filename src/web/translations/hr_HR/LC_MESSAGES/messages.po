@@ -1165,8 +1165,8 @@ msgid ""
 "There are multiple ways to import into Subsurface. Details can be found in "
 "the <a %(usermanual)s>User Manual</a>."
 msgstr ""
-"Postoji više načina za unos u Subsurface. Detalji se mogu pronaći u "
-"<a%(usermanual)s>korisničkom priručniku</a>."
+"Postoji više načina za unos u Subsurface. Detalji se mogu pronaći u <a "
+"%(usermanual)s>korisničkom priručniku</a>."
 
 #: templates/faq.html:473
 msgid ""
