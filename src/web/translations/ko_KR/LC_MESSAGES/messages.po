@@ -1498,7 +1498,7 @@ msgstr ""
 
 #: templates/faq.html:776
 msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
-msgstr "가민 디센트 Mk2/Mk3가 연결되지 않습니다"
+msgstr "Garmin Descent Mk2/Mk3가 연결되지 않습니다"
 
 #: templates/faq.html:783
 msgid ""
