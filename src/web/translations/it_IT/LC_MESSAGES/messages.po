@@ -2021,7 +2021,7 @@ msgstr ""
 
 #: templates/latest-release.html:20
 msgid "The latest change-sets merged into this release are:"
-msgstr ""
+msgstr "I più recenti pacchetti di modifiche uniti in questa release sono:"
 
 #: templates/latest-release.html:26
 #, python-format
