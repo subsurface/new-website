@@ -2014,7 +2014,7 @@ msgid ""
 "If you are looking for a somewhat less \"bleeding edge\" set of builds, "
 "please consider the <a %(link)s>Current Release Page</a>."
 msgstr ""
-"Jos et hae aivan viimeisintä versiota, harkitse <%(link)sNykyistä "
+"Jos et hae aivan viimeisintä versiota, harkitse <a%(link)sNykyistä "
 "versiota</a>."
 
 #: templates/latest-release.html:55
