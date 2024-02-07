@@ -2039,6 +2039,10 @@ msgid ""
 " process by control-clicking (or two-finger-clicking) on the executable and "
 "selecting to open it."
 msgstr ""
+"Il DMG di Subsurface per macOS non è firmato. macOS vi obbligherà a eseguire"
+" alcuni passaggi extra prima di poter installare o eseguire questo "
+"programma. È possibile semplificare il processo facendo clic con il pulsante"
+" control (o con due dita) sull'eseguibile e selezionando di aprirlo."
 
 #: templates/latest-release.html:88
 #, python-format
