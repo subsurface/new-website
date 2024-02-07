@@ -162,9 +162,9 @@ msgid ""
 "website. To get started please head over to our code contribution page on "
 "GitHub to find out <a %(link)s>how to join the community</a>."
 msgstr ""
-"만약 당신이 사용성과 사용자 경험에 집착하는 사람이라면, 그리고 이상적으로는 UX 또는 웹디자인 분야의 경력자라면, 당신은 언제든지 "
-"Subsurface와 우리 웹사이트의 사용자 경험, 디자인을 개선하는 데 도움을 줄 수 있습니다. 시작하려면 GitHub의 코드 기여 "
-"페이지에 방문하여 <a%(link)s>커뮤니티에 가입하는 방법</a>을 확인하세요."
+"사용성과 사용자 경험에 집착하는 사람이라면, 그리고 이상적으로는 UX 또는 웹디자인 분야의 경력자라면, 언제든지 Subsurface와 "
+"웹사이트의 사용자 경험, 디자인을 개선하는 데 도움을 줄 수 있습니다. 시작하려면 GitHub의 코드 기여 페이지에 방문하여 "
+"<a%(link)s>커뮤니티에 가입하는 방법</a>을 확인하세요."
 
 #: templates/contribute.html:37
 msgid "By Translating Subsurface"
