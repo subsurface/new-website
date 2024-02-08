@@ -1933,9 +1933,9 @@ msgstr ""
 "kaasupainekäyrä, jos painelähetin on käytössä) innovatiivisilla tavoilla, "
 "jotka antavat käyttäjälle lisätietoa suhteellisesta nopeudesta ja "
 "hetkellisestä ilmankulutuksesta sukelluksen aikana. Käyttäjät, joilla on "
-"sukelluksella mukana useita sukellustietokoneita, voivat yhdistää kunkin "
-"sukellustietokoneen tiedot yhdeksi sukellukseksi - mikä mahdollistaa useista"
-" lähteistä kerättyjen tietojen visualisoinnin."
+"sukelluksella mukana useita sukellustietokoneita, voivat yhdistää "
+"sukellustietokoneiden tiedot yhdeksi sukellukseksi - mikä mahdollistaa "
+"useista lähteistä kerättyjen tietojen visualisoinnin."
 
 #: templates/home.html:160
 msgid ""
