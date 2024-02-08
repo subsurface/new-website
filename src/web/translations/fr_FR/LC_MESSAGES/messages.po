@@ -6,8 +6,8 @@
 # Translators:
 # adoutte <adoutte@gmail.com>, 2024
 # Guillaume Betous, 2024
-# Jean-Baptiste Martin, 2024
 # Guillaume_G <guillaume.gardet@free.fr>, 2024
+# Jean-Baptiste Martin, 2024
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-02-05 17:38+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
-"Last-Translator: Guillaume_G <guillaume.gardet@free.fr>, 2024\n"
+"Last-Translator: Jean-Baptiste Martin, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/subsurface/teams/15508/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1762,12 +1762,13 @@ msgid ""
 msgstr ""
 "Si vous ne parvenez pas à faire fonctionner les téléchargements standards, "
 "mais que vous avez accès aux fichiers `.FIT`, vous pouvez quand même "
-"utiliser Subsurface pour les importer, via le code de téléchargement. Créez "
-"simplement un dossier <code>...le...chemin.../Garmin/Activity</code> et "
-"copiez le fichier <code>.FIT</code> dans ce dossier. Maintenant, démarrez un"
-" téléchargement Subsurface et entrez <code>...le...chemin...</code> (sans la"
-" partie <code>Garmin/Activity</code>) dans le champ Connexion et cliquez sur"
-" Download."
+"utiliser Subsurface pour les importer, via le menu 'Importer depuis "
+"l'ordinateur de plongée\". Créez simplement un dossier "
+"<code>...le...chemin.../Garmin/Activity</code> et copiez le fichier "
+"<code>.FIT</code> dans ce dossier. Maintenant, démarrez un téléchargement "
+"Subsurface et entrez <code>...le...chemin...</code> (sans la partie "
+"<code>Garmin/Activity</code>) dans le champ Connexion et cliquez sur "
+"Download."
 
 #: templates/faq.html:776
 msgid "Garmin Descent Mk2/Mk3 doesn't want to connect"
