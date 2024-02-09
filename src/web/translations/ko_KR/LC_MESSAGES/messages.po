@@ -1180,7 +1180,7 @@ msgid ""
 "that it's incompatible with Subsurface cloud storage."
 msgstr ""
 "다른 방법은 다른 사용자들의 로그 기록을 각각 별도의 로그 파일에 저장하는 것입니다. Subsurface에서는 다른 다이버들을 위한 개별"
-" 로그 파일을 열 수도 있고 여러 사용자를 위한 지원도 나쁘지 않습니다만, 이 방법의 단점은 Subsurface 클라우드 스토리지와 "
+" 로그 파일을 열 수도 있고 여러 사용자를 위한 지원도 나쁘지 않습니다만, 이 방법의 단점은 Subsurface 클라우드 저장소와 "
 "호환되지 않는다는 것입니다."
 
 #: templates/faq.html:558
@@ -1293,7 +1293,7 @@ msgstr ""
 
 #: templates/faq.html:628
 msgid "What to do when authentication to cloud storage fails?"
-msgstr "클라우드 스토리지 인증에 실패하면 어떡하나요?"
+msgstr "클라우드 저장소 인증에 실패하면 어떡하나요?"
 
 #: templates/faq.html:635
 #, python-format
