@@ -1040,7 +1040,7 @@ msgstr ""
 
 #: templates/faq.html:463
 msgid "How can I import my dives into Subsurface?"
-msgstr "내 다이브 기록을 Subsurface로 어떻게 가져오나요?"
+msgstr "내 다이빙을 Subsurface로 어떻게 가져오나요?"
 
 #: templates/faq.html:470
 #, python-format
