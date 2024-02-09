@@ -964,7 +964,7 @@ msgid ""
 msgstr ""
 "다른 모든 장치(Subsurface-mobile을 지원하지 않는 OS가 설치된 태블릿과 전화 포함)에서는 우리의 <a "
 "%(cloudweb)s>클라우드 웹사이트</a>에 접속하여 동일한 이메일 주소 / 비밀번호로 로그인할 수 있습니다. 이처럼 어떠한 "
-"장치에서든 웹 브라우저를 이용해 다이브 데이터에 접근할 수 있습니다."
+"장치에서든 웹 브라우저를 이용해 다이빙 데이터에 접근할 수 있습니다."
 
 #: templates/faq.html:388
 msgid "What's the minimum Android version required?"
