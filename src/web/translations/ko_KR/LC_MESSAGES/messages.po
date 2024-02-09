@@ -1107,7 +1107,7 @@ msgstr ""
 
 #: templates/faq.html:509
 msgid "Why is Subsurface not able to download my dives from my dive computer?"
-msgstr "Subsurface가 내 다이브 컴퓨터로부터 다이브를 다운로드하지 못하는 이유는 무엇입니까?"
+msgstr "Subsurface가 내 다이브 컴퓨터로부터 다이빙을 다운로드하지 못하는 이유는 무엇입니까?"
 
 #: templates/faq.html:516
 msgid ""
