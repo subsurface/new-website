@@ -1073,7 +1073,7 @@ msgid ""
 " the User Manual for the most up to date information on this – it can be "
 "found in Section 5.3."
 msgstr ""
-"다른 소프트웨어 또는 웹사이트에서 다이브 데이터를 가져올 수도 있습니다. 이에 관한 가장 최신 정보는 사용자 매뉴얼 섹션 5.3.을 "
+"다른 소프트웨어 또는 웹사이트에서 다이빙 데이터를 가져올 수도 있습니다. 이에 관한 가장 최신 정보는 사용자 매뉴얼 섹션 5.3.을 "
 "참조하세요."
 
 #: templates/faq.html:489
