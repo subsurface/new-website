@@ -1646,9 +1646,9 @@ msgid ""
 "group the dive list into trips, and edit multiple dives at the same time, "
 "making it easy to support a large number of dives."
 msgstr ""
-"다이브에 태그를 지정할 수 있으며 태그, 장소, 함께 다이빙한 사람 등의 기준에 따라 <strong>다이브 목록을 "
-"필터링</strong>할 수도 있습니다. 다이브 목록을 트립으로 그룹화하고 여러 다이브들을 동시에 편집하는 등의 방법으로 많은 수의 "
-"다이브를 쉽게 관리할 수 있습니다."
+"다이빙에 태그를 지정할 수 있으며 태그, 장소, 함께 다이빙한 사람 등의 기준에 따라 <strong>다이빙 목록을 "
+"필터링</strong>할 수도 있습니다. 다이빙 목록을 트립으로 그룹화하고 여러 다이빙을 동시에 편집하는 등의 방법으로 많은 수의 "
+"다이빙을 쉽게 관리할 수 있습니다."
 
 #: templates/home.html:141
 msgid ""
