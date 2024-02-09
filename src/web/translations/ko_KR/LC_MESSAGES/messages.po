@@ -950,7 +950,7 @@ msgid ""
 "available in Subsurface-mobile."
 msgstr ""
 "모바일 장치에 Subsurface-mobile을 설치하였다면, 데스크톱이나 노트북의 Subsurface에서 클라우드 저장소를 활성화하고 "
-"여러분의 다이브 정보를 Subsurface 클라우드에 저장하세요. 그 다이브 기록은 이제 모바일 장치에서도 이용 가능합니다. "
+"여러분의 다이빙 정보를 Subsurface 클라우드에 저장하세요. 그 다이빙은 이제 모바일 장치에서도 이용 가능합니다. "
 "Subsurface-mobile은 데스크톱 버전의 모든 기능을 지원하지는 않습니다. 예를 들어 Subsurface-mobile에서 다이빙"
 " 계획 기능은 사용할 수 없습니다. "
 
