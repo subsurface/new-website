@@ -1287,8 +1287,8 @@ msgid ""
 "these. However, if the logs are only on your dive computer, they cannot be "
 "salvaged after being over written by new dives."
 msgstr ""
-"만약 다이브가 덮어 쓰여지기 전에 다른 다이브 로깅 소프트웨어로 다운로드되었다면, 이를 Subsurface로 가져올 수 있는 가능성이 "
-"상당합니다. 그러나 오로지 다이브 컴퓨터에만 저장된 로그는 일단 새 다이브로 덮여쓰인 다음에는 복구될 수 없습니다."
+"만약 다이빙이 덮어 쓰여지기 전에 다른 다이브 로깅 소프트웨어로 다운로드되었다면, 이를 Subsurface로 가져올 수 있는 가능성이 "
+"상당합니다. 그러나 오로지 다이브 컴퓨터에만 저장된 로그는 일단 새 다이빙으로 덮여쓰인 다음에는 복구될 수 없습니다."
 
 #: templates/faq.html:628
 msgid "What to do when authentication to cloud storage fails?"
