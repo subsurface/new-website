@@ -1056,7 +1056,7 @@ msgid ""
 "Manually logged dives can directly be entered in the UI or (in the desktop "
 "version) imported from various forms of spreadsheets."
 msgstr ""
-"UI를 통해 다이브 로그를 수동으로 직접 입력하거나 (데스트톱 버전에서) 다양한 형태의 스프레드시트에서 가져올 수 있습니다. "
+"수동으로 기록된 다이빙을 UI에서 직접 입력하거나 (데스트톱 버전의 경우) 다양한 형태의 스프레드시트에서 가져올 수 있습니다. "
 
 #: templates/faq.html:476
 msgid ""
