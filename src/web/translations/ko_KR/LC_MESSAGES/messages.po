@@ -1261,8 +1261,8 @@ msgid ""
 "I cannot download all my dives, only the most recent ones even though my "
 "dive computer's manual states that it records history of e.g. 999 dives."
 msgstr ""
-"다이브 컴퓨터 매뉴얼에는 매우 많은 수 - 예컨대 999개 - 의 다이브 이력이 기록된다고 되어 있으나 모든 다이브를 다운로드할 수 "
-"없고, 오로지 최근의 일부 다이브만 다운로드 가능합니다."
+"다이브 컴퓨터 매뉴얼에는 매우 많은 수 - 예컨대 999개 - 의 다이빙 이력이 기록된다고 되어 있음에도 모든 다이빙을 다운로드할 수 "
+"없고, 오로지 최근의 일부 다이빙만 다운로드 가능합니다."
 
 #: templates/faq.html:615
 msgid ""
