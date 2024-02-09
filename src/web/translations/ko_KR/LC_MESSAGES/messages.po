@@ -1581,7 +1581,7 @@ msgstr ""
 
 #: templates/home.html:84
 msgid "Log all your dives"
-msgstr "여러분의 모든 다이브를 기록하세요"
+msgstr "여러분의 모든 다이빙을 기록하세요"
 
 #: templates/home.html:86
 msgid ""
