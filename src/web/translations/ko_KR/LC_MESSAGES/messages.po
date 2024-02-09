@@ -1346,7 +1346,7 @@ msgid ""
 "on DropBox or other similar services such as OwnCloud, TeamDrive, MiniBox, "
 "etc."
 msgstr ""
-"만약 데스크톱에서만 Subsurface를 사용하면서 로그 데이터를 원격 스토리지 서버에 백업하고자 하는 경우, XML 데이터를 "
+"만약 데스크톱에서만 Subsurface를 사용하면서 로그 데이터를 원격 저장소 서버에 백업하고자 하는 경우, XML 데이터를 "
 "DropBox 및 기타 유사 서비스 - OwnCloud, TeamDrive, MiniBox 등 - 에 저장하는 방법을 설명한 문서 자료를"
 " 참고하세요."
 
@@ -1615,7 +1615,7 @@ msgstr "안드로이드나 iOS 장치에서는 Subsurface-mobile을 사용해 �
 
 #: templates/home.html:114
 msgid "Cloud storage"
-msgstr "클라우드 스토리지"
+msgstr "클라우드 저장소"
 
 #: templates/home.html:116
 msgid ""
