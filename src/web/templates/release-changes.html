@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}{{ _("Release Changes") }}{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="ssrf">{{ _("Release Changes") }}
+      </h1>
+      <p>
+        {{ _("A lot has happend in the 14 months between the 5.0.10 release of Subsurface and the end of 2023 - including the realization that our old approach to releasing the software wasn't working for us anymore. As a result we decided to attempt a different approach; instead of formal releases every few months with a cumbersome, manual process, we are switching to pointing our users at far more <a %(crelease)s>frequent and regular, automated builds</a> instead.", crelease="href=/current-release") }}
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

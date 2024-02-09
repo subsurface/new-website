@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-05 17:38+0000\n"
+"POT-Creation-Date: 2024-02-09 21:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,7 +44,7 @@ msgstr ""
 msgid "Bug Tracker"
 msgstr ""
 
-#: templates/base.html:96
+#: templates/base.html:96 templates/faq.html:3 templates/faq.html:13
 msgid "FAQ"
 msgstr ""
 
@@ -1576,6 +1576,22 @@ msgid ""
 "annoying. There is no monetization and no other use or processing of your"
 " data - we only store it with the purpose of making it available to you "
 "again on your devices."
+msgstr ""
+
+#: templates/release-changes.html:3 templates/release-changes.html:13
+msgid "Release Changes"
+msgstr ""
+
+#: templates/release-changes.html:16
+#, python-format
+msgid ""
+"A lot has happend in the 14 months between the 5.0.10 release of "
+"Subsurface and the end of 2023 - including the realization that our old "
+"approach to releasing the software wasn't working for us anymore. As a "
+"result we decided to attempt a different approach; instead of formal "
+"releases every few months with a cumbersome, manual process, we are "
+"switching to pointing our users at far more <a %(crelease)s>frequent and "
+"regular, automated builds</a> instead."
 msgstr ""
 
 #: templates/supported-dive-computers.html:3

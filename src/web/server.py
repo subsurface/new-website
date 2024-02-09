@@ -193,6 +193,11 @@ def static_mobile_user_manual():
     )
 
 
+@app.route("/release-changes/")
+def release_changes():
+    return render_template("release-changes.html", request=request)
+
+
 @app.get("/")
 def home():
     return render_template("home.html", request=request)
