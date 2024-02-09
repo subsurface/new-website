@@ -1237,7 +1237,7 @@ msgstr ""
 
 #: templates/faq.html:588
 msgid "Can I import my dives from my old log software?"
-msgstr "오래된 로그 소프트웨어로부터 다이브 기록을 가져올 수 있나요?"
+msgstr "오래된 로그 소프트웨어에서 다이빙을 가져올 수 있나요?"
 
 #: templates/faq.html:595
 msgid ""
