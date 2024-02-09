@@ -570,10 +570,10 @@ msgid ""
 "support team of a commercial vendor. If you'd like a commercial dive log "
 "program, there are plenty others to choose from."
 msgstr ""
-"Subsurface는 오픈 소스 소프트웨어로서 무료로 제공됩니다. Subsurface의 개발 - Subsurface 클라우드 스토리지 및"
-" 기타 모든 인프라의 제공을 포함 - 은 열성적인 그룹의 사람들이 자발적으로 여가 시간을 투입하여 이루어진 것입니다. 따라서 그들은 "
-"시간이 있을 때 비로소 여러분의 요청에 응답할 것이며, 상용 공급업체의 지원팀처럼 대우받기를 원하지 않는바, 이에 대해 양해를 바랍니다."
-" 만약 상용 다이빙 로그 프로그램을 원한다면, 선택할 수 있는 다른 프로그램이 많이 있습니다."
+"Subsurface는 오픈 소스 소프트웨어로서 무료로 제공됩니다. Subsurface의 개발 - Subsurface 클라우드 저장소 및 "
+"기타 모든 인프라의 제공을 포함 - 은 열성적인 그룹의 사람들이 자발적으로 여가 시간을 투입하여 이루어진 것입니다. 따라서 그들은 시간이"
+" 있을 때 비로소 여러분의 요청에 응답할 것이며, 상용 공급업체의 지원팀처럼 대우받기를 원하지 않는바, 이에 대해 양해를 바랍니다. 만약"
+" 상용 다이빙 로그 프로그램을 원한다면, 선택할 수 있는 다른 프로그램이 많이 있습니다."
 
 #: templates/faq.html:68
 #, python-format
