@@ -1102,9 +1102,8 @@ msgid ""
 "gasses to those tanks, e.g. oxygen contents of 21%% and 22%% for two tanks "
 "holding air."
 msgstr ""
-"동일한 기체를 사용하는 여러 탱크에 압력 트랜스미터가 있는 경우 상황은 약간 더 복잡합니다. 이러한 다이브 기록을 가져올 때 혼란을 "
-"방지하는 가장 쉬운 방법은 해당 탱크에 살짝 다른 기체를 할당 - 예를 들어 두 탱크의 산소 함량을 각 21%%와 22%%로 - 하는 "
-"것입니다."
+"동일한 기체를 사용하는 여러 탱크에 압력 트랜스미터가 있는 경우 상황은 약간 더 복잡합니다. 이러한 다이빙을 가져올 때 혼란을 방지하는 "
+"가장 쉬운 방법은 해당 탱크에 살짝 다른 기체를 할당 - 예를 들어 두 탱크의 산소 함량을 각 21%%와 22%%로 - 하는 것입니다."
 
 #: templates/faq.html:509
 msgid "Why is Subsurface not able to download my dives from my dive computer?"
