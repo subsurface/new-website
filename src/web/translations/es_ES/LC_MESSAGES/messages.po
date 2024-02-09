@@ -7,6 +7,7 @@
 # Dirk Hohndel <dirk@hohndel.org>, 2024
 # Boret <salvador.cunat@gmail.com>, 2024
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
@@ -238,7 +239,7 @@ msgstr ""
 
 #: templates/credits.html:3 templates/credits.html:13
 msgid "Credits"
-msgstr ""
+msgstr "Créditos"
 
 #: templates/credits.html:15
 #, python-format
@@ -465,7 +466,7 @@ msgstr ""
 
 #: templates/data-deletion.html:3 templates/data-deletion.html:13
 msgid "Deleting Cloud Data and Account"
-msgstr ""
+msgstr "Borrar los Datos en la Nube y la Cuenta"
 
 #: templates/data-deletion.html:15
 #, python-format
@@ -2134,7 +2135,7 @@ msgstr ""
 #: templates/supported-dive-computers.html:3
 #: templates/supported-dive-computers.html:13
 msgid "Supported Dive Computers"
-msgstr ""
+msgstr "Ordenadores de Buceo Compatibles"
 
 #: templates/supported-dive-computers.html:15
 msgid ""
@@ -2161,7 +2162,7 @@ msgstr ""
 
 #: templates/tutorial-video.html:3 templates/tutorial-video.html:13
 msgid "Video Tutorial"
-msgstr ""
+msgstr "Tutorial de Vídeo"
 
 #: templates/tutorial-video.html:15
 msgid ""
