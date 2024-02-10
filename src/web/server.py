@@ -2,9 +2,8 @@ import hashlib
 import hmac
 import json
 import os
-import shutil
-import subprocess
 from pathlib import Path
+from semver.version import Version
 
 from .globals import globals
 from .subsurfacesync import SubsurfaceSync
@@ -271,6 +270,80 @@ def tutorial_video():
 @app.get("/data-deletion/")
 def data_deletion():
     return render_template("data-deletion.html", request=request)
+
+
+@app.get("/updatecheck.html")
+@app.get("/updatecheck.html/")
+def updatecheck():
+    # semver makes this easy - but for the build-extra text to be handled correctly, it needs to be separated with a '+'
+    uv = request.args.get("version").replace("-", "+", 1)
+    if not Version.is_valid(uv):
+        print(f"cannot parse version {uv}")
+        return f"System error: cannot parse version {uv}"
+    user_version = Version.parse(uv)
+
+    # and before we do anything else, parse the current version as well (with the same modification)
+    cv = env.get("crelease").value.replace("-", "+", 1)
+    if not Version.is_valid(cv):
+        print(f"cannot parse internal current version {cv}")
+        return "System error: cannot retrieve current version"
+    current_version = Version.parse(cv)
+
+    os = request.args.get("os")
+    user_agent = request.headers.get("User-Agent")
+    print(f"got a request for {os}, {user_version}, {user_agent}")
+
+    analysis = version_check(current_version, user_version)
+    ret = analysis.get("ret")
+    print(f"returning: {ret}")
+    return ret
+
+
+@app.get("/updatecheck2/")
+def updatecheck2():
+    # new version with json data being returned to the client - requires newer Subsurface version that can parse this
+    # this will be expanded to provide specific download links in the future.
+    # semver makes this easy - but for the build-extra text to be handled correctly, it needs to be separated with a '+'
+    uv = request.args.get("version").replace("-", "+", 1)
+    if not Version.is_valid(uv):
+        print(f"cannot parse version {uv}")
+        return {"err": f"System error: cannot parse version {uv}"}, 400
+    user_version = Version.parse(uv)
+
+    # and before we do anything else, parse the current version as well (with the same modification)
+    cv = env.get("crelease").value.replace("-", "+", 1)
+    if not Version.is_valid(cv):
+        print(f"cannot parse internal current version {cv}")
+        return {"err": "System error: cannot retrieve current version"}, 500
+    current_version = Version.parse(cv)
+
+    os = request.args.get("os")
+    user_agent = request.headers.get("User-Agent")
+    print(f"got a request for {os}, {user_version}, {user_agent}")
+
+    ret = version_check(current_version, user_version)
+    print(f"returning: {ret}")
+    return ret
+
+
+def version_check(current_version: Version, user_version: Version):
+    ret = "Server error"
+    if current_version < user_version:
+        ret = "You are running a build that is newer than the current release."
+    elif current_version == user_version:
+        if user_version.build == "CICD-release":
+            ret = "OK"
+        else:
+            ret = "You are running a local build that is based on the current release"
+    elif current_version > user_version:
+        if user_version.build == "CICD-release":
+            ret = f"There is a newer release {current_version} available."
+        else:
+            ret = "You appear to be running a local build that is based on an older release."
+    else:
+        print(f"semver comparison is broken for {current_version} and {user_version}")
+    print(user_version.build)
+    return {"ret": ret}
 
 
 #

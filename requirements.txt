@@ -71,6 +71,8 @@ requests==2.31.0
     # via
     #   -r requirements.in
     #   pygithub
+semver==3.0.2
+    # via -r requirements.in
 six==1.16.0
     # via python-dateutil
 typing-extensions==4.9.0
