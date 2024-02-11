@@ -101,8 +101,8 @@ msgid ""
 msgstr ""
 "O Subsurface é um projeto de código aberto conduzido pela comunidade. Está "
 "disponível gratuitamente para todos e ninguém é pago para trabalhar nele. Se"
-" você o aprecia e gostaria de contribuir em retribuição, há uma quantidade "
-"de maneiras pelas quais você pode fazer isso."
+" você o aprecia e gostaria de contribuir em retribuição, há uma várias "
+"maneiras de fazer isso."
 
 #: templates/contribute.html:17
 msgid "By Writing Code"
