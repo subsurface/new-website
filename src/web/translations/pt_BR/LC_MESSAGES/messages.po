@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 "Embora apreciemos receber relatórios de falhas (e código com correções) na "
 "nossa  <a %(mailman)s>mailing list</a>, você pode também abrir questões no "
-"no  <a %(githubissue)s>repositório principal do Subsurface no GitHub</a>."
+"<a %(githubissue)s>repositório principal do Subsurface no GitHub</a>."
 
 #: templates/bugtracker.html:18 templates/user-forum.html:21
 msgid ""
