@@ -278,8 +278,15 @@ def updatecheck():
     # semver makes this easy - but for the build-extra text to be handled correctly, it needs to be separated with a '+'
     uv = request.args.get("version").replace("-", "+", 1)
     if not Version.is_valid(uv):
-        print(f"cannot parse version {uv}")
-        return f"System error: cannot parse version {uv}"
+        print(f"{uv} is not a semVer - let's try something else")
+        # so this could be an old 4 part version number like 5.0.10.0
+        last_dot = uv.rfind(".")
+        if last_dot > 4:
+            uv = uv[:last_dot] + "+" + uv[last_dot + 1 :]
+            print(f"rewrote version as {uv}")
+        else:
+            print(f"cannot parse version {uv} - last_dot was {last_dot}")
+            return f"System error: cannot parse version {uv}"
     user_version = Version.parse(uv)
 
     # and before we do anything else, parse the current version as well (with the same modification)
@@ -336,14 +343,15 @@ def version_check(current_version: Version, user_version: Version):
         else:
             ret = "You are running a local build that is based on the current release"
     elif current_version > user_version:
+        link = "https://subsurface-divelog.org/current-release/"
         if user_version.build == "CICD-release":
-            ret = f"There is a newer release {current_version} available."
+            ret = f"There is a newer release {current_version} available at {link}"
         else:
-            ret = "You appear to be running a local build that is based on an older release."
+            ret = f"You appear to be running a local build that is based on an older release. Please upgrade to {current_version} at {link}"
     else:
         print(f"semver comparison is broken for {current_version} and {user_version}")
     print(user_version.build)
-    return {"ret": ret}
+    return {"ret": ret, "link": link}
 
 
 #
