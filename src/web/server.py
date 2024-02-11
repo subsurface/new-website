@@ -37,6 +37,7 @@ Simple backend to run the Subsurface website
 """
 languages = [
     "en",
+    "ca",
     "de_DE",
     "de",
     "el_GR",
@@ -57,6 +58,7 @@ languages = [
     "ko",
     "nl_NL",
     "nl",
+    "pt_BR",
     "pt_PT",
     "pt",
     "sv_SE",
