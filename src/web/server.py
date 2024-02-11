@@ -335,6 +335,7 @@ def updatecheck2():
 
 def version_check(current_version: Version, user_version: Version):
     ret = "Server error"
+    link = ""
     if current_version < user_version:
         ret = "You are running a build that is newer than the current release."
     elif current_version == user_version:
