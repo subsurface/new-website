@@ -24,7 +24,7 @@ msgstr ""
 
 #: templates/base.html:57
 msgid "Home"
-msgstr "Principal"
+msgstr "Home"
 
 #: templates/base.html:64
 msgid "Current Release"
