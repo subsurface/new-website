@@ -8,15 +8,16 @@
 # Guillaume Betous, 2024
 # Guillaume_G <guillaume.gardet@free.fr>, 2024
 # Jean-Baptiste Martin, 2024
+# Morvan OUISSE, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-05 17:38+0000\n"
+"POT-Creation-Date: 2024-02-09 21:56+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
-"Last-Translator: Jean-Baptiste Martin, 2024\n"
+"Last-Translator: Morvan OUISSE, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/subsurface/teams/15508/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +53,7 @@ msgstr "Forum utilisateurs"
 msgid "Bug Tracker"
 msgstr "Suivi des bugs"
 
-#: templates/base.html:96
+#: templates/base.html:96 templates/faq.html:3 templates/faq.html:13
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -2226,6 +2227,30 @@ msgstr ""
 "ni d'autre utilisation ou traitement de vos données - nous les stockons "
 "uniquement dans le but de les rendre à nouveau disponibles sur vos "
 "appareils."
+
+#: templates/release-changes.html:3 templates/release-changes.html:13
+msgid "Release Changes"
+msgstr "Notes de version"
+
+#: templates/release-changes.html:16
+#, python-format
+msgid ""
+"A lot has happend in the 14 months between the 5.0.10 release of Subsurface "
+"and the end of 2023 - including the realization that our old approach to "
+"releasing the software wasn't working for us anymore. As a result we decided"
+" to attempt a different approach; instead of formal releases every few "
+"months with a cumbersome, manual process, we are switching to pointing our "
+"users at far more <a %(crelease)s>frequent and regular, automated builds</a>"
+" instead."
+msgstr ""
+"Beaucoup de choses se sont passées au cours des 14 mois entre la version "
+"5.0.10 de Subsurface et la fin de l'année 2023 - en particulier le constat "
+"que notre ancienne approche de publication du logiciel ne fonctionnait plus "
+"pour nous. En conséquence, nous avons décidé de tenter une approche "
+"différente ; à la place des sorties formelles qui avaient lieu quelques fois"
+" par an et qui nécessitaient un processus manuel lourd, nous passons à des "
+"constructions et publications automatisées beaucoup plus <a "
+"%(crelease)sfréquentes et régulières </a>à la place."
 
 #: templates/supported-dive-computers.html:3
 #: templates/supported-dive-computers.html:13
