@@ -1031,7 +1031,7 @@ msgstr ""
 "com desenvolvimento em C/C++ em Linux). O arquivo <code>INSTALL</code> no "
 "diretório fonte deve ser suficiente para começar. Entre em contato com os "
 "desenvolvedores caso necessite ajuda adicional (porque isso provavelmente "
-"significa que necessitamos atualizar o arquivo <code>INSTALL</code>...)."
+"significa que precisamos atualizar o arquivo <code>INSTALL</code>...)."
 
 #: templates/faq.html:358
 msgid "Mobile Support"
