@@ -1827,8 +1827,8 @@ msgid ""
 "or via a simple spreadsheet."
 msgstr ""
 "Baixe seus mergulhos de seu computador de mergulho. Importe-os de outros "
-"programas ou de websites de logbook de mergulho. Entre os mergulhos de forma"
-" manual diretamente no Subsurface ou através de uma simples planilha. "
+"programas ou de websites de logbook de mergulho. Introduza os mergulhos de "
+"forma manual diretamente no Subsurface ou através de uma simples planilha. "
 
 #: templates/home.html:94
 msgid "Dive planner"
