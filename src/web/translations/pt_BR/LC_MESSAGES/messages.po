@@ -342,7 +342,7 @@ msgid ""
 "This Subsurface Windows installer is not signed and Windows will likely ask "
 "you to confirm that you want to install this program."
 msgstr ""
-"O instalador de Subsurface para Windows não está assinado e Windows "
+"Este instalador de Subsurface para Windows não está assinado e Windows "
 "provavelmente pedirá que você confirme que quer instalar este programa."
 
 #: templates/current-release.html:52
