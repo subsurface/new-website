@@ -879,8 +879,8 @@ msgid ""
 " simply click Ok to open the app."
 msgstr ""
 "Ao abrir o aplicativo do Subsurface pela primeira vez, você receberá um "
-"alerta de que este binário foi baixado da Internet. Dependendo de suas "
-"configurações e se este é ou não um DMG assinado, o macOS permitirá que você"
+"alerta de que o binário foi baixado da Internet. Dependendo de suas "
+"configurações e se esse é ou não um DMG assinado, o macOS permitirá que você"
 " simplesmente clique OK para abrir o aplicativo."
 
 #: templates/faq.html:233
