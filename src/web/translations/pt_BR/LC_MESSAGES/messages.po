@@ -751,9 +751,9 @@ msgid ""
 "(but then, why would you want to run that). Older versions aren't supported "
 "anymore."
 msgstr ""
-"Subsurface roda em Windows 10 e versões mais atuais. Deve também rodar em "
-"Windows 8 (mas por que você desejaria rodar isso?). Versões mais antigas não"
-" são mais suportadas."
+"Subsurface roda em Windows 10 e mais recentes. Deve ainda rodar em Windows 8"
+" (mas por que alguém desejaria rodar isso?). Versões mais antigas não são "
+"mais suportadas."
 
 #: templates/faq.html:147
 msgid "Where do I find the log files on Windows?"
