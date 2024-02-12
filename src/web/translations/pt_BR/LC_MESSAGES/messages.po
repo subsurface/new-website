@@ -823,7 +823,7 @@ msgstr ""
 "A maioria/todos os pacotes antivírus para Windows têm um recurso de "
 "\"adicionar exceção\", que faz com que um arquivo executável não seja "
 "escaneado. Tente adicionar Subsurface à lista de software não malicioso. Se "
-"o instalador do Subsurface baixado é detectado como malicioso (malware), "
+"o instalador do Subsurface baixado é detectado como malicioso/malware, "
 "desabilite seu software antivírus temporariamente até que Subsurface seja "
 "instalado.  "
 
