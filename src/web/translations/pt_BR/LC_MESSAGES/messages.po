@@ -647,7 +647,7 @@ msgid ""
 "'<a %(contribute)s>Contribute</a>' page lists a few options and provides "
 "information on how to get started."
 msgstr ""
-"Se você estiver disposta a contribuir e ajudar, há muitas maneiras de fazê-"
+"Se você estiver disposto a contribuir e ajudar, há muitas maneiras de fazê-"
 "lo. Nossa página '<a %(contribute)s>Contribuir</a>' apresenta algumas opções"
 " e fornece informação de como começar."
 
