@@ -1882,7 +1882,7 @@ msgstr ""
 "ou TriMix. Permite o rastreamento de pontos de mergulho incluindo "
 "coordenadas GPS (as quais podem também ser convenientemente introduzidas "
 "usando uma interface com mapa), registro do equipamento utilizado e nomes de"
-" outros mergulhadores, e permite que o usuários classifiquem mergulhos e "
+" outros mergulhadores e permite que o usuários classifiquem mergulhos e "
 "forneçam notas adicionais."
 
 #: templates/home.html:136
