@@ -1780,7 +1780,7 @@ msgid ""
 msgstr ""
 "Se sua pergunta não foi respondida aqui, verifique o <a %(userforum)s>Fórum "
 "de Usuários</a> e experimente a função de busca. Se não encontrar uma "
-"resposta lá, crie um novo tópico e pela ajuda."
+"resposta lá, crie um novo tópico e peça ajuda."
 
 #: templates/faq.html:813
 #, python-format
