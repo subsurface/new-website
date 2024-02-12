@@ -1906,7 +1906,7 @@ msgid ""
 msgstr ""
 "Subsurface também calcula uma ampla variedade de "
 "<strong>estatísticas</strong> de mergulho do usuário e registra informação "
-"como o consumo de gás (SAC), pressão parcial de O2, N2 e He, informação de "
+"como o consumo de gás/SAC, pressão parcial de O2, N2 e He, informação de "
 "descompressão calculada e muito mais."
 
 #: templates/home.html:144
