@@ -1521,7 +1521,8 @@ msgstr ""
 "Subsurface pode armazenar seu logbook de mergulho com segurança na nuvem do "
 "Surface, fazendo backup de seus dados e permitindo acesso aos seus mergulhos"
 " por meio de um dispositivo desktop, Android ou iOS. Adicionalmente, há uma "
-"tela apenas para leitura disponível na <a %(cloudweb)s>webpage da nuvem</a>."
+"tela apenas para leitura disponível na <a %(cloudweb)s>página web da "
+"nuvem</a>."
 
 #: templates/faq.html:656
 msgid ""
