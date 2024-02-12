@@ -614,7 +614,7 @@ msgid ""
 "%(crelease)s>current release</a> page."
 msgstr ""
 "Subsurface-mobile para iOS está disponível na App Store. Subsurface-mobile "
-"para Android está disponível como APK na nossa página <a "
+"para Android está disponível como APK na nossa página da <a "
 "%(crelease)s>distribuição atual</a>"
 
 #: templates/faq.html:59
