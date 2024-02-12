@@ -1922,8 +1922,8 @@ msgid ""
 "The program is localized in about <strong>20 languages</strong> and well "
 "supported by an active developer community."
 msgstr ""
-"O programa está disponível em aproximadamente strong>20 idiomas</strong> e é"
-" bem suportado por uma ativa comunidade de desenvolvedores."
+"O programa está disponível em aproximadamente <strong>20 idiomas</strong> e "
+"é bem suportado por uma ativa comunidade de desenvolvedores."
 
 #: templates/home.html:152
 #, python-format
