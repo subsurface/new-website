@@ -2065,9 +2065,9 @@ msgstr ""
 "binários não assinados é impossível (aparentemente isso pode mudar para "
 "usuários da União Europeia, mas não para os demais). Como resultado, não "
 "podemos tornar novas versões do Subsurface-mobile para iOS disponíveis aqui."
-" Tentamos colocar muitos desses pacotes na nossa conta pública TestFlight. "
-"Se você gostaria de estar na vanguarda, pode <a %(link)s>inscrever-se para o"
-" TestFlight do Subsurface-mobile.</a>"
+" Tentamos colocar muitos desses pacotes na nossa conta pública no "
+"TestFlight. Se você gostaria de estar na vanguarda, pode <a "
+"%(link)s>inscrever-se para o TestFlight do Subsurface-mobile.</a>"
 
 #: templates/latest-release.html:117
 msgid "The 'edge' Snap-channel contains our latest build."
