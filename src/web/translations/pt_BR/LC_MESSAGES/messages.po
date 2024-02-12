@@ -1124,7 +1124,7 @@ msgstr ""
 "Computadores de mergulho baseados em Bluetooth e BLE bem como computadores "
 "com comunicação serial por USB geralmente devem funcionar (assumindo que "
 "sejam suportados pelo Subsurface, é claro). O que não funciona são outros "
-"dispositivos USB como USB HID (p. ex., a familia Suunto EON via cabo - BLE "
+"dispositivos USB como USB HID (p. ex., a familia Suunto EON via cabo; BLE "
 "funciona), armazenamento USB (p. ex., Uemis Zurich) ou MTP (p. ex., Garmin)."
 
 #: templates/faq.html:425
