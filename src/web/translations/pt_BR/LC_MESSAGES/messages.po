@@ -1952,9 +1952,9 @@ msgstr ""
 "Outro ponto forte é sua capacidade de <strong>visualizar</strong> o perfil "
 "de profundidade (e, se disponível, a curva de pressão do cilindro) em "
 "maneiras inovativas, que dão ao usuário informação adicional sobre "
-"velocidade relativa e consumo momentâneo de air durante o mergulho. Usuários"
-" que mergulham com <strong>múltiplos computadores de  mergulho</strong> "
-"podem combinar os dados de cada um deles em um único mergulho, permitindo a "
+"velocidade relativa e consumo momentâneo de ar durante o mergulho. Usuários "
+"que mergulham com <strong>múltiplos computadores de  mergulho</strong> podem"
+" combinar os dados de cada um deles em um único mergulho, permitindo a "
 "visualização dos dados coletados de múltiplas fontes."
 
 #: templates/home.html:160
