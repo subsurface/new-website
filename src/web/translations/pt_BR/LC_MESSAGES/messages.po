@@ -895,7 +895,7 @@ msgstr ""
 "website não são assinados. Nesse caso, macOS exigirá que você navegue nas "
 "Preferências do Sistema / Segurança para permitir que você inicie o "
 "Subsurface. Desde que o DMG tenha sido baixado deste website ele é seguro e "
-"não contém nenhum código malicioso (malware). "
+"não contém nenhum código malicioso/malware. "
 
 #: templates/faq.html:242
 msgid "Supported Versions"
