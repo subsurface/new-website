@@ -739,7 +739,7 @@ msgstr ""
 " de nosso website não são assinados; nesse caso, Windows apresenta mais e "
 "mais fortes alertas ao tentar utilizá-los. Desde que os binários sejam "
 "baixados deste website, eles são seguros e não contém qualquer tipo de "
-"código malicioso."
+"código malicioso/malware."
 
 #: templates/faq.html:131 templates/faq.html:307
 msgid "Supported versions"
