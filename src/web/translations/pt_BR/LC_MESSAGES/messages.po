@@ -317,9 +317,9 @@ msgid ""
 "the name suggests try to update them about once a week (the actual frequency"
 " may vary)."
 msgstr ""
-"Esperamos que estas versões sejam razoavelmente estáveis e testadas de "
-"alguma forma e, como o nome sugere, tentamos atualizá-las aproximadamente "
-"uma vez por semana (a frequência efetiva pode variar)."
+"Esperamos que estas versões sejam razoavelmente estáveis e de alguma forma "
+"testadas e, como o nome sugere, tentamos atualizá-las aproximadamente uma "
+"vez por semana (a frequência efetiva pode variar)."
 
 #: templates/current-release.html:23
 #, python-format
