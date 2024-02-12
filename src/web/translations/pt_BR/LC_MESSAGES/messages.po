@@ -1172,8 +1172,8 @@ msgid ""
 "                (“weekly”) updates."
 msgstr ""
 "Você também com conferir a página  <a %(crelease)s>distribuição atual</a> "
-"para dar uma olhada nas nossas atualizações razoavelmente frequentes "
-"(semanais, \"weekly\")."
+"para dar uma olhada nas nossas razoavelmente frequentes atualizações "
+"(semanais/\"weekly\")."
 
 #: templates/faq.html:463
 msgid "How can I import my dives into Subsurface?"
