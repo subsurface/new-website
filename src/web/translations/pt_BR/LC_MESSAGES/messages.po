@@ -603,7 +603,7 @@ msgstr ""
 " e Fedora; o suporte a Debian é fornecido por um membro da comunidade). "
 "Adicionalmente, um pacote Snap e uma AppImage genérica estão disponíveis "
 "para outras distribuições de Linux. Detalhes de onde encontrar Subsurface "
-"para seu sistema operacional estão na nossa página <a "
+"para seu sistema operacional estão na nossa página da <a "
 "%(crelease)s>distribuição atual</a>"
 
 #: templates/faq.html:50
