@@ -380,7 +380,7 @@ msgid ""
 "A brief explanation of the concept of side-loading can be found in <a "
 "%(explanation)s>this androidcentral article</a>."
 msgstr ""
-"Uma rápida explicação do conceito de side-loading pode ser encontrada <a "
+"Uma explicação sucinta do conceito de side-loading pode ser encontrada <a "
 "%(explanation)s>neste artigo da AndroidCentral</a>."
 
 #: templates/current-release.html:79 templates/latest-release.html:82
