@@ -327,8 +327,8 @@ msgid ""
 "If you are looking for more \"bleeding edge\" releases builds, please check "
 "out the <a %(link)s>Latest Release Page</a>."
 msgstr ""
-"Se estiver procurando por mais versões \"de ponta\" (e provavelmente "
-"instáveis, por favor consulte a <a %(link)s>Página da última versão</a>."
+"Se estiver procurando por versões mais \"de ponta\", por favor consulte a <a"
+" %(link)s>Página da Última Versão</a>."
 
 #: templates/current-release.html:32 templates/current-release.html:46
 #: templates/current-release.html:60 templates/current-release.html:122
