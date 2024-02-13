@@ -409,7 +409,7 @@ msgid ""
 " x86_64 Linux distributions."
 msgstr ""
 "A equipe do Subsurface distribui pacotes para Ubuntu e Fedora bem como para "
-"Snap e um \"AppImage\" genérica que deve funcionar na maioria das outras "
+"Snap e uma \"AppImage\" genérica que deve funcionar na maioria das outras "
 "distribuições Linux x86_64."
 
 #: templates/current-release.html:93 templates/latest-release.html:96
