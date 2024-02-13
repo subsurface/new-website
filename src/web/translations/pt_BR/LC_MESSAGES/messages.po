@@ -475,7 +475,7 @@ msgid ""
 "divelog</a>."
 msgstr ""
 "Seus dados em nuvem podem ser excluídos a partir do aplicativo móvel ou você"
-" pode solicitar que seus dados, ou seus dado sua conta, sejam apagados "
+" pode solicitar que seus dados, ou seus dado e sua conta, sejam apagados "
 "simplesmente enviando um e-mail à equipe do Subsurface no endereço <a "
 "%(link)s>in-app-support@subsurface-divelog</a>."
 
