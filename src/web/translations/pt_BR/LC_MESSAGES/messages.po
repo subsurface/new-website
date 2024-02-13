@@ -2245,8 +2245,8 @@ msgstr "ou qualquer outro dos links em"
 #, python-format
 msgid "and watch it with any video player (e.g.: <a %(vlc)s>VLC</a>)."
 msgstr ""
-"e assistido com qualquer reprodutor de vídeo (p. exe.\\: <a "
-"%(vlc)s>VLC</a>). "
+"e assistido com qualquer reprodutor de vídeo (p. ex.\\: <a %(vlc)s>VLC</a>)."
+" "
 
 #: templates/user-forum.html:15
 #, python-format
