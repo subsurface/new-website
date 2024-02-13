@@ -2158,7 +2158,7 @@ msgstr ""
 "että aiempi tapamme julkistaa uusia versioita ei enää toimi. Päätimme siis "
 "yrittää tehdä asioita eri tavalla: aiemman raskaan ja monimutkaisen "
 "muutamien kuukauden välein tapahtuvan julkistuksen sijaan siirryimme paljon "
-"<a%(crelease)s>useammin toistuviin, säännöllisiin ja automatisoituihin "
+"<a %(crelease)s>useammin toistuviin, säännöllisiin ja automatisoituihin "
 "julkistuksiin</a>."
 
 #: templates/supported-dive-computers.html:3
