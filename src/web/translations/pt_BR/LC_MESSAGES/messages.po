@@ -301,7 +301,7 @@ msgstr ""
 #: templates/current-release.html:13
 #, python-format
 msgid "Current \"Weekly\" Release: %(version)s"
-msgstr "Versão \"semanal\" atual\\: %(version)s"
+msgstr "Versão \"semanal\" atual: %(version)s"
 
 #: templates/current-release.html:17
 msgid ""
