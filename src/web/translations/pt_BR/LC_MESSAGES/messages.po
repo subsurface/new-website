@@ -2147,7 +2147,7 @@ msgid ""
 " everyone (since we don't actually track where you are from):"
 msgstr ""
 "Com a conformidade com o GDPR (General Data Protection Regulation - "
-"Regulamento Geral de Proteção de Dados da União Europeia) afastada, aqui "
+"Regulamento Geral de Proteção de Dados da União Europeia) esclarecida, aqui "
 "está o resumo que se aplica a todos (já que não rastreamos de onde você "
 "é)\\:"
 
