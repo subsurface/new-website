@@ -1605,7 +1605,7 @@ msgid ""
 "Please take a look at our '<a %(contribute)s>Contribute</a>' page."
 msgstr ""
 "Se quiser contribuir e ajudar, há muitas maneiras de fazê-lo. Dê uma olhada "
-"na nossa página '<a %(contribute)s>Contribuição</a>' "
+"na nossa página '<a %(contribute)s>Contribua</a>' "
 
 #: templates/faq.html:690
 msgid "Old style Suunto dive computers?"
