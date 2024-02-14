@@ -119,7 +119,7 @@ msgstr ""
 "Se você é um desenvolvedor de software (de qualquer nível de experiência), "
 "sua ajuda com a manutenção e o aprimoramento do Subsurface será muito "
 "apreciada. Dê uma olhada na nossa  <a %(link)s> página de contribuição no "
-"GitHub </a> para ver como começar."
+"GitHub</a> para ver como começar."
 
 #: templates/contribute.html:22
 msgid "By Testing"
