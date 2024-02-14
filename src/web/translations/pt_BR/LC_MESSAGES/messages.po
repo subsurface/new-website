@@ -766,8 +766,8 @@ msgid ""
 "<code>subsurface_err.log</code>"
 msgstr ""
 "Os logs estão em  "
-"<code>C\\:\\Users\\\\Home\\AppData\\Roaming\\Subsurface</code> nos  arquivos"
-" <code>subsurface_out.log</code> e <code>subsurface_err.log</code>"
+"<code>C\\:\\Users\\Home\\AppData\\Roaming\\Subsurface</code> nos  arquivos "
+"<code>subsurface_out.log</code> e <code>subsurface_err.log</code>"
 
 #: templates/faq.html:162
 msgid "Which drivers do I need for my dive computer"
