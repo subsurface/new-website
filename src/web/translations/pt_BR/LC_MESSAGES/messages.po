@@ -156,7 +156,7 @@ msgstr ""
 "Se tiver jeito com as palavras, você pode ajudar-nos escrevendo, revisando e"
 " melhorando a documentação e os artigos para nosso website. Para começar, "
 "acesse nossa <a %(link)s> página de contribuição no GitHub para descobrir "
-"como unir-se à comunidade </a>."
+"como unir-se à comunidade</a>."
 
 #: templates/contribute.html:32
 msgid "By Improving the User Experience"
