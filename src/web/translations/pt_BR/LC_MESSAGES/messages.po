@@ -2139,7 +2139,7 @@ msgid ""
 "%(link)s>https://datenschutz.hessen.de/</a>."
 msgstr ""
 "A entidade regulatória à qual o Subsurface está submetido é: <a "
-"%(link)s>https\\://datenschutz.hessen.de/</a>."
+"%(link)s>https://datenschutz.hessen.de/</a>."
 
 #: templates/privacy-policy.html:36
 msgid ""
