@@ -1280,7 +1280,7 @@ msgstr ""
 "que o download em geral esteja funcionando. Tente com outro cabo. Verifique "
 "sua bateria. Há alguns computadores de mergulho (especialmente os primeiros "
 "modelos Suunto) que funcionarão sem problemas com uma bateria fraca, mas não"
-" farão a transferência de dados para um PC conectado a menos que bateria "
+" farão a transferência de dados para um PC conectado a menos que a bateria "
 "esteja carregada.  "
 
 #: templates/faq.html:519
