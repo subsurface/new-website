@@ -2037,7 +2037,7 @@ msgid ""
 "please consider the <a %(link)s>Current Release Page</a>."
 msgstr ""
 "Se estive procurando por um conjunto de pacotes um tanto menos \"de ponta\","
-" considere <a %(link)s>Página da versão atual</a>"
+" considere a <a %(link)s>Página da versão atual</a>"
 
 #: templates/latest-release.html:55
 msgid ""
