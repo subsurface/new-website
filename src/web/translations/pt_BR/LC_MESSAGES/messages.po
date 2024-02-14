@@ -2148,8 +2148,7 @@ msgid ""
 msgstr ""
 "Com a conformidade com o GDPR (General Data Protection Regulation - "
 "Regulamento Geral de Proteção de Dados da União Europeia) esclarecida, aqui "
-"está o resumo que se aplica a todos (já que não rastreamos de onde você "
-"é)\\:"
+"está o resumo que se aplica a todos (já que não rastreamos de onde você é):"
 
 #: templates/privacy-policy.html:39
 msgid ""
