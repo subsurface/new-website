@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-05 17:38+0000\n"
+"POT-Creation-Date: 2024-02-09 21:56+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Boret <salvador.cunat@gmail.com>, 2024\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/subsurface/teams/15508/es_ES/)\n"
@@ -50,7 +50,7 @@ msgstr "Foro de Usuarios"
 msgid "Bug Tracker"
 msgstr "Seguimiento de Fallos"
 
-#: templates/base.html:96
+#: templates/base.html:96 templates/faq.html:3 templates/faq.html:13
 msgid "FAQ"
 msgstr "Preguntas Frecuentes"
 
@@ -2131,6 +2131,29 @@ msgstr ""
 "resultar molesta. No hay monetización ni ningún otro uso o procesamiento de "
 "tus datos - solo los guardamos con el propósito de que puedas tenerlos "
 "disponibles en tus dispositivos."
+
+#: templates/release-changes.html:3 templates/release-changes.html:13
+msgid "Release Changes"
+msgstr "Cambios en Publicaciones"
+
+#: templates/release-changes.html:16
+#, python-format
+msgid ""
+"A lot has happend in the 14 months between the 5.0.10 release of Subsurface "
+"and the end of 2023 - including the realization that our old approach to "
+"releasing the software wasn't working for us anymore. As a result we decided"
+" to attempt a different approach; instead of formal releases every few "
+"months with a cumbersome, manual process, we are switching to pointing our "
+"users at far more <a %(crelease)s>frequent and regular, automated builds</a>"
+" instead."
+msgstr ""
+"Han pasado muchas cosas en los últimos 14 meses, entre la publicación de "
+"Subsurface 5.0.10 y el final de 2023, incluyendo que nos hayamos dado cuenta"
+" de que nuestra anterior forma de publicar el software ya nonos estaba "
+"funcionando. Como consecuencia decidimos intentar una nueva aproximación; en"
+" lugar de publicar versiones formales cada pocos meses, con un incómodo "
+"proceso manual, pasamos a dirigir a nuestros usuarios a compilaciones <a "
+"%(crelease)s> mucho más recuentes y regulares</a>."
 
 #: templates/supported-dive-computers.html:3
 #: templates/supported-dive-computers.html:13
