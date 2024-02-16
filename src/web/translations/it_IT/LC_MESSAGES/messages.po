@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-05 17:38+0000\n"
+"POT-Creation-Date: 2024-02-09 21:56+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Gianluca Montecchi, 2024\n"
 "Language-Team: Italian (Italy) (https://app.transifex.com/subsurface/teams/15508/it_IT/)\n"
@@ -50,7 +50,7 @@ msgstr "Forum degli utenti"
 msgid "Bug Tracker"
 msgstr "Bug Tracker"
 
-#: templates/base.html:96
+#: templates/base.html:96 templates/faq.html:3 templates/faq.html:13
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -2156,6 +2156,29 @@ msgstr ""
 " altra cosa che sia fastidiosa. Non c'è monetizzazione, né altri usi o "
 "elaborazioni dei vostri dati: li memorizziamo solo allo scopo di renderli "
 "nuovamente disponibili sui vostri dispositivi."
+
+#: templates/release-changes.html:3 templates/release-changes.html:13
+msgid "Release Changes"
+msgstr "Modifiche correlate"
+
+#: templates/release-changes.html:16
+#, python-format
+msgid ""
+"A lot has happend in the 14 months between the 5.0.10 release of Subsurface "
+"and the end of 2023 - including the realization that our old approach to "
+"releasing the software wasn't working for us anymore. As a result we decided"
+" to attempt a different approach; instead of formal releases every few "
+"months with a cumbersome, manual process, we are switching to pointing our "
+"users at far more <a %(crelease)s>frequent and regular, automated builds</a>"
+" instead."
+msgstr ""
+"Molte cose sono successe nei 14 mesi tra la versione 5.0.10 di Subsurface e "
+"la fine del 2023 - inclusa la realizzazione che il nostro vecchio approccio "
+"al rilascio del software non stava più funzionando. Come risultato abbiamo "
+"deciso di provare un nuovo approccio; invece di release ufficiali ogni pochi"
+" mesi con un complesso processo manuale, stiamo cambiando per indirizzare "
+"gli utenti verso una <a %(crelease)s> frequente e regolare compilazione "
+"</a>."
 
 #: templates/supported-dive-computers.html:3
 #: templates/supported-dive-computers.html:13
