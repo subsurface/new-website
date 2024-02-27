@@ -278,7 +278,9 @@ def data_deletion():
 @app.get("/updatecheck.html/")
 def updatecheck():
     # semver makes this easy - but for the build-extra text to be handled correctly, it needs to be separated with a '+'
-    uv = request.args.get("version").replace("-", "+", 1)
+    uv = request.args.get("version")
+    if uv:
+        uv = uv.replace("-", "+", 1)
     if not Version.is_valid(uv):
         print(f"{uv} is not a semVer - let's try something else")
         # so this could be an old 4 part version number like 5.0.10.0
