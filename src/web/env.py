@@ -10,7 +10,6 @@ class Env:
         name: str,
         value: str = None,
         default: any = None,
-        value_call: callable = None,
     ):
         self._name = name
         self._value = self._default = default
@@ -18,7 +17,6 @@ class Env:
             value != None
         ):  # only overwrite the default value if an actual Value was passed in
             self._value = value
-        self._value_call = value_call
         # Let's make sure we have an env file
         if not path.isfile(globals.get("env_file_path")):
             open(globals.get("env_file_path"), "w").close()
@@ -71,9 +69,7 @@ class Env:
 
     @property
     def value(self):
-        if self._value_call:
-            return self._value_call()
-        elif self._value != None:
+        if self._value != None:
             return copy.copy(self._value)
         elif self._default != None:
             return copy.copy(self._default)
