@@ -1,39 +1,33 @@
-import copy
 import json
 from os import path
 from .globals import globals
+from .redis import redis
 
 
+# The Env class uses both a flat file and Redis to store values
+# This ensures that we stay consistent across the different workers,
+# but also have a file storage backend across unexpected reboots or
+# other issues that might prevent Redis from staying consistent across
+# restarts.
 class Env:
     def __init__(
         self,
         name: str,
-        value: str = None,
         default: any = None,
     ):
-        self._name = name
-        self._value = self._default = default
-        if (
-            value != None
-        ):  # only overwrite the default value if an actual Value was passed in
-            self._value = value
         # Let's make sure we have an env file
         if not path.isfile(globals.get("env_file_path")):
             open(globals.get("env_file_path"), "w").close()
-        # Always reconcile from file
-        self._reconcile(value=None, pull=True)
+        self._name = name
+        # check if we have a value in backing store, otherwise use the default
+        if redis.get(name=self._name) == None:
+            # get the value from the file and write either that or the default to Redis
+            value_in_file = self._get_value_from_file()
+            if value_in_file != None:
+                self.value = value_in_file
+            else:
+                self.value = default
 
-    def _reconcile(self, value, pull: bool = False):
-        value_in_file = self._get_value_from_file()
-        if pull and value_in_file != None:
-            self._value = value_in_file
-            return
-        if value == value_in_file:
-            return  # do not write to file if value is the same
-        if value == None or value == "None":
-            self._write_value_to_file("")
-        else:
-            self._write_value_to_file(value)
 
     def _get_values_from_file(self):
         ret = {}
@@ -61,7 +55,7 @@ class Env:
                     f.write(f"{key}={json.dumps(value)}\n")
 
     def __str__(self):
-        return f"Env({self._name}, {self._value})"
+        return f"Env({self._name}, {self.value})"
 
     @property
     def name(self):
@@ -69,18 +63,25 @@ class Env:
 
     @property
     def value(self):
-        if self._value != None:
-            return copy.copy(self._value)
-        elif self._default != None:
-            return copy.copy(self._default)
-        return ""
+        v = redis.get(name=self._name)
+        try:
+            result = json.loads(v)
+        except:
+            result = None
+        return result
 
     @value.setter
     def value(self, value):
-        if value != self._value:
-            self._value = copy.copy(value)
-            self._reconcile(value)
+        if value != self.value:
+            redis.set(name=self._name, value=json.dumps(value))
 
+            value_in_file = self._get_value_from_file()
+            if value == value_in_file:
+                return  # do not write to file if value is the same
+            if value == None or value == "None":
+                self._write_value_to_file("")
+            else:
+                self._write_value_to_file(value)
 
 env = {
     "lrelease": Env("lrelease", default="6.0.5067"),
