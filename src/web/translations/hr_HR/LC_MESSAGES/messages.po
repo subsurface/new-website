@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-05 17:38+0000\n"
+"POT-Creation-Date: 2024-02-09 21:56+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Ivan Karlović, 2024\n"
 "Language-Team: Croatian (Croatia) (https://app.transifex.com/subsurface/teams/15508/hr_HR/)\n"
@@ -49,7 +49,7 @@ msgstr "Korisnički Forum"
 msgid "Bug Tracker"
 msgstr "Pratitelj bugova"
 
-#: templates/base.html:96
+#: templates/base.html:96 templates/faq.html:3 templates/faq.html:13
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -2100,6 +2100,28 @@ msgstr ""
 " iritira. Nema monetizacije niti druge upotrebe ili obrade vaših podataka - "
 "pohranjujemo ih samo u svrhu da vam ponovno budu dostupni na vašim "
 "uređajima."
+
+#: templates/release-changes.html:3 templates/release-changes.html:13
+msgid "Release Changes"
+msgstr "Promjene"
+
+#: templates/release-changes.html:16
+#, python-format
+msgid ""
+"A lot has happend in the 14 months between the 5.0.10 release of Subsurface "
+"and the end of 2023 - including the realization that our old approach to "
+"releasing the software wasn't working for us anymore. As a result we decided"
+" to attempt a different approach; instead of formal releases every few "
+"months with a cumbersome, manual process, we are switching to pointing our "
+"users at far more <a %(crelease)s>frequent and regular, automated builds</a>"
+" instead."
+msgstr ""
+"Puno se toga dogodilo u 14 mjeseci između izdanja 5.0.10 Subsurfacea i kraja"
+" 2023. - uključujući spoznaju da naš stari pristup izdavanju softvera više "
+"ne funkcionira za nas. Kao rezultat toga odlučili smo pokušati drugačiji "
+"pristup; umjesto formalnih izdanja svakih nekoliko mjeseci s glomaznim, "
+"ručnim procesom, prelazimo na upućivanje naših korisnika na mnogo <a "
+"%(crelease)s> češće i redovitije, automatizirane izrade</a>."
 
 #: templates/supported-dive-computers.html:3
 #: templates/supported-dive-computers.html:13
