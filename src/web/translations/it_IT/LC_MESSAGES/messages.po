@@ -76,7 +76,7 @@ msgid ""
 "%(githubissue)s>main Subsurface repository on GitHub</a>."
 msgstr ""
 "Mentre siamo lieti di ricevere segnalazioni di errori (e contributi)  sulla "
-"nostra <a%(mailman)slista</a>, è anche possibile aprire delle segnalazioni "
+"nostra <a%(mailman)s>lista</a>, è anche possibile aprire delle segnalazioni "
 "sul nostro <a%(githubissue)srepository principale di Subsurface su "
 "GitHub</a>."
 
