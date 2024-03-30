@@ -1838,8 +1838,8 @@ msgid ""
 "Using Subsurface-mobile on your Android or iOS device you can access your "
 "dive log anywhere"
 msgstr ""
-"Ao usar o Subsurface móvel no seu dispositivo Android ou iOS pode aceder ao "
-"registo dos seus mergulhos em qualquer lugar"
+"Ao usar a aplicação móvel Subsurface no seu dispositivo Android ou iOS pode "
+"aceder ao registo dos seus mergulhos em qualquer lugar"
 
 #: templates/home.html:114
 msgid "Cloud storage"
