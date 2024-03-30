@@ -2177,8 +2177,8 @@ msgid ""
 " Subsurface-mobile only supports a subset of these devices."
 msgstr ""
 "Atualmente, esses computadores de mergulho são suportados no Subsurface. "
-"Observe que o Subsurface-mobile oferece suporte apenas a um subconjunto "
-"desses dispositivos."
+"Observe que a aplicação móvel Subsurface oferece suporte apenas a um "
+"subconjunto desses dispositivos."
 
 #: templates/thanks.html:3 templates/thanks.html:13
 msgid "Thanks"
