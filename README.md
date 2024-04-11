@@ -3,22 +3,13 @@ Self contained Subsurface website code, content, and translations
 This code runs on the cloud server to create the Subsurface website.
 
 When working on the content, you can run this locally.
-First create the venv with the required dependencies
 
-```
-python3 -m venv venv
-source ./venv/bin/activate
-pip install -r requirements.txt
-```
+You need to have `docker` and `docker-compose` installed.
 
-Now you can start the webserver locally - the first time it runs it will
-create its own clone of the Subsurface source repo in order to get the
-user manuals, the corresponding pictures, and the list of supported dive
-computers from that.
+Then run `docker-compose up` in the base folder and everything will be setup
+and started automatically.
 
-`python3 -m src.web.server`
-
-You can now access your version of the website at `http://localhost:8002`
+You can now access your version of the website at `http://localhost:8001`
 
 Of course the version numbers for latest release and current release
 will be off (as those get populated through webhooks that your server
