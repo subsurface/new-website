@@ -19,7 +19,7 @@ BUILDNR="$1"
 TODAY=$(date +%Y-%m-%d)
 
 sed -i '/^crelease/d' persistent.store
-echo "crelease=$BUILDNR" >> persistent.store
+echo "crelease=6.0.$BUILDNR" >> persistent.store
 echo "crelease_date=$TODAY" >> persistent.store
 
 cd $STATICPATH || croak "can't cd to $STATICPATH"
