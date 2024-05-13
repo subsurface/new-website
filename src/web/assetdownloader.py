@@ -96,7 +96,7 @@ def updateReleaseWebsite(release_id):
                 macosurl = url
             else:
                 missing += " macOS DMG,"
-            match = re.search(r"Subsurface-v(6.*)-CICD-release.AppImage", url)
+            match = re.search(r"Subsurface-(6.*)-CICD-release.AppImage", url)
             if match:
                 appimageurl = url
                 appimagename = match.group(0)
