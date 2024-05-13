@@ -26,7 +26,7 @@ cd $STATICPATH || croak "can't cd to $STATICPATH"
 for f in subsurface-6.0.${BUILDNR}-CICD-release-installer.exe \
         Subsurface-6.0.${BUILDNR}-CICD-release.dmg \
         Subsurface-mobile-6.0.${BUILDNR}-CICD-release.apk \
-        Subsurface-v6.0.${BUILDNR}-CICD-release.AppImage
+        Subsurface-6.0.${BUILDNR}-CICD-release.AppImage
 do
     wget "https://github.com/subsurface/nightly-builds/releases/download/v6.0.${BUILDNR}-CICD-release/$f"
 done

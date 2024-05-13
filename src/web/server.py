@@ -118,7 +118,7 @@ def utility_processor():
         if key == "landroid":
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-mobile-{env['lrelease'].value}-CICD-release.apk"
         if key == "lappimage":
-            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-v{env['lrelease'].value}-CICD-release.AppImage"
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-{env['lrelease'].value}-CICD-release.AppImage"
         if key == "cwindows":
             return f"https://subsurface-divelog.org/downloads/subsurface-{env['crelease'].value}-CICD-release-installer.exe"
         if key == "cmacos":
