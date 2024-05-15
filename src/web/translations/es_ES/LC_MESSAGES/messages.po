@@ -461,7 +461,7 @@ msgid ""
 "release.AppImage</code>, and then simply run this file."
 msgstr ""
 "Hay disponible una AppImage genérica. Tras descargar este archivo, hazlo "
-"ejecutable <code>chmod +x Subsurface-v%(version)s-CICD-"
+"ejecutable <code>chmod +x Subsurface-%(version)s-CICD-"
 "release.AppImage</code>, y luego simplemente corre el archivo."
 
 #: templates/data-deletion.html:3 templates/data-deletion.html:13
