@@ -457,7 +457,7 @@ msgstr "El canal de Snap 'candidate' contiene nuestra Versión Actual."
 #, python-format
 msgid ""
 "A generic AppImage is available. After you download this file, make it "
-"executable <code>chmod +x Subsurface-v%(version)s-CICD-"
+"executable <code>chmod +x Subsurface-%(version)s-CICD-"
 "release.AppImage</code>, and then simply run this file."
 msgstr ""
 "Hay disponible una AppImage genérica. Tras descargar este archivo, hazlo "
