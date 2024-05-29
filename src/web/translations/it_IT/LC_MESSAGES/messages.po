@@ -486,7 +486,7 @@ msgid ""
 "Subsurface"
 msgstr ""
 "Questa pagina contiene un sommario della maggior parte della documentazione "
-"utente di Subsurcafe"
+"utente di Subsurface"
 
 #: templates/documentation.html:17
 #, python-format
