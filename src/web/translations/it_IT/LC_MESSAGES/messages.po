@@ -506,7 +506,7 @@ msgstr "<a %(video)s>Tutorial video (piuttosto vecchi) </a>"
 #: templates/documentation.html:25
 #, python-format
 msgid "<a %(manual)s>Subsurface User Manual</a>"
-msgstr "<a %(manual)sManuale utente di Subsurface</a>"
+msgstr "<a %(manual)s>Manuale utente di Subsurface</a>"
 
 #: templates/documentation.html:28
 #, python-format
