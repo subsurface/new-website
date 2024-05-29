@@ -511,7 +511,7 @@ msgstr "<a %(manual)s>Manuale utente di Subsurface</a>"
 #: templates/documentation.html:28
 #, python-format
 msgid "<a %(mobilemanual)s>Subsurface-mobile User Manual</a>"
-msgstr "<a %(mobilemanual)sManuale utente di Subsurface-mobile</a>"
+msgstr "<a %(mobilemanual)s>Manuale utente di Subsurface-mobile</a>"
 
 #: templates/documentation.html:31
 #, python-format
