@@ -501,7 +501,7 @@ msgstr "<a %(supporteddc)s>Computer subacquei supportati</a>"
 #: templates/documentation.html:22
 #, python-format
 msgid "<a %(video)s>(fairly old) Video Tutorial</a>"
-msgstr "<a %(video)s>(piuttosto vecchi) Tutorial video</a>"
+msgstr "<a %(video)s>Tutorial video (piuttosto vecchi) </a>"
 
 #: templates/documentation.html:25
 #, python-format
