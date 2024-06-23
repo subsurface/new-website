@@ -126,7 +126,7 @@ def utility_processor():
         if key == "candroid":
             return f"https://subsurface-divelog.org/downloads/Subsurface-mobile-{env['crelease'].value}-CICD-release.apk"
         if key == "cappimage":
-            return f"https://subsurface-divelog.org/downloads/Subsurface-v{env['crelease'].value}-CICD-release.AppImage"
+            return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease'].value}-CICD-release.AppImage"
         if key == "lang":
             return f"/{get_locale()}"
         return ""
