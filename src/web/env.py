@@ -47,6 +47,8 @@ class Env:
         return self._get_values_from_file().get(self._name, None)
 
     def _write_value_to_file(self, new_value):
+        if (self._name == "lrelease" or self._name == "crelease") and new_value == "":
+            return
         values = self._get_values_from_file()
         values[self._name] = new_value
         with open(globals.get("env_file_path"), "w") as f:
@@ -83,11 +85,12 @@ class Env:
             else:
                 self._write_value_to_file(value)
 
+
 env = {
-    "lrelease": Env("lrelease", default="6.0.5067"),
-    "lrelease_date": Env("lrelease_date", default="2024-01-21"),
-    "crelease": Env("crelease", default="6.0.5054"),
-    "crelease_date": Env("crelease_date", default="2024-01-13"),
+    "lrelease": Env("lrelease", default="6.0.5217"),
+    "lrelease_date": Env("lrelease_date", default="2024-06-16"),
+    "crelease": Env("crelease", default="6.0.5214"),
+    "crelease_date": Env("crelease_date", default="2024-06-16"),
     "release_ids": Env("release_ids", default=[]),
     "pr_summary": Env("pr_summary", default=""),
 }
