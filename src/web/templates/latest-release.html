@@ -14,8 +14,12 @@
       </h1>
       <h5>{{ get_env("lrelease_date") }}</h5>
       <p>
-        {{ _("The releases on this page are the latest builds from the Subsurface CICD (Continuous Integration, Continuous Delivery) system. While we don't expect them to be broken very often, they are generally released in order to facilitate testing, and as such may not have received a lot of testing, yet.") }}
+        {{ _("The releases on this page are the latest builds from the Subsurface CICD (Continuous Integration, Continuous Delivery) system. While we don't expect them to be broken very often, they may not have received a lot of testing yet, and may still be buggy.") }}
       </p>
+      <p>
+        {{ _("These installers, and previous versions of them, can also be found on the <a %(link)s>GitHub 'nightly-builds' Releases Page</a>.", link="href=https://github.com/subsurface/nightly-builds/releases") }}
+      </p>
+      <div class="row">
       <p>
         {{ _("The latest change-sets merged into this release are:") }}
       <ul>
