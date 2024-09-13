@@ -18,13 +18,14 @@ STATICPATH=/data/www/subsurfacestaticsite/downloads
 BUILDNR="$1"
 TODAY=$(date +%Y-%m-%d)
 
+[[ ! -f "$STATICPATH"/Subsurface-6.0.${BUILDNR}-CICD-release.dmg ]] && croak "missing the signed dmg in downloads"
+
 sed -i '/^crelease/d' persistent.store
-echo "crelease=6.0.$BUILDNR" >> persistent.store
-echo "crelease_date=$TODAY" >> persistent.store
+echo "crelease=\"6.0.$BUILDNR\"" >> persistent.store
+echo "crelease_date=\"$TODAY\"" >> persistent.store
 
 cd $STATICPATH || croak "can't cd to $STATICPATH"
 for f in subsurface-6.0.${BUILDNR}-CICD-release-installer.exe \
-        Subsurface-6.0.${BUILDNR}-CICD-release.dmg \
         Subsurface-mobile-6.0.${BUILDNR}-CICD-release.apk \
         Subsurface-6.0.${BUILDNR}-CICD-release.AppImage
 do
