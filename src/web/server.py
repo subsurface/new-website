@@ -98,7 +98,7 @@ if __name__ != "__main__":
             # we got restarted while waiting for releases to populate - remove their locks
             redis.delete(f"processing_{release_id}")
             # we don't know how long we've been waiting, so give it a minute and then check
-            AssetDownloader(release_id, 60)
+            AssetDownloader(release_id, 10)
     else:
         print(f"worker {lock} is dealing with release IDs")
 else:
