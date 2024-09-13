@@ -20,14 +20,14 @@ class Env:
             open(globals.get("env_file_path"), "w").close()
         self._name = name
         # check if we have a value in backing store, otherwise use the default
-        if redis.get(name=self._name) == None:
-            # get the value from the file and write either that or the default to Redis
-            value_in_file = self._get_value_from_file()
-            if value_in_file != None:
-                self.value = value_in_file
-            else:
-                self.value = default
-
+        # if redis.get(name=self._name) == None:
+        # get the value from the file and write either that or the default to Redis
+        value_in_file = self._get_value_from_file()
+        if value_in_file != None:
+            self.value = value_in_file
+        else:
+            self.value = default
+        redis.set(name=self._name, value=json.dumps(self.value))
 
     def _get_values_from_file(self):
         ret = {}
