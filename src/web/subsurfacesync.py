@@ -1,7 +1,56 @@
 import os
+import re
 import shutil
 import subprocess
 from .globals import globals
+
+
+class NightlyBuilds:
+    def __init__(self) -> None:
+        self._myroot = globals["app_path"]
+
+    def sync(self):
+        try:
+            subprocess.run(f"cd {self._myroot}/subsurface/nightly-builds; git pull", shell=True, check=True)
+        except:
+            print("issue pulling the latest nightly builds repo - please check")
+
+    def get_buildnr_for_sha(self, sha):
+        self.sync()
+        try:
+            result = subprocess.run(
+                f"cd {self._myroot}/subsurface/nightly-builds; git diff origin/branch-for-{sha} latest-subsurface-buildnumber",
+                shell=True,
+                stdout=subprocess.PIPE,
+                check=True,
+            )
+        except:
+            # that sha doesn't exist
+            return "unknown"
+        output = result.stdout.decode("utf-8").strip()
+        bnr = open(f"{self._myroot}/subsurface/nightly-builds/latest-subsurface-buildnumber", "r").read().strip()
+        if output:
+            m = re.match(r"^-(\d+)", output)
+            if m:
+                bnr = m.group(1).strip()
+        return bnr
+
+    def get_sha_for_buildnr(self, bnr):
+        self.sync()
+        try:
+            result = subprocess.run(
+                f"cd {self._myroot}/subsurface; bash ./scripts/get-changeset-id.sh {bnr}",
+                shell=True,
+                stdout=subprocess.PIPE,
+                check=True,
+            )
+        except:
+            # that buildnr doesn't exist
+            return "unknown"
+        output = result.stdout.decode("utf-8").strip()
+        if output:
+            return output
+        return "unknown"
 
 
 class SubsurfaceSync:
@@ -14,7 +63,7 @@ class SubsurfaceSync:
             print(f"Initial setup - cloning Subsurface repo into {self._myroot}/subsurface")
             try:
                 subprocess.run(
-                    f"cd {self._myroot}; git clone --depth 10 https://github.com/subsurface/subsurface",
+                    f"cd {self._myroot}; git clone --depth 10 https://github.com/subsurface/subsurface ; cd subsurface ; git clone https://github.com/subsurface/nightly-builds &> /dev/null",
                     shell=True,
                     check=True,
                 )

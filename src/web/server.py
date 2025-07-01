@@ -2,11 +2,12 @@ import hashlib
 import hmac
 import json
 import os
+import re
 from pathlib import Path
 from semver.version import Version
 
 from .globals import globals
-from .subsurfacesync import SubsurfaceSync
+from .subsurfacesync import NightlyBuilds, SubsurfaceSync
 
 # if we are running standalone for testing, we don't need or want redis
 if __name__ != "__main__":
@@ -80,6 +81,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(16).hex()
 babel = Babel(app, locale_selector=get_locale)
 globals["subsurfacesync"] = SubsurfaceSync()
+globals["nightlybuilds"] = NightlyBuilds()
 if __name__ != "__main__":
     # if this runs under gunicorn as a production server,
     # we want only one of the workers to process any outstanding release IDs
@@ -97,7 +99,7 @@ if __name__ != "__main__":
         for release_id in env["release_ids"].value:
             # we got restarted while waiting for releases to populate - remove their locks
             redis.delete(f"processing_{release_id}")
-            # we don't know how long we've been waiting, so give it a minute and then check
+            # we don't know how long we've been waiting, so give it a few seconds and then check
             AssetDownloader(release_id, 10)
     else:
         print(f"worker {lock} is dealing with release IDs")
@@ -200,6 +202,7 @@ def home():
 
 @app.get("/latest-release/")
 def latest_release():
+    # print(f"request for latest-release with lrelease {env['lrelease'].value}")
     return render_template("latest-release.html", request=request)
 
 
@@ -235,6 +238,7 @@ def faq():
 
 @app.get("/thanks/")
 def thanks():
+    print("got a request for thanks")
     return render_template("thanks.html", request=request)
 
 
@@ -401,8 +405,36 @@ def webhook():
             a = AssetDownloader(release_id, 900)
 
     # in any case, report success
+    response = app.response_class(response=json.dumps({"success": True}), status=200, mimetype="application/json")
+    return response
+
+
+@app.route("/api/build-nr-by-sha/<sha>")
+def build_nr_by_sha(sha):
+    if not re.match(r"^[a-fA-F0-9]+$", sha):
+        return app.response_class(response=json.dumps({"success": False}), status=400, mimetype="application/json")
+    bnr = redis.get(f"bnr_{sha}").decode("utf-8")
+    if not bnr:
+        bnr = globals["nightlybuilds"].get_buildnr_for_sha(sha)
+        redis.set(f"bnr_{sha}", bnr)
+    redis.set(f"sha_{sha}", bnr)
     response = app.response_class(
-        response=json.dumps({"success": True}), status=200, mimetype="application/json"
+        response=json.dumps({"build_nr": bnr, "success": True}), status=200, mimetype="application/json"
+    )
+    return response
+
+
+@app.route("/api/sha-by-build-nr/<build_nr>")
+def sha_by_build_nr(build_nr):
+    if not re.match(r"^\d+$", build_nr):
+        return app.response_class(response=json.dumps({"success": False}), status=400, mimetype="application/json")
+
+    sha = redis.get(f"sha_{build_nr}").decode("utf-8")
+    if not sha:
+        sha = globals["nightlybuilds"].get_sha_for_buildnr(build_nr)
+        redis.set(f"sha_{build_nr}", sha)
+    response = app.response_class(
+        response=json.dumps({"sha": sha, "success": True}), status=200, mimetype="application/json"
     )
     return response
 
