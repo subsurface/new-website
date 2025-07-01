@@ -35,11 +35,11 @@ class SubsurfaceSync:
             f"{self._myroot}/src/web/templates/",
         )
         shutil.copy(
-            f"{self._myroot}/subsurface/Documentation/user-manual.html.git",
+            f"{self._myroot}/subsurface/Documentation/output/user-manual.html",
             f"{self._myroot}/src/web/static/user-manual.html",
         )
         shutil.copy(
-            f"{self._myroot}/subsurface/Documentation/mobile-manual-v3.html.git",
+            f"{self._myroot}/subsurface/Documentation/output/mobile-manual-v3.html",
             f"{self._myroot}/src/web/static/mobile-user-manual.html",
         )
         shutil.copytree(
