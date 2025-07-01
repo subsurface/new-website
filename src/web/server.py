@@ -124,7 +124,9 @@ def utility_processor():
         if key == "cmacos":
             return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease'].value}-CICD-release.dmg"
         if key == "candroid":
-            return f"https://subsurface-divelog.org/downloads/Subsurface-mobile-{env['crelease'].value}-CICD-release.apk"
+            return (
+                f"https://subsurface-divelog.org/downloads/Subsurface-mobile-{env['crelease'].value}-CICD-release.apk"
+            )
         if key == "cappimage":
             return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease'].value}-CICD-release.AppImage"
         if key == "lang":
@@ -136,9 +138,7 @@ def utility_processor():
 
 # helper function to consistently redirect multi-level paths to the new flat url scheme
 def redirector(urlpath=""):
-    print(
-        f"universal redirector for request {request.full_path} with urlpath {urlpath}"
-    )
+    print(f"universal redirector for request {request.full_path} with urlpath {urlpath}")
     first = request.path.split("/")[1]
     if first == "misc" or first == "documentation":
         print(f"converting to {request.full_path.replace(f'/{first}', '')}")
@@ -174,24 +174,18 @@ def user_manual_images(path):
 @app.route("/subsurface-mobile-v3-user-manual/mobile-images/<path:path>")
 @app.route("/subsurface-mobile-user-manual/mobile-images/<path:path>")
 def mobile_user_manual_images(path):
-    return send_from_directory(
-        os.path.join(app.root_path, "static/mobile-images"), path
-    )
+    return send_from_directory(os.path.join(app.root_path, "static/mobile-images"), path)
 
 
 @app.route("/subsurface-user-manual/")
 def static_user_manual():
-    return send_from_directory(
-        os.path.join(app.root_path, "static"), "user-manual.html"
-    )
+    return send_from_directory(os.path.join(app.root_path, "static"), "user-manual.html")
 
 
 @app.route("/subsurface-mobile-v3-user-manual/")
 @app.route("/subsurface-mobile-user-manual/")
 def static_mobile_user_manual():
-    return send_from_directory(
-        os.path.join(app.root_path, "static"), "mobile-user-manual.html"
-    )
+    return send_from_directory(os.path.join(app.root_path, "static"), "mobile-user-manual.html")
 
 
 @app.route("/release-changes/")
@@ -399,9 +393,7 @@ def webhook():
         assets_url = release.get("assets_url")
         repository = release.get("repository")
         name = repository.get("name") if repository else "unknown"
-        print(
-            f"Relase: {release.get('name')} id {release_id} from repo {name} with action {action}"
-        )
+        print(f"Relase: {release.get('name')} id {release_id} from repo {name} with action {action}")
         print(f"With assets URL {assets_url}")
         if release_id not in release_ids:
             release_ids.append(release_id)

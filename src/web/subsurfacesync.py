@@ -11,9 +11,7 @@ class SubsurfaceSync:
     def setup(self):
         if not os.path.isdir(f"{self._myroot}/subsurface"):
             # ok - this is a brand new setup. Weeee
-            print(
-                f"Initial setup - cloning Subsurface repo into {self._myroot}/subsurface"
-            )
+            print(f"Initial setup - cloning Subsurface repo into {self._myroot}/subsurface")
             try:
                 subprocess.run(
                     f"cd {self._myroot}; git clone --depth 10 https://github.com/subsurface/subsurface",
@@ -29,9 +27,7 @@ class SubsurfaceSync:
 
     def sync(self):
         try:
-            subprocess.run(
-                f"cd {self._myroot}/subsurface; git pull", shell=True, check=True
-            )
+            subprocess.run(f"cd {self._myroot}/subsurface; git pull", shell=True, check=True)
         except:
             print("issue pulling the latest Subsurface sources - please check")
         shutil.copy(
