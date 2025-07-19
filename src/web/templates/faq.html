@@ -284,17 +284,17 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="macirda">
+          <h2 class="accordion-header" id="irda">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#macirda_answer" aria-expanded="false" aria-controls="macirda_answer">
+                    data-bs-target="#irda_answer" aria-expanded="false" aria-controls="irda_answer">
               <a
-                 href={{get_env("lang")+"/faq/#macirda"}}>{{ _("Why is my IRDA (infrared) based dive computer not working on a Mac?")}}</a>
+                 href={{get_env("lang")+"/faq/#irda"}}>{{ _("Why does my IrDA (infrared) based dive computer not appear in the list of dive computers for download?")}}</a>
             </button>
           </h2>
-          <div id="macirda_answer" class="accordion-collapse collapse" aria-labelledby="macirda" data-bs-parent="#faq">
+          <div id="irda_answer" class="accordion-collapse collapse" aria-labelledby="irda" data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("Subsurface on the Mac does not support IRDA based dive computers. This is an issue of missing support libraries for us to use -- other dive log software may have implemented their own IRDA stack on the Mac, we have not. Subsurface on Windows still supports IRDA based dive computers for now.") }}
+                {{ _("Support for the IrDA protocol has been removed from most major operating systems. Where it still exists it is limited to the use through additional drivers. Since Subsurface does not implement its own IrDA stack, this means that support for IrDA based dive computers in Subsurface is very limited. See <a %(usermanual)s>this section of the User Manual</a> for more details on possible workarounds.", usermanual="href="+get_env("lang")+"/subsurface-user-manual#S_ImportingIrDA") }}
               </p>
             </div>
           </div>
