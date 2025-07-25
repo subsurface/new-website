@@ -413,10 +413,12 @@ def webhook():
 def build_nr_by_sha(sha):
     if not re.match(r"^[a-fA-F0-9]+$", sha):
         return app.response_class(response=json.dumps({"success": False}), status=400, mimetype="application/json")
-    bnr = redis.get(f"bnr_{sha}").decode("utf-8")
+    bnr = redis.get(f"bnr_{sha}")
     if not bnr:
         bnr = globals["nightlybuilds"].get_buildnr_for_sha(sha)
         redis.set(f"bnr_{sha}", bnr)
+    else:
+        bnr = bnr.decode("utf-8")
     redis.set(f"sha_{sha}", bnr)
     response = app.response_class(
         response=json.dumps({"build_nr": bnr, "success": True}), status=200, mimetype="application/json"
@@ -429,10 +431,12 @@ def sha_by_build_nr(build_nr):
     if not re.match(r"^\d+$", build_nr):
         return app.response_class(response=json.dumps({"success": False}), status=400, mimetype="application/json")
 
-    sha = redis.get(f"sha_{build_nr}").decode("utf-8")
+    sha = redis.get(f"sha_{build_nr}")
     if not sha:
         sha = globals["nightlybuilds"].get_sha_for_buildnr(build_nr)
         redis.set(f"sha_{build_nr}", sha)
+    else:
+        sha = sha.decode("utf-8")
     response = app.response_class(
         response=json.dumps({"sha": sha, "success": True}), status=200, mimetype="application/json"
     )
