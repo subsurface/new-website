@@ -22,7 +22,7 @@ charset-normalizer==3.3.2
     # via requests
 click==8.1.7
     # via flask
-cryptography==41.0.7
+cryptography==44.0.1
     # via pyjwt
 deprecated==1.2.14
     # via pygithub
