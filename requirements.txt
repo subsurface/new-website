@@ -65,7 +65,7 @@ pytz==2023.3.post1
     # via flask-babel
 redis==5.0.1
     # via -r requirements.in
-requests==2.31.0
+requests==2.32.4
     # via
     #   -r requirements.in
     #   pygithub
