@@ -34,7 +34,7 @@ flask-babel==4.0.0
     # via -r requirements.in
 gunicorn==23.0.0
     # via -r requirements.in
-idna==3.6
+idna==3.7
     # via requests
 itsdangerous==2.1.2
     # via flask
