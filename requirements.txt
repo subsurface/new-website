@@ -32,7 +32,7 @@ flask==3.0.1
     #   flask-babel
 flask-babel==4.0.0
     # via -r requirements.in
-gunicorn==21.2.0
+gunicorn==23.0.0
     # via -r requirements.in
 idna==3.6
     # via requests
