@@ -32,7 +32,7 @@ flask==3.0.1
     #   flask-babel
 flask-babel==4.0.0
     # via -r requirements.in
-gunicorn==21.2.0
+gunicorn==23.0.0
     # via -r requirements.in
 idna==3.6
     # via requests
@@ -54,9 +54,7 @@ pycparser==2.21
 pygithub==2.1.1
     # via -r requirements.in
 pyjwt[crypto]==2.8.0
-    # via
-    #   pygithub
-    #   pyjwt
+    # via pygithub
 pynacl==1.5.0
     # via pygithub
 python-dateutil==2.8.2
