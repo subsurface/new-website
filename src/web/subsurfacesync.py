@@ -63,7 +63,7 @@ class SubsurfaceSync:
             print(f"Initial setup - cloning Subsurface repo into {self._myroot}/subsurface")
             try:
                 subprocess.run(
-                    f"cd {self._myroot}; git clone --depth 10 https://github.com/subsurface/subsurface ; cd subsurface ; git clone https://github.com/subsurface/nightly-builds &> /dev/null",
+                    f"cd {self._myroot}; git clone --depth 10 https://github.com/subsurface/subsurface ; cd subsurface ; git clone https://github.com/subsurface/nightly-builds; git config --global --add safe.directory {self._myroot}/subsurface",
                     shell=True,
                     check=True,
                 )
@@ -83,6 +83,12 @@ class SubsurfaceSync:
             f"{self._myroot}/subsurface/SupportedDivecomputers.html",
             f"{self._myroot}/src/web/templates/",
         )
+        try:
+            subprocess.run(
+                f"cd {self._myroot}/subsurface/Documentation; make output/user-manual.html output/mobile-manual-v3.html", shell=True, check=True
+            )
+        except:
+            print("issue building the latest Subsurface documentation - please check")
         shutil.copy(
             f"{self._myroot}/subsurface/Documentation/output/user-manual.html",
             f"{self._myroot}/src/web/static/user-manual.html",
@@ -92,12 +98,12 @@ class SubsurfaceSync:
             f"{self._myroot}/src/web/static/mobile-user-manual.html",
         )
         shutil.copytree(
-            f"{self._myroot}/subsurface/Documentation/images",
+            f"{self._myroot}/subsurface/Documentation/output/images",
             f"{self._myroot}/src/web/static/images",
             dirs_exist_ok=True,
         )
         shutil.copytree(
-            f"{self._myroot}/subsurface/Documentation/mobile-images",
+            f"{self._myroot}/subsurface/Documentation/output/mobile-images",
             f"{self._myroot}/src/web/static/mobile-images",
             dirs_exist_ok=True,
         )
