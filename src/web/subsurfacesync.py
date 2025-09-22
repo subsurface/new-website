@@ -12,7 +12,7 @@ class NightlyBuilds:
     def sync(self):
         try:
             subprocess.run(f"cd {self._myroot}/subsurface/nightly-builds; git pull", shell=True, check=True)
-        except:
+        except subprocess.CalledProcessError:
             print("issue pulling the latest nightly builds repo - please check")
 
     def get_buildnr_for_sha(self, sha):
@@ -24,7 +24,7 @@ class NightlyBuilds:
                 stdout=subprocess.PIPE,
                 check=True,
             )
-        except:
+        except subprocess.CalledProcessError:
             # that sha doesn't exist
             return "unknown"
         output = result.stdout.decode("utf-8").strip()
@@ -44,7 +44,7 @@ class NightlyBuilds:
                 stdout=subprocess.PIPE,
                 check=True,
             )
-        except:
+        except subprocess.CalledProcessError:
             # that buildnr doesn't exist
             return "unknown"
         output = result.stdout.decode("utf-8").strip()
@@ -67,7 +67,7 @@ class SubsurfaceSync:
                     shell=True,
                     check=True,
                 )
-            except:
+            except subprocess.CalledProcessError:
                 print(
                     f"cloning the Subsurface repo into {self._myroot}/subsurface failed; the server will mostly run but "
                     "will be missing the user manual and the list of supported dive computers; please clone "
@@ -77,7 +77,7 @@ class SubsurfaceSync:
     def sync(self):
         try:
             subprocess.run(f"cd {self._myroot}/subsurface; git pull", shell=True, check=True)
-        except:
+        except subprocess.CalledProcessError:
             print("issue pulling the latest Subsurface sources - please check")
         shutil.copy(
             f"{self._myroot}/subsurface/SupportedDivecomputers.html",
@@ -87,7 +87,7 @@ class SubsurfaceSync:
             subprocess.run(
                 f"cd {self._myroot}/subsurface/Documentation; make output/user-manual.html output/mobile-manual-v3.html", shell=True, check=True
             )
-        except:
+        except subprocess.CalledProcessError:
             print("issue building the latest Subsurface documentation - please check")
         shutil.copy(
             f"{self._myroot}/subsurface/Documentation/output/user-manual.html",

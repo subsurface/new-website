@@ -38,7 +38,7 @@ class Env:
                         continue
                     key, var = line.partition("=")[::2]
                     ret[key.strip()] = json.loads(var)
-        except:
+        except (json.JSONDecodeError, FileNotFoundError):
             pass
 
         return ret
@@ -68,7 +68,7 @@ class Env:
         v = redis.get(name=self._name)
         try:
             result = json.loads(v)
-        except:
+        except json.JSONDecodeError:
             result = None
         return result
 
