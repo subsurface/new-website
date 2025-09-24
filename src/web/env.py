@@ -23,7 +23,7 @@ class Env:
         # if redis.get(name=self._name) == None:
         # get the value from the file and write either that or the default to Redis
         value_in_file = self._get_value_from_file()
-        if value_in_file != None:
+        if value_in_file is not None:
             self.value = value_in_file
         else:
             self.value = default
@@ -37,7 +37,8 @@ class Env:
                     if line.strip().startswith("#"):
                         continue
                     key, var = line.partition("=")[::2]
-                    ret[key.strip()] = json.loads(var)
+                    if key is not None and var is not None:
+                        ret[key.strip()] = json.loads(var)
         except (json.JSONDecodeError, FileNotFoundError):
             pass
 
@@ -66,10 +67,12 @@ class Env:
     @property
     def value(self):
         v = redis.get(name=self._name)
-        try:
-            result = json.loads(v)
-        except json.JSONDecodeError:
-            result = None
+        result = None
+        if v is not None:
+            try:
+                result = json.loads(v)
+            except json.JSONDecodeError:
+                pass
         return result
 
     @value.setter
@@ -80,7 +83,7 @@ class Env:
             value_in_file = self._get_value_from_file()
             if value == value_in_file:
                 return  # do not write to file if value is the same
-            if value == None or value == "None":
+            if value is None or value == "None":
                 self._write_value_to_file("")
             else:
                 self._write_value_to_file(value)
