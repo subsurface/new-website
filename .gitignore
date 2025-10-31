@@ -6,6 +6,8 @@ subsurface/
 src/web/templates/SupportedDivecomputers.html
 src/web/persistent.store
 src/web/static/user-manual.html
+src/web/static/user-manual_de.html
 src/web/static/images
 src/web/static/mobile-user-manual.html
+src/web/static/mobile-user-manual_de.html
 src/web/static/mobile-images/
