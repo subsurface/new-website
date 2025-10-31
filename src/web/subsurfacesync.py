@@ -85,7 +85,7 @@ class SubsurfaceSync:
         )
         try:
             subprocess.run(
-                f"cd {self._myroot}/subsurface/Documentation; make output/user-manual.html output/mobile-manual-v3.html", shell=True, check=True
+                f"cd {self._myroot}/subsurface/Documentation; make output/user-manual.html output/user-manual_de.html output/mobile-manual-v3.html output/mobile-manual_de.html", shell=True, check=True
             )
         except subprocess.CalledProcessError:
             print("issue building the latest Subsurface documentation - please check")
@@ -94,8 +94,16 @@ class SubsurfaceSync:
             f"{self._myroot}/src/web/static/user-manual.html",
         )
         shutil.copy(
+            f"{self._myroot}/subsurface/Documentation/output/user-manual_de.html",
+            f"{self._myroot}/src/web/static/user-manual_de.html",
+        )
+        shutil.copy(
             f"{self._myroot}/subsurface/Documentation/output/mobile-manual-v3.html",
             f"{self._myroot}/src/web/static/mobile-user-manual.html",
+        )
+        shutil.copy(
+            f"{self._myroot}/subsurface/Documentation/output/mobile-manual_de.html",
+            f"{self._myroot}/src/web/static/mobile-user-manual_de.html",
         )
         shutil.copytree(
             f"{self._myroot}/subsurface/Documentation/output/images",

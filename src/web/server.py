@@ -179,15 +179,28 @@ def mobile_user_manual_images(path):
     return send_from_directory(os.path.join(app.root_path, "static/mobile-images"), path)
 
 
+def _serve_user_manual(base_filename):
+    language = request.args.get("lang")
+    static_dir = os.path.join(app.root_path, "static")
+
+    if language and language[:2].isalpha():
+        file_name = f"{base_filename}_{language[:2]}.html"
+        file_path = os.path.join(static_dir, file_name)
+        if os.path.exists(file_path):
+            return send_from_directory(static_dir, file_name)
+
+    return send_from_directory(static_dir, f"{base_filename}.html")
+
+
 @app.route("/subsurface-user-manual/")
 def static_user_manual():
-    return send_from_directory(os.path.join(app.root_path, "static"), "user-manual.html")
+    return _serve_user_manual("user-manual")
 
 
 @app.route("/subsurface-mobile-v3-user-manual/")
 @app.route("/subsurface-mobile-user-manual/")
 def static_mobile_user_manual():
-    return send_from_directory(os.path.join(app.root_path, "static"), "mobile-user-manual.html")
+    return _serve_user_manual("mobile-user-manual")
 
 
 @app.route("/release-changes/")
