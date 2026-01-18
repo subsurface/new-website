@@ -32,6 +32,7 @@ from flask import (
     send_from_directory,
     make_response,
 )
+from werkzeug.exceptions import Forbidden
 
 
 description = """
@@ -147,12 +148,8 @@ def persist_language_and_clean_url():
         target = f"{target}?{urlencode(remaining_args, doseq=True)}"
     if target != request.full_path.rstrip("?"):
         resp = make_response(redirect(target))
-        resp.set_cookie("lang", lang_from_query, max_age=31536000, samesite="Lax")  # 1 year
+        resp.set_cookie("lang", lang_from_query, max_age=31536000, samesite="Lax", secure=request.is_secure)  # 1 year
         return resp
-    # Set cookie even if not redirecting
-    resp = make_response()
-    resp.set_cookie("lang", lang_from_query, max_age=31536000, samesite="Lax")
-    return None
 
 
 @app.context_processor
@@ -169,19 +166,17 @@ def utility_processor():
         if key == "lappimage":
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-{env['lrelease'].value}-CICD-release.AppImage"
         if key == "cwindows":
-            return f"https://subsurface-divelog.org/downloads/subsurface-{env['crelease'].value}-CICD-release-installer.exe"
+            return f"/downloads/subsurface-{env['crelease'].value}-CICD-release-installer.exe"
         if key == "cmacos":
-            return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease'].value}-CICD-release.dmg"
+            return f"/downloads/Subsurface-{env['crelease'].value}-CICD-release.dmg"
         if key == "candroid":
             return (
-                f"https://subsurface-divelog.org/downloads/Subsurface-mobile-{env['crelease'].value}-CICD-release.apk"
+                f"/downloads/Subsurface-mobile-{env['crelease'].value}-CICD-release.apk"
             )
         if key == "cappimage":
-            return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease'].value}-CICD-release.AppImage"
+            return f"/downloads/Subsurface-{env['crelease'].value}-CICD-release.AppImage"
         if key == "lang":
-            locale = get_locale()
-            if locale is not None:
-                return f"/{locale}"
+            return f"/{get_locale()}"
         return ""
 
     return dict(get_env=get_env)
@@ -192,7 +187,7 @@ def redirector(urlpath=""):
     print(f"universal redirector for request {request.full_path} with urlpath {urlpath}")
     first = request.path.split("/")[1]
     lang_from_path = resolve_language(first)
-    
+
     if first == "misc" or first == "documentation":
         print(f"converting to {request.full_path.replace(f'/{first}', '')}")
         target = request.full_path.replace(f"/{first}", "")
@@ -207,7 +202,7 @@ def redirector(urlpath=""):
         target_path = f"{target_path}?{urlencode(query_args, doseq=True)}"
     resp = make_response(redirect(target_path))
     if lang_from_path:
-        resp.set_cookie("lang", lang_from_path, max_age=31536000, samesite="Lax")  # 1 year
+        resp.set_cookie("lang", lang_from_path, max_age=31536000, samesite="Lax", secure=request.is_secure)  # 1 year
     return resp
 
 
@@ -231,9 +226,29 @@ def favicon():
     )
 
 
-@app.route("/subsurface-user-manual/images/<path:path>")
-def user_manual_images(path):
-    return send_from_directory(os.path.join(app.root_path, "static/images"), path)
+@app.route("/downloads/<path:filename>")
+def downloads(filename):
+    downloads_path = os.environ.get("DOWNLOADS_PATH", "/data/www/subsurfacestaticsite/downloads")
+    if not os.path.isabs(downloads_path):
+        downloads_path = os.path.join(app.root_path, downloads_path)
+
+    # Validate path to prevent directory traversal attacks
+    requested_file = os.path.normpath(os.path.join(downloads_path, filename))
+    normalized_downloads_path = os.path.normpath(os.path.abspath(downloads_path))
+    if not requested_file.startswith(normalized_downloads_path + os.sep):
+        raise Forbidden("Access denied")
+
+    # Determine MIME type based on file extension
+    mime_type = "application/octet-stream"  # default for binary downloads
+    if filename.endswith(".exe"):
+        mime_type = "application/vnd.microsoft.portable-executable"
+    elif filename.endswith(".dmg"):
+        mime_type = "application/x-apple-diskimage"
+    elif filename.endswith(".apk"):
+        mime_type = "application/vnd.android.package-archive"
+    elif filename.endswith(".AppImage"):
+        mime_type = "application/x-iso9660-appimage"
+    return send_from_directory(downloads_path, filename, mimetype=mime_type)
 
 
 @app.route("/subsurface-mobile-v3-user-manual/mobile-images/<path:path>")
@@ -268,6 +283,11 @@ def static_user_manual():
 @app.route("/subsurface-mobile-user-manual/")
 def static_mobile_user_manual():
     return _serve_user_manual("mobile-user-manual")
+
+
+@app.route("/subsurface-user-manual/images/<path:path>")
+def user_manual_images(path):
+    return send_from_directory(os.path.join(app.root_path, "static/images"), path)
 
 
 @app.route("/release-changes/")
