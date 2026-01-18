@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 RUN apt-get update && \
     apt-get full-upgrade -y && \
-    apt-get -y -q install git make asciidoc docbook-xml w3m && \
+    apt-get -y -q install git make asciidoctor docbook-xml ruby-asciidoctor-pdf w3m && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /web

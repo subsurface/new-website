@@ -85,7 +85,7 @@ class SubsurfaceSync:
         )
         try:
             subprocess.run(
-                f"cd {self._myroot}/subsurface/Documentation; make output/user-manual.html output/user-manual_de.html output/mobile-manual-v3.html output/mobile-manual_de.html", shell=True, check=True
+                f"cd {self._myroot}/subsurface/Documentation; rm -rf output/images output/mobile-images; make output/user-manual.html output/user-manual_de.html output/mobile-manual-v3.html output/mobile-manual_de.html", shell=True, check=True
             )
         except subprocess.CalledProcessError:
             print("issue building the latest Subsurface documentation - please check")
