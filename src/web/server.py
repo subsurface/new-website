@@ -4,6 +4,7 @@ import json
 import os
 import re
 from pathlib import Path
+from urllib.parse import urlencode
 from semver.version import Version
 
 from .globals import globals
@@ -29,7 +30,7 @@ from flask import (
     render_template,
     request,
     send_from_directory,
-    session,
+    make_response,
 )
 
 
@@ -68,17 +69,41 @@ languages = [
 load_dotenv()
 
 
+def resolve_language(lang_code):
+    if not lang_code:
+        return None
+    normalized = lang_code.replace("-", "_")
+    parts = normalized.split("_", 1)
+    base = parts[0].lower()
+    region = parts[1].upper() if len(parts) == 2 else ""
+    normalized = f"{base}_{region}" if region else base
+    if normalized in languages:
+        return normalized
+    if base in languages:
+        return base
+    for candidate in languages:
+        if candidate.startswith(f"{base}_"):
+            return candidate
+    return None
+
+
 def get_locale():
-    # try to guess the language from the user accept header the browser transmits.
-    if request.args.get("lang"):
-        session["lang"] = request.args.get("lang")
-    if session.get("lang"):
-        return session.get("lang")
-    return request.accept_languages.best_match(languages)
+    lang_from_query = resolve_language(request.args.get("lang"))
+    if lang_from_query:
+        return lang_from_query
+
+    lang_from_cookie = resolve_language(request.cookies.get("lang"))
+    if lang_from_cookie:
+        return lang_from_cookie
+
+    lang_from_header = resolve_language(request.accept_languages.best_match(languages))
+    if lang_from_header:
+        return lang_from_header
+
+    return "en"
 
 
 app = Flask(__name__)
-app.secret_key = os.urandom(16).hex()
 babel = Babel(app, locale_selector=get_locale)
 globals["subsurfacesync"] = SubsurfaceSync()
 globals["nightlybuilds"] = NightlyBuilds()
@@ -108,6 +133,28 @@ else:
     globals["subsurfacesync"].sync()
 
 
+@app.before_request
+def persist_language_and_clean_url():
+    if request.method != "GET":
+        return None
+    lang_from_query = resolve_language(request.args.get("lang"))
+    if not lang_from_query:
+        return None
+    remaining_args = request.args.to_dict(flat=False)
+    remaining_args.pop("lang", None)
+    target = request.path
+    if remaining_args:
+        target = f"{target}?{urlencode(remaining_args, doseq=True)}"
+    if target != request.full_path.rstrip("?"):
+        resp = make_response(redirect(target))
+        resp.set_cookie("lang", lang_from_query, max_age=31536000, samesite="Lax")  # 1 year
+        return resp
+    # Set cookie even if not redirecting
+    resp = make_response()
+    resp.set_cookie("lang", lang_from_query, max_age=31536000, samesite="Lax")
+    return None
+
+
 @app.context_processor
 def utility_processor():
     def get_env(key):
@@ -132,7 +179,9 @@ def utility_processor():
         if key == "cappimage":
             return f"https://subsurface-divelog.org/downloads/Subsurface-{env['crelease'].value}-CICD-release.AppImage"
         if key == "lang":
-            return f"/{get_locale()}"
+            locale = get_locale()
+            if locale is not None:
+                return f"/{locale}"
         return ""
 
     return dict(get_env=get_env)
@@ -142,10 +191,24 @@ def utility_processor():
 def redirector(urlpath=""):
     print(f"universal redirector for request {request.full_path} with urlpath {urlpath}")
     first = request.path.split("/")[1]
+    lang_from_path = resolve_language(first)
+    
     if first == "misc" or first == "documentation":
         print(f"converting to {request.full_path.replace(f'/{first}', '')}")
-        return redirect(f"{request.full_path.replace(f'/{first}', '')}")
-    return redirect(f"/{urlpath}?lang={first}")
+        target = request.full_path.replace(f"/{first}", "")
+        if target.endswith("?"):
+            target = target[:-1]
+        return redirect(target or "/")
+
+    target_path = f"/{urlpath}" if urlpath else "/"
+    query_args = request.args.to_dict(flat=False)
+    query_args.pop("lang", None)
+    if query_args:
+        target_path = f"{target_path}?{urlencode(query_args, doseq=True)}"
+    resp = make_response(redirect(target_path))
+    if lang_from_path:
+        resp.set_cookie("lang", lang_from_path, max_age=31536000, samesite="Lax")  # 1 year
+    return resp
 
 
 # next set up the various language routes as well as the misc and documentation routes
@@ -180,7 +243,11 @@ def mobile_user_manual_images(path):
 
 
 def _serve_user_manual(base_filename):
-    language = request.args.get("lang")
+    language = resolve_language(request.args.get("lang"))
+    if not language:
+        language = resolve_language(request.cookies.get("lang"))
+    if not language:
+        language = resolve_language(request.accept_languages.best_match(languages))
     static_dir = os.path.join(app.root_path, "static")
 
     if language and language[:2].isalpha():
