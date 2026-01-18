@@ -239,7 +239,7 @@
           <h2 class="accordion-header" id="macversions">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#macversions_answer" aria-expanded="false" aria-controls="macversions_answer">
-              <a href={{get_env("lang")+"/faq/#macversion"}}>{{ _("Supported Versions")}}</a>
+              <a href={{get_env("lang")+"/faq/#macversions"}}>{{ _("Supported Versions")}}</a>
             </button>
           </h2>
           <div id="macversions_answer" class="accordion-collapse collapse" aria-labelledby="macversions"
@@ -374,7 +374,7 @@
                 {{ _("Once you have installed Subsurface-mobile on your device, enable cloud storage in Subsurface from your desktop or laptop and store your dive information in the Subsurface cloud. The dives will now be available on your mobile device as well. Subsurface-mobile does not support all the features of the desktop version of Subsurface. For example dive planning is not available in Subsurface-mobile.") }}
               </p>
               <p>
-                {{ _("From all other devices (including tablets and phones with OSs that we don’t support with Subsurface-mobile), you can open our <a %(cloudweb)s>cloud website</a> and log in with the same email address / password. This allows you to access your dive data from any device with a web browser.", cloudweb="href=https://cloud.subsurface-divelog.org") }}
+                {{ _("From all other devices (including tablets and phones with OSs that we don’t support with Subsurface-mobile), you can open our <a %(cloudweb)s>cloud website</a> and log in with the same email address / password. This allows you to access your dive data from any device with a web browser.", cloudweb="href=https://cloud.subsurface-divelog.org/") }}
               </p>
             </div>
           </div>
@@ -650,7 +650,7 @@
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("Subsurface can store your dive log securely in the Subsurface Cloud, backing up your data, allowing you to access your dive logs on a desktop, Android, or iOS device. Additionally there is a read only web view available at <a %(cloudweb)s>the cloud webpage</a>.", cloudweb="href=https://cloud.subsurface-divelog.org") }}
+                {{ _("Subsurface can store your dive log securely in the Subsurface Cloud, backing up your data, allowing you to access your dive logs on a desktop, Android, or iOS device. Additionally there is a read only web view available at <a %(cloudweb)s>the cloud webpage</a>.", cloudweb="href=https://cloud.subsurface-divelog.org/") }}
               </p>
               <p>
                 {{ _("This is the only cloud solution available, which allows the developers the ability to enhance Subsurface, fix issues, and support users (with your permission) if something goes wrong with the Cloud Storage. The incremental effort to support additional cloud backends is substantial, while at the same time making it much harder for us to help users who run into trouble. In the end this is not a useful trade-off for us to make, so other cloud solutions continue to not be supported.") }}
