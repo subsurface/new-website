@@ -247,7 +247,7 @@ def downloads(filename):
     elif filename.endswith(".apk"):
         mime_type = "application/vnd.android.package-archive"
     elif filename.endswith(".AppImage"):
-        mime_type = "application/x-iso9660-appimage"
+        mime_type = "application/vnd.appimage"
     return send_from_directory(downloads_path, filename, mimetype=mime_type)
 
 
