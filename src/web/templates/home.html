@@ -28,7 +28,7 @@
             </a>
           </h2>
           <p class="text-center">
-            <a href={{get_env("lang")+"/current-release"}}>
+            <a href={{"/current-release/"}}>
               [{{ _("Downloads for other platforms") }}]
             </a>
           </p>
@@ -44,14 +44,14 @@
             </a>
           </h2>
           <p class="text-center">
-            <a href={{get_env("lang")+"/current-release"}}>
+            <a href={{"/current-release/"}}>
               [{{ _("Downloads for other platforms") }}]
             </a>
           </p>
         </div>
         <div
              class="col-auto mt-4 {% if 'Mac' in request.user_agent.string  or  'Windows' in request.user_agent.string %}d-none{% endif %}">
-          <h2><a class="face-button" href={{get_env("lang")+"/current-release"}}>
+          <h2><a class="face-button" href={{"/current-release/"}}>
               <div class="face-primary">
                 <i class="fa-solid fa-fw fa-file-arrow-down"></i> Download
               </div>
@@ -149,7 +149,7 @@
     </div>
     <div class="col-md-6 col-12">
       <p>
-        {{ _("One of the major strengths of Subsurface is its support of a wide range of <strong>dive computers</strong> (see the <a %(link)s>list of supported dive computers</a>). Subsurface can also import existing dive logs from several sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de.", link="href="+get_env("lang")+"/documentation/supported-dive-computers") }}
+        {{ _("One of the major strengths of Subsurface is its support of a wide range of <strong>dive computers</strong> (see the <a %(link)s>list of supported dive computers</a>). Subsurface can also import existing dive logs from several sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de.", link="href="+"/supported-dive-computers/") }}
       </p>
       <p>
         {{ _("Another strength is its ability to <strong>visualize</strong> the depth profile (and, if available, the tank pressure curve) in innovative ways that give the user additional information on relative velocity, and momentary air consumption, during a dive. Users who dive with <strong>multiple dive computers</strong> can combine the data from each of their dive computers into one dive – allowing visualization of the data collected from multiple sources.") }}
