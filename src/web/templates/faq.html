@@ -20,7 +20,7 @@
           <h2 class="accordion-header" id="whyssrf">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#whyssrf_answer" aria-expanded="false" aria-controls="whyssrf_answer">
-              <a href={{get_env("lang")+"/faq/#whyssrf"}}>{{ _("Why Should I Use Subsurface?")}}</a>
+              <a href={{"/faq/#whyssrf"}}>{{ _("Why Should I Use Subsurface?")}}</a>
             </button>
           </h2>
           <div id="whyssrf_answer" class="accordion-collapse collapse" aria-labelledby="whyssrf" data-bs-parent="#faq">
@@ -34,20 +34,20 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#ossupport_answer" aria-expanded="false" aria-controls="ossupport_answer">
               <a
-                 href={{get_env("lang")+"/faq/#ossupport"}}>{{ _("What operating systems does Subsurface support?")}}</a>
+                 href={{"/faq/#ossupport"}}>{{ _("What operating systems does Subsurface support?")}}</a>
             </button>
           </h2>
           <div id="ossupport_answer" class="accordion-collapse collapse" aria-labelledby="ossupport"
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("Subsurface runs on Windows 10 and newer, MacOS 10.15 and newer, and many flavors of Linux. Mobile versions of Subsurface are available for Android and iOS allow a portable platform for viewing your dive log and performing minor edits; depending on your OS/hardware comby, you may even be able to download dive data directly from your dive computer using Subsurface-mobile.") }}
+                {{ _("Subsurface runs on Windows 10 and newer, MacOS 10.15 and newer, and many flavors of Linux. Mobile versions of Subsurface are available for Android and iOS allow a portable platform for viewing your dive log and performing minor edits; depending on your OS and hardware, you may even be able to download dive data directly from your dive computer using Subsurface-mobile.") }}
               </p>
               <p>
-                {{ _("We provide Linux packages for some Linux distributions (currently Ubuntu and Fedora, Debian is supported by a community contributor). Additionally, a Snap package and a generic AppImage are available for other distributions of Linux. Details on where to find Subsurface for your OS are on our <a %(crelease)s>current release</a> page.", crelease="href="+get_env("lang")+"/current-release/") }}
+                {{ _("We provide Linux packages for some Linux distributions (currently Ubuntu and Fedora, Debian is supported by a community contributor). Additionally, a Snap package and a generic AppImage are available for other distributions of Linux. Details on where to find Subsurface for your OS are on our <a %(crelease)s>current release</a> page.", crelease="href="+"/current-release/") }}
               </p>
               <p>
-                {{ _("Subsurface-mobile for iOS is available in the iOS App Store. Subsurface-mobile for Android is available as sideloaded APK at our <a %(crelease)s>current release</a> page.", crelease="href="+get_env("lang")+"/current-release/") }}
+                {{ _("Subsurface-mobile for iOS is available in the iOS App Store. Subsurface-mobile for Android is available as sideloaded APK at our <a %(crelease)s>current release</a> page.", crelease="href="+"/current-release/") }}
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@
           <h2 class="accordion-header" id="cost">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#cost_answer" aria-expanded="false" aria-controls="cost_answer">
-              <a href={{get_env("lang")+"/faq/#cost"}}>{{ _("How much does Subsurface cost?")}}</a>
+              <a href={{"/faq/#cost"}}>{{ _("How much does Subsurface cost?")}}</a>
             </button>
           </h2>
           <div id="cost_answer" class="accordion-collapse collapse" aria-labelledby="cost" data-bs-parent="#faq">
@@ -65,7 +65,7 @@
                 {{ _("Subsurface is open source software. It's free to use. It's written by a group of enthusiasts who do this in their spare time - including providing the Subsurface Cloud storage and all the other infrastructure. Please understand that this also means that they will respond to your requests when they have time, and they generally don't appreciate being treated like the support team of a commercial vendor. If you'd like a commercial dive log program, there are plenty others to choose from.") }}
               </p>
               <p>
-                {{ _("If you would like to contribute and help, there are many ways to do so. Our '<a %(contribute)s>Contribute</a>' page lists a few options and provides information on how to get started.", contribute="href="+get_env("lang")+"/contribute/") }}
+                {{ _("If you would like to contribute and help, there are many ways to do so. Our '<a %(contribute)s>Contribute</a>' page lists a few options and provides information on how to get started.", contribute="href="+"/contribute/") }}
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@
           <h2 class="accordion-header" id="feature">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#feature_answer" aria-expanded="false" aria-controls="feature_answer">
-              <a href={{get_env("lang")+"/faq/#feature"}}>{{ _("Please add the following awesome feature")}}</a>
+              <a href={{"/faq/#feature"}}>{{ _("Please add the following awesome feature")}}</a>
             </button>
           </h2>
           <div id="feature_answer" class="accordion-collapse collapse" aria-labelledby="feature" data-bs-parent="#faq">
@@ -93,7 +93,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#sac_answer" aria-expanded="false" aria-controls="sac_answer">
               <a
-                 href={{get_env("lang")+"/faq/#sac"}}>{{ _("The gas consumption / SAC rate reported by Subsurface is wrong")}}</a>
+                 href={{"/faq/#sac"}}>{{ _("The gas consumption / SAC rate reported by Subsurface is wrong")}}</a>
             </button>
           </h2>
           <div id="sac_answer" class="accordion-collapse collapse" aria-labelledby="sac" data-bs-parent="#faq">
@@ -110,13 +110,13 @@
           <h2 class="accordion-header" id="wininst">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#wininst_answer" aria-expanded="false" aria-controls="wininst_answer">
-              <a href={{get_env("lang")+"/faq/#wininst"}}>{{ _("How do I install Subsurface on Windows?")}}</a>
+              <a href={{"/faq/#wininst"}}>{{ _("How do I install Subsurface on Windows?")}}</a>
             </button>
           </h2>
           <div id="wininst_answer" class="accordion-collapse collapse" aria-labelledby="wininst" data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("Download the installer from our <a %(crelease)s>current release</a> page and double-click on it. You will get a warning that the installer is from an unknown publisher (but should identify that publisher as Dirk Hohndel / DH Consulting). Please click Yes to allow installation. Next you are presented with the license for Subsurface, after that you can choose where you would like to install Subsurface (the default should be reasonable in most cases) and the Start Menu Folder where a shortcut to call Subsurface and an entry to uninstall Subsurface will be installed.", crelease="href="+get_env("lang")+"/current-release/") }}
+                {{ _("Download the installer from our <a %(crelease)s>current release</a> page and double-click on it. You will get a warning that the installer is from an unknown publisher (but should identify that publisher as Dirk Hohndel / DH Consulting). Please click Yes to allow installation. Next you are presented with the license for Subsurface, after that you can choose where you would like to install Subsurface (the default should be reasonable in most cases) and the Start Menu Folder where a shortcut to call Subsurface and an entry to uninstall Subsurface will be installed.", crelease="href="+"/current-release/") }}
               </p>
               <p>
                 {{ _("For technical reasons, some of the Windows binaries you can download from our website aren't signed at all, in which case Windows provides more and stronger warnings when trying to use them. As long as you download the binaries from this website they are safe and do not contain any malware.") }}
@@ -128,7 +128,7 @@
           <h2 class="accordion-header" id="winversions">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#winversions_answer" aria-expanded="false" aria-controls="winversions_answer">
-              <a href={{get_env("lang")+"/faq/#winversions"}}>{{ _("Supported versions")}}</a>
+              <a href={{"/faq/#winversions"}}>{{ _("Supported versions")}}</a>
             </button>
           </h2>
           <div id="winversions_answer" class="accordion-collapse collapse" aria-labelledby="winversions"
@@ -144,7 +144,7 @@
           <h2 class="accordion-header" id="winlogs">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#winlogs_answer" aria-expanded="false" aria-controls="winlogs_answer">
-              <a href={{get_env("lang")+"/faq/#winlogs"}}>{{ _("Where do I find the log files on Windows?")}}</a>
+              <a href={{"/faq/#winlogs"}}>{{ _("Where do I find the log files on Windows?")}}</a>
             </button>
           </h2>
           <div id="winlogs_answer" class="accordion-collapse collapse" aria-labelledby="winlogs" data-bs-parent="#faq">
@@ -159,7 +159,7 @@
           <h2 class="accordion-header" id="windrivers">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#windrivers_answer" aria-expanded="false" aria-controls="windrivers_answer">
-              <a href={{get_env("lang")+"/faq/#windrivers"}}>{{ _("Which drivers do I need for my dive computer")}}</a>
+              <a href={{"/faq/#windrivers"}}>{{ _("Which drivers do I need for my dive computer")}}</a>
             </button>
           </h2>
           <div id="windrivers_answer" class="accordion-collapse collapse" aria-labelledby="windrivers"
@@ -169,7 +169,7 @@
                 {{ _("Great question - typically those are specific to the combination of dive computer and download cable that you use. And it's really hard to give universally correct answers.") }}
               </p>
               <p>
-                {{ _("Installing the vendor provided dive log software often is enough to trigger an install of those drivers, but sometimes things are a bit more complicated. Searching the <a %(forum)s>User Forum</a> often helps.", forum="href="+get_env("lang")+"/user-forum") }}
+                {{ _("Installing the vendor provided dive log software often is enough to trigger an install of those drivers, but sometimes things are a bit more complicated. Searching the <a %(forum)s>User Forum</a> often helps.", forum="href="+"/user-forum/") }}
               </p>
             </div>
           </div>
@@ -178,7 +178,7 @@
           <h2 class="accordion-header" id="winvirus">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#winvirus_answer" aria-expanded="false" aria-controls="winvirus_answer">
-              <a href={{get_env("lang")+"/faq/#winvirus"}}>{{ _("Is there a virus in the Subsurface installer?")}}</a>
+              <a href={{"/faq/#winvirus"}}>{{ _("Is there a virus in the Subsurface installer?")}}</a>
             </button>
           </h2>
           <div id="winvirus_answer" class="accordion-collapse collapse" aria-labelledby="winvirus"
@@ -200,7 +200,7 @@
           <h2 class="accordion-header" id="wincloud">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#wincloud_answer" aria-expanded="false" aria-controls="wincloud_answer">
-              <a href={{get_env("lang")+"/faq/#wincloud"}}>{{ _("Subsurface suddenly stops accessing the cloud")}}</a>
+              <a href={{"/faq/#wincloud"}}>{{ _("Subsurface suddenly stops accessing the cloud")}}</a>
             </button>
           </h2>
           <div id="wincloud_answer" class="accordion-collapse collapse" aria-labelledby="wincloud"
@@ -217,14 +217,14 @@
           <h2 class="accordion-header" id="macinstall">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#macinstall_answer" aria-expanded="false" aria-controls="macinstall_answer">
-              <a href={{get_env("lang")+"/faq/#macinstall"}}>{{ _("How do I install Subsurface on macOS?")}}</a>
+              <a href={{"/faq/#macinstall"}}>{{ _("How do I install Subsurface on macOS?")}}</a>
             </button>
           </h2>
           <div id="macinstall_answer" class="accordion-collapse collapse" aria-labelledby="macinstall"
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("Download the installer DMG from our <a %(crelease)s>current release</a> page and open it. Drag the Subsurface icon on to the Applications folder icon.", crelease="href="+get_env("lang")+"/current-release/") }}
+                {{ _("Download the installer DMG from our <a %(crelease)s>current release</a> page and open it. Drag the Subsurface icon on to the Applications folder icon.", crelease="href="+"/current-release/") }}
               </p>
               <p>
                 {{ _("When opening the Subsurface app for the first time, you will get a warning that this binary was downloaded from the internet. Depending on your settings and on whether or not this is a signed DMG, macOS will allow you to simply click Ok to open the app.") }}
@@ -239,7 +239,7 @@
           <h2 class="accordion-header" id="macversions">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#macversions_answer" aria-expanded="false" aria-controls="macversions_answer">
-              <a href={{get_env("lang")+"/faq/#macversions"}}>{{ _("Supported Versions")}}</a>
+              <a href={{"/faq/#macversions"}}>{{ _("Supported Versions")}}</a>
             </button>
           </h2>
           <div id="macversions_answer" class="accordion-collapse collapse" aria-labelledby="macversions"
@@ -256,7 +256,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#maceol_answer" aria-expanded="false" aria-controls="maceol_answer">
               <a
-                 href={{get_env("lang")+"/faq/#maceol"}}>{{ _("Can you make binaries available for older macOS versions?")}}</a>
+                 href={{"/faq/#maceol"}}>{{ _("Can you make binaries available for older macOS versions?")}}</a>
             </button>
           </h2>
           <div id="maceol_answer" class="accordion-collapse collapse" aria-labelledby="maceol" data-bs-parent="#faq">
@@ -272,7 +272,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#macble_answer" aria-expanded="false" aria-controls="macble_answer">
               <a
-                 href={{get_env("lang")+"/faq/#macble"}}>{{ _("I can't download from my Bluetooth dive computer on macOS")}}</a>
+                 href={{"/faq/#macble"}}>{{ _("I can't download from my Bluetooth dive computer on macOS")}}</a>
             </button>
           </h2>
           <div id="macble_answer" class="accordion-collapse collapse" aria-labelledby="macble" data-bs-parent="#faq">
@@ -288,13 +288,13 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#irda_answer" aria-expanded="false" aria-controls="irda_answer">
               <a
-                 href={{get_env("lang")+"/faq/#irda"}}>{{ _("Why does my IrDA (infrared) based dive computer not appear in the list of dive computers for download?")}}</a>
+                 href={{"/faq/#irda"}}>{{ _("Why does my IrDA (infrared) based dive computer not appear in the list of dive computers for download?")}}</a>
             </button>
           </h2>
           <div id="irda_answer" class="accordion-collapse collapse" aria-labelledby="irda" data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("Support for the IrDA protocol has been removed from most major operating systems. Where it still exists it is limited to the use through additional drivers. Since Subsurface does not implement its own IrDA stack, this means that support for IrDA based dive computers in Subsurface is very limited. See <a %(usermanual)s>this section of the User Manual</a> for more details on possible workarounds.", usermanual="href="+get_env("lang")+"/subsurface-user-manual#S_ImportingIrDA") }}
+                {{ _("Support for the IrDA protocol has been removed from most major operating systems. Where it still exists it is limited to the use through additional drivers. Since Subsurface does not implement its own IrDA stack, this means that support for IrDA based dive computers in Subsurface is very limited. See <a %(usermanual)s>this section of the User Manual</a> for more details on possible workarounds.", usermanual="href="+"/subsurface-user-manual/#S_ImportingIrDA") }}
               </p>
             </div>
           </div>
@@ -304,7 +304,7 @@
           <h2 class="accordion-header" id="linuxversions">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#linuxversions_answer" aria-expanded="false" aria-controls="linuxversions_answer">
-              <a href={{get_env("lang")+"/faq/#linuxversions"}}>{{ _("Supported versions")}}</a>
+              <a href={{"/faq/#linuxversions"}}>{{ _("Supported versions")}}</a>
             </button>
           </h2>
           <div id="linuxversions_answer" class="accordion-collapse collapse" aria-labelledby="linuxversions"
@@ -321,7 +321,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#linuxdistros_answer" aria-expanded="false" aria-controls="linuxdistros_answer">
               <a
-                 href={{get_env("lang")+"/faq/#linuxdistros"}}>{{ _("Can you add binaries for my favorite Linux distribution?")}}</a>
+                 href={{"/faq/#linuxdistros"}}>{{ _("Can you add binaries for my favorite Linux distribution?")}}</a>
             </button>
           </h2>
           <div id="linuxdistros_answer" class="accordion-collapse collapse" aria-labelledby="linuxdistros"
@@ -340,7 +340,7 @@
           <h2 class="accordion-header" id="linuxbinaries">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#linuxbinaries_answer" aria-expanded="false" aria-controls="linuxbinaries_answer">
-              <a href={{get_env("lang")+"/faq/#linuxbinaries"}}>{{ _("Can I build my own binaries?")}}</a>
+              <a href={{"/faq/#linuxbinaries"}}>{{ _("Can I build my own binaries?")}}</a>
             </button>
           </h2>
           <div id="linuxbinaries_answer" class="accordion-collapse collapse" aria-labelledby="linuxbinaries"
@@ -361,14 +361,14 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#mobileinstall_answer" aria-expanded="false" aria-controls="mobileinstall_answer">
               <a
-                 href={{get_env("lang")+"/faq/#mobileinstall"}}>{{ _("How do I install Subsurface-mobile on my phone / tablet?")}}</a>
+                 href={{"/faq/#mobileinstall"}}>{{ _("How do I install Subsurface-mobile on my phone / tablet?")}}</a>
             </button>
           </h2>
           <div id="mobileinstall_answer" class="accordion-collapse collapse" aria-labelledby="mobileinstall"
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("iOS users can simply install the Subsurface-mobile app that is available in iOS App Store. There is still an older version of Subsurface-mobile available in the Android Play Store, but because of the excessive bureaucracy and constantly changing rules and requirements associated with the Google Play store, we currently aren't able to update this package (and expect it to become unavailble at some point). To work around this, we have made an Android APK package available on our <a %(crelease)s>current release</a> page that can be side-loaded on most Android devices.", crelease="href="+get_env("lang")+"/current-release") }}
+                {{ _("iOS users can simply install the Subsurface-mobile app that is available in iOS App Store. There is still an older version of Subsurface-mobile available in the Android Play Store, but because of the excessive bureaucracy and constantly changing rules and requirements associated with the Google Play store, we currently aren't able to update this package (and expect it to become unavailable at some point). To work around this, we have made an Android APK package available on our <a %(crelease)s>current release</a> page that can be side-loaded on most Android devices.", crelease="href="+"/current-release/") }}
               </p>
               <p>
                 {{ _("Once you have installed Subsurface-mobile on your device, enable cloud storage in Subsurface from your desktop or laptop and store your dive information in the Subsurface cloud. The dives will now be available on your mobile device as well. Subsurface-mobile does not support all the features of the desktop version of Subsurface. For example dive planning is not available in Subsurface-mobile.") }}
@@ -385,7 +385,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#androidversion_answer" aria-expanded="false" aria-controls="androidversion_answer">
               <a
-                 href={{get_env("lang")+"/faq/#androidversion"}}>{{ _("What's the minimum Android version required?")}}</a>
+                 href={{"/faq/#androidversion"}}>{{ _("What's the minimum Android version required?")}}</a>
             </button>
           </h2>
           <div id="androidversion_answer" class="accordion-collapse collapse" aria-labelledby="androidversion"
@@ -403,7 +403,7 @@
                     data-bs-target="#androiddivecomputers_answer" aria-expanded="false"
                     aria-controls="androiddivecomputers_answer">
               <a
-                 href={{get_env("lang")+"/faq/#androiddivecomputers"}}>{{ _("From which dive computers can Subsurface-mobile on Android directly download?")}}</a>
+                 href={{"/faq/#androiddivecomputers"}}>{{ _("From which dive computers can Subsurface-mobile on Android directly download?")}}</a>
             </button>
           </h2>
           <div id="androiddivecomputers_answer" class="accordion-collapse collapse"
@@ -422,7 +422,7 @@
                     data-bs-target="#iosdivecomputers_answer" aria-expanded="false"
                     aria-controls="iosdivecomputers_answer">
               <a
-                 href={{get_env("lang")+"/faq/#iosdivecomputers"}}>{{ _("From which dive computers can Subsurface-mobile on iOS directly download?")}}</a>
+                 href={{"/faq/#iosdivecomputers"}}>{{ _("From which dive computers can Subsurface-mobile on iOS directly download?")}}</a>
             </button>
           </h2>
           <div id="iosdivecomputers_answer" class="accordion-collapse collapse" aria-labelledby="iosdivecomputers"
@@ -440,7 +440,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usageupdate_answer" aria-expanded="false" aria-controls="usageupdate_answer">
               <a
-                 href={{get_env("lang")+"/faq/#usageupdate"}}>{{ _("How do I know I have the latest version of Subsurface?")}}</a>
+                 href={{"/faq/#usageupdate"}}>{{ _("How do I know I have the latest version of Subsurface?")}}</a>
             </button>
           </h2>
           <div id="usageupdate_answer" class="accordion-collapse collapse" aria-labelledby="usageupdate"
@@ -451,7 +451,7 @@
               </p>
               <p>
                 {{ _("You can also check the <a %(crelease)s>current release</a> page to look at our reasonably frequent
-                (“weekly”) updates.", crelease="href="+get_env("lang")+"/current-release/") }}
+                (“weekly”) updates.", crelease="href="+"/current-release/") }}
               </p>
             </div>
           </div>
@@ -460,14 +460,14 @@
           <h2 class="accordion-header" id="usageimport">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usageimport_answer" aria-expanded="false" aria-controls="usageimport_answer">
-              <a href={{get_env("lang")+"/faq/#usageimport"}}>{{ _("How can I import my dives into Subsurface?")}}</a>
+              <a href={{"/faq/#usageimport"}}>{{ _("How can I import my dives into Subsurface?")}}</a>
             </button>
           </h2>
           <div id="usageimport_answer" class="accordion-collapse collapse" aria-labelledby="usageimport"
                data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("There are multiple ways to import into Subsurface. Details can be found in the <a %(usermanual)s>User Manual</a>.", usermanual="href="+get_env("lang")+"/subsurface-user-manual") }}
+                {{ _("There are multiple ways to import into Subsurface. Details can be found in the <a %(usermanual)s>User Manual</a>.", usermanual="href="+"/subsurface-user-manual/") }}
               </p>
               <p>
                 {{ _("Manually logged dives can directly be entered in the UI or (in the desktop version) imported from various forms of spreadsheets.") }}
@@ -486,7 +486,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usagesamegas_answer" aria-expanded="false" aria-controls="usagesamegas_answer">
               <a
-                 href={{get_env("lang")+"/faq/#usagesamegas"}}>{{ _("How can I use more than one tank with the same gas?")}}</a>
+                 href={{"/faq/#usagesamegas"}}>{{ _("How can I use more than one tank with the same gas?")}}</a>
             </button>
           </h2>
           <div id="usagesamegas_answer" class="accordion-collapse collapse" aria-labelledby="usagesamegas"
@@ -506,7 +506,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usagedlissues_answer" aria-expanded="false" aria-controls="usagedlissues_answer">
               <a
-                 href={{get_env("lang")+"/faq/#usagedlissues"}}>{{ _("Why is Subsurface not able to download my dives from my dive computer?")}}</a>
+                 href={{"/faq/#usagedlissues"}}>{{ _("Why is Subsurface not able to download my dives from my dive computer?")}}</a>
             </button>
           </h2>
           <div id="usagedlissues_answer" class="accordion-collapse collapse" aria-labelledby="usagedlissues"
@@ -525,7 +525,7 @@
           <h2 class="accordion-header" id="usagecsv">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usagecsv_answer" aria-expanded="false" aria-controls="usagecsv_answer">
-              <a href={{get_env("lang")+"/faq/#usagecsv"}}>{{ _("Why is the CSV import failing?")}}</a>
+              <a href={{"/faq/#usagecsv"}}>{{ _("Why is the CSV import failing?")}}</a>
             </button>
           </h2>
           <div id="usagecsv_answer" class="accordion-collapse collapse" aria-labelledby="usagecsv"
@@ -542,7 +542,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usagemultiuser_answer" aria-expanded="false" aria-controls="usagemultiuser_answer">
               <a
-                 href={{get_env("lang")+"/faq/#usagemultiuser"}}>{{ _("How can I use Subsurface for multiple users?")}}</a>
+                 href={{"/faq/#usagemultiuser"}}>{{ _("How can I use Subsurface for multiple users?")}}</a>
             </button>
           </h2>
           <div id="usagemultiuser_answer" class="accordion-collapse collapse" aria-labelledby="usagemultiuser"
@@ -565,7 +565,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usagepictures_answer" aria-expanded="false" aria-controls="usagepictures_answer">
               <a
-                 href={{get_env("lang")+"/faq/#usagepictures"}}>{{ _("How can I load pictures and associate them with my dive?")}}</a>
+                 href={{"/faq/#usagepictures"}}>{{ _("How can I load pictures and associate them with my dive?")}}</a>
             </button>
           </h2>
           <div id="usagepictures_answer" class="accordion-collapse collapse" aria-labelledby="usagepictures"
@@ -585,7 +585,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usagedlimport_answer" aria-expanded="false" aria-controls="usagedlimport_answer">
               <a
-                 href={{get_env("lang")+"/faq/#usagedlimport"}}>{{ _("Can I import my dives from my old log software?")}}</a>
+                 href={{"/faq/#usagedlimport"}}>{{ _("Can I import my dives from my old log software?")}}</a>
             </button>
           </h2>
           <div id="usagedlimport_answer" class="accordion-collapse collapse" aria-labelledby="usagedlimport"
@@ -605,7 +605,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usagemoredives_answer" aria-expanded="false" aria-controls="usagemoredives_answer">
               <a
-                 href={{get_env("lang")+"/faq/#usagemoredives"}}>{{ _("I cannot download all my dives, only the most recent ones even though my dive computer's manual states that it records history of e.g. 999 dives.")}}</a>
+                 href={{"/faq/#usagemoredives"}}>{{ _("I cannot download all my dives, only the most recent ones even though my dive computer's manual states that it records history of e.g. 999 dives.")}}</a>
             </button>
           </h2>
           <div id="usagemoredives_answer" class="accordion-collapse collapse" aria-labelledby="usagemoredives"
@@ -625,7 +625,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#usagecloudauth_answer" aria-expanded="false" aria-controls="usagecloudauth_answer">
               <a
-                 href={{get_env("lang")+"/faq/#usagecloudauth"}}>{{ _("What to do when authentication to cloud storage fails?")}}</a>
+                 href={{"/faq/#usagecloudauth"}}>{{ _("What to do when authentication to cloud storage fails?")}}</a>
             </button>
           </h2>
           <div id="usagecloudauth_answer" class="accordion-collapse collapse" aria-labelledby="usagecloudauth"
@@ -643,7 +643,7 @@
                     data-bs-target="#usagedifferentcloud_answer" aria-expanded="false"
                     aria-controls="usagedifferentcloud_answer">
               <a
-                 href={{get_env("lang")+"/faq/#usagedifferentcloud"}}>{{ _("Can Subsurface store my files on a different cloud server?")}}</a>
+                 href={{"/faq/#usagedifferentcloud"}}>{{ _("Can Subsurface store my files on a different cloud server?")}}</a>
             </button>
           </h2>
           <div id="usagedifferentcloud_answer" class="accordion-collapse collapse" aria-labelledby="usagedifferentcloud"
@@ -666,19 +666,19 @@
           <h2 class="accordion-header" id="adddc">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#adddc_answer" aria-expanded="false" aria-controls="adddc_answer">
-              <a href={{get_env("lang")+"/faq/#adddc"}}>{{ _("Can you add support for dive computer X?")}}</a>
+              <a href={{"/faq/#adddc"}}>{{ _("Can you add support for dive computer X?")}}</a>
             </button>
           </h2>
           <div id="adddc_answer" class="accordion-collapse collapse" aria-labelledby="adddc" data-bs-parent="#faq">
             <div class="accordion-body">
               <p>
-                {{ _("We support a large number of dive computers already and are always happy to add support for more. Please contact us via the <a %(userforum)s>User Forum</a> so we can try to help. Some vendors have actively helped us in our work and adding support for new models from those vendors is usually easy. Other vendors are more neutral, some are actively hostile. Without help from the vendor it can be rather challenging to reverse engineer the transfer protocol and the dive encoding, but with sufficient help from you it is often possible to do so.", userforum="href="+get_env("lang")+"/user-forum") }}
+                {{ _("We support a large number of dive computers already and are always happy to add support for more. Please contact us via the <a %(userforum)s>User Forum</a> so we can try to help. Some vendors have actively helped us in our work and adding support for new models from those vendors is usually easy. Other vendors are more neutral, some are actively hostile. Without help from the vendor it can be rather challenging to reverse engineer the transfer protocol and the dive encoding, but with sufficient help from you it is often possible to do so.", userforum="href="+"/user-forum/") }}
               </p>
               <p>
                 {{ _("A good starting point is often to send us a libdivecomputer log and dump (you can pick those in the dive computer download dialog) when connecting to the dive computer using a similar existing model (if possible). But generally it might make the most sense to first reach out in order to avoid wasting your time.") }}
               </p>
               <p>
-                {{ _("If you would like to contribute and help, there are many ways to do so. Please take a look at our '<a %(contribute)s>Contribute</a>' page.", contribute="href="+get_env("lang")+"/contribute/") }}
+                {{ _("If you would like to contribute and help, there are many ways to do so. Please take a look at our '<a %(contribute)s>Contribute</a>' page.", contribute="href="+"/contribute/") }}
               </p>
             </div>
           </div>
@@ -687,7 +687,7 @@
           <h2 class="accordion-header" id="oldsuunto">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#oldsuunto_answer" aria-expanded="false" aria-controls="oldsuunto_answer">
-              <a href={{get_env("lang")+"/faq/#oldsuunto"}}>{{ _("Old style Suunto dive computers?") }}</a>
+              <a href={{"/faq/#oldsuunto"}}>{{ _("Old style Suunto dive computers?") }}</a>
             </button>
           </h2>
           <div id="oldsuunto_answer" class="accordion-collapse collapse" aria-labelledby="oldsuunto"
@@ -703,7 +703,7 @@
           <h2 class="accordion-header" id="timeouts">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#timeouts_answer" aria-expanded="false" aria-controls="timeouts_answer">
-              <a href={{get_env("lang")+"/faq/#timeouts"}}>{{ _("I get timeouts or data error when downloading")}}</a>
+              <a href={{"/faq/#timeouts"}}>{{ _("I get timeouts or data error when downloading")}}</a>
             </button>
           </h2>
           <div id="timeouts_answer" class="accordion-collapse collapse" aria-labelledby="timeouts"
@@ -720,7 +720,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#slowble_answer" aria-expanded="false" aria-controls="slowble_answer">
               <a
-                 href={{get_env("lang")+"/faq/#slowble"}}>{{ _("BLE (Bluetooth Low Energy) downloads are incredibly slow")}}</a>
+                 href={{"/faq/#slowble"}}>{{ _("BLE (Bluetooth Low Energy) downloads are incredibly slow")}}</a>
             </button>
           </h2>
           <div id="slowble_answer" class="accordion-collapse collapse" aria-labelledby="slowble" data-bs-parent="#faq">
@@ -740,7 +740,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#garminsupport_answer" aria-expanded="false" aria-controls="garminsupport_answer">
               <a
-                 href={{get_env("lang")+"/faq/#garminsupport"}}>{{ _("Does Subsurface-mobile support the Garmin Descent family?")}}</a>
+                 href={{"/faq/#garminsupport"}}>{{ _("Does Subsurface-mobile support the Garmin Descent family?")}}</a>
             </button>
           </h2>
           <div id="garminsupport_answer" class="accordion-collapse collapse" aria-labelledby="garminsupport"
@@ -756,7 +756,7 @@
           <h2 class="accordion-header" id="garminfitfiles">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#garminfitfiles_answer" aria-expanded="false" aria-controls="garminfitfiles_answer">
-              <a href={{get_env("lang")+"/faq/#garminfitfiles"}}>{{ _("Can I import '.FIT' files directly?")}}</a>
+              <a href={{"/faq/#garminfitfiles"}}>{{ _("Can I import '.FIT' files directly?")}}</a>
             </button>
           </h2>
           <div id="garminfitfiles_answer" class="accordion-collapse collapse" aria-labelledby="garminfitfiles"
@@ -773,7 +773,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#mtpconnection_answer" aria-expanded="false" aria-controls="mtpconnection_answer">
               <a
-                 href={{get_env("lang")+"/faq/#mtpconnection"}}>{{ _("Garmin Descent Mk2/Mk3 doesn't want to connect")}}</a>
+                 href={{"/faq/#mtpconnection"}}>{{ _("Garmin Descent Mk2/Mk3 doesn't want to connect")}}</a>
             </button>
           </h2>
           <div id="mtpconnection_answer" class="accordion-collapse collapse" aria-labelledby="mtpconnection"
@@ -789,7 +789,7 @@
           <h2 class="accordion-header" id="mtpwindows">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#mtpwindows_answer" aria-expanded="false" aria-controls="mtpwindows_answer">
-              <a href={{get_env("lang")+"/faq/#mtpwindows"}}>{{ _("Garmin Descent Mk2/Mk3 on Windows")}}</a>
+              <a href={{"/faq/#mtpwindows"}}>{{ _("Garmin Descent Mk2/Mk3 on Windows")}}</a>
             </button>
           </h2>
           <div id="mtpwindows_answer" class="accordion-collapse collapse" aria-labelledby="mtpwindows"
@@ -810,7 +810,7 @@
         </p>
       </div>
       <p class="my-5">
-        {{ _("This FAQ is maintained as part of our website in the <a %(webrepo)s>website repo</a>. Pull requests are of course welcome - you can also suggest additions to the FAQ in the <a %(userforum)s>User Forum</a>.", webrepo="href=https://github.com/subsurface/new-website", userforum="href="+get_env("lang")+"/user-forum") }}
+        {{ _("This FAQ is maintained as part of our website in the <a %(webrepo)s>website repo</a>. Pull requests are of course welcome - you can also suggest additions to the FAQ in the <a %(userforum)s>User Forum</a>.", webrepo="href=https://github.com/subsurface/new-website", userforum="href="+"/user-forum/") }}
       </p>
     </div>
   </div>
