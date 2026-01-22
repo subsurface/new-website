@@ -41,76 +41,76 @@
             <div class="col-12 col-md-3 col-lg-2 px-md-2 px-0 bg-light d-flex sticky-top shadow">
                 <div
                      class="d-flex flex-md-column flex-row flex-grow-1 align-items-center align-items-md-start px-3 pt-2">
-                    <a href={{get_env("lang")+"/"}}
+                    <a href="/"
                        class="d-flex align-items-center pb-md-3 mb-md-0 me-md-auto text-decoration-none"><img
                              class="w-75 d-none d-md-inline" src="/static/images/subsurface-icon.png"></a>
-                    <a href={{get_env("lang")+"/"}}
+                    <a href="/"
                        class="d-flex align-items-center pb-md-3 mb-md-0 me-md-auto text-decoration-none"><img
                              class="d-inline d-md-none" style="height: 2em;"
                              src="/static/images/subsurface-icon.png"></a>
                     <ul class="nav nav-pills flex-md-column flex-row flex-nowrap flex-shrink-1 flex-md-grow-0 flex-grow-1 mb-md-auto mb-0 justify-content-center align-items-center align-items-md-start"
                         id="menu">
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/"}}
+                            <a href="/"
                                class="nav-link {% if request.endpoint == 'home' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-home"></i><span
                                       class="ms-1 d-none d-md-inline">{{ _("Home") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/current-release"}}
+                            <a href="/current-release/"
                                class="nav-link {% if request.endpoint == 'current_release' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-download"></i><span
                                       class="ms-1 d-none d-md-inline">{{ _("Current Release") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/latest-release"}}
+                            <a href="/latest-release/"
                                class="nav-link {% if request.endpoint == 'latest_release' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-cloud-download"></i><span
                                       class="ms-1 d-none d-md-inline">{{ _("Latest Dev Release") }}</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/documentation"}}
+                            <a href="/documentation/"
                                class="nav-link {% if request.endpoint == 'documentation' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-file"></i><span
                                       class="ms-1 d-none d-md-inline">{{ _("Documentation") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/user-forum"}}
+                            <a href="/user-forum/"
                                class="nav-link {% if request.endpoint == 'user_forum' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-comments"></i><span
                                       class="ms-1 d-none d-md-inline">{{ _("User Forum") }}</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/bugtracker"}}
+                            <a href="/bugtracker/"
                                class="nav-link {% if request.endpoint == 'bugtracker' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-bug"></i><span
                                       class="ms-1 d-none d-md-inline">{{ _("Bug Tracker") }}</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/faq"}}
+                            <a href="/faq/"
                                class="nav-link {% if request.endpoint == 'faq' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-circle-question"></i><span
                                       class=" ms-1 d-none d-md-inline">{{ _("FAQ") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/privacy-policy"}}
+                            <a href="/privacy-policy/"
                                class="nav-link {% if request.endpoint == 'privacy_policy' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2"><i
                                    class="fa fa-fw fa-user-circle"></i><span
                                       class="ms-1 d-none d-md-inline">{{ _("Privacy Policy") }}</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/contribute"}}
+                            <a href="/contribute/"
                                class="nav-link {% if request.endpoint == 'contribute' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2">
                                 <i class="fa fa-fw fa-recycle"></i><span
                                       class=" ms-1 d-none d-md-inline">{{ _("Contribute") }}</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href={{get_env("lang")+"/sponsoring"}}
+                            <a href="/sponsoring/"
                                class="nav-link {% if request.endpoint == 'sponsoring' %}ssrf{% else %}link-secondary{% endif %} px-md-0 px-2"><i
                                    class="fa fa-fw fa-coffee"></i><span
                                       class="ms-1 d-none d-md-inline">{{ _("Sponsoring") }}</span></a>
