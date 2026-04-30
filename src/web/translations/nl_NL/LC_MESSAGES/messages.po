@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
-# Peter Zaal, 2024
+# Peter Zaal, 2026
 # 
 #, fuzzy
 msgid ""
@@ -13,10 +13,10 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-02-09 21:56+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
-"Last-Translator: Peter Zaal, 2024\n"
+"Last-Translator: Peter Zaal, 2026\n"
 "Language-Team: Dutch (Netherlands) (https://app.transifex.com/subsurface/teams/15508/nl_NL/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 "Language: nl_NL\n"
@@ -456,12 +456,12 @@ msgstr "Het 'candidate' Snap kanaal bevat onze huidige versie."
 #, python-format
 msgid ""
 "A generic AppImage is available. After you download this file, make it "
-"executable <code>chmod +x Subsurface-v%(version)s-CICD-"
+"executable <code>chmod +x Subsurface-%(version)s-CICD-"
 "release.AppImage</code>, and then simply run this file."
 msgstr ""
-"Er is een generieke AppImage beschikbaar. Maak het bestand uitvoerbaar na "
-"het downloaden <code>chmod +x Subsurface-v%(version)s-CICD-"
-"release.AppImage</code>, en voer dan eenvoudig dit bestand uit."
+"Een generiek AppImage is beschikbaar. Nadat je dit bestand hebt gedownload, "
+"maak je het uitvoerbaar met <code>chmod +x Subsurface-%(version)s-CICD-"
+"release.AppImage</code>, waarna je het bestand gewoon kunt uitvoeren."
 
 #: templates/data-deletion.html:3 templates/data-deletion.html:13
 msgid "Deleting Cloud Data and Account"
