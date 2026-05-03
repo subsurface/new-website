@@ -34,7 +34,6 @@ from flask import (
 )
 from werkzeug.exceptions import Forbidden
 
-
 description = """
 Simple backend to run the Subsurface website
 """
@@ -170,9 +169,7 @@ def utility_processor():
         if key == "cmacos":
             return f"/downloads/Subsurface-{env['crelease'].value}-CICD-release.dmg"
         if key == "candroid":
-            return (
-                f"/downloads/Subsurface-mobile-{env['crelease'].value}-CICD-release.apk"
-            )
+            return f"/downloads/Subsurface-mobile-{env['crelease'].value}-CICD-release.apk"
         if key == "cappimage":
             return f"/downloads/Subsurface-{env['crelease'].value}-CICD-release.AppImage"
         if key == "lang":
@@ -537,9 +534,7 @@ def sha_by_build_nr(build_nr):
         redis.set(f"sha_{build_nr}", sha)
     else:
         sha = sha.decode("utf-8")
-    response = app.response_class(
-        response=json.dumps({"sha": sha, "success": True}), status=200, mimetype="application/json"
-    )
+    response = app.response_class(response=json.dumps({"sha": sha, "success": True}), status=200, mimetype="application/json")
     return response
 
 

@@ -46,9 +46,7 @@ class AssetDownloader:
         if redis.set(lock_name, "1", nx=True):
             self._release_id = release_id
             self._bg = Background(delay, self._downloadAssets)
-            print(
-                f"setting up to update the assets for release id {release_id} in {delay/60} minutes"
-            )
+            print(f"setting up to update the assets for release id {release_id} in {delay/60} minutes")
 
     def _downloadAssets(self):
         updateReleaseWebsite(self._release_id)
