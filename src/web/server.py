@@ -160,6 +160,10 @@ def utility_processor():
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/subsurface-{env['lrelease'].value}-CICD-release-installer.exe"
         if key == "lmacos":
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-{env['lrelease'].value}-CICD-release.dmg"
+        if key == "lx86qt6macos":
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-x86_64-qt6-{env['lrelease'].value}-CICD-release.dmg"
+        if key == "larmqt6macos":
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-arm64-qt6-{env['lrelease'].value}-CICD-release.dmg"
         if key == "landroid":
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-mobile-{env['lrelease'].value}-CICD-release.apk"
         if key == "lappimage":
