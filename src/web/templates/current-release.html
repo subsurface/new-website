@@ -10,14 +10,14 @@
 <div class="container mb-5">
   <div class="row">
     <div class="col-12">
-      <h1 class="ssrf">{{ _("Current \"Weekly\" Release: %(version)s", version=get_env("crelease")) }}
+      <h1 class="ssrf">{{ _("Current \"Occasional\" Release: %(version)s", version=get_env("crelease")) }}
       </h1>
       <h5>{{ get_env("crelease_date") }}</h5>
       <p>
         {{ _("The releases on this page are what we consider the current release builds of Subsurface.") }}
       </p>
       <p>
-        {{ _("We expect these builds to be reasonably stable and somewhat tested, and as the name suggests try to update them about once a week (the actual frequency may vary).")}}
+        {{ _("We expect these builds to be reasonably stable and somewhat tested, and try to update them about once a quarter (the actual frequency may vary).")}}
       </p>
       <p>
         {{ _("If you are looking for more \"bleeding edge\" releases builds, please check out the <a %(link)s>Latest Release Page</a>.", link="href="+"/latest-release/") }}
