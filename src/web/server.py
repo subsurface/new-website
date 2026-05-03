@@ -485,25 +485,29 @@ def webhook():
             mimetype="application/json",
         )
         return response
-    release_ids = env["release_ids"].value
+    release_ids = env["release_ids"].value or []
     body = request.data
     with open("/var/log/webhook-requests.log", "a") as logfile:
         print(body, file=logfile)
     data = json.loads(body)
-    action = data.get("action")
+    action = data.get("action", "")
+    if action == "":
+        print(f"got webhook call without action, bailing")
+        return app.response_class(response=json.dumps({"success": False}), status=500, mimetype="application/json")
     release = data.get("release")
+    name = data.get("repository", {}).get("full_name", "missing repository.full_name")
     if release:
-        release_id = release.get("id")
-        assets_url = release.get("assets_url")
-        repository = release.get("repository")
-        name = repository.get("name") if repository else "unknown"
-        print(f"Relase: {release.get('name')} id {release_id} from repo {name} with action {action}")
-        print(f"With assets URL {assets_url}")
-        if release_id not in release_ids:
+        release_id = release.get("id", "no release.id")
+        assets_url = release.get("assets_url", "no release.assets_url")
+        print(
+            f"Relase: '{release.get('name','no release name')}' id '{release_id}' from repo '{name}' with action '{action}' and assets URL {assets_url}"
+        )
+        if action == "released" and release_id not in release_ids:
             release_ids.append(release_id)
             env["release_ids"].value = release_ids
-            a = AssetDownloader(release_id, 900)
-
+            a = AssetDownloader(release_id, 120)
+    else:
+        print(f"got webhook call without release data - odd")
     # in any case, report success
     response = app.response_class(response=json.dumps({"success": True}), status=200, mimetype="application/json")
     return response
