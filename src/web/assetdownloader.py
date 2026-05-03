@@ -63,13 +63,22 @@ def get_pr_title(bn: int):
     return ""
 
 
+checked_releases = set()
+
+
 def updateReleaseWebsite(release_id):
-    auth = Auth.Token(os.environ.get("github_token").strip())
+    auth = Auth.Token(os.environ.get("github_token", "").strip())
     gh = Github(auth=auth)
     repo = gh.get_repo("subsurface/nightly-builds")
-    for r in repo.get_releases():
+    print(f"updateReleaseWebsite for release {release_id}")
+    found = False
+    releases = repo.get_releases()
+    for r in releases:
         if r.id != release_id:
+            # print(f"checked release {r.id}")
             continue
+        print(f"found release {release_id}")
+        found = True
         macosurl = ""
         windowsurl = ""
         appimageurl = ""
@@ -85,24 +94,24 @@ def updateReleaseWebsite(release_id):
             if match:
                 apkurl = url
                 apkname = match.group(0)
-            else:
-                missing += " Android APK,"
             if re.search("subsurface-6.*-CICD-release-installer.exe", url):
                 windowsurl = url
-            else:
-                missing += " Windows Installer,"
             if re.search("Subsurface-6.*-CICD-release.dmg", url):
                 macosurl = url
-            else:
-                missing += " macOS DMG,"
             match = re.search(r"Subsurface-(6.*)-CICD-release.AppImage", url)
             if match:
                 appimageurl = url
                 appimagename = match.group(0)
                 version = match.group(1)
-            else:
-                missing += " Linux AppImage,"
-        if missing != "":
+        if not apkurl:
+            missing += " Android APK,"
+        if not windowsurl:
+            missing += " Windows Installer,"
+        if not macosurl:
+            missing += " macOS DMG,"
+        if not appimageurl:
+            missing += " Linux AppImage,"
+        if missing == "" and version != "":
             # only update the website once the releases is complete
             # the three step update for release_ids is needed since we copy values in the Env class
             print("found all binaries, updating the website")
@@ -125,6 +134,13 @@ def updateReleaseWebsite(release_id):
         else:
             print(f"Still missing {missing[:-1]} - scheduling myself to check again")
             a = AssetDownloader(release_id, 150)
+    if not found:
+        if release_id not in checked_releases:
+            checked_releases.add(release_id)
+            print(f"very odd - didn't find {release_id}... rescheduling to try again")
+            a = AssetDownloader(release_id, 150)
+        else:
+            print(f"giving up on release {release_id}")
 
 
 if __name__ == "__main__":
