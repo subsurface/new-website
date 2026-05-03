@@ -378,8 +378,7 @@ def data_deletion():
 def updatecheck():
     # semver makes this easy - but for the build-extra text to be handled correctly, it needs to be separated with a '+'
     uv = request.args.get("version")
-    if uv:
-        uv = uv.replace("-", "+", 1)
+    uv = request.args.get("version", "").replace("-", "+", 1)
     if not Version.is_valid(uv):
         print(f"{uv} is not a semVer - let's try something else")
         # so this could be an old 4 part version number like 5.0.10.0
@@ -414,7 +413,7 @@ def updatecheck2():
     # new version with json data being returned to the client - requires newer Subsurface version that can parse this
     # this will be expanded to provide specific download links in the future.
     # semver makes this easy - but for the build-extra text to be handled correctly, it needs to be separated with a '+'
-    uv = request.args.get("version").replace("-", "+", 1)
+    uv = request.args.get("version", "").replace("-", "+", 1)
     if not Version.is_valid(uv):
         print(f"cannot parse version {uv}")
         return {"err": f"System error: cannot parse version {uv}"}, 400
@@ -460,7 +459,7 @@ def version_check(current_version: Version, user_version: Version):
 #
 # GitHub webhook that drives our latest release updates
 def verifySignature():
-    secret = os.environ.get("webhook_secret").strip()
+    secret = os.environ.get("webhook_secret", "").strip()
     signature = (
         "sha256="
         + hmac.new(
