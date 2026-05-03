@@ -64,6 +64,7 @@
         </div>
         <div class="col-12 col-md-6 mt-3">
           <p>
+            {{ _("Subsurface-mobile for Android is available in the Google Play store, additionally we make APKs available here.") }}
             {{ _("The Subsurface Android APK can be side-loaded on most Android devices.")}}
           </p>
           <p>
@@ -100,12 +101,12 @@
           <p>{{ _("There is a version of Subsurface for debian that is maintained by a community contributor.") }}</p>
           <p>{{ _("For the initial setup follow the instructions on <a %(setup)s>https://dfx.at/subsurface-debian/</a>, and then install Subsurface with <code>sudo apt install subsurface</code>.", setup="href=https://dfx.at/subsurface-debian/") }}</p>
           <h4>{{ _("Ubuntu and compatible distros") }}</h4>
-          <p>{{ _("To use these binaries in Ubuntu, simply add the Subsurface Daily Release PPA to your system:") }}</p>
-          <pre><code>sudo add-apt-repository ppa:subsurface/subsurface-daily; sudo apt update</code></pre>
+          <p>{{ _("To use these binaries in Ubuntu, simply add the Subsurface Release PPA to your system:") }}</p>
+          <pre><code>sudo add-apt-repository ppa:subsurface/subsurface; sudo apt update</code></pre>
           <p>{{ _("and then install Subsurface with <code>sudo apt install subsurface </code>") }}</p>
           <h4>Fedora</h4>
           <p>{{ _("To install the Subsurface CICD binaries on Fedora simply run") }}</p>
-          <pre><code>sudo dnf copr enable dirkhh/Subsurface-test</code></pre>
+          <pre><code>sudo dnf copr enable dirkhh/Subsurface</code></pre>
           <p>{{ _("and then install Subsurface with <code>sudo dnf install subsurface</code>") }}</p>
           <h4>Arch</h4>
           <p>{{ _("To install the Subsurface CICD binaries on Arch Linux you can use the AUR package") }}</p>
