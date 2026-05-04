@@ -2154,7 +2154,7 @@ msgid ""
 "update notifications when new versions are released."
 msgstr ""
 "Um automatische Aktualisierungen zu erhalten, kannst Du <a "
-"%(obtainium)s>Obtainium</a> verwenden. Nach der Installionen, klicke auf <a "
+"%(obtainium)s>Obtainium</a> verwenden. Nach der Installation, klicke auf <a "
 "%(obtainium_subsurface)s>diesen Link</a> auf Deinem Gerät um über aktuelle "
 "Test-Releases mittels Obtanium informiert zu werden."
 
