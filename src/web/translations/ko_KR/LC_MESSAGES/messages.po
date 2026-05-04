@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-05-04 19:49+0000\n"
+"POT-Creation-Date: 2026-05-04 20:56+0000\n"
 "PO-Revision-Date: 2024-01-21 04:53+0000\n"
 "Last-Translator: Wonchan Lee (Andrew), 2024\n"
 "Language: ko_KR\n"
@@ -299,7 +299,7 @@ msgid ""
 msgstr "만약 더 \"최첨단\"의 릴리스 빌드를 찾고 있다면, <a %(link)s>최신 릴리스 페이지</a>를 확인하세요."
 
 #: templates/current-release.html:32 templates/current-release.html:46
-#: templates/current-release.html:60 templates/current-release.html:136
+#: templates/current-release.html:60 templates/current-release.html:134
 #: templates/latest-release.html:39 templates/latest-release.html:53
 #: templates/latest-release.html:69 templates/latest-release.html:140
 msgid "Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
@@ -427,28 +427,25 @@ msgid "and then install Subsurface with <code>sudo dnf install subsurface</code>
 msgstr ""
 
 #: templates/current-release.html:112
+#, python-format
 msgid ""
-"To install the Subsurface CICD binaries on Arch Linux you can use the AUR"
-" package"
+"To install the Subsurface CICD binaries on Arch Linux you can use the <a "
+"%(aurappimage)s>AUR package</a> which packages the AppImage."
 msgstr ""
 
-#: templates/current-release.html:114
-msgid "which packages the AppImage."
-msgstr ""
-
-#: templates/current-release.html:115 templates/latest-release.html:119
+#: templates/current-release.html:113 templates/latest-release.html:119
 msgid "Other x86_64 Linux distributions"
 msgstr "기타 x86_64 Linux 배포판"
 
-#: templates/current-release.html:122 templates/latest-release.html:126
+#: templates/current-release.html:120 templates/latest-release.html:126
 msgid "Snap link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 msgstr "Snap 바로가기"
 
-#: templates/current-release.html:128
+#: templates/current-release.html:126
 msgid "The 'candidate' Snap-channel contains our current build."
 msgstr "Snap의 'candidate' 채널에 우리의 현재 빌드가 포함되어 있습니다."
 
-#: templates/current-release.html:142 templates/latest-release.html:146
+#: templates/current-release.html:140 templates/latest-release.html:146
 #, python-format
 msgid ""
 "A generic AppImage is available. After you download this file, make it "
@@ -2237,4 +2234,13 @@ msgstr ""
 #~ " 빌드입니다. 오작동이 빈번할 것이라고 예상하진 않지만, "
 #~ "일반적으로 테스트를 촉진하기 위한 릴리스이므로 아직까지 많은"
 #~ " 테스트를 거치지 않았을 수 있습니다."
+
+#~ msgid ""
+#~ "To install the Subsurface CICD binaries"
+#~ " on Arch Linux you can use the"
+#~ " AUR package"
+#~ msgstr ""
+
+#~ msgid "which packages the AppImage."
+#~ msgstr ""
 
