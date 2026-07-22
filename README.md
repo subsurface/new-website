@@ -1,25 +1,85 @@
-Self contained Subsurface website code, content, and translations
+# Subsurface Website
 
-This code runs on the cloud server to create the Subsurface website.
+This repository contains the code, content, and translations for the
+[Subsurface website](https://subsurface-divelog.org/).
 
-When working on the content, you can run this locally.
+## Contributing
 
-You need to have `docker` and `docker-compose` installed.
+Content, design, and code contributions are welcome. Website translations use
+a separate workflow; see [Translations](#translations) below.
 
-Then run `docker-compose up` in the base folder and everything will be setup
-and started automatically.
+The usual GitHub workflow is to fork this repository, clone your fork, and
+configure the main repository as the `upstream` remote. Replace
+`YOUR-USERNAME` with your GitHub username:
 
-You can now access your version of the website at `http://localhost:8001`
+```shell
+git clone https://github.com/YOUR-USERNAME/new-website.git
+cd new-website
+git remote add upstream https://github.com/subsurface/new-website.git
+```
 
-Of course the version numbers for latest release and current release
-will be off (as those get populated through webhooks that your server
-won't receive).
+Create a descriptively named topic branch from the latest upstream code:
 
-The main server app is driven by `src/web/server.py`, the page templates
-are in the `src/web/templates` directory.
+```shell
+git fetch upstream
+git switch -c improve-short-description upstream/main
+```
 
-Strings are marked for translation with `{{ _("...") }}` (as is typical
-for Jinja2 templates). There is a script to simplify processing of the
-translation strings, but I doubt that this is useful for many people.
+After making and testing the change, stage the relevant files and create a
+signed-off commit:
 
-The translations themselves are handled on [Transifex](https://app.transifex.com/subsurface/new-website/languages/)
+```shell
+git status
+git diff
+git add path/to/changed-file
+git commit -s
+git push -u origin improve-short-description
+```
+
+Then open a pull request against `subsurface/new-website`. The sign-off added
+by `git commit -s` certifies the contribution under the
+[Developer Certificate of Origin](https://developercertificate.org/).
+
+## Running the Website Locally
+
+Install Docker with the Docker Compose plugin, then run the following command
+from the repository root:
+
+```shell
+docker compose up --build
+```
+
+The local website is available at <http://localhost:8001>. Stop it with
+<kbd>Ctrl</kbd>+<kbd>C</kbd>; use `docker compose down` to remove the created
+containers.
+
+Release version information in the local instance may be out of date because
+production updates it through webhooks that a development instance does not
+receive.
+
+## Repository Layout
+
+- `src/web/server.py` contains the main server application.
+- `src/web/templates/` contains the page templates and most website content.
+- `src/web/static/` contains static assets.
+- `docker-compose.yaml` defines the local web and Redis services.
+
+## Translations
+
+Strings in Jinja templates must be marked for translation with
+`{{ _("...") }}`. After adding or changing translatable strings, refresh the
+translation source catalogue from `src/web`:
+
+```shell
+cd src/web
+./message-handling.sh extract
+```
+
+Include the resulting `messages.pot` update in the same pull request as the
+source change. Do not directly edit or submit pull requests for translated
+`.po` files. Website translations are managed in the
+[Subsurface website project on Transifex](https://app.transifex.com/subsurface/new-website/languages/).
+
+The other `message-handling.sh` commands are intended for maintainers who
+synchronize or compile translations; they are summarized in
+[`src/web/README.md`](src/web/README.md).
