@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-05-04 20:56+0000\n"
+"POT-Creation-Date: 2026-07-23 10:17+1200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: templates/base.html:57
 msgid "Home"
@@ -99,8 +99,8 @@ msgstr ""
 msgid ""
 "If you are a software developer (of any experience level), your help with"
 " maintaining and extending Subsurface will be greatly appreciated. Have a"
-" look at our <a %(link)s>code contribution page on GitHub</a> to see how "
-"you can get started."
+" look at our <a %(link)s>contribution guide on GitHub</a> to see how you "
+"can get started."
 msgstr ""
 
 #: templates/contribute.html:22
@@ -110,11 +110,11 @@ msgstr ""
 #: templates/contribute.html:24
 #, python-format
 msgid ""
-"If you would like to work closely with our developers and give them a "
-"hand in testing the latest features and bugfixes, please head over to our"
-" code contribution page on GitHub to find out <a %(link)s>how to join the"
-" community</a>. We especially need people running Windows and Mac (as the"
-" majority of the active developers are Linux people)."
+"If you would like to work closely with our developers and help test the "
+"latest features and bug fixes, our <a %(link)s>testing guide</a> explains"
+" where to find development builds and report results. We especially need "
+"people running Windows and macOS (as the majority of the active "
+"developers are Linux people)."
 msgstr ""
 
 #: templates/contribute.html:27
@@ -125,9 +125,9 @@ msgstr ""
 #, python-format
 msgid ""
 "If you are good with words you can help us by writing, reviewing, and "
-"improving documentation and articles for our website. To get started "
-"please head over to our code contribution page on GitHub to find out <a "
-"%(link)s>how to join the community</a>."
+"improving documentation and articles for our website. Our <a "
+"%(link)s>documentation contribution guide</a> points to the user manual "
+"and website sources and explains where to propose changes."
 msgstr ""
 
 #: templates/contribute.html:32
@@ -140,8 +140,8 @@ msgid ""
 "If you like to obsess over usability and user experience, and ideally "
 "have some experience in UX and / or web design, we can always use help "
 "with improving the user experience and visual design of Subsurface and of"
-" our website. To get started please head over to our code contribution "
-"page on GitHub to find out <a %(link)s>how to join the community</a>."
+" our website. See our <a %(link)s>user experience contribution guide</a> "
+"for where to discuss and propose improvements."
 msgstr ""
 
 #: templates/contribute.html:37
@@ -151,12 +151,11 @@ msgstr ""
 #: templates/contribute.html:39
 #, python-format
 msgid ""
-"If you are a non-English-speaker, and would like to be able to use "
-"Subsurface in your native language, you can help make this happen by "
-"supporting us as a translator. As our translations are centrally handled "
-"at <a %(transifex)s>Transifex</a> - please sign up for an account there "
-"and then request to join the <a %(transifex_subsurface)s>Subsurface "
-"Team</a>."
+"You can help make Subsurface available in your language by joining the <a"
+" %(application_transifex)s>application</a> or <a "
+"%(website_transifex)s>website</a> translation project on Transifex. "
+"Please do not edit translation files or submit translation pull requests "
+"on GitHub; translations are synchronized from Transifex."
 msgstr ""
 
 #: templates/contribute.html:43
@@ -1740,4 +1739,3 @@ msgid ""
 "subscribe to it via email; simply check the corresponding box when "
 "joining the forum."
 msgstr ""
-
