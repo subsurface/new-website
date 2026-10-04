@@ -40,7 +40,7 @@
         <div class="col-12"></div>
         <div class="col-md-auto mt-3">
           <h2><a class="face-button" href="{{ get_env("cmacos")}}">
-              <div class="face-primary"><i class="fa-brands fa-fw fa-apple"></i> macOS
+              <div class="face-primary"><i class="fa-brands fa-fw fa-apple"></i> macOS arm
               </div>
               <div class="face-secondary">
                 {{ _("Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
@@ -50,6 +50,29 @@
         </div>
         <div class="col-12 col-md-6 mt-3">
           {{ _("We try to post a signed Subsurface macOS DMG here. If your Mac doesn't want to install this image, please let us know in the <a %(link)s>User Forum</a>.", link="href="+"/user-forum/") }}
+          {{ _("The default binaries are for Apple Silicon Macs. There's also a binary for Intel Macs, and a binary that matches the earlier, Qt 5 - based Intel releases.") }}
+        </div>
+        <div class="col-12"></div>
+        <div class="col-md-auto mt-3">
+          <h2><a class="face-button" href="{{ get_env("cmacos-intel")}}">
+              <div class="face-primary"><i class="fa-brands fa-fw fa-apple"></i> macOS intel
+              </div>
+              <div class="face-secondary">
+                {{ _("Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div class="col-12"></div>
+        <div class="col-md-auto mt-3">
+          <h2><a class="face-button" href="{{ get_env("cmacos-qt5")}}">
+              <div class="face-primary"><i class="fa-brands fa-fw fa-apple"></i> macOS qt5
+              </div>
+              <div class="face-secondary">
+                {{ _("Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
+              </div>
+            </a>
+          </h2>
         </div>
         <div class="col-12"></div>
         <div class="col-md-auto mt-3">

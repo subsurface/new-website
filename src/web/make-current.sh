@@ -18,8 +18,11 @@ STATICPATH=/data/www/subsurfacestaticsite/downloads
 BUILDNR="$1"
 TODAY=$(date +%Y-%m-%d)
 
-[[ ! -f "$STATICPATH"/Subsurface-6.0.${BUILDNR}-CICD-release.dmg ]] && croak "missing the signed dmg in downloads"
-[[ ! -f "$STATICPATH"/subsurface-6.0.${BUILDNR}-CICD-release-installer.exe ]] && croak "missing the signed Window exe in downloads"
+[[ ! -f "$STATICPATH"/Subsurface-6.0.${BUILDNR}-arm-CICD-release.dmg ]] && croak "missing the signed arm dmg in downloads"
+[[ ! -f "$STATICPATH"/Subsurface-6.0.${BUILDNR}-intel-CICD-release.dmg ]] && croak "missing the signed intel dmg in downloads"
+[[ ! -f "$STATICPATH"/Subsurface-6.0.${BUILDNR}-qt5-CICD-release.dmg ]] && croak "missing the signed qt5 dmg in downloads"
+[[ ! -f "$STATICPATH"/Subsurface-6.0.${BUILDNR}-CICD-release-installer.exe ]] && croak "missing the signed Window exe in downloads"
+[[ ! -f "$STATICPATH"/Subsurface-6.0.${BUILDNR}-CICD-release-qt6-installer.exe ]] && croak "missing the signed qt6 Window exe in downloads"
 
 sed -i '/^crelease/d' persistent.store
 echo "crelease=\"6.0.$BUILDNR\"" >> persistent.store

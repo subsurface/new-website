@@ -157,7 +157,9 @@ def utility_processor():
         if key in env.keys():
             return env[key].value
         if key == "lwindows":
-            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/subsurface-{env['lrelease'].value}-CICD-release-installer.exe"
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-{env['lrelease'].value}-CICD-release-installer.exe"
+        if key == "lwindows-qt6":
+            return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-{env['lrelease'].value}-CICD-release-qt6-installer.exe"
         if key == "lmacos":
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-{env['lrelease'].value}-CICD-release.dmg"
         if key == "lx86qt6macos":
@@ -170,8 +172,14 @@ def utility_processor():
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-{env['lrelease'].value}-CICD-release.AppImage"
         if key == "cwindows":
             return f"/downloads/subsurface-{env['crelease'].value}-CICD-release-installer.exe"
+        if key == "cwindows-qt6":
+            return f"/downloads/subsurface-{env['crelease'].value}-CICD-release-qt6-installer.exe"
         if key == "cmacos":
-            return f"/downloads/Subsurface-{env['crelease'].value}-CICD-release.dmg"
+            return f"/downloads/Subsurface-{env['crelease'].value}-arm-CICD-release.dmg"
+        if key == "cmacos-intel":
+            return f"/downloads/Subsurface-{env['crelease'].value}-intel-CICD-release.dmg"
+        if key == "cmacos-qt5":
+            return f"/downloads/Subsurface-{env['crelease'].value}-qt5-CICD-release.dmg"
         if key == "candroid":
             return f"/downloads/Subsurface-mobile-{env['crelease'].value}-CICD-release.apk"
         if key == "cappimage":

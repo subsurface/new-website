@@ -94,7 +94,7 @@ def updateReleaseWebsite(release_id):
             if match:
                 apkurl = url
                 apkname = match.group(0)
-            if re.search("subsurface-6.*-CICD-release-installer.exe", url):
+            if re.search("Subsurface-6.*-CICD-release-installer.exe", url):
                 windowsurl = url
             if re.search("Subsurface-6.*-CICD-release.dmg", url):
                 macosurl = url
