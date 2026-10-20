@@ -468,6 +468,9 @@ def version_check(current_version: Version, user_version: Version):
 # GitHub webhook that drives our latest release updates
 def verifySignature():
     secret = os.environ.get("webhook_secret", "").strip()
+    # refuse to verify signatures if the secret wasn't set
+    if secret == "":
+        return False
     signature = (
         "sha256="
         + hmac.new(
