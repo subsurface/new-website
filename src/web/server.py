@@ -171,9 +171,9 @@ def utility_processor():
         if key == "lappimage":
             return f"https://github.com/subsurface/nightly-builds/releases/download/v{env['lrelease'].value}-CICD-release/Subsurface-{env['lrelease'].value}-CICD-release.AppImage"
         if key == "cwindows":
-            return f"/downloads/subsurface-{env['crelease'].value}-CICD-release-installer.exe"
+            return f"/downloads/Subsurface-{env['crelease'].value}-CICD-release-installer.exe"
         if key == "cwindows-qt6":
-            return f"/downloads/subsurface-{env['crelease'].value}-CICD-release-qt6-installer.exe"
+            return f"/downloads/Subsurface-{env['crelease'].value}-CICD-release-qt6-installer.exe"
         if key == "cmacos":
             return f"/downloads/Subsurface-{env['crelease'].value}-arm-CICD-release.dmg"
         if key == "cmacos-intel":

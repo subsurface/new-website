@@ -43,11 +43,13 @@
         </div>
         <div class="col-12 col-md-6 mt-3">
           {{ _("This Subsurface Windows installer is not signed and Windows will likely ask you to confirm that you want to install this program.")}}
+          {{ _("In addition to the default image, there is also a newer MSVC / Qt 6 based imagewith more features (this will become the default image soon). ")}}<br />
+          <a href="{{ get_env("lwindows-qt6")}}">Windows MSVC Qt 6</a>
         </div>
         <div class="col-12"></div>
         <div class="col-md-auto mt-3">
-          <h2><a class="face-button" href="{{ get_env("lmacos")}}">
-              <div class="face-primary"><i class="fa-brands fa-fw fa-apple"></i> macOS
+          <h2><a class="face-button" href="{{ get_env("larmqt6macos")}}">
+              <div class="face-primary"><i class="fa-brands fa-fw fa-apple"></i> macOS arm
               </div>
               <div class="face-secondary">
                 {{ _("Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
