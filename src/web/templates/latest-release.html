@@ -59,8 +59,8 @@
         </div>
         <div class="col-12 col-md-6 mt-3">
           {{ _("The Subsurface macOS DMG is not signed. macOS will force you through a few extra steps before you can install or run this program. You can simplify the process by control-clicking (or two-finger-clicking) on the executable and selecting to open it.")}}<br />
-          {{ _("In addition to the default x86-64 image built with Qt 5, there are two slightly less tested Qt 6 based images (this will become the default image at some point). ")}}<br />
-          <a href="{{ get_env("lx86qt6macos")}}">x86-64 Qt 6</a> / <a href="{{ get_env("larmqt6macos")}}">Apple Silicon Qt 6</a>
+          {{ _("In addition to the default Apple Silicon image built with Qt 6, there are two more images - the Intel Qt 5 image matches what used to be the default image. ")}}<br />
+          <a href="{{ get_env("lx86qt6macos")}}">Intel Qt 6</a> / <a href="{{ get_env("lmacos")}}">Intel Qt 5</a>
         </div>
         <div class="col-12"></div>
         <div class="col-md-auto mt-3">

@@ -35,7 +35,22 @@
           </h2>
         </div>
         <div class="col-12 col-md-6 mt-3">
-          {{ _("This Subsurface Windows installer is not signed and Windows will likely ask you to confirm that you want to install this program.")}}
+          {{ _("This Subsurface Windows installer should be signed - and while it will warn you about the installation, it should be less scary warnings than with the latest builds.")}}
+        </div>
+        <div class="col-12"></div>
+        <div class="col-md-auto mt-3">
+          <h2><a class="face-button" href="{{ get_env("cwindows-qt6")}}">
+              <div class="face-primary">
+                <i class="fa-brands fa-fw fa-windows"></i> Windows Qt6
+              </div>
+              <div class="face-secondary">
+                {{ _("Download...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") }}
+              </div>
+            </a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-6 mt-3">
+          {{ _("This is the next generation Windows installer that adds more features and uses newer libraries - this will be the default version soon.")}}
         </div>
         <div class="col-12"></div>
         <div class="col-md-auto mt-3">
